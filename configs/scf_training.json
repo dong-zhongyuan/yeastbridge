@@ -1,0 +1,21 @@
+{
+  "yeastbridge_root": "/public/home/mengxl/dzy/yeastbridge",
+  "scf_ckpt": "models/scfoundation/models.ckpt",
+  "scf_gene_index": "src/external/scfoundation/model/OS_scRNA_gene_index.19264.tsv",
+  "scf_model_dir": "src/external/scfoundation/model",
+  "gene_master": "data/mappings/gene_master.tsv",
+  "esm2_table_dir": "data/processed/esm2_650m",
+  "raw_counts": "data/single_cell/GSE125162_ALL-fastqTomat0-Counts.tsv",
+  "out_assets_dir": "feasibility/transfer_routes/assets/scf_yeast",
+  "out_routes_dir": "feasibility/transfer_routes/scf_routes",
+  "n_genes": 6733,
+  "max_seq": 1200,
+  "epochs": 6,
+  "batch": 32,
+  "accum": 1,
+  "lr": 0.0001,
+  "clip": 1.0,
+  "seed": 42,
+  "mask_p": 0.30,
+  "zero_mask_p": 0.03
+}

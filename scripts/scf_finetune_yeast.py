@@ -29,25 +29,27 @@ import numpy as np
 import torch
 import torch.nn as nn
 
-YB = Path("/public/home/mengxl/dzy/yeastbridge")
-ASSETS = Path("/public/home/mengxl/dzy/yeastbridge_re/feasibility/transfer_routes/assets/scf_yeast")
-OUTDIR = Path("/public/home/mengxl/dzy/yeastbridge_re/feasibility/transfer_routes/scf_routes")
-MODEL_DIR = YB / "src/external/scfoundation/model"
+ROOT = Path(__file__).resolve().parents[1]
+CFG = json.loads((ROOT / "configs/scf_training.json").read_text())
+YB = Path(CFG["yeastbridge_root"])
+ASSETS = ROOT / CFG["out_assets_dir"]
+OUTDIR = ROOT / CFG["out_routes_dir"]
+MODEL_DIR = YB / CFG["scf_model_dir"]
 sys.path.insert(0, str(MODEL_DIR))
 
-from load import gatherData, getEncoerDecoderData, load_model_frommmf  # noqa: E402
+from load import gatherData, load_model_frommmf  # noqa: E402
 
-N_GENES = 6733  # gene_master 真实基因数(旧 routeA_vocab 6736 = 6733 基因 + 3 特殊符号)
+N_GENES = CFG["n_genes"]  # gene_master 真实基因数(旧 routeA_vocab 6736 = 6733 基因 + 3 特殊符号)
 SEQ_LEN = N_GENES + 2  # + 2 分辨率位; pos_emb 行数 = SEQ_LEN + 1(pad 位)
-MAX_SEQ = 1200  # 原 finetune_scgpt.py train_args.max_seq_len=1200, trunc_by_sample 官方行为
-EPOCHS = 6
-BATCH = 32
-ACCUM = 1
-LR = 1e-4
-CLIP = 1.0
-SEED = 42
-MASK_P = 0.30
-ZERO_MASK_P = 0.03
+MAX_SEQ = CFG["max_seq"]  # 原 finetune_scgpt.py train_args.max_seq_len=1200, trunc_by_sample 官方行为
+EPOCHS = CFG["epochs"]
+BATCH = CFG["batch"]
+ACCUM = CFG["accum"]
+LR = CFG["lr"]
+CLIP = CFG["clip"]
+SEED = CFG["seed"]
+MASK_P = CFG["mask_p"]
+ZERO_MASK_P = CFG["zero_mask_p"]
 
 
 class ProteinEmbeddingInjector(nn.Module):
@@ -114,7 +116,7 @@ def pick_device(requested):
 
 
 def build_model(route, device):
-    model, cfg = load_model_frommmf(str(YB / "models/scfoundation/models.ckpt"), "gene")
+    model, cfg = load_model_frommmf(str(YB / CFG["scf_ckpt"]), "gene")
     cfg = dict(cfg)
     cfg["seq_len"] = SEQ_LEN
     cfg["gene_num"] = SEQ_LEN
@@ -124,7 +126,7 @@ def build_model(route, device):
 
     from pretrainmodels import select_model  # noqa: E402
     model = select_model(cfg)
-    sd = torch.load(YB / "models/scfoundation/models.ckpt", map_location="cpu", weights_only=False)
+    sd = torch.load(YB / CFG["scf_ckpt"], map_location="cpu", weights_only=False)
     sd = sd["gene"]["state_dict"]
     sd = {k[len("model."):] if k.startswith("model.") else k: v for k, v in sd.items()}
     sd.pop("pos_emb.weight", None)  # 酵母词表形状不同,加载后整体替换

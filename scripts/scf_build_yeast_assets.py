@@ -26,13 +26,15 @@ import numpy as np
 import pandas as pd
 import torch
 
-YB = Path("/public/home/mengxl/dzy/yeastbridge")
-OUT = Path("/public/home/mengxl/dzy/yeastbridge_re/feasibility/transfer_routes/assets/scf_yeast")
-SCF_CKPT = YB / "models/scfoundation/models.ckpt"
-SCF_INDEX = YB / "src/external/scfoundation/model/OS_scRNA_gene_index.19264.tsv"
+ROOT = Path(__file__).resolve().parents[1]
+CFG = json.loads((ROOT / "configs/scf_training.json").read_text())
+YB = Path(CFG["yeastbridge_root"])
+OUT = ROOT / CFG["out_assets_dir"]
+SCF_CKPT = YB / CFG["scf_ckpt"]
+SCF_INDEX = YB / CFG["scf_gene_index"]
 M = YB / "data/mappings"
-RAW_COUNTS = YB / "data/single_cell/GSE125162_ALL-fastqTomat0-Counts.tsv"
-SEED = 42
+RAW_COUNTS = YB / CFG["raw_counts"]
+SEED = CFG["seed"]
 
 SOURCES = [
     ("OrthoDB", M / "orthodb_yeast_human_s288c.tsv", "yeast_sgd", "human_symbol", None),

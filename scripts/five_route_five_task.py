@@ -3,16 +3,18 @@
 feasibility/transfer_routes/REGISTRATION_v3.md).
 
 The evaluation is the ORIGINAL framework's own tasks (yeastbridge/eval,
-frozen protocols, seed 42) run on the new scFoundation-backbone gene
-tables. The three scF tables are registered at runtime into
-eval.data._FEATURE_LOADERS (read-only reuse of the old project). Route E
-(SGA propagation) enters by registered graph-native protocols on T2/T4
-and is N/A on T1/T3/T5. No anchor construction, no intent queries.
+frozen protocols) run on the new scFoundation-backbone gene tables. The
+three scF tables are registered at runtime into eval.data._FEATURE_LOADERS
+(read-only reuse of the old project). Route E (SGA propagation) enters by
+registered graph-native protocols on T2/T4 and is N/A on T1/T3/T5.
+
+All paths and tunables come from configs/transfer_routes.json (repo-root
+relative; repo root is derived from this file's location - nothing is
+hardcoded).
 
 Run with:
-  cd /public/home/mengxl/dzy/yeastbridge_re && env \
-  PYTHONPATH=/public/home/mengxl/dzy/yeastbridge_re/src:/public/home/mengxl/dzy/yeastbridge_re/scripts:/public/home/mengxl/dzy/yeastbridge \
-  /public/home/mengxl/dzy/envs/yeastbridge/bin/python scripts/five_route_five_task.py
+  cd <repo root> && env PYTHONPATH=src:scripts:<yeastbridge_root> \
+  <python> scripts/five_route_five_task.py
 """
 from __future__ import annotations
 
@@ -24,25 +26,25 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-ROOT = Path("/public/home/mengxl/dzy/yeastbridge_re")
-YB = Path("/public/home/mengxl/dzy/yeastbridge")
-for p in (str(ROOT / "scripts"), str(ROOT / "src"), str(YB)):
+ROOT = Path(__file__).resolve().parents[1]
+CFG = json.loads((ROOT / "configs/transfer_routes.json").read_text())
+for p in (str(ROOT / "scripts"), str(ROOT / "src"), CFG["yeastbridge_root"]):
     if p not in sys.path:
         sys.path.insert(0, p)
 
-from transfer_method_selection import ALPHA, arm_incumbent  # noqa: E402
-from yeastbridge_re.second_round import _load_sga_neighbors  # noqa: E402
+from yeastbridge_re.second_round import _load_sga_neighbors, _propagate_personalized_pagerank  # noqa: E402
 
 import eval.data as ed  # noqa: E402
 import eval.tasks as et  # noqa: E402
 
-ASSETS = ROOT / "feasibility/transfer_routes/assets"
-SCF_ROUTES = ROOT / "feasibility/transfer_routes/scf_routes"
-OUT = ROOT / "feasibility/transfer_routes/results"
-SEED = 42
-FEATURES = ["A2_scf_ortholog", "B2_scf_esm2inject", "C2_scf_scratch",
-            "routed_scyeast", "esm2_mean"]
-REFERENCE = "esm2_mean"
+SCF_ROUTES = ROOT / CFG["scf_routes_dir"]
+SCF_ASSETS = ROOT / CFG["scf_assets_dir"]
+OUT = ROOT / CFG["results_dir"]
+FEATURES = CFG["features"]
+REFERENCE = CFG["reference_feature"]
+ALPHA = CFG["pagerank_alpha"]
+SEED = CFG["seed"]
+TABLE_OF = {"A2_scf_ortholog": "A2", "B2_scf_esm2inject": "B2", "C2_scf_scratch": "C2"}
 
 
 def sha256(path: Path) -> str:
@@ -53,11 +55,16 @@ def sha256(path: Path) -> str:
     return h.hexdigest()
 
 
+def propagate(seeds, nodes, neighbors, alpha):
+    vec, _ = _propagate_personalized_pagerank(nodes, neighbors, seeds, alpha=alpha)
+    return vec
+
+
 def register_scf_features():
-    genes = pd.read_csv(ASSETS / "scf_yeast/A2_init.tsv", sep="\t", dtype=str)["systematic"].tolist()
+    genes = pd.read_csv(SCF_ASSETS / "A2_init.tsv", sep="\t", dtype=str)["systematic"].tolist()
     idx_df = pd.DataFrame({"systematic": genes})
-    for name in ("A2_scf_ortholog", "B2_scf_esm2inject", "C2_scf_scratch"):
-        X = np.load(SCF_ROUTES / name.split("_")[0] / "gene_table_final.npy")
+    for name, sub in TABLE_OF.items():
+        X = np.load(SCF_ROUTES / sub / "gene_table_final.npy")
         assert X.shape[0] == len(genes), (name, X.shape, len(genes))
         ed._FEATURE_LOADERS[name] = (lambda df=idx_df, X=X: (df, X))
         print(f"[feature] {name}: {X.shape}", flush=True)
@@ -88,7 +95,7 @@ def e_t2_essentiality(nodes, index_of, neighbors) -> dict:
     ranks = []
     for k, o in enumerate(ess):
         seeds = {g: 1.0 for g in ess if g != o}
-        vec = arm_incumbent(seeds, nodes, neighbors, alpha=ALPHA)
+        vec = propagate(seeds, nodes, neighbors, ALPHA)
         s_pool = vec[non_idx]
         s_o = vec[index_of[o]]
         r = 1.0 + np.count_nonzero(s_pool > s_o) + np.count_nonzero(s_pool == s_o) / 2.0
@@ -116,7 +123,7 @@ def e_t4_engineering(nodes, index_of, neighbors) -> dict:
             seeds = {m: 1.0 for m in universe if m != g and m in index_of}
             if not seeds or g not in index_of:
                 continue
-            vec = arm_incumbent(seeds, nodes, neighbors, alpha=ALPHA)
+            vec = propagate(seeds, nodes, neighbors, ALPHA)
             sc = {m: float(vec[index_of[m]]) for m in universe if m in index_of}
             order_oe = sorted(sc, key=lambda x: sc[x])
             order_kd = sorted(sc, key=lambda x: -sc[x])
@@ -135,7 +142,7 @@ def main() -> None:
     register_scf_features()
     results = run_original_tasks()
 
-    neighbors = _load_sga_neighbors(ROOT, "feasibility/transfer/assets/sga_significant_p005_absge008.corrected.tsv.gz")
+    neighbors = _load_sga_neighbors(ROOT, CFG["sga_network"])
     all_nodes = set()
     for orf, conn in neighbors.items():
         all_nodes.add(orf)
@@ -156,7 +163,7 @@ def main() -> None:
     # T2 AUROC >= esm2_mean - 0.01; ties within 0.002 go to higher T2.
     ref_auroc = results[REFERENCE]["T2"]["auroc"]
     cand = {f: r for f, r in results.items() if f != REFERENCE and isinstance(r, dict) and "T3" in r}
-    best_t3 = max(c[f]["T3"]["spearman_mean"] for f in cand)
+    best_t3 = max(cand[f]["T3"]["spearman_mean"] for f in cand)
     qualified = [f for f in cand if cand[f]["T2"]["auroc"] >= ref_auroc - 0.01]
     sel = None
     if qualified:
@@ -168,13 +175,14 @@ def main() -> None:
 
     out = {
         "registration": "feasibility/transfer_routes/REGISTRATION_v3.md",
+        "config": "configs/transfer_routes.json",
         "form": "original five-task harness (eval/tasks.py verbatim) on scF-backed tables",
         "selection": selection,
         "reference": REFERENCE,
         "tasks": results,
         "seed": SEED,
-        "asset_hashes": {f: sha256(SCF_ROUTES / f.split("_")[0] / "gene_table_final.npy")
-                         for f in ("A2_scf_ortholog", "B2_scf_esm2inject", "C2_scf_scratch")},
+        "asset_hashes": {f: sha256(SCF_ROUTES / sub / "gene_table_final.npy")
+                         for f, sub in TABLE_OF.items()},
     }
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / "five_route_results.json").write_text(json.dumps(out, indent=2, sort_keys=True))
