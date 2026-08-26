@@ -104,7 +104,9 @@ def anchor_space_query(table_rows: dict, X: np.ndarray):
 
 def load_scf_tables():
     """v3 路线表: scF 微调产出的基因表(行序 = gene_master systematic 序,
-    与 assets/scf_yeast/A2_init.tsv 的 systematic 列一致)。"""
+    与 assets/scf_yeast/A2_init.tsv 的 systematic 列一致)。另含一个
+    init-only 诊断对照臂(未微调的纯移植表, 对应原框架 routea_init 对照臂
+    的地位; 共报不参赛)。"""
     import pandas as pd
     genes = pd.read_csv(ASSETS / "scf_yeast/A2_init.tsv", sep="\t", dtype=str)["systematic"].tolist()
     tables = {}
@@ -112,6 +114,8 @@ def load_scf_tables():
         X = np.load(SCF_ROUTES / name.split("_")[0] / "gene_table_final.npy")
         assert X.shape[0] == len(genes), (name, X.shape, len(genes))
         tables[name] = ({g: i for i, g in enumerate(genes)}, X)
+    init = np.load(ASSETS / "scf_yeast/A2_init.npy")[: len(genes)]
+    tables["A2_init_only_diag"] = ({g: i for i, g in enumerate(genes)}, init)
     return tables
 
 
@@ -199,13 +203,15 @@ def main() -> None:
     print("tables: " + ", ".join(f"{k}={v[1].shape}" for k, v in tables.items()), flush=True)
 
     routes = {}
-    for name in ("A2_scf_ortholog", "B2_scf_esm2inject", "C2_scf_scratch", "D_native_scyeast"):
+    for name in ("A2_scf_ortholog", "B2_scf_esm2inject", "C2_scf_scratch",
+                 "D_native_scyeast", "A2_init_only_diag"):
         routes[name] = make_dense_route(
             tables[name][0], Xn[name],
             anchor_space_query(tables[name][0], tables[name][1]),
             index_of, n_nodes)
     routes[INCUMBENT] = lambda reduced: arm_incumbent(reduced, nodes, neighbors, alpha=ALPHA)
     t4_table_of = {n: n for n in tables}
+    DIAGNOSTIC = {"A2_init_only_diag"}  # 共报不参赛: 无酵母语料成分, 非注册路线
 
     perm_values = list(anchors.values())
 
@@ -225,7 +231,7 @@ def main() -> None:
     # BETTER by material delta and CI excluding zero; lower rank is better)
     g1 = {}
     for name in routes:
-        if name == INCUMBENT:
+        if name == INCUMBENT or name in DIAGNOSTIC:
             continue
         delta, lo, hi = boot_median_ci(t2[name]["mr"] - t2[INCUMBENT]["mr"])
         g1[name] = {"delta_median_rank_route_minus_incumbent": round(delta, 5),
@@ -236,6 +242,8 @@ def main() -> None:
     # Pass = route median rank beats the permuted median in >= 19/20 draws.
     g2 = {}
     for name, produce in routes.items():
+        if name in DIAGNOSTIC:
+            continue
         route_med = float(np.median(t2[name]["mr"]))
         perm_meds, beats = [], 0
         for d in range(PERM_DRAWS):
