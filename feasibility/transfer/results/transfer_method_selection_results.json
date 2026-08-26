@@ -1,0 +1,232 @@
+{
+  "F1": {
+    "arms": {
+      "full_diffusion": {
+        "arm": "full_diffusion",
+        "hit_at_1pct": 0.0759,
+        "hit_at_5pct": 0.0886,
+        "mean_normalized_rank": 0.60386,
+        "median_normalized_rank": 0.67131
+      },
+      "incumbent": {
+        "arm": "incumbent",
+        "hit_at_1pct": 0.038,
+        "hit_at_5pct": 0.1392,
+        "mean_normalized_rank": 0.41926,
+        "median_normalized_rank": 0.34721
+      },
+      "no_propagation": {
+        "arm": "no_propagation",
+        "hit_at_1pct": 0.0,
+        "hit_at_5pct": 0.0,
+        "mean_normalized_rank": 0.50017,
+        "median_normalized_rank": 0.50017
+      },
+      "one_hop": {
+        "arm": "one_hop",
+        "hit_at_1pct": 0.0253,
+        "hit_at_5pct": 0.1519,
+        "mean_normalized_rank": 0.40445,
+        "median_normalized_rank": 0.40639
+      },
+      "permuted_anchor_control": {
+        "arm": "permuted_anchor_control",
+        "hit_at_1pct": 0.038,
+        "hit_at_5pct": 0.0633,
+        "mean_normalized_rank": 0.55886,
+        "median_normalized_rank": 0.58842
+      },
+      "rewired_graph_control": {
+        "arm": "rewired_graph_control",
+        "hit_at_1pct": 0.0253,
+        "hit_at_5pct": 0.0886,
+        "mean_normalized_rank": 0.5278,
+        "median_normalized_rank": 0.56956
+      }
+    },
+    "comparisons_vs_incumbent": {
+      "full_diffusion": {
+        "ci95": [
+          0.07787,
+          0.29694
+        ],
+        "delta_median_rank_arm_minus_incumbent": 0.20038,
+        "incumbent_beats_arm": true
+      },
+      "no_propagation": {
+        "ci95": [
+          -0.02717,
+          0.19
+        ],
+        "delta_median_rank_arm_minus_incumbent": 0.15297,
+        "incumbent_beats_arm": false
+      },
+      "one_hop": {
+        "ci95": [
+          -0.01739,
+          -0.00052
+        ],
+        "delta_median_rank_arm_minus_incumbent": -0.00658,
+        "incumbent_beats_arm": false
+      },
+      "permuted_anchor_control": {
+        "ci95": [
+          0.04724,
+          0.15453
+        ],
+        "delta_median_rank_arm_minus_incumbent": 0.11473,
+        "incumbent_beats_arm": true
+      },
+      "rewired_graph_control": {
+        "ci95": [
+          -0.0109,
+          0.15816
+        ],
+        "delta_median_rank_arm_minus_incumbent": 0.02492,
+        "incumbent_beats_arm": false
+      }
+    },
+    "gates": {
+      "network_step_justified": false,
+      "structure_informed": false
+    },
+    "n_loo_anchors": 79,
+    "n_nodes": 5857
+  },
+  "F2": {
+    "arms": {
+      "alpha_0.10": {
+        "arm": "alpha_0.10",
+        "hit_at_1pct": 0.038,
+        "hit_at_5pct": 0.1013,
+        "mean_normalized_rank": 0.48932,
+        "median_normalized_rank": 0.47439
+      },
+      "alpha_0.50": {
+        "arm": "alpha_0.50",
+        "hit_at_1pct": 0.0253,
+        "hit_at_5pct": 0.1519,
+        "mean_normalized_rank": 0.40578,
+        "median_normalized_rank": 0.39548
+      },
+      "alpha_0.70": {
+        "arm": "alpha_0.70",
+        "hit_at_1pct": 0.0253,
+        "hit_at_5pct": 0.1519,
+        "mean_normalized_rank": 0.39787,
+        "median_normalized_rank": 0.35136
+      },
+      "full": {
+        "arm": "full",
+        "hit_at_1pct": 0.038,
+        "hit_at_5pct": 0.1392,
+        "mean_normalized_rank": 0.41926,
+        "median_normalized_rank": 0.34721
+      },
+      "no_fusion_gate": {
+        "arm": "no_fusion_gate",
+        "hit_at_1pct": 0.038,
+        "hit_at_5pct": 0.1013,
+        "mean_normalized_rank": 0.52527,
+        "median_normalized_rank": 0.54482
+      },
+      "no_restart": {
+        "arm": "no_restart",
+        "hit_at_1pct": 0.0759,
+        "hit_at_5pct": 0.0886,
+        "mean_normalized_rank": 0.60386,
+        "median_normalized_rank": 0.67131
+      },
+      "uniform_weights": {
+        "arm": "uniform_weights",
+        "hit_at_1pct": 0.0,
+        "hit_at_5pct": 0.1266,
+        "mean_normalized_rank": 0.36667,
+        "median_normalized_rank": 0.36434
+      },
+      "unsigned": {
+        "arm": "unsigned",
+        "hit_at_1pct": 0.0886,
+        "hit_at_5pct": 0.0886,
+        "mean_normalized_rank": 0.60147,
+        "median_normalized_rank": 0.6701
+      }
+    },
+    "comparisons_vs_incumbent": {
+      "alpha_0.10": {
+        "ci95": [
+          0.01903,
+          0.10936
+        ],
+        "delta_median_rank_arm_minus_incumbent": 0.06229,
+        "incumbent_beats_arm": true
+      },
+      "alpha_0.50": {
+        "ci95": [
+          -0.0199,
+          -0.00242
+        ],
+        "delta_median_rank_arm_minus_incumbent": -0.01142,
+        "incumbent_beats_arm": false
+      },
+      "alpha_0.70": {
+        "ci95": [
+          -0.02682,
+          -0.00398
+        ],
+        "delta_median_rank_arm_minus_incumbent": -0.018,
+        "incumbent_beats_arm": false
+      },
+      "no_fusion_gate": {
+        "ci95": [
+          0.05191,
+          0.18567
+        ],
+        "delta_median_rank_arm_minus_incumbent": 0.11507,
+        "incumbent_beats_arm": true
+      },
+      "no_restart": {
+        "ci95": [
+          0.07787,
+          0.29694
+        ],
+        "delta_median_rank_arm_minus_incumbent": 0.20038,
+        "incumbent_beats_arm": true
+      },
+      "uniform_weights": {
+        "ci95": [
+          -0.09015,
+          -0.01523
+        ],
+        "delta_median_rank_arm_minus_incumbent": -0.0578,
+        "incumbent_beats_arm": false
+      },
+      "unsigned": {
+        "ci95": [
+          0.09203,
+          0.29694
+        ],
+        "delta_median_rank_arm_minus_incumbent": 0.2336,
+        "incumbent_beats_arm": true
+      }
+    },
+    "flags": {
+      "alpha_0.10": "full significantly better",
+      "alpha_0.50": "full NOT significantly better -> component unjustified",
+      "alpha_0.70": "full NOT significantly better -> component unjustified",
+      "no_fusion_gate": "full significantly better",
+      "no_restart": "full significantly better",
+      "uniform_weights": "full NOT significantly better -> component unjustified",
+      "unsigned": "full significantly better"
+    },
+    "n_loo_anchors": 79,
+    "n_nodes": 5857
+  },
+  "endpoint": "leave-one-out anchor recovery on the SGA graph",
+  "registration": "feasibility/transfer/REGISTRATION.md",
+  "statistics": {
+    "material_delta": 0.02,
+    "n_boot": 10000,
+    "seed": 20260826
+  }
+}

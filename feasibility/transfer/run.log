@@ -1,0 +1,32 @@
+anchors: gated=79 raw=79
+graph: 5857 nodes
+eligible LOO anchors: 79; top1%=59 top5%=293 nodes
+F1 {'arm': 'incumbent', 'median_normalized_rank': 0.34721, 'mean_normalized_rank': 0.41926, 'hit_at_1pct': 0.038, 'hit_at_5pct': 0.1392}
+F1 {'arm': 'no_propagation', 'median_normalized_rank': 0.50017, 'mean_normalized_rank': 0.50017, 'hit_at_1pct': 0.0, 'hit_at_5pct': 0.0}
+F1 {'arm': 'one_hop', 'median_normalized_rank': 0.40639, 'mean_normalized_rank': 0.40445, 'hit_at_1pct': 0.0253, 'hit_at_5pct': 0.1519}
+F1 {'arm': 'full_diffusion', 'median_normalized_rank': 0.67131, 'mean_normalized_rank': 0.60386, 'hit_at_1pct': 0.0759, 'hit_at_5pct': 0.0886}
+F1 {'arm': 'rewired_graph_control', 'median_normalized_rank': 0.56956, 'mean_normalized_rank': 0.5278, 'hit_at_1pct': 0.0253, 'hit_at_5pct': 0.0886}
+F1 {'arm': 'permuted_anchor_control', 'median_normalized_rank': 0.58842, 'mean_normalized_rank': 0.55886, 'hit_at_1pct': 0.038, 'hit_at_5pct': 0.0633}
+F2 {'arm': 'full', 'median_normalized_rank': 0.34721, 'mean_normalized_rank': 0.41926, 'hit_at_1pct': 0.038, 'hit_at_5pct': 0.1392}
+F2 {'arm': 'no_fusion_gate', 'median_normalized_rank': 0.54482, 'mean_normalized_rank': 0.52527, 'hit_at_1pct': 0.038, 'hit_at_5pct': 0.1013}
+F2 {'arm': 'unsigned', 'median_normalized_rank': 0.6701, 'mean_normalized_rank': 0.60147, 'hit_at_1pct': 0.0886, 'hit_at_5pct': 0.0886}
+F2 {'arm': 'no_restart', 'median_normalized_rank': 0.67131, 'mean_normalized_rank': 0.60386, 'hit_at_1pct': 0.0759, 'hit_at_5pct': 0.0886}
+F2 {'arm': 'alpha_0.10', 'median_normalized_rank': 0.47439, 'mean_normalized_rank': 0.48932, 'hit_at_1pct': 0.038, 'hit_at_5pct': 0.1013}
+F2 {'arm': 'alpha_0.50', 'median_normalized_rank': 0.39548, 'mean_normalized_rank': 0.40578, 'hit_at_1pct': 0.0253, 'hit_at_5pct': 0.1519}
+F2 {'arm': 'alpha_0.70', 'median_normalized_rank': 0.35136, 'mean_normalized_rank': 0.39787, 'hit_at_1pct': 0.0253, 'hit_at_5pct': 0.1519}
+F2 {'arm': 'uniform_weights', 'median_normalized_rank': 0.36434, 'mean_normalized_rank': 0.36667, 'hit_at_1pct': 0.0, 'hit_at_5pct': 0.1266}
+{
+  "F1_gates": {
+    "network_step_justified": false,
+    "structure_informed": false
+  },
+  "F2_flags": {
+    "alpha_0.10": "full significantly better",
+    "alpha_0.50": "full NOT significantly better -> component unjustified",
+    "alpha_0.70": "full NOT significantly better -> component unjustified",
+    "no_fusion_gate": "full significantly better",
+    "no_restart": "full significantly better",
+    "uniform_weights": "full NOT significantly better -> component unjustified",
+    "unsigned": "full significantly better"
+  }
+}
