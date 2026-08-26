@@ -35,13 +35,14 @@ OUTDIR = Path("/public/home/mengxl/dzy/yeastbridge_re/feasibility/transfer_route
 MODEL_DIR = YB / "src/external/scfoundation/model"
 sys.path.insert(0, str(MODEL_DIR))
 
-from load import getEncoerDecoderData, load_model_frommmf  # noqa: E402
+from load import gatherData, getEncoerDecoderData, load_model_frommmf  # noqa: E402
 
 N_GENES = 6733  # gene_master 真实基因数(旧 routeA_vocab 6736 = 6733 基因 + 3 特殊符号)
 SEQ_LEN = N_GENES + 2  # + 2 分辨率位; pos_emb 行数 = SEQ_LEN + 1(pad 位)
+MAX_SEQ = 1200  # 原 finetune_scgpt.py train_args.max_seq_len=1200, trunc_by_sample 官方行为
 EPOCHS = 6
-BATCH = 4   # 与 GPU0 共卡(llama-server 28GB),降 batch 保 9GB 余量;等效 batch 32 不变
-ACCUM = 8
+BATCH = 32
+ACCUM = 1
 LR = 1e-4
 CLIP = 1.0
 SEED = 42
@@ -82,6 +83,26 @@ class Checkpointed(nn.Module):
             return torch.utils.checkpoint.checkpoint(
                 self.m, x, padding_mask=padding_mask, use_reentrant=False)
         return self.m(x, padding_mask=padding_mask)
+
+
+def encdec_subset(data, data_raw, gene_ids, config):
+    """load.getEncoerDecoderData 的逐字逻辑,唯一改动:data_gene_ids 由调用方给出
+    (子集行的真实基因列号),不再假设 arange(全词表宽)。"""
+    decoder_data = data.clone().detach()
+    decoder_data_padding = torch.full_like(data, False, dtype=torch.bool).to(data.device)
+    encoder_data_labels = data_raw > 0
+    encoder_data, encoder_data_padding = gatherData(decoder_data, encoder_data_labels,
+                                                    config["pad_token_id"])
+    new_data_raw = data_raw
+    encoder_position_gene_ids, _ = gatherData(gene_ids, encoder_data_labels,
+                                              config["pad_token_id"])
+    decoder_position_gene_ids = gene_ids.clone()
+    data_mask_labels = None
+    encoder_position_gene_ids[encoder_data_padding] = config["seq_len"]
+    decoder_position_gene_ids[decoder_data_padding] = config["seq_len"]
+    return (encoder_data, encoder_position_gene_ids, encoder_data_padding,
+            encoder_data_labels, decoder_data, decoder_data_padding,
+            new_data_raw, data_mask_labels, decoder_position_gene_ids)
 
 
 def pick_device(requested):
@@ -159,21 +180,38 @@ def main():
     outdir = OUTDIR / args.route
     outdir.mkdir(parents=True, exist_ok=True)
 
-    def prep(batch_raw):
+    def build_subset(batch_raw):
+        """每细胞: 表达基因中均匀随机抽 MAX_SEQ 个(trunc_by_sample 官方行为),
+        附 2 个分辨率位; 返回 (x_sub, gene_ids_sub), 位置 id = 真实基因列号。"""
         raw = torch.from_numpy(np.asarray(batch_raw, dtype=np.float32))
         total = raw.sum(dim=1, keepdim=True).clamp(min=1.0)
         vals = torch.log1p(raw / total * 1e4)
-        res = torch.cat([torch.full((raw.shape[0], 1), 4.0), torch.log10(total)], dim=1)
-        return torch.cat([vals, res], dim=1)  # (B, 6738)
+        res_v = torch.cat([torch.full((raw.shape[0], 1), 4.0), torch.log10(total)], dim=1)
+        xs, gs = [], []
+        for b in range(vals.shape[0]):
+            idx = torch.nonzero(vals[b] > 0, as_tuple=True)[0]
+            if idx.numel() > MAX_SEQ:
+                perm = torch.randperm(idx.numel())[:MAX_SEQ]
+                idx = idx[perm]
+            xs.append(torch.cat([vals[b, idx], res_v[b]]))
+            gs.append(torch.cat([idx, torch.tensor([N_GENES, N_GENES + 1])]))
+        K = max(x.numel() for x in xs)
+        x_sub = torch.zeros((len(xs), K), dtype=torch.float32)
+        g_sub = torch.full((len(gs), K), SEQ_LEN, dtype=torch.long)  # 尾部填充位 → pad 行
+        for i, (xv, gv) in enumerate(zip(xs, gs)):
+            x_sub[i, :xv.numel()] = xv
+            g_sub[i, :gv.numel()] = gv
+        return x_sub, g_sub
 
     def step(batch_raw, train):
-        x = prep(batch_raw).to(device)
-        expressed = x[:, :N_GENES] > 0
-        r = torch.rand_like(x[:, :N_GENES])
+        x, gene_ids = build_subset(batch_raw)
+        x, gene_ids = x.to(device), gene_ids.to(device)
+        expressed = x[:, :-2] > 0
+        r = torch.rand_like(x[:, :-2])
         mask = (expressed & (r < MASK_P)) | (~expressed & (r < ZERO_MASK_P))
         masked = x.clone()
-        masked[:, :N_GENES][mask] = float(cfg["mask_token_id"])
-        enc = getEncoerDecoderData(masked, x, cfg)
+        masked[:, :-2][mask] = float(cfg["mask_token_id"])
+        enc = encdec_subset(masked, x, gene_ids, cfg)
         (enc_data, enc_pos, enc_pad, enc_labels, dec_data, dec_pad, _, _, dec_pos) = enc
         with torch.autocast("cuda", dtype=torch.bfloat16, enabled=device.type == "cuda"):
             out = model(x=enc_data, padding_label=enc_pad,
@@ -181,7 +219,7 @@ def main():
                         decoder_data=dec_data, mask_gene_name=False, mask_labels=None,
                         decoder_position_gene_ids=dec_pos,
                         decoder_data_padding_labels=dec_pad)
-            loss = nn.functional.mse_loss(out[:, :N_GENES][mask], x[:, :N_GENES][mask])
+            loss = nn.functional.mse_loss(out[:, :-2][mask], x[:, :-2][mask])
         if train:
             (loss / ACCUM).backward()
         return float(loss)

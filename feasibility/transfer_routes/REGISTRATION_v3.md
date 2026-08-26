@@ -43,8 +43,15 @@ the voided v2 execution are not part of the route set.
   route init.
 - Corpus: GSE125162 raw counts (data/single_cell/
   GSE125162_ALL-fastqTomat0-Counts.tsv, 38,225 cells), aligned to the
-  6,736-gene vocab; input per cell = log1p(CPM-10k) + [4.0,
-  log10(total count)] (official singlecell 't4' recipe verbatim).
+  6,736-gene vocab; input per cell = log1p(CPM-10k) of a uniform random
+  sample of at most 1,200 expressed genes (the original
+  finetune_scgpt.py train_args max_seq_len=1200 with the official
+  trunc_by_sample behavior - amended 2026-08-27 after the first launch
+  measured 0.56 s/step under the full-transcriptome convention, ~26 h per
+  route; the 1,200-gene rule reproduces the original framework's compute
+  envelope) + [4.0, log10(total count)] resolution tokens (official 't4'
+  recipe). Position ids remain true gene column indices; subset tail
+  padding uses the pad row.
 - Masking: expressed genes p=0.30, zero-value genes p=0.03, pure mask to
   mask_token_id (the pretrain config's replace/random corruption is not
   reimplemented - registered deviation).
@@ -54,12 +61,12 @@ the voided v2 execution are not part of the route set.
   injection layer) + decoder modules; encoder layers 0-9 frozen. This is
   the official finetune_model.py granularity (LinearProbingClassifier
   unfreezes exactly the last two encoder layers).
-- Optimization: AdamW lr 1e-4, grad clip 1.0, batch 4 x accumulation 8
-  (effective 32 = original route A batch; reduced micro-batch to keep >=9GB
-  free headroom beside the co-resident root service, amended 2026-08-27
-  before execution), epochs 6, seed 42, bf16 autocast with full gradient
-  checkpointing over encoder and decoder; GPU = whichever card has free
-  headroom (user rule 2026-08-27), never crowding out the root services.
+- Optimization: AdamW lr 1e-4, grad clip 1.0, batch 32 x accumulation 1
+  (= original route A train_args batch_size 32; amended 2026-08-27
+  together with the 1,200-gene input rule), epochs 6, seed 42, bf16
+  autocast with full gradient checkpointing over encoder and decoder; GPU
+  = whichever card has free headroom (user rule 2026-08-27), never
+  crowding out the root services.
 - Route output for evaluation: the trained gene identity table - pos_emb
   rows for A''/C'', proj(ESM2) rows for B'' (6,736 x 768 each).
 
