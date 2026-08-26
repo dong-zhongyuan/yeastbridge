@@ -54,10 +54,12 @@ the voided v2 execution are not part of the route set.
   injection layer) + decoder modules; encoder layers 0-9 frozen. This is
   the official finetune_model.py granularity (LinearProbingClassifier
   unfreezes exactly the last two encoder layers).
-- Optimization: AdamW lr 1e-4, grad clip 1.0, batch 8 x accumulation 4
-  (effective 32 = original route A batch), epochs 6, seed 42, bf16
-  autocast; GPU = whichever card has free headroom (user rule
-  2026-08-27), never crowding out the root services.
+- Optimization: AdamW lr 1e-4, grad clip 1.0, batch 4 x accumulation 8
+  (effective 32 = original route A batch; reduced micro-batch to keep >=9GB
+  free headroom beside the co-resident root service, amended 2026-08-27
+  before execution), epochs 6, seed 42, bf16 autocast with full gradient
+  checkpointing over encoder and decoder; GPU = whichever card has free
+  headroom (user rule 2026-08-27), never crowding out the root services.
 - Route output for evaluation: the trained gene identity table - pos_emb
   rows for A''/C'', proj(ESM2) rows for B'' (6,736 x 768 each).
 
