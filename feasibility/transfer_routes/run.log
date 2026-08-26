@@ -1,0 +1,32 @@
+graph: 5857 nodes; anchors: 79
+tables: A_homolog_repr=(6733, 512), C_scratch_control=(6733, 512), D_native_scyeast=(5812, 200), B_yeast_esm2=(6742, 1280); human=(51, 1280)
+eligible LOO anchors: 79
+T2' {'route': 'A_homolog_repr', 'median_normalized_rank': 0.01237, 'mean_normalized_rank': 0.16355, 'pooled_auroc': 0.83662, 'hit_at_1pct': 0.481, 'hit_at_5pct': 0.5696}
+T2' {'route': 'B_protein_bridge', 'median_normalized_rank': 0.34842, 'mean_normalized_rank': 0.3358, 'pooled_auroc': 0.66438, 'hit_at_1pct': 0.2658, 'hit_at_5pct': 0.2911}
+T2' {'route': 'C_scratch_control', 'median_normalized_rank': 0.36935, 'mean_normalized_rank': 0.39616, 'pooled_auroc': 0.60401, 'hit_at_1pct': 0.0506, 'hit_at_5pct': 0.1519}
+T2' {'route': 'D_native_scyeast', 'median_normalized_rank': 0.39254, 'mean_normalized_rank': 0.42795, 'pooled_auroc': 0.57222, 'hit_at_1pct': 0.0127, 'hit_at_5pct': 0.0633}
+T2' {'route': 'E_sga_propagation', 'median_normalized_rank': 0.34721, 'mean_normalized_rank': 0.41926, 'pooled_auroc': 0.58091, 'hit_at_1pct': 0.038, 'hit_at_5pct': 0.1392}
+T2' G1: {"A_homolog_repr": true, "B_protein_bridge": false, "C_scratch_control": false, "D_native_scyeast": false}
+T2' G2: {"A_homolog_repr": true, "B_protein_bridge": true, "C_scratch_control": true, "D_native_scyeast": false, "E_sga_propagation": false}
+T2' selection: A_homolog_repr (passed G1 vs incumbent and G2 water line)
+T1' kemmeren: 1429 mutants on graph; intent-defined columns=76
+T1' A_homolog_repr {'spearman': 0.09707, 'ci95': [-0.12829, 0.30899]}
+T1' B_protein_bridge {'spearman': 0.10754, 'ci95': [-0.11589, 0.32894]}
+T1' C_scratch_control {'spearman': 0.09253, 'ci95': [-0.12845, 0.31528]}
+T1' D_native_scyeast {'spearman': 0.11297, 'ci95': [-0.10803, 0.32612]}
+T1' E_sga_propagation {'spearman': -0.30288, 'ci95': [-0.51074, -0.06888]}
+T3' A_homolog_repr {'eligible_anchors': 14, 'n_replicate_ranks': 14, 'median_normalized_rank': 0.48181, 'hit_at_5pct': 0.0, 'status': 'descriptive (eligible < 15, registered downgrade)'}
+T3' B_protein_bridge {'eligible_anchors': 14, 'n_replicate_ranks': 14, 'median_normalized_rank': 0.44239, 'hit_at_5pct': 0.0714, 'status': 'descriptive (eligible < 15, registered downgrade)'}
+T3' C_scratch_control {'eligible_anchors': 14, 'n_replicate_ranks': 14, 'median_normalized_rank': 0.64757, 'hit_at_5pct': 0.0, 'status': 'descriptive (eligible < 15, registered downgrade)'}
+T3' D_native_scyeast {'eligible_anchors': 14, 'n_replicate_ranks': 14, 'median_normalized_rank': 0.15465, 'hit_at_5pct': 0.1429, 'status': 'descriptive (eligible < 15, registered downgrade)'}
+T3' E_sga_propagation {'eligible_anchors': 14, 'n_replicate_ranks': 14, 'median_normalized_rank': 0.40768, 'hit_at_5pct': 0.2143, 'status': 'descriptive (eligible < 15, registered downgrade)'}
+T4' {'route': 'A_homolog_repr', 'n_records': 21, 'hit_at_3': 0.0, 'hit_at_5': 0.2857, 'direction_consistency': 0.7619}
+T4' {'route': 'B_protein_bridge', 'n_records': 21, 'hit_at_3': 0.0476, 'hit_at_5': 0.4762, 'direction_consistency': 0.7619}
+T4' {'route': 'C_scratch_control', 'n_records': 21, 'hit_at_3': 0.0, 'hit_at_5': 0.0, 'direction_consistency': 0.6667}
+T4' {'route': 'D_native_scyeast', 'n_records': 21, 'hit_at_3': 0.0476, 'hit_at_5': 0.1905, 'direction_consistency': 0.7619}
+T4' {'route': 'E_sga_propagation', 'n_records': 21, 'hit_at_3': 0.0, 'hit_at_5': 0.0, 'direction_consistency': 0.7619}
+T5' frac=0.25 done
+T5' frac=0.5 done
+T5' frac=0.75 done
+T5' frac=1.0 done
+[done] wrote /public/home/mengxl/dzy/yeastbridge_re/feasibility/transfer_routes/results/five_route_results.json

@@ -1,0 +1,352 @@
+{
+  "T1_state_geometry": {
+    "A_homolog_repr": {
+      "ci95": [
+        -0.12829,
+        0.30899
+      ],
+      "spearman": 0.09707
+    },
+    "B_protein_bridge": {
+      "ci95": [
+        -0.11589,
+        0.32894
+      ],
+      "spearman": 0.10754
+    },
+    "C_scratch_control": {
+      "ci95": [
+        -0.12845,
+        0.31528
+      ],
+      "spearman": 0.09253
+    },
+    "D_native_scyeast": {
+      "ci95": [
+        -0.10803,
+        0.32612
+      ],
+      "spearman": 0.11297
+    },
+    "E_sga_propagation": {
+      "ci95": [
+        -0.51074,
+        -0.06888
+      ],
+      "spearman": -0.30288
+    }
+  },
+  "T2_anchor_recovery": {
+    "G1_route_vs_incumbent": {
+      "A_homolog_repr": {
+        "ci95": [
+          -0.42724,
+          -0.15816
+        ],
+        "delta_median_rank_route_minus_incumbent": -0.30144,
+        "route_beats_incumbent": true
+      },
+      "B_protein_bridge": {
+        "ci95": [
+          -0.23828,
+          0.11386
+        ],
+        "delta_median_rank_route_minus_incumbent": -0.13445,
+        "route_beats_incumbent": false
+      },
+      "C_scratch_control": {
+        "ci95": [
+          -0.15954,
+          0.06627
+        ],
+        "delta_median_rank_route_minus_incumbent": -0.03322,
+        "route_beats_incumbent": false
+      },
+      "D_native_scyeast": {
+        "ci95": [
+          -0.06662,
+          0.16629
+        ],
+        "delta_median_rank_route_minus_incumbent": 0.05658,
+        "route_beats_incumbent": false
+      }
+    },
+    "G2_water_lines": {
+      "A_homolog_repr": {
+        "ci95": [
+          -0.66153,
+          -0.09448
+        ],
+        "delta_median_rank_route_minus_permuted": -0.35612,
+        "route_beats_permuted": true
+      },
+      "B_protein_bridge": {
+        "ci95": [
+          -0.23205,
+          -0.07181
+        ],
+        "delta_median_rank_route_minus_permuted": -0.15695,
+        "route_beats_permuted": true
+      },
+      "C_scratch_control": {
+        "ci95": [
+          -0.2199,
+          -0.0308
+        ],
+        "delta_median_rank_route_minus_permuted": -0.1123,
+        "route_beats_permuted": true
+      },
+      "D_native_scyeast": {
+        "ci95": [
+          -0.14518,
+          0.02976
+        ],
+        "delta_median_rank_route_minus_permuted": -0.00311,
+        "route_beats_permuted": false
+      },
+      "E_sga_propagation": {
+        "ci95": [
+          -0.15106,
+          0.04361
+        ],
+        "delta_median_rank_route_minus_permuted": -0.12494,
+        "route_beats_permuted": false
+      }
+    },
+    "arms": {
+      "A_homolog_repr": {
+        "hit_at_1pct": 0.481,
+        "hit_at_5pct": 0.5696,
+        "mean_normalized_rank": 0.16355,
+        "median_normalized_rank": 0.01237,
+        "permuted": {
+          "hit_at_1pct": 0.0633,
+          "hit_at_5pct": 0.1519,
+          "mean_normalized_rank": 0.49841,
+          "median_normalized_rank": 0.518,
+          "pooled_auroc": 0.50176,
+          "route": "A_homolog_repr_permuted"
+        },
+        "pooled_auroc": 0.83662,
+        "route": "A_homolog_repr"
+      },
+      "B_protein_bridge": {
+        "hit_at_1pct": 0.2658,
+        "hit_at_5pct": 0.2911,
+        "mean_normalized_rank": 0.3358,
+        "median_normalized_rank": 0.34842,
+        "permuted": {
+          "hit_at_1pct": 0.0,
+          "hit_at_5pct": 0.038,
+          "mean_normalized_rank": 0.51931,
+          "median_normalized_rank": 0.52803,
+          "pooled_auroc": 0.48086,
+          "route": "B_protein_bridge_permuted"
+        },
+        "pooled_auroc": 0.66438,
+        "route": "B_protein_bridge"
+      },
+      "C_scratch_control": {
+        "hit_at_1pct": 0.0506,
+        "hit_at_5pct": 0.1519,
+        "mean_normalized_rank": 0.39616,
+        "median_normalized_rank": 0.36935,
+        "permuted": {
+          "hit_at_1pct": 0.0,
+          "hit_at_5pct": 0.0127,
+          "mean_normalized_rank": 0.51224,
+          "median_normalized_rank": 0.49412,
+          "pooled_auroc": 0.48793,
+          "route": "C_scratch_control_permuted"
+        },
+        "pooled_auroc": 0.60401,
+        "route": "C_scratch_control"
+      },
+      "D_native_scyeast": {
+        "hit_at_1pct": 0.0127,
+        "hit_at_5pct": 0.0633,
+        "mean_normalized_rank": 0.42795,
+        "median_normalized_rank": 0.39254,
+        "permuted": {
+          "hit_at_1pct": 0.0127,
+          "hit_at_5pct": 0.0633,
+          "mean_normalized_rank": 0.47726,
+          "median_normalized_rank": 0.42161,
+          "pooled_auroc": 0.52292,
+          "route": "D_native_scyeast_permuted"
+        },
+        "pooled_auroc": 0.57222,
+        "route": "D_native_scyeast"
+      },
+      "E_sga_propagation": {
+        "hit_at_1pct": 0.038,
+        "hit_at_5pct": 0.1392,
+        "mean_normalized_rank": 0.41926,
+        "median_normalized_rank": 0.34721,
+        "permuted": {
+          "hit_at_1pct": 0.0,
+          "hit_at_5pct": 0.038,
+          "mean_normalized_rank": 0.51764,
+          "median_normalized_rank": 0.54603,
+          "pooled_auroc": 0.48253,
+          "route": "E_sga_propagation_permuted"
+        },
+        "pooled_auroc": 0.58091,
+        "route": "E_sga_propagation"
+      }
+    },
+    "n_loo_anchors": 79,
+    "n_nodes": 5857
+  },
+  "T3_perturbation_matching": {
+    "A_homolog_repr": {
+      "eligible_anchors": 14,
+      "hit_at_5pct": 0.0,
+      "median_normalized_rank": 0.48181,
+      "n_replicate_ranks": 14,
+      "status": "descriptive (eligible < 15, registered downgrade)"
+    },
+    "B_protein_bridge": {
+      "eligible_anchors": 14,
+      "hit_at_5pct": 0.0714,
+      "median_normalized_rank": 0.44239,
+      "n_replicate_ranks": 14,
+      "status": "descriptive (eligible < 15, registered downgrade)"
+    },
+    "C_scratch_control": {
+      "eligible_anchors": 14,
+      "hit_at_5pct": 0.0,
+      "median_normalized_rank": 0.64757,
+      "n_replicate_ranks": 14,
+      "status": "descriptive (eligible < 15, registered downgrade)"
+    },
+    "D_native_scyeast": {
+      "eligible_anchors": 14,
+      "hit_at_5pct": 0.1429,
+      "median_normalized_rank": 0.15465,
+      "n_replicate_ranks": 14,
+      "status": "descriptive (eligible < 15, registered downgrade)"
+    },
+    "E_sga_propagation": {
+      "eligible_anchors": 14,
+      "hit_at_5pct": 0.2143,
+      "median_normalized_rank": 0.40768,
+      "n_replicate_ranks": 14,
+      "status": "descriptive (eligible < 15, registered downgrade)"
+    }
+  },
+  "T4_engineering_ranking": [
+    {
+      "direction_consistency": 0.7619,
+      "hit_at_3": 0.0,
+      "hit_at_5": 0.2857,
+      "n_records": 21,
+      "route": "A_homolog_repr"
+    },
+    {
+      "direction_consistency": 0.7619,
+      "hit_at_3": 0.0476,
+      "hit_at_5": 0.4762,
+      "n_records": 21,
+      "route": "B_protein_bridge"
+    },
+    {
+      "direction_consistency": 0.6667,
+      "hit_at_3": 0.0,
+      "hit_at_5": 0.0,
+      "n_records": 21,
+      "route": "C_scratch_control"
+    },
+    {
+      "direction_consistency": 0.7619,
+      "hit_at_3": 0.0476,
+      "hit_at_5": 0.1905,
+      "n_records": 21,
+      "route": "D_native_scyeast"
+    },
+    {
+      "direction_consistency": 0.7619,
+      "hit_at_3": 0.0,
+      "hit_at_5": 0.0,
+      "n_records": 21,
+      "route": "E_sga_propagation"
+    }
+  ],
+  "T5_anchor_efficiency": {
+    "A_homolog_repr": {
+      "frac0.25_s1": 0.00454,
+      "frac0.25_s2": 0.04796,
+      "frac0.25_s3": 0.02903,
+      "frac0.5_s1": 0.01014,
+      "frac0.5_s2": 0.01598,
+      "frac0.5_s3": 0.02346,
+      "frac0.75_s1": 0.01906,
+      "frac0.75_s2": 0.02837,
+      "frac0.75_s3": 0.00509,
+      "frac1.0_s1": 0.01237
+    },
+    "B_protein_bridge": {
+      "frac0.25_s1": 0.26524,
+      "frac0.25_s2": 0.41127,
+      "frac0.25_s3": 0.35072,
+      "frac0.5_s1": 0.24068,
+      "frac0.5_s2": 0.28799,
+      "frac0.5_s3": 0.36611,
+      "frac0.75_s1": 0.36377,
+      "frac0.75_s2": 0.35963,
+      "frac0.75_s3": 0.27186,
+      "frac1.0_s1": 0.34842
+    },
+    "C_scratch_control": {
+      "frac0.25_s1": 0.30627,
+      "frac0.25_s2": 0.46197,
+      "frac0.25_s3": 0.5036,
+      "frac0.5_s1": 0.26968,
+      "frac0.5_s2": 0.50679,
+      "frac0.5_s3": 0.34204,
+      "frac0.75_s1": 0.35377,
+      "frac0.75_s2": 0.39653,
+      "frac0.75_s3": 0.36584,
+      "frac1.0_s1": 0.36935
+    },
+    "D_native_scyeast": {
+      "frac0.25_s1": 0.37616,
+      "frac0.25_s2": 0.39654,
+      "frac0.25_s3": 0.48698,
+      "frac0.5_s1": 0.39816,
+      "frac0.5_s2": 0.35442,
+      "frac0.5_s3": 0.49295,
+      "frac0.75_s1": 0.42171,
+      "frac0.75_s2": 0.45137,
+      "frac0.75_s3": 0.39257,
+      "frac1.0_s1": 0.39254
+    },
+    "E_sga_propagation": {
+      "frac0.25_s1": 0.53118,
+      "frac0.25_s2": 0.40836,
+      "frac0.25_s3": 0.39663,
+      "frac0.5_s1": 0.53412,
+      "frac0.5_s2": 0.49751,
+      "frac0.5_s3": 0.33405,
+      "frac0.75_s1": 0.27789,
+      "frac0.75_s2": 0.43792,
+      "frac0.75_s3": 0.43154,
+      "frac1.0_s1": 0.34721
+    }
+  },
+  "asset_hashes": {
+    "esm2_human_anchors/esm2_mean_fp32.npy": "f8a4783beb7c263ad3ae32bb9c802e5b0fd297e85cef5c65e7e46cdebf0e95b0",
+    "human_anchor_proteins.fasta": "00405506690000e0fdca61a8e1b4bd310e3f84e8a866567a099db597ea833c9c",
+    "orthodb": "9daadfbd5e4fb8c941962d4b4979aba39d16413de2ee22a398bd594b350e2215",
+    "sga_corrected": "84a8d461a250297acce91fd7fab99272987248113787a1d5fbff54571781e44c",
+    "signature_model_scores": "681a255b723f0f4e1640727a721cb06a013c50b60e94f1351d4b9d9500387fbd"
+  },
+  "registration": "feasibility/transfer_routes/REGISTRATION.md",
+  "selection": "A_homolog_repr (passed G1 vs incumbent and G2 water line)",
+  "statistics": {
+    "material_delta": 0.02,
+    "n_boot": 10000,
+    "seed": 20260827,
+    "t1_boot": 2000
+  }
+}
