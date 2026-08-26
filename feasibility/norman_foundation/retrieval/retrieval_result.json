@@ -1,0 +1,64 @@
+{
+  "best_model": "scfoundation",
+  "chance": 0.1667,
+  "claim": "pretrained gene representations carry program-direction information for unseen perturbations",
+  "claim_boundary": "one dataset's program structure; not a response-regression claim",
+  "fusion_consistency": {
+    "fusion_avg": {
+      "accuracy": 0.4375,
+      "n_evaluated": 80
+    },
+    "fusion_vote": {
+      "accuracy": 0.375,
+      "n_evaluated": 80
+    }
+  },
+  "gate_pass": true,
+  "gene_level_bootstrap_ci_of_best": [
+    0.1,
+    0.275
+  ],
+  "n_programs": 6,
+  "permutation_p_vs_zero": {
+    "geneformer": 0.0018,
+    "scfoundation": 0.0,
+    "scgpt": 0.0004
+  },
+  "program_sizes": [
+    7,
+    45,
+    24,
+    11,
+    14,
+    77
+  ],
+  "registration": "reports/human_foundation_norman/retrieval/retrieval_registration.md",
+  "results": {
+    "geneformer": {
+      "accuracy": 0.325,
+      "mean_gene_accuracy": 0.325,
+      "n_evaluated": 80,
+      "n_genes": 80
+    },
+    "scfoundation": {
+      "accuracy": 0.4,
+      "mean_gene_accuracy": 0.4,
+      "n_evaluated": 80,
+      "n_genes": 80
+    },
+    "scgpt": {
+      "accuracy": 0.35,
+      "mean_gene_accuracy": 0.35,
+      "n_evaluated": 80,
+      "n_genes": 80
+    },
+    "zero": {
+      "accuracy": 0.1875,
+      "mean_gene_accuracy": 0.1875,
+      "n_evaluated": 80,
+      "n_genes": 80
+    }
+  },
+  "seed": 20260821,
+  "zero_accuracy": 0.1875
+}
