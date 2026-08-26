@@ -1,99 +1,92 @@
-# Five-route five-task transfer evaluation v3 (scFoundation backbone, corrected endpoint)
+# Five-route five-task transfer evaluation v3 (final form: the original framework's own tasks)
 
-Registered 2026-08-27 (amended before any v3 execution; the earlier v3 draft
-of the same date was registered but never executed and is replaced by this
-file). Supersedes the T2' route selection of REGISTRATION.md (see
-ERRATUM.md). T1'/T3'/T4' task definitions are unchanged from
-REGISTRATION.md; T2'' and G2 are corrected as below.
+Registered 2026-08-27 (amended before any v3 execution; replaces the two
+earlier v3 drafts of the same date, which imported the anchor-recovery
+endpoint from the yeastbridge_vs SGA-era chain. User directive 2026-08-27:
+the evaluation is the ORIGINAL framework's five tasks on the new
+scFoundation-backbone routes; the anchor-recovery design — including its
+OrthoDB anchor construction — is an SGA-era residue and is dropped.)
 
-## Design decision (user directive 2026-08-27)
+## Routes
 
-The framework is the original YeastBridge-Eval reused as-is with ONE
-substitution: every scGPT backbone reference is replaced by scFoundation
-(the model selected by the product line's retrieval evaluation). The
-original routes' construction, corpora and training recipes are reused;
-only the backbone changes. Pure-ESM2-space and old-scGPT-table arms from
-the voided v2 execution are not part of the route set.
+- A'' scF homolog-mapped: scFoundation MaeAutobin, yeast pos_emb rows
+  initialized from human-ortholog scF embeddings (three-source orthology
+  union, verbatim rule of scripts/routeA/build_routeA_init.py), finetuned
+  on the yeast corpus (training protocol as registered below).
+- B'' scF protein bridging: scFoundation backbone with the UCE-style ESM2
+  injection layer (verbatim ProteinEmbeddingInjector pattern), finetuned
+  identically.
+- C'' scF scratch control: identical protocol, random init.
+- D' native scYeast: original asset, evaluated as-is (feature
+  routed_scyeast).
+- E' SGA graph propagation: the incumbent yeastbridge_vs mechanism. It
+  produces no gene-embedding table, so it enters the tasks by graph-native
+  protocols where definable (below) and is reported N/A elsewhere.
 
-## Five routes
+Reference feature: esm2_mean (the original strongest T2 feature) is
+co-reported for continuity with the original evaluation table.
 
-- A'' scF homolog-mapped: scFoundation MaeAutobin with yeast gene rows of
-  pos_emb initialized from the mean human-ortholog scF pos_emb rows
-  (OrthoDB + OMA + InParanoid union, verbatim rule of
-  scripts/routeA/build_routeA_init.py; unmatched genes per-dim Gaussian,
-  seed 42), then finetuned on the yeast corpus.
-- B'' scF protein bridging: scFoundation backbone with the gene identity
-  embedding replaced by a UCE-style injection layer proj(ESM2-650M vector)
-  (verbatim ProteinEmbeddingInjector pattern of
-  scripts/routeB/protein_inject.py, proj 1280->768 learnable, protein
-  matrix frozen, missing genes share the bias row), then finetuned.
-- C'' scF scratch control: identical construction and training with
-  all-random pos_emb init (per-dim Gaussian, seed 42). Water line for the
-  scF family.
-- D' native scYeast: scYeast pos_embedding (unchanged original asset).
-- E' SGA graph propagation: incumbent signed personalized PageRank
-  alpha=0.30 with fusion gate (F1/F2 v2 representative; unchanged).
+## Training protocol (all three scF routes; unchanged from the previous
+v3 drafts, already executing)
 
-## Training protocol (registered, all three scF routes)
+Yeast vocab = gene_master order (6,733 genes) + 2 resolution + 1 pad row;
+input per cell = log1p(CPM-10k) of a uniform random sample of <=1,200
+expressed genes (original train_args max_seq_len=1200, trunc_by_sample) +
+t4 resolution tokens; masking p=0.30 expressed / 0.03 zero, pure mask;
+MSE at masked positions; official finetune granularity (encoder layers
+0-9 frozen, last 2 + token_emb + pos_emb/injector + decoder trainable);
+AdamW lr 1e-4, clip 1.0, batch 32 x 1, epochs 6, seed 42, bf16 autocast
+with full gradient checkpointing.
 
-- Yeast vocab: gene_master systematic order (6,736 genes, identical row
-  order to routeA_vocab.json) + 2 resolution positions + 1 pad row;
-  scF config patched to seq_len 6,738. Pretrained weights loaded for all
-  shared modules (token_emb, encoder, decoder); pos_emb replaced by the
-  route init.
-- Corpus: GSE125162 raw counts (data/single_cell/
-  GSE125162_ALL-fastqTomat0-Counts.tsv, 38,225 cells), aligned to the
-  6,736-gene vocab; input per cell = log1p(CPM-10k) of a uniform random
-  sample of at most 1,200 expressed genes (the original
-  finetune_scgpt.py train_args max_seq_len=1200 with the official
-  trunc_by_sample behavior - amended 2026-08-27 after the first launch
-  measured 0.56 s/step under the full-transcriptome convention, ~26 h per
-  route; the 1,200-gene rule reproduces the original framework's compute
-  envelope) + [4.0, log10(total count)] resolution tokens (official 't4'
-  recipe). Position ids remain true gene column indices; subset tail
-  padding uses the pad row.
-- Masking: expressed genes p=0.30, zero-value genes p=0.03, pure mask to
-  mask_token_id (the pretrain config's replace/random corruption is not
-  reimplemented - registered deviation).
-- Loss: MSE at masked positions between decoder reconstruction and true
-  continuous values.
-- Trainable: encoder layers 10-11 (last two) + token_emb + pos_emb (or
-  injection layer) + decoder modules; encoder layers 0-9 frozen. This is
-  the official finetune_model.py granularity (LinearProbingClassifier
-  unfreezes exactly the last two encoder layers).
-- Optimization: AdamW lr 1e-4, grad clip 1.0, batch 32 x accumulation 1
-  (= original route A train_args batch_size 32; amended 2026-08-27
-  together with the 1,200-gene input rule), epochs 6, seed 42, bf16
-  autocast with full gradient checkpointing over encoder and decoder; GPU
-  = whichever card has free headroom (user rule 2026-08-27), never
-  crowding out the root services.
-- Route output for evaluation: the trained gene identity table - pos_emb
-  rows for A''/C'', proj(ESM2) rows for B'' (6,736 x 768 each).
+## Tasks — the original eval harness verbatim (yeastbridge/eval)
 
-## Corrected endpoint and gates
+The three scF gene tables are registered at runtime into
+eval.data._FEATURE_LOADERS (read-only reuse; the old project's files are
+not modified) and evaluated by the original frozen protocols, same seeds
+(42) and splits as the 2026-08-09 table:
 
-1. PRIMARY ENDPOINT = T2'' balanced-pool anchor recovery: each held-out
-   anchor ranked within the fixed pool of 2,246 ortholog-mapped,
-   non-anchor, on-graph genes; identical pool for every route; missing
-   table rows score 0. Removes the mapped/unmapped stratum artifact
-   (ERRATUM.md). v2 full-pool ranks co-reported.
-2. Dense-route queries: signed weighted mean of the reduced anchors' own
-   rows in the route's own table (uniform construction across A''/B''/
-   C''/D'); E' unchanged.
-3. G1: paired anchor-level bootstrap (10,000 resamples, seed 20260827) of
-   the balanced-pool median rank vs incumbent E'; pass = CI95 upper < 0
-   AND delta <= -0.02; if no route passes with G2, E' is retained and
-   labeled "retained without positive evidence".
-4. G2 water line = 20-draw permutation null (clean null: full weight
-   assignment including signs permuted; seeds 20260827..20260846). Pass =
-   route median rank beats the permuted median in >= 19/20 draws.
-5. T5' anchor-efficiency recomputed on the balanced-pool metric.
+- T2 essential genes: run_t2 logistic, AUROC/AUPRC (primary robustness
+  task, as in the original route-B selection).
+- T3 perturbation response: run_t3 ridge with val-alpha, Spearman +
+  top-100 recall (the transfer-relevant yeast response task).
+- T4 pathway engineering ranking: run_t4, hit@3/hit@5.
+- T5 data efficiency: run_t5, T3 metric at 1%..100%.
+- T1 cell state: DEFERRED (requires cell-level embedding extraction
+  through the finetuned scF models; the original harness itself gates T1
+  on the cell encoder; registered as a follow-up, not blocking).
+
+Route E task-native protocols (registered):
+- E-T2: leave-one-out personalized PageRank (the registered incumbent
+  propagation, alpha=0.30) seeded from the other essential genes; the
+  held-out essential gene is ranked within the non-essential on-graph
+  pool; report median normalized rank and pooled AUROC.
+- E-T4: for each engineering record, propagate from the pathway's other
+  genes (+1 seeds) and rank the target within the pathway; hit@3/hit@5.
+- E-T1/T3/T5: N/A (the mechanism produces no gene-embedding table; no
+  ridge/KMeans input). Reported honestly, not imputed.
+
+## Selection rule (pre-declared)
+
+Primary: T3 Spearman. A route is selected if it holds the highest T3
+Spearman among A''/B''/C''/D' AND its T2 AUROC is not below the esm2_mean
+reference by more than 0.01. If no route satisfies this, no new
+representation route is selected and the table is reported as-is (E
+remains the incumbent graph mechanism by production continuity, labeled
+"retained without new positive evidence"). Ties at T3 within 0.002 go to
+the higher T2.
 
 ## Claim boundary
 
-Unchanged from REGISTRATION.md: transfer-mechanism selection only; no
-therapeutic, efficacy, or response-regression claim; wet-lab remains the
-final arbiter. The anchor population limitation (housekeeping collapse,
-zero GPCR/ion-channel members) is unchanged and is disclosed in
-ERRATUM.md; module-level anchors for the membrane-protein universe
-require a separate registration.
+Unchanged: mechanism selection only; no therapeutic, efficacy, or
+response-regression superiority claim beyond the tested tasks; wet-lab
+remains the final arbiter. The membrane-target anchor-population
+limitation documented in ERRATUM.md concerns intent-transfer endpoints
+and does not apply to these yeast-benchmark tasks; the product branch for
+membrane targets (module transfer / humanized yeast) remains separately
+registered work.
+
+## Dropped assets (retained on disk, not used by this registration)
+
+signature_proteins.fasta / esm2_signature (full-intent protein set),
+module_anchors.tsv (KEGG+GO module sets): inputs of the superseded
+anchor-recovery design; kept for the future membrane-target registration.
