@@ -1,12 +1,13 @@
 #!/usr/bin/env python
-"""Five-route five-task transfer evaluation driver (registered;
-feasibility/transfer_routes/REGISTRATION.md).
+"""Five-route five-task transfer evaluation driver.
 
-Adaptation of the original YeastBridge-Eval framework to the
-functional-target transfer step. Five routes compete under five tasks;
-route E' reuses the registered SGA propagation verbatim, dense routes
-query the original project's frozen embedding tables read-only, and the
-human-side knowledge source is the scFoundation intent of product step 1.
+v2 (REGISTRATION.md): full-pool endpoint; A' selection voided by ERRATUM.md
+(stratum-separation artifact).
+v3 (REGISTRATION_v3.md): PRIMARY endpoint = balanced-pool anchor recovery
+(fixed 2,246 ortholog-mapped non-anchor pool), six routes (adds
+B''_original_routeb, the originally selected feasibility winner asset),
+G2 = 20-draw permutation null. T1'/T3'/T4'/T5' re-executed; T5' metric
+switched to the balanced pool.
 
 Run with:
   cd /public/home/mengxl/dzy/yeastbridge_re && env \
@@ -37,15 +38,16 @@ from transfer_method_selection import (  # noqa: E402
     load_intent_weights,
 )
 from yeastbridge_re.second_round import _load_orthology, _load_sga_neighbors  # noqa: E402
-from eval.data import esm2_embeddings, routea_gene_embeddings, scyeast_gene_embeddings  # noqa: E402
+from eval.data import scyeast_gene_embeddings  # noqa: E402
 
 ASSETS = ROOT / "feasibility/transfer_routes/assets"
+SCF_ROUTES = ROOT / "feasibility/transfer_routes/scf_routes"
 SHARED = ROOT / "feasibility/transfer/assets"
 OUT = ROOT / "feasibility/transfer_routes/results"
 KEMM = YB / "data/ko_kemmeren/kemmeren_2014"
 PATHWAY = YB / "data/pathway"
 BOOT_SEED = 20260827
-PERM_SEED = 20260827
+PERM_DRAWS = 20  # v3: seeds 20260827..20260846 (clean null, permuted signs)
 N_BOOT = 10000
 T1_BOOT = 2000
 MATERIAL_DELTA = 0.02
@@ -100,50 +102,27 @@ def anchor_space_query(table_rows: dict, X: np.ndarray):
     return q
 
 
-def human_ortholog_query(orthology, human_rows: dict, Xh: np.ndarray):
-    """Route B' query: signed-weighted mean of ESM2 embeddings of the HUMAN
-    ortholog proteins of the reduced anchors (mean over each anchor's human
-    genes present in the human table)."""
-    per_anchor = {}
-    for orf, genes in orthology.items():
-        rs = [human_rows[g] for g in genes if g in human_rows]
-        if rs:
-            per_anchor[orf] = Xh[np.asarray(rs)].mean(axis=0)
-
-    def q(reduced):
-        ws, vs = [], []
-        for orf, w in reduced.items():
-            v = per_anchor.get(orf)
-            if v is not None:
-                ws.append(w)
-                vs.append(v)
-        if not vs:
-            return None
-        v = np.asarray(ws, dtype=np.float64) @ np.asarray(vs)
-        n = np.linalg.norm(v)
-        return v / n if n > 0 else None
-
-    return q
+def load_scf_tables():
+    """v3 路线表: scF 微调产出的基因表(行序 = gene_master systematic 序,
+    与 assets/scf_yeast/A2_init.tsv 的 systematic 列一致)。"""
+    import pandas as pd
+    genes = pd.read_csv(ASSETS / "scf_yeast/A2_init.tsv", sep="\t", dtype=str)["systematic"].tolist()
+    tables = {}
+    for name in ("A2_scf_ortholog", "B2_scf_esm2inject", "C2_scf_scratch"):
+        X = np.load(SCF_ROUTES / name.split("_")[0] / "gene_table_final.npy")
+        assert X.shape[0] == len(genes), (name, X.shape, len(genes))
+        tables[name] = ({g: i for i, g in enumerate(genes)}, X)
+    return tables
 
 
-def load_human_esm2():
-    d = ASSETS / "esm2_human_anchors"
-    idx = pd.read_csv(d / "index.tsv", sep="\t", dtype=str).fillna("")
-    X = np.load(d / "esm2_mean_fp32.npy")
-    rows: dict = {}
-    for i, sym in enumerate(idx["common"]):
-        if sym:
-            rows.setdefault(sym, []).append(i)
-    merged = {s: k for k, s in enumerate(rows)}
-    Xm = np.stack([X[np.asarray(rs)].mean(axis=0) for s, rs in rows.items()])
-    return merged, row_normalized(Xm)
-
-
-def run_loo(produce, anchor_source, eligible, index_of, n_nodes):
-    """LOO anchor recovery on the corrected v2 endpoint (non-anchor pool).
-    Returns per-anchor normalized rank, AUROC, hit@1%, hit@5% and the score
-    vectors (the latter reused by T3')."""
-    mr = np.zeros(len(eligible))
+def run_loo(produce, anchor_source, eligible, index_of, n_nodes, mapped_mask):
+    """LOO anchor recovery. PRIMARY (v3) = balanced-pool endpoint: the held-out
+    anchor is ranked only within the ortholog-mapped non-anchor genes (the
+    fixed 2,246-gene pool; removes the mapped/unmapped stratum artifact).
+    The v2 full-pool rank is co-reported. Returns per-anchor arrays and the
+    score vectors (reused by T3')."""
+    mr = np.zeros(len(eligible))          # balanced pool (primary)
+    mr_full = np.zeros(len(eligible))     # v2 full pool (co-reported)
     au = np.zeros(len(eligible))
     h1 = np.zeros(len(eligible))
     h5 = np.zeros(len(eligible))
@@ -158,27 +137,32 @@ def run_loo(produce, anchor_source, eligible, index_of, n_nodes):
             xi = index_of.get(x)
             if xi is not None:
                 pool_mask[xi] = False
-        pool_scores = score[pool_mask]
-        s_o = score[index_of[o]]
-        n_greater = int(np.count_nonzero(pool_scores > s_o))
-        n_tied = int(np.count_nonzero(pool_scores == s_o)) + 1
-        rank = 1.0 + n_greater + (n_tied - 1) / 2.0
-        pool_size = len(pool_scores)
-        mr[k] = rank / pool_size
-        au[k] = 1.0 - (rank - 1.0) / pool_size
-        h1[k] = 1.0 if rank <= max(1, int(np.ceil(0.01 * pool_size))) else 0.0
-        h5[k] = 1.0 if rank <= max(1, int(np.ceil(0.05 * pool_size))) else 0.0
-    return mr, au, h1, h5, vecs
+        for mask, out in ((pool_mask & mapped_mask, "bal"), (pool_mask, "full")):
+            pool_scores = score[mask]
+            s_o = score[index_of[o]]
+            n_greater = int(np.count_nonzero(pool_scores > s_o))
+            n_tied = int(np.count_nonzero(pool_scores == s_o)) + 1
+            rank = 1.0 + n_greater + (n_tied - 1) / 2.0
+            pool_size = len(pool_scores)
+            if out == "bal":
+                mr[k] = rank / pool_size
+                au[k] = 1.0 - (rank - 1.0) / pool_size
+                h1[k] = 1.0 if rank <= max(1, int(np.ceil(0.01 * pool_size))) else 0.0
+                h5[k] = 1.0 if rank <= max(1, int(np.ceil(0.05 * pool_size))) else 0.0
+            else:
+                mr_full[k] = rank / pool_size
+    return mr, mr_full, au, h1, h5, vecs
 
 
-def summarize(name, mr, au, h1, h5):
+def summarize(name, mr, au, h1, h5, mr_full):
     return {
         "route": name,
-        "median_normalized_rank": round(float(np.median(mr)), 5),
-        "mean_normalized_rank": round(float(mr.mean()), 5),
-        "pooled_auroc": round(float(au.mean()), 5),
-        "hit_at_1pct": round(float(h1.mean()), 4),
-        "hit_at_5pct": round(float(h5.mean()), 4),
+        "median_normalized_rank_balanced": round(float(np.median(mr)), 5),
+        "mean_normalized_rank_balanced": round(float(mr.mean()), 5),
+        "median_normalized_rank_fullpool_v2": round(float(np.median(mr_full)), 5),
+        "pooled_auroc_balanced": round(float(au.mean()), 5),
+        "hit_at_1pct_balanced": round(float(h1.mean()), 4),
+        "hit_at_5pct_balanced": round(float(h5.mean()), 4),
     }
 
 
@@ -203,70 +187,42 @@ def main() -> None:
     nodes = sorted(all_nodes)
     index_of = {n: i for i, n in enumerate(nodes)}
     n_nodes = len(nodes)
-    print(f"graph: {n_nodes} nodes; anchors: {len(anchors)}", flush=True)
+    mapped_mask = np.array([n in orthology for n in nodes], dtype=bool)
+    print(f"graph: {n_nodes} nodes; anchors: {len(anchors)}; "
+          f"mapped pool genes: {int(mapped_mask.sum())}", flush=True)
 
-    # frozen embedding tables (read-only reuse of the original project)
-    tables = {}
-    for name, kind in (("A_homolog_repr", "ft"), ("C_scratch_control", "scratch")):
-        idx, X = routea_gene_embeddings(kind)
-        tables[name] = ({g: i for i, g in enumerate(idx["systematic"])}, X)
+    # v3 route tables: scF-finetuned A2/B2/C2 (new assets) + scYeast D
+    tables = load_scf_tables()
     idx, X = scyeast_gene_embeddings()
     tables["D_native_scyeast"] = ({g: i for i, g in enumerate(idx["systematic"])}, X)
-    idx, X = esm2_embeddings()
-    tables["B_yeast_esm2"] = ({g: i for i, g in enumerate(idx["systematic"])}, X)
     Xn = {k: row_normalized(v[1]) for k, v in tables.items()}
-    human_rows, Xh_n = load_human_esm2()
-    print("tables: " + ", ".join(f"{k}={v[1].shape}" for k, v in tables.items())
-          + f"; human={Xh_n.shape}", flush=True)
+    print("tables: " + ", ".join(f"{k}={v[1].shape}" for k, v in tables.items()), flush=True)
 
-    routes = {
-        "A_homolog_repr": make_dense_route(
-            tables["A_homolog_repr"][0], Xn["A_homolog_repr"],
-            anchor_space_query(tables["A_homolog_repr"][0], tables["A_homolog_repr"][1]),
-            index_of, n_nodes),
-        "B_protein_bridge": make_dense_route(
-            tables["B_yeast_esm2"][0], Xn["B_yeast_esm2"],
-            human_ortholog_query(orthology, human_rows, Xh_n), index_of, n_nodes),
-        "C_scratch_control": make_dense_route(
-            tables["C_scratch_control"][0], Xn["C_scratch_control"],
-            anchor_space_query(tables["C_scratch_control"][0], tables["C_scratch_control"][1]),
-            index_of, n_nodes),
-        "D_native_scyeast": make_dense_route(
-            tables["D_native_scyeast"][0], Xn["D_native_scyeast"],
-            anchor_space_query(tables["D_native_scyeast"][0], tables["D_native_scyeast"][1]),
-            index_of, n_nodes),
-        "E_sga_propagation": lambda reduced: arm_incumbent(reduced, nodes, neighbors, alpha=ALPHA),
-    }
-    t4_table_of = {
-        "A_homolog_repr": "A_homolog_repr",
-        "B_protein_bridge": "B_yeast_esm2",
-        "C_scratch_control": "C_scratch_control",
-        "D_native_scyeast": "D_native_scyeast",
-    }
+    routes = {}
+    for name in ("A2_scf_ortholog", "B2_scf_esm2inject", "C2_scf_scratch", "D_native_scyeast"):
+        routes[name] = make_dense_route(
+            tables[name][0], Xn[name],
+            anchor_space_query(tables[name][0], tables[name][1]),
+            index_of, n_nodes)
+    routes[INCUMBENT] = lambda reduced: arm_incumbent(reduced, nodes, neighbors, alpha=ALPHA)
+    t4_table_of = {n: n for n in tables}
 
     perm_values = list(anchors.values())
-    rng = np.random.default_rng(PERM_SEED)
-    pp = rng.permutation(len(perm_values))
-    anchors_perm = {orf: perm_values[pp[k]] for k, orf in enumerate(anchors)}
 
     eligible = sorted(o for o, w in anchors.items() if w != 0.0 and o in index_of)
     print(f"eligible LOO anchors: {len(eligible)}", flush=True)
 
-    # ---------------- T2' primary + cached LOO vectors ----------------
+    # ---------------- T2'' primary (balanced pool) + cached LOO vectors ----------------
     t2 = {}
     vec_cache = {}
-    perm_mr = {}
     for name, produce in routes.items():
-        mr, au, h1, h5, vecs = run_loo(produce, anchors, eligible, index_of, n_nodes)
+        mr, mr_full, au, h1, h5, vecs = run_loo(produce, anchors, eligible, index_of, n_nodes, mapped_mask)
         vec_cache[name] = vecs
-        pmr, pau, ph1, ph5, _ = run_loo(produce, anchors_perm, eligible, index_of, n_nodes)
-        perm_mr[name] = pmr
-        t2[name] = {"summary": summarize(name, mr, au, h1, h5), "mr": mr,
-                    "permuted_summary": summarize(name + "_permuted", pmr, pau, ph1, ph5)}
-        print("T2'", t2[name]["summary"], flush=True)
+        t2[name] = {"summary": summarize(name, mr, au, h1, h5, mr_full), "mr": mr}
+        print("T2''", t2[name]["summary"], flush=True)
 
-    # G1: route vs incumbent on T2' median rank (route must be BETTER by
-    # material delta and CI excluding zero; lower rank is better)
+    # G1: route vs incumbent on T2'' balanced-pool median rank (route must be
+    # BETTER by material delta and CI excluding zero; lower rank is better)
     g1 = {}
     for name in routes:
         if name == INCUMBENT:
@@ -275,22 +231,32 @@ def main() -> None:
         g1[name] = {"delta_median_rank_route_minus_incumbent": round(delta, 5),
                     "ci95": [round(lo, 5), round(hi, 5)],
                     "route_beats_incumbent": bool(delta <= -MATERIAL_DELTA and hi < 0)}
-    # G2 water line: route vs its own permuted-anchor control
-    # (CI of median(route - permuted) upper bound < 0; no material delta)
+    # G2 water line (v3): 20-draw permutation null, clean null (full weight
+    # assignment incl. signs permuted; seeds BOOT_SEED..BOOT_SEED+19).
+    # Pass = route median rank beats the permuted median in >= 19/20 draws.
     g2 = {}
-    for name in routes:
-        delta, lo, hi = boot_median_ci(t2[name]["mr"] - perm_mr[name])
-        g2[name] = {"delta_median_rank_route_minus_permuted": round(delta, 5),
-                    "ci95": [round(lo, 5), round(hi, 5)],
-                    "route_beats_permuted": bool(hi < 0)}
+    for name, produce in routes.items():
+        route_med = float(np.median(t2[name]["mr"]))
+        perm_meds, beats = [], 0
+        for d in range(PERM_DRAWS):
+            rb = np.random.default_rng(BOOT_SEED + d)
+            pp = rb.permutation(len(perm_values))
+            src = {orf: perm_values[pp[k]] for k, orf in enumerate(anchors)}
+            pmr, _, _, _, _, _ = run_loo(produce, src, eligible, index_of, n_nodes, mapped_mask)
+            pm = float(np.median(pmr))
+            perm_meds.append(round(pm, 5))
+            beats += int(pm > route_med)
+            print(f"G2 {name} draw {d+1}/{PERM_DRAWS}: perm_median={pm:.5f}", flush=True)
+        g2[name] = {"perm_medians": perm_meds, "beats_in_draws": beats,
+                    "route_beats_permuted": bool(beats >= PERM_DRAWS - 1)}
     selection = f"{INCUMBENT} (retained: no route passed G1 and G2)"
     for name, c in g1.items():
         if c["route_beats_incumbent"] and g2[name]["route_beats_permuted"]:
             selection = f"{name} (passed G1 vs incumbent and G2 water line)"
             break
-    print(f"T2' G1: {json.dumps({k: v['route_beats_incumbent'] for k, v in g1.items()})}", flush=True)
-    print(f"T2' G2: {json.dumps({k: v['route_beats_permuted'] for k, v in g2.items()})}", flush=True)
-    print(f"T2' selection: {selection}", flush=True)
+    print(f"T2'' G1: {json.dumps({k: v['route_beats_incumbent'] for k, v in g1.items()})}", flush=True)
+    print(f"T2'' G2: {json.dumps({k: v['route_beats_permuted'] for k, v in g2.items()})}", flush=True)
+    print(f"T2'' selection: {selection}", flush=True)
 
     # ---------------- T1' state-direction geometry ----------------
     kem = pd.read_parquet(KEMM / "kemmeren_t3_expr_log2fc.parquet")
@@ -414,17 +380,18 @@ def main() -> None:
             sub_src = {o: anchors[o] for o in sub}
             key = f"frac{frac}_s{seed}"
             for name, produce in routes.items():
-                mr5, _, _, _, _ = run_loo(produce, sub_src, sub, index_of, n_nodes)
+                mr5, _, _, _, _, _ = run_loo(produce, sub_src, sub, index_of, n_nodes, mapped_mask)
                 t5[name][key] = round(float(np.median(mr5)), 5)
         print(f"T5' frac={frac} done", flush=True)
 
     results = {
-        "registration": "feasibility/transfer_routes/REGISTRATION.md",
+        "registration": "feasibility/transfer_routes/REGISTRATION_v3.md",
+        "endpoint": "T2'' balanced-pool anchor recovery (2,246 ortholog-mapped non-anchor genes)",
         "selection": selection,
         "T2_anchor_recovery": {
-            "arms": {k: {**v["summary"], "permuted": v["permuted_summary"]} for k, v in t2.items()},
+            "arms": {k: v["summary"] for k, v in t2.items()},
             "G1_route_vs_incumbent": g1,
-            "G2_water_lines": g2,
+            "G2_water_lines_20draw": g2,
             "n_loo_anchors": len(eligible),
             "n_nodes": n_nodes,
         },
@@ -433,10 +400,11 @@ def main() -> None:
         "T4_engineering_ranking": t4_rows,
         "T5_anchor_efficiency": t5,
         "statistics": {"n_boot": N_BOOT, "t1_boot": T1_BOOT, "seed": BOOT_SEED,
-                       "material_delta": MATERIAL_DELTA},
+                       "material_delta": MATERIAL_DELTA, "perm_draws": PERM_DRAWS},
         "asset_hashes": {
-            "human_anchor_proteins.fasta": sha256(ASSETS / "human_anchor_proteins.fasta"),
-            "esm2_human_anchors/esm2_mean_fp32.npy": sha256(ASSETS / "esm2_human_anchors/esm2_mean_fp32.npy"),
+            "A2_gene_table": sha256(SCF_ROUTES / "A2/gene_table_final.npy"),
+            "B2_gene_table": sha256(SCF_ROUTES / "B2/gene_table_final.npy"),
+            "C2_gene_table": sha256(SCF_ROUTES / "C2/gene_table_final.npy"),
             "orthodb": sha256(SHARED / "orthodb_yeast_human_s288c.tsv"),
             "sga_corrected": sha256(SHARED / "sga_significant_p005_absge008.corrected.tsv.gz"),
             "signature_model_scores": sha256(SHARED / "signature_model_scores.tsv"),
