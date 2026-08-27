@@ -12,7 +12,7 @@ from pathlib import Path
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
-CFG = json.loads((ROOT / "configs/product_backtrace.json").read_text())
+CFG = json.loads((ROOT / "configs/drug_annotation.json").read_text())
 OUT = ROOT / CFG["results_dir"]
 BASE = "https://www.ebi.ac.uk/chembl/api/data"
 
