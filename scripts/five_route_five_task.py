@@ -64,17 +64,24 @@ def register_scf_features():
     genes = pd.read_csv(SCF_ASSETS / "A2_init.tsv", sep="\t", dtype=str)["systematic"].tolist()
     idx_df = pd.DataFrame({"systematic": genes})
     for name, sub in TABLE_OF.items():
+        if name not in FEATURES:
+            continue
         X = np.load(SCF_ROUTES / sub / "gene_table_final.npy")
         assert X.shape[0] == len(genes), (name, X.shape, len(genes))
         ed._FEATURE_LOADERS[name] = (lambda df=idx_df, X=X: (df, X))
         print(f"[feature] {name}: {X.shape}", flush=True)
 
 
+TASK_FNS = (("T2", et.run_t2), ("T3", et.run_t3), ("T4", et.run_t4), ("T5", et.run_t5))
+
+
 def run_original_tasks() -> dict:
     results = {}
     for f in FEATURES:
         row = {}
-        for task, fn in (("T2", et.run_t2), ("T3", et.run_t3), ("T4", et.run_t4), ("T5", et.run_t5)):
+        for task, fn in TASK_FNS:
+            if task not in CFG.get("tasks", ["T2", "T3", "T4", "T5"]):
+                continue
             metrics, _detail = fn(feature=f, seed=SEED)
             row[task] = {k: (float(v) if isinstance(v, (int, float, np.floating)) else v)
                          for k, v in metrics.items() if isinstance(v, (int, float, bool, np.floating, np.integer))}
@@ -139,39 +146,59 @@ def e_t4_engineering(nodes, index_of, neighbors) -> dict:
 
 
 def main() -> None:
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--config", default="configs/transfer_routes.json")
+    args = ap.parse_args()
+    global CFG, SCF_ROUTES, SCF_ASSETS, OUT, FEATURES, REFERENCE, ALPHA, SEED
+    CFG = json.loads((ROOT / args.config).read_text())
+    SCF_ROUTES = ROOT / CFG["scf_routes_dir"]
+    SCF_ASSETS = ROOT / CFG["scf_assets_dir"]
+    OUT = ROOT / CFG["results_dir"]
+    FEATURES = CFG["features"]
+    REFERENCE = CFG["reference_feature"]
+    ALPHA = CFG["pagerank_alpha"]
+    SEED = CFG["seed"]
+
     register_scf_features()
     results = run_original_tasks()
 
-    neighbors = _load_sga_neighbors(ROOT, CFG["sga_network"])
-    all_nodes = set()
-    for orf, conn in neighbors.items():
-        all_nodes.add(orf)
-        all_nodes.update(conn)
-    nodes = sorted(all_nodes)
-    index_of = {n: i for i, n in enumerate(nodes)}
-    print(f"[E] graph {len(nodes)} nodes", flush=True)
+    if CFG.get("run_route_e", True):
+        neighbors = _load_sga_neighbors(ROOT, CFG["sga_network"])
+        all_nodes = set()
+        for orf, conn in neighbors.items():
+            all_nodes.add(orf)
+            all_nodes.update(conn)
+        nodes = sorted(all_nodes)
+        index_of = {n: i for i, n in enumerate(nodes)}
+        print(f"[E] graph {len(nodes)} nodes", flush=True)
 
-    results["E_sga_propagation"] = {
-        "T2": e_t2_essentiality(nodes, index_of, neighbors),
-        "T4": e_t4_engineering(nodes, index_of, neighbors),
-        "T1": "N/A (no gene-embedding product)",
-        "T3": "N/A (no gene-embedding product)",
-        "T5": "N/A (no gene-embedding product)",
-    }
+        results["E_sga_propagation"] = {
+            "T2": e_t2_essentiality(nodes, index_of, neighbors),
+            "T4": e_t4_engineering(nodes, index_of, neighbors),
+            "T1": "N/A (no gene-embedding product)",
+            "T3": "N/A (no gene-embedding product)",
+            "T5": "N/A (no gene-embedding product)",
+        }
 
     # pre-declared selection: best T3 spearman among scF/scYeast routes with
     # T2 AUROC >= esm2_mean - 0.01; ties within 0.002 go to higher T2.
-    ref_auroc = results[REFERENCE]["T2"]["auroc"]
-    cand = {f: r for f, r in results.items() if f != REFERENCE and isinstance(r, dict) and "T3" in r}
-    best_t3 = max(cand[f]["T3"]["spearman_mean"] for f in cand)
-    qualified = [f for f in cand if cand[f]["T2"]["auroc"] >= ref_auroc - 0.01]
-    sel = None
-    if qualified:
-        top = [f for f in qualified if cand[f]["T3"]["spearman_mean"] >= best_t3 - 0.002]
-        sel = max(top, key=lambda f: cand[f]["T2"]["auroc"])
-    selection = (f"{sel} (selected: highest T3 spearman among T2-qualified routes)" if sel
-                 else "no route selected; E' remains incumbent graph mechanism "
-                      "(retained without new positive evidence)")
+    # Skipped in preview runs (task subset / route E off).
+    selection = "preview run (selection deferred to the full registered run)"
+    if ("T2" in results.get(REFERENCE, {})
+            and all("T3" in results.get(f, {}) for f in FEATURES if f != REFERENCE)):
+        ref_auroc = results[REFERENCE]["T2"]["auroc"]
+        cand = {f: r for f, r in results.items()
+                if f != REFERENCE and isinstance(r, dict) and isinstance(r.get("T3"), dict)}
+        best_t3 = max(cand[f]["T3"]["spearman_mean"] for f in cand)
+        qualified = [f for f in cand if cand[f]["T2"]["auroc"] >= ref_auroc - 0.01]
+        sel = None
+        if qualified:
+            top = [f for f in qualified if cand[f]["T3"]["spearman_mean"] >= best_t3 - 0.002]
+            sel = max(top, key=lambda f: cand[f]["T2"]["auroc"])
+        selection = (f"{sel} (selected: highest T3 spearman among T2-qualified routes)" if sel
+                     else "no route selected; E' remains incumbent graph mechanism "
+                          "(retained without new positive evidence)")
 
     out = {
         "registration": "feasibility/transfer_routes/REGISTRATION_v3.md",
@@ -182,7 +209,8 @@ def main() -> None:
         "tasks": results,
         "seed": SEED,
         "asset_hashes": {f: sha256(SCF_ROUTES / sub / "gene_table_final.npy")
-                         for f, sub in TABLE_OF.items()},
+                         for f, sub in TABLE_OF.items()
+                         if (SCF_ROUTES / sub / "gene_table_final.npy").exists()},
     }
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / "five_route_results.json").write_text(json.dumps(out, indent=2, sort_keys=True))
