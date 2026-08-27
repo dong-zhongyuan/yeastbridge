@@ -50,7 +50,7 @@ def protonated(smiles, ph):
 def make_pdbqt(smiles, ph, seed, out_path: Path):
     from rdkit import Chem
     from rdkit.Chem import AllChem
-    from meeko import MoleculePreparation, PDBQTWriter
+    from meeko import MoleculePreparation, PDBQTWriterLegacy
 
     prot, note = protonated(smiles, ph)
     mol = Chem.MolFromSmiles(prot)
@@ -65,7 +65,9 @@ def make_pdbqt(smiles, ph, seed, out_path: Path):
     except Exception:  # noqa: BLE001
         pass
     setup = MoleculePreparation()(mol)[0]
-    string, _, _ = PDBQTWriter.write_string(setup)
+    string, ok, err = PDBQTWriterLegacy.write_string(setup)
+    if not ok:
+        raise ValueError(f"meeko_write_failed:{err}")
     out_path.write_text(string)
     return prot, note
 
