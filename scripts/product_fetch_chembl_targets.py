@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Fetch ChEMBL known targets for the significant HIP/HOP compounds
-(knowledge-channel fix; design: product/backtrace_route_b/RESULTS.md).
+(target annotation; design: product/drug_annotation/DESIGN.md).
 inchikey -> ChEMBL molecule -> activities -> target gene symbols.
-Robust to EBI throttling (exponential backoff, resumable)."""
+Robust to EBI throttling (exponential backoff, resumable, final retry)."""
 import json
 import time
 import urllib.parse
