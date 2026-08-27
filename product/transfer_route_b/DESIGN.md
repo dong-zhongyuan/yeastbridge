@@ -1,10 +1,27 @@
 # Product step 2: human functional target -> yeast-executable task (route B, verbatim)
 
-Registered 2026-08-27. Mechanism: the five-route evaluation's preview (and
-pending formal confirmation by the full registered run after route C''
-finishes) selects route B'' (scF backbone + ESM2 injection layer) as the
-transfer representation. This product step applies route B's mechanism
-exactly as trained, with complete components:
+Registered 2026-08-27.
+
+## UNIVERSE-WIDE AMENDMENT (2026-08-27, user directive; supersedes the 47-panel scope)
+
+The upstream 47-candidate pre-screen (yeastbridge_vs production_v1
+signed-direction eligibility) is REMOVED as a pipeline gate: it was
+inherited, not re-run here; its own record states credible_signed_ranking
+= false with zero direct same-direction perturbations; and the current
+architecture (protein-space transfer + per-target execution + convergence
+scoring) no longer needs an upfront statistical pre-filter. Scope becomes
+the FULL frozen universe: 1,177 membrane proteins (839 GPCR + 338 ion
+channels, UniProt reviewed 2026-08-13 snapshot - used as DATA, not as a
+result). Inputs: universe proteins fetched by gene_exact (1,177/1,177),
+ESM2-650M layer-33 embeddings (esm2_universe/, 0 NaN), universe_targets
+.tsv (family from snapshot; scFoundation direction score carried as a
+FINAL-scoring column; 2 unscored genes -> blank = N/A). Outputs:
+results_universe/yeast_task_<TARGET>.tsv x 1,177 + transfer_summary.json.
+The 47-panel outputs (results/) are retained as a REFERENCE set for
+overlap comparison only. Target selection moves to the convergence layer
+(step 4). Config: configs/product_transfer_universe.json.
+
+## Mechanism (registered 2026-08-27; unchanged by the amendment)
 
 - Query: ESM2-650M layer-33 mean-pooled embedding of the human target
   protein (47 registered candidates from product step 1), passed through

@@ -1,0 +1,13 @@
+{
+  "yeastbridge_root": "/public/home/mengxl/dzy/yeastbridge",
+  "scf_routes_dir": "feasibility/transfer_routes/scf_routes",
+  "scf_assets_dir": "feasibility/transfer_routes/assets/scf_yeast",
+  "results_dir": "feasibility/transfer_routes/results/preview_AB",
+  "sga_network": "feasibility/transfer/assets/sga_significant_p005_absge008.corrected.tsv.gz",
+  "features": ["A2_scf_ortholog", "B2_scf_esm2inject", "routed_scyeast", "esm2_mean"],
+  "reference_feature": "esm2_mean",
+  "tasks": ["T2", "T3", "T4"],
+  "run_route_e": false,
+  "pagerank_alpha": 0.30,
+  "seed": 42
+}

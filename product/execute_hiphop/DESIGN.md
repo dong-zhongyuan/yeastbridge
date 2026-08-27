@@ -1,5 +1,18 @@
 # Product step 3: execute yeast tasks via the public HIP/HOP chemogenomic screen
 
+## UNIVERSE-WIDE AMENDMENT (2026-08-27, user directive; follows the step-2 amendment)
+
+Step 3 re-executed at universe scope: all 1,177 target task lists from
+product/transfer_route_b/results_universe against the same HIP/HOP matrix
+and the same v2 endpoint (full-profile Spearman, strain-label permutation
+n=1,000 seed 42, best dose per InChIKey, BH-FDR over all
+target x InChIKey pairs - now ~3.8M pairs). Config:
+configs/product_execute_universe.json; outputs: results_universe/.
+The 47-panel execution (results_v2/) is retained as a reference set.
+Multiple-testing burden rises accordingly; significance counts will
+shrink - that is the honest cost of removing the pre-filter, and final
+target selection is deferred to the step-4 convergence layer regardless.
+
 Registered 2026-08-27 before execution. Input: the 47 per-target yeast task
 rankings from product step 2 (product/transfer_route_b/results/
 yeast_task_<TARGET>.tsv). Engine: the processed Lee-2014 HIP/HOP

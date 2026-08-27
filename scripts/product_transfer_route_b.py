@@ -21,7 +21,15 @@ import pandas as pd
 import torch
 
 ROOT = Path(__file__).resolve().parents[1]
-CFG = json.loads((ROOT / "configs/product_transfer.json").read_text())
+def _load_cfg():
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--config", default="configs/product_transfer.json")
+    args = ap.parse_args()
+    return args.config, json.loads((ROOT / args.config).read_text())
+
+
+CFG_NAME, CFG = _load_cfg()
 YB = Path(CFG["yeastbridge_root"])
 
 INPUTS = ROOT / CFG["inputs_dir"]
@@ -39,11 +47,15 @@ def load_projection():
 
 
 def load_candidate_embeddings():
-    idx = pd.read_csv(INPUTS / "esm2_candidates/index.tsv", sep="\t", dtype=str).fillna("")
+    emb_dir = INPUTS / CFG.get("candidate_embeddings_dir", "esm2_candidates")
+    idx = pd.read_csv(emb_dir / "index.tsv", sep="\t", dtype=str).fillna("")
+    X = np.load(emb_dir / "esm2_mean_fp32.npy")
+    if CFG.get("embeddings_match", "seq_len") == "gene_name":
+        # 三段式 fasta 头(spool|ACC|GENE GN=): 提取器 common 列即基因名
+        keep = idx[idx["common"] != ""]
+        return keep["common"].tolist(), X[keep.index.to_numpy()]
+    # 旧候选集的双段式头: uniprot 列为空,改用 seq_len 对回 fasta 记录(验证唯一)
     idx["seq_len"] = idx["seq_len"].astype(int)
-    X = np.load(INPUTS / "esm2_candidates/esm2_mean_fp32.npy")
-    # 提取器的表头解析不认 ">GENE|ACC" 双段式头,uniprot 列为空;改用
-    # seq_len 对回 fasta 记录(先验证长度全唯一)。
     lens = {}
     name, n = None, 0
     for line in open(INPUTS / "candidate_proteins.fasta"):
@@ -102,19 +114,20 @@ def main() -> None:
         summary.append({
             "target_id": g,
             "family": cands[g]["target_family"],
-            "intended_direction": cands[g]["intended_direction"],
+            "intended_direction": cands.get(g, {}).get("intended_direction") or "n/a",
             "top5": [t[0] for t in top[:5]],
             "top1pct": [t[0] for t in top[:67]],
             "module_median_rank": float(np.median(mod_ranks)),
             "module_random_median_rank": (len(order) + 1) / 2.0,
             "module_top50_count": int(sum(1 for r in mod_ranks if r <= 50)),
         })
-        print(f"{g} ({cands[g]['target_family']}, {cands[g]['intended_direction']}): "
+        cg = cands.get(g, {})
+        print(f"{g} ({cg.get('target_family','?')}, {cg.get('intended_direction') or 'n/a'}): "
               f"top5={summary[-1]['top5']} sce04011 median rank={summary[-1]['module_median_rank']:.0f} "
               f"(random~{summary[-1]['module_random_median_rank']:.0f})", flush=True)
 
     (RESULTS / "transfer_summary.json").write_text(
-        json.dumps({"config": "configs/product_transfer.json",
+        json.dumps({"config": CFG_NAME,
                     "mechanism": "route B verbatim: ESM2(protein) -> trained proj -> cosine vs trained route-B gene table",
                     "n_targets": len(summary),
                     "sanity_module": CFG["sanity_module_id"],

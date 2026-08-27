@@ -1,0 +1,18 @@
+{
+  "yeastbridge_root": "/public/home/mengxl/dzy/yeastbridge",
+  "universe_snapshots": "/public/home/mengxl/dzy/yeastbridge_vs/data/external/crc_target_scan/source_snapshots",
+  "universe_files": ["gpcr_human.uniprot.reviewed.2026-08-13.tsv", "ion_channel_human.uniprot.reviewed.2026-08-13.tsv"],
+  "candidate_ranking": "product/transfer_route_b/inputs/universe_targets.tsv",
+  "candidate_embeddings_dir": "esm2_universe",
+  "embeddings_match": "gene_name",
+  "route_b_model": "feasibility/transfer_routes/scf_routes/B2/final_model.pt",
+  "route_b_table": "feasibility/transfer_routes/scf_routes/B2/gene_table_final.npy",
+  "gene_order": "feasibility/transfer_routes/assets/scf_yeast/A2_init.tsv",
+  "esm2_model": "models/esm2/esm2_t33_650M_UR50D.pt",
+  "inputs_dir": "product/transfer_route_b/inputs",
+  "results_dir": "product/transfer_route_b/results_universe",
+  "top_k_report": 20,
+  "sanity_module_kegg": "data/pathway/kegg_sce_gene2pathway.raw.tsv",
+  "sanity_module_id": "sce04011",
+  "seed": 42
+}
