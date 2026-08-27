@@ -36,6 +36,16 @@ def bh_fdr(p):
 
 
 def main() -> None:
+    import argparse
+    ap = argparse.ArgumentParser()
+    # 诊断用途:覆盖配置常数做 K 敏感性扫描;默认取配置值=注册行为
+    ap.add_argument("--task-top-k", type=int, default=CFG["task_top_k"])
+    ap.add_argument("--results-suffix", default="")
+    args = ap.parse_args()
+    global TOP_K, RESULTS
+    TOP_K = args.task_top_k
+    RESULTS = ROOT / (CFG["results_dir"] + args.results_suffix)
+    print(f"[config] task_top_k={TOP_K} results={RESULTS}", flush=True)
     z = np.load(CFG["response_npz"], allow_pickle=True)
     orfs = z["strain_orfs"].astype(str)
     inchi = z["compound_inchikeys"].astype(str)
