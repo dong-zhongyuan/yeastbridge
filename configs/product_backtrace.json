@@ -1,0 +1,19 @@
+{
+  "yeastbridge_root": "/public/home/mengxl/dzy/yeastbridge",
+  "response_npz": "/public/home/mengxl/dzy/yeastbridge_vs/runs/discovery_release_v1/hiphop_cel/strain_response.npz",
+  "task_dir": "product/transfer_route_b/results",
+  "universe_embeddings_dir": "product/transfer_route_b/inputs/esm2_universe",
+  "universe_targets": "product/transfer_route_b/inputs/universe_targets.tsv",
+  "route_b_model": "feasibility/transfer_routes/scf_routes/B2/final_model.pt",
+  "route_b_table": "feasibility/transfer_routes/scf_routes/B2/gene_table_final.npy",
+  "gene_order": "feasibility/transfer_routes/assets/scf_yeast/A2_init.tsv",
+  "ortho_table": "feasibility/transfer/assets/orthodb_yeast_human_s288c.tsv",
+  "moa_labels": "/public/home/mengxl/dzy/yeastbridge_vs/paired_four_arm/moa_labels.tsv",
+  "exec_matrix": "product/execute_hiphop/results/exec_matrix.tsv",
+  "universe_snapshots": "/public/home/mengxl/dzy/yeastbridge_vs/data/external/crc_target_scan/source_snapshots",
+  "universe_files": ["gpcr_human.uniprot.reviewed.2026-08-13.tsv", "ion_channel_human.uniprot.reviewed.2026-08-13.tsv"],
+  "results_dir": "product/backtrace_route_b/results",
+  "n_perm_compound": 200,
+  "fdr_alpha": 0.1,
+  "seed": 42
+}
