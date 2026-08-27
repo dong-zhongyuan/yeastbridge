@@ -2,7 +2,11 @@
 """Fetch ChEMBL known targets for the significant HIP/HOP compounds
 (target annotation; design: product/drug_annotation/DESIGN.md).
 inchikey -> ChEMBL molecule -> activities -> target gene symbols.
-Robust to EBI throttling (exponential backoff, resumable, final retry)."""
+Robust to EBI throttling (exponential backoff, resumable, final retry).
+Gene symbols resolved in a final backfill over the distinct target set:
+ChEMBL deprecated target_components[].target_component_symbol, so symbols
+are read from target_component_synonyms[syn_type=GENE_SYMBOL] with the
+HGNC xref as fallback."""
 import json
 import time
 import urllib.parse
@@ -77,17 +81,8 @@ for i, ik in enumerate(iks):
         off += 100
         if off >= total or off > 2000:
             break
-    # 批量解析 target 基因符号
-    tcs = sorted({r[2] for r in rows if r[2]})
-    gene_of = {}
-    for tc in tcs:
-        t = get(f"{BASE}/target/{tc}.json")
-        if t and t.get("target_components"):
-            genes = [c.get("target_component_symbol", "") for c in t["target_components"]]
-            gene_of[tc] = " ".join(g for g in genes if g)
-        time.sleep(0.3)
     for r in rows:
-        w.writerow([r[0], r[1], r[2], gene_of.get(r[2], ""), r[4]])
+        w.writerow([r[0], r[1], r[2], "", r[4]])
     f.flush()
     if (i + 1) % 10 == 0:
         print(f"{i+1}/{len(iks)} compounds done", flush=True)
@@ -102,4 +97,40 @@ if failed:
         if m is None or not m.get("molecules"):
             w.writerow([ik, "", "", "", ""])
             f.flush()
+f.close()
+# 末段:靶点基因符号统一回填(对去重后的靶点集合各查一次,而非逐化合物)
+allrows = [ln.split("\t") for ln in done_path.read_text().splitlines()[1:]]
+tcs = sorted({r[2] for r in allrows if len(r) > 2 and r[2]})
+print(f"distinct targets to resolve: {len(tcs)}", flush=True)
+gene_of = {}
+for j, tc in enumerate(tcs, 1):
+    t = get(f"{BASE}/target/{tc}.json")
+    if t:
+        syms = []
+        for c in t.get("target_components", []) or []:
+            for s in c.get("target_component_synonyms", []) or []:
+                if s.get("syn_type") == "GENE_SYMBOL":
+                    v = s.get("component_synonym", "")
+                    if v and v not in syms:
+                        syms.append(v)
+        if not syms:
+            for c in t.get("target_components", []) or []:
+                for x in c.get("target_component_xrefs", []) or []:
+                    if x.get("xref_src_db") == "HGNC" and x.get("xref_name"):
+                        if x["xref_name"] not in syms:
+                            syms.append(x["xref_name"])
+        if syms:
+            gene_of[tc] = " ".join(syms)
+    time.sleep(0.2)
+    if j % 50 == 0:
+        print(f"  resolved {j}/{len(tcs)} targets", flush=True)
+tmp = done_path.with_suffix(".tsv.tmp")
+with open(tmp, "w", newline="") as fh:
+    fh.write(HEADER)
+    for r in allrows:
+        if len(r) >= 5 and r[2]:
+            r[3] = gene_of.get(r[2], "")
+        fh.write("\t".join(r[:5]) + "\n")
+tmp.replace(done_path)
+print(f"gene backfill complete: {sum(1 for r in allrows if len(r) >= 5 and r[3])} rows annotated", flush=True)
 print("[done]", flush=True)
