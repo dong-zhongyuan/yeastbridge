@@ -16,3 +16,105 @@
 [ep3] step 200/1134 loss=0.1189 elapsed=58.5min
 [ep3] step 400/1134 loss=0.1188 elapsed=63.1min
 [ep3] step 600/1134 loss=0.1185 elapsed=67.7min
+[ep3] step 800/1134 loss=0.1184 elapsed=72.4min
+[ep3] step 1000/1134 loss=0.1184 elapsed=77.0min
+[ep3] train=0.1183 val=0.1179
+[ep4] step 200/1134 loss=0.1168 elapsed=85.2min
+[ep4] step 400/1134 loss=0.1169 elapsed=89.8min
+[ep4] step 600/1134 loss=0.1166 elapsed=94.5min
+[ep4] step 800/1134 loss=0.1163 elapsed=99.1min
+[ep4] step 1000/1134 loss=0.1162 elapsed=103.8min
+[ep4] train=0.1162 val=0.1149
+[ep5] step 200/1134 loss=0.1148 elapsed=111.9min
+[ep5] step 400/1134 loss=0.1147 elapsed=116.6min
+[ep5] step 600/1134 loss=0.1147 elapsed=121.2min
+[ep5] step 800/1134 loss=0.1148 elapsed=125.9min
+[ep5] step 1000/1134 loss=0.1146 elapsed=130.5min
+[ep5] train=0.1145 val=0.1150
+[ep6] step 200/1134 loss=0.1134 elapsed=138.7min
+[ep6] step 400/1134 loss=0.1134 elapsed=143.4min
+[ep6] step 600/1134 loss=0.1137 elapsed=148.0min
+[ep6] step 800/1134 loss=0.1137 elapsed=152.7min
+[ep6] step 1000/1134 loss=0.1135 elapsed=157.3min
+[ep6] train=0.1134 val=0.1132
+[done] /public/home/mengxl/dzy/yeastbridge_re/feasibility/transfer_routes/scf_routes/A2 (160.8 min)
+[setup] route=B2 device=cuda
+{'mask_gene_name': False, 'gene_num': 19266, 'seq_len': 19266, 'encoder': {'hidden_dim': 768, 'depth': 12, 'heads': 12, 'dim_head': 64, 'seq_len': 19266, 'module_type': 'transformer', 'norm_first': False}, 'decoder': {'hidden_dim': 512, 'depth': 6, 'heads': 8, 'dim_head': 64, 'module_type': 'performer', 'seq_len': 19266, 'norm_first': False}, 'n_class': 104, 'pad_token_id': 103, 'mask_token_id': 102, 'bin_num': 100, 'bin_alpha': 1.0, 'rawcount': True, 'model': 'mae_autobin', 'test_valid_train_idx_dict': '/nfs_beijing/minsheng/data/os10000w-new/global_shuffle/meta.csv.train_set_idx_dict.pt', 'valid_data_path': '/nfs_beijing/minsheng/data/valid_count_10w.npz', 'num_tokens': 13, 'train_data_path': None, 'isPanA': False, 'isPlanA1': False, 'max_files_to_load': 5, 'bin_type': 'auto_bin', 'value_mask_prob': 0.3, 'zero_mask_prob': 0.03, 'replace_prob': 0.8, 'random_token_prob': 0.1, 'mask_ignore_token_ids': [0], 'decoder_add_zero': True, 'mae_encoder_max_seq_len': 15000, 'isPlanA': False, 'mask_prob': 0.3, 'model_type': 'mae_autobin', 'pos_embed': False, 'device': 'cuda'}
+[setup] cells=38225 trainable_params=34.6M
+[ep1] step 200/1134 loss=0.3527 elapsed=5.1min
+[ep1] step 400/1134 loss=0.2938 elapsed=10.0min
+[ep1] step 600/1134 loss=0.2651 elapsed=14.6min
+[ep1] step 800/1134 loss=0.2470 elapsed=19.3min
+[ep1] step 1000/1134 loss=0.2346 elapsed=24.0min
+[ep1] train=0.2283 val=0.1770
+[ep2] step 200/1134 loss=0.1765 elapsed=32.1min
+[ep2] step 400/1134 loss=0.1748 elapsed=36.8min
+[ep2] step 600/1134 loss=0.1731 elapsed=41.5min
+[ep2] step 800/1134 loss=0.1712 elapsed=46.1min
+[ep2] step 1000/1134 loss=0.1692 elapsed=50.8min
+[ep2] train=0.1680 val=0.1559
+[ep3] step 200/1134 loss=0.1561 elapsed=59.0min
+[ep3] step 400/1134 loss=0.1549 elapsed=63.7min
+[ep3] step 600/1134 loss=0.1535 elapsed=68.4min
+[ep3] step 800/1134 loss=0.1528 elapsed=73.0min
+[ep3] step 1000/1134 loss=0.1518 elapsed=77.7min
+[ep3] train=0.1512 val=0.1442
+[ep4] step 200/1134 loss=0.1446 elapsed=85.9min
+[ep4] step 400/1134 loss=0.1444 elapsed=90.6min
+[ep4] step 600/1134 loss=0.1434 elapsed=95.2min
+[ep4] step 800/1134 loss=0.1428 elapsed=99.9min
+[ep4] step 1000/1134 loss=0.1421 elapsed=104.6min
+[ep4] train=0.1418 val=0.1382
+[ep5] step 200/1134 loss=0.1378 elapsed=112.8min
+[ep5] step 400/1134 loss=0.1371 elapsed=117.4min
+[ep5] step 600/1134 loss=0.1367 elapsed=122.1min
+[ep5] step 800/1134 loss=0.1366 elapsed=126.7min
+[ep5] step 1000/1134 loss=0.1361 elapsed=131.4min
+[ep5] train=0.1359 val=0.1356
+[ep6] step 200/1134 loss=0.1332 elapsed=139.6min
+[ep6] step 400/1134 loss=0.1330 elapsed=144.2min
+[ep6] step 600/1134 loss=0.1331 elapsed=148.9min
+[ep6] step 800/1134 loss=0.1328 elapsed=153.5min
+[ep6] step 1000/1134 loss=0.1325 elapsed=158.2min
+[ep6] train=0.1323 val=0.1300
+[done] /public/home/mengxl/dzy/yeastbridge_re/feasibility/transfer_routes/scf_routes/B2 (161.7 min)
+[setup] route=C2 device=cuda
+{'mask_gene_name': False, 'gene_num': 19266, 'seq_len': 19266, 'encoder': {'hidden_dim': 768, 'depth': 12, 'heads': 12, 'dim_head': 64, 'seq_len': 19266, 'module_type': 'transformer', 'norm_first': False}, 'decoder': {'hidden_dim': 512, 'depth': 6, 'heads': 8, 'dim_head': 64, 'module_type': 'performer', 'seq_len': 19266, 'norm_first': False}, 'n_class': 104, 'pad_token_id': 103, 'mask_token_id': 102, 'bin_num': 100, 'bin_alpha': 1.0, 'rawcount': True, 'model': 'mae_autobin', 'test_valid_train_idx_dict': '/nfs_beijing/minsheng/data/os10000w-new/global_shuffle/meta.csv.train_set_idx_dict.pt', 'valid_data_path': '/nfs_beijing/minsheng/data/valid_count_10w.npz', 'num_tokens': 13, 'train_data_path': None, 'isPanA': False, 'isPlanA1': False, 'max_files_to_load': 5, 'bin_type': 'auto_bin', 'value_mask_prob': 0.3, 'zero_mask_prob': 0.03, 'replace_prob': 0.8, 'random_token_prob': 0.1, 'mask_ignore_token_ids': [0], 'decoder_add_zero': True, 'mae_encoder_max_seq_len': 15000, 'isPlanA': False, 'mask_prob': 0.3, 'model_type': 'mae_autobin', 'pos_embed': False, 'device': 'cuda'}
+[setup] cells=38225 trainable_params=38.7M
+[ep1] step 200/1134 loss=0.2851 elapsed=4.7min
+[ep1] step 400/1134 loss=0.2176 elapsed=9.3min
+[ep1] step 600/1134 loss=0.1911 elapsed=13.9min
+[ep1] step 800/1134 loss=0.1767 elapsed=18.6min
+[ep1] step 1000/1134 loss=0.1673 elapsed=23.2min
+[ep1] train=0.1628 val=0.1290
+[ep2] step 200/1134 loss=0.1269 elapsed=31.3min
+[ep2] step 400/1134 loss=0.1262 elapsed=35.9min
+[ep2] step 600/1134 loss=0.1257 elapsed=40.5min
+[ep2] step 800/1134 loss=0.1248 elapsed=45.2min
+[ep2] step 1000/1134 loss=0.1242 elapsed=49.8min
+[ep2] train=0.1239 val=0.1224
+[ep3] step 200/1134 loss=0.1205 elapsed=58.0min
+[ep3] step 400/1134 loss=0.1204 elapsed=62.6min
+[ep3] step 600/1134 loss=0.1200 elapsed=67.3min
+[ep3] step 800/1134 loss=0.1200 elapsed=71.9min
+[ep3] step 1000/1134 loss=0.1198 elapsed=76.7min
+[ep3] train=0.1198 val=0.1194
+[ep4] step 200/1134 loss=0.1180 elapsed=84.7min
+[ep4] step 400/1134 loss=0.1180 elapsed=89.3min
+[ep4] step 600/1134 loss=0.1177 elapsed=94.0min
+[ep4] step 800/1134 loss=0.1175 elapsed=98.6min
+[ep4] step 1000/1134 loss=0.1175 elapsed=103.2min
+[ep4] train=0.1175 val=0.1162
+[ep5] step 200/1134 loss=0.1160 elapsed=111.5min
+[ep5] step 400/1134 loss=0.1160 elapsed=117.0min
+[ep5] step 600/1134 loss=0.1160 elapsed=121.7min
+[ep5] step 800/1134 loss=0.1161 elapsed=126.3min
+[ep5] step 1000/1134 loss=0.1158 elapsed=135.3min
+[ep5] train=0.1158 val=0.1152
+[ep6] step 200/1134 loss=0.1148 elapsed=152.8min
+[ep6] step 400/1134 loss=0.1146 elapsed=162.7min
+[ep6] step 600/1134 loss=0.1149 elapsed=182.1min
+[ep6] step 800/1134 loss=0.1149 elapsed=203.1min
+[ep6] step 1000/1134 loss=0.1147 elapsed=224.1min
+[ep6] train=0.1146 val=0.1143
+[done] /public/home/mengxl/dzy/yeastbridge_re/feasibility/transfer_routes/scf_routes/C2 (239.5 min)

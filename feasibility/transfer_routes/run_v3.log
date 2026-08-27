@@ -1,0 +1,31 @@
+[feature] A2_scf_ortholog: (6733, 768)
+[feature] B2_scf_esm2inject: (6733, 768)
+[feature] C2_scf_scratch: (6733, 768)
+[task] A2_scf_ortholog T2: {"auroc": 0.4805304264763724, "auprc": 0.17198578369035386, "n_train": 4141.0, "n_val": 592.0}
+[task] A2_scf_ortholog T3: {"spearman_mean": 0.04399931128608984, "spearman_median": 0.0330797076080827, "top100_recall_mean": 0.19501683501683503, "n_train": 1034.0}
+[task] A2_scf_ortholog T4: {"n_records": 30.0, "n_usable": 28.0, "direction_consistency": 0.5714285714285714, "chance_direction": 0.8571428571428571}
+[task] A2_scf_ortholog T5: {"n_points": 8.0}
+[task] B2_scf_esm2inject T2: {"auroc": 0.8194967316588939, "auprc": 0.5621393448247142, "n_train": 4141.0, "n_val": 592.0}
+[task] B2_scf_esm2inject T3: {"spearman_mean": 0.16830199174028065, "spearman_median": 0.16883222911716872, "top100_recall_mean": 0.21124579124579126, "n_train": 1034.0}
+[task] B2_scf_esm2inject T4: {"n_records": 30.0, "n_usable": 28.0, "direction_consistency": 0.4642857142857143, "chance_direction": 0.8571428571428571}
+[task] B2_scf_esm2inject T5: {"n_points": 8.0}
+[task] C2_scf_scratch T2: {"auroc": 0.4686979078870971, "auprc": 0.17890111771420836, "n_train": 4141.0, "n_val": 592.0}
+[task] C2_scf_scratch T3: {"spearman_mean": 0.03976808571440092, "spearman_median": 0.03356028377361195, "top100_recall_mean": 0.19461279461279463, "n_train": 1034.0}
+[task] C2_scf_scratch T4: {"n_records": 30.0, "n_usable": 28.0, "direction_consistency": 0.5357142857142857, "chance_direction": 0.8571428571428571}
+[task] C2_scf_scratch T5: {"n_points": 8.0}
+[task] routed_scyeast T2: {"auroc": 0.7377420768219658, "auprc": 0.3940781446076398, "n_train": 3639.0, "n_val": 520.0}
+[task] routed_scyeast T3: {"spearman_mean": 0.14874805114251846, "spearman_median": 0.13139188556734102, "top100_recall_mean": 0.21477966101694915, "n_train": 1019.0}
+[task] routed_scyeast T4: {"n_records": 30.0, "n_usable": 28.0, "direction_consistency": 0.5714285714285714, "chance_direction": 0.8571428571428571}
+[task] routed_scyeast T5: {"n_points": 8.0}
+[task] esm2_mean T2: {"auroc": 0.8237156074993912, "auprc": 0.5858144140033522, "n_train": 4141.0, "n_val": 592.0}
+[task] esm2_mean T3: {"spearman_mean": 0.1721498677383508, "spearman_median": 0.16798839416552605, "top100_recall_mean": 0.20929292929292928, "n_train": 1034.0}
+[task] esm2_mean T4: {"n_records": 30.0, "n_usable": 28.0, "direction_consistency": 0.6071428571428571, "chance_direction": 0.8571428571428571}
+[task] esm2_mean T5: {"n_points": 8.0}
+[E] graph 5848 nodes
+[E-T2] essential on graph=972 nonessential pool=4545
+[E-T2] 200/972 median=0.0686
+[E-T2] 400/972 median=0.0850
+[E-T2] 600/972 median=0.0869
+[E-T2] 800/972 median=0.0860
+[done] selection: B2_scf_esm2inject (selected: highest T3 spearman among T2-qualified routes)
+[done] wrote /public/home/mengxl/dzy/yeastbridge_re/feasibility/transfer_routes/results/five_route_results.json

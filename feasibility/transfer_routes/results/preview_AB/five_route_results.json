@@ -1,8 +1,7 @@
 {
   "asset_hashes": {
     "A2_scf_ortholog": "f168b1d6e632b67466aebc517ce247a59f195c1bee8c91934e39219f5ad8c625",
-    "B2_scf_esm2inject": "c1cb4353552dc30b1a8134210729e563b8f1673d37042ad04b38acc850dda175",
-    "C2_scf_scratch": "e179497bb20110fabcd79ed02244fb4e983f42343622d38c1a6fcbf16fea3b71"
+    "B2_scf_esm2inject": "c1cb4353552dc30b1a8134210729e563b8f1673d37042ad04b38acc850dda175"
   },
   "config": "configs/transfer_routes.json",
   "form": "original five-task harness (eval/tasks.py verbatim) on scF-backed tables",
@@ -41,9 +40,6 @@
         "hit_at_5": 0.32142857142857145,
         "n_records": 30.0,
         "n_usable": 28.0
-      },
-      "T5": {
-        "n_points": 8.0
       }
     },
     "B2_scf_esm2inject": {
@@ -76,62 +72,7 @@
         "hit_at_5": 0.14285714285714285,
         "n_records": 30.0,
         "n_usable": 28.0
-      },
-      "T5": {
-        "n_points": 8.0
       }
-    },
-    "C2_scf_scratch": {
-      "T2": {
-        "auprc": 0.17890111771420836,
-        "auroc": 0.4686979078870971,
-        "n_test": 1184.0,
-        "n_train": 4141.0,
-        "n_val": 592.0,
-        "prevalence_test": 0.1875
-      },
-      "T3": {
-        "alpha": 100.0,
-        "n_test": 297.0,
-        "n_train": 1034.0,
-        "spearman_mean": 0.03976808571440092,
-        "spearman_median": 0.03356028377361195,
-        "top100_recall_mean": 0.19461279461279463,
-        "train_fraction": 1.0,
-        "val_spearman": 0.04001887498430284
-      },
-      "T4": {
-        "chance_direction": 0.8571428571428571,
-        "chance_hit_at_1": 0.046753246753246755,
-        "chance_hit_at_3": 0.14025974025974025,
-        "chance_hit_at_5": 0.23376623376623382,
-        "direction_consistency": 0.5357142857142857,
-        "hit_at_1": 0.0,
-        "hit_at_3": 0.07142857142857142,
-        "hit_at_5": 0.17857142857142858,
-        "n_records": 30.0,
-        "n_usable": 28.0
-      },
-      "T5": {
-        "n_points": 8.0
-      }
-    },
-    "E_sga_propagation": {
-      "T1": "N/A (no gene-embedding product)",
-      "T2": {
-        "median_normalized_rank": 0.08504,
-        "n_essential_loo": 972,
-        "n_pool": 4545,
-        "pooled_auroc": 0.81397
-      },
-      "T3": "N/A (no gene-embedding product)",
-      "T4": {
-        "direction_consistency": 0.1429,
-        "hit_at_3": 0.8571,
-        "hit_at_5": 0.8571,
-        "n_usable": 28
-      },
-      "T5": "N/A (no gene-embedding product)"
     },
     "esm2_mean": {
       "T2": {
@@ -163,9 +104,6 @@
         "hit_at_5": 0.2857142857142857,
         "n_records": 30.0,
         "n_usable": 28.0
-      },
-      "T5": {
-        "n_points": 8.0
       }
     },
     "routed_scyeast": {
@@ -198,9 +136,6 @@
         "hit_at_5": 0.2857142857142857,
         "n_records": 30.0,
         "n_usable": 28.0
-      },
-      "T5": {
-        "n_points": 8.0
       }
     }
   }

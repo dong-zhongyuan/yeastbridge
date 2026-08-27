@@ -1,0 +1,12 @@
+{
+  "route": "C2",
+  "epochs": 6,
+  "batch": 32,
+  "accum": 1,
+  "lr": 0.0001,
+  "mask_p": 0.3,
+  "zero_mask_p": 0.03,
+  "seed": 42,
+  "n_train": 36314,
+  "n_val": 1911
+}
