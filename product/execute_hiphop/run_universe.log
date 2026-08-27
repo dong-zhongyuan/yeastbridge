@@ -1,0 +1,10 @@
+[config] endpoint=v2-spearman task_top_k=67 results=/public/home/mengxl/dzy/yeastbridge_re/product/execute_hiphop/results_universe
+strains=5668 non-vehicle conditions=3356
+[v2] targets=1177 task-strain coverage median=5654
+[v2] perm 200/1000
+[v2] perm 400/1000
+[v2] perm 600/1000
+[v2] perm 800/1000
+[v2] perm 1000/1000
+{"config": "configs/product_execute_universe.json", "endpoint": "v2-spearman", "n_targets": 1177, "n_compounds": 3250, "n_pairs": 3825250, "n_pairs_q_below_alpha": 7100, "task_top_k": null, "n_perm": 1000, "seed": 42, "statistic": "full-profile Spearman, strain-label permutation null"}
+[done] -> /public/home/mengxl/dzy/yeastbridge_re/product/execute_hiphop/results_universe
