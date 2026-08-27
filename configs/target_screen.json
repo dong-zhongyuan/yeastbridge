@@ -25,7 +25,8 @@
   "box_padding": 4.0,
   "box_min_size": 22.0,
   "plddt_site_min": 70.0,
-  "vina": {"exhaustiveness": 2, "num_modes": 9, "cpu_per_job": 4},
+  "vina": {"exhaustiveness": 2, "num_modes": 9, "cpu_per_job": 1},
+  "screen_pockets_per_target": 1,
   "max_workers": 44,
   "calibration": {
     "top_frac": 0.05,

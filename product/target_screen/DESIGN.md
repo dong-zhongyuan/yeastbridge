@@ -10,7 +10,8 @@
 1. inventory：按 UniProt accession 查 RCSB 沉积结构（entity 精确匹配，仅实验结构，取分辨率最高者）；无沉积 → AlphaFold DB 预测模型（prediction API 解析文件 URL，优先 PDB 格式直链；B 因子=pLDDT）。产物 `results/inventory.tsv`，结构文件入 `structures/raw/`（gitignore，脚本可再生）。
 2. 配体制备：ChEMBL canonical SMILES（命中按 InChIKey、基准药按 pref_name 解析）→ dimorphite-dl pH 7.4 质子化 → RDKit ETKDG 单构象（注册种子，Vina 柔性搜索只需输入种子构象）→ meeko PDBQT。产物 `inputs/ligands/`。
 3. 受体制备：gemmi 只保留聚合物（去水/杂原子/替代构象，首模型）→ fpocket 默认参数 Score top-N 口袋；AF2 来源口袋要求口袋残基平均 pLDDT ≥ 阈值；口袋盒 = 口袋原子包围盒 + padding（各维下限）；OpenBabel `-p 7.4 -xr` 转刚性受体 PDBQT。产物 `structures/receptors|pockets/`（gitignore）。
-4. 反向对接：Vina python API，逐口袋建图后批对接全部配体（exhaustiveness=2、9 poses、cpu_per_job）；配体×靶点得分 = 各口袋最优；多进程按口袋并行，逐口袋 JSONL 断点续跑。产物 `results/target_scores.tsv`（全矩阵）+ `results/raw_pockets/`。
+4. 反向对接：Vina python API，逐口袋建图后批对接全部配体（exhaustiveness=2、9 poses、单线程进程 × 44 worker 避免超订阅）；配体×靶点得分 = 各口袋最优；多进程按口袋并行，逐口袋 JSONL 断点续跑。口袋分期：生产初筛只跑每靶点 top-1 口袋（`screen_pockets_per_target`），口袋 2/3 留给初筛出现信号靶点的补做轮。产物 `results/target_scores.tsv`（全矩阵）+ `results/raw_pockets/`。
+4b. 计算引擎：CPU Vina 为基线与校验引擎；GPU 引擎（Vina-GPU 2.1，OpenCL，Vina 打分函数系的 GPU 实现）作为生产全矩阵引擎构建中——其搜索参数范式不同（thread/search_depth，无 exhaustiveness），切换前须完成与 CPU 版的抽样一致性校验，且所有校准（基准回收、经验零分布）在最终生产引擎上重新执行。GPU 仅用空闲卡并限制占用，不动既有进程。
 5. 校准（门禁，海报版缺失的核心层）：
    - 回顾性基准：5 个注册基准药，其已知 universe 靶点须进入该药全 universe 排名 top 5%；≥3 个可评估且 ≥2 达标才放行正式结果。
    - 每配体经验零分布：同配体 1177 靶点得分主体（median/MAD 高斯）为非结合背景，BH-FDR 定命中。

@@ -47,13 +47,14 @@ def load_ligands(cfg):
 
 def pocket_jobs(cfg):
     base = ROOT / cfg["structures_dir"]
+    n_screen = int(cfg.get("screen_pockets_per_target", 3))
     jobs = []
     for pj in sorted((base / "pockets").glob("*.json")):
         acc = pj.stem
         rec = base / "receptors" / f"{acc}.pdbqt"
         if not rec.exists():
             continue
-        for pk in json.loads(pj.read_text()):
+        for pk in json.loads(pj.read_text())[:n_screen]:
             jobs.append({"acc": acc, "receptor": str(rec), "pocket": pk})
     return jobs
 
