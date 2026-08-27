@@ -21,7 +21,17 @@ import numpy as np
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
-CFG = json.loads((ROOT / "configs/product_execute.json").read_text())
+
+
+def _load_cfg():
+    import argparse
+    ap0 = argparse.ArgumentParser(add_help=False)
+    ap0.add_argument("--config", default="configs/product_execute.json")
+    known, _ = ap0.parse_known_args()
+    return known.config, json.loads((ROOT / known.config).read_text())
+
+
+CFG_NAME, CFG = _load_cfg()
 RESULTS = ROOT / CFG["results_dir"]
 TASK_DIR = ROOT / CFG["task_dir"]
 TOP_K = CFG["task_top_k"]
@@ -171,6 +181,7 @@ def main() -> None:
             top_dir / f"{target}.tsv", sep="\t", index=False)
     n_sig = int((best["q"] < CFG["fdr_alpha"]).sum())
     summary = {
+        "config": CFG_NAME,
         "endpoint": ENDPOINT,
         "n_targets": int(best["target_id"].nunique()),
         "n_compounds": int(best["inchikey"].nunique()),
