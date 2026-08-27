@@ -1,54 +1,46 @@
-# Product step 2: human functional target -> yeast-executable task (route B, verbatim)
+# Product step 2: human functional targets -> yeast-executable tasks (route B, verbatim)
 
 Registered 2026-08-27.
 
-## UNIVERSE-WIDE AMENDMENT (2026-08-27, user directive; supersedes the 47-panel scope)
+## Scope
 
-The upstream 47-candidate pre-screen (yeastbridge_vs production_v1
-signed-direction eligibility) is REMOVED as a pipeline gate: it was
-inherited, not re-run here; its own record states credible_signed_ranking
-= false with zero direct same-direction perturbations; and the current
-architecture (protein-space transfer + per-target execution + convergence
-scoring) no longer needs an upfront statistical pre-filter. Scope becomes
-the FULL frozen universe: 1,177 membrane proteins (839 GPCR + 338 ion
-channels, UniProt reviewed 2026-08-13 snapshot - used as DATA, not as a
-result). Inputs: universe proteins fetched by gene_exact (1,177/1,177),
-ESM2-650M layer-33 embeddings (esm2_universe/, 0 NaN), universe_targets
-.tsv (family from snapshot; scFoundation direction score carried as a
-FINAL-scoring column; 2 unscored genes -> blank = N/A). Outputs:
-results_universe/yeast_task_<TARGET>.tsv x 1,177 + transfer_summary.json.
-The 47-panel outputs (results/) are retained as a REFERENCE set for
-overlap comparison only. Target selection moves to the convergence layer
-(step 4). Config: configs/product_transfer_universe.json.
+The FULL frozen target universe: 1,177 human membrane proteins (839 GPCR +
+338 ion channels; UniProt reviewed 2026-08-13 snapshot, used as DATA).
+Every universe member is transferred; target selection is deferred to the
+convergence layer (step 4). No upstream pre-filter participates.
 
-## Mechanism (registered 2026-08-27; unchanged by the amendment)
+## Mechanism (route B, exactly as trained)
 
-- Query: ESM2-650M layer-33 mean-pooled embedding of the human target
-  protein (47 registered candidates from product step 1), passed through
-  the TRAINED injection projection (pos_emb.proj from
-  feasibility/transfer_routes/scf_routes/B2/final_model.pt).
+- Query: ESM2-650M layer-33 mean-pooled embedding of the target protein,
+  passed through the TRAINED injection projection (pos_emb.proj from
+  feasibility/transfer_routes/scf_routes/B2/final_model.pt - the selected
+  five-route transfer representation).
 - Scoring: cosine against the trained route-B gene table (6,733 yeast
   genes x 768).
 - Output: per-target full yeast gene ranking = the yeast-executable task
-  (results/yeast_task_<TARGET>.tsv), top-K report and summary JSON.
+  (results/yeast_task_<TARGET>.tsv, 1,177 files) + transfer_summary.json.
 
 No orthology table participates anywhere in this step; membrane targets
-with no yeast ortholog are handled by construction. The intended_direction
-(activate/inhibit) is carried through from product step 1 as task metadata;
-mapping direction onto yeast perturbation mode (overexpress/delete) is
-explicitly out of scope for v1 (requires the response layer; registered as
-a follow-up).
+with no yeast ortholog are handled by construction.
 
-Sanity check (registered): for GPCR-family targets, the median rank of the
-yeast pheromone/MAPK pathway genes (KEGG sce04011, 114 genes) in the
-transfer ranking is reported against the random median (~3,367). No gate -
-descriptive calibration only.
+## Inputs
 
-Claim boundary: rankings are transfer-mechanism outputs, not perturbation
-evidence; wet-lab remains the arbiter.
+- Universe proteins: UniProt reviewed, fetched by gene_exact
+  (1,177/1,177; inputs/universe_proteins.fasta).
+- ESM2 embeddings: inputs/esm2_universe/ (0 NaN).
+- inputs/universe_targets.tsv: family from the snapshot; scFoundation
+  model direction score (from the retrieval reader) carried as a
+  final-scoring column; 2 unscored genes left blank (= N/A).
 
-Selection caveat: the formal five-route selection is completed by the
-registered run after C'' finishes; the preview (T2 0.8195 / T3 0.168,
-only T2-qualified candidate) locks it barring an implausible C'' reversal.
-If the formal run contradicts the preview, this product step's config is
-re-pointed and re-run (single config change, no code).
+## Sanity check (registered, descriptive only)
+
+For GPCR-family targets, the median rank of the yeast pheromone/MAPK
+pathway genes (KEGG sce04011, 114 genes) in the transfer ranking is
+reported against the random median (~3,367). No gate.
+
+## Claim boundary
+
+Rankings are transfer-mechanism outputs, not perturbation evidence;
+wet-lab remains the arbiter. Direction mapping onto yeast perturbation
+mode (overexpress/delete) is out of scope here and belongs to the
+response layer.

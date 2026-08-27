@@ -1,8 +1,0 @@
-[setup] device=cpu (requested=auto) model=/public/home/mengxl/dzy/yeastbridge/models/esm2/esm2_t33_650M_UR50D.pt layer=33
-[setup] model loaded in 9.1s, embed_dim=1280, dtype=fp32
-[data] 47 proteins from product/transfer_route_b/inputs/candidate_proteins.fasta
-[data] 5 batches (budget 16384 tok), total_residues=38366, mapped_to_gene_master=0
-[run] batch 1/5 seqs=1 res=6306/38366 (210 res/s) elapsed=30s
-[run] batch 5/5 seqs=6 res=38366/38366 (215 res/s) elapsed=178s
-[done] {"model": "esm2_t33_650M_UR50D.pt", "repr_layer": 33, "n_proteins": 47, "dim": 1280, "total_residues": 38366, "nan_embeddings": 0, "seconds": 178.4, "dtype": "float32 mean-pooled over residues (excl BOS/EOS), model run in fp16"}
-[done] wrote product/transfer_route_b/inputs/esm2_candidates/{esm2_mean_fp32.npy,index.tsv,esm2_mean.parquet,run_info.json}
