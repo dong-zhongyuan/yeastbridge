@@ -17,13 +17,13 @@ OUT = ROOT / CFG["results_dir"]
 BASE = "https://www.ebi.ac.uk/chembl/api/data"
 
 
-def get(url, tries=6):
+def get(url, tries=8):
     for a in range(tries):
         try:
             req = urllib.request.Request(url, headers={"Accept": "application/json"})
             return json.loads(urllib.request.urlopen(req, timeout=60).read().decode())
         except Exception as e:
-            wait = min(300, 10 * (2 ** a))
+            wait = min(600, 10 * (2 ** a))
             print(f"backoff {wait}s ({e})", flush=True)
             time.sleep(wait)
     return None
@@ -35,22 +35,29 @@ print(f"compounds to fetch: {len(iks)}", flush=True)
 
 OUT.mkdir(parents=True, exist_ok=True)
 done_path = OUT / "chembl_targets.tsv"
+HEADER = "inchikey\tmolecule_chembl_id\ttarget_chembl_id\ttarget_gene\tpchembl\n"
+# 断点续传:已有任意行的化合物视为完成;单行空记录=查过且 ChEMBL 无此分子
 done = set()
 if done_path.exists():
     for r in pd.read_csv(done_path, sep="\t").fillna("").to_dict("records"):
-        if r["gene_symbols"]:
-            done.add(r["inchikey"])
+        done.add(r["inchikey"])
 print(f"already fetched: {len(done)}", flush=True)
 
+fresh = not done_path.exists()
 f = open(done_path, "a", newline="")
-f.write("inchikey\tmolecule_chembl_id\ttarget_chembl_id\ttarget_gene\tpchembl\n") if not done_path.exists() else None
+if fresh:
+    f.write(HEADER)
 import csv
 w = csv.writer(f, delimiter="\t")
+failed = []
 for i, ik in enumerate(iks):
     if ik in done:
         continue
     m = get(f"{BASE}/molecule.json?molecule_structures__standard_inchi_key={ik}&limit=1")
-    if not m or not m.get("molecules"):
+    if m is None:
+        failed.append(ik)  # 网络失败不落盘,末轮重试
+        continue
+    if not m.get("molecules"):
         w.writerow([ik, "", "", "", ""])
         f.flush()
         continue
@@ -84,4 +91,15 @@ for i, ik in enumerate(iks):
     f.flush()
     if (i + 1) % 10 == 0:
         print(f"{i+1}/{len(iks)} compounds done", flush=True)
+# 末轮:网络失败的化合物整体重试一次
+if failed:
+    print(f"final retry pass: {len(failed)} network-failed compounds", flush=True)
+    done_now = {r for r in pd.read_csv(done_path, sep="\t")["inchikey"]}
+    for ik in failed:
+        if ik in done_now:
+            continue
+        m = get(f"{BASE}/molecule.json?molecule_structures__standard_inchi_key={ik}&limit=1")
+        if m is None or not m.get("molecules"):
+            w.writerow([ik, "", "", "", ""])
+            f.flush()
 print("[done]", flush=True)
