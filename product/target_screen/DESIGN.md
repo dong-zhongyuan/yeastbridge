@@ -7,7 +7,7 @@
 - 对海报版反向筛选方法的缺陷修复：删掉无校准的 AI 粗筛层（1177 规模直接全库对接）；阴性对照与阈值全部经验校准；AF2 结构加口袋级 pLDDT 过滤；结果经回顾性基准门禁。
 
 ## 流程（参数全部在 configs/target_screen.json）
-1. inventory：按 UniProt accession 查 RCSB 沉积结构（entity 精确匹配，仅实验结构，取分辨率最高者）；无沉积 → AlphaFold DB v4 预测模型（B 因子=pLDDT）。产物 `results/inventory.tsv`，结构文件入 `structures/raw/`（gitignore，脚本可再生）。
+1. inventory：按 UniProt accession 查 RCSB 沉积结构（entity 精确匹配，仅实验结构，取分辨率最高者）；无沉积 → AlphaFold DB 预测模型（prediction API 解析文件 URL，优先 PDB 格式直链；B 因子=pLDDT）。产物 `results/inventory.tsv`，结构文件入 `structures/raw/`（gitignore，脚本可再生）。
 2. 配体制备：ChEMBL canonical SMILES（命中按 InChIKey、基准药按 pref_name 解析）→ dimorphite-dl pH 7.4 质子化 → RDKit ETKDG 单构象（注册种子，Vina 柔性搜索只需输入种子构象）→ meeko PDBQT。产物 `inputs/ligands/`。
 3. 受体制备：gemmi 只保留聚合物（去水/杂原子/替代构象，首模型）→ fpocket 默认参数 Score top-N 口袋；AF2 来源口袋要求口袋残基平均 pLDDT ≥ 阈值；口袋盒 = 口袋原子包围盒 + padding（各维下限）；OpenBabel `-p 7.4 -xr` 转刚性受体 PDBQT。产物 `structures/receptors|pockets/`（gitignore）。
 4. 反向对接：Vina python API，逐口袋建图后批对接全部配体（exhaustiveness=2、9 poses、cpu_per_job）；配体×靶点得分 = 各口袋最优；多进程按口袋并行，逐口袋 JSONL 断点续跑。产物 `results/target_scores.tsv`（全矩阵）+ `results/raw_pockets/`。

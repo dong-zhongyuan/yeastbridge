@@ -162,18 +162,32 @@ def main():
                            best_meth, str(pdb_path.relative_to(ROOT)), note]
                     n_pdb += 1
             if row is None:
-                st5, b5 = http(cfg["af2_download"].format(acc=acc))
-                if st5 != 200 or len(b5) < 1000:
+                st5, b5 = http(cfg["af2_api"].format(acc=acc))
+                url = None
+                if st5 == 200 and b5:
+                    try:
+                        pred = json.loads(b5)[0]
+                        url = pred.get("pdbUrl") or pred.get("cifUrl")
+                    except Exception:  # noqa: BLE001
+                        url = None
+                if not url:
                     n_fail += 1
                     continue
-                cif = raw_dir / f"{acc}.cif"
-                cif.write_bytes(b5)
+                st6, b6 = http(url)
+                if st6 != 200 or len(b6) < 1000:
+                    n_fail += 1
+                    continue
                 pdb_path = raw_dir / f"{acc}.pdb"
-                to_pdb(cif, pdb_path)
-                cif.unlink()
+                if url.endswith(".pdb"):
+                    pdb_path.write_bytes(b6)
+                else:
+                    cif = raw_dir / f"{acc}.cif"
+                    cif.write_bytes(b6)
+                    to_pdb(cif, pdb_path)
+                    cif.unlink()
                 row = [acc, gene, "af2", "", "", "predicted",
                        str(pdb_path.relative_to(ROOT)),
-                       "alphafold_db_v4;b_factor=pLDDT"]
+                       f"alphafold_db;{url.rsplit('/', 1)[-1]}"]
                 n_af2 += 1
             fh.write("\t".join(row) + "\n")
             fh.flush()

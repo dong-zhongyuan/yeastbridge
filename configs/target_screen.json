@@ -17,7 +17,7 @@
   "rcsb_entry": "https://data.rcsb.org/rest/v1/core/entry",
   "rcsb_download": "https://files.rcsb.org/download/{pdb_id}.pdb",
   "rcsb_download_cif": "https://files.rcsb.org/download/{pdb_id}.cif",
-  "af2_download": "https://alphafold.ebi.ac.uk/files/AF-{acc}-F1-model_v4.cif",
+  "af2_api": "https://alphafold.ebi.ac.uk/api/prediction/{acc}",
   "chembl_base": "https://www.ebi.ac.uk/chembl/api/data",
   "ph": 7.4,
   "conformer_seed": 42,
