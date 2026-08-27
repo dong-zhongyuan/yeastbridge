@@ -35,6 +35,39 @@ def get_json(url, tries=8):
     return None
 
 
+def get_text(url, tries=4):
+    for t in range(tries):
+        try:
+            with urllib.request.urlopen(
+                    urllib.request.Request(url), timeout=60) as r:
+                return r.read().decode().strip()
+        except Exception:  # noqa: BLE001
+            time.sleep(min(120, 5 * 2 ** t))
+    return None
+
+
+def smiles_fallback(inchikey):
+    """Resolve SMILES outside ChEMBL: CACTUS keeps stereochemistry from the
+    InChIKey; PubChem is connectivity-only (flat) fallback. Returns
+    (smiles, source) or ("", "pending_network")."""
+    txt = get_text(
+        f"https://cactus.nci.nih.gov/chemical/structure/"
+        f"{urllib.parse.quote(inchikey)}/smiles")
+    if txt and not txt.startswith("<") and "\n" not in txt and len(txt) < 2000:
+        return txt, "cactus"
+    rec = get_json(
+        f"https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/inchikey/"
+        f"{inchikey}/property/CanonicalSMILES/JSON")
+    if rec and "PropertyTable" in rec:
+        props = rec["PropertyTable"]["Properties"][0]
+        smi = props.get("CanonicalSMILES") or props.get("ConnectivitySMILES")
+        if smi:
+            return smi, "pubchem_flat"
+    if (txt is None) and (rec is None):
+        return "", "pending_network"
+    return "", "not_resolvable"
+
+
 def protonated(smiles, ph):
     try:
         from dimorphite_dl import protonate_smiles
@@ -54,6 +87,9 @@ def make_pdbqt(smiles, ph, seed, out_path: Path):
 
     prot, note = protonated(smiles, ph)
     mol = Chem.MolFromSmiles(prot)
+    if mol is None:
+        prot, note = smiles, "neutral_fallback_sanitize"
+        mol = Chem.MolFromSmiles(prot)
     if mol is None:
         raise ValueError("rdkit_sanitize_failed")
     mol = Chem.AddHs(mol)
@@ -117,13 +153,20 @@ def main():
                     w.writerow([lid, label, source, label, "",
                                 "pending_network", ""])
                     continue
+                src_note = "chembl"
                 if not rec.get("molecules"):
-                    w.writerow([lid, label, source, label, "",
-                                "failed", "not_in_chembl"])
-                    continue
-                ms = rec["molecules"][0].get("molecule_structures") or {}
-                smiles = ms.get("canonical_smiles", "")
-                ik = ms.get("standard_inchi_key", label)
+                    smiles, src_note = smiles_fallback(label)
+                    if not smiles:
+                        w.writerow([lid, label, source, label, "",
+                                    "pending_network"
+                                    if src_note == "pending_network"
+                                    else "failed", src_note])
+                        continue
+                    ik = label
+                else:
+                    ms = rec["molecules"][0].get("molecule_structures") or {}
+                    smiles = ms.get("canonical_smiles", "")
+                    ik = ms.get("standard_inchi_key", label)
             else:
                 rec = get_json(
                     f"{base}/molecule.json?pref_name__iexact="
@@ -148,7 +191,8 @@ def main():
                 prot, note = make_pdbqt(smiles, cfg["ph"],
                                         cfg["conformer_seed"],
                                         lig_dir / f"{lid}.pdbqt")
-                w.writerow([lid, label, source, ik, prot, "ok", note])
+                w.writerow([lid, label, source, ik, prot, "ok",
+                            f"{src_note}:{note}"])
             except Exception as e:  # noqa: BLE001
                 w.writerow([lid, label, source, ik, smiles, "failed",
                             f"prep:{type(e).__name__}"])
