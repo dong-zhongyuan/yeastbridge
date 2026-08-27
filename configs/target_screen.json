@@ -1,0 +1,39 @@
+{
+  "universe_fasta": "product/transfer_route_b/inputs/universe_proteins.fasta",
+  "universe_targets": "product/transfer_route_b/inputs/universe_targets.tsv",
+  "exec_matrix": "product/execute_hiphop/results/exec_matrix.tsv",
+  "fdr_alpha": 0.1,
+  "inputs_dir": "product/target_screen/inputs",
+  "structures_dir": "product/target_screen/structures",
+  "results_dir": "product/target_screen/results",
+  "benchmarks": [
+    {"name": "nifedipine", "known_targets": ["CACNA1C"]},
+    {"name": "verapamil", "known_targets": ["CACNA1D", "CACNA1C", "KCNH2"]},
+    {"name": "flunarizine", "known_targets": ["CACNA1G", "CACNA1H"]},
+    {"name": "amiodarone", "known_targets": ["KCNH2", "KCNQ1"]},
+    {"name": "quinidine", "known_targets": ["KCNH2", "KCNA5"]}
+  ],
+  "rcsb_search": "https://search.rcsb.org/rcsbsearch/v2/query",
+  "rcsb_entry": "https://data.rcsb.org/rest/v1/core/entry",
+  "rcsb_download": "https://files.rcsb.org/download/{pdb_id}.pdb",
+  "rcsb_download_cif": "https://files.rcsb.org/download/{pdb_id}.cif",
+  "af2_download": "https://alphafold.ebi.ac.uk/files/AF-{acc}-F1-model_v4.cif",
+  "chembl_base": "https://www.ebi.ac.uk/chembl/api/data",
+  "ph": 7.4,
+  "conformer_seed": 42,
+  "fpocket_top_n": 3,
+  "box_padding": 4.0,
+  "box_min_size": 22.0,
+  "plddt_site_min": 70.0,
+  "vina": {"exhaustiveness": 2, "num_modes": 9, "cpu_per_job": 4},
+  "max_workers": 44,
+  "calibration": {
+    "top_frac": 0.05,
+    "min_evaluable": 3,
+    "min_pass": 2,
+    "fdr_alpha": 0.05,
+    "decoys_per_benchmark": 10,
+    "decoy_target_sample": 200,
+    "decoy_seed": 20260827
+  }
+}
