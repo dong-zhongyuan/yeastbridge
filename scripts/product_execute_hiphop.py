@@ -80,6 +80,7 @@ def standardize_cols(A):
 def main() -> None:
     import argparse
     ap = argparse.ArgumentParser()
+    ap.add_argument("--config", default=CFG_NAME)  # 已在模块级消费,此处仅为放行
     # 诊断用途:覆盖配置常数做 K 敏感性扫描;默认取配置值=注册行为
     ap.add_argument("--task-top-k", type=int, default=CFG["task_top_k"])
     ap.add_argument("--results-suffix", default="")
