@@ -1,0 +1,18 @@
+{
+  "results_dir": "product/pd_validation/results",
+  "inputs_dir": "product/pd_validation/inputs",
+  "models_dir": "product/pd_validation/models",
+  "universe_targets": "product/transfer_route_b/inputs/universe_targets.tsv",
+  "universe_fasta": "product/transfer_route_b/inputs/universe_proteins.fasta",
+  "ligand_registry": "product/target_screen/inputs/ligands/registry.tsv",
+  "branch_pairs": "product/chembl_branch/results/gpu_dock_pairs.tsv",
+  "chembl_base": "https://www.ebi.ac.uk/chembl/api/data",
+  "calibration_year_min": 2023,
+  "chembl_targets_batch": 100,
+  "pdenv_python": "/public/home/mengxl/dzy/envs/pdenv/bin/python",
+  "deeppurpose_models": ["MPNN", "CNN", "Transformer"],
+  "hf_mirror": "https://hf-mirror.com",
+  "perturbnet_repo": "cyclopeta/PerturbNet_reproduce",
+  "knn_k": 10,
+  "seed": 42
+}
