@@ -196,7 +196,7 @@ def apply_stage(cfg):
     ok = [bool(s) and bool(q) for s, q in zip(smis, seqs)]
     P = predict_all([s for s, o in zip(smis, ok) if o],
                     [q for q, o in zip(seqs, ok) if o])
-    w_of = cal.get("weights") or {}
+    w_of = (cal.get("weights") or {}) if cfg.get("use_weights") else {}
     rescaled = {}
     for name_m, p in P.items():
         a1, b1 = cal["rescale"][name_m]
