@@ -43,6 +43,10 @@ def main():
     ch = pd.read_csv(ROOT / cfg["chembl_targets"], sep="\t").fillna("")
     ch["pchembl"] = pd.to_numeric(ch["pchembl"], errors="coerce")
     q = ch[(ch["target_gene"] != "") & (ch["pchembl"] >= cfg["min_pchembl"])]
+    # project scope: ion-channel/GPCR universe only
+    uni = pd.read_csv(ROOT / cfg["universe_targets"], sep="\t")
+    uni_genes = set(uni["target_id"])
+    q = q[q["target_gene"].str.split().str[0].isin(uni_genes)]
     # per-pair strongest value (literature-standard curation)
     q = (q.sort_values("pchembl", ascending=False)
            .drop_duplicates(["inchikey", "target_chembl_id"]))
