@@ -33,7 +33,7 @@ MODELS = [
     ("CNN", "CNN", "cnn_cnn_bindingdb_ic50"),
     ("Morgan", "CNN", "morgan_cnn_bindingdb_ic50"),
     ("MPNN", "CNN", "mpnn_cnn_kiba"),
-    ("CNN", "CNN", "cnn_cnn_kiba"),
+    ("Morgan", "AAC", "morgan_aac_kiba"),
     ("Morgan", "CNN", "morgan_cnn_kiba"),
     ("MPNN", "CNN", "mpnn_cnn_davis"),
     ("CNN", "CNN", "cnn_cnn_davis"),
