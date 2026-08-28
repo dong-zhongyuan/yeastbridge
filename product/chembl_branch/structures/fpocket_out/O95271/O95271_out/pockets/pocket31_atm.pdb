@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    31:
+HEADER 0  - Pocket Score                      : -0.0926
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9690
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6703
+HEADER 5  - Mean B-factor of pocket residues  : 0.2055
+HEADER 6  - Hydrophobicity Score              : 18.1000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 289.5831
+HEADER 10 - Pocket volume (convex hull)       : 14.6775
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3125
+ATOM   4487   CG ARG B1180     -48.051 119.784  -5.138  0.00  0.00           C 0
+ATOM   4491  NH1 ARG B1180     -46.061 120.476  -2.543  0.24  9.84           N 0
+ATOM   4488   CD ARG B1180     -46.559 120.039  -5.304  0.00  0.00           C 0
+ATOM   4459  OD1 ASN B1178     -50.105 125.726  -7.782  0.44  5.36           O 0
+ATOM   5646  CD1 LEU B1256     -50.861 120.623  -3.068  0.00  0.00           C 0
+ATOM   4457   CB ASN B1178     -51.649 124.029  -7.120  0.00  0.00           C 0
+ATOM   4458   CG ASN B1178     -51.171 125.450  -7.223  0.00  0.00           C 0
+ATOM   5693   OG SER B1259     -52.954 123.819  -1.027  0.00  0.00           O 0
+ATOM   5644   CB LEU B1256     -53.056 121.437  -3.979  0.00  0.00           C 0
+ATOM   5662    O GLY B1257     -53.994 125.419  -4.909  0.60  2.14           O 0
+ATOM   4460  ND2 ASN B1178     -51.955 126.371  -6.685  0.61  6.56           N 0
+ATOM   5667   CA LYS B1258     -55.697 127.134  -3.521  0.00  0.00           C 0
+ATOM   5688    N SER B1259     -54.566 126.274  -1.559  0.67  4.37           N 0
+ATOM   5671   CG LYS B1258     -56.051 129.475  -2.665  0.00  0.00           C 0
+ATOM   4384  ND2 ASN B1173     -54.934 128.194  -7.337  0.55  5.47           N 0
+ATOM   5692   CB SER B1259     -53.095 124.913  -0.136  0.00  0.00           C 0
+ATOM   5995  CD1 ILE B1279     -50.394 122.888   0.952  0.00  0.00           C 0
+ATOM   6023  NH1 ARG B1281     -47.075 125.761   1.839  0.33  7.66           N 0
+ATOM   5726  CD2 LEU B1261     -50.534 126.437   3.232  0.00  0.00           C 0
+TER
+END

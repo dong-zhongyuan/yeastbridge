@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    20:
+HEADER 0  - Pocket Score                      : -0.0024
+HEADER 1  - Drug Score                        : 0.0051
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9543
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5989
+HEADER 5  - Mean B-factor of pocket residues  : 0.0250
+HEADER 6  - Hydrophobicity Score              : 9.5000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 271.9758
+HEADER 10 - Pocket volume (convex hull)       : 7.7080
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.4000
+ATOM  17947    O ALA G 308     173.422 198.027 177.195  0.69  1.07           O 0
+ATOM  17978  OD1 ASN G 312     172.963 202.394 175.871  0.67  4.29           O 0
+ATOM  17969   CD LYS G 311     175.311 199.379 172.456  0.00  0.00           C 0
+ATOM  17948   CB ALA G 308     171.576 195.440 176.275  0.00  0.00           C 0
+ATOM  13824  CG2 VAL F  13     174.550 196.444 171.972  0.00  0.00           C 0
+ATOM  17945   CA ALA G 308     173.058 195.783 176.427  0.00  0.00           C 0
+ATOM  17979  ND2 ASN G 312     171.631 201.970 177.616  0.62  5.47           N 0
+ATOM  17721  ND2 ASN G 279     170.331 199.420 180.340  0.75  5.47           N 0
+ATOM  14026    O GLY F  40     168.234 198.105 181.945  0.00  0.00           O 0
+ATOM  14024   CA GLY F  40     166.516 196.606 181.231  0.00  0.00           C 0
+ATOM  14019    O PRO F  39     167.829 194.151 181.486  0.00  0.00           O 0
+ATOM  14025    C GLY F  40     167.131 197.982 181.409  0.00  0.00           C 0
+ATOM  17954   CG GLN G 309     172.079 196.327 181.671  0.00  0.00           C 0
+ATOM  17937  OG1 THR G 306     172.234 193.568 179.653  0.42  1.07           O 0
+ATOM  14031   CB PHE F  41     167.041 200.974 179.595  0.00  0.00           C 0
+ATOM  14027    N PHE F  41     166.423 199.024 180.977  0.79  5.47           N 0
+TER
+END

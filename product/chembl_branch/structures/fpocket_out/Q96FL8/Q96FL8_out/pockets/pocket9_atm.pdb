@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : -0.0338
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9065
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6222
+HEADER 5  - Mean B-factor of pocket residues  : 0.1902
+HEADER 6  - Hydrophobicity Score              : 2.5000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 249.8017
+HEADER 10 - Pocket volume (convex hull)       : 6.9493
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2500
+ATOM   3889  CE1 TYR H  31     129.995 143.888 150.841  0.00  0.00           C 0
+ATOM   3892   OH TYR H  31     128.659 144.954 149.182  0.62  5.36           O 0
+ATOM   4076  CE1 TYR H  54     131.199 140.400 149.872  0.00  0.00           C 0
+ATOM   3879   CB SER H  30     128.190 141.186 153.752  0.00  0.00           C 0
+ATOM    321   NZ LYS A  68     129.102 137.422 147.784  0.42  5.47           N 0
+ATOM   4079   OH TYR H  54     131.622 140.510 147.533  0.00  6.43           O 0
+ATOM   3880   OG SER H  30     126.826 140.852 153.924  0.00  0.00           O 0
+ATOM   3891   CZ TYR H  31     129.325 145.003 150.384  0.00  0.00           C 0
+ATOM   3862  OD1 ASN H  28     126.805 144.291 154.504  0.00  0.00           O 0
+ATOM   3863  ND2 ASN H  28     126.750 146.135 153.233  0.65  4.37           N 0
+ATOM   2620  OD2 ASP A 368     126.359 147.103 150.324  0.51  1.07           O 0
+ATOM   2617   CB ASP A 368     125.071 147.422 148.355  0.00  0.00           C 0
+ATOM   2614   CA ASP A 368     123.584 147.648 148.080  0.00  0.00           C 0
+ATOM   2618   CG ASP A 368     125.472 147.785 149.773  0.00  0.00           C 0
+ATOM    320   CE LYS A  68     129.665 136.912 149.065  0.00  0.00           C 0
+TER
+END

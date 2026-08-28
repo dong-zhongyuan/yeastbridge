@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    12:
+HEADER 0  - Pocket Score                      : 0.0500
+HEADER 1  - Drug Score                        : 0.0047
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.6678
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4729
+HEADER 5  - Mean B-factor of pocket residues  : 0.2784
+HEADER 6  - Hydrophobicity Score              : 21.5000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 66.1892
+HEADER 10 - Pocket volume (convex hull)       : 0.2740
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.6250
+ATOM   3391   CB HIS B 190      34.766   2.585  -4.403  0.00  0.00           C 0
+ATOM   3954   CD LYS B 258      32.522  -3.075   0.046  0.00  0.00           C 0
+ATOM   3591  NH1 ARG B 213      34.028   3.385  -0.512  0.80  7.66           N 0
+ATOM   3419   CZ PHE B 192      29.049  -0.245  -1.595  0.00  0.00           C 0
+ATOM   3393  ND1 HIS B 190      36.519   1.542  -2.926  0.62  2.19           N 0
+ATOM   3586   CB ARG B 213      30.668   3.679  -3.954  0.00  0.00           C 0
+ATOM   3418  CE2 PHE B 192      28.571   0.315  -2.782  0.00  0.00           C 0
+ATOM   3397    N TYR B 191      33.216   0.154  -6.282  0.00  0.00           N 0
+ATOM   3588   CD ARG B 213      31.331   3.750  -1.465  0.00  0.00           C 0
+ATOM   3952   CB LYS B 258      32.493  -3.794  -2.372  0.00  0.00           C 0
+ATOM   3417  CE1 PHE B 192      29.283  -1.611  -1.516  0.00  0.00           C 0
+ATOM   3400    O TYR B 191      32.322  -2.323  -5.523  0.73  1.07           O 0
+ATOM   3960    O SER B 259      36.400  -2.196  -2.820  0.59  2.14           O 0
+TER
+END

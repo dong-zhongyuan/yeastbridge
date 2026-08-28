@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    16:
+HEADER 0  - Pocket Score                      : 0.0047
+HEADER 1  - Drug Score                        : 0.0010
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.7658
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7173
+HEADER 5  - Mean B-factor of pocket residues  : 0.5170
+HEADER 6  - Hydrophobicity Score              : 30.4000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 251.7645
+HEADER 10 - Pocket volume (convex hull)       : 15.2545
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.4667
+ATOM   9399    O ARG G  27     138.601  59.883 139.939  0.79  4.29           O 0
+ATOM   9422    C ILE G  28     139.276  60.832 136.181  0.00  0.00           C 0
+ATOM   4335   SG CYS B  25     142.699  63.633 136.175  0.00  0.00           S 0
+ATOM   9439    N LYS G  29     140.167  60.076 135.542  0.76  6.56           N 0
+ATOM   4334   CB CYS B  25     143.713  65.088 136.512  0.00  0.00           C 0
+ATOM   9405  NH1 ARG G  27     141.295  66.878 139.964  0.90  2.19           N 1
+ATOM   4267    O ALA B  21     144.607  67.080 139.618  0.54  5.36           O 0
+ATOM   9440   CA LYS G  29     141.115  60.662 134.605  0.00  0.00           C 0
+ATOM   9443   CB LYS G  29     142.031  59.570 134.047  0.00  0.00           C 0
+ATOM   9445   CD LYS G  29     144.088  60.970 133.685  0.00  0.00           C 0
+ATOM   9406  NH2 ARG G  27     140.592  66.772 142.144  0.52  4.37           N 0
+ATOM   4268   CB ALA B  21     143.955  67.819 142.769  0.00  0.00           C 0
+ATOM   9404   CZ ARG G  27     140.383  66.522 140.857  0.00  0.00           C 0
+ATOM   9402   CD ARG G  27     138.198  65.488 141.356  0.00  0.00           C 0
+ATOM   9400   CB ARG G  27     138.086  63.282 140.151  0.00  0.00           C 0
+ATOM   9368    O ILE G  25     137.860  63.636 144.708  0.35  6.43           O 0
+ATOM   9403   NE ARG G  27     139.266  65.922 140.459  0.83  2.19           N 0
+ATOM   9396    N ARG G  27     137.469  61.498 141.738  0.83  2.19           N 0
+ATOM   9398    C ARG G  27     138.021  60.862 139.461  0.00  0.00           C 0
+ATOM   9423    O ILE G  28     139.184  62.054 136.015  0.00  0.00           O 0
+TER
+END

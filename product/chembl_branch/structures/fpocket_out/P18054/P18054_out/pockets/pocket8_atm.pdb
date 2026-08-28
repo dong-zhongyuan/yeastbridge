@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : 0.0276
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.7057
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5522
+HEADER 5  - Mean B-factor of pocket residues  : 0.4820
+HEADER 6  - Hydrophobicity Score              : 3.7143
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 204.2116
+HEADER 10 - Pocket volume (convex hull)       : 5.5691
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2500
+ATOM   3901    O ASP B 487     102.958 119.055 186.773  0.00  0.00           O 0
+ATOM   3903   CG ASP B 487     102.392 115.703 188.572  0.00  0.00           C 0
+ATOM   3904  OD1 ASP B 487     103.631 115.614 188.658  0.00  0.00           O 0
+ATOM   3889  NH2 ARG B 485     104.886 116.033 192.118  0.30  8.75           N 0
+ATOM   3911  CG1 ILE B 488     106.518 117.506 189.359  0.00  0.00           C 0
+ATOM   3905  OD2 ASP B 487     101.638 115.360 189.507  0.52  7.50           O 0
+ATOM   3906    N ILE B 488     104.778 117.779 187.156  0.00  0.00           N 0
+ATOM   3907   CA ILE B 488     105.627 118.921 187.476  0.00  0.00           C 0
+ATOM   3909    O ILE B 488     106.043 120.925 186.210  0.71  1.07           O 0
+ATOM   3933    O GLY B 491     103.445 124.270 187.437  0.51  8.57           O 0
+ATOM   3912  CG2 ILE B 488     107.675 119.629 188.755  0.00  0.00           C 0
+ATOM   3931   CA GLY B 491     102.467 122.397 186.348  0.00  0.00           C 0
+ATOM    923    O PRO B 116     106.365 126.675 190.632  0.61  1.07           O 0
+ATOM   3935   CA ASP B 492     105.317 124.758 185.415  0.00  0.00           C 0
+ATOM    916   CB LEU B 115     109.997 124.782 189.571  0.00  0.00           C 0
+ATOM   3938   CB ASP B 492     106.687 124.216 184.998  0.00  0.00           C 0
+ATOM    918  CD1 LEU B 115     110.172 122.417 188.822  0.00  0.00           C 0
+TER
+END

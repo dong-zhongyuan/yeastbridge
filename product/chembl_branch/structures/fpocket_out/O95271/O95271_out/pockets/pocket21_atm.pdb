@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    21:
+HEADER 0  - Pocket Score                      : -0.0515
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    29
+HEADER 3  - Mean alpha-sphere radius          : 3.8104
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4551
+HEADER 5  - Mean B-factor of pocket residues  : 0.0832
+HEADER 6  - Hydrophobicity Score              : 11.2500
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 4.8750
+HEADER 9  - Pocket volume (Monte Carlo)       : 229.9507
+HEADER 10 - Pocket volume (convex hull)       : 4.9477
+HEADER 11 - Charge Score                      :     5
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.1379
+ATOM   9152   CG HIS C1270     -91.916  69.113  -8.580  0.00  0.00           C 0
+ATOM   9153  ND1 HIS C1270     -93.060  69.532  -7.929  0.35  7.66           N 0
+ATOM   9541  NH2 ARG C1296     -92.507  68.506  -1.070  0.00  0.00           N 0
+ATOM   9151   CB HIS C1270     -90.599  69.809  -8.420  0.00  0.00           C 0
+ATOM   9536   CG ARG C1296     -93.102  72.828  -2.162  0.00  0.00           C 0
+ATOM   9531    N ARG C1296     -93.232  75.392  -3.967  0.00  0.00           N 0
+ATOM   9510    N TYR C1295     -91.509  76.381  -5.720  0.38  1.09           N 0
+ATOM   9514   CB TYR C1295     -91.672  74.318  -7.028  0.00  0.00           C 0
+ATOM   9163    N ALA C1271     -88.579  72.143  -7.982  0.00  0.00           N 0
+ATOM   9537   CD ARG C1296     -92.108  72.144  -1.241  0.00  0.00           C 0
+ATOM   9167   CB ALA C1271     -86.778  72.896  -6.501  0.00  0.00           C 0
+ATOM   9225   CA HIS C1276     -85.320  74.369  -2.972  0.00  0.00           C 0
+ATOM   7531  NH2 ARG C1165     -88.904  72.200   0.424  0.00  0.00           N 0
+ATOM   9211    O HIS C1275     -84.755  71.764  -3.841  0.31  7.50           O 0
+ATOM   9227    O HIS C1276     -87.047  75.982  -3.380  0.63  2.14           O 0
+ATOM   9584  OE1 GLN C1299     -89.566  74.932  -0.504  0.37  2.14           O 0
+ATOM   9538   NE ARG C1296     -92.066  70.708  -1.502  0.52  2.19           N 0
+ATOM   9166    O ALA C1271     -86.762  70.119  -8.137  0.23  5.36           O 0
+ATOM   9513    O TYR C1295     -94.073  73.854  -5.404  0.48  3.21           O 0
+TER
+END

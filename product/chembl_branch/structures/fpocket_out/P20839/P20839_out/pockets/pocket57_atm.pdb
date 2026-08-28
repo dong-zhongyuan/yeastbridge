@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    57:
+HEADER 0  - Pocket Score                      : -0.0609
+HEADER 1  - Drug Score                        : 0.0333
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.8468
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4956
+HEADER 5  - Mean B-factor of pocket residues  : 0.2016
+HEADER 6  - Hydrophobicity Score              : 45.8000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 229.4119
+HEADER 10 - Pocket volume (convex hull)       : 8.0103
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 8.8000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5882
+ATOM   7865  CE1 PHE C 456     191.106 153.679 132.893  0.00  0.00           C 0
+ATOM   7476  CD2 LEU C 389     186.962 153.426 135.582  0.00  0.00           C 0
+ATOM   7890  CE1 TYR C 459     192.690 156.841 135.430  0.00  0.00           C 0
+ATOM   7893   OH TYR C 459     191.990 159.072 135.911  0.00  0.00           O 0
+ATOM   7867   CZ PHE C 456     190.262 153.058 133.787  0.00  0.00           C 0
+ATOM   7341   CB THR C 369     186.142 158.799 139.698  0.00  0.00           C 0
+ATOM   7343  CG2 THR C 369     185.206 159.327 138.622  0.00  0.00           C 0
+ATOM   9860  CG2 VAL D 336     190.764 163.064 138.525  0.00  0.00           C 0
+ATOM   7818   CD LYS C 450     187.783 152.627 130.281  0.00  0.00           C 0
+ATOM   9849   CB GLU D 335     186.242 164.094 140.092  0.00  0.00           C 0
+ATOM   9848    O GLU D 335     187.760 161.618 141.522  0.90  1.07           O 0
+ATOM   7901  CD2 LEU C 460     191.698 153.850 137.652  0.00  0.00           C 0
+ATOM   7350  CG2 VAL C 370     191.480 156.992 139.383  0.00  0.00           C 0
+ATOM   7344    N VAL C 370     188.695 157.258 140.287  0.88  2.19           N 0
+ATOM   7338   CA THR C 369     186.436 157.297 139.488  0.00  0.00           C 0
+ATOM   7331    O GLN C 368     184.955 156.429 137.320  0.50  5.36           O 0
+TER
+END

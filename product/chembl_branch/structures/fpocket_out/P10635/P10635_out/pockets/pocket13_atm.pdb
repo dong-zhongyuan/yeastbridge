@@ -1,0 +1,45 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : 0.0030
+HEADER 1  - Drug Score                        : 0.0064
+HEADER 2  - Number of alpha spheres           :    34
+HEADER 3  - Mean alpha-sphere radius          : 3.8249
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4528
+HEADER 5  - Mean B-factor of pocket residues  : 0.1550
+HEADER 6  - Hydrophobicity Score              : 53.1111
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.4444
+HEADER 9  - Pocket volume (Monte Carlo)       : 323.7747
+HEADER 10 - Pocket volume (convex hull)       : 16.6988
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 19.0000
+HEADER 13 - Number of apolar alpha sphere     :    20
+HEADER 14 - Proportion of apolar alpha sphere : 0.5882
+ATOM  10592    O PRO C 447      20.065  29.845  47.055  0.04  3.21           O 0
+ATOM  10591    C PRO C 447      19.309  30.215  47.949  0.00  0.00           C 0
+ATOM  10627   CE MET C 451      23.069  32.921  43.994  0.00  0.00           C 0
+ATOM  10593   CB PRO C 447      17.092  31.375  47.516  0.00  0.00           C 0
+ATOM  10594   CG PRO C 447      15.726  31.163  48.128  0.00  0.00           C 0
+ATOM   8165   CB ARG C 140      14.732  38.757  46.920  0.00  0.00           C 0
+ATOM   8166   CG ARG C 140      14.206  38.921  45.503  0.00  0.00           C 0
+ATOM   8162   CA ARG C 140      16.242  38.532  47.014  0.00  0.00           C 0
+ATOM   8168   NE ARG C 140      11.936  38.802  46.457  0.00  0.00           N 0
+ATOM   8138  CG1 VAL C 136      11.474  36.553  50.960  0.00  0.00           C 0
+ATOM   8161    N ARG C 140      16.645  38.434  48.410  0.70  1.09           N 0
+ATOM   8156    O LEU C 139      18.735  37.768  47.943  0.48  3.21           O 0
+ATOM   8155    C LEU C 139      17.870  38.067  48.759  0.00  0.00           C 0
+ATOM  10571    O LEU C 444      15.674  32.178  52.660  0.72  1.07           O 0
+ATOM   8136    O VAL C 136      14.333  37.889  50.367  0.60  1.07           O 0
+ATOM   8134   CA VAL C 136      13.418  37.206  52.468  0.00  0.00           C 0
+ATOM  10596    N LEU C 448      19.751  30.752  49.084  0.82  1.09           N 0
+ATOM   8157   CB LEU C 139      17.749  36.656  50.808  0.00  0.00           C 0
+ATOM   8234  CD1 LEU C 149      22.120  36.217  48.564  0.00  0.00           C 0
+ATOM   8160  CD2 LEU C 139      19.868  35.903  51.894  0.00  0.00           C 0
+ATOM  10600   CB LEU C 448      21.426  31.826  50.528  0.00  0.00           C 0
+ATOM  10597   CA LEU C 448      21.180  30.936  49.305  0.00  0.00           C 0
+ATOM   8189   CA GLY C 143      20.366  38.046  44.593  0.00  0.00           C 0
+TER
+END

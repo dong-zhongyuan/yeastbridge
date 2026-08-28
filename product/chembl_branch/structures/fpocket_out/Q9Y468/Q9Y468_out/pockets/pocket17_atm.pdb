@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    17:
+HEADER 0  - Pocket Score                      : 0.0014
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8090
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4675
+HEADER 5  - Mean B-factor of pocket residues  : 0.5470
+HEADER 6  - Hydrophobicity Score              : 2.7500
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.3750
+HEADER 9  - Pocket volume (Monte Carlo)       : 142.1096
+HEADER 10 - Pocket volume (convex hull)       : 1.6024
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM   1072    O VAL A 334       9.629  28.312  14.533  0.19  7.50           O 0
+ATOM    689   CB PRO A 288       8.417  22.149  16.675  0.00  0.00           C 0
+ATOM   1359   OG SER A 373       9.386  26.135  22.043  0.00  0.00           O 0
+ATOM   1075  CG2 VAL A 334       7.103  25.665  13.903  0.00  0.00           C 0
+ATOM   1365   CG ARG A 374      10.143  22.254  21.973  0.00  0.00           C 0
+ATOM   1350   CB ASP A 372      13.184  26.793  18.840  0.00  0.00           C 0
+ATOM   1354    N SER A 373      12.296  26.523  21.514  0.00  0.00           N 0
+ATOM   1342    O VAL A 371      14.027  24.151  20.441  0.23  3.21           O 0
+ATOM   1112   OG SER A 339      11.627  30.109  20.418  0.00  0.00           O 0
+ATOM   1111   CB SER A 339      12.061  30.456  19.101  0.00  0.00           C 0
+ATOM   1080   CB SER A 335      11.424  24.986  14.782  0.00  0.00           C 0
+ATOM   1081   OG SER A 335      12.495  24.840  15.714  0.65  1.07           O 0
+ATOM   1367   NE ARG A 374      10.239  20.702  19.996  0.68  2.19           N 0
+TER
+END

@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : 0.0279
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9774
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6177
+HEADER 5  - Mean B-factor of pocket residues  : 0.0637
+HEADER 6  - Hydrophobicity Score              : 16.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 163.0224
+HEADER 10 - Pocket volume (convex hull)       : 1.2936
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1667
+ATOM    858   CB ARG A 474      18.458  10.928  15.564  0.00  0.00           C 0
+ATOM    862   CZ ARG A 474      22.122  10.395  14.073  0.00  0.00           C 0
+ATOM    927  CE1 TYR A 483      23.487  13.194  16.457  0.00  0.00           C 0
+ATOM    863  NH1 ARG A 474      23.056   9.618  14.629  0.00  0.00           N 0
+ATOM    869   CB SER A 475      16.893   9.099  20.138  0.00  0.00           C 0
+ATOM    861   NE ARG A 474      20.853   9.993  14.042  0.52  6.56           N 0
+ATOM    910    O ALA A 481      22.130  13.488  19.977  0.68  1.07           O 0
+ATOM    854    N ARG A 474      18.502  12.673  17.293  0.50  1.09           N 0
+ATOM    930   OH TYR A 483      24.818  11.242  16.632  0.47  5.36           O 0
+ATOM    865    N SER A 475      16.873  11.124  18.771  0.00  0.00           N 0
+ATOM    907    N ALA A 481      22.956  11.463  21.610  0.66  5.47           N 0
+ATOM    905   CB SER A 480      19.852  10.951  22.424  0.00  0.00           C 0
+ATOM    906   OG SER A 480      18.919   9.902  22.571  0.89  6.43           O 0
+ATOM    902   CA SER A 480      21.190  10.586  23.030  0.00  0.00           C 0
+TER
+END

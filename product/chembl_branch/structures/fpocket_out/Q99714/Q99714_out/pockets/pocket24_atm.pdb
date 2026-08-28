@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    24:
+HEADER 0  - Pocket Score                      : -0.0828
+HEADER 1  - Drug Score                        : 0.0011
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 4.0037
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4943
+HEADER 5  - Mean B-factor of pocket residues  : 0.3887
+HEADER 6  - Hydrophobicity Score              : -4.2857
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 365.2028
+HEADER 10 - Pocket volume (convex hull)       : 14.0188
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3158
+ATOM   2730   CB GLN B 138      44.564  45.804 -24.239  0.00  0.00           C 0
+ATOM   2731   CG GLN B 138      44.123  47.247 -24.230  0.00  0.00           C 0
+ATOM   2294   CD LYS B  79      51.117  47.523 -20.645  0.00  0.00           C 0
+ATOM   2733  OE1 GLN B 138      44.478  47.805 -26.547  0.00  0.00           O 0
+ATOM   2712  OE1 GLU B 135      47.426  48.084 -18.719  0.85  4.29           O 0
+ATOM   2713  OE2 GLU B 135      45.854  49.647 -18.820  0.00  0.00           O 0
+ATOM   2323    N ARG B  84      51.317  40.946 -20.205  0.00  0.00           N 0
+ATOM   2324   CA ARG B  84      49.888  40.679 -20.032  0.00  0.00           C 0
+ATOM   2293   CG LYS B  79      51.982  46.436 -20.017  0.00  0.00           C 0
+ATOM   2321    C GLY B  83      51.952  41.965 -19.656  0.00  0.00           C 0
+ATOM   2322    O GLY B  83      51.417  42.763 -18.891  0.66  4.29           O 0
+ATOM   2741  OD1 ASN B 139      45.885  41.463 -21.834  0.77  8.57           O 0
+ATOM   2708    O GLU B 135      44.256  44.817 -20.912  0.62  4.29           O 0
+ATOM   2334    N VAL B  85      48.475  41.096 -18.052  0.69  3.28           N 0
+ATOM   2340  CG2 VAL B  85      48.596  42.870 -15.557  0.00  0.00           C 0
+ATOM   2292   CB LYS B  79      51.976  46.556 -18.513  0.00  0.00           C 0
+ATOM   2709   CB GLU B 135      44.995  46.416 -18.042  0.00  0.00           C 0
+TER
+END

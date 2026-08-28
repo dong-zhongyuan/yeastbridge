@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   130:
+HEADER 0  - Pocket Score                      : -0.1477
+HEADER 1  - Drug Score                        : 0.0038
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 3.9309
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5164
+HEADER 5  - Mean B-factor of pocket residues  : 0.7026
+HEADER 6  - Hydrophobicity Score              : 34.1111
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.7778
+HEADER 9  - Pocket volume (Monte Carlo)       : 332.7868
+HEADER 10 - Pocket volume (convex hull)       : 28.4147
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.2800
+ATOM   6314  CE1 PHE C 114     209.127 130.579 130.383  0.00  0.00           C 0
+ATOM   6297   CB GLN C 112     206.159 135.967 132.076  0.00  0.00           C 0
+ATOM   6300  OE1 GLN C 112     208.125 137.828 132.844  0.42  9.64           O 0
+ATOM   6302    N GLY C 113     206.875 134.321 129.580  0.71  2.19           N 0
+ATOM   6293    N GLN C 112     205.145 133.754 131.849  0.75  4.37           N 0
+ATOM   6292  OE2 GLU C 111     204.898 130.191 135.216  0.64  5.36           O 0
+ATOM   6371   NZ LYS C 238     204.898 135.723 139.096  0.65  7.66           N 0
+ATOM   6074  CD2 LEU C  84     202.034 138.456 134.971  0.00  0.00           C 0
+ATOM   6282  CE2 PHE C 110     201.720 135.208 131.962  0.00  0.00           C 0
+ATOM   6280  CD2 PHE C 110     201.117 134.122 132.553  0.00  0.00           C 0
+ATOM   6289   CG GLU C 111     205.944 130.161 133.071  0.00  0.00           C 0
+ATOM   6400   CG LYS C 242     206.916 131.789 141.239  0.00  0.00           C 0
+ATOM   6403   NZ LYS C 242     209.125 130.290 139.876  0.00  0.00           N 0
+ATOM   6401   CD LYS C 242     208.356 131.794 141.740  0.00  0.00           C 0
+ATOM   6420  CD2 LEU C 244     200.621 135.749 137.549  0.00  0.00           C 0
+ATOM   6370   CE LYS C 238     204.279 134.415 139.410  0.00  0.00           C 0
+ATOM   6418   CG LEU C 244     199.964 134.534 136.911  0.00  0.00           C 0
+ATOM   6413    N LEU C 244     200.195 132.183 138.941  0.00  0.00           N 0
+ATOM   6276    O PHE C 110     202.100 130.919 133.989  0.47  2.14           O 0
+ATOM   6398    O LYS C 242     204.348 131.316 139.664  0.65  1.07           O 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    58:
+HEADER 0  - Pocket Score                      : -0.0031
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.2745
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7429
+HEADER 5  - Mean B-factor of pocket residues  : 0.3310
+HEADER 6  - Hydrophobicity Score              : -20.2500
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.2500
+HEADER 9  - Pocket volume (Monte Carlo)       : 340.2511
+HEADER 10 - Pocket volume (convex hull)       : 10.8895
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.2000
+ATOM  41336   OG SER X 152      -2.622 162.896  63.017  0.67  1.07           O 0
+ATOM  41366  NH1 ARG X 155      -5.783 162.030  60.206  0.00  0.00           N 0
+ATOM  41355  OE1 GLU X 154      -1.749 160.405  66.001  0.00  0.00           O 0
+ATOM  41335   CB SER X 152      -3.504 163.235  64.169  0.00  0.00           C 0
+ATOM  41352   CB GLU X 154       0.237 159.856  63.822  0.00  0.00           C 0
+ATOM  41351    O GLU X 154       2.116 161.801  61.663  0.53  2.14           O 0
+ATOM  41385   CG GLU X 158       3.839 160.857  58.372  0.00  0.00           C 0
+ATOM  41350    C GLU X 154       1.089 161.703  62.369  0.00  0.00           C 0
+ATOM  41387  OE1 GLU X 158       5.572 159.989  59.855  0.45  7.50           O 0
+ATOM  41365   CZ ARG X 155      -5.329 162.094  58.942  0.00  0.00           C 0
+ATOM  41364   NE ARG X 155      -4.172 162.688  58.641  0.70  8.75           N 0
+ATOM  41363   CD ARG X 155      -3.330 163.298  59.619  0.00  0.00           C 0
+ATOM  41357    N ARG X 155       0.026 162.363  61.926  0.00  0.00           N 0
+ATOM  41358   CA ARG X 155       0.110 163.252  60.764  0.00  0.00           C 0
+ATOM  41362   CG ARG X 155      -1.899 163.438  59.227  0.00  0.00           C 0
+ATOM  41384   CB GLU X 158       3.602 162.376  58.065  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,44 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   263:
+HEADER 0  - Pocket Score                      : -0.1014
+HEADER 1  - Drug Score                        : 0.0023
+HEADER 2  - Number of alpha spheres           :    32
+HEADER 3  - Mean alpha-sphere radius          : 3.9711
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6078
+HEADER 5  - Mean B-factor of pocket residues  : 0.1311
+HEADER 6  - Hydrophobicity Score              : 3.2727
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Amino Acid based volume Score     : 3.7273
+HEADER 9  - Pocket volume (Monte Carlo)       : 276.5766
+HEADER 10 - Pocket volume (convex hull)       : 14.3395
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.4062
+ATOM  29032   OG SER Q  67      33.399-185.279 -10.892  0.39  3.21           O 0
+ATOM  29025  OD1 ASP Q  66      33.596-185.961  -7.021  0.20  2.14           O 0
+ATOM  29252  NH2 ARG Q  95      35.066-181.264  -8.115  0.23  9.84           N 0
+ATOM  29031   CB SER Q  67      32.185-186.000 -10.987  0.00  0.00           C 0
+ATOM  41585   CD GLN X  65      31.135-179.924  -4.627  0.00  0.00           C 0
+ATOM  29250   CZ ARG Q  95      35.451-182.185  -7.237  0.00  0.00           C 0
+ATOM  41395   CD PRO X  40      24.632-179.606  -9.687  0.00  0.00           C 0
+ATOM  41584   CG GLN X  65      29.744-180.496  -4.413  0.00  0.00           C 0
+ATOM  41613   OG SER X  68      24.493-183.049  -5.239  0.74  2.14           O 0
+ATOM  41612   CB SER X  68      25.225-184.245  -5.431  0.00  0.00           C 0
+ATOM  41587  NE2 GLN X  65      31.219-178.857  -5.413  0.20  8.75           N 0
+ATOM  41580   CA GLN X  65      28.316-182.243  -3.203  0.00  0.00           C 0
+ATOM  41582    O GLN X  65      28.254-184.625  -3.491  0.57  1.07           O 0
+ATOM  41378    O LEU X  38      26.432-178.171  -4.884  0.58  1.07           O 0
+ATOM  41369    O GLN X  37      28.934-175.299  -5.732  0.38  1.07           O 0
+ATOM  41373  OE1 GLN X  37      28.159-176.383 -10.704  0.62  9.64           O 0
+ATOM  41586  OE1 GLN X  65      32.123-180.433  -4.095  0.82  4.29           O 0
+ATOM  29224  OE1 GLN Q  92      32.411-184.662  -3.423  0.36  1.07           O 0
+ATOM  41583   CB GLN X  65      29.726-181.721  -3.505  0.00  0.00           C 0
+ATOM  41619  CG1 ILE X  69      29.441-187.230  -5.492  0.00  0.00           C 0
+ATOM  41621  CD1 ILE X  69      29.553-187.703  -6.931  0.00  0.00           C 0
+ATOM  41384   CA SER X  39      24.922-177.921  -7.241  0.00  0.00           C 0
+TER
+END

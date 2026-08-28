@@ -1,0 +1,34 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    16:
+HEADER 0  - Pocket Score                      : -0.1371
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9095
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4824
+HEADER 5  - Mean B-factor of pocket residues  : 0.3721
+HEADER 6  - Hydrophobicity Score              : 33.5000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 180.9785
+HEADER 10 - Pocket volume (convex hull)       : 2.7754
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5556
+ATOM   1492   CA ALA A 265     -39.989  -9.691 103.430  0.00  0.00           C 0
+ATOM   1495   CB ALA A 265     -39.959 -10.973 104.224  0.00  0.00           C 0
+ATOM   1494    O ALA A 265     -41.163  -9.951 101.374  0.78  2.14           O 0
+ATOM   1516  CD2 LEU A1003     -36.990  -9.219  98.855  0.00  0.00           C 0
+ATOM   1525  OE2 GLU A1004     -41.319 -14.377  97.978  0.00  0.00           O 1
+ATOM   1522   CG GLU A1004     -42.206 -12.308  98.773  0.00  0.00           C 0
+ATOM   2083    O GLY A1106     -33.789 -12.842 101.736  0.00  0.00           O 0
+ATOM   2112   OG SER A 316     -34.853 -15.413 104.404  0.74  7.50           O 0
+ATOM   2105  CG2 ILE A 315     -36.103 -10.417 105.273  0.00  0.00           C 0
+ATOM   2106  CD1 ILE A 315     -35.970  -8.127 103.155  0.00  0.00           C 0
+ATOM   2103   CB ILE A 315     -34.865 -10.036 104.470  0.00  0.00           C 0
+ATOM   2081   CA GLY A1106     -34.023 -11.289  99.956  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    25:
+HEADER 0  - Pocket Score                      : -0.1119
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 3.8165
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5101
+HEADER 5  - Mean B-factor of pocket residues  : 0.4059
+HEADER 6  - Hydrophobicity Score              : 21.7143
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 5.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 354.3948
+HEADER 10 - Pocket volume (convex hull)       : 26.8324
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.1739
+ATOM      9    N ALA A  24      61.000   5.732   7.334  0.31  3.28           N 0
+ATOM    875  OE1 GLN A 142      56.371   7.402   4.357  0.53  1.07           O 0
+ATOM    712  NH2 ARG A 123      59.185   8.619   1.253  0.21  8.75           N 0
+ATOM    876  NE2 GLN A 142      56.385   5.314   5.241  0.29  7.66           N 0
+ATOM      1    N ASN A  23      63.849   6.229   5.407  0.00  0.00           N 0
+ATOM    942  CD1 TRP A 149      59.294  11.153   3.943  0.00  0.00           C 0
+ATOM    901  CH2 TRP A 144      60.637  15.621   4.897  0.00  0.00           C 0
+ATOM    928   CA GLU A 148      61.030  13.695   8.048  0.00  0.00           C 0
+ATOM    900  CZ3 TRP A 144      59.658  14.629   4.720  0.00  0.00           C 0
+ATOM    944  NE1 TRP A 149      58.819  11.814   2.834  0.64  5.47           N 0
+ATOM      2   CA ASN A  23      63.111   5.197   6.205  0.00  0.00           C 0
+ATOM      7  OD1 ASN A  23      62.440   2.435   6.323  0.67  7.50           O 0
+ATOM    934  OE1 GLU A 148      63.280  11.156  10.768  0.00  8.57           O 0
+ATOM    931   CB GLU A 148      61.976  12.882   8.969  0.00  0.00           C 0
+ATOM      4    O ASN A  23      62.938   6.489   8.249  0.27  5.36           O 0
+ATOM     13   CB ALA A  24      58.658   6.449   7.589  0.00  0.00           C 0
+ATOM    936    N TRP A 149      59.580  11.874   7.379  0.00  0.00           N 0
+ATOM    940   CB TRP A 149      58.353  10.154   6.123  0.00  0.00           C 0
+ATOM     10   CA ALA A  24      60.089   6.561   8.141  0.00  0.00           C 0
+ATOM      3    C ASN A  23      62.331   5.867   7.358  0.00  0.00           C 0
+TER
+END

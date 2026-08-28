@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : 0.0080
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.7455
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5317
+HEADER 5  - Mean B-factor of pocket residues  : 0.1196
+HEADER 6  - Hydrophobicity Score              : 25.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 120.3230
+HEADER 10 - Pocket volume (convex hull)       : 1.0616
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3750
+ATOM    600   CG GLN A  79      40.405  -7.877  -0.746  0.00  0.00           C 0
+ATOM    638   NE ARG A  84      42.495  -1.873   1.526  0.53  2.19           N 0
+ATOM    586  NE2 HIS A  77      42.377  -4.739   3.428  0.00  0.00           N 0
+ATOM    641  NH2 ARG A  84      44.470  -2.934   1.341  0.48  4.37           N 0
+ATOM    596   CA GLN A  79      38.410  -6.827   0.467  0.00  0.00           C 0
+ATOM    635   CB ARG A  84      40.030  -0.621   0.133  0.00  0.00           C 0
+ATOM    590    O ILE A  78      37.669  -4.328   1.760  0.00  0.00           O 0
+ATOM    599   CB GLN A  79      39.771  -7.530   0.587  0.00  0.00           C 0
+ATOM    604    N GLY A  80      37.188  -7.217  -1.591  0.52  4.37           N 0
+ATOM    631    N ARG A  84      38.394  -0.506  -1.661  0.00  0.00           N 0
+ATOM    611    O LEU A  81      36.215  -4.109  -4.449  0.32  8.57           O 0
+ATOM    632   CA ARG A  84      38.612  -0.920  -0.291  0.00  0.00           C 0
+ATOM    628    O SER A  83      36.450  -1.649  -1.869  0.00  0.00           O 0
+ATOM    627    C SER A  83      37.283  -0.821  -2.314  0.00  0.00           C 0
+TER
+END

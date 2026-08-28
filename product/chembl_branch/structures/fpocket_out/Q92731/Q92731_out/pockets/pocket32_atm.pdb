@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    32:
+HEADER 0  - Pocket Score                      : -0.0684
+HEADER 1  - Drug Score                        : 0.0011
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 3.7402
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4171
+HEADER 5  - Mean B-factor of pocket residues  : 0.3308
+HEADER 6  - Hydrophobicity Score              : 41.4286
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 237.3776
+HEADER 10 - Pocket volume (convex hull)       : 20.9163
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.5600
+ATOM   1918   CB LEU B 270     -24.031  -1.656  -9.575  0.00  0.00           C 0
+ATOM   1921  CD2 LEU B 270     -25.483  -3.579 -10.300  0.00  0.00           C 0
+ATOM   1920  CD1 LEU B 270     -25.035  -1.662 -11.957  0.00  0.00           C 0
+ATOM   1888  OE1 GLU B 266     -19.334  -6.521 -10.327  0.68  7.50           O 0
+ATOM   2922   NZ LYS B 395     -18.091  -0.201 -13.684  0.69  6.56           N 0
+ATOM   1915   CA LEU B 270     -23.747  -0.094  -9.508  0.00  0.00           C 0
+ATOM   1914    N LEU B 270     -22.627   0.190  -8.577  0.00  0.00           N 0
+ATOM   1886   CG GLU B 266     -19.264  -4.948  -8.493  0.00  0.00           C 0
+ATOM   2921   CE LYS B 395     -18.797   1.177 -13.831  0.00  0.00           C 0
+ATOM   1944  CD2 LEU B 273     -24.033   1.465 -14.581  0.00  0.00           C 0
+ATOM   3239  CH2 TRP B 439     -15.779  -2.827  -8.326  0.00  0.00           C 0
+ATOM   3268   NZ LYS B 443     -13.257  -3.596 -10.842  0.00  0.00           N 0
+ATOM   3267   CE LYS B 443     -13.495  -2.113 -10.989  0.00  0.00           C 0
+ATOM   1941   CB LEU B 273     -24.120   2.981 -12.400  0.00  0.00           C 0
+ATOM   1912  CG1 VAL B 269     -19.376   1.869  -9.585  0.00  0.00           C 0
+ATOM   3238  CZ3 TRP B 439     -15.755  -1.433  -7.952  0.00  0.00           C 0
+ATOM   1884    O GLU B 266     -21.114  -2.260  -7.455  0.62  2.14           O 0
+ATOM   1911   CB VAL B 269     -19.541   1.320  -8.128  0.00  0.00           C 0
+TER
+END

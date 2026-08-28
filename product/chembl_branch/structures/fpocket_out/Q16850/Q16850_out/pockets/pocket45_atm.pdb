@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    45:
+HEADER 0  - Pocket Score                      : -0.1135
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.7145
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4918
+HEADER 5  - Mean B-factor of pocket residues  : 0.2777
+HEADER 6  - Hydrophobicity Score              : 12.8333
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 122.2939
+HEADER 10 - Pocket volume (convex hull)       : 0.9059
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM   5185  OE2 GLU B 259     -27.461 -53.388 -23.969  0.00  0.00           O 0
+ATOM   5152   CD ARG B 255     -23.967 -53.976 -28.209  0.00  0.00           C 0
+ATOM   4924  CD1 LEU B 226     -25.254 -56.356 -25.749  0.00  0.00           C 0
+ATOM   5153   NE ARG B 255     -24.415 -53.669 -29.561  0.78  9.84           N 0
+ATOM   4925  CD2 LEU B 226     -25.160 -57.291 -28.063  0.00  0.00           C 0
+ATOM   4897    N VAL B 223     -30.148 -58.644 -25.979  0.00  0.00           N 0
+ATOM   4903  CG2 VAL B 223     -29.626 -57.051 -23.488  0.00  0.00           C 0
+ATOM   4893   CG LYS B 222     -30.601 -56.562 -29.495  0.00  0.00           C 0
+ATOM   4894   CD LYS B 222     -31.088 -55.359 -30.281  0.00  0.00           C 0
+ATOM   4892   CB LYS B 222     -31.524 -56.993 -28.362  0.00  0.00           C 0
+ATOM   4878  ND2 ASN B 220     -33.613 -54.189 -25.333  0.00  0.00           N 0
+ATOM   4877  OD1 ASN B 220     -32.980 -56.214 -26.045  0.61  1.07           O 0
+ATOM   4923   CG LEU B 226     -25.502 -57.583 -26.611  0.00  0.00           C 0
+TER
+END

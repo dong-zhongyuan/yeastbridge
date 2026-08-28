@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    79:
+HEADER 0  - Pocket Score                      : -0.0193
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.8634
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5370
+HEADER 5  - Mean B-factor of pocket residues  : 0.4934
+HEADER 6  - Hydrophobicity Score              : -33.3333
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 201.1403
+HEADER 10 - Pocket volume (convex hull)       : 3.9815
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1000
+ATOM   4007   NE ARG C  38      19.020 152.507  -1.014  0.59  6.56           N 0
+ATOM   5107   CG ASP C 178      16.624 154.106  -7.461  0.00  0.00           C 0
+ATOM   5106   CB ASP C 178      17.548 152.874  -7.578  0.00  0.00           C 0
+ATOM   4009  NH1 ARG C  38      17.358 151.136  -0.203  0.00  0.00           N 0
+ATOM   5108  OD1 ASP C 178      17.019 155.107  -6.855  0.62  9.64           O 0
+ATOM   5140  OE2 GLU C 182      19.360 146.779  -3.837  0.00  0.00           O 0
+ATOM   5139  OE1 GLU C 182      19.739 147.485  -5.647  0.65  4.29           O 0
+ATOM   5138   CD GLU C 182      19.887 147.320  -4.466  0.00  0.00           C 0
+ATOM   4008   CZ ARG C  38      18.597 151.280  -0.662  0.00  0.00           C 0
+ATOM   5105    O ASP C 178      20.533 151.887  -6.546  0.77  2.14           O 0
+ATOM   5137   CG GLU C 182      20.844 148.605  -3.383  0.00  0.00           C 0
+ATOM   4005   CG ARG C  38      20.694 154.311  -1.390  0.00  0.00           C 0
+ATOM   4006   CD ARG C  38      20.352 152.842  -1.532  0.00  0.00           C 0
+ATOM   4010  NH2 ARG C  38      19.392 150.207  -0.719  0.44  5.47           N 0
+TER
+END

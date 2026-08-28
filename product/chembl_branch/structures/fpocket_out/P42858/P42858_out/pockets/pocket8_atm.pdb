@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : 0.0193
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.9104
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6055
+HEADER 5  - Mean B-factor of pocket residues  : 0.2956
+HEADER 6  - Hydrophobicity Score              : 14.1667
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 179.3813
+HEADER 10 - Pocket volume (convex hull)       : 0.8900
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1053
+ATOM     10   CB SER B 129      31.227 -14.136  78.278  0.00  0.00           C 0
+ATOM     35    O GLN B 133      32.971 -13.636  85.371  0.19  7.50           O 0
+ATOM     32    N GLN B 133      34.813 -13.682  83.401  0.53  1.09           N 0
+ATOM     11   OG SER B 129      30.000 -13.555  78.677  0.50  9.64           O 0
+ATOM     26   CA THR B 132      35.366 -15.467  81.864  0.00  0.00           C 0
+ATOM     31  CG2 THR B 132      34.671 -17.049  83.680  0.00  0.00           C 0
+ATOM      6    N SER B 129      29.991 -16.185  77.763  0.62  2.19           N 0
+ATOM     30  OG1 THR B 132      35.105 -17.832  81.438  0.71  7.50           O 0
+ATOM      9    O SER B 129      32.693 -16.897  77.540  0.53  4.29           O 0
+ATOM      5   CB GLN B 128      28.928 -19.436  77.821  0.00  0.00           C 0
+ATOM    739   CA GLY B 229      30.902 -11.096  80.328  0.00  0.00           C 0
+ATOM     20    O LEU B 131      34.388 -14.340  79.575  0.50  1.07           O 0
+ATOM    738    N GLY B 229      32.292 -11.366  80.019  0.00  0.00           N 0
+TER
+END

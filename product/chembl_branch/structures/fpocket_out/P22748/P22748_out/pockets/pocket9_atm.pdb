@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : 0.0866
+HEADER 1  - Drug Score                        : 0.0015
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8959
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5759
+HEADER 5  - Mean B-factor of pocket residues  : 0.2844
+HEADER 6  - Hydrophobicity Score              : -1.2222
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 285.5934
+HEADER 10 - Pocket volume (convex hull)       : 8.2315
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.4000
+ATOM   3349   CD LYS B 187      37.332  14.713 -10.871  0.00  0.00           C 0
+ATOM   3343    N LYS B 187      34.593  11.551 -12.475  0.00  0.00           N 0
+ATOM   3371   CG LYS B 188      36.022  10.502  -7.872  0.00  0.00           C 0
+ATOM   3601  OE2 GLU B 214      32.461  11.480  -5.973  0.00  0.00           O 0
+ATOM   3621   CB GLN B 217      26.980  16.162  -8.734  0.00  0.00           C 0
+ATOM   3622   CG GLN B 217      27.399  15.542  -7.377  0.00  0.00           C 0
+ATOM   3350   CE LYS B 187      37.151  16.229 -11.153  0.00  0.00           C 0
+ATOM   3348   CG LYS B 187      36.714  13.834 -12.004  0.00  0.00           C 0
+ATOM   3347   CB LYS B 187      36.847  12.286 -11.767  0.00  0.00           C 0
+ATOM   3340   CB PRO B 186      32.081  10.024 -11.356  0.00  0.00           C 0
+ATOM   3337   CA PRO B 186      32.242  10.888 -12.621  0.00  0.00           C 0
+ATOM   3605    O PRO B 215      28.634  11.309  -8.090  0.30  1.07           O 0
+ATOM   3610   CA ILE B 216      27.042  11.700 -10.438  0.00  0.00           C 0
+ATOM   3617    N GLN B 217      26.767  14.079 -10.030  0.55  3.28           N 0
+ATOM   3615  CG2 ILE B 216      26.118  12.555 -12.719  0.00  0.00           C 0
+ATOM   3102  ND2 ASN B 154      27.580  15.896 -14.362  0.54  5.47           N 0
+ATOM   3331    O LEU B 185      31.634  11.841 -15.189  0.59  2.14           O 0
+ATOM   3336    N PRO B 186      31.325  10.264 -13.592  0.00  0.00           N 0
+ATOM   3620    O GLN B 217      26.225  16.455 -11.673  0.54  2.14           O 0
+TER
+END

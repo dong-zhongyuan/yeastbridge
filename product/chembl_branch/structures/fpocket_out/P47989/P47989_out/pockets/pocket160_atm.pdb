@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   160:
+HEADER 0  - Pocket Score                      : -0.1010
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 4.1470
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6012
+HEADER 5  - Mean B-factor of pocket residues  : 0.2094
+HEADER 6  - Hydrophobicity Score              : 22.7000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 361.3076
+HEADER 10 - Pocket volume (convex hull)       : 14.9960
+HEADER 11 - Charge Score                      :     4
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3158
+ATOM  10682  NE2 HIS B  81      77.796  36.285 192.235  0.56  4.37           N 0
+ATOM  11627   NZ LYS B 225      77.017  34.159 199.117  0.47  7.66           N 0
+ATOM  10106    O LYS B   5      75.325  32.398 192.390  0.60  2.14           O 0
+ATOM  11644  CD2 LEU B 227      79.006  33.311 195.790  0.00  0.00           C 0
+ATOM  11575  CD1 LEU B 219      73.804  41.676 191.205  0.00  0.00           C 0
+ATOM  11576  CD2 LEU B 219      73.049  42.930 193.232  0.00  0.00           C 0
+ATOM  10187   NZ LYS B  14      68.523  39.184 190.063  0.79  9.84           N 0
+ATOM  10111   NZ LYS B   5      69.862  35.003 193.456  0.75  6.56           N 0
+ATOM  11541  OE2 GLU B 215      69.581  41.910 189.414  0.82  9.64           O 0
+ATOM  10681  CE1 HIS B  81      77.017  35.429 191.597  0.00  0.00           C 0
+ATOM  10692  NE2 HIS B  82      76.526  39.493 191.656  0.71  4.37           N 0
+ATOM  10126  CG2 VAL B   7      72.760  35.359 190.325  0.00  0.00           C 0
+ATOM  10093    O ALA B   3      75.112  30.489 196.093  0.25  5.36           O 0
+ATOM  10090    N ALA B   3      76.750  31.432 198.110  0.40  1.09           N 0
+ATOM  10110   CE LYS B   5      70.645  33.813 192.981  0.00  0.00           C 0
+ATOM  10107   CB LYS B   5      72.651  31.688 193.443  0.00  0.00           C 0
+ATOM  10109   CD LYS B   5      70.271  32.471 193.643  0.00  0.00           C 0
+ATOM  10125  CG1 VAL B   7      73.082  37.375 188.878  0.00  0.00           C 0
+ATOM  10124   CB VAL B   7      73.765  36.158 189.497  0.00  0.00           C 0
+TER
+END

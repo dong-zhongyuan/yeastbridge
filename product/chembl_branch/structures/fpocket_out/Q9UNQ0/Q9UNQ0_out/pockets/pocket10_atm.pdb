@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : 0.0518
+HEADER 1  - Drug Score                        : 0.0008
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9548
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5578
+HEADER 5  - Mean B-factor of pocket residues  : 0.9076
+HEADER 6  - Hydrophobicity Score              : 50.6667
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 227.4389
+HEADER 10 - Pocket volume (convex hull)       : 2.4688
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.6875
+ATOM   9010    C GLY A 300     114.749 138.475 184.315  0.00  0.00           C 0
+ATOM   9018  CD1 LEU A 328     116.704 144.834 185.258  0.00  0.00           C 0
+ATOM   9009   CA GLY A 300     115.136 139.655 183.446  0.00  0.00           C 0
+ATOM   9011    O GLY A 300     113.612 138.389 184.785  0.61  5.36           O 0
+ATOM   8989  CG1 ILE A 297     121.192 139.030 187.642  0.00  0.00           C 0
+ATOM   8984    N ILE A 297     120.274 138.068 184.988  0.00  0.00           N 0
+ATOM   8980   CB ASP A 296     119.715 134.968 184.655  0.00  0.00           C 0
+ATOM   8983  OD2 ASP A 296     117.918 133.776 185.662  0.00  0.00           O 0
+ATOM   8864  CE1 TYR A 282     118.323 142.352 190.001  0.00  0.00           C 0
+ATOM   8862  CD1 TYR A 282     118.835 141.306 190.739  0.00  0.00           C 0
+ATOM   8985   CA ILE A 297     119.919 139.386 185.502  0.00  0.00           C 0
+ATOM   8987    O ILE A 297     118.682 141.101 184.350  0.45  2.14           O 0
+ATOM   8954  CE1 PHE A 293     121.644 136.235 190.449  0.00  0.00           C 0
+ATOM   8952  CD1 PHE A 293     122.248 135.420 189.513  0.00  0.00           C 0
+ATOM   8979    O ASP A 296     118.310 137.841 183.915  0.00  0.00           O 0
+ATOM   8978    C ASP A 296     119.434 137.408 184.190  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : 0.0778
+HEADER 1  - Drug Score                        : 0.0063
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9074
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7052
+HEADER 5  - Mean B-factor of pocket residues  : 0.1138
+HEADER 6  - Hydrophobicity Score              : 40.8333
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 247.6929
+HEADER 10 - Pocket volume (convex hull)       : 4.2333
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 15.0000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 0.9412
+ATOM   7644  CG1 VAL R 209     122.421 116.441 153.197  0.00  0.00           C 0
+ATOM   7614   CG ARG R 206     122.769 123.024 154.746  0.00  0.00           C 0
+ATOM   7643   CB VAL R 209     123.724 117.145 153.530  0.00  0.00           C 0
+ATOM   7610   CA ARG R 206     124.463 121.433 153.724  0.00  0.00           C 0
+ATOM   7612    O ARG R 206     124.602 120.090 151.732  0.44  1.07           O 0
+ATOM   6991  CE1 TYR R 125     122.275 125.290 151.169  0.00  0.00           C 0
+ATOM   7652  CG2 VAL R 210     122.785 119.407 149.179  0.00  0.00           C 0
+ATOM   7615   CD ARG R 206     121.895 124.243 154.521  0.00  0.00           C 0
+ATOM   6994   OH TYR R 125     120.084 126.192 151.412  0.58  8.57           O 0
+ATOM   7018   CB SER R 129     121.108 124.029 147.502  0.00  0.00           C 0
+ATOM   7613   CB ARG R 206     123.594 122.672 153.519  0.00  0.00           C 0
+ATOM   7645  CG2 VAL R 209     124.017 117.043 155.016  0.00  0.00           C 0
+ATOM   7609    N ARG R 206     125.468 121.695 154.752  0.00  0.00           N 0
+ATOM   7605    C CYS R 205     126.223 120.691 155.206  0.00  0.00           C 0
+ATOM   7606    O CYS R 205     126.070 119.526 154.819  0.00  0.00           O 0
+ATOM   7607   CB CYS R 205     126.707 121.193 157.616  0.00  0.00           C 0
+TER
+END

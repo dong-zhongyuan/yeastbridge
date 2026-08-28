@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : 0.1329
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.5314
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3663
+HEADER 5  - Mean B-factor of pocket residues  : 0.1355
+HEADER 6  - Hydrophobicity Score              : 9.1250
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.6250
+HEADER 9  - Pocket volume (Monte Carlo)       : 99.3587
+HEADER 10 - Pocket volume (convex hull)       : 1.2341
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0667
+ATOM    830   CA GLY A 145      -1.030  14.527 -16.815  0.00  0.00           C 0
+ATOM    928  CG2 VAL A 157      -5.787  14.577 -15.226  0.00  0.00           C 0
+ATOM    926   CB VAL A 157      -4.539  15.398 -14.942  0.00  0.00           C 0
+ATOM    874    O HIS A 151      -4.308  12.589 -21.037  0.45  1.07           O 0
+ATOM    911    N ARG A 156      -5.591  17.997 -19.102  0.12  1.09           N 0
+ATOM    907    N GLY A 155      -4.455  18.498 -21.764  0.00  0.00           N 0
+ATOM    908   CA GLY A 155      -4.394  19.425 -20.630  0.00  0.00           C 0
+ATOM    884    O ASP A 152      -0.776  15.558 -22.461  0.00  9.64           O 0
+ATOM    882   CA ASP A 152      -1.709  13.522 -21.609  0.00  0.00           C 0
+ATOM    922    N VAL A 157      -5.188  17.295 -16.424  0.00  0.00           N 0
+ATOM    651   OG SER A 120      -1.866  20.467 -18.537  0.41  6.43           O 0
+ATOM    820    O TYR A 144       1.549  15.509 -16.433  0.17  6.43           O 0
+ATOM    819    C TYR A 144       0.581  16.175 -16.036  0.00  0.00           C 0
+ATOM    821   CB TYR A 144       1.075  18.599 -16.398  0.00  0.00           C 0
+ATOM    829    N GLY A 145      -0.684  15.785 -16.167  0.00  0.00           N 0
+TER
+END

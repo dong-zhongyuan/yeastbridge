@@ -1,0 +1,45 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    12:
+HEADER 0  - Pocket Score                      : -0.0207
+HEADER 1  - Drug Score                        : 0.0016
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 3.9206
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5377
+HEADER 5  - Mean B-factor of pocket residues  : 0.0840
+HEADER 6  - Hydrophobicity Score              : 20.7500
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 5.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 408.2671
+HEADER 10 - Pocket volume (convex hull)       : 31.5103
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 4.3333
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.2400
+ATOM   2519    N GLU D 108     132.813 130.335 163.704  0.74  5.47           N 0
+ATOM   2518  OE2 GLU D 107     135.372 126.796 161.420  0.48  9.64           O 0
+ATOM   2523   CB GLU D 108     130.496 129.989 164.407  0.00  0.00           C 0
+ATOM   1522   CG ARG R 296     128.420 130.469 160.951  0.00  0.00           C 0
+ATOM   1520    O ARG R 296     129.329 132.861 158.865  0.36  1.07           O 0
+ATOM   2499    O TRP D 106     134.374 131.613 159.927  0.33  2.14           O 0
+ATOM   1559   CB ARG R 300     130.566 131.612 155.552  0.00  0.00           C 0
+ATOM   2517  OE1 GLU D 107     136.112 128.316 160.031  0.63  3.21           O 0
+ATOM   1584  NH1 ARG R 303     137.023 129.033 156.415  0.57  2.19           N 0
+ATOM   1556   CA ARG R 300     131.652 132.682 155.441  0.00  0.00           C 0
+ATOM   1581   CD ARG R 303     136.553 130.951 154.397  0.00  0.00           C 0
+ATOM   1558    O ARG R 300     132.285 133.067 153.159  0.00  0.00           O 0
+ATOM   2511   CA GLU D 107     134.845 130.363 162.373  0.00  0.00           C 0
+ATOM   2106  CG1 VAL R 367     133.578 129.542 150.546  0.00  0.00           C 0
+ATOM   2104    O VAL R 367     132.083 127.034 151.534  0.00  0.00           O 0
+ATOM   1582   NE ARG R 303     137.688 130.046 154.451  0.83  5.47           N 0
+ATOM   1583   CZ ARG R 303     137.873 129.152 155.408  0.00  0.00           C 0
+ATOM   2102   CA VAL R 367     133.508 127.221 149.617  0.00  0.00           C 0
+ATOM   1585  NH2 ARG R 303     138.942 128.363 155.361  0.54  8.75           N 0
+ATOM   2096    O LEU R 366     133.655 124.481 149.494  0.41  4.29           O 0
+ATOM   2107  CG2 VAL R 367     135.296 128.823 148.929  0.00  0.00           C 0
+ATOM   2095    C LEU R 366     133.703 125.111 148.432  0.00  0.00           C 0
+ATOM   2097   CB LEU R 366     135.337 124.581 146.631  0.00  0.00           C 0
+TER
+END

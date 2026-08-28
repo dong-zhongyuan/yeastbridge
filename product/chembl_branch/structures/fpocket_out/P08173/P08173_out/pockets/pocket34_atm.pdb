@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    34:
+HEADER 0  - Pocket Score                      : -0.0511
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.6678
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3764
+HEADER 5  - Mean B-factor of pocket residues  : 0.3546
+HEADER 6  - Hydrophobicity Score              : 3.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.4444
+HEADER 9  - Pocket volume (Monte Carlo)       : 160.0839
+HEADER 10 - Pocket volume (convex hull)       : 3.1329
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0667
+ATOM   6523   CD PRO H 200      91.638 156.813 133.939  0.00  0.00           C 0
+ATOM   6433  CD2 LEU H 188      93.401 157.673 128.380  0.00  0.00           C 0
+ATOM   6375  NH2 ARG H 180      96.382 160.660 132.087  0.67  6.56           N 0
+ATOM   6416  OE1 GLN H 186      97.271 158.042 130.326  0.78  1.07           O 0
+ATOM   6417  NE2 GLN H 186      97.132 155.917 131.036  0.56  5.47           N 0
+ATOM   6509    O GLY H 198      94.303 154.271 134.709  0.25  9.64           O 0
+ATOM   6542  NH2 ARG H 202      90.590 161.647 134.911  0.69  1.09           N 0
+ATOM   6522   CG PRO H 200      91.081 157.586 135.092  0.00  0.00           C 0
+ATOM   6552  CE2 PHE H 203      90.292 159.331 131.203  0.00  0.00           C 0
+ATOM   6685  OD1 ASP H 223      91.551 163.491 133.097  0.54  1.07           O 0
+ATOM   6676   CD GLU H 222      94.792 162.506 136.630  0.00  0.00           C 0
+ATOM   6678  OE2 GLU H 222      93.963 161.865 137.309  0.58  5.36           O 0
+ATOM   6677  OE1 GLU H 222      96.025 162.320 136.710  0.38  9.64           O 0
+TER
+END

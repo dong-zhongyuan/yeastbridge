@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    20:
+HEADER 0  - Pocket Score                      : -0.0074
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0107
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6542
+HEADER 5  - Mean B-factor of pocket residues  : 0.0547
+HEADER 6  - Hydrophobicity Score              : -17.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 6.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 177.7449
+HEADER 10 - Pocket volume (convex hull)       : 0.7910
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.7333
+ATOM   3592   NE ARG A 487       1.977 -43.741  20.358  0.59  5.47           N 0
+ATOM   3612   CG LYS A 489       3.739 -38.237  15.787  0.00  0.00           C 0
+ATOM   3591   CD ARG A 487       1.897 -43.735  18.882  0.00  0.00           C 0
+ATOM   3590   CG ARG A 487       0.475 -43.471  18.346  0.00  0.00           C 0
+ATOM   3595   CZ ARG A 487       3.076 -43.922  21.080  0.00  0.00           C 0
+ATOM   3593  NH1 ARG A 487       4.235 -44.179  20.535  0.00  0.00           N 0
+ATOM   3614   CE LYS A 489       6.060 -39.271  16.094  0.00  0.00           C 0
+ATOM   3607    N LYS A 489       0.817 -38.317  14.690  0.00  0.00           N 0
+ATOM   3608   CA LYS A 489       1.411 -37.130  15.333  0.00  0.00           C 0
+ATOM   3600    O ARG A 488      -1.341 -37.895  15.210  0.28  8.57           O 0
+ATOM   3588   CB ARG A 487       0.575 -43.135  16.849  0.00  0.00           C 0
+ATOM   3598    C ARG A 488      -0.497 -38.572  14.629  0.00  0.00           C 0
+ATOM   3586   CA ARG A 487      -0.751 -42.821  16.117  0.00  0.00           C 0
+TER
+END

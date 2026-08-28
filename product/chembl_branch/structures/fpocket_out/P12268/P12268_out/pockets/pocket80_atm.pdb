@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    80:
+HEADER 0  - Pocket Score                      : -0.0555
+HEADER 1  - Drug Score                        : 0.0011
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.7388
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4661
+HEADER 5  - Mean B-factor of pocket residues  : 0.4252
+HEADER 6  - Hydrophobicity Score              : 23.5000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 5.3750
+HEADER 9  - Pocket volume (Monte Carlo)       : 260.1813
+HEADER 10 - Pocket volume (convex hull)       : 22.5053
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.3810
+ATOM  18881   NZ LYS D 238     167.786 103.761 118.918  0.57  2.19           N 0
+ATOM  18775    O GLU D 111     167.080 101.614 112.210  0.00  0.00           O 0
+ATOM  18779  OE1 GLU D 111     166.407  98.566 115.367  0.39  7.50           O 0
+ATOM  18754    O TYR D 110     163.347 100.460 114.618  0.51  1.07           O 0
+ATOM  18758  CD2 TYR D 110     163.765 103.831 112.970  0.00  0.00           C 0
+ATOM  18942    O LYS D 242     165.386 100.001 120.096  0.54  4.29           O 0
+ATOM  18983   CG LEU D 244     162.912 104.667 117.503  0.00  0.00           C 0
+ATOM  18760  CE2 TYR D 110     164.687 104.567 112.252  0.00  0.00           C 0
+ATOM  18807  CE2 TYR D 233     169.513 108.477 112.869  0.00  0.00           C 0
+ATOM  18762   OH TYR D 110     165.329 105.647 110.228  0.69  4.29           O 0
+ATOM  18805  CD2 TYR D 233     169.777 108.178 114.191  0.00  0.00           C 0
+ATOM  18346  CD2 LEU D  84     166.299 107.330 115.436  0.00  0.00           C 0
+ATOM  18802   CB TYR D 233     170.048 108.830 116.614  0.00  0.00           C 0
+ATOM  18985  CD2 LEU D 244     163.927 105.530 118.234  0.00  0.00           C 0
+ATOM  18984  CD1 LEU D 244     162.611 105.245 116.131  0.00  0.00           C 0
+ATOM  18798    N TYR D 233     172.476 108.502 116.324  0.00  0.00           N 0
+ATOM  18793  OD1 ASP D 232     174.553 106.703 116.992  0.00  0.00           O 0
+ATOM  18788   CA ASP D 232     174.238 108.137 114.695  0.00  0.00           C 0
+ATOM  18801    O TYR D 233     170.903 108.215 119.173  0.46  3.21           O 0
+TER
+END

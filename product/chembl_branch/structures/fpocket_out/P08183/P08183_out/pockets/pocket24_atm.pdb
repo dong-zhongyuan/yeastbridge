@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    24:
+HEADER 0  - Pocket Score                      : -0.1043
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9810
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5970
+HEADER 5  - Mean B-factor of pocket residues  : 0.1850
+HEADER 6  - Hydrophobicity Score              : 20.4000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 6.2000
+HEADER 9  - Pocket volume (Monte Carlo)       : 169.7759
+HEADER 10 - Pocket volume (convex hull)       : 1.9247
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.5294
+ATOM   3057   CD LYS A 786     162.783 131.986 175.153  0.00  0.00           C 0
+ATOM   3058   CE LYS A 786     163.510 131.999 176.460  0.00  0.00           C 0
+ATOM   3059   NZ LYS A 786     164.156 130.691 176.691  0.00  0.00           N 0
+ATOM   1727   NZ LYS A 285     164.520 130.843 171.100  0.58  8.75           N 0
+ATOM   3065   CG ARG A 787     168.067 136.709 176.355  0.00  0.00           C 0
+ATOM   3064   CB ARG A 787     166.823 136.772 175.522  0.00  0.00           C 0
+ATOM   3069  NH1 ARG A 787     170.203 136.009 173.019  0.78  8.75           N 0
+ATOM   3060    N ARG A 787     164.445 136.222 175.420  0.73  1.09           N 0
+ATOM   3061   CA ARG A 787     165.562 136.476 176.318  0.00  0.00           C 0
+ATOM   3097  CD2 TYR A 790     166.315 133.725 181.192  0.00  0.00           C 0
+ATOM   3094   CB TYR A 790     164.267 134.637 180.085  0.00  0.00           C 0
+ATOM   3034  CG2 ILE A 783     167.160 134.816 170.403  0.00  0.00           C 0
+ATOM   3031    O ILE A 783     165.165 136.192 172.519  0.53  1.07           O 0
+TER
+END

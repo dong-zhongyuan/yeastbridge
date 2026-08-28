@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    20:
+HEADER 0  - Pocket Score                      : -0.0642
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.0929
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6297
+HEADER 5  - Mean B-factor of pocket residues  : 0.1519
+HEADER 6  - Hydrophobicity Score              : 20.5000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 219.2662
+HEADER 10 - Pocket volume (convex hull)       : 3.8105
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1111
+ATOM   1765    O GLY A 613      23.758  40.661   7.766  0.62  6.43           O 0
+ATOM   1781   NE ARG A 615      21.880  36.559   8.280  0.66  2.19           N 0
+ATOM   1784  NH2 ARG A 615      21.686  37.166  10.496  0.61  4.37           N 0
+ATOM   1915   OH TYR A 631      20.053  40.332   4.847  0.00  0.00           O 0
+ATOM   1763   CA GLY A 613      24.568  40.652  10.037  0.00  0.00           C 0
+ATOM   1956   CB GLU A 636      19.790  39.002  13.458  0.00  0.00           C 0
+ATOM   1960  OE2 GLU A 636      20.367  41.631  14.192  0.26  3.21           O 0
+ATOM   1951  NE2 HIS A 635      14.091  40.019  11.227  0.00  0.00           N 0
+ATOM   1949  CD2 HIS A 635      14.164  38.877  10.466  0.00  0.00           C 0
+ATOM   1912  CE1 TYR A 631      18.164  39.019   4.566  0.00  0.00           C 0
+ATOM   1952    N GLU A 636      18.393  37.627  11.984  0.57  3.28           N 0
+ATOM   1950  CE1 HIS A 635      14.849  39.875  12.307  0.00  0.00           C 0
+ATOM   1931    O TRP A 634      19.311  35.813   9.371  0.70  1.07           O 0
+ATOM   1948  ND1 HIS A 635      15.416  38.684  12.260  0.00  0.00           N 0
+ATOM   1947   CG HIS A 635      14.999  38.025  11.115  0.00  0.00           C 0
+ATOM   1943   CA HIS A 635      16.911  36.576  10.338  0.00  0.00           C 0
+TER
+END

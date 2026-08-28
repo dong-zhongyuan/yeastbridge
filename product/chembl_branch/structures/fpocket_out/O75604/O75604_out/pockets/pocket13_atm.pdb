@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : -0.0193
+HEADER 1  - Drug Score                        : 0.0010
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.5885
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4041
+HEADER 5  - Mean B-factor of pocket residues  : 0.2569
+HEADER 6  - Hydrophobicity Score              : 22.7143
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 187.9251
+HEADER 10 - Pocket volume (convex hull)       : 12.8385
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.1667
+ATOM   2993  OE1 GLN B  40     128.398  22.282  32.059  0.61  5.36           O 0
+ATOM   3276  NH2 ARG B  74     132.477  22.033  26.998  0.00  0.00           N 0
+ATOM   2331   CE MET A 554     134.948  21.383  32.585  0.00  0.00           C 0
+ATOM   3273   NE ARG B  74     134.206  21.073  28.153  0.55  2.19           N 0
+ATOM   2994  NE2 GLN B  40     129.242  20.234  32.398  0.65  6.56           N 0
+ATOM   2330   SD MET A 554     134.444  20.876  34.222  0.00  0.00           S 0
+ATOM   3253   CD ARG B  72     131.499  18.760  26.488  0.00  0.00           C 0
+ATOM   3251   CB ARG B  72     132.073  16.747  27.866  0.00  0.00           C 0
+ATOM   1993   CB THR A 512     129.535  15.593  35.803  0.00  0.00           C 0
+ATOM   1994  OG1 THR A 512     128.374  16.302  35.368  0.39  7.50           O 0
+ATOM   3245  CD1 LEU B  71     127.543  14.753  32.705  0.00  0.00           C 0
+ATOM   2320    O THR A 553     135.529  17.319  31.226  0.64  1.07           O 0
+ATOM   2322  OG1 THR A 553     133.970  16.760  34.481  0.56  4.29           O 0
+ATOM   3243   CB LEU B  71     128.508  14.073  30.490  0.00  0.00           C 0
+ATOM   3247    N ARG B  72     130.570  15.079  28.834  0.57  1.09           N 0
+ATOM   3250    O ARG B  72     133.050  15.007  30.258  0.76  2.14           O 0
+ATOM   1995  CG2 THR A 512     129.609  14.198  35.179  0.00  0.00           C 0
+ATOM   2321   CB THR A 553     134.077  15.768  33.456  0.00  0.00           C 0
+TER
+END

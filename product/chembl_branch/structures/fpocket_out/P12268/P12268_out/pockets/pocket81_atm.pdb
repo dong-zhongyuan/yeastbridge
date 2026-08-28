@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    81:
+HEADER 0  - Pocket Score                      : -0.0557
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.7941
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4990
+HEADER 5  - Mean B-factor of pocket residues  : 0.5824
+HEADER 6  - Hydrophobicity Score              : -10.0000
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 5.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 263.6264
+HEADER 10 - Pocket volume (convex hull)       : 9.8393
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2222
+ATOM  30354    O LYS F 242     131.772  99.980 177.071  0.50  3.21           O 0
+ATOM  30191  OE1 GLU F 111     130.753  98.546 181.800  0.37  5.36           O 0
+ATOM  30355   CB LYS F 242     130.082  98.744 175.235  0.00  0.00           C 0
+ATOM  30192  OE2 GLU F 111     130.943  96.367 181.985  0.00  0.00           O 0
+ATOM  30378   CG GLN F 243     135.628  98.119 177.489  0.00  0.00           C 0
+ATOM  30190   CD GLU F 111     131.244  97.528 182.332  0.00  0.00           C 0
+ATOM  30189   CG GLU F 111     132.251  97.711 183.450  0.00  0.00           C 0
+ATOM  30381  NE2 GLN F 243     137.053  96.430 178.473  0.75  4.37           N 0
+ATOM  30147   CD LYS F 109     139.356  96.091 181.616  0.00  0.00           C 0
+ATOM  30332    O LYS F 241     132.424  96.931 175.045  0.40  3.21           O 0
+ATOM  30122    O LYS F 108     137.241  99.325 180.129  0.00  0.00           O 0
+ATOM  30166    O TYR F 110     133.812 100.440 182.549  0.41  3.21           O 0
+ATOM  30142   CA LYS F 109     137.712  98.389 182.695  0.00  0.00           C 0
+ATOM  30144    O LYS F 109     135.964  98.412 184.318  0.44  7.50           O 0
+ATOM  30145   CB LYS F 109     138.575  97.499 183.597  0.00  0.00           C 0
+ATOM  30148   CE LYS F 109     139.757  94.614 181.597  0.00  0.00           C 0
+TER
+END

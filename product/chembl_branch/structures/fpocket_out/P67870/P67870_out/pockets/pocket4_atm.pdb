@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     4:
+HEADER 0  - Pocket Score                      : 0.0154
+HEADER 1  - Drug Score                        : 0.0097
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.8745
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5454
+HEADER 5  - Mean B-factor of pocket residues  : 0.2849
+HEADER 6  - Hydrophobicity Score              : 27.3333
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 266.1461
+HEADER 10 - Pocket volume (convex hull)       : 7.1419
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.6842
+ATOM   1691  CD2 HIS B  45       4.348 101.259  -8.121  0.00  0.00           C 0
+ATOM   1693  NE2 HIS B  45       3.530 101.479  -9.203  0.63  1.09           N 0
+ATOM   1681   CB PRO B  44       8.942 101.393  -8.685  0.00  0.00           C 0
+ATOM   1840  CD1 LEU B  71       3.307  97.028 -11.547  0.00  0.00           C 0
+ATOM   1682   CG PRO B  44       9.355 100.197  -7.896  0.00  0.00           C 0
+ATOM   1837    O LEU B  71       5.343  97.264  -6.282  0.00  0.00           O 0
+ATOM   1841  CD2 LEU B  71       4.885  95.405 -10.486  0.00  0.00           C 0
+ATOM   1866  OE1 GLN B  74       7.399  92.710  -8.159  0.57  6.43           O 0
+ATOM   1838   CB LEU B  71       3.651  97.004  -9.045  0.00  0.00           C 0
+HETATM 1893   SE MSE B  78      13.808  98.127  -5.444  0.00  0.00          SE 0
+ATOM   1869   CA ALA B  75       8.223  98.217  -3.949  0.00  0.00           C 0
+ATOM   1683   CD PRO B  44      10.652 100.618  -7.208  0.00  0.00           C 0
+ATOM   1863   CB GLN B  74       7.153  94.177  -5.657  0.00  0.00           C 0
+ATOM   1868    N ALA B  75       7.449  97.006  -4.200  0.00  0.00           N 0
+ATOM   1861    C GLN B  74       7.942  95.808  -3.906  0.00  0.00           C 0
+ATOM   1862    O GLN B  74       9.055  95.653  -3.410  0.40  1.07           O 0
+TER
+END

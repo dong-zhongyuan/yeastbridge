@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : 0.0207
+HEADER 1  - Drug Score                        : 0.0012
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.7288
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4469
+HEADER 5  - Mean B-factor of pocket residues  : 0.0915
+HEADER 6  - Hydrophobicity Score              : 20.3333
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.1111
+HEADER 9  - Pocket volume (Monte Carlo)       : 239.2650
+HEADER 10 - Pocket volume (convex hull)       : 18.4147
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM  13626  CG2 VAL R 192      94.932 104.846 120.147  0.00  0.00           C 0
+ATOM  13577  CG2 THR R 189      92.925 110.120 118.958  0.00  0.00           C 0
+ATOM  13625  CG1 VAL R 192      92.860 103.437 120.120  0.00  0.00           C 0
+ATOM   1098    O LYS A 216      92.283 107.621 125.531  0.00  0.00           O 0
+ATOM   1099   CB LYS A 216      90.646 110.014 125.426  0.00  0.00           C 0
+ATOM   1086    O ASP A 215      93.115 111.542 124.915  0.66  4.29           O 0
+ATOM    530   CB ALA A  39      94.479 101.370 122.766  0.00  0.00           C 0
+ATOM  13576  OG1 THR R 189      94.796 111.108 120.111  0.00  4.29           O 0
+ATOM  13646  NH2 ARG R 193      90.204 108.938 117.407  0.61  6.56           N 0
+ATOM  13624   CB VAL R 192      93.800 104.301 119.290  0.00  0.00           C 0
+ATOM  13574    O THR R 189      94.104 107.203 117.826  0.52  1.07           O 0
+ATOM  13642   CD ARG R 193      90.066 106.743 115.589  0.00  0.00           C 0
+ATOM    529    O ALA A  39      96.943 103.209 123.811  0.54  1.07           O 0
+ATOM   1133    N ASN A 218      95.760 106.208 127.248  0.62  1.09           N 0
+ATOM   1140  ND2 ASN A 218      93.294 103.464 128.103  0.13  9.84           N 0
+ATOM  13555    O LEU R 188      96.922 108.074 120.881  0.43  2.14           O 0
+ATOM   1118   CA VAL A 217      95.008 107.979 125.776  0.00  0.00           C 0
+ATOM   1123  CG2 VAL A 217      97.095 107.477 124.448  0.00  0.00           C 0
+ATOM   1121   CB VAL A 217      96.046 108.535 124.780  0.00  0.00           C 0
+ATOM  13572   CA THR R 189      95.190 109.026 118.927  0.00  0.00           C 0
+TER
+END

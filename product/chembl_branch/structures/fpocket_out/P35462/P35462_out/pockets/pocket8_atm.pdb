@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : 0.0766
+HEADER 1  - Drug Score                        : 0.0008
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 3.6909
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4895
+HEADER 5  - Mean B-factor of pocket residues  : 0.4687
+HEADER 6  - Hydrophobicity Score              : 26.3333
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.7778
+HEADER 9  - Pocket volume (Monte Carlo)       : 84.2872
+HEADER 10 - Pocket volume (convex hull)       : 0.6194
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.5652
+ATOM   6773  CG2 VAL R  50      86.545 106.596 101.807  0.00  0.00           C 0
+ATOM   8586   CA PRO R 380      87.103 111.212 101.638  0.00  0.00           C 0
+ATOM   8589   CB PRO R 380      86.212 110.440 102.623  0.00  0.00           C 0
+ATOM   6940   CB ALA R  72      90.349 106.426 105.555  0.00  0.00           C 0
+ATOM   6911    O VAL R  68      93.058 106.896 103.365  0.00  0.00           O 0
+ATOM   6913  CG1 VAL R  68      92.112 107.300 100.376  0.00  0.00           C 0
+ATOM   6935  CD2 LEU R  71      93.198 111.992 103.370  0.00  0.00           C 0
+ATOM   6936    N ALA R  72      92.267 107.893 105.955  0.00  0.00           N 0
+ATOM   8611   CB TYR R 383      90.960 111.460  98.685  0.00  0.00           C 0
+ATOM   6960  OD2 ASP R  75      90.156 111.521 106.832  0.65  1.07           O 1
+ATOM   8585    N PRO R 380      87.417 112.450 102.372  0.56  1.09           N 0
+ATOM   8590   CG PRO R 380      86.553 110.988 103.962  0.00  0.00           C 0
+ATOM   6772  CG1 VAL R  50      88.676 105.282 101.647  0.00  0.00           C 0
+ATOM   8625  CG2 THR R 384      88.574 107.906  98.805  0.00  0.00           C 0
+ATOM   6753  OD1 ASN R  47      88.156 109.061 106.627  0.00  0.00           O 0
+ATOM   6937   CA ALA R  72      90.960 107.492 106.464  0.00  0.00           C 0
+TER
+END

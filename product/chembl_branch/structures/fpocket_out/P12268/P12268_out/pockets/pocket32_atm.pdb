@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    32:
+HEADER 0  - Pocket Score                      : 0.0050
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.6493
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4057
+HEADER 5  - Mean B-factor of pocket residues  : 0.1596
+HEADER 6  - Hydrophobicity Score              : 10.4444
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Amino Acid based volume Score     : 3.8889
+HEADER 9  - Pocket volume (Monte Carlo)       : 122.2410
+HEADER 10 - Pocket volume (convex hull)       : 1.7995
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.0833
+ATOM  40377   CB TYR H  32     155.467 163.638 171.094  0.00  0.00           C 0
+ATOM  43712  CE1 HIS H 372     156.027 163.849 175.438  0.00  0.00           C 0
+ATOM  40380  CD2 TYR H  32     154.387 165.845 171.664  0.00  0.00           C 0
+ATOM  39708  OE2 GLU G 500     150.286 164.818 172.412  0.50  1.07           O 0
+ATOM  40364  OG1 THR H  31     151.103 162.738 170.877  0.00  0.00           O 0
+ATOM  40394    N ASN H  33     155.173 160.508 171.269  0.00  0.00           N 0
+ATOM  43658  NE2 GLN H 368     153.089 164.928 177.151  0.66  5.47           N 0
+ATOM  40401  ND2 ASN H  33     154.770 159.520 175.338  0.45  9.84           N 0
+ATOM  39704   CB GLU G 500     148.376 162.772 174.170  0.00  0.00           C 0
+ATOM  39649    O SER G 496     148.851 159.351 173.574  0.52  3.21           O 0
+ATOM  39700    N GLU G 500     147.542 160.963 175.584  0.00  0.00           N 0
+ATOM  40365  CG2 THR H  31     151.534 160.368 170.839  0.00  0.00           C 0
+ATOM  39689  CG1 VAL G 499     149.056 158.870 178.084  0.00  0.00           C 0
+ATOM  43657  OE1 GLN H 368     153.655 163.110 178.341  0.62  7.50           O 0
+ATOM  39750   CG HIS G 504     148.960 163.927 179.896  0.00  0.00           C 0
+ATOM  39701   CA GLU G 500     147.683 162.412 175.485  0.00  0.00           C 0
+ATOM  40399   CG ASN H  33     155.519 159.632 174.249  0.00  0.00           C 0
+TER
+END

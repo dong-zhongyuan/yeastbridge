@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     4:
+HEADER 0  - Pocket Score                      : 0.2112
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0583
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7791
+HEADER 5  - Mean B-factor of pocket residues  : 0.6844
+HEADER 6  - Hydrophobicity Score              : -8.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 160.0205
+HEADER 10 - Pocket volume (convex hull)       : 0.9271
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1333
+ATOM   1069    N ALA A1141      64.644  30.635   4.127  0.00  0.00           N 0
+ATOM   1098   NE ARG A1144      69.420  30.734   2.786  0.00  0.00           N 0
+ATOM   1070   CA ALA A1141      65.769  29.725   4.279  0.00  0.00           C 0
+ATOM   1063    O GLU A1140      65.391  31.545   2.211  0.66  1.07           O 0
+ATOM   1062    C GLU A1140      64.543  31.469   3.100  0.00  0.00           C 0
+ATOM   1065   CG GLU A1140      64.350  34.656   2.808  0.00  0.00           C 0
+ATOM   1064   CB GLU A1140      63.608  33.705   3.708  0.00  0.00           C 0
+ATOM   1040    O ASN A1137      64.076  31.661   7.094  0.54  6.43           O 0
+ATOM   1101  NH2 ARG A1144      69.156  29.171   4.457  0.43  5.47           N 0
+ATOM   1073   CB ALA A1141      65.818  29.207   5.703  0.00  0.00           C 0
+ATOM   1066   CD GLU A1140      64.252  36.088   3.280  0.00  0.00           C 0
+ATOM   1038   CA ASN A1137      62.680  33.543   7.705  0.00  0.00           C 0
+ATOM   1067  OE1 GLU A1140      63.504  36.359   4.249  0.79  7.50           O 0
+ATOM   1041   CB ASN A1137      63.385  34.002   8.985  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    24:
+HEADER 0  - Pocket Score                      : 0.0315
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.7139
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4728
+HEADER 5  - Mean B-factor of pocket residues  : 0.3180
+HEADER 6  - Hydrophobicity Score              : -10.1429
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 171.0569
+HEADER 10 - Pocket volume (convex hull)       : 2.2391
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2500
+ATOM   1785  OD1 ASP A 350     120.108 132.773 121.681  0.50  5.36           O 0
+ATOM   7545   CG PRO R 183     119.062 125.087 123.888  0.00  0.00           C 0
+ATOM   1786  OD2 ASP A 350     118.661 131.663 120.456  0.41  7.50           O 1
+ATOM   6914  CG2 THR R 103     122.651 129.751 121.570  0.00  0.00           C 0
+ATOM   7546   CD PRO R 183     117.577 125.166 123.887  0.00  0.00           C 0
+ATOM   7535    C THR R 182     116.051 124.494 121.989  0.00  0.00           C 0
+ATOM   6919   CB ALA R 104     118.286 126.142 118.177  0.00  0.00           C 0
+ATOM   7524    C ARG R 181     113.785 127.159 121.408  0.00  0.00           C 0
+ATOM   7525    O ARG R 181     114.010 127.949 122.328  0.75  6.43           O 0
+ATOM   6909   CA THR R 103     121.898 127.409 121.136  0.00  0.00           C 0
+ATOM   7526   CB ARG R 181     113.470 129.023 119.762  0.00  0.00           C 0
+ATOM   6902    O LYS R 102     121.830 125.658 123.283  0.70  4.29           O 0
+ATOM   6915    N ALA R 104     120.243 126.721 119.505  0.60  4.37           N 0
+ATOM   7540    N PRO R 183     117.205 124.440 122.662  0.00  0.00           N 0
+ATOM   7532  NH2 ARG R 181     116.945 131.204 117.307  0.79  2.19           N 0
+ATOM   7529   NE ARG R 181     114.856 131.134 118.240  0.80  1.09           N 0
+TER
+END

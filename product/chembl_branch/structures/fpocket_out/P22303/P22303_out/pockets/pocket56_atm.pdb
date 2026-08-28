@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    56:
+HEADER 0  - Pocket Score                      : -0.1234
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0333
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5029
+HEADER 5  - Mean B-factor of pocket residues  : 0.1947
+HEADER 6  - Hydrophobicity Score              : 2.8750
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 328.3834
+HEADER 10 - Pocket volume (convex hull)       : 9.3878
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1875
+ATOM   2669   NE ARG A 356     -14.833 -56.831   4.733  0.00  0.00           N 0
+ATOM   2891  CZ3 TRP A 385     -10.960 -57.152   0.666  0.00  0.00           C 0
+ATOM   2926  OE2 GLU A 389     -17.702 -60.766   3.204  0.70  8.57           O 0
+ATOM   8242  NH1 ARG B 534     -12.517 -57.089  -3.239  0.00  0.00           N 0
+ATOM   2672  NH2 ARG A 356     -12.942 -55.675   4.113  0.41  5.47           N 0
+ATOM   2892  CH2 TRP A 385     -10.693 -55.835   1.076  0.00  0.00           C 0
+ATOM   2916   CG PRO A 388     -12.716 -62.083   2.873  0.00  0.00           C 0
+ATOM   8243  NH2 ARG B 534     -11.505 -59.124  -3.559  0.00  0.00           N 0
+ATOM   2889  CE3 TRP A 385      -9.984 -58.132   0.719  0.00  0.00           C 0
+ATOM   8010    O GLY B 506     -11.269 -67.315  -0.770  0.65  3.21           O 0
+ATOM   8008   CA GLY B 506     -13.379 -66.995  -1.838  0.00  0.00           C 0
+ATOM   2917   CD PRO A 388     -11.705 -63.043   3.455  0.00  0.00           C 0
+ATOM   2915   CB PRO A 388     -12.426 -60.772   3.550  0.00  0.00           C 0
+ATOM   8024  NE2 GLN B 508      -9.332 -64.914  -1.378  0.58  5.47           N 0
+ATOM   8005    O ALA B 505     -12.081 -65.149  -3.407  0.75  6.43           O 0
+ATOM   2882    O TRP A 385      -8.703 -62.623   1.030  0.48  2.14           O 0
+TER
+END

@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    20:
+HEADER 0  - Pocket Score                      : -0.0079
+HEADER 1  - Drug Score                        : 0.0547
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 4.1405
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6788
+HEADER 5  - Mean B-factor of pocket residues  : 0.8753
+HEADER 6  - Hydrophobicity Score              : 58.8571
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 291.2090
+HEADER 10 - Pocket volume (convex hull)       : 13.0390
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 18.9000
+HEADER 13 - Number of apolar alpha sphere     :    20
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM   1556   CG PHE A 194      -1.489 -13.272  -9.100  0.00  0.00           C 0
+ATOM   1229  CG2 THR A 152       5.203 -13.497  -9.718  0.00  0.00           C 0
+ATOM   1558  CD2 PHE A 194      -2.300 -14.412  -8.952  0.00  0.00           C 0
+ATOM   1523  CG2 THR A 190       1.444 -13.589 -13.635  0.00  0.00           C 0
+ATOM   1559  CE1 PHE A 194      -0.474 -13.722  -6.926  0.00  0.00           C 0
+ATOM   1199   CG MET A 148       3.032 -16.109  -3.925  0.00  0.00           C 0
+ATOM   1197   CB MET A 148       3.562 -14.730  -4.338  0.00  0.00           C 0
+ATOM   1220   CB THR A 151       8.739 -15.818  -7.066  0.00  0.00           C 0
+ATOM   1198    O MET A 148       5.821 -13.422  -6.432  0.00  0.00           O 0
+ATOM   1222  CG2 THR A 151       8.899 -16.855  -8.177  0.00  0.00           C 0
+ATOM   1572   CZ PHE A 195       2.744 -11.454  -7.617  0.00  0.00           C 0
+ATOM   1557  CD1 PHE A 194      -0.582 -12.929  -8.081  0.00  0.00           C 0
+ATOM   1195   CA MET A 148       5.089 -14.685  -4.512  0.00  0.00           C 0
+ATOM   1192  CG2 ILE A 147       7.969 -17.389  -2.124  0.00  0.00           C 0
+ATOM   1223  OG1 THR A 151       9.210 -16.435  -5.892  0.57  3.21           O 0
+ATOM   1561   CZ PHE A 194      -1.290 -14.856  -6.779  0.00  0.00           C 0
+ATOM   1200   SD MET A 148       1.219 -16.239  -3.818  0.00  0.00           S 0
+ATOM   1560  CE2 PHE A 194      -2.207 -15.196  -7.789  0.00  0.00           C 0
+ATOM   1571  CE2 PHE A 195       2.380 -11.111  -8.931  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,34 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : 0.0372
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.5178
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3497
+HEADER 5  - Mean B-factor of pocket residues  : 0.3399
+HEADER 6  - Hydrophobicity Score              : 37.2000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.2000
+HEADER 9  - Pocket volume (Monte Carlo)       : 68.2487
+HEADER 10 - Pocket volume (convex hull)       : 0.4347
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2667
+ATOM   5926  OE2 GLU B 248      49.840 126.087  -2.662  0.74  2.14           O 0
+ATOM   5957  CD2 HIS B 252      50.800 120.853  -0.172  0.00  0.00           C 0
+ATOM   5823  CD1 ILE B 236      48.129 126.604   1.661  0.00  0.00           C 0
+ATOM   5930    O THR B 249      46.700 123.886  -0.207  0.00  0.00           O 0
+ATOM   1965    O LEU A 250      53.240 128.592   0.044  0.27  2.14           O 0
+ATOM   1987  NE2 HIS A 252      52.441 125.678  -2.736  0.42  4.37           N 0
+ATOM   5959  NE2 HIS B 252      52.059 121.074   0.329  0.58  4.37           N 0
+ATOM   1851  CD1 ILE A 236      50.883 125.962   3.998  0.00  0.00           C 0
+ATOM   5937    O LEU B 250      48.283 121.301   1.903  0.32  2.14           O 0
+ATOM   1954  OE2 GLU A 248      53.153 122.217   2.427  0.58  2.14           O 0
+ATOM   1985  CD2 HIS A 252      53.566 126.045  -2.040  0.00  0.00           C 0
+ATOM   1958    O THR A 249      54.236 126.628   2.991  0.77  1.07           O 0
+TER
+END

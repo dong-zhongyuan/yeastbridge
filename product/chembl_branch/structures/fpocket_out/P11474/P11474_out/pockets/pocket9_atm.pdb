@@ -1,0 +1,45 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : -0.0044
+HEADER 1  - Drug Score                        : 0.0008
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 3.9299
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5766
+HEADER 5  - Mean B-factor of pocket residues  : 0.1211
+HEADER 6  - Hydrophobicity Score              : 17.8000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 289.2639
+HEADER 10 - Pocket volume (convex hull)       : 21.1199
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1200
+ATOM   1522   CB ALA A 488      44.156   5.084  30.080  0.00  0.00           C 0
+ATOM    562    O SER A 359      42.626   5.817  23.552  0.50  7.50           O 0
+ATOM    599   CG GLU A 363      43.665   8.226  28.008  0.00  0.00           C 0
+ATOM    601  OE1 GLU A 363      45.147   8.520  26.158  0.56  3.21           O 0
+ATOM    590   CB MET A 362      40.660   3.753  29.114  0.00  0.00           C 0
+ATOM    594    N GLU A 363      41.069   6.967  29.124  0.00  0.00           N 0
+ATOM   1549  CD1 LEU A 492      43.054   0.682  27.358  0.00  0.00           C 0
+ATOM   1523    N GLY A 489      46.467   2.908  29.858  0.56  1.09           N 0
+ATOM   1524   CA GLY A 489      47.083   1.710  29.313  0.00  0.00           C 0
+ATOM   1496   CG ARG A 485      47.966   7.487  26.498  0.00  0.00           C 0
+ATOM   1500  NH1 ARG A 485      48.570   9.470  22.727  0.48  2.19           N 0
+ATOM   1498   NE ARG A 485      47.438   9.129  24.694  0.69  2.19           N 0
+ATOM   1499   CZ ARG A 485      47.571   9.777  23.544  0.00  0.00           C 0
+ATOM   1134    N ASP A 434      45.388   9.960  19.649  0.52  2.19           N 0
+ATOM   1497   CD ARG A 485      48.343   8.073  25.133  0.00  0.00           C 0
+ATOM   1494    O ARG A 485      47.523   5.609  29.256  0.67  2.14           O 0
+ATOM   1137    O ASP A 434      46.774   7.566  17.463  0.20  9.64           O 0
+ATOM   1136    C ASP A 434      45.918   8.352  17.873  0.00  0.00           C 0
+ATOM   1142    N SER A 435      44.617   8.127  17.735  0.00  0.00           N 0
+ATOM    563   CB SER A 359      42.080   6.115  20.492  0.00  0.00           C 0
+ATOM   1138   CB ASP A 434      47.741   9.549  19.133  0.00  0.00           C 0
+ATOM   1143   CA SER A 435      44.129   6.944  17.032  0.00  0.00           C 0
+ATOM   1153  CG1 VAL A 436      46.740   3.506  15.455  0.00  0.00           C 0
+TER
+END

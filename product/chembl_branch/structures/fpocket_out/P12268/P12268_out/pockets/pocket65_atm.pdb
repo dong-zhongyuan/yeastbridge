@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    65:
+HEADER 0  - Pocket Score                      : -0.0404
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.7979
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5700
+HEADER 5  - Mean B-factor of pocket residues  : 0.2588
+HEADER 6  - Hydrophobicity Score              : 21.6667
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 152.5078
+HEADER 10 - Pocket volume (convex hull)       : 2.8313
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.1905
+ATOM   5530   CB SER A 505     145.276 165.691 114.509  0.00  0.00           C 0
+ATOM   9710  CD1 LEU B 389     138.764 169.707 115.644  0.00  0.00           C 0
+ATOM  10391   CE LYS B 450     139.230 170.445 111.395  0.00  0.00           C 0
+ATOM   9417    O GLN B 368     138.820 166.547 116.967  0.00  0.00           O 0
+ATOM   9705   CA LEU B 389     140.765 171.939 114.917  0.00  0.00           C 0
+ATOM   9696    O SER B 388     142.651 172.098 112.939  0.71  1.07           O 0
+ATOM   9698   OG SER B 388     144.283 170.079 115.675  0.57  2.14           O 0
+ATOM   9697   CB SER B 388     145.062 170.733 114.689  0.00  0.00           C 0
+ATOM   5529    O SER A 505     145.859 166.790 112.064  0.00  0.00           O 0
+ATOM   5531   OG SER A 505     144.773 164.918 115.583  0.33  4.29           O 0
+ATOM   9415   CA GLN B 368     140.740 166.710 118.358  0.00  0.00           C 0
+ATOM   9419   CG GLN B 368     142.795 165.218 117.995  0.00  0.00           C 0
+ATOM   9418   CB GLN B 368     141.294 165.284 118.203  0.00  0.00           C 0
+ATOM  10392   NZ LYS B 450     140.459 171.238 111.123  0.92  1.09           N 0
+ATOM  10344  CG1 VAL B 447     143.288 170.293 109.096  0.00  0.00           C 0
+TER
+END

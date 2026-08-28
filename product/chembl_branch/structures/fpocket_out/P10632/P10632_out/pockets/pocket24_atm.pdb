@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    24:
+HEADER 0  - Pocket Score                      : -0.1198
+HEADER 1  - Drug Score                        : 0.0010
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8848
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5404
+HEADER 5  - Mean B-factor of pocket residues  : 0.2904
+HEADER 6  - Hydrophobicity Score              : 23.6667
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 184.4652
+HEADER 10 - Pocket volume (convex hull)       : 2.8605
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.5333
+ATOM    341   SD MET A  71      51.235   5.696  -0.843  0.00  0.00           S 0
+ATOM    315  CD2 TYR A  68      51.131  12.316  -1.704  0.00  0.00           C 0
+ATOM    342   CE MET A  71      52.797   6.115   0.003  0.00  0.00           C 0
+ATOM    336   CA MET A  71      51.399   7.768  -3.330  0.00  0.00           C 0
+ATOM     68    O PRO A  37      48.955   5.515   1.699  0.53  6.43           O 0
+ATOM     55   CG PRO A  35      48.192  12.588   2.508  0.00  0.00           C 0
+ATOM    317  CE2 TYR A  68      52.272  12.855  -1.033  0.00  0.00           C 0
+ATOM    334    O GLY A  70      48.838   8.795  -3.040  0.66  2.14           O 0
+ATOM    338    O MET A  71      53.097   9.481  -3.407  0.81  3.21           O 0
+ATOM     60    O LEU A  36      46.333   8.060   1.600  0.67  2.14           O 0
+ATOM     66   CA PRO A  37      47.342   6.053   3.403  0.00  0.00           C 0
+ATOM     53    O PRO A  35      46.063  10.819   4.188  0.52  7.50           O 0
+ATOM     54   CB PRO A  35      47.187  12.133   1.484  0.00  0.00           C 0
+ATOM     65    N PRO A  37      46.204   6.971   3.574  0.00  0.00           N 0
+ATOM     70   CG PRO A  37      46.456   5.718   5.538  0.00  0.00           C 0
+ATOM    313   CG TYR A  68      49.854  12.887  -1.543  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : 0.0733
+HEADER 1  - Drug Score                        : 0.0015
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.8635
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6715
+HEADER 5  - Mean B-factor of pocket residues  : 0.1949
+HEADER 6  - Hydrophobicity Score              : 22.1667
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 190.3114
+HEADER 10 - Pocket volume (convex hull)       : 2.7658
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.6875
+ATOM   5745    C HIS B 200      19.092  -2.626  41.957  0.00  0.00           C 0
+ATOM   5747   CB HIS B 200      19.374  -4.345  40.184  0.00  0.00           C 0
+ATOM   5760    N ALA B 201      20.275  -2.098  42.242  0.00  0.00           N 0
+ATOM   4252    O LYS B 108      23.855  -4.898  41.576  0.43  2.14           O 0
+ATOM   5800   CB ALA B 204      17.271  -4.243  45.484  0.00  0.00           C 0
+ATOM   4151   CB TRP B 102      18.479  -8.085  42.301  0.00  0.00           C 0
+ATOM   4253   CB LYS B 108      24.276  -7.939  42.284  0.00  0.00           C 0
+ATOM   4157  CE3 TRP B 102      15.968  -7.336  44.283  0.00  0.00           C 0
+ATOM   4176   CG GLU B 103      19.596 -11.866  45.329  0.00  0.00           C 0
+ATOM   4171    N GLU B 103      20.087 -10.762  42.611  0.00  0.00           N 0
+ATOM   4172   CA GLU B 103      21.167 -11.379  43.379  0.00  0.00           C 0
+ATOM   4250   CA LYS B 108      23.636  -7.233  41.086  0.00  0.00           C 0
+ATOM   5761   CA ALA B 201      20.618  -1.674  43.589  0.00  0.00           C 0
+ATOM   5746    O HIS B 200      18.231  -2.861  42.803  0.00  0.00           O 0
+ATOM   4150    O TRP B 102      21.381  -9.260  41.526  0.00  0.00           O 0
+ATOM   4149    C TRP B 102      20.272  -9.714  41.810  0.00  0.00           C 0
+TER
+END

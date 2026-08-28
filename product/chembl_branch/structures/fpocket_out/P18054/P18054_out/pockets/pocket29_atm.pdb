@@ -1,0 +1,45 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    29:
+HEADER 0  - Pocket Score                      : -0.0464
+HEADER 1  - Drug Score                        : 0.0016
+HEADER 2  - Number of alpha spheres           :    26
+HEADER 3  - Mean alpha-sphere radius          : 4.0338
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6213
+HEADER 5  - Mean B-factor of pocket residues  : 0.6153
+HEADER 6  - Hydrophobicity Score              : 27.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.1250
+HEADER 9  - Pocket volume (Monte Carlo)       : 319.4325
+HEADER 10 - Pocket volume (convex hull)       : 22.8920
+HEADER 11 - Charge Score                      :     4
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.3846
+ATOM    505   CD ARG B  64     117.432 144.199 197.705  0.00  0.00           C 0
+ATOM    506   NE ARG B  64     116.449 143.493 198.519  0.00  0.00           N 0
+ATOM    846  CD1 ILE B 105     116.954 148.999 196.333  0.00  0.00           C 0
+ATOM    508  NH1 ARG B  64     115.369 142.498 196.734  0.59  6.56           N 0
+ATOM    507   CZ ARG B  64     115.497 142.708 198.034  0.00  0.00           C 0
+ATOM    845  CG2 ILE B 105     117.887 146.574 194.819  0.00  0.00           C 0
+ATOM    491   CZ PHE B  62     114.237 136.688 196.305  0.00  0.00           C 0
+ATOM    975   CE MET B 123     111.232 139.339 199.529  0.00  0.00           C 0
+ATOM    509  NH2 ARG B  64     114.653 142.117 198.875  0.38  2.19           N 0
+ATOM    971    O MET B 123     110.962 136.610 195.929  0.58  1.07           O 0
+ATOM   1009   CB HIS B 127     112.464 137.656 193.065  0.00  0.00           C 0
+ATOM    490  CE2 PHE B  62     115.155 137.215 195.418  0.00  0.00           C 0
+ATOM   1012  CD2 HIS B 127     114.481 139.190 192.500  0.00  0.00           C 0
+ATOM   1005    N HIS B 127     110.019 137.691 193.185  0.00  0.00           N 0
+ATOM   1000   CB LYS B 126     107.461 138.455 195.075  0.00  0.00           C 0
+ATOM    860   OG SER B 107     116.392 142.899 194.130  0.59  3.21           O 0
+ATOM    843   CB ILE B 105     117.554 147.881 194.120  0.00  0.00           C 0
+ATOM    842    O ILE B 105     117.275 146.431 191.467  0.45  3.21           O 0
+ATOM   1041   CD LYS B 130     110.947 143.458 191.048  0.00  0.00           C 0
+ATOM   1042   CE LYS B 130     111.580 144.815 190.803  0.00  0.00           C 0
+ATOM   1006   CA HIS B 127     111.173 138.161 192.425  0.00  0.00           C 0
+ATOM    999    O LYS B 126     108.609 139.134 192.179  0.54  2.14           O 0
+ATOM    998    C LYS B 126     108.809 138.215 192.981  0.00  0.00           C 0
+TER
+END

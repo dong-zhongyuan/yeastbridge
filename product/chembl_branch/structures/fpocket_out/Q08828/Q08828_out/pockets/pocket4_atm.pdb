@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     4:
+HEADER 0  - Pocket Score                      : 0.0643
+HEADER 1  - Drug Score                        : 0.0085
+HEADER 2  - Number of alpha spheres           :    26
+HEADER 3  - Mean alpha-sphere radius          : 3.5941
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4910
+HEADER 5  - Mean B-factor of pocket residues  : 0.9177
+HEADER 6  - Hydrophobicity Score              : 26.1429
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 80.1693
+HEADER 10 - Pocket volume (convex hull)       : 0.6150
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 21.0000
+HEADER 13 - Number of apolar alpha sphere     :    22
+HEADER 14 - Proportion of apolar alpha sphere : 0.8462
+ATOM   6860  OE1 GLU A 883     -14.463 -15.640  33.932  0.00  0.00           O 0
+ATOM   3029   CG ARG A 403     -11.342 -12.449  36.958  0.00  0.00           C 0
+ATOM   3047   CG LEU A 405      -9.876 -14.313  30.296  0.00  0.00           C 0
+ATOM   3174   CB SER A 420     -14.639 -12.549  33.168  0.00  0.00           C 0
+ATOM   6859   CD GLU A 883     -13.875 -16.362  34.769  0.00  0.00           C 0
+ATOM   3030   CD ARG A 403     -10.570 -13.692  37.377  0.00  0.00           C 0
+ATOM   6901   CB MET A 889      -8.027 -17.916  34.547  0.00  0.00           C 0
+ATOM   3049  CD2 LEU A 405      -8.367 -14.300  30.553  0.00  0.00           C 0
+ATOM   2226   NE ARG A 298      -5.860 -13.868  35.575  0.00  0.00           N 0
+ATOM   2225   CD ARG A 298      -5.479 -13.961  34.160  0.00  0.00           C 0
+ATOM   6861  OE2 GLU A 883     -13.517 -15.954  35.901  0.53  1.07           O 0
+ATOM   3037    C VAL A 404     -10.341 -10.684  31.712  0.00  0.00           C 0
+ATOM   3027   CB ARG A 403     -10.408 -11.238  36.803  0.00  0.00           C 0
+ATOM   3039    O VAL A 404      -9.148 -10.413  31.874  0.00  0.00           O 0
+ATOM   6902    O MET A 889     -10.235 -17.797  32.850  0.87  1.07           O 0
+ATOM   3031   NE ARG A 403     -11.478 -14.847  37.477  0.00  0.00           N 0
+ATOM   2224   CG ARG A 298      -5.924 -12.709  33.410  0.00  0.00           C 0
+ATOM   3042    N LEU A 405     -10.773 -11.483  30.742  0.00  0.00           N 0
+TER
+END

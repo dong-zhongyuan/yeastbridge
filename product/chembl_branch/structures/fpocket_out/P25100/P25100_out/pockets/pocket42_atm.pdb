@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    42:
+HEADER 0  - Pocket Score                      : -0.0898
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9525
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5425
+HEADER 5  - Mean B-factor of pocket residues  : 0.2968
+HEADER 6  - Hydrophobicity Score              : -24.6667
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 246.0839
+HEADER 10 - Pocket volume (convex hull)       : 9.6441
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3125
+ATOM   3158  NH1 ARG A 428     -27.739 -31.301   2.012  0.48  9.84           N 0
+ATOM   3157   NE ARG A 428     -25.460 -31.411   2.395  0.00  0.00           N 0
+ATOM   3160   CZ ARG A 428     -26.514 -31.438   1.586  0.00  0.00           C 0
+ATOM   3155   CG ARG A 428     -24.399 -30.277   4.375  0.00  0.00           C 0
+ATOM   3153   CB ARG A 428     -24.462 -30.144   5.909  0.00  0.00           C 0
+ATOM   3156   CD ARG A 428     -25.445 -31.291   3.873  0.00  0.00           C 0
+ATOM   3165    O PRO A 429     -26.938 -29.238   9.748  0.49  5.36           O 0
+ATOM   3167   CD PRO A 429     -25.648 -26.945   7.284  0.00  0.00           C 0
+ATOM   3197   NE ARG A 432     -31.601 -32.751   6.686  0.66  7.66           N 0
+ATOM   3200   CZ ARG A 432     -31.581 -33.182   5.433  0.00  0.00           C 0
+ATOM   3198  NH1 ARG A 432     -31.350 -34.429   5.130  0.00  0.00           N 0
+ATOM   3196   CD ARG A 432     -31.534 -33.617   7.885  0.00  0.00           C 0
+ATOM   3193   CB ARG A 432     -30.854 -31.961   9.745  0.00  0.00           C 0
+ATOM   3199  NH2 ARG A 432     -31.816 -32.363   4.444  0.00  0.00           N 0
+TER
+END

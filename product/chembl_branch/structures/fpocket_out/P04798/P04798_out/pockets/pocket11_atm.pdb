@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : 0.0400
+HEADER 1  - Drug Score                        : 0.0010
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.6370
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5047
+HEADER 5  - Mean B-factor of pocket residues  : 0.4350
+HEADER 6  - Hydrophobicity Score              : 60.7778
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.1111
+HEADER 9  - Pocket volume (Monte Carlo)       : 76.5961
+HEADER 10 - Pocket volume (convex hull)       : 0.3069
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 18.0000
+HEADER 13 - Number of apolar alpha sphere     :    19
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM   8020  CG2 ILE C  92     -64.563 142.303  11.965  0.00  0.00           C 0
+ATOM  10502  CG1 VAL C 409     -62.639 138.341  14.721  0.00  0.00           C 0
+ATOM   8021  CD1 ILE C  92     -65.841 140.033  14.173  0.00  0.00           C 0
+ATOM  10551  CD1 ILE C 414     -66.877 139.282  10.001  0.00  0.00           C 0
+ATOM  10858   CG MET C 452     -60.530 142.801   9.288  0.00  0.00           C 0
+ATOM   8053  CD1 LEU C  96     -60.196 141.392  14.001  0.00  0.00           C 0
+ATOM  10859   SD MET C 452     -62.081 143.414   9.978  0.00  0.00           S 0
+ATOM  10519  OE1 GLN C 411     -61.535 136.368   8.932  0.59  1.07           O 0
+ATOM  10850   CA GLY C 451     -58.552 138.408   9.322  0.00  0.00           C 0
+ATOM  10857   CB MET C 452     -59.495 142.683  10.379  0.00  0.00           C 0
+ATOM  10853    N MET C 452     -58.136 140.680  10.005  0.80  1.09           N 0
+ATOM  10851    C GLY C 451     -58.465 139.889   8.987  0.00  0.00           C 0
+ATOM  10828  CG2 ILE C 448     -63.081 138.940   7.778  0.00  0.00           C 0
+ATOM  10517   CG GLN C 411     -62.810 135.392  10.738  0.00  0.00           C 0
+ATOM  10312  CG2 THR C 385     -59.527 136.498  13.034  0.00  0.00           C 0
+TER
+END

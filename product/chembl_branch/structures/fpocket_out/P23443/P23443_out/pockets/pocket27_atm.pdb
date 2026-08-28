@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    27:
+HEADER 0  - Pocket Score                      : -0.0589
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    28
+HEADER 3  - Mean alpha-sphere radius          : 3.8264
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5708
+HEADER 5  - Mean B-factor of pocket residues  : 0.5870
+HEADER 6  - Hydrophobicity Score              : 4.4000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 213.1559
+HEADER 10 - Pocket volume (convex hull)       : 7.8423
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1071
+ATOM   2466   CE MET B2079      21.739  13.032  -5.749  0.00  0.00           C 0
+ATOM   2465   SD MET B2079      20.399  11.914  -5.336  0.00  0.00           S 0
+ATOM   2414  NH2 ARG B2076      25.880   7.679  -2.341  0.00  0.00           N 0
+ATOM   2411   NE ARG B2076      23.888   8.028  -1.240  0.57  6.56           N 0
+ATOM   2413  NH1 ARG B2076      25.857   9.057  -0.504  0.42  5.47           N 0
+ATOM   2356  OE1 GLN B2072      32.391  11.337  -2.236  0.00  0.00           O 0
+ATOM   2357  NE2 GLN B2072      31.851  12.006  -4.311  0.00  0.00           N 0
+ATOM   2404    N ARG B2076      23.629  13.403  -1.352  0.46  2.19           N 0
+ATOM   2412   CZ ARG B2076      25.202   8.259  -1.352  0.00  0.00           C 0
+ATOM   2341  OD1 ASN B2071      27.914  15.089  -5.907  0.00  0.00           O 0
+ATOM   2342  ND2 ASN B2071      26.291  16.376  -5.064  0.47  5.47           N 0
+ATOM   2352    O GLN B2072      29.215  13.201   0.493  0.59  4.29           O 0
+ATOM   2399    C GLY B2075      23.362  14.565  -1.947  0.00  0.00           C 0
+ATOM   2338    O ASN B2071      27.683  15.024  -2.131  0.40  5.36           O 0
+ATOM   2350   CA GLN B2072      30.254  14.245  -1.391  0.00  0.00           C 0
+ATOM   2355   CD GLN B2072      32.213  12.241  -3.054  0.00  0.00           C 0
+ATOM   2408   CB ARG B2076      23.246  11.065  -0.667  0.00  0.00           C 0
+ATOM   2405   CA ARG B2076      22.614  12.362  -1.187  0.00  0.00           C 0
+ATOM   2398   CA GLY B2075      24.512  15.552  -2.041  0.00  0.00           C 0
+ATOM   2409   CG ARG B2076      22.303   9.863  -0.663  0.00  0.00           C 0
+TER
+END

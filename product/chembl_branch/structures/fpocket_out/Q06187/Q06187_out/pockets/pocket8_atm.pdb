@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : 0.1109
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9775
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6457
+HEADER 5  - Mean B-factor of pocket residues  : 0.2645
+HEADER 6  - Hydrophobicity Score              : 3.6667
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 249.7485
+HEADER 10 - Pocket volume (convex hull)       : 3.9019
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2941
+ATOM   1706   CD GLU A 605      38.608  34.251   7.301  0.00  0.00           C 0
+ATOM   1676  CE1 PHE A 601      34.794  36.122   3.560  0.00  0.00           C 0
+ATOM   1705   CG GLU A 605      37.744  34.411   8.544  0.00  0.00           C 0
+ATOM   1707  OE1 GLU A 605      39.670  34.875   7.279  0.66  9.64           O 0
+ATOM   1674  CD1 PHE A 601      35.193  34.836   3.943  0.00  0.00           C 0
+ATOM   1708  OE2 GLU A 605      38.250  33.542   6.320  0.63  1.07           O 0
+ATOM   1729  OE2 GLU A 608      36.203  37.777  11.164  0.68  5.36           O 0
+ATOM   1703    O GLU A 605      33.280  34.931   9.327  0.67  1.07           O 0
+ATOM   1730    N HIS A 609      31.414  36.828  10.238  0.00  0.00           N 0
+ATOM   1731   CA HIS A 609      30.574  37.412   9.120  0.00  0.00           C 0
+ATOM   1734   CB HIS A 609      30.734  36.525   7.832  0.00  0.00           C 0
+ATOM   1678   CZ PHE A 601      33.510  36.571   3.843  0.00  0.00           C 0
+ATOM   1736  ND1 HIS A 609      30.537  38.073   5.812  0.77  5.47           N 0
+ATOM   1760  OE1 GLN A 612      32.188  40.658  10.619  0.00  0.00           O 0
+ATOM   1704   CB GLU A 605      36.291  33.958   8.320  0.00  0.00           C 0
+ATOM   1660    O ARG A 600      37.547  32.853   2.177  0.59  7.50           O 0
+TER
+END

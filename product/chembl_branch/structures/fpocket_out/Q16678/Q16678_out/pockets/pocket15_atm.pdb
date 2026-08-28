@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : -0.0333
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 3.9488
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4993
+HEADER 5  - Mean B-factor of pocket residues  : 0.4804
+HEADER 6  - Hydrophobicity Score              : 23.6000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 6.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 315.6719
+HEADER 10 - Pocket volume (convex hull)       : 9.6811
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.3600
+ATOM    103   CZ ARG A  80     -51.778  11.559 -28.175  0.00  0.00           C 0
+ATOM    102   NE ARG A  80     -51.071  10.624 -27.550  0.00  0.00           N 0
+ATOM     66   CD ARG A  76     -46.880  15.664 -23.044  0.00  0.00           C 0
+ATOM    105  NH2 ARG A  80     -52.640  12.305 -27.498  0.00  0.00           N 0
+ATOM    115  CE2 TYR A  81     -46.756  10.415 -29.641  0.00  0.00           C 0
+ATOM    104  NH1 ARG A  80     -51.624  11.749 -29.479  0.00  0.00           N 0
+ATOM     65   CG ARG A  76     -46.654  14.450 -22.123  0.00  0.00           C 0
+ATOM     63    O ARG A  76     -46.128  11.264 -23.157  0.65  5.36           O 0
+ATOM     78  CD2 LEU A  77     -44.970  14.057 -27.374  0.00  0.00           C 0
+ATOM    101   CD ARG A  80     -50.099   9.754 -28.205  0.00  0.00           C 0
+ATOM    117   OH TYR A  81     -48.587  10.883 -31.105  0.00  0.00           O 0
+ATOM     86    C ARG A  79     -47.832   7.402 -23.403  0.00  0.00           C 0
+ATOM     99   CB ARG A  80     -48.911   8.620 -26.308  0.00  0.00           C 0
+ATOM     87    O ARG A  79     -48.968   7.043 -23.094  0.45  7.50           O 0
+ATOM     88   CB ARG A  79     -47.358   8.659 -21.289  0.00  0.00           C 0
+ATOM     72   CA LEU A  77     -44.586  11.605 -25.435  0.00  0.00           C 0
+ATOM     93  NH1 ARG A  79     -49.345  11.461 -18.776  0.00  0.00           N 0
+TER
+END

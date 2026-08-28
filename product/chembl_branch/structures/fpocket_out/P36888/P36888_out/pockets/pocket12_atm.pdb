@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    12:
+HEADER 0  - Pocket Score                      : 0.0015
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.0650
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6906
+HEADER 5  - Mean B-factor of pocket residues  : 0.2316
+HEADER 6  - Hydrophobicity Score              : 19.8333
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 288.8010
+HEADER 10 - Pocket volume (convex hull)       : 8.7732
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2353
+ATOM   1022   OG SER A 705      62.136  61.564  28.334  0.77  8.57           O 0
+ATOM    982   CB ASN A 701      66.318  58.478  25.036  0.00  0.00           C 0
+ATOM    941    O TYR A 696      67.965  59.132  31.025  0.00  0.00           O 0
+ATOM   1021   CB SER A 705      61.453  60.785  27.365  0.00  0.00           C 0
+ATOM    940    C TYR A 696      68.523  58.449  31.884  0.00  0.00           C 0
+ATOM    935    O CYS A 695      68.152  56.230  34.680  0.53  5.36           O 0
+ATOM    939   CA TYR A 696      68.161  58.635  33.368  0.00  0.00           C 0
+ATOM    981    O ASN A 701      64.246  60.853  25.792  0.59  3.21           O 0
+ATOM    987   CA TYR A 702      65.765  62.081  27.741  0.00  0.00           C 0
+ATOM    942   CB TYR A 696      67.759  60.085  33.612  0.00  0.00           C 0
+ATOM    944  CD1 TYR A 696      66.202  59.539  35.532  0.00  0.00           C 0
+ATOM    986    N TYR A 702      66.279  61.294  26.624  0.00  0.00           N 0
+ATOM    980    C ASN A 701      65.466  60.725  25.746  0.00  0.00           C 0
+ATOM    992  CD1 TYR A 702      66.209  62.794  31.040  0.00  0.00           C 0
+ATOM   1031   NZ LYS A 706      61.089  63.957  32.239  0.00  0.00           N 0
+ATOM    994  CE1 TYR A 702      65.857  63.560  32.155  0.00  0.00           C 0
+ATOM   1030   CE LYS A 706      62.360  64.628  31.846  0.00  0.00           C 0
+TER
+END

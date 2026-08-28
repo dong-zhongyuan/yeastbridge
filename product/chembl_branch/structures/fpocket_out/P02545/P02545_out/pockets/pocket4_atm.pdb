@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     4:
+HEADER 0  - Pocket Score                      : 0.1419
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.5273
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3724
+HEADER 5  - Mean B-factor of pocket residues  : 0.0308
+HEADER 6  - Hydrophobicity Score              : 41.1250
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 5.1250
+HEADER 9  - Pocket volume (Monte Carlo)       : 104.0554
+HEADER 10 - Pocket volume (convex hull)       : 1.4480
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2353
+ATOM    794   NE ARG A  97      -0.929  14.023 -30.246  0.00  0.00           N 0
+ATOM   3128  CG2 THR C   7       2.860  15.372 -34.158  0.00  0.00           C 0
+ATOM   3127  OG1 THR C   7       3.009  13.377 -32.942  0.00  0.00           O 0
+ATOM    795   CZ ARG A  97      -0.836  13.921 -31.549  0.00  0.00           C 0
+ATOM    797  NH2 ARG A  97      -1.147  14.950 -32.315  0.44  3.28           N 0
+ATOM    926  OD2 ASP A 114      -1.216  16.596 -29.156  0.73  3.21           O 0
+ATOM   1255  CD1 LEU A 156       0.910  19.407 -32.705  0.00  0.00           C 0
+ATOM   1188  CH2 TRP A 147       5.529  16.006 -30.145  0.00  0.00           C 0
+ATOM   1078  CZ3 TRP A 133       3.797  20.715 -29.513  0.00  0.00           C 0
+ATOM   1187  CZ3 TRP A 147       5.504  17.416 -29.909  0.00  0.00           C 0
+ATOM    922    O ASP A 114      -0.273  19.264 -26.899  0.00  0.00           O 0
+ATOM   1006  CG2 ILE A 124       5.437  17.053 -26.267  0.00  0.00           C 0
+ATOM    941   OG SER A 116       1.933  13.783 -26.661  0.51  4.29           O 0
+ATOM   1003    O ILE A 124       3.064  17.752 -24.251  0.77  1.07           O 0
+TER
+END

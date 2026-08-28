@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : 0.0305
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9220
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5569
+HEADER 5  - Mean B-factor of pocket residues  : 0.3829
+HEADER 6  - Hydrophobicity Score              : -7.6667
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 257.2114
+HEADER 10 - Pocket volume (convex hull)       : 6.5967
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0588
+ATOM   1487   CZ ARG B  86       9.954  48.416  41.741  0.00  0.00           C 0
+ATOM    977    O ASP B  16      14.508  46.239  47.528  0.70  7.50           O 0
+ATOM   1488  NH1 ARG B  86      10.340  49.680  41.887  0.00  0.00           N 0
+ATOM   1489  NH2 ARG B  86       8.745  48.044  42.133  0.58  5.47           N 0
+ATOM    971   CB PRO B  15      15.955  47.682  44.162  0.00  0.00           C 0
+ATOM   1486   NE ARG B  86      10.769  47.520  41.193  0.00  0.00           N 0
+ATOM   1485   CD ARG B  86      12.122  47.803  40.725  0.00  0.00           C 0
+ATOM   1018  OE1 GLU B  21      10.433  44.932  42.008  0.71  4.29           O 0
+ATOM    985    O GLY B  17      12.448  42.632  46.091  0.00  0.00           O 0
+ATOM    984    C GLY B  17      13.540  43.101  46.411  0.00  0.00           C 0
+ATOM    986    N PHE B  18      14.553  43.219  45.552  0.65  1.09           N 0
+ATOM   1015   CB GLU B  21      10.026  42.551  43.528  0.00  0.00           C 0
+ATOM   1017   CD GLU B  21       9.268  44.498  42.054  0.00  0.00           C 0
+ATOM   1016   CG GLU B  21       9.040  43.058  42.471  0.00  0.00           C 0
+ATOM   1019  OE2 GLU B  21       8.266  45.189  41.756  0.70  5.36           O 0
+ATOM    987   CA PHE B  18      14.436  42.756  44.165  0.00  0.00           C 0
+TER
+END

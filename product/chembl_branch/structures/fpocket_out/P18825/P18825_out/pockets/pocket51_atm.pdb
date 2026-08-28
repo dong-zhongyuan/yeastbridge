@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    51:
+HEADER 0  - Pocket Score                      : -0.1179
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0982
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5750
+HEADER 5  - Mean B-factor of pocket residues  : 0.7125
+HEADER 6  - Hydrophobicity Score              : 41.2222
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 251.1824
+HEADER 10 - Pocket volume (convex hull)       : 4.7671
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2667
+ATOM   2160   CG GLU A1087      -9.800 -31.366 -13.956  0.00  0.00           C 0
+ATOM   1696    O PHE A1027     -11.150 -23.463 -17.342  0.00  0.00           O 0
+ATOM   2207    O VAL A1093     -13.117 -30.320 -14.792  0.64  5.36           O 0
+ATOM   2161   CD GLU A1087      -8.495 -30.776 -13.460  0.00  0.00           C 0
+ATOM   2215   CB LYS A1094     -13.625 -26.899 -12.993  0.00  0.00           C 0
+ATOM   2230  CD1 ILE A1096     -10.174 -24.983 -10.496  0.00  0.00           C 0
+ATOM   1699  CD1 PHE A1027     -12.549 -22.409 -12.926  0.00  0.00           C 0
+ATOM   1715   CE MET A1029     -15.302 -27.667 -16.010  0.00  0.00           C 0
+ATOM   2195    O GLY A1091     -15.030 -29.753 -18.657  0.68  7.50           O 0
+ATOM   1707    O GLY A1028     -13.601 -25.524 -20.101  0.46  9.64           O 0
+ATOM   2193   CA GLY A1091     -14.083 -31.833 -19.320  0.00  0.00           C 0
+ATOM   2158    O GLU A1087     -10.464 -33.376 -16.551  0.24  8.57           O 0
+ATOM   2212   CA LYS A1094     -13.116 -28.323 -12.697  0.00  0.00           C 0
+ATOM   2162  OE1 GLU A1087      -8.512 -30.089 -12.413  0.55  2.14           O 1
+ATOM   2219    O VAL A1095      -9.208 -28.228 -10.083  0.64  2.14           O 0
+TER
+END

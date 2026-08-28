@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     4:
+HEADER 0  - Pocket Score                      : -0.0346
+HEADER 1  - Drug Score                        : 0.0050
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.1637
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6163
+HEADER 5  - Mean B-factor of pocket residues  : 0.3159
+HEADER 6  - Hydrophobicity Score              : 32.5714
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 318.3673
+HEADER 10 - Pocket volume (convex hull)       : 11.2816
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.6875
+ATOM   1198    N GLU B2049      33.423  40.300  51.730  0.00  0.00           N 0
+ATOM   1203   CG GLU B2049      31.807  40.492  54.395  0.00  0.00           C 0
+ATOM   1229  OE1 GLU B2052      36.517  37.004  54.168  0.00  0.00           O 0
+ATOM   1191   CB PHE B2048      36.605  41.179  51.731  0.00  0.00           C 0
+ATOM   1167   CA LYS B2045      34.659  45.147  53.559  0.00  0.00           C 0
+ATOM   1194  CD2 PHE B2048      38.585  42.749  51.567  0.00  0.00           C 0
+ATOM   1171   CG LYS B2045      33.721  44.877  55.947  0.00  0.00           C 0
+ATOM   1166    N LYS B2045      35.146  46.167  52.642  0.65  3.28           N 0
+ATOM   1170   CB LYS B2045      34.084  45.815  54.817  0.00  0.00           C 0
+ATOM   1164  CG1 VAL B2044      38.517  46.296  51.103  0.00  0.00           C 0
+ATOM   1524   CE MET B2089      41.817  42.173  55.566  0.00  0.00           C 0
+ATOM   1169    O LYS B2045      33.734  43.043  52.835  0.61  2.14           O 0
+ATOM   1230  OE2 GLU B2052      38.204  38.112  53.321  0.70  5.36           O 0
+ATOM   1523   SD MET B2089      42.105  42.230  53.800  0.00  0.00           S 0
+ATOM   1196  CE2 PHE B2048      39.837  43.105  51.025  0.00  0.00           C 0
+ATOM   1514  CE2 TYR B2088      42.618  46.108  51.194  0.00  0.00           C 0
+TER
+END

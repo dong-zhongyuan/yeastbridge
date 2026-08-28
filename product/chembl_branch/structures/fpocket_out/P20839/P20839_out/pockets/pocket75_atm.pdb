@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    75:
+HEADER 0  - Pocket Score                      : -0.0853
+HEADER 1  - Drug Score                        : 0.0420
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.8458
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4954
+HEADER 5  - Mean B-factor of pocket residues  : 0.2013
+HEADER 6  - Hydrophobicity Score              : 45.8000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 236.3413
+HEADER 10 - Pocket volume (convex hull)       : 7.9945
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 8.8000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5882
+ATOM  21155  CG2 VAL H 370     180.207 145.721 197.817  0.00  0.00           C 0
+ATOM  21698   OH TYR H 459     178.130 145.214 201.288  0.00  0.00           O 0
+ATOM  21695  CE1 TYR H 459     180.360 144.513 201.775  0.00  0.00           C 0
+ATOM  21149    N VAL H 370     179.940 148.506 196.911  0.70  1.09           N 0
+ATOM  21281  CD2 LEU H 389     183.775 150.237 201.618  0.00  0.00           C 0
+ATOM  21670  CE1 PHE H 456     183.522 146.094 204.307  0.00  0.00           C 0
+ATOM  21706  CD2 LEU H 460     183.350 145.502 199.548  0.00  0.00           C 0
+ATOM  21136    O GLN H 368     180.758 152.249 199.881  0.37  5.36           O 0
+ATOM  21143   CA THR H 369     179.904 150.764 197.711  0.00  0.00           C 0
+ATOM  21672   CZ PHE H 456     184.143 146.938 203.413  0.00  0.00           C 0
+ATOM  21623   CD LYS H 450     184.574 149.418 206.921  0.00  0.00           C 0
+ATOM  21146   CB THR H 369     178.403 151.061 197.500  0.00  0.00           C 0
+ATOM  12621  CG2 VAL E 336     174.141 146.431 198.670  0.00  0.00           C 0
+ATOM  21148  CG2 THR H 369     177.872 151.995 198.578  0.00  0.00           C 0
+ATOM  12609    O GLU E 335     175.578 149.441 195.677  0.00  0.00           O 0
+ATOM  12610   CB GLU E 335     173.103 150.942 197.129  0.00  0.00           C 0
+TER
+END

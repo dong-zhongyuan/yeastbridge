@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    20:
+HEADER 0  - Pocket Score                      : -0.0508
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8853
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5326
+HEADER 5  - Mean B-factor of pocket residues  : 0.2756
+HEADER 6  - Hydrophobicity Score              : 37.5714
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 257.8720
+HEADER 10 - Pocket volume (convex hull)       : 14.3832
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM   9665   OH TYR C1304     -91.728  94.587   7.785  0.26  6.43           O 0
+ATOM   6798   OG SER C1120     -86.806  98.935   5.923  0.00  0.00           O 0
+ATOM   7790   CG MET C1181     -87.172  90.843   3.400  0.00  0.00           C 0
+ATOM   8843  CE2 PHE C1251     -89.222  94.538   1.826  0.00  0.00           C 0
+ATOM   6810  CG2 VAL C1121     -91.742  97.400   4.416  0.00  0.00           C 0
+ATOM   8875  NH2 ARG C1253     -89.555  89.436   9.315  0.00  0.00           N 0
+ATOM   8874  NH1 ARG C1253     -88.200  88.070   8.059  0.74  6.56           N 0
+ATOM   7791   SD MET C1181     -88.665  90.037   4.018  0.00  0.00           S 0
+ATOM   6745   CG GLU C1117     -92.211  97.756   9.346  0.00  0.00           C 0
+ATOM   6741   CA GLU C1117     -91.071 100.036   9.199  0.00  0.00           C 0
+ATOM   6797   CB SER C1120     -87.771  99.886   6.350  0.00  0.00           C 0
+ATOM   7792   CE MET C1181     -89.946  91.217   3.589  0.00  0.00           C 0
+ATOM   6743    O GLU C1117     -91.346  99.731   6.822  0.55  1.07           O 0
+ATOM   9663  CE2 TYR C1304     -92.280  93.848   5.608  0.00  0.00           C 0
+TER
+END

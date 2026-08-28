@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    32:
+HEADER 0  - Pocket Score                      : 0.0012
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.7967
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6219
+HEADER 5  - Mean B-factor of pocket residues  : 0.4992
+HEADER 6  - Hydrophobicity Score              : 14.5714
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 253.6402
+HEADER 10 - Pocket volume (convex hull)       : 21.0462
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1176
+ATOM   5567   CB PRO B  19     170.094 118.277 131.331  0.00  0.00           C 0
+ATOM   5564   CA PRO B  19     170.375 119.753 131.619  0.00  0.00           C 0
+ATOM  12173   CB THR C 167     174.248 122.025 130.042  0.00  0.00           C 0
+ATOM  12165    O VAL C 166     171.301 122.639 128.071  0.00  0.00           O 0
+ATOM  12154    O ARG C 165     172.391 121.389 125.305  0.00  0.00           O 0
+ATOM  12174  OG1 THR C 167     174.563 121.816 131.422  0.59  1.07           O 0
+ATOM   5544    N ARG B  17     175.934 120.079 133.918  0.55  9.84           N 0
+ATOM   5563    N PRO B  19     170.899 119.739 132.988  0.62  1.09           N 0
+ATOM  12161  NH2 ARG C 165     167.257 116.508 125.112  0.00  0.00           N 0
+ATOM  12158   NE ARG C 165     167.842 118.604 124.401  0.69  4.37           N 0
+ATOM  12155   CB ARG C 165     170.523 120.081 123.774  0.00  0.00           C 0
+ATOM   5573    O LEU B  20     167.809 121.562 127.937  0.61  1.07           O 0
+ATOM   5586  NE2 GLN B  21     164.929 116.877 128.562  0.70  7.66           N 0
+ATOM   5570    N LEU B  20     168.999 121.355 130.451  0.00  0.00           N 0
+ATOM  12159   CZ ARG C 165     167.452 117.369 124.118  0.00  0.00           C 0
+ATOM   5569   CD PRO B  19     170.628 118.465 133.677  0.00  0.00           C 0
+ATOM   5547    O ARG B  17     173.429 118.654 135.991  0.38  5.36           O 0
+ATOM   5546    C ARG B  17     174.026 119.540 135.382  0.00  0.00           C 0
+ATOM   5545   CA ARG B  17     175.535 119.459 135.175  0.00  0.00           C 0
+TER
+END

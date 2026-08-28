@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    31:
+HEADER 0  - Pocket Score                      : -0.0258
+HEADER 1  - Drug Score                        : 0.0017
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.9336
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5855
+HEADER 5  - Mean B-factor of pocket residues  : 0.1353
+HEADER 6  - Hydrophobicity Score              : 0.8333
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 210.6876
+HEADER 10 - Pocket volume (convex hull)       : 4.6466
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.7500
+ATOM   1438  OE2 GLU A 177     -31.919   9.677 -29.683  0.00  0.00           O 0
+ATOM   1436   CD GLU A 177     -32.054  10.710 -30.407  0.00  0.00           C 0
+ATOM    396   CB PRO A  50     -26.502   5.388 -31.820  0.00  0.00           C 0
+ATOM   1437  OE1 GLU A 177     -32.924  10.808 -31.291  0.00  0.00           O 0
+ATOM   1412    O ASN A 174     -27.136  12.708 -34.962  0.00  0.00           O 0
+ATOM   1435   CG GLU A 177     -31.036  11.843 -30.251  0.00  0.00           C 0
+ATOM    403   CB TRP A  51     -24.940   9.985 -33.697  0.00  0.00           C 0
+ATOM    397   CG PRO A  50     -26.329   6.164 -30.566  0.00  0.00           C 0
+ATOM    405  CD1 TRP A  51     -24.408  10.011 -31.197  0.00  0.00           C 0
+ATOM   1444  OG1 THR A 178     -26.679  11.520 -28.557  0.85  4.29           O 0
+ATOM   1445  CG2 THR A 178     -28.494  10.467 -27.330  0.00  0.00           C 0
+ATOM   1418   CA GLY A 175     -25.900  13.258 -32.567  0.00  0.00           C 0
+ATOM    399    N TRP A  51     -24.677   7.564 -33.353  0.00  0.00           N 0
+ATOM    400   CA TRP A  51     -24.730   8.624 -34.360  0.00  0.00           C 0
+ATOM    394    C PRO A  50     -24.970   6.292 -33.635  0.00  0.00           C 0
+ATOM    395    O PRO A  50     -25.105   5.887 -34.806  0.00  0.00           O 0
+TER
+END

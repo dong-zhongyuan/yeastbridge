@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : 0.0713
+HEADER 1  - Drug Score                        : 0.0014
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.5804
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4135
+HEADER 5  - Mean B-factor of pocket residues  : 0.0572
+HEADER 6  - Hydrophobicity Score              : 5.8750
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 4.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 118.7550
+HEADER 10 - Pocket volume (convex hull)       : 1.2042
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.2500
+ATOM  23671   CD GLU N  64      45.517-114.027  66.787  0.00  0.00           C 0
+ATOM  23636   CA TYR N  61      42.425-116.995  63.056  0.00  0.00           C 0
+ATOM  11919   CG ARG G  96      48.814-115.203  64.316  0.00  0.00           C 0
+ATOM  23673  OE2 GLU N  64      46.033-115.045  67.295  0.85  2.14           O 0
+ATOM  23672  OE1 GLU N  64      46.112-113.309  65.955  0.94  3.21           O 0
+ATOM  11892    O ALA G  93      45.732-113.025  61.466  0.00  0.00           O 0
+ATOM  11925    N TYR G  97      47.919-115.178  60.655  0.00  0.00           N 0
+ATOM  23633  OE1 GLN N  60      46.650-121.091  65.415  0.13  5.36           O 0
+ATOM  23606    O ASP N  57      43.629-120.438  61.669  0.79  1.07           O 0
+ATOM  11923  NH1 ARG G  96      50.001-118.162  63.393  0.56  4.37           N 0
+ATOM  13690  NE2 GLN H  81      49.729-120.358  59.656  0.55  4.37           N 0
+ATOM  23635    N TYR N  61      42.494-118.353  63.593  0.00  0.00           N 0
+ATOM  23631   CG GLN N  60      44.721-120.042  66.387  0.00  0.00           C 0
+ATOM  23629    O GLN N  60      42.415-117.728  65.761  0.68  1.07           O 0
+ATOM  11926   CA TYR G  97      47.473-116.321  59.857  0.00  0.00           C 0
+ATOM  23639   CB TYR N  61      42.679-117.005  61.541  0.00  0.00           C 0
+ATOM  11931  CD1 TYR G  97      45.257-118.441  58.809  0.00  0.00           C 0
+ATOM  23607   CB ASP N  57      45.548-122.746  60.283  0.00  0.00           C 0
+ATOM  23608   CG ASP N  57      46.770-123.580  60.664  0.00  0.00           C 0
+TER
+END

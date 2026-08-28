@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    93:
+HEADER 0  - Pocket Score                      : -0.1105
+HEADER 1  - Drug Score                        : 0.0361
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.8454
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4951
+HEADER 5  - Mean B-factor of pocket residues  : 0.2021
+HEADER 6  - Hydrophobicity Score              : 45.8000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 234.7167
+HEADER 10 - Pocket volume (convex hull)       : 8.0251
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 8.8000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5882
+ATOM  12865  CG2 THR E 369     151.994 159.327 198.577  0.00  0.00           C 0
+ATOM  15382  CG2 VAL F 336     146.438 163.069 198.683  0.00  0.00           C 0
+ATOM  15371   CB GLU F 335     150.958 164.096 197.113  0.00  0.00           C 0
+ATOM  15370    O GLU F 335     149.442 161.621 195.673  0.00  0.00           O 0
+ATOM  12863   CB THR E 369     151.060 158.797 197.500  0.00  0.00           C 0
+ATOM  13415   OH TYR E 459     145.213 159.071 201.288  0.64  7.50           O 0
+ATOM  12866    N VAL E 370     148.506 157.259 196.911  0.00  0.00           N 0
+ATOM  12860   CA THR E 369     150.764 157.296 197.711  0.00  0.00           C 0
+ATOM  12853    O GLN E 368     152.250 156.445 199.881  0.00  0.00           O 0
+ATOM  12872  CG2 VAL E 370     145.722 156.995 197.817  0.00  0.00           C 0
+ATOM  13412  CE1 TYR E 459     144.511 156.840 201.770  0.00  0.00           C 0
+ATOM  12998  CD2 LEU E 389     150.238 153.425 201.618  0.00  0.00           C 0
+ATOM  13389   CZ PHE E 456     146.937 153.057 203.412  0.00  0.00           C 0
+ATOM  13340   CD LYS E 450     149.419 152.626 206.918  0.00  0.00           C 0
+ATOM  13387  CE1 PHE E 456     146.095 153.678 204.307  0.00  0.00           C 0
+ATOM  13423  CD2 LEU E 460     145.502 153.850 199.549  0.00  0.00           C 0
+TER
+END

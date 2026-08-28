@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    21:
+HEADER 0  - Pocket Score                      : -0.1160
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.1114
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6883
+HEADER 5  - Mean B-factor of pocket residues  : 0.1603
+HEADER 6  - Hydrophobicity Score              : -15.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 250.5597
+HEADER 10 - Pocket volume (convex hull)       : 4.5759
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0625
+ATOM   1101  OD1 ASP A 150     -27.652 -14.544 -40.694  0.00  0.00           O 0
+ATOM   3258  OG1 THR A 417     -26.567 -15.554 -36.784  0.63  7.50           O 0
+ATOM   1142   NZ LYS A 154     -26.593  -8.677 -38.537  0.00  0.00           N 0
+ATOM   1141   CE LYS A 154     -27.874  -9.399 -38.142  0.00  0.00           C 0
+ATOM   1139   CG LYS A 154     -28.223 -10.065 -35.565  0.00  0.00           C 0
+ATOM   3264   CB GLN A 418     -21.727 -16.497 -36.171  0.00  0.00           C 0
+ATOM   3265   CG GLN A 418     -20.448 -16.115 -36.826  0.00  0.00           C 0
+ATOM   3256    O THR A 417     -24.376 -18.402 -38.718  0.52  6.43           O 0
+ATOM   3257   CB THR A 417     -26.892 -16.595 -37.708  0.00  0.00           C 0
+ATOM   3255    C THR A 417     -24.749 -17.976 -37.618  0.00  0.00           C 0
+ATOM   3234   CA GLY A 414     -25.428 -14.134 -33.045  0.00  0.00           C 0
+ATOM   3267  OE1 GLN A 418     -20.182 -14.502 -35.059  0.55  7.50           O 0
+ATOM   3261   CA GLN A 418     -22.468 -17.565 -36.965  0.00  0.00           C 0
+ATOM   3260    N GLN A 418     -23.900 -17.606 -36.664  0.00  0.00           N 0
+ATOM   3236    O GLY A 414     -24.498 -15.951 -34.322  0.67  2.14           O 0
+TER
+END

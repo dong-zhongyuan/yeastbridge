@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    84:
+HEADER 0  - Pocket Score                      : -0.0222
+HEADER 1  - Drug Score                        : 0.0029
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.8581
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5369
+HEADER 5  - Mean B-factor of pocket residues  : 0.0463
+HEADER 6  - Hydrophobicity Score              : 56.5000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 183.1833
+HEADER 10 - Pocket volume (convex hull)       : 5.6230
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.7647
+ATOM  45353  CE2 TYR a  62      45.442 223.728  79.982  0.00  0.00           C 0
+ATOM  45355   OH TYR a  62      44.191 223.084  81.878  0.66  9.64           O 0
+ATOM  45387  CG1 VAL a  66      48.896 224.406  84.556  0.00  0.00           C 0
+ATOM  45388  CG2 VAL a  66      47.042 225.496  83.253  0.00  0.00           C 0
+ATOM  45583  CZ2 TRP a  91      51.260 221.545  84.048  0.00  0.00           C 0
+ATOM  45613   CA ALA a  95      50.694 217.115  80.713  0.00  0.00           C 0
+ATOM  45615    O ALA a  95      49.124 216.525  78.955  0.73  1.07           O 0
+ATOM  45641   CB SER a  98      47.786 213.630  80.799  0.00  0.00           C 0
+ATOM  45642   OG SER a  98      46.452 213.570  81.275  0.56  6.43           O 0
+ATOM  45648   CG ARG a  99      45.912 217.697  78.030  0.00  0.00           C 0
+ATOM  45652  NH1 ARG a  99      43.784 220.669  78.041  0.58  4.37           N 0
+ATOM  45649   CD ARG a  99      44.430 217.862  78.328  0.00  0.00           C 0
+ATOM  45709  CD1 LEU a 106      47.791 221.245  77.196  0.00  0.00           C 0
+ATOM  45363  CD2 LEU a  63      50.508 223.312  79.014  0.00  0.00           C 0
+ATOM  45616   CB ALA a  95      50.932 218.637  80.919  0.00  0.00           C 0
+ATOM  45585  CH2 TRP a  91      51.622 222.264  82.936  0.00  0.00           C 0
+TER
+END

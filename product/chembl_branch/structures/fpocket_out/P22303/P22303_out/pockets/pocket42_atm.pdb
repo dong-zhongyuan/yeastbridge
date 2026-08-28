@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    42:
+HEADER 0  - Pocket Score                      : -0.0384
+HEADER 1  - Drug Score                        : 0.0010
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.6305
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4289
+HEADER 5  - Mean B-factor of pocket residues  : 0.2127
+HEADER 6  - Hydrophobicity Score              : 57.5000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 117.2522
+HEADER 10 - Pocket volume (convex hull)       : 1.1198
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.6875
+ATOM     47  CD2 LEU A   9       1.392 -30.654  62.442  0.00  0.00           C 0
+ATOM     97  NH1 ARG A  16       0.549 -23.652  63.641  0.00  0.00           N 0
+ATOM     94   CD ARG A  16       2.126 -23.404  61.325  0.00  0.00           C 0
+ATOM    427  CG2 VAL A  59      -1.813 -25.483  62.043  0.00  0.00           C 0
+ATOM     46  CD1 LEU A   9       3.181 -30.260  64.173  0.00  0.00           C 0
+ATOM     92   CB ARG A  16       1.068 -24.392  59.221  0.00  0.00           C 0
+ATOM     44   CB LEU A   9       3.797 -30.270  61.709  0.00  0.00           C 0
+ATOM     93   CG ARG A  16       2.236 -23.570  59.800  0.00  0.00           C 0
+ATOM     60  OG1 THR A  11       5.513 -24.490  58.758  0.65  7.50           O 0
+ATOM     51    O VAL A  10       3.439 -27.306  57.149  0.00  0.00           O 0
+ATOM     42    C LEU A   9       4.738 -30.332  59.382  0.00  0.00           C 0
+ATOM     43    O LEU A   9       5.930 -30.595  59.517  0.40  6.43           O 0
+ATOM    102    O LEU A  17       1.182 -29.412  58.531  0.82  2.14           O 0
+ATOM    426  CG1 VAL A  59      -1.892 -27.368  60.376  0.00  0.00           C 0
+ATOM     48    N VAL A  10       4.262 -29.592  58.387  0.00  0.00           N 0
+TER
+END

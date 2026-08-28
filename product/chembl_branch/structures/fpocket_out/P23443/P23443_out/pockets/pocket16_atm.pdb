@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    16:
+HEADER 0  - Pocket Score                      : -0.0044
+HEADER 1  - Drug Score                        : 0.0011
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0739
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6864
+HEADER 5  - Mean B-factor of pocket residues  : 0.6269
+HEADER 6  - Hydrophobicity Score              : 24.2000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 204.4850
+HEADER 10 - Pocket volume (convex hull)       : 1.8376
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.6667
+ATOM   4559   CD ARG C2109       6.394  11.806 -24.248  0.00  0.00           C 0
+ATOM   4556    O ARG C2109       2.307   8.146 -23.967  0.00  0.00           O 0
+ATOM   4636   CG LYS C2113      -0.579   9.979 -22.995  0.00  0.00           C 0
+ATOM   4639   NZ LYS C2113       1.300  11.248 -25.293  0.68  5.47           N 0
+ATOM   4554   CA ARG C2109       4.659   8.310 -24.371  0.00  0.00           C 0
+ATOM   4558   CG ARG C2109       6.349  10.277 -24.152  0.00  0.00           C 0
+ATOM   4624   CB SER C2112       2.544   6.112 -21.186  0.00  0.00           C 0
+ATOM   4540  CD2 PHE C2108       7.408   5.452 -22.156  0.00  0.00           C 0
+ATOM   4487  CE1 TYR C2105       9.971   9.070 -22.400  0.00  0.00           C 0
+ATOM   4490   OH TYR C2105       9.370  11.046 -21.197  0.00  0.00           O 0
+ATOM   4625   OG SER C2112       3.723   5.332 -21.314  0.92  2.14           O 0
+ATOM   4557   CB ARG C2109       5.106   9.713 -24.830  0.00  0.00           C 0
+ATOM   4542  CE2 PHE C2108       7.259   5.070 -20.828  0.00  0.00           C 0
+TER
+END

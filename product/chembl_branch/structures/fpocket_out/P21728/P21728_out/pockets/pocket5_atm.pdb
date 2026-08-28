@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     5:
+HEADER 0  - Pocket Score                      : 0.0585
+HEADER 1  - Drug Score                        : 0.0008
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.7032
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5110
+HEADER 5  - Mean B-factor of pocket residues  : 0.2301
+HEADER 6  - Hydrophobicity Score              : 23.7000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 86.0982
+HEADER 10 - Pocket volume (convex hull)       : 0.7003
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.5000
+ATOM   5198  CG1 VAL R  44     127.157 131.922 134.399  0.00  0.00           C 0
+ATOM   7096   CA PRO R 328     122.806 134.883 136.827  0.00  0.00           C 0
+ATOM   5357  CG1 VAL R  63     129.267 135.815 134.136  0.00  0.00           C 0
+ATOM   7134   CB ALA R 332     125.434 135.419 133.088  0.00  0.00           C 0
+ATOM   7095    N PRO R 328     122.678 135.234 138.253  0.00  0.00           N 0
+ATOM   5406  OD2 ASP R  70     126.366 133.968 141.570  0.00  0.00           O 0
+ATOM   5176  OD1 ASN R  41     125.093 131.500 139.837  0.30  1.07           O 0
+ATOM   5385   CB ALA R  67     128.743 131.547 137.679  0.00  0.00           C 0
+ATOM   5199  CG2 VAL R  44     124.666 131.939 134.469  0.00  0.00           C 0
+ATOM   5380  CD2 LEU R  66     127.985 137.458 139.871  0.00  0.00           C 0
+ATOM   7089    C ASN R 327     123.032 136.461 138.660  0.00  0.00           C 0
+ATOM   7090    O ASN R 327     123.517 137.277 137.857  0.62  1.07           O 0
+ATOM   5382   CA ALA R  67     128.884 131.956 139.143  0.00  0.00           C 0
+ATOM   5381    N ALA R  67     129.758 133.123 139.253  0.00  0.00           N 0
+ATOM   5355    O VAL R  63     130.463 134.618 136.820  0.69  1.07           O 0
+ATOM   7122   CB TYR R 331     126.345 139.468 136.125  0.00  0.00           C 0
+TER
+END

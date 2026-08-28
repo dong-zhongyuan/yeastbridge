@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    45:
+HEADER 0  - Pocket Score                      : -0.1348
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9807
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5111
+HEADER 5  - Mean B-factor of pocket residues  : 0.1764
+HEADER 6  - Hydrophobicity Score              : 5.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.6250
+HEADER 9  - Pocket volume (Monte Carlo)       : 191.2207
+HEADER 10 - Pocket volume (convex hull)       : 3.2977
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3125
+ATOM   2659   CG ASP B  75     -30.215   5.305   6.787  0.00  0.00           C 0
+ATOM   2463   CA GLY B  50     -28.805  -0.459   8.100  0.00  0.00           C 0
+ATOM   2661  OD2 ASP B  75     -31.277   5.617   6.201  0.00  0.00           O 0
+ATOM   2660  OD1 ASP B  75     -29.209   4.899   6.169  0.82  4.29           O 0
+ATOM   2519   CD LYS B  57     -32.417   4.709  -0.732  0.00  0.00           C 0
+ATOM   2521   NZ LYS B  57     -33.194   6.149   0.952  0.58  8.75           N 0
+ATOM   2646   CG PRO B  73     -26.784   4.844   3.905  0.00  0.00           C 0
+ATOM   2645   CB PRO B  73     -27.164   6.324   3.961  0.00  0.00           C 0
+ATOM   2498   CB SER B  54     -32.802   0.659  -0.866  0.00  0.00           C 0
+ATOM   2494    N SER B  54     -30.709  -0.083   0.078  0.57  2.19           N 0
+ATOM   2493  CD2 LEU B  53     -26.888   1.370   2.892  0.00  0.00           C 0
+ATOM   2487   CA LEU B  53     -28.726  -0.515   1.419  0.00  0.00           C 0
+ATOM   2481    O ASN B  52     -30.262  -2.072   3.044  0.52  6.43           O 0
+ATOM   2465    O GLY B  50     -27.559   0.196   6.207  0.52  2.14           O 0
+ATOM   2541   CZ PHE B  59     -27.901   3.955  -0.453  0.00  0.00           C 0
+ATOM   2540  CE2 PHE B  59     -27.048   4.930   0.044  0.00  0.00           C 0
+TER
+END

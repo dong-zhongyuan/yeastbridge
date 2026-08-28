@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    22:
+HEADER 0  - Pocket Score                      : 0.0005
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.8563
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5558
+HEADER 5  - Mean B-factor of pocket residues  : 0.3465
+HEADER 6  - Hydrophobicity Score              : 19.1429
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 154.1148
+HEADER 10 - Pocket volume (convex hull)       : 1.6034
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2941
+ATOM   2317  CE1 PHE L  40      38.966  19.587  81.332  0.00  0.00           C 0
+ATOM   4619    N VAL U 207      35.298  16.740  77.806  0.00  0.00           N 0
+ATOM   2315  CD1 PHE L  40      39.078  18.293  80.853  0.00  0.00           C 0
+ATOM   4622    O VAL U 207      34.503  17.855  80.288  0.63  3.21           O 0
+ATOM   4616   CB PRO U 206      34.312  19.303  75.893  0.00  0.00           C 0
+ATOM   2312    O PHE L  40      40.290  18.334  77.379  0.00  0.00           O 0
+ATOM   2354  CD1 TYR L  44      39.789  23.317  79.757  0.00  0.00           C 0
+ATOM   2352   CB TYR L  44      40.621  21.554  78.154  0.00  0.00           C 0
+ATOM   2349   CA TYR L  44      40.087  22.091  76.824  0.00  0.00           C 0
+ATOM   2112   NZ LYS L  18      34.057  21.386  83.080  0.45  9.84           N 0
+ATOM   4634  OE2 GLU U 208      31.850  19.860  79.707  0.58  7.50           O 0
+ATOM   2348    N TYR L  44      39.821  20.988  75.910  0.76  1.09           N 0
+ATOM   2345    O SER L  43      39.255  22.331  74.194  0.57  5.36           O 0
+ATOM   2344    C SER L  43      39.418  21.202  74.663  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : -0.0035
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 4.0859
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6940
+HEADER 5  - Mean B-factor of pocket residues  : 0.2030
+HEADER 6  - Hydrophobicity Score              : 50.3333
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 294.7556
+HEADER 10 - Pocket volume (convex hull)       : 6.1260
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.4500
+ATOM   1357    O ASP X 397      31.377 -26.360  -9.015  0.53  5.36           O 0
+ATOM   1359   CG ASP X 397      27.057 -26.582  -8.738  0.00  0.00           C 0
+ATOM   1360  OD1 ASP X 397      27.167 -26.987  -7.588  0.00  0.00           O 0
+ATOM   1358   CB ASP X 397      28.208 -25.979  -9.440  0.00  0.00           C 0
+ATOM   1393  CD1 LEU X 401      33.889 -31.239 -10.012  0.00  0.00           C 0
+ATOM   1394  CD2 LEU X 401      33.814 -29.779 -12.024  0.00  0.00           C 0
+ATOM   1553  NE1 TRP X 418      33.315 -32.764  -2.356  0.00  0.00           N 0
+ATOM   1556  CZ2 TRP X 418      33.709 -30.309  -2.478  0.00  0.00           C 0
+ATOM   1385  CD1 LEU X 400      29.238 -26.722  -4.406  0.00  0.00           C 0
+ATOM   1589  CD1 LEU X 422      30.614 -32.292   0.094  0.00  0.00           C 0
+ATOM   1386  CD2 LEU X 400      31.258 -27.068  -2.858  0.00  0.00           C 0
+ATOM   1383   CB LEU X 400      31.504 -27.173  -5.383  0.00  0.00           C 0
+ATOM   1387    N LEU X 401      33.645 -27.696  -7.615  0.00  0.00           N 0
+ATOM   1391   CB LEU X 401      33.880 -28.703  -9.847  0.00  0.00           C 0
+ATOM   1418  OE1 GLU X 404      33.946 -33.228  -6.075  0.00  0.00           O 0
+ATOM   1388   CA LEU X 401      34.426 -28.631  -8.403  0.00  0.00           C 0
+ATOM   1590  CD2 LEU X 422      31.137 -29.760   0.288  0.00  0.00           C 0
+ATOM   1382    O LEU X 400      34.441 -28.500  -5.708  0.66  1.07           O 0
+ATOM   1381    C LEU X 400      33.800 -27.656  -6.302  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : -0.0221
+HEADER 1  - Drug Score                        : 0.0034
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.8788
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4872
+HEADER 5  - Mean B-factor of pocket residues  : 0.2295
+HEADER 6  - Hydrophobicity Score              : 6.7500
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 241.3574
+HEADER 10 - Pocket volume (convex hull)       : 5.1696
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.3636
+ATOM     65    N ASP A   6       2.475 -11.889   3.278  0.55  4.37           N 0
+ATOM     48    O SER A   4       3.446 -16.313   1.877  0.00  0.00           O 0
+ATOM    148   NZ LYS A  10      -0.041 -15.432   9.553  0.00  0.00           N 0
+ATOM    147   CE LYS A  10      -1.373 -14.840   9.240  0.00  0.00           C 0
+ATOM     56   CA VAL A   5       4.009 -13.743   2.937  0.00  0.00           C 0
+ATOM     60  CG1 VAL A   5       4.731 -12.956   5.271  0.00  0.00           C 0
+ATOM     61  CG2 VAL A   5       5.389 -15.210   4.400  0.00  0.00           C 0
+ATOM   1641    O ALA A 127       5.966 -16.209   9.327  0.71  6.43           O 0
+ATOM     86  CE2 TRP A   7       4.273 -11.679   9.118  0.00  0.00           C 0
+ATOM     84  CD2 TRP A   7       3.131 -10.850   9.070  0.00  0.00           C 0
+ATOM     87  CE3 TRP A   7       2.020 -11.199   9.826  0.00  0.00           C 0
+ATOM     88  CZ2 TRP A   7       4.351 -12.792   9.944  0.00  0.00           C 0
+ATOM    129   CB GLU A   9      -3.082 -11.020   4.199  0.00  0.00           C 0
+ATOM     68    O ASP A   6       0.148 -10.549   4.706  0.43  4.29           O 0
+ATOM    145   CG LYS A  10      -2.368 -12.536   8.861  0.00  0.00           C 0
+ATOM    146   CD LYS A  10      -1.276 -13.353   9.498  0.00  0.00           C 0
+ATOM     11   CB PRO A   2       4.219 -19.154   3.483  0.00  0.00           C 0
+ATOM     12   CG PRO A   2       4.781 -18.774   4.726  0.00  0.00           C 0
+TER
+END

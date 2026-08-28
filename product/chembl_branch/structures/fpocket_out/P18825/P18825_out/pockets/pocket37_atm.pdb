@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    37:
+HEADER 0  - Pocket Score                      : -0.0775
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0442
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7488
+HEADER 5  - Mean B-factor of pocket residues  : 0.8238
+HEADER 6  - Hydrophobicity Score              : -25.3333
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 154.7491
+HEADER 10 - Pocket volume (convex hull)       : 0.7359
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2667
+ATOM   5858   CG GLU B1088     -32.272  19.588 -21.903  0.00  0.00           C 0
+ATOM   5854   CA GLU B1088     -30.018  18.762 -20.990  0.00  0.00           C 0
+ATOM   5857   CB GLU B1088     -31.148  19.800 -20.900  0.00  0.00           C 0
+ATOM   5851  OE1 GLU B1087     -30.563  15.747 -15.268  0.74  2.14           O 0
+ATOM   5850   CD GLU B1087     -29.885  15.029 -16.038  0.00  0.00           C 0
+ATOM   5824   CG ARG B1084     -32.943  19.411 -15.268  0.00  0.00           C 0
+ATOM   5822    O ARG B1084     -30.412  19.978 -17.502  0.65  1.07           O 0
+ATOM   5852  OE2 GLU B1087     -30.028  13.788 -16.121  0.00  0.00           O 1
+ATOM   5849   CG GLU B1087     -28.836  15.677 -16.923  0.00  0.00           C 0
+ATOM   5847    O GLU B1087     -28.290  16.675 -20.099  0.00  0.00           O 0
+ATOM   5828  NH1 ARG B1084     -35.742  17.163 -14.448  0.00  0.00           N 1
+ATOM   5825   CD ARG B1084     -33.105  18.192 -14.371  0.00  0.00           C 0
+ATOM   5853    N GLU B1088     -29.309  18.673 -19.711  0.00  0.00           N 0
+ATOM   5848   CB GLU B1087     -28.698  17.195 -16.899  0.00  0.00           C 0
+ATOM   5846    C GLU B1087     -28.487  17.653 -19.373  0.00  0.00           C 0
+TER
+END

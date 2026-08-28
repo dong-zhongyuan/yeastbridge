@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   123:
+HEADER 0  - Pocket Score                      : -0.1561
+HEADER 1  - Drug Score                        : 0.0013
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 3.9835
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4806
+HEADER 5  - Mean B-factor of pocket residues  : 0.4942
+HEADER 6  - Hydrophobicity Score              : 45.8571
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 285.0686
+HEADER 10 - Pocket volume (convex hull)       : 9.2875
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 17.0000
+HEADER 13 - Number of apolar alpha sphere     :    18
+HEADER 14 - Proportion of apolar alpha sphere : 0.7826
+ATOM   5671  CE1 TYR B 270     -53.519  78.169  -0.177  0.00  0.00           C 0
+ATOM   5839  NE2 GLN B 290     -54.964  77.280  -4.911  0.57  3.28           N 0
+ATOM   5836   CG GLN B 290     -54.667  74.990  -5.715  0.00  0.00           C 0
+ATOM   5674   OH TYR B 270     -55.669  77.095  -0.382  0.70  7.50           O 0
+ATOM   5830   SG CYS B 289     -48.097  74.903  -3.960  0.00  0.00           S 0
+ATOM   5803  CG1 ILE B 286     -49.640  80.471  -3.279  0.00  0.00           C 0
+ATOM   5669  CD1 TYR B 270     -52.786  79.317   0.060  0.00  0.00           C 0
+ATOM   5801    O ILE B 286     -50.888  77.052  -6.081  0.00  0.00           O 0
+ATOM   5829   CB CYS B 289     -49.772  74.586  -4.519  0.00  0.00           C 0
+ATOM   5804  CG2 ILE B 286     -51.720  79.790  -4.390  0.00  0.00           C 0
+ATOM   5799   CA ILE B 286     -49.553  78.896  -5.286  0.00  0.00           C 0
+ATOM   5828    O CYS B 289     -51.204  71.898  -5.636  0.10  5.36           O 0
+ATOM   5827    C CYS B 289     -51.091  73.082  -5.990  0.00  0.00           C 0
+ATOM   5895  OD2 ASP B 304     -49.347  71.605  -0.982  0.40  9.64           O 0
+ATOM   5892   CB ASP B 304     -47.078  72.381  -0.925  0.00  0.00           C 0
+ATOM   5929  CD1 ILE B 308     -46.334  78.283  -2.697  0.00  0.00           C 0
+ATOM   5633  CG1 VAL B 266     -47.271  81.136   0.291  0.00  0.00           C 0
+ATOM   5927  CG1 ILE B 308     -45.543  77.244  -1.944  0.00  0.00           C 0
+TER
+END

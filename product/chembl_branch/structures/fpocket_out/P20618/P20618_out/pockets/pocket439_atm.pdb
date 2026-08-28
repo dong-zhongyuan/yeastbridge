@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   439:
+HEADER 0  - Pocket Score                      : -0.2044
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 4.1375
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4937
+HEADER 5  - Mean B-factor of pocket residues  : 0.1449
+HEADER 6  - Hydrophobicity Score              : -25.6000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 227.5257
+HEADER 10 - Pocket volume (convex hull)       : 5.2870
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM  27479   CD ARG P 112      22.845-195.664   2.401  0.00  0.00           C 0
+ATOM  27493  NH1 ARG P 113      20.984-190.084   6.107  0.00  0.00           N 0
+ATOM  27490   CD ARG P 113      20.803-192.438   7.736  0.00  0.00           C 0
+ATOM  27516  OD2 ASP P 116      24.578-196.690   6.192  0.38  7.50           O 0
+ATOM  29168   CD GLU Q  85      28.664-191.809   3.837  0.00  0.00           C 0
+ATOM  29167   CG GLU Q  85      29.444-192.896   4.563  0.00  0.00           C 0
+ATOM  29170  OE2 GLU Q  85      27.996-192.111   2.822  0.69  3.21           O 0
+ATOM  29169  OE1 GLU Q  85      28.710-190.643   4.288  0.00  0.00           O 0
+ATOM  41630   CZ ARG X  70      25.802-188.900   2.721  0.00  0.00           C 0
+ATOM  41631  NH1 ARG X  70      24.860-187.999   2.448  0.67  2.19           N 0
+ATOM  41632  NH2 ARG X  70      26.867-188.528   3.423  0.00  0.00           N 0
+ATOM  27483  NH2 ARG P 112      21.621-193.167   1.617  0.55  1.09           N 0
+ATOM  41629   NE ARG X  70      25.698-190.167   2.313  0.00  0.00           N 0
+ATOM  41628   CD ARG X  70      24.591-190.730   1.536  0.00  0.00           C 0
+TER
+END

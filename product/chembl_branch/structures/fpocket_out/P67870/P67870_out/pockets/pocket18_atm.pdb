@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    18:
+HEADER 0  - Pocket Score                      : -0.1119
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9030
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4888
+HEADER 5  - Mean B-factor of pocket residues  : 0.3170
+HEADER 6  - Hydrophobicity Score              : 10.5714
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 269.4511
+HEADER 10 - Pocket volume (convex hull)       : 10.2115
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.4118
+ATOM    988   NZ LYS A 134      31.182  68.123  14.349  0.00  0.00           N 0
+ATOM   1132   CB HIS A 152      24.214  65.771  13.998  0.00  0.00           C 0
+HETATM  969   CB MSE A 132      29.341  63.377  14.905  0.00  0.00           C 0
+ATOM   1131    O HIS A 152      25.450  63.600  15.435  0.67  6.43           O 0
+ATOM   1136  CE1 HIS A 152      23.956  69.147  12.688  0.00  0.00           C 0
+ATOM   2209  ND2 ASN B 116      28.877  74.180  17.892  0.00  0.00           N 0
+ATOM   2208  OD1 ASN B 116      28.234  74.880  15.853  0.52  3.21           O 0
+ATOM   1134  ND1 HIS A 152      23.633  68.184  13.535  0.00  0.00           N 0
+ATOM   1078  CG2 THR A 145      28.398  70.445  12.243  0.00  0.00           C 0
+ATOM   1077  OG1 THR A 145      30.642  71.113  12.776  0.41  8.57           O 0
+HETATM  970   CG MSE A 132      28.594  62.896  16.176  0.00  0.00           C 0
+ATOM   1129   CA HIS A 152      24.909  64.585  13.329  0.00  0.00           C 0
+ATOM   1133   CG HIS A 152      24.344  67.045  13.225  0.00  0.00           C 0
+ATOM   1135  CD2 HIS A 152      25.113  67.361  12.155  0.00  0.00           C 0
+ATOM    976    O VAL A 133      30.695  64.989  10.825  0.59  1.07           O 0
+ATOM   1085   CD PRO A 146      28.971  67.817   9.849  0.00  0.00           C 0
+TER
+END

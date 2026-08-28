@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   125:
+HEADER 0  - Pocket Score                      : -0.0467
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.6882
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5802
+HEADER 5  - Mean B-factor of pocket residues  : 0.0892
+HEADER 6  - Hydrophobicity Score              : 3.6250
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 176.3669
+HEADER 10 - Pocket volume (convex hull)       : 5.7201
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2941
+ATOM  18079    N ASP K  51      13.062 194.876  31.181  0.00  0.00           N 0
+ATOM  18084   CG ASP K  51      15.917 195.140  32.375  0.00  0.00           C 0
+ATOM  20251  CG2 VAL L 127      12.751 200.478  32.473  0.00  0.00           C 0
+ATOM  18066   CA GLY K  48      12.769 193.849  35.706  0.00  0.00           C 0
+ATOM  20030   NE ARG L 100      16.900 198.656  32.263  0.00  0.00           N 0
+ATOM  20031   CZ ARG L 100      17.669 198.751  33.348  0.00  0.00           C 0
+ATOM  20033  NH2 ARG L 100      17.800 197.683  34.151  0.00  0.00           N 0
+ATOM  18078   CB ALA K  50      11.479 197.552  30.853  0.00  0.00           C 0
+ATOM  18086  OD2 ASP K  51      16.006 196.106  31.549  0.00  0.00           O 0
+ATOM  18442   CB SER K  96      16.748 193.050  37.265  0.00  0.00           C 0
+ATOM  18085  OD1 ASP K  51      16.427 195.186  33.523  0.39  1.07           O 0
+ATOM  18074    N ALA K  50      10.550 195.634  32.090  0.00  0.00           N 0
+ATOM  18069    N ALA K  49      10.594 194.195  34.642  0.53  4.37           N 0
+ATOM  20237  OD2 ASP L 125       9.068 199.750  34.324  0.00  0.00           O 0
+ATOM  20250  CG1 VAL L 127      14.242 202.451  32.149  0.00  0.00           C 0
+ATOM  20032  NH1 ARG L 100      18.378 199.858  33.614  0.00  0.00           N 0
+TER
+END

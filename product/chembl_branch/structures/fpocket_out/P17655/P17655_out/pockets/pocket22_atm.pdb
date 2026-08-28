@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    22:
+HEADER 0  - Pocket Score                      : -0.0836
+HEADER 1  - Drug Score                        : 0.0163
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.7411
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5303
+HEADER 5  - Mean B-factor of pocket residues  : 0.3487
+HEADER 6  - Hydrophobicity Score              : 17.7143
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 229.7406
+HEADER 10 - Pocket volume (convex hull)       : 2.7234
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5556
+ATOM   1697   CB SER A 246      32.066  39.341  13.709  0.00  0.00           C 0
+ATOM   1685   CB TYR A 245      35.308  42.070  10.734  0.00  0.00           C 0
+ATOM   1683    C TYR A 245      34.738  40.490  12.671  0.00  0.00           C 0
+ATOM   1714   CG GLU A 249      29.816  37.924  10.444  0.00  0.00           C 0
+ATOM   1684    O TYR A 245      34.465  41.394  13.470  0.30  5.36           O 0
+ATOM   1681    N TYR A 245      35.407  39.617  10.424  0.64  2.19           N 0
+ATOM   1688  CD2 TYR A 245      35.612  41.769   8.222  0.00  0.00           C 0
+ATOM   1799   NZ LYS A 260      30.020  37.612   5.885  0.41  5.47           N 0
+ATOM   1669    O ASP A 243      36.564  37.744   6.144  0.58  4.29           O 0
+ATOM   1690  CE2 TYR A 245      36.360  41.891   7.034  0.00  0.00           C 0
+ATOM   1797   CD LYS A 260      31.872  36.195   5.036  0.00  0.00           C 0
+ATOM   1713   CB GLU A 249      30.918  36.806  10.405  0.00  0.00           C 0
+ATOM   1675   CA VAL A 244      36.000  37.812   8.880  0.00  0.00           C 0
+ATOM   1679  CG1 VAL A 244      34.644  35.720   8.464  0.00  0.00           C 0
+ATOM   1664  CG2 ILE A 242      35.645  36.217   2.875  0.00  0.00           C 0
+ATOM   1678   CB VAL A 244      35.075  36.728   9.525  0.00  0.00           C 0
+TER
+END

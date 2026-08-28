@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    32:
+HEADER 0  - Pocket Score                      : 0.0480
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.4753
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3419
+HEADER 5  - Mean B-factor of pocket residues  : 0.0559
+HEADER 6  - Hydrophobicity Score              : 22.3750
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 81.6687
+HEADER 10 - Pocket volume (convex hull)       : 0.5323
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5882
+ATOM    300    N LEU A  41      43.318  13.447 172.149  0.65  1.09           N 0
+ATOM   6168   CE MET A 827      43.212  17.896 169.279  0.00  0.00           C 0
+ATOM    304   CB LEU A  41      43.173  15.641 173.281  0.00  0.00           C 0
+ATOM   6167   SD MET A 827      44.780  18.755 169.201  0.00  0.00           S 0
+ATOM    845  CE1 PHE A 115      43.922  13.297 166.735  0.00  0.00           C 0
+ATOM   4410   CB ASP A 595      48.399  18.113 168.731  0.00  0.00           C 0
+ATOM   5572  OE2 GLU A 746      45.104  17.152 163.980  0.86  1.07           O 0
+ATOM    847   CZ PHE A 115      43.207  13.771 167.827  0.00  0.00           C 0
+ATOM   4392   CB TYR A 593      47.235  14.011 164.209  0.00  0.00           C 0
+ATOM   4406    N ASP A 595      49.160  17.907 166.406  0.00  0.00           N 0
+ATOM    233  NH2 ARG A  31      48.886  14.879 170.711  0.47  2.19           N 0
+ATOM   4420  OD1 ASP A 596      48.961  13.237 168.438  0.73  2.14           O 0
+ATOM    231   CZ ARG A  31      48.419  14.052 171.626  0.00  0.00           C 0
+ATOM   4413  OD2 ASP A 595      48.417  17.668 171.076  0.56  3.21           O 0
+TER
+END

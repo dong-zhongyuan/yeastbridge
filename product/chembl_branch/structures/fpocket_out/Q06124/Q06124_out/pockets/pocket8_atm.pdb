@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : 0.0593
+HEADER 1  - Drug Score                        : 0.0153
+HEADER 2  - Number of alpha spheres           :    30
+HEADER 3  - Mean alpha-sphere radius          : 3.8062
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4986
+HEADER 5  - Mean B-factor of pocket residues  : 0.2320
+HEADER 6  - Hydrophobicity Score              : 19.5000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.8750
+HEADER 9  - Pocket volume (Monte Carlo)       : 247.3400
+HEADER 10 - Pocket volume (convex hull)       : 14.8751
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 8.8000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM    365  CD2 HIS A 293      12.818  23.452  11.315  0.00  0.00           C 0
+ATOM    711  OE1 GLN A 347      14.523  26.433  11.382  0.75  3.21           O 0
+ATOM    362   CB HIS A 293      13.708  23.749   8.899  0.00  0.00           C 0
+ATOM    709   CG GLN A 347      12.900  27.777  12.510  0.00  0.00           C 0
+ATOM   1192   NZ LYS A 405      13.709  31.732   5.852  0.00  0.00           N 0
+ATOM    372   CB ASP A 294      14.429  26.767   5.484  0.00  0.00           C 0
+ATOM    375  OD2 ASP A 294      14.193  28.766   4.159  0.58  2.14           O 0
+ATOM    361    O HIS A 293      16.199  25.942   7.871  0.40  4.29           O 0
+ATOM    371    O ASP A 294      16.976  26.921   4.423  0.47  5.36           O 0
+ATOM    674   NE ARG A 343      19.548  28.166   8.202  0.68  1.09           N 0
+ATOM    672   CG ARG A 343      19.470  30.573   8.835  0.00  0.00           C 0
+ATOM    705   CA GLN A 347      12.732  30.350  12.587  0.00  0.00           C 0
+ATOM    702  CE2 PHE A 346      11.730  33.631   8.599  0.00  0.00           C 0
+ATOM    671   CB ARG A 343      18.991  30.258  10.242  0.00  0.00           C 0
+ATOM    670    O ARG A 343      16.355  30.849  12.071  0.54  1.07           O 0
+ATOM   1009   CE MET A 383      16.179  33.592   7.975  0.00  0.00           C 0
+ATOM   1001  CG2 VAL A 382      18.489  32.924   4.962  0.00  0.00           C 0
+ATOM    708   CB GLN A 347      13.585  29.104  12.336  0.00  0.00           C 0
+ATOM    700  CD2 PHE A 346      12.761  33.341   9.512  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    21:
+HEADER 0  - Pocket Score                      : 0.0446
+HEADER 1  - Drug Score                        : 0.0015
+HEADER 2  - Number of alpha spheres           :    37
+HEADER 3  - Mean alpha-sphere radius          : 3.6769
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4292
+HEADER 5  - Mean B-factor of pocket residues  : 0.1240
+HEADER 6  - Hydrophobicity Score              : -0.0909
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 3.3636
+HEADER 9  - Pocket volume (Monte Carlo)       : 159.4038
+HEADER 10 - Pocket volume (convex hull)       : 4.9308
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.1081
+ATOM   5595    C ASN D  13      29.175 206.994 -12.397  0.00  0.00           C 0
+ATOM   8267   CA GLY E 124      34.653 208.971  -8.292  0.00  0.00           C 0
+ATOM   5606  OG1 THR D  14      31.897 206.877 -15.142  0.00  0.00           O 0
+ATOM   5596    O ASN D  13      28.884 208.161 -12.216  0.00  0.00           O 0
+ATOM   5593    N ASN D  13      30.281 204.988 -11.364  0.61  1.09           N 0
+ATOM   8269    O GLY E 124      32.504 208.235  -7.536  0.47  3.21           O 0
+ATOM   5597   CB ASN D  13      29.286 206.641  -9.831  0.00  0.00           C 0
+ATOM   8268    C GLY E 124      33.247 209.188  -7.743  0.00  0.00           C 0
+ATOM   5592  CG2 VAL D  12      31.272 202.373  -9.386  0.00  0.00           C 0
+ATOM   5586    N VAL D  12      32.414 203.256 -12.093  0.60  1.09           N 0
+ATOM   6450   CG GLU D 125      35.411 203.331  -7.396  0.00  0.00           C 0
+ATOM   5583   CA GLY D  11      34.085 204.563 -13.219  0.00  0.00           C 0
+ATOM   8273    O ARG E 125      31.295 211.320  -9.461  0.42  6.43           O 0
+ATOM   1803  NH1 ARG B   3      36.641 207.181 -11.831  0.40  2.19           N 0
+ATOM   8266    N GLY E 124      35.370 210.245  -8.575  0.25  6.56           N 0
+ATOM   7384  OD1 ASP E   9      36.629 209.837 -13.883  0.64  1.07           O 0
+ATOM   7373    O ASN E   8      33.063 209.980 -15.624  0.50  3.21           O 0
+ATOM   7483  OE1 GLN E  21      29.076 211.045 -15.452  0.66  1.07           O 0
+ATOM   7379   CA ASP E   9      34.726 212.088 -14.678  0.00  0.00           C 0
+ATOM   7386    N VAL E  10      33.395 213.576 -13.273  0.43  2.19           N 0
+TER
+END

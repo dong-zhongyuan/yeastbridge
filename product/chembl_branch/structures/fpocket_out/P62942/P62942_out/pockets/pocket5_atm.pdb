@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     5:
+HEADER 0  - Pocket Score                      : 0.0287
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0762
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6018
+HEADER 5  - Mean B-factor of pocket residues  : 0.1397
+HEADER 6  - Hydrophobicity Score              : 21.8750
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 210.7438
+HEADER 10 - Pocket volume (convex hull)       : 1.9248
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM    749  CG2 VAL A  98       5.771  28.743  25.128  0.00  0.00           C 0
+ATOM    229    O GLU A  31       2.515  29.717  29.376  0.66  3.21           O 0
+ATOM    221    O LEU A  30       5.929  31.167  28.917  0.63  1.07           O 0
+ATOM    243    N GLY A  33       3.924  33.009  29.763  0.00  0.00           N 0
+ATOM    748  CG1 VAL A  98       5.870  30.272  23.189  0.00  0.00           C 0
+ATOM    747   CB VAL A  98       6.608  29.817  24.407  0.00  0.00           C 0
+ATOM    244   CA GLY A  33       4.024  34.287  29.105  0.00  0.00           C 0
+ATOM    234  OE2 GLU A  31       2.244  26.776  27.073  0.00  0.00           O 0
+ATOM    569   CD LYS A  73       2.981  31.235  20.508  0.00  0.00           C 0
+ATOM    585  OG1 THR A  75       4.765  26.153  22.049  0.52  7.50           O 0
+ATOM    568   CG LYS A  73       4.024  30.233  20.040  0.00  0.00           C 0
+ATOM     35  OE1 GLU A   5       1.079  27.224  19.153  0.30  7.50           O 0
+ATOM    216   SD MET A  29       6.141  34.895  25.150  0.00  0.00           S 0
+TER
+END

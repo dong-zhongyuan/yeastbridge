@@ -1,0 +1,44 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : 0.0985
+HEADER 1  - Drug Score                        : 0.1256
+HEADER 2  - Number of alpha spheres           :    36
+HEADER 3  - Mean alpha-sphere radius          : 3.6441
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4191
+HEADER 5  - Mean B-factor of pocket residues  : 0.2151
+HEADER 6  - Hydrophobicity Score              : 42.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 191.4713
+HEADER 10 - Pocket volume (convex hull)       : 5.6819
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 27.0000
+HEADER 13 - Number of apolar alpha sphere     :    28
+HEADER 14 - Proportion of apolar alpha sphere : 0.7778
+ATOM   1446  CZ3 TRP A 382      17.370  -0.066  29.536  0.00  0.00           C 0
+ATOM   1230  OD2 ASP A 355      11.495   3.611  29.360  0.51  5.36           O 0
+ATOM   1482   OH TYR A 386      14.033  -0.001  25.510  0.00  0.00           O 0
+ATOM   1256  OD1 ASN A 358       9.943   1.411  28.077  0.68  3.21           O 0
+ATOM   1447  CH2 TRP A 382      17.239  -0.096  30.931  0.00  0.00           C 0
+ATOM   1414  CD2 PHE A 379      15.127   8.238  30.914  0.00  0.00           C 0
+ATOM   1412   CG PHE A 379      15.655   7.923  29.654  0.00  0.00           C 0
+ATOM   1291   SG CYS A 363      13.135   5.818  33.876  0.00  0.00           S 0
+ATOM   1476   CG TYR A 386      14.494   4.097  25.505  0.00  0.00           C 0
+ATOM   1441  CD2 TRP A 382      18.191   2.170  29.639  0.00  0.00           C 0
+ATOM   1477  CD1 TYR A 386      15.598   3.315  25.389  0.00  0.00           C 0
+ATOM   1445  CZ2 TRP A 382      17.560   0.984  31.701  0.00  0.00           C 0
+ATOM   1443  CE2 TRP A 382      18.016   2.122  31.034  0.00  0.00           C 0
+ATOM   1686  CG2 THR A 411      15.263   2.685  35.777  0.00  0.00           C 0
+ATOM   1277  CD1 LEU A 361      11.160   1.541  33.376  0.00  0.00           C 0
+ATOM   1444  CE3 TRP A 382      17.861   1.047  28.882  0.00  0.00           C 0
+ATOM   1479  CE1 TYR A 386      15.469   1.922  25.391  0.00  0.00           C 0
+ATOM   1481   CZ TYR A 386      14.207   1.399  25.520  0.00  0.00           C 0
+ATOM   1442  NE1 TRP A 382      18.403   3.338  31.536  0.71  3.28           N 0
+ATOM   1411   CB PHE A 379      17.054   7.393  29.561  0.00  0.00           C 0
+ATOM   1440  CD1 TRP A 382      18.788   4.135  30.491  0.00  0.00           C 0
+ATOM   1439   CG TRP A 382      18.675   3.479  29.318  0.00  0.00           C 0
+TER
+END

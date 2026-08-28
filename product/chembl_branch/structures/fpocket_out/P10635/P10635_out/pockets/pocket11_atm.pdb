@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : 0.0105
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.9245
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5443
+HEADER 5  - Mean B-factor of pocket residues  : 0.4165
+HEADER 6  - Hydrophobicity Score              : -7.5556
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 313.8502
+HEADER 10 - Pocket volume (convex hull)       : 23.5440
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0455
+ATOM   7110  NE2 GLN B 472     -12.952  -5.984  59.383  0.54  7.66           N 0
+ATOM   7083  CG2 VAL B 468     -10.533  -4.466  55.174  0.00  0.00           C 0
+ATOM   7135   CD PRO B 475      -6.974  -4.230  57.194  0.00  0.00           C 0
+ATOM   7256    O GLU B 491     -10.323  -9.146  57.369  0.81  2.14           O 0
+ATOM   7258   CG GLU B 491     -12.542 -10.507  61.158  0.00  0.00           C 0
+ATOM   7253    N GLU B 491      -9.822  -9.801  59.876  0.60  3.28           N 0
+ATOM   7260  OE1 GLU B 491     -14.323  -8.953  61.428  0.00  0.00           O 0
+ATOM   7242   CA TYR B 490      -7.778  -9.472  61.132  0.00  0.00           C 0
+ATOM   4732  NH2 ARG B 173     -10.763 -10.593  66.667  0.00  0.00           N 0
+ATOM   4729   NE ARG B 173     -10.586 -12.071  64.911  0.00  0.00           N 0
+ATOM   7237    O PRO B 489      -6.708  -8.251  63.370  0.00  0.00           O 0
+ATOM   7114    O PRO B 473      -9.255  -2.299  58.820  0.00  0.00           O 0
+ATOM   7259   CD GLU B 491     -13.961 -10.140  61.557  0.00  0.00           C 0
+ATOM   7261  OE2 GLU B 491     -14.716 -11.034  61.994  0.46  7.50           O 0
+ATOM   7115   CB PRO B 473     -10.182   0.035  60.592  0.00  0.00           C 0
+ATOM   7130   CA PRO B 475      -5.612  -3.877  59.164  0.00  0.00           C 0
+ATOM   7121    O ARG B 474      -6.115  -1.179  58.998  0.57  4.29           O 0
+ATOM   7133   CB PRO B 475      -5.857  -5.365  58.911  0.00  0.00           C 0
+ATOM   7245   CB TYR B 490      -6.761  -9.073  60.058  0.00  0.00           C 0
+TER
+END

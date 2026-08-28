@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   333:
+HEADER 0  - Pocket Score                      : -0.1418
+HEADER 1  - Drug Score                        : 0.0117
+HEADER 2  - Number of alpha spheres           :    27
+HEADER 3  - Mean alpha-sphere radius          : 3.9099
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4105
+HEADER 5  - Mean B-factor of pocket residues  : 0.2282
+HEADER 6  - Hydrophobicity Score              : 12.7143
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 285.0467
+HEADER 10 - Pocket volume (convex hull)       : 3.3509
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 21.0000
+HEADER 13 - Number of apolar alpha sphere     :    22
+HEADER 14 - Proportion of apolar alpha sphere : 0.8148
+ATOM  37364   CG GLU V  64      -0.063 229.910  85.244  0.00  0.00           C 0
+ATOM  37168  CE2 PHE V  36      -1.754 230.513  78.573  0.00  0.00           C 0
+ATOM  37366  OE1 GLU V  64      -1.196 228.177  84.051  0.00  0.00           O 0
+ATOM  37169   CZ PHE V  36      -2.577 231.614  78.783  0.00  0.00           C 0
+ATOM  37365   CD GLU V  64      -1.189 228.901  85.073  0.00  0.00           C 0
+ATOM  37367  OE2 GLU V  64      -2.086 228.861  85.955  0.66  5.36           O 0
+ATOM  37189   CG PRO V  39      -3.442 235.440  80.666  0.00  0.00           C 0
+ATOM  37190   CD PRO V  39      -1.996 235.081  80.399  0.00  0.00           C 0
+ATOM  24600   CB LYS O  69      -7.694 229.352  85.988  0.00  0.00           C 0
+ATOM  37363   CB GLU V  64       1.206 229.637  84.422  0.00  0.00           C 0
+ATOM  37179   CA SER V  38       0.151 233.824  78.620  0.00  0.00           C 0
+ATOM  37182   CB SER V  38       1.130 234.635  79.465  0.00  0.00           C 0
+ATOM  37391   OG SER V  67       1.713 234.033  85.725  0.67  7.50           O 0
+ATOM  37173    O ILE V  37       1.642 231.451  78.517  0.00  0.00           O 0
+ATOM  37360   CA GLU V  64       2.254 230.700  84.739  0.00  0.00           C 0
+ATOM  37359    N GLU V  64       3.360 230.691  83.814  0.00  0.00           N 0
+TER
+END

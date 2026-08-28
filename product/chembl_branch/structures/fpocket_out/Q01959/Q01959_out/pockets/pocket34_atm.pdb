@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    34:
+HEADER 0  - Pocket Score                      : -0.1857
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 3.8558
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4010
+HEADER 5  - Mean B-factor of pocket residues  : 0.6866
+HEADER 6  - Hydrophobicity Score              : 3.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.2000
+HEADER 9  - Pocket volume (Monte Carlo)       : 348.2703
+HEADER 10 - Pocket volume (convex hull)       : 29.3360
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.0870
+ATOM      2   CA ALA B  57      99.901 115.042 129.047  0.00  0.00           C 0
+ATOM     11    N GLN B  58     101.208 116.158 130.761  0.47  1.09           N 0
+ATOM      1    N ALA B  57      98.627 114.433 129.408  0.00  0.00           N 0
+ATOM   5761  NH1 ARG B 443     100.982 110.099 133.744  0.00  0.00           N 0
+ATOM   5759   NE ARG B 443     103.205 110.512 133.354  0.71  3.28           N 0
+ATOM   5742  CD2 HIS B 442     105.935 114.262 130.246  0.00  0.00           C 0
+ATOM     19  NE2 GLN B  58     103.595 113.914 134.559  0.50  7.66           N 0
+ATOM     16   CG GLN B  58     102.439 115.773 133.525  0.00  0.00           C 0
+ATOM   5760   CZ ARG B 443     102.125 109.760 133.176  0.00  0.00           C 0
+ATOM   5762  NH2 ARG B 443     102.199 108.654 132.458  0.00  0.00           N 1
+ATOM   5688  NE2 GLN B 439     104.285 108.385 127.192  0.67  9.84           N 0
+ATOM      5   CB ALA B  57      99.906 115.430 127.578  0.00  0.00           C 0
+ATOM   5683    O GLN B 439     107.922 109.412 129.969  0.50  5.36           O 0
+ATOM   5684   CB GLN B 439     106.923 109.825 127.155  0.00  0.00           C 0
+TER
+END

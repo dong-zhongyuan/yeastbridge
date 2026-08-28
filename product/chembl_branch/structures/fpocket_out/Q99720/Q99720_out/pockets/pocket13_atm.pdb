@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : 0.0029
+HEADER 1  - Drug Score                        : 0.0010
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.7920
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5546
+HEADER 5  - Mean B-factor of pocket residues  : 0.0808
+HEADER 6  - Hydrophobicity Score              : 62.2500
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 193.2483
+HEADER 10 - Pocket volume (convex hull)       : 5.8191
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.7059
+ATOM   4202  CD1 LEU C 106     -13.912  52.631 -48.474  0.00  0.00           C 0
+ATOM   4012  NE1 TRP C  81      -7.767  52.055 -48.491  0.68  6.56           N 0
+ATOM   3814   CB PHE C  58     -13.541  52.122 -52.170  0.00  0.00           C 0
+ATOM   3853  CD1 ILE C  62     -14.070  56.639 -49.837  0.00  0.00           C 0
+ATOM   4015  CZ2 TRP C  81      -9.753  50.560 -48.178  0.00  0.00           C 0
+ATOM   3817  CD2 PHE C  58     -12.331  50.200 -51.105  0.00  0.00           C 0
+ATOM   3795  OE1 GLU C  55      -8.124  50.889 -53.688  0.62  4.29           O 0
+ATOM   3996   CA GLN C  80      -6.854  56.403 -43.876  0.00  0.00           C 0
+ATOM   4004    N TRP C  81      -6.367  54.089 -44.390  0.79  3.28           N 0
+ATOM   3995    N GLN C  80      -8.109  57.109 -44.095  0.00  0.00           N 0
+ATOM   4010  CD1 TRP C  81      -6.700  52.405 -47.699  0.00  0.00           C 0
+ATOM   3991   CB LEU C  79     -10.103  58.804 -46.203  0.00  0.00           C 0
+ATOM   4108   SG CYS C  94     -10.973  55.050 -45.374  0.00  0.00           S 0
+ATOM   3993  CD1 LEU C  79     -12.061  59.000 -47.757  0.00  0.00           C 0
+ATOM   3989    C LEU C  79      -8.133  58.266 -44.747  0.00  0.00           C 0
+ATOM   3990    O LEU C  79      -7.132  58.755 -45.269  0.00  0.00           O 0
+TER
+END

@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : 0.1806
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.9195
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6890
+HEADER 5  - Mean B-factor of pocket residues  : 0.3102
+HEADER 6  - Hydrophobicity Score              : -12.3750
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 2.8750
+HEADER 9  - Pocket volume (Monte Carlo)       : 348.2613
+HEADER 10 - Pocket volume (convex hull)       : 14.7805
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0476
+ATOM    586   OG SER A 267     -38.894   8.207 -15.810  0.64  4.29           O 0
+ATOM    746  OD1 ASN A 287     -38.925   2.295 -18.145  0.00  0.00           O 0
+ATOM    747  ND2 ASN A 287     -41.000   1.646 -18.829  0.46  9.84           N 0
+ATOM    585   CB SER A 267     -39.442   8.507 -17.074  0.00  0.00           C 0
+HETATM 2837  O2P SEP B  71     -36.941   1.933 -12.312  0.38  7.50           O 0
+ATOM    914   CA GLY A 308     -39.042  -0.718 -16.642  0.00  0.00           C 0
+ATOM    917    N SER A 309     -37.115   0.741 -16.480  0.00  0.00           N 0
+ATOM    909    O THR A 307     -41.855  -1.089 -16.991  0.50  7.50           O 0
+ATOM    735    O ASP A 286     -39.513   4.342 -21.390  0.00  0.00           O 0
+ATOM    734    C ASP A 286     -38.538   4.527 -20.640  0.00  0.00           C 0
+ATOM    733   CA ASP A 286     -38.254   5.960 -20.109  0.00  0.00           C 0
+ATOM    736   CB ASP A 286     -38.461   7.051 -21.172  0.00  0.00           C 0
+ATOM    581    N SER A 267     -40.060  10.473 -18.385  0.00  0.00           N 0
+ATOM    922   OG SER A 309     -36.239   3.171 -15.408  0.58  2.14           O 0
+HETATM 2836  O1P SEP B  71     -37.444   4.100 -11.041  0.44  6.43           O 1
+ATOM    726   CG ARG A 285     -35.949   6.732 -15.393  0.00  0.00           C 0
+ATOM    728   NE ARG A 285     -36.023   7.073 -12.977  0.00  0.00           N 0
+HETATM 2838  O3P SEP B  71     -35.716   4.017 -12.886  0.00  0.00           O 0
+ATOM    724    O ARG A 285     -37.598   5.200 -17.549  0.51  1.07           O 0
+TER
+END

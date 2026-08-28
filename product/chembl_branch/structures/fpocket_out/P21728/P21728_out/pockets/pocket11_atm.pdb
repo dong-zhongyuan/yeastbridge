@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : 0.0245
+HEADER 1  - Drug Score                        : 0.0035
+HEADER 2  - Number of alpha spheres           :    27
+HEADER 3  - Mean alpha-sphere radius          : 3.8036
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5091
+HEADER 5  - Mean B-factor of pocket residues  : 0.1393
+HEADER 6  - Hydrophobicity Score              : 42.4444
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 5.2222
+HEADER 9  - Pocket volume (Monte Carlo)       : 231.5108
+HEADER 10 - Pocket volume (convex hull)       : 15.5447
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 19.0000
+HEADER 13 - Number of apolar alpha sphere     :    20
+HEADER 14 - Proportion of apolar alpha sphere : 0.7407
+ATOM   2436  CD2 TYR B  59     138.198 137.522 101.668  0.00  0.00           C 0
+ATOM    716  NE2 GLN A 236     132.564 139.592  99.932  0.00  0.00           N 0
+ATOM   2438  CE2 TYR B  59     137.367 138.573 101.985  0.00  0.00           C 0
+ATOM   2774   SD MET B 101     139.048 141.096  98.065  0.00  0.00           S 0
+ATOM   3112   CA SER B 147     139.708 137.920  93.134  0.00  0.00           C 0
+ATOM   2772   CB MET B 101     140.468 138.722  98.135  0.00  0.00           C 0
+ATOM   2775   CE MET B 101     140.100 141.220  96.639  0.00  0.00           C 0
+ATOM   3425   CE MET B 188     133.835 139.079  93.942  0.00  0.00           C 0
+ATOM   2771    O MET B 101     140.464 135.790  97.935  0.57  4.29           O 0
+ATOM   3114    O SER B 147     139.461 135.668  93.867  0.48  4.29           O 0
+ATOM    722   SG CYS A 237     137.300 142.724 101.003  0.00  0.00           S 0
+ATOM   2773   CG MET B 101     139.946 139.857  98.997  0.00  0.00           C 0
+ATOM   3115   CB SER B 147     138.332 138.232  92.530  0.00  0.00           C 0
+ATOM   3099  CE1 TYR B 145     137.077 142.083  93.543  0.00  0.00           C 0
+ATOM    680    O LYS A 233     132.528 143.583  97.812  0.56  2.14           O 0
+ATOM    687   CA TRP A 234     134.928 145.034  97.993  0.00  0.00           C 0
+ATOM   3101   CZ TYR B 145     136.230 143.144  93.334  0.00  0.00           C 0
+ATOM    682   CG LYS A 233     131.946 142.296  94.940  0.00  0.00           C 0
+ATOM   3421    O MET B 188     136.055 135.287  92.226  0.64  5.36           O 0
+ATOM   3102   OH TYR B 145     134.910 142.908  93.052  0.00  0.00           O 0
+TER
+END

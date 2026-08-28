@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   388:
+HEADER 0  - Pocket Score                      : -0.1605
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    26
+HEADER 3  - Mean alpha-sphere radius          : 4.0085
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5716
+HEADER 5  - Mean B-factor of pocket residues  : 0.5509
+HEADER 6  - Hydrophobicity Score              : -3.8000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 221.0486
+HEADER 10 - Pocket volume (convex hull)       : 2.9848
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.3462
+ATOM  30304  OE1 GLN Q 229      22.721-202.605 -29.883  0.00  0.00           O 0
+ATOM  30277   CG GLU Q 226      22.407-199.808 -24.925  0.00  0.00           C 0
+ATOM  30276   CB GLU Q 226      23.179-201.058 -24.532  0.00  0.00           C 0
+ATOM  30279  OE1 GLU Q 226      24.092-198.286 -24.206  0.00  0.00           O 0
+ATOM  30300    O GLN Q 229      25.118-207.871 -29.368  0.69  3.21           O 0
+ATOM  30301   CB GLN Q 229      23.281-205.233 -28.885  0.00  0.00           C 0
+ATOM  30299    C GLN Q 229      24.746-207.212 -28.395  0.00  0.00           C 0
+ATOM  30340  NE2 GLN Q 233      28.417-206.666 -33.031  0.26  5.47           N 0
+ATOM  29986  OE1 GLU Q 187      29.879-201.395 -31.534  0.27  4.29           O 0
+ATOM  30312  CD1 TYR Q 230      29.446-205.384 -26.977  0.00  0.00           C 0
+ATOM  30313  CD2 TYR Q 230      27.543-204.385 -25.940  0.00  0.00           C 0
+ATOM  30311   CG TYR Q 230      28.220-205.534 -26.335  0.00  0.00           C 0
+ATOM  30306    N TYR Q 230      25.539-206.934 -27.361  0.81  1.09           N 0
+ATOM  30316   CZ TYR Q 230      29.279-203.001 -26.826  0.00  0.00           C 0
+ATOM  30307   CA TYR Q 230      26.876-207.524 -27.232  0.00  0.00           C 0
+ATOM  30314  CE1 TYR Q 230      29.976-204.128 -27.226  0.00  0.00           C 0
+ATOM  30315  CE2 TYR Q 230      28.063-203.125 -26.183  0.00  0.00           C 0
+ATOM  30317   OH TYR Q 230      29.797-201.750 -27.068  0.76  5.36           O 0
+ATOM  30275    O GLU Q 226      24.379-203.888 -25.742  0.75  1.07           O 0
+TER
+END

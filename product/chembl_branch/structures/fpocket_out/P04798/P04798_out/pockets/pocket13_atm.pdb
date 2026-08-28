@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : 0.0260
+HEADER 1  - Drug Score                        : 0.0029
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 3.9922
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5460
+HEADER 5  - Mean B-factor of pocket residues  : 0.2706
+HEADER 6  - Hydrophobicity Score              : 59.8571
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 310.0573
+HEADER 10 - Pocket volume (convex hull)       : 16.2441
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 15.7647
+HEADER 13 - Number of apolar alpha sphere     :    17
+HEADER 14 - Proportion of apolar alpha sphere : 0.7391
+ATOM   3144  CD1 LEU A 428     -37.782  38.350 -53.935  0.00  0.00           C 0
+ATOM   3163   CA ARG A 431     -34.647  43.747 -53.859  0.00  0.00           C 0
+ATOM   3166   CB ARG A 431     -35.201  43.160 -52.558  0.00  0.00           C 0
+ATOM   3145  CD2 LEU A 428     -35.955  38.817 -55.658  0.00  0.00           C 0
+ATOM   3095  CG1 VAL A 422     -42.585  42.224 -52.367  0.00  0.00           C 0
+ATOM   3090    N VAL A 422     -40.747  43.270 -49.205  0.71  1.09           N 0
+ATOM   3262  CD2 LEU A 443     -35.209  47.940 -50.971  0.00  0.00           C 0
+ATOM   3096  CG2 VAL A 422     -42.224  44.607 -51.622  0.00  0.00           C 0
+ATOM   3071    O LEU A 420     -39.467  47.218 -47.011  0.56  6.43           O 0
+ATOM   3165    O ARG A 431     -34.405  46.049 -53.229  0.52  8.57           O 0
+ATOM   3094   CB VAL A 422     -41.764  43.153 -51.472  0.00  0.00           C 0
+ATOM   3172  NH2 ARG A 431     -38.141  41.111 -49.883  0.80  2.19           N 0
+ATOM   3077   CA TRP A 421     -39.841  44.506 -47.307  0.00  0.00           C 0
+ATOM   3086  CE3 TRP A 421     -36.113  44.904 -47.349  0.00  0.00           C 0
+ATOM   3169   NE ARG A 431     -36.079  42.082 -50.198  0.72  1.09           N 0
+ATOM   3156    O GLU A 430     -33.498  44.053 -56.379  0.45  3.21           O 0
+ATOM   3155    C GLU A 430     -33.405  42.971 -55.803  0.00  0.00           C 0
+ATOM   3157   CB GLU A 430     -33.442  41.140 -57.506  0.00  0.00           C 0
+ATOM   3162    N ARG A 431     -33.903  42.732 -54.596  0.00  0.00           N 0
+TER
+END

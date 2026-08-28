@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    32:
+HEADER 0  - Pocket Score                      : -0.0594
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.5428
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4115
+HEADER 5  - Mean B-factor of pocket residues  : 0.2965
+HEADER 6  - Hydrophobicity Score              : 10.7143
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 118.9640
+HEADER 10 - Pocket volume (convex hull)       : 4.6149
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM    439  ND2 ASN A  80     113.452 131.235 130.507  0.43  9.84           N 0
+ATOM    205    O ARG A  32     118.659 130.853 131.572  0.35  1.07           O 0
+ATOM    211  NH1 ARG A  32     116.858 135.042 132.956  0.45  8.75           N 0
+ATOM    423    O LYS A  78     113.557 129.946 135.047  0.52  4.29           O 0
+ATOM   7042    O LEU R 132     119.144 127.555 136.613  0.62  2.14           O 0
+ATOM    430  CG1 VAL A  79     116.093 126.278 133.260  0.00  0.00           C 0
+ATOM    431  CG2 VAL A  79     114.937 126.669 135.434  0.00  0.00           C 0
+ATOM    206   CB ARG A  32     119.706 133.257 132.572  0.00  0.00           C 0
+ATOM   7083  CG2 THR R 136     117.645 131.927 138.258  0.00  0.00           C 0
+ATOM   7074   CB PRO R 135     122.549 131.612 135.885  0.00  0.00           C 0
+ATOM    203   CA ARG A  32     120.610 132.148 132.029  0.00  0.00           C 0
+ATOM   7081   CB THR R 136     117.961 133.293 137.686  0.00  0.00           C 0
+ATOM   7082  OG1 THR R 136     116.942 134.217 138.085  0.00  0.00           O 0
+ATOM   7077    N THR R 136     120.355 132.796 137.914  0.00  0.00           N 0
+ATOM    426   CA VAL A  79     114.095 127.801 133.356  0.00  0.00           C 0
+TER
+END

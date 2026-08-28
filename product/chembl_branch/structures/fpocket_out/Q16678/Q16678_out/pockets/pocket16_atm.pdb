@@ -1,0 +1,59 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    16:
+HEADER 0  - Pocket Score                      : -0.0336
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    57
+HEADER 3  - Mean alpha-sphere radius          : 3.8368
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4247
+HEADER 5  - Mean B-factor of pocket residues  : 0.2987
+HEADER 6  - Hydrophobicity Score              : 25.7059
+HEADER 7  - Polarity Score                    :    11
+HEADER 8  - Amino Acid based volume Score     : 4.7647
+HEADER 9  - Pocket volume (Monte Carlo)       : 580.0530
+HEADER 10 - Pocket volume (convex hull)       : 142.7797
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 9.3333
+HEADER 13 - Number of apolar alpha sphere     :    18
+HEADER 14 - Proportion of apolar alpha sphere : 0.3158
+ATOM   3069   CA SER A 458     -27.444   2.565  -7.573  0.00  0.00           C 0
+ATOM   3088    O VAL A 460     -28.357   6.242 -11.028  0.00  0.00           O 0
+ATOM   3192  OE1 GLU A 473     -21.721   6.875 -10.080  0.00  0.00           O 0
+ATOM   3071    O SER A 458     -28.159   1.873  -9.726  0.00  0.00           O 0
+ATOM   3064    O THR A 457     -27.796   4.980  -6.328  0.76  1.07           O 0
+ATOM   3225   NZ LYS A 477     -21.378   6.512  -6.586  0.71  8.75           N 0
+ATOM   2519   CE MET A 389     -25.549  11.114  -6.770  0.00  0.00           C 0
+ATOM   3116  CE1 PHE A 463     -22.634  10.588 -10.124  0.00  0.00           C 0
+ATOM   3223   CD LYS A 477     -21.613   8.924  -5.973  0.00  0.00           C 0
+ATOM   3072   CB SER A 458     -26.563   1.331  -7.551  0.00  0.00           C 0
+ATOM   3043   CE LYS A 454     -22.589   0.132  -3.745  0.00  0.00           C 0
+ATOM   3044   NZ LYS A 454     -22.038   1.398  -3.189  0.44  8.75           N 0
+ATOM   3114  CD1 PHE A 463     -22.937   9.800 -11.228  0.00  0.00           C 0
+ATOM   3106  CG2 ILE A 462     -26.132  11.324 -11.223  0.00  0.00           C 0
+ATOM   3099   CE MET A 461     -29.398   4.386 -16.579  0.00  0.00           C 0
+ATOM   3077    O ARG A 459     -31.659   4.180 -11.035  0.00  0.00           O 0
+ATOM    254   CG GLU A 100     -32.637   1.114 -16.222  0.00  0.00           C 0
+ATOM    286   CB HIS A 104     -29.932  -0.600 -19.552  0.00  0.00           C 0
+ATOM    289  CD2 HIS A 104     -28.349  -2.191 -18.240  0.00  0.00           C 0
+ATOM   3067  CG2 THR A 457     -26.733   3.059  -3.666  0.00  0.00           C 0
+ATOM   3193  OE2 GLU A 473     -20.318   6.604 -11.763  0.50  8.57           O 0
+ATOM   3166  NH2 ARG A 469     -21.910   5.677 -13.611  0.63  3.28           N 0
+ATOM   3165  NH1 ARG A 469     -21.894   3.642 -14.687  0.00  0.00           N 0
+ATOM   3090  CG1 VAL A 460     -30.206   8.820  -9.110  0.00  0.00           C 0
+ATOM   3089   CB VAL A 460     -30.091   7.362  -8.677  0.00  0.00           C 0
+ATOM   2494  CE1 TYR A 386     -25.638   7.426  -5.065  0.00  0.00           C 0
+ATOM   3130  CG1 VAL A 465     -25.957   3.880 -17.008  0.00  0.00           C 0
+ATOM   3122    O SER A 464     -24.310   6.242 -16.275  0.65  3.21           O 0
+ATOM    257  OE2 GLU A 100     -32.238  -0.041 -14.155  0.67  7.50           O 0
+ATOM    256  OE1 GLU A 100     -32.451   2.161 -14.062  0.49  1.07           O 0
+ATOM   3112   CB PHE A 463     -22.788   9.296 -13.673  0.00  0.00           C 0
+ATOM   2492  CD1 TYR A 386     -26.980   7.812  -4.995  0.00  0.00           C 0
+ATOM   2497   OH TYR A 386     -23.509   7.201  -3.978  0.55  6.43           O 0
+ATOM    255   CD GLU A 100     -32.429   1.076 -14.705  0.00  0.00           C 0
+ATOM   3097   CG MET A 461     -28.949   6.976 -15.701  0.00  0.00           C 0
+ATOM   3108    N PHE A 463     -25.125   9.977 -13.986  0.56  2.19           N 0
+ATOM   3100    N ILE A 462     -27.697   9.528 -13.216  0.00  0.00           N 0
+TER
+END

@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     4:
+HEADER 0  - Pocket Score                      : 0.0620
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9246
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6251
+HEADER 5  - Mean B-factor of pocket residues  : 0.1026
+HEADER 6  - Hydrophobicity Score              : 23.4444
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.2222
+HEADER 9  - Pocket volume (Monte Carlo)       : 293.8308
+HEADER 10 - Pocket volume (convex hull)       : 18.8846
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1250
+ATOM    220    N VAL A  16       0.044   3.340   3.775  0.63  1.09           N 0
+ATOM    207   CA PRO A  15      -1.678   2.507   5.222  0.00  0.00           C 0
+ATOM   2478  OE1 GLU A 191      -2.615   3.995  -0.615  0.00  0.00           O 0
+ATOM   2568  CE1 TYR A 198       2.229  -0.942   1.013  0.00  0.00           C 0
+ATOM    226  CG2 VAL A  16       1.759   2.490   1.499  0.00  0.00           C 0
+ATOM   2549    O GLY A 196       1.280   2.143  -1.992  0.75  3.21           O 0
+ATOM    199    O THR A  14      -0.072   0.670   6.397  0.00  0.00           O 0
+ATOM    107   CD ARG A   8       0.012  -4.413   2.527  0.00  0.00           C 0
+ATOM    189    O VAL A  13      -1.873  -1.823   7.885  0.49  5.36           O 0
+ATOM    106   CG ARG A   8      -0.016  -5.011   3.905  0.00  0.00           C 0
+ATOM    110  NH1 ARG A   8       0.270  -3.927  -0.238  0.00  0.00           N 0
+ATOM   2535    O MET A 195       2.521   0.018  -4.366  0.00  0.00           O 0
+ATOM   2547   CA GLY A 196       0.935   2.240  -4.357  0.00  0.00           C 0
+ATOM   2566  CD1 TYR A 198       2.782  -0.852  -0.279  0.00  0.00           C 0
+ATOM    105   CB ARG A   8      -1.161  -5.991   4.085  0.00  0.00           C 0
+ATOM    206    N PRO A  15      -1.866   2.011   6.585  0.00  0.00           N 0
+ATOM    211   CG PRO A  15      -3.907   2.900   5.976  0.00  0.00           C 0
+ATOM   2571   OH TYR A 198       2.259  -1.966   3.187  0.79  1.07           O 0
+TER
+END

@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : 0.0043
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.7225
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5581
+HEADER 5  - Mean B-factor of pocket residues  : 0.5380
+HEADER 6  - Hydrophobicity Score              : 33.8333
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 134.2603
+HEADER 10 - Pocket volume (convex hull)       : 0.7366
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0588
+ATOM     17    O GLY A   6     -62.458   1.539   8.558  0.68  1.07           O 0
+ATOM   1192   CB PHE A  79     -63.385  -1.068  11.914  0.00  0.00           C 0
+ATOM   1170    O TYR A  78     -60.210  -0.442  12.742  0.00  0.00           O 0
+ATOM     22   CA GLU A   7     -64.593   3.053   9.501  0.00  0.00           C 0
+ATOM   1159  OD1 ASN A  77     -58.356   1.858  11.363  0.56  5.36           O 0
+ATOM     16    C GLY A   6     -63.062   2.268   7.774  0.00  0.00           C 0
+ATOM     11   CB ILE A   5     -58.438   3.629   6.624  0.00  0.00           C 0
+ATOM      9    C ILE A   5     -60.600   3.238   5.420  0.00  0.00           C 0
+ATOM     10    O ILE A   5     -61.186   4.177   4.862  0.38  9.64           O 0
+ATOM     21    N GLU A   7     -64.088   3.050   8.129  0.56  1.09           N 0
+ATOM     24    O GLU A   7     -65.586   1.406  10.927  0.65  2.14           O 0
+ATOM   1160  ND2 ASN A  77     -58.191   3.596   9.941  0.43  6.56           N 0
+ATOM     29  OE2 GLU A   7     -64.386   7.514  10.419  0.00  0.00           O 0
+ATOM     26   CG GLU A   7     -64.734   5.195  10.921  0.00  0.00           C 0
+TER
+END

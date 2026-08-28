@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : 0.0621
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.8935
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6327
+HEADER 5  - Mean B-factor of pocket residues  : 0.1413
+HEADER 6  - Hydrophobicity Score              : 31.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 233.5348
+HEADER 10 - Pocket volume (convex hull)       : 9.9003
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.4706
+ATOM   1032   CD GLN A 812       6.004 -21.040  38.134  0.00  0.00           C 0
+ATOM    671   OH TYR A 768       3.448 -15.677  38.272  0.00  0.00           O 0
+ATOM   1031   CG GLN A 812       6.409 -19.740  37.471  0.00  0.00           C 0
+ATOM   1033  OE1 GLN A 812       5.450 -21.949  37.465  0.00  0.00           O 0
+ATOM   1030   CB GLN A 812       6.772 -18.639  38.463  0.00  0.00           C 0
+ATOM   1406  NH1 ARG A 859       7.432 -17.360  42.560  0.49  3.28           N 0
+ATOM   1034  NE2 GLN A 812       6.181 -21.106  39.448  0.00  0.00           N 0
+ATOM    668  CE1 TYR A 768       2.059 -15.656  36.275  0.00  0.00           C 0
+ATOM    702   CB SER A 772      -3.258 -18.653  32.523  0.00  0.00           C 0
+ATOM   1008  CG2 VAL A 809       1.992 -16.691  32.212  0.00  0.00           C 0
+ATOM    703   OG SER A 772      -3.910 -19.076  33.691  0.00  0.00           O 0
+ATOM    699   CA SER A 772      -2.958 -17.069  32.658  0.00  0.00           C 0
+ATOM   1005    O VAL A 809       5.631 -18.757  34.277  0.65  2.14           O 0
+ATOM    663    O TYR A 768      -2.263 -14.888  35.180  0.52  4.29           O 0
+ATOM   1007  CG1 VAL A 809       3.134 -18.942  32.069  0.00  0.00           C 0
+ATOM   1003   CA VAL A 809       4.275 -16.985  33.333  0.00  0.00           C 0
+ATOM   1029    O GLN A 812       7.075 -16.257  39.902  0.00  0.00           O 0
+ATOM   1038    O VAL A 813       4.794 -13.862  39.916  0.00  0.00           O 0
+ATOM    666  CD1 TYR A 768       1.224 -14.874  35.369  0.00  0.00           C 0
+TER
+END

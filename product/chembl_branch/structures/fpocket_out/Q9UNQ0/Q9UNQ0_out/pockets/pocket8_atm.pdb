@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : 0.0565
+HEADER 1  - Drug Score                        : 0.0021
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.5868
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3920
+HEADER 5  - Mean B-factor of pocket residues  : 0.3972
+HEADER 6  - Hydrophobicity Score              : 24.1250
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 5.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 128.1336
+HEADER 10 - Pocket volume (convex hull)       : 3.4018
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 19.0000
+HEADER 13 - Number of apolar alpha sphere     :    20
+HEADER 14 - Proportion of apolar alpha sphere : 0.8333
+ATOM   7712  CD2 LEU A 134     152.371 127.655 154.058  0.00  0.00           C 0
+ATOM   9330  CZ3 TRP A 379     158.127 131.711 153.622  0.00  0.00           C 0
+ATOM   9389   CE LYS A 386     156.368 126.253 151.153  0.00  0.00           C 0
+ATOM   9388   CD LYS A 386     154.867 126.313 151.010  0.00  0.00           C 0
+ATOM   7770  OE1 GLN A 141     159.695 127.969 156.690  0.48  6.43           O 0
+ATOM   9353   NZ LYS A 382     160.442 129.167 151.160  0.79  5.47           N 0
+ATOM   9390   NZ LYS A 386     156.820 124.906 151.567  0.47  4.37           N 0
+ATOM   9352   CE LYS A 382     159.245 128.785 150.372  0.00  0.00           C 0
+ATOM   9350   CG LYS A 382     157.341 129.646 148.992  0.00  0.00           C 0
+ATOM   7778  CD1 PHE A 142     153.796 133.829 154.057  0.00  0.00           C 0
+ATOM   7776   CB PHE A 142     154.234 132.607 156.185  0.00  0.00           C 0
+ATOM   9358   CB ARG A 383     152.039 131.303 150.877  0.00  0.00           C 0
+ATOM   9354    N ARG A 383     153.681 130.815 149.138  0.00  0.00           N 0
+ATOM   7741    O GLU A 138     155.327 129.372 157.226  0.00  0.00           O 0
+ATOM   9355   CA ARG A 383     152.559 130.269 149.889  0.00  0.00           C 0
+ATOM   9328  CE3 TRP A 379     157.561 132.749 152.927  0.00  0.00           C 0
+ATOM   7742   CB GLU A 138     155.087 126.219 156.252  0.00  0.00           C 0
+ATOM   7743   CG GLU A 138     155.946 125.065 155.775  0.00  0.00           C 0
+TER
+END

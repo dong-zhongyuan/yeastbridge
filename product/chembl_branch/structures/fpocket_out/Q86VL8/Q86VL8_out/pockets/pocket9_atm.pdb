@@ -1,0 +1,44 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : 0.0808
+HEADER 1  - Drug Score                        : 0.4288
+HEADER 2  - Number of alpha spheres           :    42
+HEADER 3  - Mean alpha-sphere radius          : 4.0514
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5705
+HEADER 5  - Mean B-factor of pocket residues  : 0.9160
+HEADER 6  - Hydrophobicity Score              : 79.2500
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.3750
+HEADER 9  - Pocket volume (Monte Carlo)       : 262.3268
+HEADER 10 - Pocket volume (convex hull)       : 14.8794
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 39.0000
+HEADER 13 - Number of apolar alpha sphere     :    40
+HEADER 14 - Proportion of apolar alpha sphere : 0.9524
+ATOM   2097   CB HIS A 273      25.156   2.163   1.680  0.00  0.00           C 0
+ATOM   2134  CD1 TRP A 277      26.067   6.916   2.604  0.00  0.00           C 0
+ATOM   2135  CD2 TRP A 277      23.921   7.441   2.210  0.00  0.00           C 0
+ATOM   2138  NE1 TRP A 277      25.601   7.712   3.630  0.48  5.47           N 0
+ATOM   2103  NE2 HIS A 273      28.232   2.388   3.732  0.00  0.00           N 0
+ATOM   2100  CD2 HIS A 273      27.341   2.916   2.796  0.00  0.00           C 0
+ATOM   2059  CG2 VAL A 268      25.144   0.803   7.978  0.00  0.00           C 0
+ATOM   2102  CE1 HIS A 273      27.727   1.208   4.119  0.00  0.00           C 0
+ATOM   1321   OH TYR A 173      22.729   3.221  -0.507  0.00  0.00           O 0
+ATOM   2137  CE3 TRP A 277      22.588   7.580   1.778  0.00  0.00           C 0
+ATOM   2136  CE2 TRP A 277      24.285   8.068   3.437  0.00  0.00           C 0
+ATOM   2023  CD1 LEU A 264      20.915   2.005   8.679  0.00  0.00           C 0
+ATOM   2133   CG TRP A 277      25.080   6.722   1.703  0.00  0.00           C 0
+ATOM   2051  CG2 ILE A 267      22.592  -0.245   3.779  0.00  0.00           C 0
+ATOM   2140  CZ2 TRP A 277      23.370   8.793   4.210  0.00  0.00           C 0
+ATOM   1319  CE1 TYR A 173      20.921   2.061   0.493  0.00  0.00           C 0
+ATOM   2099   CG HIS A 273      26.317   2.022   2.637  0.00  0.00           C 0
+ATOM   2139  CH2 TRP A 277      22.035   8.855   3.788  0.00  0.00           C 0
+ATOM   2141  CZ3 TRP A 277      21.652   8.265   2.570  0.00  0.00           C 0
+ATOM   2101  ND1 HIS A 273      26.574   0.954   3.476  0.00  0.00           N 0
+ATOM    823  CD2 LEU A 112      19.279   5.602   2.090  0.00  0.00           C 0
+ATOM   1296  CD2 LEU A 170      17.969   2.567   5.395  0.00  0.00           C 0
+TER
+END

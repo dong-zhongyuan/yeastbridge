@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    44:
+HEADER 0  - Pocket Score                      : 0.0110
+HEADER 1  - Drug Score                        : 0.0010
+HEADER 2  - Number of alpha spheres           :    30
+HEADER 3  - Mean alpha-sphere radius          : 3.6366
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4435
+HEADER 5  - Mean B-factor of pocket residues  : 0.1380
+HEADER 6  - Hydrophobicity Score              : 1.4545
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 3.6364
+HEADER 9  - Pocket volume (Monte Carlo)       : 129.5107
+HEADER 10 - Pocket volume (convex hull)       : 3.4327
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.1333
+ATOM  31450    O ASN S   8      34.141 211.013 120.286  0.45  2.14           O 0
+ATOM  31463    N VAL S  10      35.379 214.305 117.883  0.77  2.19           N 0
+ATOM  32355    O ARG S 125      36.292 211.305 114.148  0.41  5.36           O 0
+ATOM  31456   CA ASP S   9      33.544 213.591 119.292  0.00  0.00           C 0
+ATOM  31560  OE1 GLN S  21      38.182 210.216 120.125  0.64  3.21           O 0
+ATOM  31461  OD1 ASP S   9      30.869 212.405 118.459  0.67  2.14           O 0
+ATOM  29664    O ASN R  13      37.139 207.470 116.968  0.55  2.14           O 0
+ATOM  29674  OG1 THR R  14      33.859 207.639 119.861  0.64  2.14           O 0
+ATOM  32351    O GLY S 124      33.829 209.016 112.314  0.61  2.14           O 0
+ATOM  32350    C GLY S 124      33.604 210.199 112.529  0.00  0.00           C 0
+ATOM  29651   CA GLY R  11      30.886 206.530 117.896  0.00  0.00           C 0
+ATOM  29661    N ASN R  13      34.517 205.175 116.092  0.68  1.09           N 0
+ATOM  29654    N VAL R  12      31.859 204.625 116.790  0.00  0.00           N 0
+ATOM  30520  OE1 GLU R 125      29.648 205.256 114.906  0.00  0.00           O 0
+ATOM  32348    N GLY S 124      32.118 212.093 113.281  0.45  2.19           N 0
+ATOM  29663    C ASN R  13      36.347 206.548 117.156  0.00  0.00           C 0
+ATOM  29665   CB ASN R  13      36.133 206.234 114.593  0.00  0.00           C 0
+ATOM  32349   CA GLY S 124      32.241 210.623 113.090  0.00  0.00           C 0
+ATOM  25912  NH1 ARG P   3      29.655 210.024 116.529  0.81  1.09           N 0
+TER
+END

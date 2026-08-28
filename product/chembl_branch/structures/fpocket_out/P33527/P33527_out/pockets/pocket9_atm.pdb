@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : 0.0203
+HEADER 1  - Drug Score                        : 0.0271
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 4.0614
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5304
+HEADER 5  - Mean B-factor of pocket residues  : 0.5249
+HEADER 6  - Hydrophobicity Score              : 63.1250
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.3750
+HEADER 9  - Pocket volume (Monte Carlo)       : 248.6268
+HEADER 10 - Pocket volume (convex hull)       : 10.7824
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 15.0000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 0.8421
+ATOM     76  CE1 PHE A 651     -10.200  59.011  -0.751  0.00  0.00           C 0
+ATOM    404   CD LYS A 697      -8.365  62.012  -2.530  0.00  0.00           C 0
+ATOM    405   CE LYS A 697      -6.956  62.491  -2.846  0.00  0.00           C 0
+ATOM    402   CB LYS A 697      -8.211  59.819  -3.838  0.00  0.00           C 0
+ATOM    441   CB VAL A 702      -7.720  63.019   2.057  0.00  0.00           C 0
+ATOM    350    O ALA A 690      -8.313  56.964   2.570  0.42  3.21           O 0
+ATOM    372   CB ALA A 693      -3.809  56.100   1.907  0.00  0.00           C 0
+ATOM    443  CG2 VAL A 702      -8.973  62.551   1.335  0.00  0.00           C 0
+ATOM    442  CG1 VAL A 702      -7.579  62.287   3.390  0.00  0.00           C 0
+ATOM    440    O VAL A 702      -5.379  64.929   2.533  0.60  5.36           O 0
+ATOM    355    O LEU A 691      -6.520  57.279   5.794  0.71  5.36           O 0
+ATOM    456  CD1 ILE A 704      -6.288  60.323   6.424  0.00  0.00           C 0
+ATOM    369   CA ALA A 693      -5.218  55.478   1.767  0.00  0.00           C 0
+ATOM    385    O MET A 695      -6.844  54.523  -2.814  0.66  6.43           O 0
+ATOM    371    O ALA A 693      -4.227  53.873   0.252  0.54  2.14           O 0
+TER
+END

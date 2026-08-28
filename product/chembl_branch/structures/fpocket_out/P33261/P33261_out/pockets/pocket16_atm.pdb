@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    16:
+HEADER 0  - Pocket Score                      : 0.0113
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.8518
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6780
+HEADER 5  - Mean B-factor of pocket residues  : 0.3197
+HEADER 6  - Hydrophobicity Score              : -8.8333
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 191.3850
+HEADER 10 - Pocket volume (convex hull)       : 4.3724
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3529
+ATOM   3994   CB PRO B  63    -105.886 -20.112 -86.972  0.00  0.00           C 0
+ATOM   4118    O HIS B  78    -104.402 -19.724 -84.466  0.62  4.29           O 0
+ATOM   3990    N PRO B  63    -104.474 -20.554 -88.776  0.00  0.00           N 0
+ATOM   4121  ND1 HIS B  78    -100.727 -18.686 -84.534  0.70  4.37           N 0
+ATOM   3996   CD PRO B  63    -105.647 -19.816 -89.282  0.00  0.00           C 0
+ATOM   3991   CA PRO B  63    -104.675 -20.943 -87.377  0.00  0.00           C 0
+ATOM   3955   CB SER B  58     -99.623 -20.612 -87.646  0.00  0.00           C 0
+ATOM   3988    C GLY B  62    -103.341 -20.775 -89.463  0.00  0.00           C 0
+ATOM   3989    O GLY B  62    -102.372 -21.336 -88.952  0.00  0.00           O 0
+ATOM   3934  CG2 THR B  55     -95.327 -17.935 -84.650  0.00  0.00           C 0
+ATOM   4123  CE1 HIS B  78     -99.674 -17.996 -84.132  0.00  0.00           C 0
+ATOM   3964   CE LYS B  59     -95.162 -15.232 -88.303  0.00  0.00           C 0
+ATOM   3931    O THR B  55     -96.239 -19.467 -87.214  0.00  0.00           O 0
+ATOM   3963   CD LYS B  59     -95.680 -15.898 -89.568  0.00  0.00           C 0
+ATOM   3957    N LYS B  59     -97.695 -19.513 -90.075  0.00  0.00           N 0
+ATOM   3954    O SER B  58     -99.888 -19.507 -90.590  0.61  5.36           O 0
+ATOM   3958   CA LYS B  59     -97.353 -18.412 -90.968  0.00  0.00           C 0
+ATOM   3953    C SER B  58     -98.937 -19.974 -89.963  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   132:
+HEADER 0  - Pocket Score                      : -0.0524
+HEADER 1  - Drug Score                        : 0.0027
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.6330
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4307
+HEADER 5  - Mean B-factor of pocket residues  : 0.1573
+HEADER 6  - Hydrophobicity Score              : -12.5000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 101.7221
+HEADER 10 - Pocket volume (convex hull)       : 1.9293
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.5417
+ATOM  38336   CG PRO V  74       5.230-186.898  50.923  0.00  0.00           C 0
+ATOM  38083   CB LYS V  40      -0.071-183.401  53.548  0.00  0.00           C 0
+ATOM  38071   OG SER V  38       3.695-184.031  50.086  0.00  0.00           O 0
+ATOM  38079    N LYS V  40       0.213-183.260  51.122  0.46  1.09           N 0
+ATOM  38326   CB GLU V  73       3.387-189.833  54.381  0.00  0.00           C 0
+ATOM  38562    O VAL V 103       2.356-183.611  56.184  0.84  2.14           O 0
+ATOM  38328   CD GLU V  73       0.863-189.812  54.534  0.00  0.00           C 0
+ATOM  38329  OE1 GLU V  73       0.825-189.534  55.751  0.39  7.50           O 0
+ATOM  38085   CD LYS V  40      -1.616-185.108  54.588  0.00  0.00           C 0
+ATOM  38330  OE2 GLU V  73      -0.064-189.538  53.741  0.00  0.00           O 0
+ATOM  38076   CB PRO V  39      -1.048-185.418  49.233  0.00  0.00           C 0
+ATOM  38084   CG LYS V  40      -1.427-184.084  53.489  0.00  0.00           C 0
+ATOM  38078   CD PRO V  39       1.010-185.665  48.064  0.00  0.00           C 0
+ATOM  38077   CG PRO V  39      -0.365-186.258  48.212  0.00  0.00           C 0
+ATOM  38337   CD PRO V  74       4.890-188.252  51.461  0.00  0.00           C 0
+ATOM  38334    O PRO V  74       5.906-186.078  54.161  0.47  1.07           O 0
+TER
+END

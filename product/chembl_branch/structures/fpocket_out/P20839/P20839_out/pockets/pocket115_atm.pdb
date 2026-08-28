@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   115:
+HEADER 0  - Pocket Score                      : -0.1287
+HEADER 1  - Drug Score                        : 0.0040
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.8636
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4478
+HEADER 5  - Mean B-factor of pocket residues  : 0.4135
+HEADER 6  - Hydrophobicity Score              : 42.5714
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 230.4700
+HEADER 10 - Pocket volume (convex hull)       : 9.4857
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3158
+ATOM  10705  CE1 HIS D 466     174.530 201.484 142.311  0.00  0.00           C 0
+ATOM   2237  NE2 GLN A 441     170.236 197.378 140.760  0.23  9.84           N 0
+ATOM   2219    O ILE A 439     172.711 197.833 136.518  0.41  2.14           O 0
+ATOM   2220   CB ILE A 439     175.513 197.423 137.656  0.00  0.00           C 0
+ATOM  10703  ND1 HIS D 466     174.472 200.390 143.047  0.44  2.19           N 0
+ATOM   2189   SD MET A 420     170.026 200.627 134.844  0.00  0.00           S 0
+ATOM  10706  NE2 HIS D 466     175.658 201.465 141.624  0.00  0.00           N 0
+ATOM   2203    O VAL A 437     177.857 202.310 135.919  0.15  8.57           O 0
+ATOM   2216    N ILE A 439     175.171 199.139 135.904  0.67  1.09           N 0
+ATOM   2208   CA LYS A 438     175.679 201.130 134.618  0.00  0.00           C 0
+ATOM   2222  CG2 ILE A 439     175.505 195.919 137.917  0.00  0.00           C 0
+ATOM   1584   SD MET A 337     174.083 195.253 143.261  0.00  0.00           S 0
+ATOM   2214   CE LYS A 438     172.317 203.968 134.415  0.00  0.00           C 0
+ATOM   2212   CG LYS A 438     174.556 203.182 133.605  0.00  0.00           C 0
+ATOM   2211   CB LYS A 438     174.512 201.672 133.789  0.00  0.00           C 0
+ATOM  10702   CG HIS D 466     175.602 199.631 142.828  0.00  0.00           C 0
+TER
+END

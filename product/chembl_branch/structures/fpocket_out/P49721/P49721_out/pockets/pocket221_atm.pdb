@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   221:
+HEADER 0  - Pocket Score                      : -0.0891
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9831
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5357
+HEADER 5  - Mean B-factor of pocket residues  : 0.3235
+HEADER 6  - Hydrophobicity Score              : 16.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.3750
+HEADER 9  - Pocket volume (Monte Carlo)       : 211.5846
+HEADER 10 - Pocket volume (convex hull)       : 4.9930
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0667
+ATOM  36407   CB GLN U 172      12.539 245.505 117.134  0.00  0.00           C 0
+ATOM  35365  ND2 ASN U  33      16.465 241.254 120.857  0.37  3.28           N 0
+ATOM  36418  CG2 THR U 173       9.276 244.724 120.860  0.00  0.00           C 0
+ATOM  36409   CD GLN U 172      11.403 243.832 115.604  0.00  0.00           C 0
+ATOM  36410  OE1 GLN U 172      12.467 243.335 115.239  0.65  5.36           O 0
+ATOM  35364  OD1 ASN U  33      17.460 242.233 119.123  0.00  0.00           O 0
+HETATM36160  OZ1 YCM U 137      14.155 241.427 114.184  0.62  3.21           O 0
+ATOM  35331  CD1 PHE U  29      12.647 237.070 115.762  0.00  0.00           C 0
+ATOM  35328    O PHE U  29      16.631 237.771 118.336  0.65  2.14           O 0
+ATOM  35329   CB PHE U  29      14.019 236.000 117.585  0.00  0.00           C 0
+ATOM  36412    N THR U 173      10.759 246.840 119.276  0.46  1.09           N 0
+ATOM  36390    O VAL U 170      15.335 245.985 121.489  0.27  6.43           O 0
+ATOM  36386    O GLY U 169      15.511 244.810 118.319  0.41  2.14           O 0
+ATOM  35342   CD LYS U  30      15.203 236.078 122.585  0.00  0.00           C 0
+TER
+END

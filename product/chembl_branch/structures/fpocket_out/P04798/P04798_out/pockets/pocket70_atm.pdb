@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    70:
+HEADER 0  - Pocket Score                      : -0.0583
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9518
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7075
+HEADER 5  - Mean B-factor of pocket residues  : 0.8038
+HEADER 6  - Hydrophobicity Score              : 14.7500
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.2500
+HEADER 9  - Pocket volume (Monte Carlo)       : 151.2681
+HEADER 10 - Pocket volume (convex hull)       : 1.7276
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3125
+ATOM   9620   CB GLN C 301     -32.454 140.637  23.489  0.00  0.00           C 0
+ATOM   9617   CA GLN C 301     -32.312 140.820  21.983  0.00  0.00           C 0
+ATOM   9621   CG GLN C 301     -31.570 141.587  24.282  0.00  0.00           C 0
+ATOM   9623  OE1 GLN C 301     -31.107 139.785  25.793  0.00  0.00           O 0
+ATOM   9627    C LEU C 302     -32.978 137.657  18.718  0.00  0.00           C 0
+ATOM   9628    O LEU C 302     -32.064 137.674  17.881  0.63  1.07           O 0
+ATOM   9625    N LEU C 302     -33.039 139.783  19.904  0.86  3.28           N 0
+ATOM   9615   NZ LYS C 292     -28.593 137.446  17.821  0.16  9.84           N 0
+ATOM   9618    C GLN C 301     -33.243 139.848  21.218  0.00  0.00           C 0
+ATOM   9634   CA SER C 303     -32.457 135.359  19.297  0.00  0.00           C 0
+ATOM   9637   CB SER C 303     -32.967 134.240  20.214  0.00  0.00           C 0
+ATOM   9619    O GLN C 301     -34.094 139.175  21.799  0.43  2.14           O 0
+ATOM   9633    N SER C 303     -33.276 136.564  19.420  0.00  0.00           N 0
+TER
+END

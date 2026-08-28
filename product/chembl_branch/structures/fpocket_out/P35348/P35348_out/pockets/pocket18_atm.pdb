@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    18:
+HEADER 0  - Pocket Score                      : 0.0012
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.5657
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3381
+HEADER 5  - Mean B-factor of pocket residues  : 0.2675
+HEADER 6  - Hydrophobicity Score              : 14.5714
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 97.3800
+HEADER 10 - Pocket volume (convex hull)       : 0.5501
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1053
+ATOM    168   CB ASP A  26     124.231 140.973 125.303  0.00  0.00           C 0
+ATOM   2221    O ASP B  76     126.090 136.819 120.871  0.37  3.21           O 0
+ATOM   2238   NZ LYS B  78     125.368 140.246 121.201  0.40  4.37           N 0
+ATOM   2222   CB ASP B  76     128.340 135.980 122.359  0.00  0.00           C 0
+ATOM    172    N GLY A  27     125.751 139.254 127.544  0.00  0.00           N 0
+ATOM    166    C ASP A  26     124.470 139.327 127.181  0.00  0.00           C 0
+ATOM    167    O ASP A  26     123.736 138.334 127.167  0.62  2.14           O 0
+ATOM    190   CB ALA A  30     123.324 134.994 126.476  0.00  0.00           C 0
+ATOM    173   CA GLY A  27     126.303 137.988 128.000  0.00  0.00           C 0
+ATOM   2060  CD1 LEU B  55     129.741 138.665 127.556  0.00  0.00           C 0
+ATOM    139    O LEU A  23     127.700 141.312 126.884  0.56  2.14           O 0
+ATOM   2225  OD2 ASP B  76     130.335 137.258 122.572  0.85  2.14           O 0
+ATOM   2235   CG LYS B  78     128.234 140.040 120.473  0.00  0.00           C 0
+ATOM    143  CD2 LEU A  23     129.198 142.935 122.648  0.00  0.00           C 0
+TER
+END

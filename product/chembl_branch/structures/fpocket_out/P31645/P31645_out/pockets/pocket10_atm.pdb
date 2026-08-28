@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : 0.0007
+HEADER 1  - Drug Score                        : 0.0020
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.5970
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4434
+HEADER 5  - Mean B-factor of pocket residues  : 0.2624
+HEADER 6  - Hydrophobicity Score              : 11.4286
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 74.3798
+HEADER 10 - Pocket volume (convex hull)       : 0.4120
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 16.0000
+HEADER 13 - Number of apolar alpha sphere     :    17
+HEADER 14 - Proportion of apolar alpha sphere : 0.9444
+ATOM   6512  CG2 VAL C 105     -37.046 -14.883  55.065  0.00  0.00           C 0
+ATOM   6503    C ALA C 104     -36.692 -17.144  52.211  0.00  0.00           C 0
+ATOM   6173   CG PRO C  60     -34.289 -12.068  51.052  0.00  0.00           C 0
+ATOM   6659   CE LYS C 123     -31.952 -14.656  56.290  0.00  0.00           C 0
+ATOM   6657   CG LYS C 123     -33.694 -16.429  56.634  0.00  0.00           C 0
+ATOM   6500  CD2 LEU C 103     -30.505 -15.431  49.644  0.00  0.00           C 0
+ATOM   7137   CB ASP C 185     -29.837 -10.934  52.913  0.00  0.00           C 0
+ATOM   6502   CA ALA C 104     -36.216 -16.738  50.819  0.00  0.00           C 0
+ATOM   6499  CD1 LEU C 103     -31.006 -17.263  51.272  0.00  0.00           C 0
+ATOM   6501    N ALA C 104     -35.087 -17.555  50.383  0.00  0.00           N 0
+ATOM   6504    O ALA C 104     -36.159 -18.076  52.814  0.00  0.00           O 0
+ATOM   7141    N GLN C 186     -27.849 -13.139  52.380  0.89  2.19           N 0
+ATOM   6498   CG LEU C 103     -31.514 -16.471  50.078  0.00  0.00           C 0
+TER
+END

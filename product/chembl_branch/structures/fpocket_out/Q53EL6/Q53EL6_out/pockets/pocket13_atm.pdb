@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : 0.0954
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9649
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5583
+HEADER 5  - Mean B-factor of pocket residues  : 0.2745
+HEADER 6  - Hydrophobicity Score              : -6.1667
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 197.0792
+HEADER 10 - Pocket volume (convex hull)       : 4.6751
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   1232    N ALA A 349     -34.889  -6.197 -10.123  0.00  0.00           N 0
+ATOM   1236   CB ALA A 349     -33.949  -4.034 -10.707  0.00  0.00           C 0
+ATOM   1362   NZ LYS A 365     -34.261  -0.984  -6.684  0.54  6.56           N 0
+ATOM   1360   CD LYS A 365     -33.438  -3.301  -6.762  0.00  0.00           C 0
+ATOM   1227   CB GLU A 348     -35.338  -7.795  -7.608  0.00  0.00           C 0
+ATOM   1231  OE2 GLU A 348     -35.628  -6.681  -4.900  0.44  7.50           O 0
+ATOM   1044    O SER A 325     -37.644  -3.994 -12.642  0.05  8.57           O 0
+ATOM   1045   CB SER A 325     -36.645  -1.219 -13.410  0.00  0.00           C 0
+ATOM   2817   NE ARG B  69     -37.447   3.174  -8.302  0.00  0.00           N 0
+HETATM 2837  O2P SEP B  71     -36.941   1.933 -12.312  0.38  7.50           O 0
+HETATM 2832   OG SEP B  71     -35.360   3.018 -10.687  0.00  0.00           O 0
+HETATM 2831   CB SEP B  71     -34.201   2.156 -11.109  0.00  0.00           C 0
+ATOM   2818   CZ ARG B  69     -38.736   2.839  -8.279  0.00  0.00           C 0
+ATOM   2820  NH2 ARG B  69     -39.504   3.069  -9.337  0.00  0.00           N 0
+ATOM   2819  NH1 ARG B  69     -39.270   2.289  -7.186  0.00  0.00           N 0
+ATOM   1046   OG SER A 325     -35.645  -0.226 -13.155  0.69  1.07           O 0
+TER
+END

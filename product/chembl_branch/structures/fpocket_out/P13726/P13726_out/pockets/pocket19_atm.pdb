@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    19:
+HEADER 0  - Pocket Score                      : 0.0188
+HEADER 1  - Drug Score                        : 0.0069
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9250
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6579
+HEADER 5  - Mean B-factor of pocket residues  : 0.2499
+HEADER 6  - Hydrophobicity Score              : 37.8333
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 251.5081
+HEADER 10 - Pocket volume (convex hull)       : 5.0440
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.5625
+ATOM   3947  CG2 VAL U 119      18.656   8.785  87.006  0.00  0.00           C 0
+ATOM   3979   CB ASN U 124      19.790  11.107  83.011  0.00  0.00           C 0
+ATOM   4385  CD1 LEU U 176      19.130   6.977  83.619  0.00  0.00           C 0
+ATOM   3946  CG1 VAL U 119      17.676  11.060  87.200  0.00  0.00           C 0
+ATOM   4383   CB LEU U 176      19.606   5.670  81.548  0.00  0.00           C 0
+ATOM   3981  OD1 ASN U 124      19.464  11.030  80.624  0.66  2.14           O 0
+ATOM   4366  OE1 GLU U 174      16.216  10.628  76.811  0.00  0.00           O 0
+ATOM   4386  CD2 LEU U 176      17.667   5.042  83.000  0.00  0.00           C 0
+ATOM   3982  ND2 ASN U 124      18.178  12.452  81.811  0.00  0.00           N 0
+ATOM   4363   CB GLU U 174      19.087  10.293  76.572  0.00  0.00           C 0
+ATOM   4362    O GLU U 174      20.729   7.645  75.841  0.62  3.21           O 0
+ATOM   4349  OG1 THR U 172      18.365   8.000  73.273  0.00  0.00           O 0
+ATOM   3980   CG ASN U 124      19.135  11.531  81.701  0.00  0.00           C 0
+ATOM   4371    O PHE U 175      21.548   8.520  80.263  0.00  0.00           O 0
+ATOM   4370    C PHE U 175      21.746   7.489  79.626  0.00  0.00           C 0
+ATOM   4379    N LEU U 176      21.527   6.278  80.122  0.00  0.00           N 0
+ATOM   4361    C GLU U 174      20.989   8.692  76.446  0.00  0.00           C 0
+TER
+END

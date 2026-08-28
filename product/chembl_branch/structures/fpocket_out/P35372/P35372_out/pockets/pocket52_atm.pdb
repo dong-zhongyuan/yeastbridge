@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    52:
+HEADER 0  - Pocket Score                      : -0.0383
+HEADER 1  - Drug Score                        : 0.0008
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.8010
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4641
+HEADER 5  - Mean B-factor of pocket residues  : 0.2372
+HEADER 6  - Hydrophobicity Score              : 25.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 189.7085
+HEADER 10 - Pocket volume (convex hull)       : 7.3897
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.4375
+ATOM    242  CG2 VAL A  34     107.609 138.345 128.657  0.00  0.00           C 0
+ATOM   7501  CD1 LEU R 178     108.272 134.374 124.958  0.00  0.00           C 0
+ATOM   1728  CD1 ILE A 343     108.447 138.435 124.461  0.00  0.00           C 0
+ATOM   7502  CD2 LEU R 178     110.690 133.769 125.035  0.00  0.00           C 0
+ATOM    219    O ARG A  32     107.863 133.469 128.781  0.49  1.07           O 0
+ATOM    230    O GLU A  33     110.088 135.803 131.675  0.62  4.29           O 0
+ATOM    229    C GLU A  33     108.891 135.685 131.402  0.00  0.00           C 0
+ATOM    713  OG1 THR A 219     111.877 140.124 130.011  0.61  8.57           O 0
+ATOM    214    O ALA A  31     111.892 132.747 129.126  0.44  9.64           O 0
+ATOM   1726  CG1 ILE A 343     109.846 138.914 124.154  0.00  0.00           C 0
+ATOM    237   CA VAL A  34     108.613 138.086 130.946  0.00  0.00           C 0
+ATOM   1753  ND2 ASN A 346     114.821 139.912 124.846  0.00  0.00           N 0
+ATOM    714  CG2 THR A 219     111.215 141.658 128.283  0.00  0.00           C 0
+ATOM   1727  CG2 ILE A 343     110.389 137.360 122.293  0.00  0.00           C 0
+ATOM   1750   CB ASN A 346     115.763 138.715 122.970  0.00  0.00           C 0
+ATOM   1760  OD1 ASN A 347     113.563 134.879 120.546  0.59  6.43           O 0
+TER
+END

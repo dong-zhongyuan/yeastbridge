@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : -0.0290
+HEADER 1  - Drug Score                        : 0.0030
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9678
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4927
+HEADER 5  - Mean B-factor of pocket residues  : 0.2019
+HEADER 6  - Hydrophobicity Score              : 12.1250
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 287.2110
+HEADER 10 - Pocket volume (convex hull)       : 11.1408
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.5333
+ATOM    858   CB ARG A 474      18.458  10.928  15.564  0.00  0.00           C 0
+HETATM 1058    O PTR P 568      14.051  13.334  13.031  0.36  5.36           O 0
+ATOM    859   CG ARG A 474      19.217  11.712  14.556  0.00  0.00           C 0
+ATOM    860   CD ARG A 474      19.741  10.789  13.501  0.00  0.00           C 0
+ATOM    857    O ARG A 474      16.049  10.007  16.994  0.40  5.36           O 0
+ATOM    502  CD2 LEU A 429      18.451  16.375   9.281  0.00  0.00           C 0
+ATOM   1053  OD1 ASN P 567      16.726  12.606   6.437  0.00  0.00           O 0
+ATOM    485   CD LYS A 427      22.009  14.472   7.506  0.00  0.00           C 0
+ATOM    845  CE2 TYR A 472      20.588  15.760  13.929  0.00  0.00           C 0
+ATOM   1076  CG1 VAL P 569      16.880  15.354  12.980  0.00  0.00           C 0
+ATOM    847   OH TYR A 472      22.274  15.901  12.299  0.81  2.14           O 0
+ATOM    486   CE LYS A 427      23.029  15.143   8.436  0.00  0.00           C 0
+ATOM    864  NH2 ARG A 474      22.469  11.565  13.533  0.40  4.37           N 0
+ATOM   1048   CA ASN P 567      14.770  13.446   8.542  0.00  0.00           C 0
+ATOM   1047    N ASN P 567      13.897  12.297   8.279  0.00  0.00           N 0
+ATOM   1039    N ASN P 566      12.743   9.879   8.020  0.00  9.84           N 0
+ATOM   1045  OD1 ASN P 566      11.730  11.338  10.234  0.00  0.00           O 0
+TER
+END

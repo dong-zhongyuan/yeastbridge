@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   191:
+HEADER 0  - Pocket Score                      : -0.0771
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.6880
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4638
+HEADER 5  - Mean B-factor of pocket residues  : 0.1422
+HEADER 6  - Hydrophobicity Score              : -7.4286
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 3.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 151.9118
+HEADER 10 - Pocket volume (convex hull)       : 4.6048
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.1667
+ATOM  21482  OE1 GLU M  75      19.940 240.770  13.028  0.69  3.21           O 0
+ATOM  21259  ND2 ASN M  46      15.893 237.537  16.499  0.66  3.28           N 0
+ATOM  21256   CB ASN M  46      17.318 239.476  16.798  0.00  0.00           C 0
+ATOM  21531   OG SER M  82      14.125 238.270  11.160  0.00  0.00           O 0
+ATOM  21264   CB ASN M  47      14.656 243.702  16.056  0.00  0.00           C 0
+ATOM  21260    N ASN M  47      16.016 242.014  17.132  0.70  1.09           N 0
+ATOM  21266  OD1 ASN M  47      16.480 244.566  14.828  0.48  7.50           O 0
+ATOM  21273   OG SER M  48      12.165 238.869  17.774  0.62  4.29           O 0
+ATOM  21268    N SER M  48      13.507 241.424  18.302  0.00  0.00           N 0
+ATOM  21272   CB SER M  48      11.534 240.154  17.867  0.00  0.00           C 0
+ATOM  21530   CB SER M  82      13.619 237.320  12.003  0.00  0.00           C 0
+ATOM  21257   CG ASN M  46      16.057 238.668  17.152  0.00  0.00           C 0
+ATOM  21258  OD1 ASN M  46      15.239 239.054  17.976  0.00  0.00           O 0
+ATOM  21473  OE1 GLU M  74      17.055 235.031  12.251  0.29  3.21           O 0
+ATOM  21480   CG GLU M  75      20.314 239.547  10.932  0.00  0.00           C 0
+ATOM  21448  CG1 VAL M  71      20.900 238.162  15.202  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    12:
+HEADER 0  - Pocket Score                      : 0.0228
+HEADER 1  - Drug Score                        : 0.0096
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 3.9481
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5820
+HEADER 5  - Mean B-factor of pocket residues  : 0.3205
+HEADER 6  - Hydrophobicity Score              : 22.3333
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 3.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 323.7581
+HEADER 10 - Pocket volume (convex hull)       : 15.7801
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 8.7692
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.5200
+ATOM   1165  NE2 GLN A 346      22.672  28.136  29.998  0.00  0.00           N 0
+ATOM   1130    O PRO A 342      15.567  27.213  28.657  0.60  1.07           O 0
+ATOM   1149    O PHE A 345      18.396  24.839  28.514  0.48  5.36           O 0
+ATOM   1162   CG GLN A 346      21.653  25.945  29.969  0.00  0.00           C 0
+ATOM   1125   CG PRO A 341      17.594  30.293  24.935  0.00  0.00           C 0
+ATOM   1124   CB PRO A 341      17.176  28.877  24.759  0.00  0.00           C 0
+ATOM   1158   CA GLN A 346      20.892  23.689  29.132  0.00  0.00           C 0
+ATOM   1161   CB GLN A 346      21.995  24.534  29.802  0.00  0.00           C 0
+ATOM   1166    N VAL A 347      22.010  22.063  27.794  0.62  2.19           N 0
+ATOM   1142    N GLY A 344      16.284  28.033  31.610  0.53  2.19           N 0
+ATOM   1126   CD PRO A 341      16.791  31.091  23.940  0.00  0.00           C 0
+ATOM   1123    O PRO A 341      14.327  29.722  26.164  0.31  1.07           O 0
+ATOM   1141  CD2 LEU A 343      13.777  32.512  30.233  0.00  0.00           C 0
+ATOM   1117   CB PRO A 340      13.488  33.010  23.616  0.00  0.00           C 0
+ATOM   1337  CG1 VAL A 370      17.678  24.571  24.106  0.00  0.00           C 0
+ATOM   1135   CA LEU A 343      14.516  29.090  30.332  0.00  0.00           C 0
+ATOM   1140  CD1 LEU A 343      15.741  31.551  31.457  0.00  0.00           C 0
+ATOM   1336   CB VAL A 370      18.617  23.405  23.963  0.00  0.00           C 0
+ATOM   1338  CG2 VAL A 370      18.792  22.788  25.302  0.00  0.00           C 0
+ATOM   1172  CG2 VAL A 347      22.383  20.948  25.013  0.00  0.00           C 0
+TER
+END

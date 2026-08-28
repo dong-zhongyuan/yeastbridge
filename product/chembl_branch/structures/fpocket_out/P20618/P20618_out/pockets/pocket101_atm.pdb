@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   101:
+HEADER 0  - Pocket Score                      : -0.0341
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0437
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6205
+HEADER 5  - Mean B-factor of pocket residues  : 0.1021
+HEADER 6  - Hydrophobicity Score              : 15.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 176.7523
+HEADER 10 - Pocket volume (convex hull)       : 2.9309
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.5625
+ATOM  20083   CG LYS L  66       4.047-122.437  40.968  0.00  0.00           C 0
+ATOM  20079   CA LYS L  66       3.162-123.091  38.640  0.00  0.00           C 0
+ATOM  20082   CB LYS L  66       4.122-123.396  39.795  0.00  0.00           C 0
+ATOM  20117   NZ LYS L  69      -3.194-124.079  39.934  0.50  7.66           N 0
+ATOM  20115   CD LYS L  69      -1.873-122.419  38.626  0.00  0.00           C 0
+ATOM  20075   CB VAL L  65       1.344-126.667  36.732  0.00  0.00           C 0
+ATOM  20053    O ASP L  62       4.396-126.480  39.331  0.68  2.14           O 0
+ATOM  20056  OD1 ASP L  62       2.611-130.581  40.893  0.67  5.36           O 0
+ATOM  20051   CA ASP L  62       4.380-128.861  39.612  0.00  0.00           C 0
+ATOM  20084   CD LYS L  66       4.618-123.085  42.222  0.00  0.00           C 0
+ATOM  20076  CG1 VAL L  65       0.023-126.058  37.188  0.00  0.00           C 0
+ATOM  20078    N LYS L  66       3.006-124.282  37.806  0.00  0.00           N 0
+ATOM  19934  CE1 PHE L  44      -2.982-129.197  40.815  0.00  0.00           C 0
+ATOM  19936   CZ PHE L  44      -1.919-129.968  40.373  0.00  0.00           C 0
+ATOM  19935  CE2 PHE L  44      -1.549-129.933  39.038  0.00  0.00           C 0
+ATOM  19932  CD1 PHE L  44      -3.672-128.394  39.920  0.00  0.00           C 0
+TER
+END

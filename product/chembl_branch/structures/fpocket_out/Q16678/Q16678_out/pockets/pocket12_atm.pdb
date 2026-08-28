@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    12:
+HEADER 0  - Pocket Score                      : -0.0062
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.7892
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5438
+HEADER 5  - Mean B-factor of pocket residues  : 0.2659
+HEADER 6  - Hydrophobicity Score              : 33.4444
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.7778
+HEADER 9  - Pocket volume (Monte Carlo)       : 178.7985
+HEADER 10 - Pocket volume (convex hull)       : 2.5290
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM    650    O SER A 150      -6.179   7.254 -13.738  0.00  0.00           O 0
+ATOM    659   SD MET A 151      -3.095  11.670 -14.280  0.00  0.00           S 0
+ATOM    684   CB ASN A 154      -4.107   6.543 -11.249  0.00  0.00           C 0
+ATOM    687  ND2 ASN A 154      -3.016   4.685 -12.347  0.00  0.00           N 0
+ATOM    654   CA MET A 151      -5.821   9.914 -14.434  0.00  0.00           C 0
+ATOM    651   CB SER A 150      -5.595   6.258 -16.803  0.00  0.00           C 0
+ATOM    660   CE MET A 151      -2.412  11.955 -15.911  0.00  0.00           C 0
+ATOM   1850   OG SER A 299       0.949  10.032 -19.758  0.00  0.00           O 0
+ATOM   1912    O ALA A 313      -2.754   6.009 -20.942  0.00  0.00           O 0
+ATOM   1826  CE1 PHE A 296      -4.554  12.988 -18.439  0.00  0.00           C 0
+ATOM   1824  CD1 PHE A 296      -3.309  13.578 -18.617  0.00  0.00           C 0
+ATOM    649    C SER A 150      -6.379   7.592 -14.900  0.00  0.00           C 0
+ATOM    630    O ALA A 147      -6.084   9.285 -18.540  0.55  2.14           O 0
+ATOM   1915   CA ARG A 314      -1.282   7.941 -22.345  0.00  0.00           C 0
+ATOM    631   CB ALA A 147      -5.164   8.831 -21.653  0.00  0.00           C 0
+ATOM    653    N MET A 151      -6.225   8.840 -15.332  0.00  0.00           N 0
+ATOM   1925    N LEU A 315      -1.820  10.199 -23.037  0.00  0.00           N 0
+TER
+END

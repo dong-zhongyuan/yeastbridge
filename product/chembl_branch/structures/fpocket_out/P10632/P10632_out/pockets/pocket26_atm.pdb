@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    26:
+HEADER 0  - Pocket Score                      : -0.1263
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.7967
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4772
+HEADER 5  - Mean B-factor of pocket residues  : 0.1462
+HEADER 6  - Hydrophobicity Score              : 46.4286
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 197.8113
+HEADER 10 - Pocket volume (convex hull)       : 5.2153
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5556
+ATOM   3289    C GLY A 439      51.927  28.726 -35.545  0.00  0.00           C 0
+ATOM   3322   CE MET A 443      52.112  30.491 -40.675  0.00  0.00           C 0
+ATOM   3288   CA GLY A 439      52.792  29.426 -34.514  0.00  0.00           C 0
+ATOM    826    N ASN A 133      58.260  29.158 -40.348  0.56  6.56           N 0
+ATOM   3290    O GLY A 439      51.044  29.341 -36.144  0.69  3.21           O 0
+ATOM    893  CG2 ILE A 141      53.464  25.513 -41.606  0.00  0.00           C 0
+ATOM    810    O LEU A 131      57.522  26.317 -37.957  0.00  0.00           O 0
+ATOM   3291    N LEU A 440      52.175  27.436 -35.743  0.51  2.19           N 0
+ATOM    816   CA ARG A 132      59.586  28.011 -38.672  0.00  0.00           C 0
+ATOM    827   CA ASN A 133      57.535  29.301 -41.607  0.00  0.00           C 0
+ATOM   3292   CA LEU A 440      51.400  26.657 -36.692  0.00  0.00           C 0
+ATOM   3321   SD MET A 443      51.108  29.065 -41.042  0.00  0.00           S 0
+ATOM   3295   CB LEU A 440      52.002  25.252 -36.824  0.00  0.00           C 0
+ATOM    891   CB ILE A 141      54.671  26.004 -42.385  0.00  0.00           C 0
+ATOM    894  CD1 ILE A 141      56.406  25.101 -40.700  0.00  0.00           C 0
+ATOM    830   CB ASN A 133      57.065  30.755 -41.774  0.00  0.00           C 0
+TER
+END

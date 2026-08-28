@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   301:
+HEADER 0  - Pocket Score                      : -0.1261
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9312
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5490
+HEADER 5  - Mean B-factor of pocket residues  : 0.1551
+HEADER 6  - Hydrophobicity Score              : 16.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.3750
+HEADER 9  - Pocket volume (Monte Carlo)       : 238.4305
+HEADER 10 - Pocket volume (convex hull)       : 13.6610
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM  12337    N THR G 173      69.745 231.849 -15.093  0.33  1.09           N 0
+ATOM  12342  OG1 THR G 173      70.206 229.451 -16.650  0.59  9.64           O 0
+ATOM  12332   CB GLN G 172      67.580 231.447 -12.909  0.00  0.00           C 0
+ATOM  12315    O VAL G 170      65.270 233.036 -17.296  0.20  7.50           O 0
+ATOM  12311    O GLY G 169      64.597 232.131 -14.102  0.47  2.14           O 0
+ATOM  11278  ND2 ASN G  33      62.200 229.368 -16.592  0.75  5.47           N 0
+ATOM  12334   CD GLN G 172      67.875 229.483 -11.340  0.00  0.00           C 0
+ATOM  11246  CE1 PHE G  29      64.447 223.583 -10.323  0.00  0.00           C 0
+ATOM  11244  CD1 PHE G  29      63.766 223.992 -11.457  0.00  0.00           C 0
+HETATM12077  OZ1 YCM G 137      65.525 227.483  -9.072  0.76  4.29           O 0
+ATOM  12336  NE2 GLN G 172      68.668 228.437 -11.127  0.50  7.66           N 0
+ATOM  11277  OD1 ASN G  33      61.721 230.706 -14.903  0.47  1.07           O 0
+HETATM12078  NZ2 YCM G 137      64.128 228.833 -10.247  0.54  2.19           N 0
+ATOM  12335  OE1 GLN G 172      66.709 229.515 -10.957  0.67  2.14           O 0
+ATOM  11241    O PHE G  29      60.504 226.354 -14.059  0.66  3.21           O 0
+ATOM  11242   CB PHE G  29      62.050 223.604 -13.269  0.00  0.00           C 0
+ATOM  11255   CD LYS G  30      60.941 224.129 -18.310  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : 0.0039
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.9901
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5131
+HEADER 5  - Mean B-factor of pocket residues  : 0.1889
+HEADER 6  - Hydrophobicity Score              : 11.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 349.7722
+HEADER 10 - Pocket volume (convex hull)       : 17.4976
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0500
+ATOM  12815   CG ARG D1296    -107.160 138.150  38.607  0.00  0.00           C 0
+ATOM  12819  NH1 ARG D1296    -109.545 139.549  41.344  0.35  3.28           N 0
+ATOM  12848  OE1 GLU D1298    -106.452 139.466  42.208  0.75  3.21           O 0
+ATOM  11353  OE1 GLU D1199    -104.663 142.350  37.191  0.00  0.00           O 0
+ATOM  12818   CZ ARG D1296    -110.068 139.286  40.157  0.00  0.00           C 0
+ATOM  12820  NH2 ARG D1296    -111.206 139.874  39.805  0.00  0.00           N 0
+ATOM  11513   CB ALA D1210    -104.443 139.643  28.284  0.00  0.00           C 0
+ATOM  12419    O ALA D1269    -107.826 138.609  30.644  0.44  2.14           O 0
+ATOM  11349    O GLU D1199    -102.077 142.317  32.343  0.32  1.07           O 0
+ATOM  12434  CE1 HIS D1270    -110.205 141.045  32.413  0.00  0.00           C 0
+ATOM  11512    O ALA D1210    -104.002 138.385  30.622  0.41  1.07           O 0
+ATOM  11351   CG GLU D1199    -103.950 141.268  35.215  0.00  0.00           C 0
+ATOM  12432  ND1 HIS D1270    -110.000 139.789  32.769  0.59  2.19           N 0
+ATOM  12420   CB ALA D1269    -109.680 139.778  28.276  0.00  0.00           C 0
+ATOM  12792    O TYR D1295    -105.764 138.443  35.355  0.41  4.29           O 0
+ATOM  12817   NE ARG D1296    -109.487 138.422  39.326  0.43  5.47           N 0
+TER
+END

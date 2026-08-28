@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    22:
+HEADER 0  - Pocket Score                      : -0.0898
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.7970
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6035
+HEADER 5  - Mean B-factor of pocket residues  : 0.0196
+HEADER 6  - Hydrophobicity Score              : 29.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 170.9836
+HEADER 10 - Pocket volume (convex hull)       : 0.4864
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0667
+ATOM    177   OG SER A  52       7.467  44.797 -26.251  0.00  0.00           O 0
+ATOM    147    O GLY A  48       6.221  49.366 -21.712  0.45  2.14           O 0
+ATOM    115   CG LEU A  44       3.115  50.964 -23.920  0.00  0.00           C 0
+ATOM    116  CD1 LEU A  44       2.023  49.890 -24.007  0.00  0.00           C 0
+ATOM    168   CB LEU A  51       2.601  44.798 -23.729  0.00  0.00           C 0
+ATOM     99    O THR A  42       7.683  51.525 -26.008  0.33  7.50           O 0
+ATOM    117  CD2 LEU A  44       2.823  52.113 -24.871  0.00  0.00           C 0
+ATOM    149   CA ASN A  49       7.855  47.149 -22.241  0.00  0.00           C 0
+ATOM    172    N SER A  52       5.618  43.410 -24.451  0.00  0.00           N 0
+ATOM    155  ND2 ASN A  49       9.218  48.896 -24.443  0.53  1.09           N 0
+ATOM    151    O ASN A  49       7.482  44.854 -22.754  0.00  0.00           O 0
+ATOM    150    C ASN A  49       7.319  45.757 -21.943  0.00  0.00           C 0
+ATOM    164    N LEU A  51       4.510  44.374 -22.206  0.00  0.00           N 0
+TER
+END

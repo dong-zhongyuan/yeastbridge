@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : -0.0232
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.6660
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4534
+HEADER 5  - Mean B-factor of pocket residues  : 0.1254
+HEADER 6  - Hydrophobicity Score              : -6.5000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 277.7957
+HEADER 10 - Pocket volume (convex hull)       : 9.0055
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0455
+ATOM   1535   CB LEU A1014     -10.567 -41.044 -65.179  0.00  0.00           C 0
+ATOM   2152   NZ LYS A1095      -5.160 -41.000 -62.631  0.72  9.84           N 0
+ATOM   1533    C LEU A1014     -11.363 -43.339 -64.492  0.00  0.00           C 0
+ATOM   1534    O LEU A1014     -10.805 -44.342 -64.951  0.57  2.14           O 0
+ATOM   1539    N LYS A1015     -11.745 -43.269 -63.215  0.00  0.00           N 0
+ATOM   1544   CG LYS A1015     -10.589 -43.800 -60.057  0.00  0.00           C 0
+ATOM   1546   CE LYS A1015     -11.260 -41.735 -58.753  0.00  0.00           C 0
+ATOM   1545   CD LYS A1015     -10.890 -43.207 -58.677  0.00  0.00           C 0
+ATOM   1510    O ASN A1011     -12.262 -40.590 -62.161  0.67  2.14           O 0
+ATOM   1513  OD1 ASN A1011      -9.472 -37.191 -61.912  0.47  5.36           O 0
+ATOM   1514  ND2 ASN A1011      -9.962 -36.078 -60.026  0.31  9.84           N 0
+ATOM   1512   CG ASN A1011     -10.270 -36.909 -61.016  0.00  0.00           C 0
+ATOM   1547   NZ LYS A1015     -11.388 -41.177 -57.382  0.11  8.75           N 0
+ATOM   2150   CD LYS A1095      -5.635 -40.221 -64.958  0.00  0.00           C 0
+ATOM   2125  OE1 GLU A1092      -4.942 -43.273 -66.089  0.59  3.21           O 0
+ATOM   1570  OE1 GLU A1018      -8.152 -46.277 -61.300  0.77  4.29           O 0
+ATOM   1567   CB GLU A1018      -9.070 -47.129 -63.712  0.00  0.00           C 0
+ATOM   1569   CD GLU A1018      -7.318 -46.979 -61.911  0.00  0.00           C 0
+TER
+END

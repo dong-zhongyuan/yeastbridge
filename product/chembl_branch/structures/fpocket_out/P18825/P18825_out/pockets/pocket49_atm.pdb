@@ -1,0 +1,32 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    49:
+HEADER 0  - Pocket Score                      : -0.1108
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.1232
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4961
+HEADER 5  - Mean B-factor of pocket residues  : 0.7897
+HEADER 6  - Hydrophobicity Score              : -6.1429
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 146.5644
+HEADER 10 - Pocket volume (convex hull)       : 1.0419
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0667
+ATOM   1557  ND2 ASN A1008     -26.935  -7.928   1.042  0.18  7.66           N 0
+ATOM   1584  CD1 LEU A1012     -28.710  -3.364  -5.879  0.00  0.00           C 0
+ATOM   6019  OE2 GLU B1107     -25.040  -2.389  -4.400  0.71  2.14           O 1
+ATOM   1556  OD1 ASN A1008     -26.930  -8.850  -0.996  0.53  5.36           O 0
+ATOM   1568   CA SER A1010     -23.710  -5.889  -3.393  0.00  0.00           C 0
+ATOM   1561    O GLU A1009     -25.480  -7.388  -5.100  0.47  2.14           O 0
+ATOM   1572   OG SER A1010     -23.293  -6.119  -0.996  0.00  0.00           O 0
+ATOM   5978   CG GLU B1103     -27.386  -0.907   1.264  0.00  0.00           C 0
+ATOM   6010  NH2 ARG B1106     -23.183  -3.554   1.138  0.68  6.56           N 0
+ATOM   5977   CB GLU B1103     -27.222  -0.223  -0.090  0.00  0.00           C 0
+TER
+END

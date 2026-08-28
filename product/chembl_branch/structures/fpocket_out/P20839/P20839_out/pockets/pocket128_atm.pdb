@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   128:
+HEADER 0  - Pocket Score                      : -0.1419
+HEADER 1  - Drug Score                        : 0.0034
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.8677
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4491
+HEADER 5  - Mean B-factor of pocket residues  : 0.4150
+HEADER 6  - Hydrophobicity Score              : 42.5714
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 229.7195
+HEADER 10 - Pocket volume (convex hull)       : 9.4780
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3158
+ATOM  13260    N ILE E 439     175.170 138.060 201.297  0.59  2.19           N 0
+ATOM  21749  CE1 HIS H 466     174.522 135.715 194.883  0.00  0.00           C 0
+ATOM  21750  NE2 HIS H 466     175.647 135.737 195.576  0.66  9.84           N 0
+ATOM  13258   CE LYS E 438     172.317 133.231 202.787  0.00  0.00           C 0
+ATOM  13252   CA LYS E 438     175.679 136.070 202.582  0.00  0.00           C 0
+ATOM  13247    O VAL E 437     177.857 134.889 201.282  0.45  7.50           O 0
+ATOM  13256   CG LYS E 438     174.556 134.019 203.596  0.00  0.00           C 0
+ATOM  13255   CB LYS E 438     174.512 135.528 203.412  0.00  0.00           C 0
+ATOM  13233   SD MET E 420     170.031 136.575 202.357  0.00  0.00           S 0
+ATOM  13264   CB ILE E 439     175.512 139.776 199.543  0.00  0.00           C 0
+ATOM  13263    O ILE E 439     172.710 139.368 200.680  0.54  1.07           O 0
+ATOM  13281  NE2 GLN E 441     170.233 139.819 196.439  0.18  6.56           N 0
+ATOM  21747  ND1 HIS H 466     174.466 136.809 194.146  0.44  3.28           N 0
+ATOM  21746   CG HIS H 466     175.593 137.570 194.370  0.00  0.00           C 0
+ATOM  12628   SD MET E 337     174.082 141.936 193.934  0.00  0.00           S 0
+ATOM  13266  CG2 ILE E 439     175.504 141.280 199.282  0.00  0.00           C 0
+TER
+END

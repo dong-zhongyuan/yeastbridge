@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    25:
+HEADER 0  - Pocket Score                      : -0.0534
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9483
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5997
+HEADER 5  - Mean B-factor of pocket residues  : 0.9214
+HEADER 6  - Hydrophobicity Score              : 22.1000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.1000
+HEADER 9  - Pocket volume (Monte Carlo)       : 340.6982
+HEADER 10 - Pocket volume (convex hull)       : 20.3517
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.2000
+ATOM    442  CG2 VAL A  59     -10.361   1.211  46.272  0.00  0.00           C 0
+ATOM    431   CA SER A  58      -7.628  -2.976  45.801  0.00  0.00           C 0
+ATOM    436    N VAL A  59      -8.136  -0.682  46.486  0.63  2.19           N 0
+ATOM    433   CB SER A  58      -7.583  -3.684  47.159  0.00  0.00           C 0
+ATOM    417    O GLN A  56      -7.098  -6.430  42.125  0.00  0.00           O 0
+ATOM    430    N SER A  58      -6.771  -3.670  44.844  0.31  1.09           N 0
+ATOM    426    O LEU A  57      -7.650  -2.774  42.963  0.00  0.00           O 0
+ATOM    407    O HIS A  55      -8.930  -3.957  39.123  0.00  0.00           O 0
+ATOM   1816   CB CYS A 242     -11.872  -5.918  38.998  0.00  0.00           C 0
+ATOM   1623  NH2 ARG A 215     -10.045  -1.433  41.351  0.35  6.56           N 0
+ATOM   1813    N CYS A 242     -13.865  -4.578  39.426  0.21  2.19           N 0
+ATOM   1812  OE2 GLU A 241     -16.328  -4.775  42.983  0.00  0.00           O 0
+ATOM   1622  NH1 ARG A 215     -11.097   0.243  40.411  0.00  0.00           N 0
+ATOM   1801    O PRO A 240     -13.658  -1.023  40.728  0.43  4.29           O 0
+ATOM   1811  OE1 GLU A 241     -17.163  -2.906  43.846  0.00  0.00           O 0
+ATOM   1800   CB PRO A 240     -15.593   1.228  41.914  0.00  0.00           C 0
+ATOM   1634   CA LEU A 217     -12.705   4.505  42.274  0.00  0.00           C 0
+ATOM   1637    O LEU A 217     -14.673   3.998  43.544  0.38  4.29           O 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : -0.0444
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9467
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5426
+HEADER 5  - Mean B-factor of pocket residues  : 0.1622
+HEADER 6  - Hydrophobicity Score              : 32.6250
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 164.9252
+HEADER 10 - Pocket volume (convex hull)       : 3.8483
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2222
+ATOM   2342   CB THR A 320      29.545  34.733 -37.508  0.00  0.00           C 0
+ATOM   2318    O PRO A 317      26.914  37.149 -36.567  0.00  0.00           O 0
+ATOM   2344  CG2 THR A 320      29.883  34.147 -38.882  0.00  0.00           C 0
+ATOM   2316   CA PRO A 317      25.767  35.432 -35.358  0.00  0.00           C 0
+ATOM   3447    O LEU A 458      24.740  30.060 -39.491  0.00  0.00           O 0
+ATOM   2291    O LEU A 314      25.235  30.663 -34.300  0.36  1.07           O 0
+ATOM   2283    O LEU A 313      28.306  32.039 -35.022  0.42  2.14           O 0
+ATOM   2373  OE1 GLN A 324      29.272  36.108 -42.173  0.58  4.29           O 0
+ATOM   3442  OD1 ASN A 457      27.336  34.163 -44.287  0.72  7.50           O 0
+ATOM   2319   CB PRO A 317      24.252  35.414 -35.596  0.00  0.00           C 0
+ATOM   2345    N ALA A 321      29.264  37.813 -38.207  0.00  0.00           N 0
+ATOM   2349   CB ALA A 321      27.701  39.594 -38.831  0.00  0.00           C 0
+ATOM   2346   CA ALA A 321      29.007  38.875 -39.175  0.00  0.00           C 0
+ATOM   3444    N LEU A 458      26.950  30.289 -41.489  0.68  1.09           N 0
+ATOM   3440   CB ASN A 457      26.226  32.037 -44.093  0.00  0.00           C 0
+ATOM   3448   CB LEU A 458      27.610  29.215 -39.377  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : 0.0844
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.6312
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3950
+HEADER 5  - Mean B-factor of pocket residues  : 0.0818
+HEADER 6  - Hydrophobicity Score              : 24.0000
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Amino Acid based volume Score     : 3.9167
+HEADER 9  - Pocket volume (Monte Carlo)       : 136.4702
+HEADER 10 - Pocket volume (convex hull)       : 3.5428
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0500
+ATOM    562   CB ALA A  69      -0.233   5.849 -39.934  0.00  0.00           C 0
+ATOM    539  OD1 ASN A  66      -3.660   9.316 -38.869  0.26  8.57           O 0
+ATOM    568   OG SER A  70      -1.955   8.006 -35.554  0.48  4.29           O 0
+ATOM   3121  CG2 VAL C   6       2.923  11.301 -39.930  0.00  0.00           C 0
+ATOM   3102    O GLN C   4      -0.793  12.801 -39.749  0.60  3.21           O 0
+ATOM    589  CG2 THR A  73       4.445   8.861 -34.542  0.00  0.00           C 0
+ATOM    587   CB THR A  73       3.822   7.605 -35.179  0.00  0.00           C 0
+ATOM    588  OG1 THR A  73       3.686   7.764 -36.589  0.61  8.57           O 0
+ATOM   3111    O VAL C   5       0.685  13.528 -36.641  0.53  7.50           O 0
+ATOM    563    N SER A  70      -0.538   5.766 -36.727  0.00  0.00           N 0
+ATOM    560    C ALA A  69       0.429   5.340 -37.541  0.00  0.00           C 0
+ATOM   3116   CA VAL C   6       3.023  12.760 -37.865  0.00  0.00           C 0
+ATOM    599  CE2 TYR A  74       1.503   9.246 -31.582  0.00  0.00           C 0
+ATOM   3122    N THR C   7       3.967  13.013 -35.652  0.00  0.00           N 0
+ATOM   3127  OG1 THR C   7       3.009  13.377 -32.942  0.00  0.00           O 0
+ATOM    796  NH1 ARG A  97      -0.361  12.771 -32.085  0.62  2.19           N 0
+ATOM   3098    O GLY C   3      -4.460  12.131 -36.867  0.52  1.07           O 0
+ATOM     80   OH TYR A   9      -4.494  10.253 -33.347  0.62  2.14           O 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    12:
+HEADER 0  - Pocket Score                      : 0.0201
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0821
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7361
+HEADER 5  - Mean B-factor of pocket residues  : 0.4453
+HEADER 6  - Hydrophobicity Score              : 53.6667
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 347.5440
+HEADER 10 - Pocket volume (convex hull)       : 11.2921
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.5625
+ATOM   1697  CH2 TRP B   3       1.298 -11.638  28.777  0.00  0.00           C 0
+ATOM   1678    O GLN B   2       2.265  -6.362  31.969  0.50  9.64           O 0
+ATOM   1693  CE2 TRP B   3       0.818 -11.113  31.027  0.00  0.00           C 0
+ATOM   1695  CZ2 TRP B   3       1.440 -11.949  30.102  0.00  0.00           C 0
+ATOM   1696  CZ3 TRP B   3       0.557 -10.525  28.362  0.00  0.00           C 0
+ATOM   1680   CG GLN B   2       4.383  -7.273  35.689  0.00  0.00           C 0
+ATOM   1679   CB GLN B   2       3.471  -7.421  34.484  0.00  0.00           C 0
+ATOM   1670    N MET B   1       0.294  -6.627  37.900  0.00  0.00           N 0
+ATOM   1675    N GLN B   2       1.490  -6.376  35.497  0.23  3.28           N 0
+ATOM   1692  NE1 TRP B   3       0.789 -11.176  32.395  0.00  0.00           N 0
+ATOM   1683  NE2 GLN B   2       6.593  -8.111  36.219  0.00  0.00           N 0
+ATOM   1682  OE1 GLN B   2       6.296  -7.032  34.271  0.00  0.00           O 0
+ATOM   1681   CD GLN B   2       5.845  -7.462  35.333  0.00  0.00           C 0
+ATOM   1690  CD1 TRP B   3       0.045 -10.125  32.874  0.00  0.00           C 0
+ATOM   1691  CD2 TRP B   3       0.066  -9.985  30.640  0.00  0.00           C 0
+ATOM   1694  CE3 TRP B   3      -0.061  -9.694  29.279  0.00  0.00           C 0
+TER
+END

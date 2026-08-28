@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    12:
+HEADER 0  - Pocket Score                      : 0.0234
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9925
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5809
+HEADER 5  - Mean B-factor of pocket residues  : 0.1353
+HEADER 6  - Hydrophobicity Score              : 17.7143
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 318.6488
+HEADER 10 - Pocket volume (convex hull)       : 10.8450
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2500
+ATOM   1201   CA LEU B  46      31.531  41.041  31.870  0.00  0.00           C 0
+ATOM   1194    O GLN B  45      29.447  42.415  33.176  0.00  0.00           O 0
+ATOM   1200    N LEU B  46      30.835  40.642  33.079  0.00  0.00           N 0
+ATOM   1186    O ASP B  44      30.632  41.916  36.708  0.65  5.36           O 0
+ATOM   1206  CD1 LEU B  46      34.166  42.310  30.602  0.00  0.00           C 0
+ATOM   1198  OE1 GLN B  45      29.124  37.084  35.340  0.71  3.21           O 0
+ATOM   2047   CD PRO C  43      35.304  36.391  34.357  0.00  0.00           C 0
+ATOM   2030    O VAL C  41      32.710  37.042  32.100  0.50  1.07           O 0
+ATOM   1204   CB LEU B  46      32.951  40.475  31.887  0.00  0.00           C 0
+ATOM   1807   NE ARG C  11      37.957  41.820  33.590  0.72  5.47           N 0
+ATOM   1199  NE2 GLN B  45      29.041  38.352  37.181  0.00  0.00           N 0
+ATOM   2039  CG1 VAL C  42      31.668  34.120  35.676  0.00  0.00           C 0
+ATOM   1806   CD ARG C  11      38.206  40.508  34.189  0.00  0.00           C 0
+ATOM   2044    O PRO C  43      35.628  34.217  37.063  0.56  4.29           O 0
+ATOM   2064  NE2 GLN C  45      33.390  32.771  38.455  0.00  0.00           N 0
+ATOM   2046   CG PRO C  43      36.704  36.777  34.753  0.00  0.00           C 0
+ATOM   1805   CG ARG C  11      39.197  40.579  35.338  0.00  0.00           C 0
+ATOM   1804   CB ARG C  11      39.501  39.196  35.932  0.00  0.00           C 0
+TER
+END

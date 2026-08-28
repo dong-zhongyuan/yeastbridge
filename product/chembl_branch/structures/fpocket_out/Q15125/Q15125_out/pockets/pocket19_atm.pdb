@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    19:
+HEADER 0  - Pocket Score                      : -0.1437
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 4.1729
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5132
+HEADER 5  - Mean B-factor of pocket residues  : 0.0195
+HEADER 6  - Hydrophobicity Score              : 32.6667
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 241.3616
+HEADER 10 - Pocket volume (convex hull)       : 5.9409
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.5238
+ATOM   1649   CB ASP A 206     117.884 103.706 128.814  0.00  0.00           C 0
+ATOM   1629  CD2 LEU A 203     121.868 103.922 125.325  0.00  0.00           C 0
+ATOM   1620  CG1 VAL A 202     118.243  99.891 125.043  0.00  0.00           C 0
+ATOM   1618    O VAL A 202     117.218 102.665 125.779  0.00  0.00           O 0
+ATOM   1652  OD2 ASP A 206     119.907 104.563 129.723  0.63  1.07           O 0
+ATOM   1650   CG ASP A 206     118.836 103.968 129.962  0.00  0.00           C 0
+ATOM   1651  OD1 ASP A 206     118.511 103.582 131.104  0.00  0.00           O 0
+ATOM    433    O TRP A  61     126.331 100.318 128.766  0.63  3.21           O 0
+ATOM    453  NH1 ARG A  62     122.904 104.928 129.796  0.58  2.19           N 0
+ATOM    440  CE3 TRP A  61     124.414  96.148 127.828  0.00  0.00           C 0
+ATOM    478   CB SER A  65     125.818 103.357 126.808  0.00  0.00           C 0
+ATOM    434   CB TRP A  61     124.832  98.047 130.496  0.00  0.00           C 0
+ATOM    454  NH2 ARG A  62     121.976 104.129 131.727  0.46  7.66           N 0
+ATOM    452   CZ ARG A  62     123.047 104.528 131.049  0.00  0.00           C 0
+ATOM    432    C TRP A  61     126.400  99.926 129.935  0.00  0.00           C 0
+ATOM    444    N ARG A  62     126.605 100.760 130.951  0.57  1.09           N 0
+TER
+END

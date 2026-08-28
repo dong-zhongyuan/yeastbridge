@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     3:
+HEADER 0  - Pocket Score                      : 0.0504
+HEADER 1  - Drug Score                        : 0.0019
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.5523
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3695
+HEADER 5  - Mean B-factor of pocket residues  : 0.1933
+HEADER 6  - Hydrophobicity Score              : 75.5000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.6250
+HEADER 9  - Pocket volume (Monte Carlo)       : 95.1883
+HEADER 10 - Pocket volume (convex hull)       : 0.9092
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 16.0000
+HEADER 13 - Number of apolar alpha sphere     :    17
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM  12289    O LEU D 205      28.352 -30.672  -6.128  0.53  1.07           O 0
+ATOM  12618  CE1 PHE D 247      24.960 -32.204  -6.207  0.00  0.00           C 0
+ATOM  12291   CG LEU D 205      28.304 -33.705  -4.735  0.00  0.00           C 0
+ATOM  13068  CD1 PHE D 303      24.318 -32.920  -0.688  0.00  0.00           C 0
+ATOM  12108   OG SER D 183      27.598 -29.043   0.676  0.00  0.00           O 0
+ATOM  12107   CB SER D 183      28.040 -30.065   1.547  0.00  0.00           C 0
+ATOM  13070  CE1 PHE D 303      25.267 -33.758  -0.099  0.00  0.00           C 0
+ATOM  12293  CD2 LEU D 205      28.241 -34.482  -3.440  0.00  0.00           C 0
+ATOM  12301  CD2 LEU D 206      29.088 -28.513  -1.636  0.00  0.00           C 0
+ATOM  12265  CE2 PHE D 202      30.840 -32.380   0.546  0.00  0.00           C 0
+ATOM  13093   CG MET D 307      25.069 -27.621   0.113  0.00  0.00           C 0
+ATOM  12322   CB ALA D 209      25.748 -28.534  -5.658  0.00  0.00           C 0
+ATOM  13066   CB PHE D 303      22.171 -32.537  -1.962  0.00  0.00           C 0
+ATOM  12620   CZ PHE D 247      23.696 -32.536  -5.738  0.00  0.00           C 0
+ATOM  13065    O PHE D 303      21.435 -29.394  -1.023  0.66  1.07           O 0
+ATOM  13092   CB MET D 307      23.568 -27.620  -0.071  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    66:
+HEADER 0  - Pocket Score                      : -0.2295
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    29
+HEADER 3  - Mean alpha-sphere radius          : 4.0726
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4570
+HEADER 5  - Mean B-factor of pocket residues  : 0.1535
+HEADER 6  - Hydrophobicity Score              : 10.1250
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 287.2678
+HEADER 10 - Pocket volume (convex hull)       : 12.5056
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.1379
+ATOM   1001    C ASN A 202     -47.227 -26.217  35.191  0.00  0.00           C 0
+ATOM   1002    O ASN A 202     -48.009 -25.509  35.825  0.69  8.57           O 0
+ATOM    997    O LYS A 201     -48.990 -29.681  35.624  0.61  7.50           O 0
+ATOM   6329  OD1 ASP C  80     -44.221 -30.374  38.192  0.52  8.57           O 0
+ATOM   6312    O VAL C  78     -45.155 -25.073  40.066  0.64  3.21           O 0
+ATOM   6281   CD ARG C  74     -46.673 -28.360  43.013  0.00  0.00           C 0
+ATOM   6284  NH1 ARG C  74     -47.342 -30.897  42.005  0.35  9.84           N 0
+ATOM   6279   CB ARG C  74     -48.574 -26.810  43.428  0.00  0.00           C 0
+ATOM    996    C LYS A 201     -49.673 -28.743  35.213  0.00  0.00           C 0
+ATOM    998   CB LYS A 201     -51.636 -30.007  36.121  0.00  0.00           C 0
+ATOM   6304  CG2 THR C  76     -52.574 -22.380  38.268  0.00  0.00           C 0
+ATOM    995   CA LYS A 201     -51.194 -28.778  35.323  0.00  0.00           C 0
+ATOM    991    O CYS A 200     -51.704 -26.538  33.776  0.72  5.36           O 0
+ATOM   6289    O TYR C  75     -48.977 -23.348  41.324  0.62  3.21           O 0
+ATOM   6278    O ARG C  74     -51.484 -25.556  42.940  0.60  3.21           O 0
+ATOM   6275    N ARG C  74     -50.545 -27.379  44.792  0.00  0.00           N 0
+ATOM   6298    N THR C  76     -50.766 -22.186  40.615  0.00  0.00           N 0
+ATOM   6299   CA THR C  76     -50.277 -22.067  39.245  0.00  0.00           C 0
+ATOM   6288    C TYR C  75     -50.069 -22.826  41.548  0.00  0.00           C 0
+TER
+END

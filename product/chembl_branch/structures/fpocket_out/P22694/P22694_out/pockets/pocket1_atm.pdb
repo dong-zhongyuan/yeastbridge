@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     1:
+HEADER 0  - Pocket Score                      : 0.1141
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.5740
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3612
+HEADER 5  - Mean B-factor of pocket residues  : 0.9843
+HEADER 6  - Hydrophobicity Score              : 32.9091
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.0909
+HEADER 9  - Pocket volume (Monte Carlo)       : 131.9637
+HEADER 10 - Pocket volume (convex hull)       : 4.0895
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2500
+ATOM   1356    C ARG A 166      -4.432   4.585  -4.352  0.00  0.00           C 0
+ATOM   1835   CB ALA A 224       0.650   4.666  -8.231  0.00  0.00           C 0
+ATOM   1355   CA ARG A 166      -4.959   3.314  -5.042  0.00  0.00           C 0
+ATOM   1358    O ARG A 166      -4.830   5.663  -4.783  0.37  4.29           O 0
+ATOM   1793    O VAL A 220      -1.491   2.984 -10.501  0.50  1.07           O 0
+ATOM   1802  OD1 ASP A 221      -2.946   0.764  -6.623  0.67  1.07           O 0
+ATOM   1719  CD1 ILE A 210      -6.773   5.973 -10.406  0.00  0.00           C 0
+ATOM   1792   CB VAL A 220      -4.681   2.691 -11.097  0.00  0.00           C 0
+ATOM   1795  CG2 VAL A 220      -5.257   1.933  -9.891  0.00  0.00           C 0
+ATOM   1673    C TYR A 205      -1.154   9.156  -9.467  0.00  0.00           C 0
+ATOM   1645   CA GLY A 201      -5.805   9.177  -4.832  0.00  0.00           C 0
+ATOM   1690  CD2 LEU A 206      -5.752   9.768  -8.703  0.00  0.00           C 0
+ATOM   1675    O TYR A 205      -1.135   7.953  -9.744  0.42  2.14           O 0
+ATOM   1674   CB TYR A 205       0.139   9.230  -7.273  0.00  0.00           C 0
+ATOM   1373    N LEU A 168      -0.677   5.048  -3.464  0.55  1.09           N 0
+ATOM   1648    N THR A 202      -3.919  10.716  -4.787  0.00  0.00           N 0
+ATOM   1366   CA ASP A 167      -2.928   5.687  -2.725  0.00  0.00           C 0
+TER
+END

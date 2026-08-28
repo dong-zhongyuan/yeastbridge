@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    14:
+HEADER 0  - Pocket Score                      : 0.0818
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 4.0644
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6423
+HEADER 5  - Mean B-factor of pocket residues  : 0.4174
+HEADER 6  - Hydrophobicity Score              : -21.0000
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 226.3203
+HEADER 10 - Pocket volume (convex hull)       : 8.3133
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0435
+ATOM    101  NE2 GLN A   8      -1.224  24.049  -4.101  0.00  0.00           N 0
+ATOM     16    O GLN A   3      -2.090  23.818  -7.550  0.00  0.00           O 0
+ATOM      7  OD1 ASP A   2       0.371  20.962  -7.052  0.13  4.29           O 0
+ATOM     54  OG1 THR A   5      -5.427  24.176  -4.366  0.00  0.00           O 0
+ATOM   2165   CB LYS A 148      -0.295  17.238  -2.946  0.00  0.00           C 0
+ATOM   2164    O LYS A 148      -1.536  18.467  -0.331  0.70  2.14           O 0
+ATOM     99   CD GLN A   8      -0.784  23.596  -2.917  0.00  0.00           C 0
+ATOM    100  OE1 GLN A   8       0.298  23.013  -2.783  0.59  3.21           O 0
+ATOM     97   CB GLN A   8      -2.944  24.512  -2.080  0.00  0.00           C 0
+ATOM     55  CG2 THR A   5      -5.477  23.916  -6.762  0.00  0.00           C 0
+ATOM   2163    C LYS A 148      -1.566  17.316  -0.772  0.00  0.00           C 0
+ATOM   2166  OXT LYS A 148      -2.597  16.661  -0.592  0.00  0.00           O 0
+ATOM    147  OE2 GLU A  11      -3.936  21.310   1.615  0.60  1.07           O 0
+ATOM     93    N GLN A   8      -5.265  24.820  -1.404  0.00  0.00           N 0
+ATOM     98   CG GLN A   8      -1.656  23.872  -1.713  0.00  0.00           C 0
+ATOM     94   CA GLN A   8      -3.893  24.742  -0.912  0.00  0.00           C 0
+ATOM    146  OE1 GLU A  11      -6.131  21.479   1.546  0.67  8.57           O 0
+ATOM     82   CB GLU A   7      -8.242  23.643  -1.489  0.00  0.00           C 0
+ATOM     86  OE2 GLU A   7      -8.993  22.560  -4.411  0.00  0.00           O 0
+TER
+END

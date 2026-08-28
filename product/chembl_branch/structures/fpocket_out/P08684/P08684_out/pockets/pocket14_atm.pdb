@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    14:
+HEADER 0  - Pocket Score                      : -0.0745
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.8528
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5332
+HEADER 5  - Mean B-factor of pocket residues  : 0.1804
+HEADER 6  - Hydrophobicity Score              : 74.0000
+HEADER 7  - Polarity Score                    :     0
+HEADER 8  - Amino Acid based volume Score     : 4.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 165.6117
+HEADER 10 - Pocket volume (convex hull)       : 2.5865
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3750
+ATOM     62   CB LEU A  36      22.154  56.851 -22.490  0.00  0.00           C 0
+ATOM     65  CD2 LEU A  36      22.813  57.981 -20.353  0.00  0.00           C 0
+ATOM   2810   CB PHE A 387      28.166  56.363 -19.680  0.00  0.00           C 0
+ATOM     61    O LEU A  36      23.327  57.362 -25.119  0.00  0.00           O 0
+ATOM     75  CG1 ILE A  38      22.416  53.459 -24.750  0.00  0.00           C 0
+ATOM     77  CD1 ILE A  38      22.659  53.187 -23.263  0.00  0.00           C 0
+ATOM   2805   CE MET A 386      25.949  51.492 -24.705  0.00  0.00           C 0
+ATOM   2806    N PHE A 387      28.955  54.476 -21.022  0.69  5.47           N 0
+ATOM   2799   CA MET A 386      29.979  53.002 -22.650  0.00  0.00           C 0
+ATOM   2797    O GLY A 385      31.633  54.263 -24.390  0.00  0.00           O 0
+ATOM   2809    O PHE A 387      26.258  53.993 -20.076  0.79  1.07           O 0
+ATOM   2803   CG MET A 386      27.718  51.817 -22.610  0.00  0.00           C 0
+ATOM   2802   CB MET A 386      29.130  51.826 -23.139  0.00  0.00           C 0
+TER
+END

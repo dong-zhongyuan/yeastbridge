@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : 0.0482
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.7324
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4519
+HEADER 5  - Mean B-factor of pocket residues  : 0.2523
+HEADER 6  - Hydrophobicity Score              : 12.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.1250
+HEADER 9  - Pocket volume (Monte Carlo)       : 195.0950
+HEADER 10 - Pocket volume (convex hull)       : 7.9886
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2632
+ATOM   2106   CB VAL B  14       3.187  -7.005  -7.753  0.00  0.00           C 0
+ATOM   2107  CG1 VAL B  14       4.070  -6.249  -6.790  0.00  0.00           C 0
+ATOM   2161  OE1 GLN B  24       6.308 -11.918  -9.061  0.00  0.00           O 0
+ATOM   2103   CA VAL B  14       3.945  -7.242  -9.093  0.00  0.00           C 0
+ATOM   3866   CG PRO B 247       8.238  -2.492  -7.343  0.00  0.00           C 0
+ATOM   2097    C PRO B  13       5.143  -6.000 -10.787  0.00  0.00           C 0
+ATOM   2099   CB PRO B  13       6.233  -3.732 -10.609  0.00  0.00           C 0
+ATOM   3884  NE2 GLN B 249      11.096  -6.654  -7.376  0.00  0.00           N 0
+ATOM   2098    O PRO B  13       5.763  -7.003 -11.113  0.00  0.00           O 0
+ATOM   3865   CB PRO B 247       9.106  -2.596  -6.274  0.00  0.00           C 0
+ATOM   3871    O LEU B 248      11.796  -5.519  -4.266  0.00  0.00           O 0
+ATOM   2162  NE2 GLN B  24       5.898 -10.868 -11.006  0.71  1.09           N 0
+ATOM   2151    O CYS B  23       9.936 -11.160 -10.918  0.31  2.14           O 0
+ATOM   3860  NH2 ARG B 246      10.964  -8.480 -11.054  0.38  1.09           N 0
+ATOM   3883  OE1 GLN B 249      11.649  -8.867  -7.493  0.00  0.00           O 0
+TER
+END

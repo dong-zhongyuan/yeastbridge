@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    17:
+HEADER 0  - Pocket Score                      : -0.0452
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.6983
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5936
+HEADER 5  - Mean B-factor of pocket residues  : 0.3843
+HEADER 6  - Hydrophobicity Score              : -16.4286
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 202.2332
+HEADER 10 - Pocket volume (convex hull)       : 9.3953
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1765
+ATOM   2744  NH1 ARG A1281     -88.387 108.896   1.761  0.67  7.66           N 0
+ATOM   2743   CZ ARG A1281     -88.597 109.086   3.058  0.00  0.00           C 0
+ATOM   6827  OE1 GLU C1122     -93.465 105.695   1.012  0.69  9.64           O 0
+ATOM   2745  NH2 ARG A1281     -88.947 108.060   3.823  0.65  6.56           N 0
+ATOM   2741   CD ARG A1281     -88.647 110.609   5.003  0.00  0.00           C 0
+ATOM   6782   CD GLN C1119     -90.202 107.264   7.274  0.00  0.00           C 0
+ATOM   6783  OE1 GLN C1119     -89.276 107.886   6.766  0.00  0.00           O 0
+ATOM   2765   CD PRO A1282     -90.410 112.882   7.569  0.00  0.00           C 0
+ATOM   6763  CE1 TYR C1118     -95.139 104.920   3.907  0.00  0.00           C 0
+ATOM   6766   OH TYR C1118     -97.172 105.299   2.738  0.38  5.36           O 0
+ATOM   6681   CB PRO C1113     -96.790 107.836   6.281  0.00  0.00           C 0
+ATOM   6680    O PRO C1113     -93.920 107.010   7.443  0.63  2.14           O 0
+ATOM   2762    O PRO A1282     -90.745 110.093   9.940  0.00  0.00           O 0
+ATOM   6784  NE2 GLN C1119     -90.704 107.568   8.464  0.73  1.09           N 0
+ATOM   2764   CG PRO A1282     -91.676 113.519   8.062  0.00  0.00           C 0
+ATOM   6699  OE2 GLU C1114     -97.081 110.889   9.201  0.39  6.43           O 0
+ATOM   6781   CG GLN C1119     -90.809 106.089   6.562  0.00  0.00           C 0
+ATOM   2763   CB PRO A1282     -92.005 112.851   9.329  0.00  0.00           C 0
+ATOM   6696   CG GLU C1114     -95.357 110.167  10.674  0.00  0.00           C 0
+TER
+END

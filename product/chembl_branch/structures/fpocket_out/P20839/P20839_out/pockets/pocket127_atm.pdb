@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   127:
+HEADER 0  - Pocket Score                      : -0.1417
+HEADER 1  - Drug Score                        : 0.0377
+HEADER 2  - Number of alpha spheres           :    27
+HEADER 3  - Mean alpha-sphere radius          : 3.9706
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4713
+HEADER 5  - Mean B-factor of pocket residues  : 0.0673
+HEADER 6  - Hydrophobicity Score              : -12.0000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 199.1273
+HEADER 10 - Pocket volume (convex hull)       : 6.9035
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.4444
+ATOM   5546   CB PRO C  14     189.581 174.836 166.837  0.00  0.00           C 0
+ATOM   5547   CG PRO C  14     190.273 176.147 166.976  0.00  0.00           C 0
+ATOM   5548   CD PRO C  14     191.651 175.948 166.455  0.00  0.00           C 0
+ATOM   9660   CB ALA D 307     192.549 176.206 161.341  0.00  0.00           C 0
+ATOM   9980   CB TYR D 353     192.273 180.029 161.897  0.00  0.00           C 0
+ATOM   9982  CD1 TYR D 353     193.608 179.285 163.911  0.00  0.00           C 0
+ATOM   5545    O PRO C  14     191.146 172.837 164.765  0.60  4.29           O 0
+ATOM   5565  OD2 ASP C  16     189.173 173.947 159.787  0.51  3.21           O 0
+ATOM   9974  OE1 GLU D 352     187.875 181.322 164.240  0.00  0.00           O 0
+ATOM  10013  NH1 ARG D 356     192.343 180.372 167.631  0.75  4.37           N 0
+ATOM   5552    O GLU C  15     187.698 171.910 164.281  0.54  7.50           O 0
+ATOM   9952   CD LYS D 349     185.320 176.869 160.022  0.00  0.00           C 0
+ATOM   9954   NZ LYS D 349     183.516 176.107 161.566  0.00  0.00           N 0
+ATOM   9949    O LYS D 349     189.249 179.785 159.670  0.63  2.14           O 0
+ATOM   9950   CB LYS D 349     187.223 177.388 158.484  0.00  0.00           C 0
+ATOM   5564  OD1 ASP C  16     187.142 173.242 160.216  0.59  1.07           O 0
+ATOM   5563   CG ASP C  16     188.376 173.063 160.170  0.00  0.00           C 0
+TER
+END

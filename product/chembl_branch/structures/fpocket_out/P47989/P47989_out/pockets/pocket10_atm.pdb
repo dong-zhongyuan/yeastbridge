@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : 0.1040
+HEADER 1  - Drug Score                        : 0.0028
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.5345
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3684
+HEADER 5  - Mean B-factor of pocket residues  : 0.0763
+HEADER 6  - Hydrophobicity Score              : 33.6250
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.6250
+HEADER 9  - Pocket volume (Monte Carlo)       : 99.0354
+HEADER 10 - Pocket volume (convex hull)       : 0.9599
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.7895
+ATOM    832   SG CYS A 113      39.520  10.941 161.582  0.00  0.00           S 0
+ATOM   5560   CB LEU A 745      37.775  12.565 166.102  0.00  0.00           C 0
+ATOM   1120   SG CYS A 150      36.332  10.359 159.861  0.00  0.00           S 0
+ATOM   5563  CD2 LEU A 745      35.328  12.056 166.298  0.00  0.00           C 0
+ATOM   5561   CG LEU A 745      36.712  11.809 166.898  0.00  0.00           C 0
+ATOM   1119   CB CYS A 150      35.299   9.020 159.260  0.00  0.00           C 0
+ATOM    827    N CYS A 113      39.696   8.661 158.967  0.00  0.00           N 0
+ATOM   1103   SG CYS A 148      34.477   6.713 162.903  0.00  0.00           S 0
+ATOM    818    N GLN A 112      38.945   5.546 158.892  0.48  2.19           N 0
+ATOM    852   CB CYS A 116      37.803   7.700 166.551  0.00  0.00           C 0
+ATOM   5556    N LEU A 745      36.850  14.485 164.883  0.72  3.28           N 0
+ATOM   1108   CB ARG A 149      32.890  12.086 163.003  0.00  0.00           C 0
+ATOM    833    N GLY A 114      41.109   8.020 161.118  0.67  2.19           N 0
+ATOM    853   SG CYS A 116      37.312   6.448 165.336  0.00  0.00           S 0
+ATOM   1104    N ARG A 149      33.217   9.751 163.597  0.00  0.00           N 0
+TER
+END

@@ -1,0 +1,44 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : 0.0250
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    29
+HEADER 3  - Mean alpha-sphere radius          : 3.9531
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5349
+HEADER 5  - Mean B-factor of pocket residues  : 0.1892
+HEADER 6  - Hydrophobicity Score              : -24.1000
+HEADER 7  - Polarity Score                    :    10
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 309.1121
+HEADER 10 - Pocket volume (convex hull)       : 20.6917
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.0690
+ATOM   2335   CB GLU H  91      28.119   1.475  -5.226  0.00  0.00           C 0
+ATOM   2321   CD ARG H  89      23.530   4.129  -7.317  0.00  0.00           C 0
+ATOM   2336   CG GLU H  91      27.050   0.542  -4.661  0.00  0.00           C 0
+ATOM   2338  OE1 GLU H  91      25.531   2.378  -4.716  0.00  0.00           O 0
+ATOM   2130    O SER H  65      27.083   4.099 -12.761  0.51  2.14           O 0
+ATOM   2162  NH1 ARG H  69      25.662   6.161 -10.708  0.64  1.09           N 0
+ATOM   2346  OD1 ASP H  92      28.585   5.798  -8.213  0.72  4.29           O 0
+ATOM   2131   CB SER H  65      27.747   1.569 -13.447  0.00  0.00           C 0
+ATOM   2322   NE ARG H  89      22.832   4.325  -8.605  0.00  0.00           N 0
+ATOM   2325  NH2 ARG H  89      21.369   5.346 -10.050  0.54  7.66           N 0
+ATOM   2121    O GLU H  64      25.579   3.466 -16.641  0.00  0.00           O 0
+ATOM   2129    C SER H  65      26.927   3.796 -13.940  0.00  0.00           C 0
+ATOM   2143    O LYS H  67      23.229   7.304 -15.908  0.00  0.00           O 0
+ATOM   1913  NH1 ARG H  38      31.717   3.290 -10.479  0.00  0.00           N 0
+ATOM   1954   NZ LYS H  43      30.356  -3.251 -10.622  0.71  6.56           N 0
+ATOM   1975  OE2 GLU H  46      32.512   0.680 -11.456  0.35  4.29           O 0
+ATOM   2334    O GLU H  91      30.599   2.834  -5.770  0.68  4.29           O 0
+ATOM   2159   CD ARG H  69      23.282   7.469 -11.520  0.00  0.00           C 0
+ATOM   1974  OE1 GLU H  46      33.265   1.215  -9.457  0.00  0.00           O 0
+ATOM   1951   CG LYS H  43      32.642  -2.400  -8.532  0.00  0.00           C 0
+ATOM   2128   CA SER H  65      26.737   2.332 -14.305  0.00  0.00           C 0
+ATOM   1914  NH2 ARG H  38      30.835   5.184  -9.522  0.42  1.09           N 0
+TER
+END

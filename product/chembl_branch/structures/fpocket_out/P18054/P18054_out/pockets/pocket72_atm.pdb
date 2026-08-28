@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    72:
+HEADER 0  - Pocket Score                      : -0.1169
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9984
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5203
+HEADER 5  - Mean B-factor of pocket residues  : 0.2772
+HEADER 6  - Hydrophobicity Score              : -1.4000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 216.1378
+HEADER 10 - Pocket volume (convex hull)       : 3.4248
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM  10371   NZ LYS C 633     162.573 105.754 121.277  0.29  9.84           N 0
+ATOM  10369   CD LYS C 633     162.250 107.350 119.392  0.00  0.00           C 0
+ATOM   9030  NH2 ARG C 466     164.928 108.567 123.223  0.44  2.19           N 0
+ATOM  10370   CE LYS C 633     162.266 105.895 119.828  0.00  0.00           C 0
+ATOM   9067  CG1 ILE C 470     167.661 111.955 121.323  0.00  0.00           C 0
+ATOM   9029  NH1 ARG C 466     167.159 109.017 123.464  0.43  5.47           N 0
+ATOM   9092  NH1 ARG C 473     169.283 109.878 118.320  0.55  2.19           N 0
+ATOM   9028   CZ ARG C 466     166.041 108.501 123.947  0.00  0.00           C 0
+ATOM  10344  OD1 ASP C 630     165.426 110.237 116.309  0.54  4.29           O 0
+ATOM   9093  NH2 ARG C 473     170.407 107.957 118.854  0.50  8.75           N 0
+ATOM   9091   CZ ARG C 473     170.142 108.929 117.986  0.00  0.00           C 0
+ATOM  10342   CB ASP C 630     165.688 111.969 117.914  0.00  0.00           C 0
+ATOM  10341    O ASP C 630     163.492 112.073 120.266  0.00  0.00           O 0
+TER
+END

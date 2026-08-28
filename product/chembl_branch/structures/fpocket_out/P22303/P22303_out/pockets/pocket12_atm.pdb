@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    12:
+HEADER 0  - Pocket Score                      : 0.0308
+HEADER 1  - Drug Score                        : 0.0013
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 3.6970
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5268
+HEADER 5  - Mean B-factor of pocket residues  : 0.1426
+HEADER 6  - Hydrophobicity Score              : 43.1429
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 100.1946
+HEADER 10 - Pocket volume (convex hull)       : 1.7513
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.5217
+ATOM   8248   CB PHE B 535      -6.659 -49.716  -2.155  0.00  0.00           C 0
+ATOM   8235    C ARG B 534      -8.950 -51.292  -4.488  0.00  0.00           C 0
+ATOM   8245   CA PHE B 535      -7.524 -49.673  -3.412  0.00  0.00           C 0
+ATOM   8244    N PHE B 535      -7.763 -51.014  -3.959  0.00  0.00           N 0
+ATOM   8237   CB ARG B 534      -9.583 -53.569  -3.663  0.00  0.00           C 0
+ATOM   2813  OE1 GLU A 376     -12.914 -49.392   0.681  0.56  8.57           O 0
+ATOM   2809    O GLU A 376      -9.241 -49.152   2.643  0.50  1.07           O 0
+ATOM   8250  CD1 PHE B 535      -7.367 -47.593  -0.993  0.00  0.00           C 0
+ATOM   2838   CB LEU A 380      -6.618 -51.446   1.943  0.00  0.00           C 0
+ATOM   2840  CD1 LEU A 380      -6.003 -53.128   0.167  0.00  0.00           C 0
+ATOM   8236    O ARG B 534      -9.811 -50.436  -4.619  0.50  1.07           O 0
+ATOM   8278   NZ LYS B 538     -12.853 -49.876  -3.789  0.73  6.56           N 0
+ATOM   2835   CA LEU A 380      -7.303 -52.341   3.008  0.00  0.00           C 0
+ATOM   2834    N LEU A 380      -8.339 -51.601   3.757  0.00  0.00           N 0
+ATOM   2890  CZ2 TRP A 385      -9.444 -55.464   1.515  0.00  0.00           C 0
+ATOM   2832  CG1 VAL A 379     -11.727 -52.464   4.228  0.00  0.00           C 0
+ATOM   2892  CH2 TRP A 385     -10.693 -55.835   1.076  0.00  0.00           C 0
+TER
+END

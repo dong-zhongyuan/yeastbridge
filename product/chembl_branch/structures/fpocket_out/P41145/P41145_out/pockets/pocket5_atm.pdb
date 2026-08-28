@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     5:
+HEADER 0  - Pocket Score                      : 0.0800
+HEADER 1  - Drug Score                        : 0.0014
+HEADER 2  - Number of alpha spheres           :    26
+HEADER 3  - Mean alpha-sphere radius          : 3.6818
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4253
+HEADER 5  - Mean B-factor of pocket residues  : 0.0233
+HEADER 6  - Hydrophobicity Score              : 41.4000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.7000
+HEADER 9  - Pocket volume (Monte Carlo)       : 159.3308
+HEADER 10 - Pocket volume (convex hull)       : 8.4722
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.2308
+ATOM   1639    O ALA R 311     143.133 134.960 139.759  0.56  3.21           O 0
+ATOM   2020   OG SER R 356     139.668 136.032 135.004  0.73  5.36           O 0
+ATOM   1641    N PHE R 312     141.852 136.320 141.013  0.68  1.09           N 0
+ATOM   1642   CA PHE R 312     142.000 137.441 140.089  0.00  0.00           C 0
+ATOM    670  CG2 THR R 155     137.137 140.038 135.903  0.00  0.00           C 0
+ATOM    698  CG2 VAL R 159     136.553 140.728 140.454  0.00  0.00           C 0
+ATOM   1645   CB PHE R 312     141.089 138.594 140.511  0.00  0.00           C 0
+ATOM   1647  CD1 PHE R 312     140.888 140.205 138.592  0.00  0.00           C 0
+ATOM   2048  OD1 ASN R 360     135.915 133.755 139.690  0.66  4.29           O 0
+ATOM   2018    O SER R 356     137.782 133.626 135.518  0.62  2.14           O 0
+ATOM   1619  CG1 VAL R 308     136.222 137.035 142.817  0.00  0.00           C 0
+ATOM   1617    O VAL R 308     139.375 136.445 142.846  0.40  1.07           O 0
+ATOM   2040  CG2 ILE R 359     138.562 131.884 138.360  0.00  0.00           C 0
+ATOM   1638    C ALA R 311     142.460 135.155 140.777  0.00  0.00           C 0
+ATOM   1640   CB ALA R 311     141.011 133.261 141.576  0.00  0.00           C 0
+ATOM   2049  ND2 ASN R 360     134.051 134.994 139.724  0.81  4.37           N 0
+ATOM    289  CD2 LEU R 108     133.355 139.592 137.929  0.00  0.00           C 0
+ATOM    288  CD1 LEU R 108     132.777 138.301 140.000  0.00  0.00           C 0
+ATOM    315  OD1 ASP R 112     134.497 135.637 133.545  0.42  4.29           O 0
+ATOM    316  OD2 ASP R 112     133.188 134.493 134.867  0.53  1.07           O 0
+TER
+END

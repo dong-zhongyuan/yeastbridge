@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : 0.0602
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.6597
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5825
+HEADER 5  - Mean B-factor of pocket residues  : 0.3806
+HEADER 6  - Hydrophobicity Score              : -9.4286
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 148.7139
+HEADER 10 - Pocket volume (convex hull)       : 4.3810
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1500
+ATOM    514    C LYS A 324       5.608  31.470  28.947  0.00  0.00           C 0
+ATOM    518   CD LYS A 324       4.191  27.296  28.214  0.00  0.00           C 0
+ATOM    521    N LYS A 325       6.826  31.076  29.260  0.81  2.19           N 0
+ATOM    517   CG LYS A 324       4.709  28.345  29.184  0.00  0.00           C 0
+ATOM    515    O LYS A 324       5.370  32.281  28.049  0.59  8.57           O 0
+ATOM   1545    O ALA A 452       6.957  34.203  22.088  0.00  0.00           O 0
+ATOM    522   CA LYS A 325       8.002  31.616  28.621  0.00  0.00           C 0
+ATOM   1502  NE2 GLN A 446       9.021  35.804  24.596  0.50  4.37           N 0
+ATOM    530    N SER A 326       9.659  30.461  27.314  0.70  1.09           N 0
+ATOM    523    C LYS A 325       8.960  30.461  28.440  0.00  0.00           C 0
+ATOM    534   CB SER A 326      10.406  28.397  26.138  0.00  0.00           C 0
+ATOM    535   OG SER A 326      10.150  28.885  24.839  0.71  7.50           O 0
+ATOM   1549    C GLY A 453      10.026  33.107  21.810  0.00  0.00           C 0
+ATOM   1548   CA GLY A 453       9.069  33.111  20.623  0.00  0.00           C 0
+ATOM   1557   CD PRO A 454      10.885  30.883  21.024  0.00  0.00           C 0
+ATOM   1551    N PRO A 454      10.823  32.037  21.939  0.00  0.00           N 0
+ATOM   1550    O GLY A 453      10.072  34.058  22.617  0.00  0.00           O 0
+TER
+END

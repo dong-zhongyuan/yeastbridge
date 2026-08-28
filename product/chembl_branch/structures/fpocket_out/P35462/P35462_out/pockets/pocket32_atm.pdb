@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    32:
+HEADER 0  - Pocket Score                      : -0.0529
+HEADER 1  - Drug Score                        : 0.0016
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.9708
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5566
+HEADER 5  - Mean B-factor of pocket residues  : 0.8137
+HEADER 6  - Hydrophobicity Score              : 56.6667
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 229.1820
+HEADER 10 - Pocket volume (convex hull)       : 6.3548
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 15.0000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 0.8421
+ATOM   8419   CB CYS R 358      94.622 140.628 117.720  0.00  0.00           C 0
+ATOM   8431    N VAL R 360      90.636 139.434 118.420  0.00  0.00           N 0
+ATOM   8421    N HIS R 359      91.788 141.942 118.090  0.68  4.37           N 0
+ATOM   8420   SG CYS R 358      95.823 140.622 116.368  0.00  0.00           S 0
+ATOM   8366  CD1 LEU R 351      95.483 136.915 112.829  0.00  0.00           C 0
+ATOM   8364   CB LEU R 351      96.265 136.288 115.127  0.00  0.00           C 0
+ATOM   8341  OG1 THR R 348      91.699 132.561 112.788  0.38  7.50           O 0
+ATOM   8467  CD2 LEU R 364      88.819 133.811 114.010  0.00  0.00           C 0
+ATOM   8342  CG2 THR R 348      91.624 132.631 115.202  0.00  0.00           C 0
+ATOM   8466  CD1 LEU R 364      87.650 135.935 113.427  0.00  0.00           C 0
+ATOM   8337   CA THR R 348      93.814 132.661 113.965  0.00  0.00           C 0
+ATOM   8437  CG2 VAL R 360      90.773 135.688 117.806  0.00  0.00           C 0
+ATOM   8424    O HIS R 359      88.593 140.366 118.244  0.34  4.29           O 0
+ATOM   8423    C HIS R 359      89.812 140.485 118.406  0.00  0.00           C 0
+ATOM   8435   CB VAL R 360      91.277 137.067 118.228  0.00  0.00           C 0
+ATOM   8432   CA VAL R 360      90.122 138.083 118.243  0.00  0.00           C 0
+TER
+END

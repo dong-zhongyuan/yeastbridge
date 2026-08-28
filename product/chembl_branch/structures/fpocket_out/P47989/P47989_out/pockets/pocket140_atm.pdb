@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   140:
+HEADER 0  - Pocket Score                      : -0.0807
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.2759
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6093
+HEADER 5  - Mean B-factor of pocket residues  : 0.1263
+HEADER 6  - Hydrophobicity Score              : 20.5714
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 262.0024
+HEADER 10 - Pocket volume (convex hull)       : 2.3431
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0625
+ATOM   9949  OG1 THR A1315      -0.004  15.761 173.125  0.00  0.00           O 0
+ATOM   9915  CG2 VAL A1311      -0.165  16.721 169.022  0.00  0.00           C 0
+ATOM   9948   CB THR A1315       1.099  16.030 174.003  0.00  0.00           C 0
+ATOM   9893    O ASN A1308       3.265  16.884 169.486  0.51  5.36           O 0
+ATOM   3713  OD2 ASP A 506       4.034  22.761 175.087  0.00  0.00           O 0
+ATOM   9969    O CYS A1318       2.090  20.075 176.483  0.68  2.14           O 0
+ATOM   9976   CB VAL A1319       0.428  22.670 175.703  0.00  0.00           C 0
+ATOM   9896  OD1 ASN A1308       6.239  17.703 173.098  0.87  1.07           O 0
+ATOM   9947    O THR A1315      -0.121  18.247 175.860  0.45  3.21           O 0
+ATOM   9914  CG1 VAL A1311      -2.232  16.068 170.286  0.00  0.00           C 0
+ATOM   9894   CB ASN A1308       6.031  17.993 170.718  0.00  0.00           C 0
+ATOM   9952   CA THR A1316      -2.836  17.604 175.693  0.00  0.00           C 0
+ATOM   9977  CG1 VAL A1319      -0.931  22.289 176.262  0.00  0.00           C 0
+ATOM   9895   CG ASN A1308       6.636  18.294 172.090  0.00  0.00           C 0
+ATOM   9897  ND2 ASN A1308       7.587  19.221 172.134  0.58  7.66           N 0
+TER
+END

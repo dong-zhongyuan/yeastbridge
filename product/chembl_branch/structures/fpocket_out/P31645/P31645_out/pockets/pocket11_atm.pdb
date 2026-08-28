@@ -1,0 +1,43 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : -0.0227
+HEADER 1  - Drug Score                        : 0.0030
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 4.0528
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7717
+HEADER 5  - Mean B-factor of pocket residues  : 0.2085
+HEADER 6  - Hydrophobicity Score              : 41.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 314.9315
+HEADER 10 - Pocket volume (convex hull)       : 12.6050
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.5417
+ATOM   1761   CB VAL A 297     -51.667 -43.899   5.993  0.00  0.00           C 0
+ATOM   1731    O SER A 293     -48.619 -41.931   5.519  0.00  0.00           O 0
+ATOM   1735   CA VAL A 294     -47.392 -42.099   8.005  0.00  0.00           C 0
+ATOM   1763  CG2 VAL A 297     -51.057 -44.121   4.618  0.00  0.00           C 0
+ATOM   1733   OG SER A 293     -46.667 -43.232   3.385  0.44  8.57           O 0
+ATOM   1789  OG1 THR A 301     -56.283 -43.079   9.892  0.75  2.14           O 0
+ATOM   1760    O VAL A 297     -54.160 -42.890   7.623  0.59  1.07           O 0
+ATOM   1762  CG1 VAL A 297     -52.631 -45.021   6.344  0.00  0.00           C 0
+ATOM   1790  CG2 THR A 301     -56.883 -44.592   8.111  0.00  0.00           C 0
+ATOM   1737    O VAL A 294     -49.569 -41.537   8.843  0.57  2.14           O 0
+ATOM   1739  CG1 VAL A 294     -47.016 -42.761  10.397  0.00  0.00           C 0
+ATOM   2738   CZ PHE A 423     -50.140 -42.678  13.913  0.00  0.00           C 0
+ATOM   2736  CE1 PHE A 423     -49.452 -41.855  13.044  0.00  0.00           C 0
+ATOM   1740  CG2 VAL A 294     -45.314 -43.341   8.665  0.00  0.00           C 0
+ATOM   1768   CB ARG A 298     -51.919 -40.906  10.602  0.00  0.00           C 0
+ATOM   1764    N ARG A 298     -52.411 -41.657   8.313  0.00  0.00           N 0
+ATOM   1765   CA ARG A 298     -52.992 -41.374   9.618  0.00  0.00           C 0
+ATOM   1770   CD ARG A 298     -53.161 -41.365  12.769  0.00  0.00           C 0
+ATOM   1771   NE ARG A 298     -54.560 -41.570  12.400  0.00  0.00           N 0
+ATOM   1773  NH1 ARG A 298     -54.919 -43.194  13.989  0.58  2.19           N 0
+ATOM   1772   CZ ARG A 298     -55.369 -42.441  12.994  0.00  0.00           C 0
+TER
+END
