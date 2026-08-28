@@ -128,7 +128,11 @@ def main():
         for act in (a or {}).get("activities", []):
             at = act.get("action_type")
             if at:
-                acts.append(str(at))
+                # ChEMBL returns nested dict or plain string
+                if isinstance(at, dict):
+                    acts.append(str(at.get("action_type", "")))
+                else:
+                    acts.append(str(at))
         action_cache[key] = acts
         time.sleep(0.2)
         return acts
