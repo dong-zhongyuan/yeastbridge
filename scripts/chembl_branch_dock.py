@@ -111,6 +111,9 @@ def main():
 
     env = dict(os.environ)
     env["CUDA_VISIBLE_DEVICES"] = str(gpu)
+    env["LD_LIBRARY_PATH"] = (
+        "/public/home/mengxl/dzy/envs/gpubuild/lib:"
+        "/usr/local/cuda-12.4/lib64")
     # group by (acc, action_type) for state-aware receptor selection
     lig_of = {}
     for r in pairs.itertuples():
