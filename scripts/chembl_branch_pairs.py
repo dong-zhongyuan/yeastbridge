@@ -54,10 +54,44 @@ def main():
     if cap > 0:
         q = q.groupby("inchikey").head(cap)
 
+    # direction-aware: load CRC intended_direction from vs baseline
+    # (structural attribute of the pipeline, not a post-hoc filter)
+    crc = pd.read_csv(
+        ROOT / cfg["crc_baseline"], sep="\t").fillna("")
+    crc_dir = dict(zip(crc["target_id"], crc["intended_direction"]))
+    crc_eff = dict(zip(crc["target_id"],
+                       crc["state_effect_disease_minus_desired"]))
+
+    # POSITIVE = agonist/activator; NEGATIVE = inhibitor/blocker/antagonist
+    POS_ACTS = {"AGONIST", "ACTIVATOR", "POSITIVE MODULATOR",
+                "PARTIAL AGONIST", "IRREVERSIBLE AGONIST"}
+    NEG_ACTS = {"INHIBITOR", "ANTAGONIST", "BLOCKER", "NEGATIVE MODULATOR",
+                "INVERSE AGONIST", "CHANNEL BLOCKER"}
+
+    def direction_match(action_types, crc_direction):
+        """MATCH/OPPOSITE/no_data based on ChEMBL action_type vs CRC intent."""
+        if not action_types:
+            return "no_data"
+        acts = set(a.upper() for a in action_types if a)
+        has_pos = bool(acts & POS_ACTS)
+        has_neg = bool(acts & NEG_ACTS)
+        if has_pos and has_neg:
+            return "ambiguous"
+        if crc_direction == "activate":
+            return "MATCH" if has_pos else "OPPOSITE"
+        if crc_direction == "inhibit":
+            return "MATCH" if has_neg else "OPPOSITE"
+        return "no_crc"
+
     reg = pd.read_csv(ROOT / cfg["ligand_registry"], sep="\t").fillna("")
     reg = reg.drop_duplicates("lid", keep="last")
     ready = set(reg.loc[reg["status"] == "ok", "lid"])
     base = "https://www.ebi.ac.uk/chembl/api/data"
+    # compound -> ChEMBL molecule id (for action_type lookup)
+    cid_of_compound = {}
+    for _, row in ch[ch["molecule_chembl_id"] != ""].iterrows():
+        cid_of_compound.setdefault(str(row["inchikey"]),
+                                    str(row["molecule_chembl_id"]))
 
     rows, accs, orgs, n_noacc, n_nolig, n_nonspecies = [], {}, {}, 0, 0, 0
     tcs = sorted(q["target_chembl_id"].unique())
@@ -80,6 +114,25 @@ def main():
         if j % 25 == 0:
             print(f"  resolved {j}/{len(tcs)}", flush=True)
 
+    # resolve action_type per (compound, target) pair alongside accession
+    # this is done at the data-fetching stage, not as a post-hoc filter
+    action_cache = {}
+
+    def get_actions(mid, tc):
+        key = (mid, tc)
+        if key in action_cache:
+            return action_cache[key]
+        acts = []
+        a = get_json(f"{base}/activity.json?molecule_chembl_id={mid}"
+                     f"&target_chembl_id={tc}&limit=50")
+        for act in (a or {}).get("activities", []):
+            at = act.get("action_type")
+            if at:
+                acts.append(str(at))
+        action_cache[key] = acts
+        time.sleep(0.2)
+        return acts
+
     for r in q.itertuples():
         gene = r.target_gene.split()[0]
         tc = r.target_chembl_id
@@ -91,10 +144,19 @@ def main():
             continue
         lig_ready = r.inchikey in ready
         n_nolig += 0 if lig_ready else 1
+        # direction-aware: fetch action_type at extraction time
+        mid = cid_of_compound.get(r.inchikey, "")
+        actions = get_actions(mid, tc) if mid else []
+        d = crc_dir.get(gene, "")
+        dmatch = direction_match(actions, d)
         rows.append(dict(inchikey=r.inchikey, target_gene=gene,
                          target_chembl_id=tc, acc=acc,
                          pchembl=float(r.pchembl),
-                         ligand_ready=lig_ready))
+                         ligand_ready=lig_ready,
+                         crc_direction=d,
+                         crc_effect=crc_eff.get(gene, ""),
+                         action_types=";".join(sorted(set(actions))),
+                         direction_match=dmatch))
 
     res = ROOT / cfg["results_dir"]
     inp = ROOT / cfg["inputs_dir"]
@@ -112,7 +174,12 @@ def main():
     stats = dict(pairs=len(rows), compounds=len({r['inchikey'] for r in rows}),
                  targets=len(seen), no_protein_accession=n_noacc,
                  pairs_non_human=n_nonspecies,
-                 pairs_ligand_missing=n_nolig)
+                 pairs_ligand_missing=n_nolig,
+                 direction_match_counts={})
+    for r in rows:
+        dm = r.get("direction_match", "no_data")
+        stats["direction_match_counts"][dm] = \
+            stats["direction_match_counts"].get(dm, 0) + 1
     (res / "branch_pairs_stats.json").write_text(json.dumps(stats, indent=2))
     print(json.dumps(stats, indent=2), flush=True)
 

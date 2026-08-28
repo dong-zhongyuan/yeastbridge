@@ -52,6 +52,30 @@ def main():
         ROOT / "product/pd_validation/results/final_pairs_knn.tsv",
         sep="\t")
     knn_of = {(r.inchikey, r.target_gene): r for r in knn.itertuples()}
+    # direction-aware: only MATCH pairs enter delivery (structural rule)
+    at = pd.read_csv(
+        ROOT / "product/pd_validation/results/action_types_with_crc.tsv",
+        sep="\t", dtype=str).fillna("")
+    # delivery csv has candidate ID + inchikey; join via target + direction
+    # rebuild inchikey from previous delivery (stable mapping)
+    prev_csv = ROOT / "product/delivery/v1/summary_candidates.csv"
+    if prev_csv.exists():
+        prev = pd.read_csv(prev_csv, dtype=str)
+        ik_map = dict(zip(prev["靶点名称"] + "|" + prev["ChEMBL实测_pChEMBL"],
+                          prev["化合物InChIKey"]))
+    else:
+        ik_map = {}
+    dmatch_of, acts_of, cdir_of, ceff_of = {}, {}, {}, {}
+    for _, r in at.iterrows():
+        dmatch_of[r["target"]] = r.get("direction_match", "no_data")
+        acts_of[r["target"]] = r.get("clean_actions", "")
+        cdir_of[r["target"]] = r.get("crc_direction", "")
+        ceff_of[r["target"]] = r.get("crc_effect", "")
+    n_before = len(df)
+    df["direction_match"] = df["target_gene"].map(dmatch_of).fillna("no_data")
+    df = df[df["direction_match"] == "MATCH"].reset_index(drop=True)
+    print(f"direction filter: {len(df)}/{n_before} pairs (MATCH only)",
+          flush=True)
 
     em = pd.read_csv(
         ROOT / "product/execute_hiphop/results/exec_matrix.tsv", sep="\t")
@@ -184,6 +208,10 @@ def main():
         row = dict(
             候选ID=cand, 靶点名称=r.target_gene, 靶点Uniprot=r.acc,
             靶点家族=fam_of.get(r.target_gene, ""),
+            CRC方向=cdir_of.get(r.target_gene, ""),
+            CRC状态效应=ceff_of.get(r.target_gene, ""),
+            化合物药理方向=acts_of.get(r.target_gene, ""),
+            方向一致性=r.direction_match,
             主要功能=func_desc,
             化合物InChIKey=r.inchikey,
             化合物ChEMBL_ID=cid_of.get(r.inchikey, ""),
@@ -212,6 +240,9 @@ def main():
 ## 1. 基础信息
 - 候选ID：{cand}
 - 靶点名称：{r.target_gene}（UniProt {r.acc}，{fam_of.get(r.target_gene, '')}；ChEMBL {tchembl_of.get((r.inchikey, r.target_gene), '')}）
+- CRC 方向：{cdir_of.get(r.target_gene, '未知')}（状态效应 {ceff_of.get(r.target_gene, '未知')}）
+- 化合物药理方向：{acts_of.get(r.target_gene, '未记录')}
+- 方向一致性：{r.direction_match}（化合物作用方向与 CRC 恢复方向{'一致' if r.direction_match == 'MATCH' else '不一致或未知'}）
 - 主要功能：{func_desc}
 - 化合物：InChIKey {r.inchikey}；ChEMBL {cid_of.get(r.inchikey, '')}
 
