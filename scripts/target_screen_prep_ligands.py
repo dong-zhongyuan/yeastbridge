@@ -122,6 +122,7 @@ def main():
 
     sig = pd.read_csv(ROOT / cfg["exec_matrix"], sep="\t")
     hits = sorted(set(sig.loc[sig["q"] < cfg["fdr_alpha"], "inchikey"]))
+    smi_of = dict(zip(sig["inchikey"], sig["smiles"].fillna("")))
     print(f"hit compounds: {len(hits)}", flush=True)
 
     jobs = [("hit", ik, ik) for ik in hits]
@@ -155,7 +156,11 @@ def main():
                     continue
                 src_note = "chembl"
                 if not rec.get("molecules"):
-                    smiles, src_note = smiles_fallback(label)
+                    smiles = smi_of.get(label, "")
+                    if smiles:
+                        src_note = "exec_matrix"
+                    else:
+                        smiles, src_note = smiles_fallback(label)
                     if not smiles:
                         w.writerow([lid, label, source, label, "",
                                     "pending_network"
