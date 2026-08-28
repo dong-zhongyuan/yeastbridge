@@ -1,0 +1,46 @@
+{
+  "n_holdout": 5559,
+  "pchembl_range": [
+    4.0,
+    10.7
+  ],
+  "per_model": {
+    "mpnn_cnn_bindingdb_ic50": {
+      "r": 0.069,
+      "rmse": 4.28
+    },
+    "cnn_cnn_bindingdb_ic50": {
+      "r": 0.264,
+      "rmse": 1.39
+    },
+    "morgan_cnn_bindingdb_ic50": {
+      "r": 0.328,
+      "rmse": 1.71
+    }
+  },
+  "ensemble_weighted": {
+    "r": 0.351,
+    "rmse": 1.23
+  },
+  "recalibration": {
+    "slope": 0.721,
+    "intercept": 1.882,
+    "r": 0.351,
+    "rmse": 1.21
+  },
+  "weights": {
+    "mpnn_cnn_bindingdb_ic50": 0.025,
+    "cnn_cnn_bindingdb_ic50": 0.613,
+    "morgan_cnn_bindingdb_ic50": 0.491
+  },
+  "caveat": "holdout shares source DB with DeepPurpose pretrained data; metrics may be mildly optimistic; used for ensemble calibration",
+  "delivered_pairs_calibrated": {
+    "n": 50,
+    "r": 0.199,
+    "mae": 0.68
+  },
+  "delivered_pairs_raw": {
+    "r": 0.06,
+    "mae": 1.2
+  }
+}
