@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    34:
+HEADER 0  - Pocket Score                      : -0.0485
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 3.7808
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4329
+HEADER 5  - Mean B-factor of pocket residues  : 0.1497
+HEADER 6  - Hydrophobicity Score              : 22.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 141.3560
+HEADER 10 - Pocket volume (convex hull)       : 2.5256
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.2609
+ATOM    892  OD1 ASP R 179     164.330 150.345 145.845  0.53  1.07           O 0
+ATOM    893  OD2 ASP R 179     163.567 149.352 147.647  0.44  5.36           O 0
+ATOM   2802  OD1 ASP A 193     159.878 144.475 146.248  0.53  8.57           O 0
+ATOM   2799    O ASP A 193     162.449 143.206 145.651  0.52  4.29           O 0
+ATOM    860    O VAL R 175     166.989 145.864 147.438  0.41  2.14           O 0
+ATOM   2532   CD ARG A  32     164.441 149.968 142.599  0.00  0.00           C 0
+ATOM   2530   CB ARG A  32     165.569 148.161 141.305  0.00  0.00           C 0
+ATOM   2531   CG ARG A  32     165.763 149.460 142.058  0.00  0.00           C 0
+ATOM   2819  CD2 HIS A 195     160.987 144.788 140.865  0.00  0.00           C 0
+ATOM   2529    O ARG A  32     166.805 145.192 140.793  0.62  1.07           O 0
+ATOM    884  CD1 LEU R 178     168.523 145.331 143.834  0.00  0.00           C 0
+ATOM   2535  NH1 ARG A  32     161.747 150.697 142.960  0.50  6.56           N 0
+ATOM   2821  NE2 HIS A 195     159.669 145.022 141.171  0.52  3.28           N 0
+ATOM   2812    N HIS A 195     163.003 141.959 141.379  0.00  0.00           N 0
+ATOM   2810  CD1 LEU A 194     166.275 142.313 143.612  0.00  0.00           C 0
+ATOM    882   CB LEU R 178     168.544 147.569 144.967  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     4:
+HEADER 0  - Pocket Score                      : 0.0166
+HEADER 1  - Drug Score                        : 0.0013
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.0934
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6099
+HEADER 5  - Mean B-factor of pocket residues  : 0.1119
+HEADER 6  - Hydrophobicity Score              : 43.3750
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.3750
+HEADER 9  - Pocket volume (Monte Carlo)       : 380.6935
+HEADER 10 - Pocket volume (convex hull)       : 19.4679
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.3889
+ATOM   1014  CG2 THR H  65     160.115 148.392 120.735  0.00  0.00           C 0
+ATOM  10218   CB SER R 266     161.856 153.231 125.973  0.00  0.00           C 0
+ATOM  10219   OG SER R 266     160.679 152.457 126.125  0.62  9.64           O 0
+ATOM   1012   CB THR H  65     160.930 147.117 120.679  0.00  0.00           C 0
+ATOM   1013  OG1 THR H  65     160.276 146.099 121.447  0.00  0.00           O 0
+ATOM  10280   CG LEU R 270     165.027 159.821 118.728  0.00  0.00           C 0
+ATOM  10258    O PHE R 269     163.520 159.004 123.013  0.41  4.29           O 0
+ATOM  10228    O LEU R 267     160.566 155.368 120.176  0.61  5.36           O 0
+ATOM  10217    O SER R 266     162.261 154.704 123.160  0.00  0.00           O 0
+ATOM  10281  CD1 LEU R 270     163.522 159.711 118.542  0.00  0.00           C 0
+ATOM    923  CD2 TYR H  60     161.015 152.492 117.106  0.00  0.00           C 0
+ATOM    925  CE2 TYR H  60     162.096 152.716 116.284  0.00  0.00           C 0
+ATOM  10226   CA LEU R 267     159.794 154.135 122.079  0.00  0.00           C 0
+ATOM  10232  CD2 LEU R 267     158.809 151.119 122.170  0.00  0.00           C 0
+ATOM    959  OE2 GLU H  62     156.080 148.113 126.288  0.64  9.64           O 1
+ATOM    956   CG GLU H  62     156.022 147.299 124.052  0.00  0.00           C 0
+ATOM    893  OG1 THR H  58     162.299 156.047 116.263  0.31  5.36           O 0
+TER
+END

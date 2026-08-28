@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : 0.0078
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8753
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7101
+HEADER 5  - Mean B-factor of pocket residues  : 0.1088
+HEADER 6  - Hydrophobicity Score              : 60.6000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 169.7690
+HEADER 10 - Pocket volume (convex hull)       : 1.6212
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.6667
+ATOM    403   SG CYS A 112     122.321 120.799 136.093  0.00  0.00           S 0
+ATOM    380   CA SER A 109     126.729 122.847 136.431  0.00  0.00           C 0
+ATOM    376   CG LEU A 108     123.610 124.108 132.544  0.00  0.00           C 0
+ATOM    379    N SER A 109     126.389 123.901 135.481  0.74  1.09           N 0
+ATOM    378  CD2 LEU A 108     123.782 123.564 131.136  0.00  0.00           C 0
+ATOM    383   CB SER A 109     128.183 122.419 136.240  0.00  0.00           C 0
+ATOM   1009  CD1 ILE A 189     130.878 122.000 133.100  0.00  0.00           C 0
+ATOM    343    O TYR A 105     128.322 124.599 133.431  0.60  2.14           O 0
+ATOM    344   CB TYR A 105     129.883 124.696 130.553  0.00  0.00           C 0
+ATOM    375   CB LEU A 108     124.811 124.969 132.935  0.00  0.00           C 0
+ATOM    373    C LEU A 108     125.124 124.302 135.335  0.00  0.00           C 0
+ATOM    374    O LEU A 108     124.188 123.761 135.935  0.00  0.00           O 0
+ATOM    345   CG TYR A 105     129.589 124.521 129.079  0.00  0.00           C 0
+ATOM    346  CD1 TYR A 105     128.408 124.989 128.522  0.00  0.00           C 0
+ATOM    341   CA TYR A 105     128.878 125.568 131.306  0.00  0.00           C 0
+TER
+END

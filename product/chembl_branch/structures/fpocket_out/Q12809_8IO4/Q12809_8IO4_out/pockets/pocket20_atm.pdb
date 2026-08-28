@@ -1,0 +1,45 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    20:
+HEADER 0  - Pocket Score                      : 0.0284
+HEADER 1  - Drug Score                        : 0.0043
+HEADER 2  - Number of alpha spheres           :    38
+HEADER 3  - Mean alpha-sphere radius          : 3.7667
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4602
+HEADER 5  - Mean B-factor of pocket residues  : 0.7759
+HEADER 6  - Hydrophobicity Score              : 38.4000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 233.6078
+HEADER 10 - Pocket volume (convex hull)       : 12.1851
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 17.0000
+HEADER 13 - Number of apolar alpha sphere     :    18
+HEADER 14 - Proportion of apolar alpha sphere : 0.4737
+ATOM  12311  NH2 ARG B 685     192.997 162.969 185.431  0.24  8.75           N 0
+ATOM   2225  ND2 ASN A 709     190.047 167.623 187.369  0.63  4.37           N 0
+ATOM   2223   CG ASN A 709     189.571 168.367 186.378  0.00  0.00           C 0
+ATOM  12277   CB GLU B 682     187.677 161.405 184.477  0.00  0.00           C 0
+ATOM   2222   CB ASN A 709     188.072 168.591 186.361  0.00  0.00           C 0
+ATOM   2237  CD1 ILE A 711     185.012 164.999 187.191  0.00  0.00           C 0
+ATOM  12281  OE2 GLU B 682     185.610 163.950 183.969  0.74  7.50           O 0
+ATOM  12278   CG GLU B 682     186.376 161.963 185.033  0.00  0.00           C 0
+ATOM  12319  CD2 PHE B 686     192.449 164.613 190.240  0.00  0.00           C 0
+ATOM  12316   CB PHE B 686     191.950 162.827 188.551  0.00  0.00           C 0
+ATOM  12317   CG PHE B 686     192.502 164.171 188.929  0.00  0.00           C 0
+ATOM   2224  OD1 ASN A 709     190.293 168.859 185.511  0.00  0.00           O 0
+ATOM  12276    O GLU B 682     189.736 160.992 186.934  0.65  1.07           O 0
+ATOM  12283   CA PHE B 683     187.959 160.594 188.979  0.00  0.00           C 0
+ATOM  12286   CB PHE B 683     186.671 160.484 189.796  0.00  0.00           C 0
+ATOM   2236  CG2 ILE A 711     183.743 165.195 190.015  0.00  0.00           C 0
+ATOM   2252   SD MET A 713     186.551 166.590 193.692  0.00  0.00           S 0
+ATOM  12288  CD1 PHE B 683     187.454 160.862 192.145  0.00  0.00           C 0
+ATOM   2251   CG MET A 713     186.451 165.001 194.537  0.00  0.00           C 0
+ATOM  12331  CE1 HIS B 687     190.247 162.962 192.400  0.00  0.00           C 0
+ATOM   2202    O TYR A 707     190.728 168.002 190.491  0.41  2.14           O 0
+ATOM   2234   CB ILE A 711     184.260 166.373 189.202  0.00  0.00           C 0
+ATOM   2214    O THR A 708     186.938 168.464 189.266  0.20  2.14           O 0
+TER
+END

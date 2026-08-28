@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    33:
+HEADER 0  - Pocket Score                      : -0.0913
+HEADER 1  - Drug Score                        : 0.0018
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.1479
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7283
+HEADER 5  - Mean B-factor of pocket residues  : 0.9641
+HEADER 6  - Hydrophobicity Score              : 7.5000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 320.4460
+HEADER 10 - Pocket volume (convex hull)       : 9.5170
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5556
+ATOM   3059  CD2 HIS A 389     -36.932  21.088   6.591  0.00  0.00           C 0
+ATOM   3032   CG LEU A 385     -36.064  16.546  10.979  0.00  0.00           C 0
+ATOM   3056   CB HIS A 389     -38.186  18.882   6.288  0.00  0.00           C 0
+ATOM   3034  CD2 LEU A 385     -34.633  16.698  11.494  0.00  0.00           C 0
+ATOM   3036   CA SER A 386     -37.221  14.674   6.495  0.00  0.00           C 0
+ATOM   3039    O SER A 386     -38.931  15.487   5.021  0.53  1.07           O 0
+ATOM   3060  ND1 HIS A 389     -37.272  20.515   4.485  0.00  0.00           N 0
+ATOM   3031    O LEU A 385     -38.406  16.214   8.476  0.00  0.00           O 0
+ATOM   3035    N SER A 386     -37.221  14.389   7.936  0.00  0.00           N 0
+ATOM   3058   CG HIS A 389     -37.484  20.122   5.793  0.00  0.00           C 0
+ATOM   3061  CE1 HIS A 389     -36.604  21.680   4.509  0.00  0.00           C 0
+ATOM   3062  NE2 HIS A 389     -36.363  22.061   5.773  0.00  0.00           N 0
+ATOM   3038   CB SER A 386     -36.322  13.684   5.743  0.00  0.00           C 0
+ATOM   3070   NE ARG A 390     -38.414  14.244   1.274  0.69  9.84           N 0
+ATOM   3005    O GLN A 382     -35.297  12.246   8.565  0.59  1.07           O 0
+ATOM   3006   CG GLN A 382     -32.090  11.926   8.813  0.00  0.00           C 0
+ATOM   3068   CG ARG A 390     -39.639  16.342   1.838  0.00  0.00           C 0
+ATOM   3095  OE2 GLU A 393     -38.990  20.327   1.053  0.60  6.43           O 0
+ATOM   3094  OE1 GLU A 393     -37.426  21.738   1.654  0.73  6.43           O 0
+TER
+END

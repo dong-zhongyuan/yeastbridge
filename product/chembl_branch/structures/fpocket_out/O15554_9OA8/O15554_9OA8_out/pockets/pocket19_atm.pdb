@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    19:
+HEADER 0  - Pocket Score                      : 0.0112
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.6651
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3659
+HEADER 5  - Mean B-factor of pocket residues  : 0.3912
+HEADER 6  - Hydrophobicity Score              : 33.8750
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.6250
+HEADER 9  - Pocket volume (Monte Carlo)       : 148.7480
+HEADER 10 - Pocket volume (convex hull)       : 5.4745
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0625
+ATOM   5572  NH2 ARG C  15     183.015 238.876 189.200  0.00  0.00           N 0
+ATOM   6694  NH1 ARG C 180     188.342 237.449 187.480  0.58  2.19           N 0
+ATOM   6695  NH2 ARG C 180     187.684 235.392 186.722  0.24  1.09           N 0
+ATOM  13671    O MET G  76     185.193 236.585 185.687  0.48  1.07           O 0
+ATOM   6783  NH2 ARG C 191     186.779 233.374 193.315  0.54  7.66           N 0
+ATOM   6645  CD2 LEU C 174     188.539 237.773 192.957  0.00  0.00           C 0
+ATOM   6643   CG LEU C 174     189.490 237.844 191.774  0.00  0.00           C 0
+ATOM   5608  CD2 LEU C  19     185.485 241.629 191.532  0.00  0.00           C 0
+ATOM  13689   CB ASP G  78     183.366 232.621 188.661  0.00  0.00           C 0
+ATOM  13685    N ASP G  78     182.730 234.031 186.767  0.00  0.00           N 0
+ATOM   6765    O PHE C 190     190.211 232.344 191.475  0.42  5.36           O 0
+ATOM   6693   CZ ARG C 180     188.584 236.369 186.756  0.00  0.00           C 0
+ATOM  13692  OD2 ASP G  78     185.144 231.210 189.372  0.79  4.29           O 0
+ATOM   6641    O LEU C 174     189.107 240.339 188.586  0.61  1.07           O 0
+TER
+END

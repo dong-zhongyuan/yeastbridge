@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : 0.0221
+HEADER 1  - Drug Score                        : 0.0013
+HEADER 2  - Number of alpha spheres           :    27
+HEADER 3  - Mean alpha-sphere radius          : 3.9181
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4843
+HEADER 5  - Mean B-factor of pocket residues  : 0.3228
+HEADER 6  - Hydrophobicity Score              : 27.1429
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 121.3909
+HEADER 10 - Pocket volume (convex hull)       : 1.8034
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 15.0000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 0.5926
+ATOM   2805   CG LEU B  12     134.561 116.782 129.138  0.00  0.00           C 0
+ATOM  14434  CE2 PHE H  12     131.885 120.633 127.569  0.00  0.00           C 0
+ATOM  14401  OE1 GLN H   8     129.641 117.143 130.573  0.86  1.07           O 0
+ATOM  14435   CZ PHE H  12     133.113 121.174 127.824  0.00  0.00           C 0
+ATOM   2847   CD LYS B  16     129.751 119.318 134.705  0.00  0.00           C 0
+ATOM   2845   CB LYS B  16     131.600 117.634 135.142  0.00  0.00           C 0
+ATOM   3920  CD1 LEU B 175     133.330 121.282 135.815  0.00  0.00           C 0
+ATOM  14926   CE MET H  76     135.991 122.416 129.864  0.00  0.00           C 0
+ATOM   3917    O LEU B 175     133.578 124.193 133.786  0.59  1.07           O 0
+ATOM  14925   SD MET H  76     136.955 122.451 131.360  0.00  0.00           S 0
+ATOM   2803    O LEU B  12     133.377 115.693 131.983  0.00  0.00           O 0
+ATOM   2841    N LYS B  16     133.543 116.174 135.516  0.66  1.09           N 0
+ATOM   2840  NH2 ARG B  15     137.690 119.853 134.799  0.68  1.09           N 0
+ATOM  14424  OE2 GLU H  11     130.054 123.077 131.803  0.47  4.29           O 0
+ATOM  14400   CD GLN H   8     128.904 117.578 131.449  0.00  0.00           C 0
+ATOM   2806  CD1 LEU B  12     135.668 117.487 129.870  0.00  0.00           C 0
+ATOM  14924   CG MET H  76     137.431 120.724 131.439  0.00  0.00           C 0
+TER
+END

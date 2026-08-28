@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    17:
+HEADER 0  - Pocket Score                      : 0.0210
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8509
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5235
+HEADER 5  - Mean B-factor of pocket residues  : 0.9745
+HEADER 6  - Hydrophobicity Score              : 14.8333
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 190.0265
+HEADER 10 - Pocket volume (convex hull)       : 6.2148
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.6667
+ATOM    445   CD LYS A  58      43.103   0.522 -14.165  0.00  0.00           C 0
+ATOM    461  CG1 ILE A  60      43.484   4.488 -10.928  0.00  0.00           C 0
+ATOM    636   CB TYR A  82      39.450   3.480 -15.533  0.00  0.00           C 0
+ATOM    657   OG SER A  84      40.081   5.288 -10.557  0.88  5.36           O 0
+ATOM    463  CD1 ILE A  60      43.785   3.030 -10.561  0.00  0.00           C 0
+ATOM    639  CD1 TYR A  82      37.730   1.642 -15.718  0.00  0.00           C 0
+ATOM    447   NZ LYS A  58      42.112  -1.745 -13.732  0.44  9.84           N 0
+ATOM    446   CE LYS A  58      42.284  -0.652 -14.722  0.00  0.00           C 0
+ATOM    655   CB SER A  84      38.737   5.702 -10.607  0.00  0.00           C 0
+ATOM    864  NH1 ARG A 109      34.435   1.079  -8.456  0.00  0.00           N 0
+ATOM    846  OE1 GLU A 107      34.281   2.321 -12.691  0.54  6.43           O 0
+ATOM    862   CD ARG A 109      33.880   3.645  -9.607  0.00  0.00           C 0
+ATOM    638   CG TYR A  82      38.985   2.152 -16.096  0.00  0.00           C 0
+ATOM    844   CG GLU A 107      33.971   3.596 -14.692  0.00  0.00           C 0
+ATOM    843    O GLU A 107      36.025   6.322 -15.942  0.00  0.00           O 0
+TER
+END

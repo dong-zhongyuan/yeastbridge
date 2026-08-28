@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   102:
+HEADER 0  - Pocket Score                      : -0.1311
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.8840
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5224
+HEADER 5  - Mean B-factor of pocket residues  : 0.0906
+HEADER 6  - Hydrophobicity Score              : 13.5714
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 192.6440
+HEADER 10 - Pocket volume (convex hull)       : 5.1386
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.4706
+ATOM   4264  CG2 ILE B 305     220.175 245.954 185.888  0.00  0.00           C 0
+ATOM   4293  CG2 THR B 308     225.441 245.050 183.422  0.00  0.00           C 0
+ATOM   4263  CG1 ILE B 305     219.157 243.900 184.914  0.00  0.00           C 0
+ATOM  11989   NZ LYS G  21     220.150 245.407 177.997  0.00  0.00           N 0
+ATOM   4265  CD1 ILE B 305     217.744 244.396 184.798  0.00  0.00           C 0
+ATOM  11931  OE2 GLU G  14     217.782 249.859 184.326  0.50  7.50           O 0
+ATOM   4292  OG1 THR B 308     224.720 242.860 184.087  0.00  0.00           O 0
+ATOM   4257  OD2 ASP B 304     221.835 240.322 183.210  0.00  0.00           O 0
+ATOM  11960  CD1 LEU G  18     215.580 244.819 181.480  0.00  0.00           C 0
+ATOM   4291   CB THR B 308     224.975 244.183 184.572  0.00  0.00           C 0
+ATOM   4259   CA ILE B 305     221.240 243.724 186.297  0.00  0.00           C 0
+ATOM  11955   CA LEU G  18     215.334 247.509 179.877  0.00  0.00           C 0
+ATOM  11958   CB LEU G  18     214.699 247.152 181.223  0.00  0.00           C 0
+ATOM  11953   OG SER G  17     218.002 251.289 178.451  0.00  0.00           O 0
+ATOM  11951    O SER G  17     216.557 248.837 177.818  0.42  2.14           O 0
+ATOM  11954    N LEU G  18     215.277 248.952 179.667  0.63  1.09           N 0
+TER
+END

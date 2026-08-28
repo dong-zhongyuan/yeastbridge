@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    80:
+HEADER 0  - Pocket Score                      : -0.0856
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 4.0590
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6703
+HEADER 5  - Mean B-factor of pocket residues  : 0.1001
+HEADER 6  - Hydrophobicity Score              : 13.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 174.2938
+HEADER 10 - Pocket volume (convex hull)       : 2.8238
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.1600
+ATOM   4979  CD1 LEU A 657     137.635 126.586 174.023  0.00  0.00           C 0
+ATOM   2447  CE2 TYR A 348     136.446 126.308 169.870  0.00  0.00           C 0
+ATOM   4978   CG LEU A 657     137.887 127.885 173.291  0.00  0.00           C 0
+ATOM   4973    N LEU A 657     139.959 129.440 171.676  0.57  3.28           N 0
+ATOM   4966    N THR A 656     141.529 129.004 169.350  0.56  1.09           N 0
+ATOM   4970   CB THR A 656     139.182 129.109 168.661  0.00  0.00           C 0
+ATOM   2449   OH TYR A 348     137.144 125.670 167.682  0.00  3.21           O 0
+ATOM   4952    O GLU A 653     141.238 127.194 166.586  0.45  2.14           O 0
+ATOM   4962    N GLY A 655     143.789 127.413 168.919  0.43  6.56           N 0
+ATOM   4977   CB LEU A 657     139.155 128.552 173.809  0.00  0.00           C 0
+ATOM   5014   CA ASN A 662     141.915 126.810 176.491  0.00  0.00           C 0
+ATOM   5016    O ASN A 662     143.042 124.713 176.528  0.30  4.29           O 0
+ATOM   3038   NZ LYS A 420     145.817 125.982 172.690  0.31  6.56           N 1
+ATOM   5017   CB ASN A 662     143.035 127.589 175.796  0.00  0.00           C 0
+ATOM   4963   CA GLY A 655     143.881 128.547 169.817  0.00  0.00           C 0
+ATOM   4976    O LEU A 657     141.823 129.974 173.785  0.63  2.14           O 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : -0.0037
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.1294
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7608
+HEADER 5  - Mean B-factor of pocket residues  : 0.5953
+HEADER 6  - Hydrophobicity Score              : 9.8333
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 230.7598
+HEADER 10 - Pocket volume (convex hull)       : 3.1283
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.4000
+ATOM   3006  OG1 THR A 463      38.825 -19.251  73.799  0.69  2.14           O 0
+ATOM   2999    O LYS A 462      34.146 -19.509  74.290  0.00  0.00           O 0
+ATOM   2998    C LYS A 462      34.883 -19.414  73.305  0.00  0.00           C 0
+ATOM   3000   CB LYS A 462      34.835 -21.289  71.642  0.00  0.00           C 0
+ATOM   3001    N THR A 463      36.119 -18.929  73.368  0.00  0.00           N 0
+ATOM    305  ND2 ASN A  60      41.273 -21.541  74.412  0.00  0.00           N 0
+ATOM   3007  CG2 THR A 463      38.820 -18.040  75.881  0.00  0.00           C 0
+ATOM   3028   CB HIS A 466      34.075 -19.817  77.671  0.00  0.00           C 0
+ATOM   3002   CA THR A 463      36.684 -18.449  74.622  0.00  0.00           C 0
+ATOM   2972    O THR A 459      38.301 -19.524  71.541  0.00  0.00           O 0
+ATOM   2975  CG2 THR A 459      40.750 -21.666  71.025  0.00  0.00           C 0
+ATOM    303   CG ASN A  60      42.091 -21.684  75.449  0.00  0.00           C 0
+ATOM    302   CB ASN A  60      42.359 -20.434  76.271  0.00  0.00           C 0
+ATOM    296  CG1 VAL A  59      40.405 -19.259  81.413  0.00  0.00           C 0
+ATOM    298    N ASN A  60      42.878 -19.573  78.508  0.00  0.00           N 0
+ATOM    299   CA ASN A  60      42.962 -20.744  77.643  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    21:
+HEADER 0  - Pocket Score                      : -0.0445
+HEADER 1  - Drug Score                        : 0.0008
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.7046
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5170
+HEADER 5  - Mean B-factor of pocket residues  : 0.2583
+HEADER 6  - Hydrophobicity Score              : 19.5000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 123.3356
+HEADER 10 - Pocket volume (convex hull)       : 0.3940
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.6667
+ATOM    347    O GLY A  53     160.792 152.601 146.675  0.56  2.14           O 0
+ATOM   2540   CB LEU B  23     164.307 149.612 145.870  0.00  0.00           C 0
+ATOM    345   CA GLY A  53     158.616 151.626 146.697  0.00  0.00           C 0
+ATOM   2543  CD2 LEU B  23     162.680 150.524 144.205  0.00  0.00           C 0
+ATOM   2518   CB GLU B  20     160.828 145.227 146.334  0.00  0.00           C 0
+ATOM    614   CE LYS A  89     159.114 147.127 143.797  0.00  0.00           C 0
+ATOM   2515   CA GLU B  20     162.186 145.739 145.856  0.00  0.00           C 0
+ATOM    615   NZ LYS A  89     157.901 147.152 144.657  0.46  4.37           N 0
+ATOM   2517    O GLU B  20     163.518 146.612 147.656  0.64  4.29           O 0
+ATOM   2544    N LYS B  24     165.272 148.803 148.752  0.67  1.09           N 0
+ATOM   2548   CB LYS B  24     164.760 148.049 151.036  0.00  0.00           C 0
+ATOM    365  CD2 LEU A  55     162.329 153.542 150.391  0.00  0.00           C 0
+ATOM   2545   CA LYS B  24     165.507 149.075 150.190  0.00  0.00           C 0
+TER
+END

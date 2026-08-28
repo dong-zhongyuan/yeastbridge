@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    22:
+HEADER 0  - Pocket Score                      : -0.1084
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9444
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7036
+HEADER 5  - Mean B-factor of pocket residues  : 0.2929
+HEADER 6  - Hydrophobicity Score              : 4.1667
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 238.0773
+HEADER 10 - Pocket volume (convex hull)       : 7.0839
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2353
+ATOM   2065   CA ARG B 223     141.027 181.636 154.016  0.00  0.00           C 0
+ATOM   2068   CB ARG B 223     140.347 181.799 155.375  0.00  0.00           C 0
+ATOM   2069   CG ARG B 223     139.015 182.524 155.329  0.00  0.00           C 0
+ATOM   2070   CD ARG B 223     138.055 181.994 156.385  0.00  0.00           C 0
+ATOM   2073  NH1 ARG B 223     138.764 179.573 157.698  0.00  0.00           N 1
+ATOM   2098  CG2 VAL B 226     141.213 179.866 149.054  0.00  0.00           C 0
+ATOM   2061    O SER B 222     142.530 180.723 151.912  0.51  1.07           O 0
+ATOM   2096   CB VAL B 226     140.422 181.146 149.267  0.00  0.00           C 0
+ATOM   2063   OG SER B 222     142.838 177.787 154.596  0.54  7.50           O 0
+ATOM   2062   CB SER B 222     143.565 177.973 153.394  0.00  0.00           C 0
+ATOM   2064    N ARG B 223     142.154 180.717 154.133  0.00  0.00           N 0
+ATOM   2060    C SER B 222     142.839 180.346 153.049  0.00  0.00           C 0
+ATOM   2142   CG ARG B 396     138.302 171.861 150.188  0.00  0.00           C 0
+ATOM   2136  OE2 GLU B 395     142.255 173.962 149.029  0.46  8.57           O 1
+ATOM   2135  OE1 GLU B 395     143.754 174.505 150.530  0.79  6.43           O 0
+ATOM   2170  CG2 THR B 399     142.424 171.318 154.425  0.00  0.00           C 0
+ATOM   2168   CB THR B 399     142.925 170.883 153.055  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : -0.0589
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.7410
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4456
+HEADER 5  - Mean B-factor of pocket residues  : 0.3258
+HEADER 6  - Hydrophobicity Score              : 35.6667
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 170.1398
+HEADER 10 - Pocket volume (convex hull)       : 1.7241
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.4118
+ATOM   1543   CB ASN A1011     -43.219 -11.755  87.384  0.00  0.00           C 0
+ATOM   1540   CA ASN A1011     -43.178 -10.490  86.540  0.00  0.00           C 0
+ATOM   1569  CD1 LEU A1014     -39.971  -9.222  84.033  0.00  0.00           C 0
+ATOM   1545  OD1 ASN A1011     -42.426 -13.040  85.543  0.70  5.36           O 0
+ATOM   1509  NE1 TRP A1007     -39.570 -13.208  90.869  0.69  4.37           N 0
+ATOM   1997  OD1 ASN A1099     -35.633 -13.270  88.082  0.51  5.36           O 0
+ATOM   1512  CZ2 TRP A1007     -41.289 -14.918  90.219  0.00  0.00           C 0
+ATOM   1989  CG2 ILE A1098     -36.986  -8.694  88.479  0.00  0.00           C 0
+ATOM   1965   CG LYS A1095     -36.934 -11.798  83.102  0.00  0.00           C 0
+ATOM   1539    N ASN A1011     -42.996  -9.274  87.367  0.00  0.00           N 0
+ATOM   1967   CE LYS A1095     -39.185 -13.004  83.021  0.00  0.00           C 0
+ATOM   1504    O TRP A1007     -42.778  -9.778  90.107  0.54  1.07           O 0
+ATOM   1507  CD1 TRP A1007     -39.594 -12.061  91.615  0.00  0.00           C 0
+TER
+END

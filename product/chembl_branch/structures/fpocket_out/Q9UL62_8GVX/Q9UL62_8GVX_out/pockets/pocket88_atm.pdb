@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    88:
+HEADER 0  - Pocket Score                      : -0.0461
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9001
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5336
+HEADER 5  - Mean B-factor of pocket residues  : 0.4553
+HEADER 6  - Hydrophobicity Score              : 9.5714
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 287.9206
+HEADER 10 - Pocket volume (convex hull)       : 17.7818
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1875
+ATOM  15558  NE2 GLN A  21     213.621 158.676 150.627  0.00  0.00           N 0
+ATOM  15539   CB PRO A  19     215.870 165.824 151.835  0.00  0.00           C 0
+ATOM  15556   CD GLN A  21     213.572 159.763 149.865  0.00  0.00           C 0
+ATOM  15538    O PRO A  19     213.037 165.480 153.239  0.54  4.29           O 0
+ATOM  15540   CG PRO A  19     216.956 166.223 152.804  0.00  0.00           C 0
+ATOM  15541   CD PRO A  19     216.238 166.754 153.997  0.00  0.00           C 0
+ATOM  15557  OE1 GLN A  21     214.501 160.100 149.131  0.00  0.00           O 0
+ATOM  15545    O LEU A  20     211.758 164.964 148.677  0.62  3.21           O 0
+ATOM  15554   CB GLN A  21     212.113 161.489 148.733  0.00  0.00           C 0
+ATOM  15555   CG GLN A  21     212.301 160.585 149.941  0.00  0.00           C 0
+ATOM   1559  OE1 GLU B 214     211.331 157.868 156.343  0.67  3.21           O 0
+ATOM  15572  CG1 VAL A  23     209.246 158.302 152.537  0.00  0.00           C 0
+ATOM   1183  NH2 ARG B 165     212.456 164.315 146.158  0.53  2.19           N 0
+ATOM   1180   NE ARG B 165     214.310 165.100 145.065  0.69  6.56           N 0
+ATOM   1543    O SER B 212     208.810 161.843 154.684  0.33  5.36           O 0
+ATOM  15550    N GLN A  21     210.870 163.280 149.893  0.00  0.00           N 0
+TER
+END

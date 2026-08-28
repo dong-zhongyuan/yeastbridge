@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : -0.0465
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0222
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6504
+HEADER 5  - Mean B-factor of pocket residues  : 0.3418
+HEADER 6  - Hydrophobicity Score              : -2.1250
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 310.0255
+HEADER 10 - Pocket volume (convex hull)       : 9.6072
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3125
+ATOM   5288  NH1 ARG D  32      12.239 -23.266  -5.057  0.00  0.00           N 0
+ATOM   5434    N GLY D  56      12.325 -16.852  -2.824  0.00  0.00           N 0
+ATOM   5433   OG SER D  55      10.854 -19.828  -4.506  0.12  6.43           O 0
+ATOM   5435   CA GLY D  56      12.563 -16.634  -1.417  0.00  0.00           C 0
+ATOM   1464   CB ARG A 257      17.197 -19.736 -10.262  0.00  0.00           C 0
+ATOM   5289  NH2 ARG D  32      12.715 -22.450  -7.156  0.32  3.28           N 0
+ATOM   5304  CD1 TYR D  34      13.976 -20.973 -10.324  0.00  0.00           C 0
+ATOM   1450    O SER A 255      15.965 -23.516  -7.181  0.00  0.00           O 0
+ATOM   1466   CD ARG A 257      17.187 -17.325 -10.728  0.00  0.00           C 0
+ATOM   1467   NE ARG A 257      18.143 -16.508 -11.438  0.57  4.37           N 0
+ATOM   5317  OD2 ASP D  35      14.990 -13.314 -10.050  0.00  0.00           O 0
+ATOM   5427  CG2 THR D  54      14.963 -13.490  -6.081  0.00  0.00           C 0
+ATOM   5425   CB THR D  54      13.938 -14.438  -5.468  0.00  0.00           C 0
+ATOM   5432   CB SER D  55      11.526 -18.815  -5.226  0.00  0.00           C 0
+ATOM   5428    N SER D  55      11.806 -16.410  -5.504  0.00  0.00           N 0
+ATOM   5301    O TYR D  34      12.057 -16.705  -8.578  0.00  0.00           O 0
+ATOM   5316  OD1 ASP D  35      13.854 -14.913  -9.016  0.67  1.07           O 1
+TER
+END

@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    19:
+HEADER 0  - Pocket Score                      : 0.0152
+HEADER 1  - Drug Score                        : 0.0014
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.8182
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4857
+HEADER 5  - Mean B-factor of pocket residues  : 0.4802
+HEADER 6  - Hydrophobicity Score              : -9.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.7000
+HEADER 9  - Pocket volume (Monte Carlo)       : 284.4620
+HEADER 10 - Pocket volume (convex hull)       : 17.5554
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 7.5556
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.4091
+ATOM   4140    O GLY C  41     135.318  95.612 147.496  0.00  0.00           O 0
+ATOM   4146   CG ARG C  42     137.510  99.680 145.991  0.00  0.00           C 0
+ATOM   4147   CD ARG C  42     138.565 100.284 146.904  0.00  0.00           C 0
+ATOM   4145   CB ARG C  42     137.662  98.172 145.905  0.00  0.00           C 0
+ATOM   4130    N VAL C  40     133.552  91.341 148.123  0.00  0.00           N 0
+ATOM   4127   CB PRO C  39     135.617  90.889 150.517  0.00  0.00           C 0
+ATOM   4136  CG2 VAL C  40     131.908  93.810 147.412  0.00  0.00           C 0
+ATOM   6108  OD2 ASP C 298     129.712  92.779 150.461  0.80  2.14           O 0
+ATOM   6105   CB ASP C 298     128.875  94.528 151.836  0.00  0.00           C 0
+ATOM   6139    O ASP C 303     131.053  97.821 152.827  0.61  1.07           O 0
+ATOM   6159   CB ALA C 305     132.346  98.243 149.254  0.00  0.00           C 0
+ATOM   6156   CA ALA C 305     132.831  99.619 149.710  0.00  0.00           C 0
+ATOM   6147    O ARG C 304     133.837 100.169 152.260  0.50  7.50           O 0
+ATOM   4150  NH1 ARG C  42     137.179 102.774 146.803  0.63  7.66           N 0
+ATOM   6140   CB ASP C 303     132.642  96.110 154.708  0.00  0.00           C 0
+ATOM   6143  OD2 ASP C 303     134.291  94.772 155.783  0.15  6.43           O 0
+ATOM   6157    C ALA C 305     132.773 100.606 148.550  0.00  0.00           C 0
+ATOM   6160    N GLY C 306     132.594 101.890 148.829  0.00  0.00           N 0
+ATOM   6128   CD LYS C 301     131.751  90.426 153.804  0.00  0.00           C 0
+TER
+END

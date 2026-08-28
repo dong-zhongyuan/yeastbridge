@@ -1,0 +1,45 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    14:
+HEADER 0  - Pocket Score                      : 0.0705
+HEADER 1  - Drug Score                        : 0.0016
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.8625
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5847
+HEADER 5  - Mean B-factor of pocket residues  : 0.2377
+HEADER 6  - Hydrophobicity Score              : 2.6923
+HEADER 7  - Polarity Score                    :     9
+HEADER 8  - Amino Acid based volume Score     : 4.3077
+HEADER 9  - Pocket volume (Monte Carlo)       : 349.7932
+HEADER 10 - Pocket volume (convex hull)       : 29.3379
+HEADER 11 - Charge Score                      :     6
+HEADER 12 - Local hydrophobic density Score   : 4.8571
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.3182
+ATOM    606   CD ARG A 158      13.795  29.292 118.584  0.00  0.00           C 0
+ATOM    506   NZ LYS A 147      15.480  34.742 117.924  0.66  7.66           N 0
+ATOM   2206   CD PRO A 463      18.274  28.867 118.767  0.00  0.00           C 0
+ATOM   2205   CG PRO A 463      17.578  29.053 117.453  0.00  0.00           C 0
+ATOM    230  CG2 VAL A 111      15.187  33.723 122.825  0.00  0.00           C 0
+ATOM   1448  CD1 LEU A 364      18.726  32.700 124.156  0.00  0.00           C 0
+ATOM    211    O LYS A 109      16.509  37.197 118.783  0.00  0.00           O 0
+ATOM    505   CE LYS A 147      14.148  34.441 118.480  0.00  0.00           C 0
+ATOM   2217    O SER A 465      19.195  32.239 114.058  0.75  3.21           O 0
+ATOM   2203    O PRO A 463      20.835  29.124 116.624  0.22  4.29           O 0
+ATOM   2191   CA HIS A 462      20.393  28.067 120.652  0.00  0.00           C 0
+ATOM   2196  ND1 HIS A 462      22.473  29.985 122.711  0.00  0.00           N 0
+ATOM   2194   CB HIS A 462      21.839  28.127 121.144  0.00  0.00           C 0
+ATOM    224    N VAL A 111      15.838  36.689 122.765  0.73  5.47           N 0
+ATOM    218   CA PRO A 110      17.006  38.257 121.300  0.00  0.00           C 0
+ATOM   2186    O THR A 461      18.514  28.990 122.521  0.63  2.14           O 0
+ATOM    204    O THR A 108      18.804  38.670 116.826  0.00  0.00           O 0
+ATOM    202   CA THR A 108      18.042  37.450 114.904  0.00  0.00           C 0
+ATOM    205   CB THR A 108      18.943  38.250 113.952  0.00  0.00           C 0
+ATOM    207  CG2 THR A 108      19.504  37.343 112.857  0.00  0.00           C 0
+ATOM    195    O LYS A 107      16.780  34.986 115.211  0.17  1.07           O 0
+ATOM    487  ND1 HIS A 145      14.767  30.265 123.730  0.68  1.09           N 0
+ATOM    609  NH1 ARG A 158      15.135  27.621 120.502  0.00  0.00           N 0
+TER
+END

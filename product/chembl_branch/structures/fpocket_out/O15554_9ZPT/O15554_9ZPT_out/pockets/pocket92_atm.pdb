@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    92:
+HEADER 0  - Pocket Score                      : -0.1666
+HEADER 1  - Drug Score                        : 0.0030
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 4.0896
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5731
+HEADER 5  - Mean B-factor of pocket residues  : 0.8722
+HEADER 6  - Hydrophobicity Score              : 8.4286
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 295.4999
+HEADER 10 - Pocket volume (convex hull)       : 15.5492
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 16.0000
+HEADER 13 - Number of apolar alpha sphere     :    17
+HEADER 14 - Proportion of apolar alpha sphere : 0.7083
+ATOM   7802   CG ARG C 362     208.974 193.443 245.379  0.00  0.00           C 0
+ATOM   7827  CG1 VAL C 365     206.720 199.495 244.465  0.00  0.00           C 0
+ATOM   7800    O ARG C 362     210.736 197.280 245.893  0.00  0.00           O 0
+ATOM   7826   CB VAL C 365     208.016 199.061 243.799  0.00  0.00           C 0
+ATOM   7836  ND2 ASN C 366     208.453 198.113 248.907  0.62  7.66           N 0
+ATOM   7803   CD ARG C 362     208.633 192.777 246.704  0.00  0.00           C 0
+ATOM   7311   CB ASP C 304     204.530 192.879 241.090  0.00  0.00           C 0
+ATOM   7286  CD1 PHE C 301     199.369 196.158 241.310  0.00  0.00           C 0
+ATOM   7275    O ASN C 300     204.237 195.734 238.925  0.49  2.14           O 0
+ATOM   7280    N PHE C 301     202.605 197.260 238.589  0.71  1.09           N 0
+ATOM   7248    O HIS C 297     202.040 200.124 238.629  0.00  0.00           O 0
+ATOM   7276   CB ASN C 300     205.434 198.745 239.009  0.00  0.00           C 0
+ATOM   7251  ND1 HIS C 297     203.728 203.655 241.047  0.73  6.56           N 0
+ATOM   7281   CA PHE C 301     201.567 196.384 239.121  0.00  0.00           C 0
+ATOM   7284   CB PHE C 301     200.230 197.124 239.161  0.00  0.00           C 0
+ATOM   7828  CG2 VAL C 365     207.740 198.554 242.394  0.00  0.00           C 0
+ATOM   7313  OD1 ASP C 304     206.073 192.429 242.844  0.68  1.07           O 0
+ATOM   7312   CG ASP C 304     204.911 192.258 242.419  0.00  0.00           C 0
+ATOM   7314  OD2 ASP C 304     204.050 191.601 243.040  0.58  5.36           O 0
+ATOM   7274    C ASN C 300     203.874 196.848 238.523  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    16:
+HEADER 0  - Pocket Score                      : 0.0335
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.5760
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4481
+HEADER 5  - Mean B-factor of pocket residues  : 0.4656
+HEADER 6  - Hydrophobicity Score              : 71.8000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 60.6722
+HEADER 10 - Pocket volume (convex hull)       : 0.1973
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.8000
+ATOM   4543  CD1 LEU C 117     124.949 120.560 115.456  0.00  0.00           C 0
+ATOM   2498   SG CYS B  99     129.052 121.161 118.030  0.00  0.00           S 0
+ATOM   4542   CG LEU C 117     125.264 120.628 113.972  0.00  0.00           C 0
+ATOM   4414   CB TRP C  99     124.434 124.448 115.523  0.00  0.00           C 0
+ATOM   4537    N LEU C 117     125.380 122.957 111.658  0.00  0.00           N 0
+ATOM   4412    C TRP C  99     125.923 126.151 114.424  0.00  0.00           C 0
+ATOM   4438   CE MET C 101     129.619 120.767 112.672  0.00  0.00           C 0
+ATOM   4424    N VAL C 100     127.126 126.686 114.610  0.88  1.09           N 0
+ATOM   4411   CA TRP C  99     125.161 125.776 115.685  0.00  0.00           C 0
+ATOM   4101  CE2 TYR C  59     130.888 124.321 117.553  0.00  0.00           C 0
+ATOM   4427    O VAL C 100     129.898 126.455 114.780  0.94  1.07           O 0
+ATOM   4435   CB MET C 101     130.657 123.592 112.461  0.00  0.00           C 0
+ATOM   4426    C VAL C 100     129.326 126.459 113.685  0.00  0.00           C 0
+TER
+END

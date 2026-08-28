@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : 0.0460
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of alpha spheres           :    28
+HEADER 3  - Mean alpha-sphere radius          : 3.8042
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4272
+HEADER 5  - Mean B-factor of pocket residues  : 0.6316
+HEADER 6  - Hydrophobicity Score              : 18.1667
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 4.0833
+HEADER 9  - Pocket volume (Monte Carlo)       : 168.0079
+HEADER 10 - Pocket volume (convex hull)       : 7.2780
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.1786
+ATOM   3865    O ASP A 350     118.701 129.667 125.306  0.81  2.14           O 0
+ATOM    271  OD1 ASN R 106     114.724 125.916 125.844  0.47  7.50           O 0
+ATOM   3877   CA GLY A 352     117.004 132.477 128.078  0.00  0.00           C 0
+ATOM   2079   CB ASN R 344     113.860 132.089 125.267  0.00  0.00           C 0
+ATOM   2081  OD1 ASN R 344     112.703 130.044 124.727  0.50  1.07           O 0
+ATOM    264  CG2 THR R 105     118.396 126.834 126.841  0.00  0.00           C 0
+ATOM   3873    O CYS A 351     118.612 130.544 129.234  0.57  3.21           O 0
+ATOM    263  OG1 THR R 105     118.032 126.677 129.217  0.39  4.29           O 0
+ATOM   2065   CB ASP R 342     113.143 132.405 130.972  0.00  0.00           C 0
+ATOM    300  CD1 ILE R 109     113.368 126.318 132.219  0.00  0.00           C 0
+ATOM    753  NH2 ARG R 167     118.937 130.696 133.059  0.52  1.09           N 0
+ATOM    721   CE MET R 163     118.238 126.696 134.074  0.00  0.00           C 0
+ATOM   2090  CD2 PHE R 345     110.521 128.310 128.459  0.00  0.00           C 0
+ATOM   2034  CD1 TYR R 338     116.266 129.073 136.053  0.00  0.00           C 0
+ATOM   2031    O TYR R 338     112.881 129.959 133.328  0.67  2.14           O 0
+ATOM   2083    N PHE R 345     111.350 131.987 127.222  0.00  0.00           N 0
+ATOM   2087   CB PHE R 345     110.364 130.729 129.077  0.00  0.00           C 0
+TER
+END

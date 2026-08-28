@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : 0.0300
+HEADER 1  - Drug Score                        : 0.0018
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.1549
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6436
+HEADER 5  - Mean B-factor of pocket residues  : 0.5694
+HEADER 6  - Hydrophobicity Score              : 19.7143
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 338.2640
+HEADER 10 - Pocket volume (convex hull)       : 14.1361
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.6250
+ATOM    242  ND2 ASN A  51     -14.485 -20.620  26.604  0.00  0.00           N 0
+ATOM    239   CB ASN A  51     -16.346 -19.766  25.311  0.00  0.00           C 0
+ATOM    233  CG1 VAL A  50     -20.453 -22.373  23.849  0.00  0.00           C 0
+ATOM    240   CG ASN A  51     -15.504 -19.770  26.578  0.00  0.00           C 0
+ATOM   2077    O THR A 450     -14.695 -25.808  22.023  0.00  0.00           O 0
+ATOM   2105   CB HIS A 453     -16.470 -29.299  23.485  0.00  0.00           C 0
+ATOM   2118  CD2 LEU A 454     -17.810 -26.418  19.773  0.00  0.00           C 0
+ATOM    236   CA ASN A  51     -17.787 -19.307  25.556  0.00  0.00           C 0
+ATOM   2080  CG2 THR A 450     -14.847 -22.877  23.368  0.00  0.00           C 0
+ATOM   2075   CA THR A 450     -13.139 -24.725  23.508  0.00  0.00           C 0
+ATOM   2107  ND1 HIS A 453     -14.956 -29.315  25.500  0.00  0.00           N 0
+ATOM   2106   CG HIS A 453     -16.078 -29.775  24.847  0.00  0.00           C 0
+ATOM   2073   CB LYS A 449      -9.515 -26.061  25.773  0.00  0.00           C 0
+ATOM   2074    N THR A 450     -11.749 -25.038  23.833  0.00  0.00           N 0
+ATOM   2071    C LYS A 449     -11.358 -26.282  24.098  0.00  0.00           C 0
+ATOM   2072    O LYS A 449     -12.132 -27.238  24.137  0.67  3.21           O 0
+ATOM   2079  OG1 THR A 450     -12.759 -22.547  24.528  0.00  0.00           O 0
+ATOM    206   CA SER A  47     -16.642 -20.919  20.161  0.00  0.00           C 0
+ATOM    232   CB VAL A  50     -20.463 -21.390  22.687  0.00  0.00           C 0
+TER
+END

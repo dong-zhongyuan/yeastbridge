@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : 0.0500
+HEADER 1  - Drug Score                        : 0.0021
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.6251
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3879
+HEADER 5  - Mean B-factor of pocket residues  : 0.3593
+HEADER 6  - Hydrophobicity Score              : 42.7143
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 215.1039
+HEADER 10 - Pocket volume (convex hull)       : 5.0373
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.5625
+ATOM  18079  CD1 ILE Y  43     155.399 192.915 155.000  0.00  0.00           C 0
+ATOM  23242    O LEU Z  51     151.461 195.180 153.536  0.59  6.43           O 0
+ATOM  18051    O ARG Y  42     157.455 197.142 156.375  0.00  0.00           O 0
+ATOM  18028    O VAL Y  40     155.621 199.044 152.329  0.00  0.00           O 0
+ATOM  18029   CB VAL Y  40     155.969 197.638 149.672  0.00  0.00           C 0
+ATOM  18031  CG2 VAL Y  40     157.383 197.099 149.909  0.00  0.00           C 0
+ATOM  21718  CD1 LEU Y 284     155.029 191.987 150.476  0.00  0.00           C 0
+ATOM  23244   CG LEU Z  51     151.228 194.886 149.882  0.00  0.00           C 0
+ATOM  21719  CD2 LEU Y 284     156.136 193.586 148.923  0.00  0.00           C 0
+ATOM  23278   CD PRO Z  53     150.930 194.386 156.820  0.00  0.00           C 0
+ATOM  23277   CG PRO Z  53     151.600 193.611 157.916  0.00  0.00           C 0
+ATOM  18076   CB ILE Y  43     157.857 193.529 154.538  0.00  0.00           C 0
+ATOM  18098  OE1 GLN Y  44     158.148 196.306 158.784  0.00  0.00           O 0
+ATOM  18095   CB GLN Y  44     158.226 194.043 160.486  0.00  0.00           C 0
+ATOM  18094    O GLN Y  44     156.249 192.006 160.130  0.41  9.64           O 0
+ATOM  18091    N GLN Y  44     157.845 193.645 158.076  0.54  1.09           N 0
+TER
+END

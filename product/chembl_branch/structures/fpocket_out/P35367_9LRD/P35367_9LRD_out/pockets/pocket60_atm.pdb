@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    60:
+HEADER 0  - Pocket Score                      : -0.0840
+HEADER 1  - Drug Score                        : 0.0008
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.0419
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5539
+HEADER 5  - Mean B-factor of pocket residues  : 0.4241
+HEADER 6  - Hydrophobicity Score              : 18.8889
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.4444
+HEADER 9  - Pocket volume (Monte Carlo)       : 202.8962
+HEADER 10 - Pocket volume (convex hull)       : 3.3795
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM   3692  CD1 LEU B 255     102.172 137.214  73.240  0.00  0.00           C 0
+ATOM   3342  CD2 LEU B 210     104.803 139.776  71.610  0.00  0.00           C 0
+ATOM   3261  CD1 LEU B 198     104.990 135.163  69.668  0.00  0.00           C 0
+ATOM   3417   NE ARG B 219     104.746 140.318  67.090  0.59  4.37           N 0
+ATOM   3690   CB LEU B 255     100.716 139.236  73.089  0.00  0.00           C 0
+ATOM   3689    O LEU B 255     100.213 142.357  72.147  0.74  3.21           O 0
+ATOM   3428  OE1 GLN B 220     103.261 144.664  69.990  0.45  4.29           O 0
+ATOM   3699   CG ARG B 256      97.034 139.471  70.199  0.00  0.00           C 0
+ATOM   4486  OD2 ASP C  26      99.334 141.079  65.183  0.20  7.50           O 1
+ATOM   3420  NH2 ARG B 219     103.323 140.414  65.298  0.44  9.84           N 0
+ATOM   3688    C LEU B 255      99.563 141.398  72.579  0.00  0.00           C 0
+ATOM   3695   CA ARG B 256      97.802 141.793  70.956  0.00  0.00           C 0
+ATOM   3694    N ARG B 256      98.355 141.090  72.109  0.00  0.00           N 0
+ATOM   4485  OD1 ASP C  26      99.581 142.952  66.301  0.73  3.21           O 0
+ATOM   3574  OD1 ASN B 239      97.516 135.628  70.898  0.26  6.43           O 0
+ATOM   3567    O GLY B 238     100.127 133.710  72.610  0.48  3.21           O 0
+TER
+END

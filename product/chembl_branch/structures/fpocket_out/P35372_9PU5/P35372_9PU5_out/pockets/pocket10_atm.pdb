@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : 0.0625
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 3.6849
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5006
+HEADER 5  - Mean B-factor of pocket residues  : 0.1420
+HEADER 6  - Hydrophobicity Score              : 21.6667
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 109.3159
+HEADER 10 - Pocket volume (convex hull)       : 3.5387
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.3200
+ATOM  12683  NH2 ARG F 167     103.245 116.756 137.141  0.00  9.84           N 0
+ATOM  12651   CE MET F 163     106.042 116.420 133.062  0.00  0.00           C 0
+ATOM  12188  CG2 THR F 105     100.479 117.777 131.773  0.00  0.00           C 0
+ATOM  12680   NE ARG F 167     103.778 118.944 137.538  0.72  1.09           N 0
+ATOM  12183   CA THR F 105     101.277 119.267 129.932  0.00  0.00           C 0
+ATOM  12212  CD2 TYR F 108     105.514 121.196 130.020  0.00  0.00           C 0
+ATOM  12209   CB TYR F 108     105.911 118.794 129.431  0.00  0.00           C 0
+ATOM  12187  OG1 THR F 105      99.928 120.117 131.745  0.60  1.07           O 0
+ATOM   8824    O CYS B 351      99.426 118.010 135.907  0.18  1.07           O 0
+ATOM   8825   CB CYS B 351      99.618 120.913 136.394  0.00  0.00           C 0
+ATOM  12672  OD2 ASP F 166     103.575 123.650 133.297  0.68  3.21           O 1
+ATOM  12678   CG ARG F 167     104.112 121.360 137.605  0.00  0.00           C 0
+ATOM   8826   SG CYS B 351     100.091 122.584 135.914  0.00  0.00           S 0
+ATOM  12647    O MET F 163     107.075 121.837 135.790  0.00  0.00           O 0
+ATOM  12648   CB MET F 163     108.037 119.223 134.060  0.00  0.00           C 0
+ATOM  12649   CG MET F 163     107.661 118.615 132.741  0.00  0.00           C 0
+ATOM  12645   CA MET F 163     108.259 120.728 134.022  0.00  0.00           C 0
+TER
+END

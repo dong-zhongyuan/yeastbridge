@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : 0.0236
+HEADER 1  - Drug Score                        : 0.0010
+HEADER 2  - Number of alpha spheres           :    30
+HEADER 3  - Mean alpha-sphere radius          : 3.8411
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4476
+HEADER 5  - Mean B-factor of pocket residues  : 0.1334
+HEADER 6  - Hydrophobicity Score              : 8.7000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 3.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 285.4026
+HEADER 10 - Pocket volume (convex hull)       : 16.5528
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.2333
+ATOM   6834   CB MET E  93     116.740 163.890  87.967  0.00  0.00           C 0
+ATOM   6422   CA PRO E  41     119.895 169.322  85.815  0.00  0.00           C 0
+ATOM   6424    O PRO E  41     120.470 168.890  83.543  0.05  9.64           O 0
+ATOM   6837   CE MET E  93     114.919 163.776  85.201  0.00  0.00           C 0
+ATOM   7424    O GLY E 170     115.109 159.484  78.762  0.22  5.36           O 0
+ATOM   7010    O GLN E 113     114.420 158.572  85.987  0.68  2.14           O 0
+ATOM   7015  NE2 GLN E 113     112.363 156.848  82.523  0.52  9.84           N 0
+ATOM   6410    O GLN E  39     120.180 165.871  88.848  0.00  0.00           O 0
+ATOM   6419    O ALA E  40     121.785 167.445  86.477  0.33  2.14           O 0
+ATOM   6414  OE1 GLN E  39     120.888 162.584  85.153  0.38  9.64           O 0
+ATOM   6836   SD MET E  93     115.881 162.391  85.799  0.00  0.00           S 0
+ATOM   6861   OH TYR E  95     118.405 160.726  85.046  0.65  3.21           O 0
+ATOM   7422   CA GLY E 170     116.580 161.197  78.028  0.00  0.00           C 0
+ATOM   7427    C GLN E 171     117.986 157.474  80.663  0.00  0.00           C 0
+ATOM   7428    O GLN E 171     119.018 158.123  80.850  0.00  0.00           O 0
+ATOM   7425    N GLN E 171     117.307 159.058  78.941  0.00  0.00           N 0
+ATOM   7423    C GLY E 170     116.281 159.836  78.607  0.00  0.00           C 0
+ATOM   7434    N SER E 172     117.542 156.546  81.504  0.00  0.00           N 0
+ATOM   7402  NE2 GLN E 167     120.228 160.047  81.404  0.68  6.56           N 0
+TER
+END

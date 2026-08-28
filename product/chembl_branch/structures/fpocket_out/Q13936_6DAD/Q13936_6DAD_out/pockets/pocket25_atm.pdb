@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    25:
+HEADER 0  - Pocket Score                      : -0.0342
+HEADER 1  - Drug Score                        : 0.0012
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9182
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5886
+HEADER 5  - Mean B-factor of pocket residues  : 0.2812
+HEADER 6  - Hydrophobicity Score              : 5.7143
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 332.1703
+HEADER 10 - Pocket volume (convex hull)       : 9.0978
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.4444
+ATOM    581   CB ASP A  78       0.704 -29.996 -15.697  0.00  0.00           C 0
+ATOM    552   CA LYS A  75       3.368 -29.574 -11.894  0.00  0.00           C 0
+ATOM    557   CD LYS A  75       1.242 -27.816 -10.394  0.00  0.00           C 0
+ATOM    584  OD2 ASP A  78       0.523 -32.333 -15.259  0.80  5.36           O 0
+ATOM    559   NZ LYS A  75      -0.882 -26.528 -10.241  0.00  0.00           N 0
+ATOM    591  CG2 THR A  79       0.498 -26.037 -13.440  0.00  0.00           C 0
+ATOM    580    O ASP A  78      -0.340 -27.443 -16.878  0.00  0.00           O 0
+ATOM    524   CG MET A  71       4.083 -33.021  -6.363  0.00  0.00           C 0
+ATOM    393    O GLU A  54       0.995 -37.469  -4.116  0.00  0.00           O 0
+ATOM   1089  CG2 VAL C1615       0.694 -32.023  -5.961  0.00  0.00           C 0
+ATOM    549  NH1 ARG A  74       3.208 -37.129  -9.640  0.47  7.66           N 0
+ATOM   1088  CG1 VAL C1615       1.347 -29.965  -7.208  0.00  0.00           C 0
+ATOM    555   CB LYS A  75       3.398 -29.098 -10.438  0.00  0.00           C 0
+ATOM    551    N LYS A  75       4.166 -30.787 -12.044  0.00  0.00           N 0
+ATOM    522    O MET A  71       4.990 -32.033  -9.487  0.00  0.00           O 0
+ATOM    545   CG ARG A  74       2.909 -34.067 -13.120  0.00  0.00           C 0
+ATOM    547   NE ARG A  74       2.549 -35.814 -11.399  0.00  0.00           N 0
+ATOM    546   CD ARG A  74       2.392 -35.470 -12.808  0.00  0.00           C 0
+TER
+END

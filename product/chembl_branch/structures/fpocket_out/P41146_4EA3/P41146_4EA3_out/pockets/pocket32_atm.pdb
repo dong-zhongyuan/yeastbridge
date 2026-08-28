@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    32:
+HEADER 0  - Pocket Score                      : 0.0078
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9828
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6034
+HEADER 5  - Mean B-factor of pocket residues  : 0.4871
+HEADER 6  - Hydrophobicity Score              : -27.8000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 238.0878
+HEADER 10 - Pocket volume (convex hull)       : 4.6640
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3125
+ATOM   2592  CD2 HIS B1063      42.351 -12.598  24.846  0.00  0.00           C 0
+ATOM   2552   CD LYS B1059      45.701 -17.297  30.724  0.00  0.00           C 0
+ATOM   2551   CG LYS B1059      44.237 -16.891  30.773  0.00  0.00           C 0
+ATOM   2590   CG HIS B1063      41.893 -13.847  25.107  0.00  0.00           C 0
+ATOM   2561  OD1 ASP B1060      42.912 -18.833  26.519  0.43  9.64           O 0
+ATOM   2591  ND1 HIS B1063      42.287 -14.634  24.054  0.59  2.19           N 0
+ATOM   2589   CB HIS B1063      41.112 -14.380  26.271  0.00  0.00           C 0
+ATOM   2549    O LYS B1059      41.313 -16.158  29.440  0.58  2.14           O 0
+ATOM   2617  OD2 ASP B1066      41.789  -9.832  28.322  0.76  7.50           O 0
+ATOM   2585    N HIS B1063      39.615 -13.866  28.152  0.00  0.00           N 0
+ATOM   2576    C ARG B1062      39.074 -13.057  29.059  0.00  0.00           C 0
+ATOM   2578   CB ARG B1062      39.352 -13.553  31.495  0.00  0.00           C 0
+ATOM   2586   CA HIS B1063      40.199 -13.344  26.923  0.00  0.00           C 0
+ATOM   2581   NE ARG B1062      41.032 -14.094  33.827  0.69  3.28           N 0
+ATOM   2584  NH2 ARG B1062      42.845 -15.506  33.902  0.00  0.00           N 0
+TER
+END

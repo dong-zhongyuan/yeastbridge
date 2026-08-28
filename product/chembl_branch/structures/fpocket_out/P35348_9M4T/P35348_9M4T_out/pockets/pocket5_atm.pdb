@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     5:
+HEADER 0  - Pocket Score                      : 0.0046
+HEADER 1  - Drug Score                        : 0.0014
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9424
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5664
+HEADER 5  - Mean B-factor of pocket residues  : 0.2578
+HEADER 6  - Hydrophobicity Score              : 49.8571
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 194.7188
+HEADER 10 - Pocket volume (convex hull)       : 3.4279
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.7778
+ATOM    514   CB ALA A  52     117.358 129.997 129.968  0.00  0.00           C 0
+ATOM    499  CG1 VAL A  51     120.338 125.705 131.702  0.00  0.00           C 0
+ATOM    750  CG2 VAL A  66     119.845 126.511 135.100  0.00  0.00           C 0
+ATOM    749  CG1 VAL A  66     117.850 127.089 136.490  0.00  0.00           C 0
+ATOM    510    N ALA A  52     119.474 128.770 129.991  0.00  0.00           N 0
+ATOM    557  NH1 ARG A  55     115.268 124.778 127.091  0.68  7.66           N 1
+ATOM    691  CE1 TYR A  63     116.955 121.861 131.690  0.00  0.00           C 0
+ATOM    612   CB HIS A  58     119.187 122.049 128.632  0.00  0.00           C 0
+ATOM    497    O VAL A  51     120.058 126.985 128.758  0.52  2.14           O 0
+ATOM    448    O ILE A  48     119.750 130.337 132.432  0.00  0.00           O 0
+ATOM    451  CG2 ILE A  48     117.958 130.829 134.993  0.00  0.00           C 0
+ATOM    689  CD1 TYR A  63     117.253 121.991 133.031  0.00  0.00           C 0
+ATOM    511   CA ALA A  52     118.199 128.914 129.295  0.00  0.00           C 0
+TER
+END

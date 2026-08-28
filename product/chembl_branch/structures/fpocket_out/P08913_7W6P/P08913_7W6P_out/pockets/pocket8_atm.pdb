@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : 0.0006
+HEADER 1  - Drug Score                        : 0.0022
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.8195
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5323
+HEADER 5  - Mean B-factor of pocket residues  : 0.8668
+HEADER 6  - Hydrophobicity Score              : 56.3333
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 155.9994
+HEADER 10 - Pocket volume (convex hull)       : 1.3637
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.7778
+ATOM   1656   CB ALA B  11     145.164  93.368  98.495  0.00  0.00           C 0
+ATOM   1628   CG ARG B   8     141.040  89.176 100.421  0.00  0.00           C 0
+ATOM   4233  CD2 LEU G  15     143.028  96.350  99.069  0.00  0.00           C 0
+ATOM   1624   CA ARG B   8     143.176  89.482  99.048  0.00  0.00           C 0
+ATOM   4232  CD1 LEU G  15     141.017  96.918 100.429  0.00  0.00           C 0
+ATOM   4204    O ALA G  12     140.240  94.688  95.148  0.00  0.00           O 0
+ATOM   1618    O LEU B   7     143.703  90.749  96.674  0.00  0.00           O 0
+ATOM   4239  CG1 VAL G  16     143.369  93.855  94.944  0.00  0.00           C 0
+ATOM   1627   CB ARG B   8     142.473  88.732 100.179  0.00  0.00           C 0
+ATOM   1626    O ARG B   8     145.470  89.977  99.566  0.60  7.50           O 0
+ATOM   4205   CB ALA G  12     138.488  92.236  96.426  0.00  0.00           C 0
+ATOM   4230   CB LEU G  15     140.883  97.015  97.931  0.00  0.00           C 0
+ATOM   4202   CA ALA G  12     138.417  93.762  96.406  0.00  0.00           C 0
+TER
+END

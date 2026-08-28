@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   120:
+HEADER 0  - Pocket Score                      : -0.1601
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9875
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6038
+HEADER 5  - Mean B-factor of pocket residues  : 0.1872
+HEADER 6  - Hydrophobicity Score              : 55.4000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 159.2165
+HEADER 10 - Pocket volume (convex hull)       : 0.7839
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.6250
+ATOM    561   CB LEU A 161     242.133 216.849 268.128  0.00  0.00           C 0
+ATOM    658   CB ALA A 190     235.572 218.899 267.792  0.00  0.00           C 0
+ATOM    564  CD2 LEU A 161     240.005 215.756 268.866  0.00  0.00           C 0
+ATOM    672   CB ILE A 224     238.497 222.322 267.682  0.00  0.00           C 0
+ATOM    563  CD1 LEU A 161     240.797 217.840 270.008  0.00  0.00           C 0
+ATOM    675  CD1 ILE A 224     240.561 221.496 268.917  0.00  0.00           C 0
+ATOM    574  CE2 TYR A 162     243.308 220.489 266.737  0.00  0.00           C 0
+ATOM    575   CZ TYR A 162     242.812 221.127 265.620  0.00  0.00           C 0
+ATOM    668    N ILE A 224     236.389 222.472 266.431  0.45  5.47           N 0
+ATOM    576   OH TYR A 162     241.818 222.067 265.761  0.52  2.14           O 0
+ATOM    659    N LYS A 223     234.366 220.926 264.262  0.00  0.00           N 0
+ATOM    560    O LEU A 161     242.662 216.221 265.117  0.44  6.43           O 0
+ATOM    573  CE1 TYR A 162     243.305 220.828 264.366  0.00  0.00           C 0
+TER
+END

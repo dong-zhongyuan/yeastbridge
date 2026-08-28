@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    14:
+HEADER 0  - Pocket Score                      : 0.0295
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.7538
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4207
+HEADER 5  - Mean B-factor of pocket residues  : 0.6171
+HEADER 6  - Hydrophobicity Score              : 13.0000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 5.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 184.3093
+HEADER 10 - Pocket volume (convex hull)       : 3.3105
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.1905
+ATOM  16038  NH1 ARG R 220     101.716 128.008  80.004  0.00  0.00           N 1
+ATOM  15948   CD LYS R 216     103.734 127.278  83.504  0.00  0.00           C 0
+ATOM  15881   OH TYR R 212     102.138 128.575  86.896  0.00  0.00           O 0
+ATOM  16039  NH2 ARG R 220     101.249 125.862  80.316  0.68  7.66           N 0
+ATOM  16015  NH2 ARG R 219      98.420 123.248  82.905  0.00  0.00           N 0
+ATOM  15947   CG LYS R 216     104.042 125.869  82.967  0.00  0.00           C 0
+ATOM  15878  CE1 TYR R 212     102.110 126.634  88.298  0.00  0.00           C 0
+ATOM  15946   CB LYS R 216     104.592 124.919  84.042  0.00  0.00           C 0
+ATOM  16249  OG1 THR R 328      99.876 123.814  89.134  0.84  4.29           O 0
+ATOM  15942    N LYS R 216     104.859 122.584  84.744  0.65  2.19           N 0
+ATOM  15873    O TYR R 212     105.341 123.957  87.323  0.38  1.07           O 0
+ATOM  15927   CB LEU R 215     104.341 120.323  87.017  0.00  0.00           C 0
+ATOM  16011   CD ARG R 219     100.314 121.066  82.552  0.00  0.00           C 0
+ATOM  15943   CA LYS R 216     104.539 123.449  83.596  0.00  0.00           C 0
+ATOM  16178    O GLU R 324      98.791 120.542  88.093  0.44  1.07           O 0
+ATOM  15925    C LEU R 215     104.786 121.250  84.681  0.00  0.00           C 0
+TER
+END

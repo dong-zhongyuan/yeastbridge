@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    28:
+HEADER 0  - Pocket Score                      : 0.0021
+HEADER 1  - Drug Score                        : 0.0169
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.0192
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6365
+HEADER 5  - Mean B-factor of pocket residues  : 0.2751
+HEADER 6  - Hydrophobicity Score              : 69.8000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 5.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 246.8214
+HEADER 10 - Pocket volume (convex hull)       : 6.5536
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 11.6923
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.7647
+ATOM   7702   CG MET R 205     123.307 144.809 101.106  0.00  0.00           C 0
+ATOM   7703   SD MET R 205     123.140 144.762 102.897  0.00  0.00           S 0
+ATOM   7211   CD LYS R 143     120.867 147.723  97.681  0.00  0.00           C 0
+ATOM   7190  CD1 ILE R 140     117.115 148.308 101.272  0.00  0.00           C 0
+ATOM   7219  CG1 ILE R 144     116.875 143.969 101.909  0.00  0.00           C 0
+ATOM   7711  CD1 PHE R 206     127.343 147.503 100.791  0.00  0.00           C 0
+ATOM   7713  CE1 PHE R 206     127.347 148.139 102.014  0.00  0.00           C 0
+ATOM   7700    O MET R 205     123.953 146.144  98.379  0.74  1.07           O 0
+ATOM   7209   CB LYS R 143     119.973 145.421  98.042  0.00  0.00           C 0
+ATOM   7213   NZ LYS R 143     123.115 148.132  96.700  0.67  4.37           N 0
+ATOM   7710   CG PHE R 206     127.941 148.085  99.687  0.00  0.00           C 0
+ATOM   7712  CD2 PHE R 206     128.541 149.323  99.832  0.00  0.00           C 0
+ATOM   7714  CE2 PHE R 206     128.548 149.964 101.053  0.00  0.00           C 0
+ATOM   7715   CZ PHE R 206     127.950 149.371 102.145  0.00  0.00           C 0
+ATOM   7212   CE LYS R 143     121.708 148.602  96.778  0.00  0.00           C 0
+ATOM   7706   CA PHE R 206     126.530 147.005  97.873  0.00  0.00           C 0
+ATOM   7708    O PHE R 206     126.062 148.078  95.785  0.21  3.21           O 0
+TER
+END

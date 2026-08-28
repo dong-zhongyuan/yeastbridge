@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   135:
+HEADER 0  - Pocket Score                      : -0.1548
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.6387
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3015
+HEADER 5  - Mean B-factor of pocket residues  : 0.3629
+HEADER 6  - Hydrophobicity Score              : 36.9231
+HEADER 7  - Polarity Score                    :    10
+HEADER 8  - Amino Acid based volume Score     : 5.6923
+HEADER 9  - Pocket volume (Monte Carlo)       : 299.8615
+HEADER 10 - Pocket volume (convex hull)       : 45.3705
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2000
+ATOM  18630  CD1 TRP D 322     228.200 252.393 219.426  0.00  0.00           C 0
+ATOM  18645   NE ARG D 323     227.270 249.464 224.879  0.68  2.19           N 0
+ATOM  18627    O TRP D 322     226.214 253.192 221.521  0.56  1.07           O 0
+ATOM  18715   NZ LYS D 330     224.208 250.578 219.658  0.00  0.00           N 0
+ATOM  20057   CB ALA D 499     233.266 243.197 214.951  0.00  0.00           C 0
+ATOM  18982  CE1 PHE D 364     232.834 250.439 215.326  0.00  0.00           C 0
+ATOM  19011  CE2 PHE D 367     234.415 246.864 212.761  0.00  0.00           C 0
+ATOM  20056    O ALA D 499     230.743 243.325 216.576  0.41  7.50           O 0
+ATOM  21227  NH1 ARG D 643     230.393 242.798 221.847  0.36  6.56           N 0
+ATOM  12552  OE2 GLU C 236     230.012 245.285 227.174  0.00  0.00           O 0
+ATOM  18648  NH2 ARG D 323     229.267 248.346 224.765  0.69  7.66           N 0
+ATOM  12543  ND2 ASN C 235     225.713 246.136 223.813  0.51  9.84           N 0
+ATOM  18589   OH TYR D 316     230.505 248.647 220.199  0.40  8.57           O 0
+ATOM  21264  CZ2 TRP D 647     233.753 245.241 221.548  0.00  0.00           C 0
+ATOM  20071   OG SER D 501     226.232 243.019 219.253  0.42  8.57           O 0
+ATOM  21266  CH2 TRP D 647     233.773 245.195 222.913  0.00  0.00           C 0
+ATOM  18572  NE1 TRP D 315     234.610 248.625 218.670  0.62  3.28           N 0
+ATOM  18575  CZ2 TRP D 315     236.291 247.698 217.069  0.00  0.00           C 0
+ATOM  21261  NE1 TRP D 647     235.234 245.022 219.542  0.78  1.09           N 0
+TER
+END

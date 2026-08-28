@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : -0.0459
+HEADER 1  - Drug Score                        : 0.0077
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9698
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7277
+HEADER 5  - Mean B-factor of pocket residues  : 0.0910
+HEADER 6  - Hydrophobicity Score              : 89.6000
+HEADER 7  - Polarity Score                    :     0
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 222.3116
+HEADER 10 - Pocket volume (convex hull)       : 5.1537
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 14.6250
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 0.8889
+ATOM   2111   CG MET A 323      46.686  38.008  47.063  0.00  0.00           C 0
+ATOM   2077  CG1 VAL A 319      46.062  38.051  43.062  0.00  0.00           C 0
+ATOM   2078  CG2 VAL A 319      47.741  38.103  41.219  0.00  0.00           C 0
+ATOM   2104  CG2 ILE A 322      51.241  36.532  46.757  0.00  0.00           C 0
+ATOM   2102   CB ILE A 322      50.759  35.318  45.980  0.00  0.00           C 0
+ATOM   2103  CG1 ILE A 322      51.915  34.661  45.225  0.00  0.00           C 0
+ATOM   2072    N VAL A 319      48.161  35.148  41.763  0.00  0.00           N 0
+ATOM   2073   CA VAL A 319      47.647  36.106  42.732  0.00  0.00           C 0
+ATOM   2064    O PHE A 318      49.426  34.110  43.304  0.00  0.00           O 0
+ATOM   2063    C PHE A 318      48.962  34.162  42.160  0.00  0.00           C 0
+ATOM   2041  CG2 ILE A 315      47.994  37.972  36.973  0.00  0.00           C 0
+ATOM   2065   CB PHE A 318      50.442  33.392  40.243  0.00  0.00           C 0
+ATOM   2038    O ILE A 315      47.450  35.667  39.044  0.00  0.00           O 0
+ATOM   2036   CA ILE A 315      48.416  35.491  36.853  0.00  0.00           C 0
+ATOM   2068  CD2 PHE A 318      51.854  32.254  38.471  0.00  0.00           C 0
+ATOM   2040  CG1 ILE A 315      49.631  37.069  35.310  0.00  0.00           C 0
+TER
+END

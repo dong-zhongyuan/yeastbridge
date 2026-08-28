@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    24:
+HEADER 0  - Pocket Score                      : 0.0232
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.0509
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6888
+HEADER 5  - Mean B-factor of pocket residues  : 0.4851
+HEADER 6  - Hydrophobicity Score              : 3.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 235.2997
+HEADER 10 - Pocket volume (convex hull)       : 3.3125
+HEADER 11 - Charge Score                      :    -3
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3529
+ATOM   9839  OD1 ASP D 282     125.593 130.722 129.840  0.41  4.29           O 0
+ATOM  12471   CB GLU F  15     122.539 131.425 123.643  0.00  0.00           C 0
+ATOM  12472   CG GLU F  15     122.763 132.912 123.871  0.00  0.00           C 0
+ATOM  12474  OE1 GLU F  15     124.903 132.376 124.760  0.70  3.21           O 0
+ATOM  12443   CG GLU F  12     121.814 127.604 128.626  0.00  0.00           C 0
+ATOM   7990  CG2 ILE C 413     126.389 137.709 126.623  0.00  0.00           C 0
+ATOM  12473   CD GLU F  15     124.204 133.246 124.203  0.00  0.00           C 0
+ATOM  12475  OE2 GLU F  15     124.637 134.379 123.907  0.00  0.00           O 0
+ATOM   9851   OG SER D 284     127.473 132.509 126.845  0.52  1.07           O 0
+ATOM  12439   CA GLU F  12     122.165 127.775 126.100  0.00  0.00           C 0
+ATOM  12436    O ALA F  11     120.540 128.444 124.008  0.61  3.21           O 0
+ATOM   9840  OD2 ASP D 282     126.355 132.752 130.172  0.54  5.36           O 0
+ATOM  12442   CB GLU F  12     122.712 127.297 127.445  0.00  0.00           C 0
+ATOM  12438    N GLU F  12     120.866 127.163 125.831  0.00  0.00           N 0
+ATOM  12435    C ALA F  11     120.150 127.554 124.774  0.00  0.00           C 0
+ATOM  12437   CB ALA F  11     117.755 127.371 125.508  0.00  0.00           C 0
+TER
+END

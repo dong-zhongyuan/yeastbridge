@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : -0.0063
+HEADER 1  - Drug Score                        : 0.0037
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.5846
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4807
+HEADER 5  - Mean B-factor of pocket residues  : 0.6541
+HEADER 6  - Hydrophobicity Score              : 32.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 122.9291
+HEADER 10 - Pocket volume (convex hull)       : 4.1679
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.7895
+ATOM   3934   SG CYS D  19     149.550 171.232 105.886  0.00  0.00           S 0
+ATOM   3875    O HIS D   9     146.775 171.995 103.761  0.31  1.07           O 0
+ATOM   3946   CB PHE D  21     145.179 166.749 107.472  0.00  0.00           C 0
+ATOM   3938    O VAL D  20     145.150 170.556 107.776  0.67  2.14           O 0
+ATOM   3871   CB ASP D   8     144.471 167.773 103.004  0.00  0.00           C 0
+ATOM   5492   CB CYS D 266     150.171 170.036 103.145  0.00  0.00           C 0
+ATOM   5491    O CYS D 266     150.039 167.184 102.773  0.35  3.21           O 0
+ATOM   3867    N ASP D   8     146.331 168.005 101.418  0.22  1.09           N 0
+ATOM   5538   CB ASP D 273     149.056 164.011 110.000  0.00  0.00           C 0
+ATOM   5507    O TYR D 269     150.648 163.949 107.063  0.00  0.00           O 0
+ATOM   4916  CD1 ILE D 182     151.683 166.719 109.921  0.00  0.00           C 0
+ATOM   3932    O CYS D  19     149.429 171.391 109.887  0.54  1.07           O 0
+ATOM   3936   CA VAL D  20     146.777 170.576 109.550  0.00  0.00           C 0
+ATOM   5508   CB TYR D 269     151.996 166.219 105.711  0.00  0.00           C 0
+ATOM   5506    C TYR D 269     150.680 164.104 105.839  0.00  0.00           C 0
+ATOM   5516    N ARG D 270     149.678 163.706 105.052  0.00  0.00           N 0
+ATOM   5517   CA ARG D 270     148.483 163.104 105.641  0.00  0.00           C 0
+ATOM   5520   CB ARG D 270     147.412 162.908 104.568  0.00  0.00           C 0
+ATOM   3942    N PHE D  21     145.390 168.664 108.985  0.75  3.28           N 0
+ATOM   3937    C VAL D  20     145.695 169.931 108.690  0.00  0.00           C 0
+TER
+END

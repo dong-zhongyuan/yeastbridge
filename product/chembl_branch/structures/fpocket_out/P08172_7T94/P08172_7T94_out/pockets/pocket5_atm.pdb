@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     5:
+HEADER 0  - Pocket Score                      : 0.1168
+HEADER 1  - Drug Score                        : 0.0036
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.8934
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6588
+HEADER 5  - Mean B-factor of pocket residues  : 0.5704
+HEADER 6  - Hydrophobicity Score              : 33.1429
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 272.5817
+HEADER 10 - Pocket volume (convex hull)       : 6.0981
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 9.8182
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.6471
+ATOM    219   CB ASN A  59     133.544 132.206 125.198  0.00  0.00           C 0
+ATOM    148  CG2 ILE A  48     128.655 132.385 126.036  0.00  0.00           C 0
+ATOM    192   CB GLN A  55     130.202 130.754 128.975  0.00  0.00           C 0
+ATOM    196    O THR A  56     134.398 133.137 129.271  0.00  0.00           O 0
+ATOM    224   CA TYR A  60     133.752 136.879 124.843  0.00  0.00           C 0
+ATOM    227   CB TYR A  60     134.227 137.879 125.900  0.00  0.00           C 0
+ATOM    223    N TYR A  60     134.281 135.555 125.135  0.41  1.09           N 0
+ATOM    218    O ASN A  59     133.166 134.598 123.425  0.72  1.07           O 0
+ATOM    217    C ASN A  59     133.965 134.513 124.365  0.00  0.00           C 0
+ATOM    251   CB PHE A  63     130.308 136.647 122.628  0.00  0.00           C 0
+ATOM    252   CG PHE A  63     128.834 136.749 122.898  0.00  0.00           C 0
+ATOM    253  CD1 PHE A  63     128.165 137.944 122.713  0.00  0.00           C 0
+ATOM    254  CD2 PHE A  63     128.118 135.644 123.322  0.00  0.00           C 0
+ATOM    226    O TYR A  60     133.452 138.069 122.779  0.43  1.07           O 0
+ATOM    262   CB SER A  64     132.999 140.598 120.212  0.00  0.00           C 0
+ATOM    258    N SER A  64     131.691 138.555 120.531  0.00  0.00           N 0
+ATOM    259   CA SER A  64     131.765 139.810 119.791  0.00  0.00           C 0
+TER
+END

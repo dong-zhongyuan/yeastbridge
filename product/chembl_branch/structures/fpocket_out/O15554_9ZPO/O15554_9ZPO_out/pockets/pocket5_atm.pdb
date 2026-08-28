@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     5:
+HEADER 0  - Pocket Score                      : 0.0661
+HEADER 1  - Drug Score                        : 0.0018
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.5664
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3369
+HEADER 5  - Mean B-factor of pocket residues  : 0.1122
+HEADER 6  - Hydrophobicity Score              : 65.8571
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 92.8553
+HEADER 10 - Pocket volume (convex hull)       : 0.7695
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.8750
+ATOM   3433  NH1 ARG B 165     181.691 201.164 211.908  1.00  1.09           N 0
+ATOM   2607   CB ALA B  29     177.164 205.128 215.029  0.00  0.00           C 0
+ATOM   2932  CD1 ILE B  76     179.280 201.066 215.427  0.00  0.00           C 0
+ATOM   3409  CD2 LEU B 162     182.377 203.492 214.851  0.00  0.00           C 0
+ATOM   2581   CA ALA B  26     177.495 205.980 210.609  0.00  0.00           C 0
+ATOM   2583    O ALA B  26     178.128 207.517 212.343  0.59  5.36           O 0
+ATOM   2584   CB ALA B  26     178.514 205.925 209.475  0.00  0.00           C 0
+ATOM   2952  CD2 PHE B  79     178.770 200.139 210.062  0.00  0.00           C 0
+ATOM   2949   CB PHE B  79     176.369 200.221 210.754  0.00  0.00           C 0
+ATOM   2950   CG PHE B  79     177.463 200.462 209.764  0.00  0.00           C 0
+ATOM   2575    O LEU B  25     175.286 205.682 212.185  0.75  1.07           O 0
+ATOM   3430   CD ARG B 165     182.204 202.906 209.728  0.00  0.00           C 0
+ATOM   3405    O LEU B 162     183.970 207.265 212.543  0.48  1.07           O 0
+TER
+END

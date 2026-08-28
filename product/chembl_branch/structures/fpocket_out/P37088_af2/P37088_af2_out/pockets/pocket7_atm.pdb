@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : 0.0658
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9160
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5499
+HEADER 5  - Mean B-factor of pocket residues  : 0.5642
+HEADER 6  - Hydrophobicity Score              : 38.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 278.6124
+HEADER 10 - Pocket volume (convex hull)       : 8.5800
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2222
+ATOM    542   CB HIS A  69      40.009  22.212 -42.442  0.00  0.00           C 0
+ATOM    576   CZ ARG A  73      45.889  25.848 -42.009  0.00  0.00           C 0
+ATOM    575  NH2 ARG A  73      45.583  26.756 -42.892  0.00  0.00           N 0
+ATOM    574  NH1 ARG A  73      45.828  26.184 -40.753  0.39  4.37           N 0
+ATOM    543    O HIS A  69      42.931  21.042 -42.009  0.82  5.36           O 0
+ATOM    695  CZ3 TRP A  87      45.229  23.622 -37.323  0.00  0.00           C 0
+ATOM    693  CH2 TRP A  87      45.585  24.944 -37.641  0.00  0.00           C 0
+ATOM    573   NE ARG A  73      46.235  24.635 -42.394  0.21  6.56           N 0
+ATOM    564  CG2 ILE A  72      45.252  19.607 -46.560  0.00  0.00           C 0
+ATOM    571   CG ARG A  73      46.747  22.226 -42.362  0.00  0.00           C 0
+ATOM    546  ND1 HIS A  69      39.350  22.897 -44.839  0.32  3.28           N 0
+ATOM    565  CD1 ILE A  72      42.141  19.565 -46.456  0.00  0.00           C 0
+ATOM    549    N GLY A  70      41.552  19.781 -40.765  0.50  2.19           N 0
+ATOM    550   CA GLY A  70      42.579  19.366 -39.801  0.00  0.00           C 0
+ATOM    544   CG HIS A  69      39.074  22.749 -43.496  0.00  0.00           C 0
+ATOM    541    C HIS A  69      41.807  20.567 -41.818  0.00  0.00           C 0
+ATOM    561   CB ILE A  72      44.418  19.014 -45.408  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    12:
+HEADER 0  - Pocket Score                      : -0.0696
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8964
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5672
+HEADER 5  - Mean B-factor of pocket residues  : 0.3448
+HEADER 6  - Hydrophobicity Score              : 30.1250
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 213.1571
+HEADER 10 - Pocket volume (convex hull)       : 5.2596
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.4000
+ATOM    836    O ASN A 179     -32.761   1.541 106.388  0.56  8.57           O 0
+ATOM   1449  OE2 GLU A 264     -36.922  -3.101 105.050  0.59  9.64           O 1
+ATOM    814    O ALA A 176     -31.974  -0.994 109.195  0.69  8.57           O 0
+ATOM    819    O ILE A 177     -35.834  -1.221 108.310  0.60  4.29           O 0
+ATOM   1448  OE1 GLU A 264     -36.120  -5.166 104.770  0.00  0.00           O 0
+ATOM   2075   CG GLU A 318     -30.978  -8.739 108.729  0.00  0.00           C 0
+ATOM   2045    O SER A 314     -30.950 -10.235 104.761  0.52  2.14           O 0
+ATOM   2047   OG SER A 314     -30.592  -8.328 101.973  0.66  9.64           O 0
+ATOM    817   CA ILE A 177     -34.294  -2.407 109.667  0.00  0.00           C 0
+ATOM    821  CG1 ILE A 177     -33.729  -4.691 110.409  0.00  0.00           C 0
+ATOM   2053  CG1 ILE A 315     -35.382  -9.190 103.083  0.00  0.00           C 0
+ATOM    822  CG2 ILE A 177     -35.847  -4.350 109.111  0.00  0.00           C 0
+ATOM   1422  CD2 LEU A 261     -35.511  -8.819 108.400  0.00  0.00           C 0
+ATOM   2074   CB GLU A 318     -31.916  -9.895 108.420  0.00  0.00           C 0
+ATOM   2049   CA ILE A 315     -33.766 -10.894 104.128  0.00  0.00           C 0
+TER
+END

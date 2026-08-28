@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    74:
+HEADER 0  - Pocket Score                      : -0.1884
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8454
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5268
+HEADER 5  - Mean B-factor of pocket residues  : 0.2499
+HEADER 6  - Hydrophobicity Score              : 28.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 243.4804
+HEADER 10 - Pocket volume (convex hull)       : 5.4696
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.6000
+ATOM   5416   CG ARG C 219     135.319 150.466 177.253  0.00  0.00           C 0
+ATOM   6442  CD1 ILE D  25     138.345 154.484 179.749  0.00  0.00           C 0
+ATOM   5404   CB MET C 217     130.370 152.813 179.017  0.00  0.00           C 0
+ATOM   5420  NH1 ARG C 219     136.556 149.219 180.231  0.62  5.47           N 0
+ATOM   5412   CA ARG C 219     135.432 152.646 175.959  0.00  0.00           C 0
+ATOM   5408    O CYS C 218     133.506 154.573 175.760  0.50  3.21           O 0
+ATOM   6415   CB MET D  21     134.708 158.286 179.392  0.00  0.00           C 0
+ATOM   5391   CB GLU C 215     129.752 148.821 181.843  0.00  0.00           C 0
+ATOM   5392   CG GLU C 215     130.031 148.802 183.344  0.00  0.00           C 0
+ATOM   5393   CD GLU C 215     130.826 147.593 183.798  0.00  0.00           C 0
+ATOM   5394  OE1 GLU C 215     131.227 146.778 182.944  0.00  0.00           O 0
+ATOM   5395  OE2 GLU C 215     131.053 147.458 185.019  0.00  0.00           O 0
+ATOM   5371   CB ASP C 212     132.201 147.686 178.282  0.00  0.00           C 0
+ATOM   5372   CG ASP C 212     132.386 146.718 179.422  0.00  0.00           C 0
+ATOM   5403    O MET C 217     131.580 151.140 176.626  0.00  0.00           O 0
+ATOM   5374  OD2 ASP C 212     131.486 146.633 180.277  0.00  0.00           O 0
+TER
+END

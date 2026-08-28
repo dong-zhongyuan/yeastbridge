@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : 0.0239
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.7196
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4398
+HEADER 5  - Mean B-factor of pocket residues  : 0.1977
+HEADER 6  - Hydrophobicity Score              : 41.1250
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 93.6127
+HEADER 10 - Pocket volume (convex hull)       : 0.5867
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3000
+ATOM   8942   CA LEU B 476     189.938 202.500 180.585  0.00  0.00           C 0
+ATOM   8948  CD2 LEU B 476     191.563 202.427 178.048  0.00  0.00           C 0
+ATOM   8944    O LEU B 476     190.529 202.891 182.881  0.55  1.07           O 0
+ATOM   8966   CB GLU B 479     192.147 199.313 183.305  0.00  0.00           C 0
+ATOM   4007   OH TYR A 542     195.459 203.152 178.081  0.44  1.07           O 0
+ATOM   8853  NH2 ARG B 466     193.266 199.584 177.621  0.67  2.19           N 0
+ATOM   4457  CG2 THR A 597     196.057 205.420 180.780  0.00  0.00           C 0
+ATOM   3960  CD2 LEU A 538     197.576 203.760 183.503  0.00  0.00           C 0
+ATOM   4456  OG1 THR A 597     193.721 205.709 180.328  0.63  3.21           O 0
+ATOM   3990  CD1 TYR A 541     195.368 197.877 179.435  0.00  0.00           C 0
+ATOM   3958   CG LEU A 538     197.011 203.156 184.743  0.00  0.00           C 0
+ATOM   8971    N ALA B 480     191.846 201.816 185.344  0.85  1.09           N 0
+ATOM   8975   CB ALA B 480     192.026 204.214 185.804  0.00  0.00           C 0
+ATOM   3956    O LEU A 538     197.905 200.581 182.258  0.00  0.00           O 0
+TER
+END

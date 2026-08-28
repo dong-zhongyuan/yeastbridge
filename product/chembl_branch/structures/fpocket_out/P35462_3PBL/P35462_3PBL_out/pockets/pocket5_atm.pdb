@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     5:
+HEADER 0  - Pocket Score                      : 0.0814
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.7157
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6914
+HEADER 5  - Mean B-factor of pocket residues  : 0.4200
+HEADER 6  - Hydrophobicity Score              : -3.4000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 195.3337
+HEADER 10 - Pocket volume (convex hull)       : 5.1937
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3750
+ATOM   5746  CD1 TRP B1126      -8.456  38.745  40.215  0.00  0.00           C 0
+ATOM   5760  OD1 ASP B1127      -2.328  37.333  40.291  0.31  5.36           O 0
+ATOM   5761  OD2 ASP B1127      -1.284  39.224  39.870  0.55  9.64           O 0
+ATOM   5759   CG ASP B1127      -1.853  38.436  40.658  0.00  0.00           C 0
+ATOM   5744   CB TRP B1126      -6.973  37.332  41.781  0.00  0.00           C 0
+ATOM   5979    O ARG B1154      -6.853  35.197  38.792  0.50  6.43           O 0
+ATOM   5730   CA ARG B1125      -7.377  40.902  45.081  0.00  0.00           C 0
+ATOM   5734   CG ARG B1125      -7.212  42.854  46.787  0.00  0.00           C 0
+ATOM   5733   CB ARG B1125      -6.816  41.423  46.411  0.00  0.00           C 0
+ATOM   5770  OE2 GLU B1128      -3.234  43.531  47.013  0.00  0.00           O 0
+ATOM   5767   CG GLU B1128      -2.403  41.314  46.783  0.00  0.00           C 0
+ATOM   5758   CB ASP B1127      -1.948  38.849  42.126  0.00  0.00           C 0
+ATOM   5762    N GLU B1128      -2.869  38.649  45.292  0.00  0.00           N 0
+ATOM   5731    C ARG B1125      -6.852  39.496  44.836  0.00  0.00           C 0
+ATOM   5754    N ASP B1127      -4.187  38.110  42.877  0.69  1.09           N 0
+ATOM   5740    N TRP B1126      -6.873  39.062  43.577  0.54  1.09           N 0
+TER
+END

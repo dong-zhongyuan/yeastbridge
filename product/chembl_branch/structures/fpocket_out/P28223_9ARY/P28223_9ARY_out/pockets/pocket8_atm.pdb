@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : 0.0693
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.4915
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3523
+HEADER 5  - Mean B-factor of pocket residues  : 0.3841
+HEADER 6  - Hydrophobicity Score              : 28.4444
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.4444
+HEADER 9  - Pocket volume (Monte Carlo)       : 119.8881
+HEADER 10 - Pocket volume (convex hull)       : 3.8829
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3529
+ATOM    623   CA ILE A 169     130.402 134.979 151.980  0.00  0.00           C 0
+ATOM    651  OD2 ASP A 172     128.386 135.397 146.378  0.41  9.64           O 0
+ATOM   3652   OH TYR B 243     128.890 132.576 146.747  0.72  1.07           O 0
+ATOM    648   CB ASP A 172     127.444 134.921 148.509  0.00  0.00           C 0
+ATOM    627  CG1 ILE A 169     132.837 134.928 151.369  0.00  0.00           C 0
+ATOM    179    C ALA A 108     134.038 134.882 142.796  0.00  0.00           C 0
+ATOM    180    O ALA A 108     134.556 135.759 143.506  0.67  1.07           O 0
+ATOM    181   CB ALA A 108     132.216 135.421 141.155  0.00  0.00           C 0
+ATOM    183   CA THR A 109     133.956 133.292 144.652  0.00  0.00           C 0
+ATOM    182    N THR A 109     133.741 133.663 143.256  0.00  0.00           N 0
+ATOM   3649  CE1 TYR B 243     130.294 131.100 147.976  0.00  0.00           C 0
+ATOM    188  CG2 THR A 109     133.222 131.675 146.415  0.00  0.00           C 0
+ATOM    807   CA ALA A 192     131.948 139.779 142.800  0.00  0.00           C 0
+ATOM    810   CB ALA A 192     133.000 138.884 142.153  0.00  0.00           C 0
+ATOM    802   CG LYS A 191     127.543 138.156 142.914  0.00  0.00           C 0
+ATOM    209  CD2 PHE A 112     132.791 137.802 148.265  0.00  0.00           C 0
+ATOM    834   CB LYS A 195     130.470 141.049 146.721  0.00  0.00           C 0
+ATOM    800    O LYS A 191     129.543 140.896 143.573  0.35  1.07           O 0
+TER
+END

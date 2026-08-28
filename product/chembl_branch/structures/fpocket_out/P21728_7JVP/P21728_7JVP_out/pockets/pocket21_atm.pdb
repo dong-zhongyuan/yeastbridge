@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    21:
+HEADER 0  - Pocket Score                      : 0.0020
+HEADER 1  - Drug Score                        : 0.0008
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.7525
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4384
+HEADER 5  - Mean B-factor of pocket residues  : 0.0670
+HEADER 6  - Hydrophobicity Score              : -14.5000
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 148.3922
+HEADER 10 - Pocket volume (convex hull)       : 4.2661
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.2857
+ATOM   8001   CB ALA N 101     106.423 120.979  68.734  0.00  0.00           C 0
+ATOM   5945  OD2 ASP B 228     105.459 127.166  68.702  0.00  0.00           O 0
+ATOM   7994   CB PRO N 100     103.850 124.577  66.451  0.00  0.00           C 0
+ATOM   7995   CG PRO N 100     102.720 123.666  66.816  0.00  0.00           C 0
+ATOM   8045  OD2 ASP N 106     100.526 119.552  71.364  0.70  8.57           O 0
+ATOM   2951  NE2 GLN A 236     103.907 123.804  74.849  0.00  0.00           N 0
+ATOM   8044  OD1 ASP N 106     101.381 118.552  69.625  0.79  4.29           O 0
+ATOM   2905   CB ARG A 232     100.340 125.975  70.795  0.00  0.00           C 0
+ATOM   8059  CD2 PHE N 108      98.198 122.329  70.930  0.00  0.00           C 0
+ATOM   2904    O ARG A 232     100.657 125.793  74.053  0.58  2.14           O 0
+ATOM   6075  OD2 ASP B 246     107.846 125.249  70.956  0.57  2.14           O 0
+ATOM   3228  OD1 ASN A 279     100.978 119.578  74.223  0.55  1.07           O 0
+ATOM   8061  CE2 PHE N 108      98.046 121.469  72.003  0.00  0.00           C 0
+ATOM   3229  ND2 ASN A 279      99.343 120.901  75.001  0.00  0.00           N 0
+ATOM   2907   CD ARG A 232     101.872 126.475  68.919  0.00  0.00           C 0
+ATOM   2920   NZ LYS A 233     106.585 127.197  72.245  0.52  1.09           N 0
+ATOM   2906   CG ARG A 232     101.341 126.982  70.227  0.00  0.00           C 0
+TER
+END

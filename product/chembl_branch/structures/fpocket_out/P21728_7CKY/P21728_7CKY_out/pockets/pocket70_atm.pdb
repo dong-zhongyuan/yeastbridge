@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    70:
+HEADER 0  - Pocket Score                      : -0.1802
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.0553
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4749
+HEADER 5  - Mean B-factor of pocket residues  : 0.1377
+HEADER 6  - Hydrophobicity Score              : -5.6250
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 260.7947
+HEADER 10 - Pocket volume (convex hull)       : 15.6848
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1667
+ATOM    149  NE2 GLN A  29     118.061  82.221 106.052  0.64  8.75           N 0
+ATOM    148  OE1 GLN A  29     116.551  83.642 105.192  0.60  1.07           O 0
+ATOM    183  OD2 ASP A  33     116.858  85.990 103.032  0.64  6.43           O 1
+ATOM   2642   CB PRO B  94     117.110  81.718  98.408  0.00  0.00           C 0
+ATOM    182  OD1 ASP A  33     118.579  86.850 104.090  0.50  4.29           O 0
+ATOM   2512   NZ LYS B  78     114.488  83.015 101.791  0.59  7.66           N 1
+ATOM   2628    O ALA B  92     112.917  80.794 100.593  0.61  5.36           O 0
+ATOM    146   CG GLN A  29     115.763  82.041 106.788  0.00  0.00           C 0
+ATOM    122  CD1 ILE A  26     110.667  79.670 105.024  0.00  0.00           C 0
+ATOM    145   CB GLN A  29     114.493  82.871 106.888  0.00  0.00           C 0
+ATOM    147   CD GLN A  29     116.830  82.705 105.940  0.00  0.00           C 0
+ATOM   2643   CG PRO B  94     116.873  80.251  98.547  0.00  0.00           C 0
+ATOM    113   CE LYS A  25     114.164  76.655 108.648  0.00  0.00           C 0
+ATOM    111   CG LYS A  25     112.617  78.279 109.769  0.00  0.00           C 0
+ATOM   2920  ND2 ASN B 132     114.945  74.879 103.905  0.30  9.84           N 0
+ATOM   2644   CD PRO B  94     115.383  80.062  98.624  0.00  0.00           C 0
+TER
+END

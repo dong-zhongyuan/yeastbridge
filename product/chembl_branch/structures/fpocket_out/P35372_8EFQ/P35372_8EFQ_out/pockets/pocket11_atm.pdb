@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : 0.0163
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.7753
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4356
+HEADER 5  - Mean B-factor of pocket residues  : 0.3672
+HEADER 6  - Hydrophobicity Score              : 29.8571
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 205.3810
+HEADER 10 - Pocket volume (convex hull)       : 3.0903
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0667
+ATOM   6444   CB ASN R 276     151.064 118.015 136.671  0.00  0.00           C 0
+ATOM   1731    O LEU A 353     147.549 123.325 139.296  0.39  1.07           O 0
+ATOM   1747  OXT PHE A 354     148.994 123.965 136.058  0.39  4.29           O 0
+ATOM   1737   CA PHE A 354     146.855 123.044 136.644  0.00  0.00           C 0
+ATOM   6446  OD1 ASN R 276     152.778 119.676 136.489  0.60  6.43           O 0
+ATOM   6990  OE2 GLU R 343     151.490 125.914 138.992  0.57  2.14           O 1
+ATOM   6438  NH1 ARG R 275     156.896 119.551 136.942  0.44  7.66           N 0
+ATOM   6989  OE1 GLU R 343     151.769 127.064 137.146  0.00  0.00           O 0
+ATOM   6443    O ASN R 276     149.853 117.852 139.719  0.66  1.07           O 0
+ATOM   6474   NE ARG R 279     152.865 123.185 141.312  0.71  7.66           N 0
+ATOM   6473   CD ARG R 279     152.799 121.774 140.945  0.00  0.00           C 0
+ATOM   6439  NH2 ARG R 275     158.040 119.740 138.921  0.00  0.00           N 0
+ATOM   6476  NH1 ARG R 279     150.690 123.618 140.698  0.68  2.19           N 0
+ATOM   6485  CD1 ILE R 280     146.513 119.275 139.201  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : 0.0048
+HEADER 1  - Drug Score                        : 0.0015
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.6588
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4091
+HEADER 5  - Mean B-factor of pocket residues  : 0.1716
+HEADER 6  - Hydrophobicity Score              : 40.1667
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 97.1758
+HEADER 10 - Pocket volume (convex hull)       : 0.8983
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.6471
+ATOM    853    O GLU A 268      10.533  -1.635  39.522  0.00  0.00           O 0
+ATOM    884   CB LEU A 272       8.940  -0.232  36.939  0.00  0.00           C 0
+ATOM   5773  CG1 VAL N 110       6.754  -2.686  41.491  0.00  0.00           C 0
+ATOM    887  CD2 LEU A 272       8.804   2.267  37.079  0.00  0.00           C 0
+ATOM    613  NH1 ARG A 231       6.093   4.236  39.980  0.62  4.37           N 0
+ATOM   5781  CG2 THR N 111       3.425   0.961  42.044  0.00  0.00           C 0
+ATOM    858  OE2 GLU A 268      10.276   1.990  43.259  0.65  6.43           O 0
+ATOM   5771    O VAL N 110       6.579  -1.289  44.593  0.80  1.07           O 0
+ATOM    610   CD ARG A 231       4.610   2.936  37.973  0.00  0.00           C 0
+ATOM   5756  CD2 PHE N 108       3.318  -0.413  36.718  0.00  0.00           C 0
+ATOM    886  CD1 LEU A 272       6.901   0.978  36.103  0.00  0.00           C 0
+ATOM   5776   CA THR N 111       4.423   0.419  44.265  0.00  0.00           C 0
+ATOM    855   CG GLU A 268      10.867  -0.118  42.326  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    26:
+HEADER 0  - Pocket Score                      : -0.0741
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.1113
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7216
+HEADER 5  - Mean B-factor of pocket residues  : 0.5550
+HEADER 6  - Hydrophobicity Score              : -12.4000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 185.2377
+HEADER 10 - Pocket volume (convex hull)       : 1.7060
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1250
+ATOM   6649   CA THR B 327     128.493 193.281 174.287  0.00  0.00           C 0
+ATOM   5466   NZ LYS B  51     129.832 188.931 176.511  0.00  0.00           N 0
+ATOM   6652   CB THR B 327     127.102 193.690 174.767  0.00  0.00           C 0
+ATOM   6651    O THR B 327     127.448 192.999 172.137  0.29  3.21           O 0
+ATOM   6658    O ASP B 328     131.386 191.054 171.149  0.85  2.14           O 0
+ATOM   5475  NE2 GLN B  52     132.166 189.209 174.448  0.47  2.19           N 0
+ATOM   6667   CB THR B 329     129.553 188.845 168.156  0.00  0.00           C 0
+ATOM   6664   CA THR B 329     130.642 189.688 168.817  0.00  0.00           C 0
+ATOM   6650    C THR B 327     128.498 193.077 172.778  0.00  0.00           C 0
+ATOM   5472   CG GLN B  52     133.278 187.467 173.196  0.00  0.00           C 0
+ATOM   6668  OG1 THR B 329     130.137 187.665 167.589  0.75  5.36           O 0
+ATOM   6657    C ASP B 328     130.512 191.530 170.417  0.00  0.00           C 0
+ATOM   6663    N THR B 329     130.085 190.938 169.307  0.00  0.00           N 0
+TER
+END

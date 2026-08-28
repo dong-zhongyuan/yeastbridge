@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    31:
+HEADER 0  - Pocket Score                      : -0.0141
+HEADER 1  - Drug Score                        : 0.0030
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.9095
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5398
+HEADER 5  - Mean B-factor of pocket residues  : 0.1020
+HEADER 6  - Hydrophobicity Score              : 18.5000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 245.9994
+HEADER 10 - Pocket volume (convex hull)       : 8.3126
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.5455
+ATOM   2199    O ARG B  52     123.040 125.210 139.401  0.00  0.00           O 0
+ATOM    126   CG ASP A  20     126.832 129.418 138.944  0.00  0.00           C 0
+ATOM    128  OD2 ASP A  20     125.915 130.246 138.774  0.00  0.00           O 0
+ATOM    127  OD1 ASP A  20     126.726 128.423 139.680  0.00  0.00           O 0
+ATOM    125   CB ASP A  20     128.135 129.624 138.225  0.00  0.00           C 0
+ATOM    161   CG ARG A  24     129.892 126.193 134.367  0.00  0.00           C 0
+ATOM    162   CD ARG A  24     129.360 127.010 133.202  0.00  0.00           C 0
+ATOM    124    O ASP A  20     130.588 127.676 137.241  0.67  1.07           O 0
+ATOM   2208   CA GLY B  53     125.025 123.390 138.798  0.00  0.00           C 0
+ATOM   2210    O GLY B  53     127.122 122.368 139.266  0.00  0.00           O 0
+ATOM    163   NE ARG A  24     129.335 128.438 133.502  0.32  5.47           N 0
+ATOM   2201   CG ARG B  52     120.971 125.405 136.970  0.00  0.00           C 0
+ATOM   2202   CD ARG B  52     120.306 125.629 135.626  0.00  0.00           C 0
+ATOM   2228  CD2 LEU B  55     129.540 121.110 135.758  0.00  0.00           C 0
+ATOM    152   CB LEU A  23     130.638 124.691 139.361  0.00  0.00           C 0
+ATOM    154  CD1 LEU A  23     128.879 124.768 141.106  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    16:
+HEADER 0  - Pocket Score                      : -0.0021
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.5871
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4415
+HEADER 5  - Mean B-factor of pocket residues  : 0.0865
+HEADER 6  - Hydrophobicity Score              : 25.5000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 87.5960
+HEADER 10 - Pocket volume (convex hull)       : 1.2691
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.5000
+ATOM   6027  CG2 VAL S 187     136.156 156.082 170.385  0.00  0.00           C 0
+ATOM   6026  CG1 VAL S 187     134.485 156.768 172.117  0.00  0.00           C 0
+ATOM   5928  NE2 GLN S 174     140.266 157.932 170.315  0.45  4.37           N 0
+ATOM   5944  CD2 LEU S 176     135.568 160.200 170.108  0.00  0.00           C 0
+ATOM   6053  NH2 ARG S 190     135.994 160.225 178.184  0.00  0.00           N 0
+ATOM   6191  OE2 GLU S 210     138.611 160.486 178.105  0.70  5.36           O 0
+ATOM   6063  CE2 PHE S 191     133.994 160.295 174.300  0.00  0.00           C 0
+ATOM   5886  NH2 ARG S 168     140.127 161.519 174.511  0.38  8.75           N 0
+ATOM   5865  CD1 LEU S 166     136.602 163.714 172.289  0.00  0.00           C 0
+ATOM   6034   CD PRO S 188     136.131 156.371 175.320  0.00  0.00           C 0
+ATOM   6020    O GLY S 186     139.004 154.850 172.695  0.20  4.29           O 0
+ATOM   6022   CA VAL S 187     136.213 155.025 172.665  0.00  0.00           C 0
+ATOM   5927  OE1 GLN S 174     140.333 160.148 170.666  0.79  1.07           O 0
+TER
+END

@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    31:
+HEADER 0  - Pocket Score                      : 0.0068
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.1227
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6464
+HEADER 5  - Mean B-factor of pocket residues  : 0.1145
+HEADER 6  - Hydrophobicity Score              : 41.8571
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 200.6410
+HEADER 10 - Pocket volume (convex hull)       : 3.8958
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.4375
+ATOM   9461  ND2 ASN M 111     101.208 122.498 151.201  0.00  0.00           N 0
+ATOM  10093  CG2 VAL M 191     105.287 128.313 148.747  0.00  0.00           C 0
+ATOM  10059   CG LYS M 187     105.019 128.578 155.296  0.00  0.00           C 0
+ATOM   9460  OD1 ASN M 111     102.620 122.352 152.938  0.80  2.14           O 0
+ATOM   9421  CG2 ILE M 107     103.355 124.013 155.939  0.00  0.00           C 0
+ATOM   9450  CD2 PHE M 110      97.653 122.505 154.268  0.00  0.00           C 0
+ATOM  10057    O LYS M 187     106.966 127.301 151.340  0.85  1.07           O 0
+ATOM  10058   CB LYS M 187     106.055 128.709 154.195  0.00  0.00           C 0
+ATOM  10083   CB ASN M 190     105.840 123.674 151.252  0.00  0.00           C 0
+ATOM  10114  CD1 TRP M 194     103.383 123.074 147.356  0.00  0.00           C 0
+ATOM  10086  ND2 ASN M 190     105.670 123.008 153.572  0.00  0.00           N 0
+ATOM  10087    N VAL M 191     106.750 125.655 148.916  0.00  0.00           N 0
+ATOM  10055   CA LYS M 187     106.655 127.386 153.717  0.00  0.00           C 0
+TER
+END

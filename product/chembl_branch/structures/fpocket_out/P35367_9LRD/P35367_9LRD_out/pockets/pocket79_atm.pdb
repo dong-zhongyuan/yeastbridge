@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    79:
+HEADER 0  - Pocket Score                      : -0.1372
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.8072
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4633
+HEADER 5  - Mean B-factor of pocket residues  : 0.0590
+HEADER 6  - Hydrophobicity Score              : 11.1111
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Amino Acid based volume Score     : 4.7778
+HEADER 9  - Pocket volume (Monte Carlo)       : 218.2021
+HEADER 10 - Pocket volume (convex hull)       : 6.7029
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM    110   NZ LYS A  17     111.995 107.029 102.793  0.43  9.84           N 1
+ATOM    134  OD2 ASP A  20     114.856 111.035 100.938  0.83  4.29           O 1
+ATOM   2421    O THR B  87     109.408 110.698  97.908  0.00  4.29           O 0
+ATOM   2146  NH1 ARG B  52     112.120 113.139 104.490  0.00  0.00           N 1
+ATOM   2423  OG1 THR B  87     106.701 110.682  98.702  0.00  0.00           O 0
+ATOM   2441   NZ LYS B  89     114.043 113.774  99.681  0.54  4.37           N 1
+ATOM   2137    N ARG B  52     110.531 116.764 100.981  0.00  0.00           N 0
+ATOM   2125    O THR B  50     107.136 115.642 101.287  0.48  4.29           O 0
+ATOM   2142   CG ARG B  52     110.393 115.670 103.606  0.00  0.00           C 0
+ATOM   2422   CB THR B  87     106.934 111.904  97.993  0.00  0.00           C 0
+ATOM   2143   CD ARG B  52     110.364 115.298 105.085  0.00  0.00           C 0
+ATOM   2140    O ARG B  52     112.947 115.497 101.319  0.00  0.00           O 0
+ATOM   2130   CA LEU B  51     108.775 116.795  99.315  0.00  0.00           C 0
+ATOM    101   OG SER A  16     113.776 109.003  98.138  0.10  2.14           O 0
+ATOM   2383  CZ3 TRP B  82     112.485 115.653  97.650  0.00  0.00           C 0
+TER
+END

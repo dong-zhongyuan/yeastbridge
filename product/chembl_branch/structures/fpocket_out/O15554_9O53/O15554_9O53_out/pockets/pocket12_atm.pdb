@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    12:
+HEADER 0  - Pocket Score                      : 0.0670
+HEADER 1  - Drug Score                        : 0.0018
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.6979
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3714
+HEADER 5  - Mean B-factor of pocket residues  : 0.4567
+HEADER 6  - Hydrophobicity Score              : 35.6000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.9000
+HEADER 9  - Pocket volume (Monte Carlo)       : 154.0342
+HEADER 10 - Pocket volume (convex hull)       : 7.5740
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 16.0000
+HEADER 13 - Number of apolar alpha sphere     :    17
+HEADER 14 - Proportion of apolar alpha sphere : 0.7727
+ATOM   8565   CD ARG D 124     130.430 118.839 131.511  0.00  0.00           C 0
+ATOM   8603  CE2 PHE D 128     129.441 121.952 134.075  0.00  0.00           C 0
+ATOM   8575   CG ARG D 125     124.233 121.272 132.000  0.00  0.00           C 0
+ATOM   8564   CG ARG D 124     129.429 118.414 132.569  0.00  0.00           C 0
+ATOM  12939   SD MET F  77     130.160 123.399 128.431  0.00  0.00           S 0
+ATOM   8536  CD2 LEU D 121     128.014 119.376 127.166  0.00  0.00           C 0
+ATOM  12457   CZ PHE F  13     126.288 122.409 126.309  0.00  0.00           C 0
+ATOM   8532    O LEU D 121     125.329 117.595 130.188  0.60  1.07           O 0
+ATOM   8601  CD2 PHE D 128     128.218 121.912 134.709  0.00  0.00           C 0
+ATOM   9829    O THR D 281     127.306 126.918 132.489  0.52  1.07           O 0
+ATOM   9845   CB ALA D 283     126.722 126.922 127.349  0.00  0.00           C 0
+ATOM   9842   CA ALA D 283     127.840 127.590 128.147  0.00  0.00           C 0
+ATOM   8579  NH1 ARG D 125     121.932 123.919 131.690  0.00  0.00           N 0
+ATOM  12456  CE2 PHE F  13     125.079 121.908 125.885  0.00  0.00           C 0
+ATOM  12420   CB GLN F   9     121.224 121.465 127.836  0.00  0.00           C 0
+ATOM  12417   CA GLN F   9     120.842 122.934 127.654  0.00  0.00           C 0
+ATOM  12445  OE1 GLU F  12     123.556 126.783 130.018  0.74  2.14           O 0
+ATOM   8576   CD ARG D 125     123.857 122.324 133.026  0.00  0.00           C 0
+TER
+END

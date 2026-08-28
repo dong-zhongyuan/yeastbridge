@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     2:
+HEADER 0  - Pocket Score                      : 0.1230
+HEADER 1  - Drug Score                        : 0.0043
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.6321
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3627
+HEADER 5  - Mean B-factor of pocket residues  : 0.5983
+HEADER 6  - Hydrophobicity Score              : 45.7000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 131.7441
+HEADER 10 - Pocket volume (convex hull)       : 3.0580
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.6818
+ATOM   7643  CG1 VAL R 239     178.581 172.790 173.981  0.00  0.00           C 0
+ATOM   8039  CG2 VAL R 293     173.716 169.770 169.661  0.00  0.00           C 0
+ATOM   8031  CG1 VAL R 292     177.931 170.808 168.503  0.00  0.00           C 0
+ATOM   7623  CG1 VAL R 236     176.750 166.985 172.207  0.00  0.00           C 0
+ATOM   8009    O LEU R 289     175.960 174.799 170.378  0.61  1.07           O 0
+ATOM   6412  OD2 ASP R  73     169.307 173.892 172.691  0.53  1.07           O 0
+ATOM   6745  CD2 LEU R 118     171.521 169.477 175.000  0.00  0.00           C 0
+ATOM   6386  CD1 LEU R  69     168.848 170.392 173.162  0.00  0.00           C 0
+ATOM   6387  CD2 LEU R  69     169.793 169.188 171.192  0.00  0.00           C 0
+ATOM   6744  CD1 LEU R 118     173.284 168.123 173.905  0.00  0.00           C 0
+ATOM   7621    O VAL R 236     178.924 168.316 174.114  0.55  2.14           O 0
+ATOM   7990    O ASN R 286     173.651 174.939 174.421  0.50  1.07           O 0
+ATOM   8015   CA ASP R 290     173.177 174.674 170.242  0.00  0.00           C 0
+ATOM   7993  OD1 ASN R 286     175.020 172.523 176.163  0.59  5.36           O 0
+ATOM   7619   CA VAL R 236     179.082 167.758 171.771  0.00  0.00           C 0
+ATOM   8018   CB ASP R 290     171.704 174.918 170.531  0.00  0.00           C 0
+ATOM   7642   CB VAL R 239     179.701 171.825 173.684  0.00  0.00           C 0
+TER
+END

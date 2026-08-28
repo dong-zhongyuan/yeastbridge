@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : -0.0624
+HEADER 1  - Drug Score                        : 0.0024
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.6523
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6826
+HEADER 5  - Mean B-factor of pocket residues  : 0.1371
+HEADER 6  - Hydrophobicity Score              : 71.2500
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 179.2923
+HEADER 10 - Pocket volume (convex hull)       : 4.9841
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 8.2000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.6250
+ATOM   1017   CB VAL A 204     -20.572   1.070 135.841  0.00  0.00           C 0
+ATOM   1018  CG1 VAL A 204     -19.902   1.880 136.931  0.00  0.00           C 0
+ATOM   1019  CG2 VAL A 204     -19.619   0.012 135.315  0.00  0.00           C 0
+ATOM    997  OG1 THR A 201     -20.022   4.266 130.499  0.00  0.00           O 0
+ATOM    993   CA THR A 201     -21.614   3.091 131.786  0.00  0.00           C 0
+ATOM    998  CG2 THR A 201     -21.608   5.635 131.753  0.00  0.00           C 0
+ATOM    992    N THR A 201     -21.515   1.911 130.906  0.00  0.00           N 0
+ATOM    981    O TRP A 200     -21.616   0.401 132.593  0.00  0.00           O 0
+ATOM    995    O THR A 201     -22.989   3.277 133.725  0.40  2.14           O 0
+ATOM    982   CB TRP A 200     -19.939  -0.690 130.013  0.00  0.00           C 0
+ATOM    959   CA ILE A 197     -19.281   1.988 126.506  0.00  0.00           C 0
+ATOM    961    O ILE A 197     -20.626   2.530 128.391  0.00  0.00           O 0
+ATOM    964  CG2 ILE A 197     -18.103   4.123 127.147  0.00  0.00           C 0
+ATOM    984  CD1 TRP A 200     -19.537  -2.541 128.273  0.00  0.00           C 0
+ATOM    963  CG1 ILE A 197     -16.913   2.409 125.708  0.00  0.00           C 0
+ATOM    983   CG TRP A 200     -19.626  -2.083 129.562  0.00  0.00           C 0
+ATOM    980    C TRP A 200     -21.515   0.677 131.394  0.00  0.00           C 0
+TER
+END

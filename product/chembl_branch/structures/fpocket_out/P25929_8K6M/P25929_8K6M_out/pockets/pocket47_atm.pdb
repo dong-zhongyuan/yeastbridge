@@ -1,0 +1,45 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    47:
+HEADER 0  - Pocket Score                      : -0.0252
+HEADER 1  - Drug Score                        : 0.0018
+HEADER 2  - Number of alpha spheres           :    26
+HEADER 3  - Mean alpha-sphere radius          : 3.7781
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4800
+HEADER 5  - Mean B-factor of pocket residues  : 0.3955
+HEADER 6  - Hydrophobicity Score              : 26.8750
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.6250
+HEADER 9  - Pocket volume (Monte Carlo)       : 364.9490
+HEADER 10 - Pocket volume (convex hull)       : 14.6210
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.2692
+ATOM   8400   CZ ARG S 160     105.365 164.601  88.352  0.00  0.00           C 0
+ATOM   8285   CB ALA S 143     100.357 163.699  83.221  0.00  0.00           C 0
+ATOM   8402  NH2 ARG S 160     104.609 165.131  89.309  0.15  7.66           N 0
+ATOM   8401  NH1 ARG S 160     105.977 165.401  87.493  0.69  7.66           N 0
+ATOM   8270  OG1 THR S 141     101.109 162.426  89.428  0.54  4.29           O 0
+ATOM   8399   NE ARG S 160     105.489 163.283  88.281  0.39  1.09           N 0
+ATOM   8398   CD ARG S 160     106.286 162.583  87.281  0.00  0.00           C 0
+ATOM   8282   CA ALA S 143      99.053 163.329  83.928  0.00  0.00           C 0
+ATOM   8397   CG ARG S 160     106.175 161.075  87.426  0.00  0.00           C 0
+ATOM   8385   OG SER S 158     103.435 159.606  81.622  0.55  9.64           O 0
+ATOM   8793   CB ALA S 211     110.520 157.700  84.641  0.00  0.00           C 0
+ATOM   8384   CB SER S 158     104.043 158.331  81.508  0.00  0.00           C 0
+ATOM   8269   CB THR S 141      99.806 162.243  89.996  0.00  0.00           C 0
+ATOM   8275    O GLN S 142      97.170 162.170  85.590  0.33  3.21           O 0
+ATOM   8790   CA ALA S 211     109.517 157.116  85.635  0.00  0.00           C 0
+ATOM   8794    N PHE S 212     107.817 155.687  84.648  0.73  1.09           N 0
+ATOM   8797    O PHE S 212     106.026 155.885  82.620  0.64  4.29           O 0
+ATOM   8389    O CYS S 159     104.749 156.931  86.200  0.75  2.14           O 0
+ATOM   8396   CB ARG S 160     104.722 160.635  87.517  0.00  0.00           C 0
+ATOM   8281    N ALA S 143      99.184 162.024  84.568  0.59  2.19           N 0
+ATOM   8268    O THR S 141     100.667 160.096  87.890  0.59  1.07           O 0
+ATOM   8383    O SER S 158     101.448 158.286  83.244  0.58  1.07           O 0
+ATOM   8392    N ARG S 160     103.468 158.559  87.094  0.78  1.09           N 0
+TER
+END

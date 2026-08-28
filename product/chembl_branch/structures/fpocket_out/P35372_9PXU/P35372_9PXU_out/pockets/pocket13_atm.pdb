@@ -1,0 +1,44 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : 0.0252
+HEADER 1  - Drug Score                        : 0.0417
+HEADER 2  - Number of alpha spheres           :    30
+HEADER 3  - Mean alpha-sphere radius          : 3.8684
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5136
+HEADER 5  - Mean B-factor of pocket residues  : 0.4699
+HEADER 6  - Hydrophobicity Score              : 67.5556
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 249.3349
+HEADER 10 - Pocket volume (convex hull)       : 18.0192
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 25.0000
+HEADER 13 - Number of apolar alpha sphere     :    26
+HEADER 14 - Proportion of apolar alpha sphere : 0.8667
+ATOM   1265  CD1 LEU R 234     157.458 154.082  99.069  0.00  0.00           C 0
+ATOM   1235  CZ2 TRP R 230     159.755 157.263  92.833  0.00  0.00           C 0
+ATOM   1263   CB LEU R 234     159.909 153.835  99.411  0.00  0.00           C 0
+ATOM   1233  CE2 TRP R 230     160.376 156.030  92.647  0.00  0.00           C 0
+ATOM   1258  CD2 LEU R 233     163.146 157.759  97.434  0.00  0.00           C 0
+ATOM   1264   CG LEU R 234     158.557 154.010 100.113  0.00  0.00           C 0
+ATOM   1289   SG CYS R 237     161.045 159.077 102.836  0.00  0.00           S 0
+ATOM   1227    O TRP R 230     162.521 153.297  95.261  0.43  2.14           O 0
+ATOM   1259    N LEU R 234     162.295 154.240  99.054  0.47  1.09           N 0
+ATOM   1166  CE1 PHE R 223     157.442 150.710  95.388  0.00  0.00           C 0
+ATOM   1232  NE1 TRP R 230     159.835 154.778  92.527  0.66  1.09           N 0
+ATOM   1065   SD MET R 207     155.285 154.275  94.402  0.00  0.00           S 0
+ATOM   1066   CE MET R 207     156.154 155.388  93.300  0.00  0.00           C 0
+ATOM   1030   CB PRO R 203     153.498 157.889  96.993  0.00  0.00           C 0
+ATOM   1260   CA LEU R 234     161.212 154.364 100.021  0.00  0.00           C 0
+ATOM   1288   CB CYS R 237     162.111 157.671 102.456  0.00  0.00           C 0
+ATOM   1013  CD1 ILE R 200     157.235 159.089 103.542  0.00  0.00           C 0
+ATOM   1011  CG1 ILE R 200     156.140 159.363 102.539  0.00  0.00           C 0
+ATOM   1012  CG2 ILE R 200     155.656 157.001 101.993  0.00  0.00           C 0
+ATOM   1031   CG PRO R 203     153.242 159.249  97.442  0.00  0.00           C 0
+ATOM   1004    O ALA R 199     154.021 161.142 100.084  0.46  3.21           O 0
+ATOM   1007   CA ILE R 200     153.890 158.791 101.573  0.00  0.00           C 0
+TER
+END

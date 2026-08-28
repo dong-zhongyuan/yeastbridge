@@ -1,0 +1,46 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     3:
+HEADER 0  - Pocket Score                      : 0.1134
+HEADER 1  - Drug Score                        : 0.0259
+HEADER 2  - Number of alpha spheres           :    35
+HEADER 3  - Mean alpha-sphere radius          : 3.5844
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3628
+HEADER 5  - Mean B-factor of pocket residues  : 0.3596
+HEADER 6  - Hydrophobicity Score              : 32.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.4167
+HEADER 9  - Pocket volume (Monte Carlo)       : 216.7366
+HEADER 10 - Pocket volume (convex hull)       : 26.6023
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 30.0000
+HEADER 13 - Number of apolar alpha sphere     :    31
+HEADER 14 - Proportion of apolar alpha sphere : 0.8857
+ATOM    479   CB SER A  95     173.247 145.323 113.338  0.00  0.00           C 0
+ATOM    480   OG SER A  95     172.613 144.929 112.134  0.35  3.21           O 0
+ATOM    450   CA LEU A  92     172.012 148.145 116.207  0.00  0.00           C 0
+ATOM    452    O LEU A  92     173.662 148.865 114.636  0.72  1.07           O 0
+ATOM    485   CB ILE A  96     174.217 150.180 111.633  0.00  0.00           C 0
+ATOM    456  CD2 LEU A  92     168.501 149.480 115.631  0.00  0.00           C 0
+ATOM    453   CB LEU A  92     170.899 149.191 116.268  0.00  0.00           C 0
+ATOM   1958   OG SER A 283     169.451 152.514 110.184  0.54  9.64           O 0
+ATOM   1954   CA SER A 283     167.892 154.237 110.886  0.00  0.00           C 0
+ATOM   1977   CB VAL A 286     165.249 153.442 114.281  0.00  0.00           C 0
+ATOM   1979  CG2 VAL A 286     164.291 152.640 113.415  0.00  0.00           C 0
+HETATM 8228   CN MLE D   8     168.247 145.948 111.389  0.00  0.00           C 0
+ATOM     96  CE2 PHE A  44     170.491 153.436 116.029  0.00  0.00           C 0
+ATOM   1978  CG1 VAL A 286     165.611 152.666 115.537  0.00  0.00           C 0
+ATOM    487  CG2 ILE A  96     174.885 151.000 112.714  0.00  0.00           C 0
+ATOM    488  CD1 ILE A  96     173.026 150.408 109.390  0.00  0.00           C 0
+ATOM    522  CD2 HIS A 100     171.904 146.314 107.516  0.00  0.00           C 0
+ATOM    524  NE2 HIS A 100     171.409 147.535 107.126  0.60  2.19           N 0
+ATOM   1957   CB SER A 283     169.333 153.884 110.525  0.00  0.00           C 0
+ATOM     63   CB ALA A  40     171.865 156.523 112.849  0.00  0.00           C 0
+ATOM     41  OD1 ASP A  37     172.190 154.386 109.221  0.00  0.00           O 0
+ATOM    486  CG1 ILE A  96     173.937 151.056 110.410  0.00  0.00           C 0
+ATOM   8224   CB PRO D   7     166.386 148.376 109.616  0.00  0.00           C 0
+HETATM 8236    N DAL D   9     165.755 147.504 114.130  0.92  3.28           N 0
+TER
+END

@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    45:
+HEADER 0  - Pocket Score                      : -0.0405
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.5880
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4297
+HEADER 5  - Mean B-factor of pocket residues  : 0.2174
+HEADER 6  - Hydrophobicity Score              : 9.6000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 123.6865
+HEADER 10 - Pocket volume (convex hull)       : 1.9370
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3750
+ATOM   7734  NH2 ARG B 256     111.658  86.899  60.621  0.54  7.66           N 0
+ATOM   9421   NZ LYS G  32     106.331  85.552  61.236  0.58  6.56           N 1
+ATOM   9351  CG2 ILE G  28     107.227  90.513  57.945  0.00  0.00           C 0
+ATOM   9352  CD1 ILE G  28     108.285  89.320  55.267  0.00  0.00           C 0
+ATOM   9350  CG1 ILE G  28     109.045  90.268  56.207  0.00  0.00           C 0
+ATOM   9418   CG LYS G  32     105.188  88.300  60.155  0.00  0.00           C 0
+ATOM   9420   CE LYS G  32     105.071  85.763  60.478  0.00  0.00           C 0
+ATOM   7730   CD ARG B 256     111.698  89.826  60.452  0.00  0.00           C 0
+ATOM   9435    N ALA G  33     105.770  91.649  62.220  0.00  0.00           N 0
+ATOM   9416    O LYS G  32     105.542  89.697  63.297  0.00  0.00           O 0
+ATOM   9436   CA ALA G  33     106.852  92.150  63.061  0.00  0.00           C 0
+ATOM   9469   CB ASP G  36     108.018  88.329  65.341  0.00  0.00           C 0
+ATOM   9472  OD2 ASP G  36     110.342  87.810  65.076  0.78  2.14           O 1
+ATOM   9415    C LYS G  32     105.186  90.470  62.412  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : -0.0247
+HEADER 1  - Drug Score                        : 0.0013
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0065
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6851
+HEADER 5  - Mean B-factor of pocket residues  : 0.4958
+HEADER 6  - Hydrophobicity Score              : 18.7778
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.1111
+HEADER 9  - Pocket volume (Monte Carlo)       : 327.3190
+HEADER 10 - Pocket volume (convex hull)       : 13.9246
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.4375
+ATOM   7778   CA ASP R 309       8.699 -13.738 -31.910  0.00  0.00           C 0
+ATOM   7781   CB ASP R 309       8.138 -14.838 -32.811  0.00  0.00           C 0
+ATOM   7768   SG CYS R 307      13.907 -10.761 -32.460  0.00  0.00           S 0
+ATOM   7777    N ASP R 309       9.841 -14.230 -31.158  0.44  2.19           N 0
+ATOM   7766    O CYS R 307      14.196 -14.275 -31.270  0.62  7.50           O 0
+ATOM   7771    C ILE R 308      10.678 -13.390 -30.552  0.00  0.00           C 0
+ATOM   7772    O ILE R 308      10.541 -12.162 -30.591  0.91  2.14           O 0
+ATOM   7785    N SER R 310       6.573 -12.634 -31.558  0.00  0.00           N 0
+ATOM   7732  CD1 LEU R 295       8.304  -9.213 -29.815  0.00  0.00           C 0
+ATOM   7733  CD2 LEU R 295       8.066  -6.753 -30.138  0.00  0.00           C 0
+ATOM   7731   CG LEU R 295       9.023  -7.933 -30.207  0.00  0.00           C 0
+ATOM   7789   CB SER R 310       4.649 -11.119 -31.620  0.00  0.00           C 0
+ATOM   7757   SG CYS R 298      13.396  -8.809 -32.688  0.00  0.00           S 0
+ATOM   7755    O CYS R 298      12.250  -6.216 -34.859  0.00  0.00           O 0
+ATOM   7729    O LEU R 295      11.287  -6.232 -32.064  0.00  0.00           O 0
+ATOM   7790   OG SER R 310       3.707 -10.419 -30.826  0.60  4.29           O 0
+ATOM   7091   OG SER R 189       3.495  -4.874 -33.297  0.00  0.00           O 0
+ATOM   7079  OD2 ASP R 187       0.198  -9.270 -33.905  0.54  9.64           O 0
+ATOM   7083    O SER R 188       3.234  -5.125 -29.677  0.53  2.14           O 0
+TER
+END

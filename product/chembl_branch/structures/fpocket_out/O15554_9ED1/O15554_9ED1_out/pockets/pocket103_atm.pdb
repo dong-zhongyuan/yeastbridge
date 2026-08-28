@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   103:
+HEADER 0  - Pocket Score                      : -0.1600
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.0669
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5886
+HEADER 5  - Mean B-factor of pocket residues  : 0.1896
+HEADER 6  - Hydrophobicity Score              : 27.9091
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 315.6143
+HEADER 10 - Pocket volume (convex hull)       : 19.6029
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2941
+ATOM   8930  OE1 GLU D  83     255.348 210.337 201.248  0.58  3.21           O 0
+ATOM   9408   CG ARG D 165     249.594 206.532 204.742  0.00  0.00           C 0
+ATOM   8931  OE2 GLU D  83     254.395 211.036 199.397  0.00  0.00           O 0
+ATOM   8898   CZ PHE D  79     253.718 206.655 203.504  0.00  0.00           C 0
+ATOM   9410   NE ARG D 165     250.861 208.037 206.225  0.00  0.00           N 0
+ATOM   8897  CE2 PHE D  79     254.192 207.578 204.409  0.00  0.00           C 0
+ATOM   9433  CD2 LEU D 168     246.206 207.008 199.641  0.00  0.00           C 0
+ATOM   9441  CD2 LEU D 169     250.506 203.887 199.795  0.00  0.00           C 0
+ATOM   9439   CG LEU D 169     249.897 203.525 201.138  0.00  0.00           C 0
+ATOM   9614  NH1 ARG D 191     247.490 210.528 196.842  0.00  0.00           N 0
+ATOM   9476  CD1 LEU D 174     247.788 204.544 195.433  0.00  0.00           C 0
+ATOM   9413  NH2 ARG D 165     251.814 209.731 207.435  0.55  8.75           N 0
+ATOM   8907  CE1 HIS D  80     255.561 212.078 206.009  0.00  0.00           C 0
+ATOM   9440  CD1 LEU D 169     250.934 203.627 202.243  0.00  0.00           C 0
+ATOM   8466  OE1 GLU D  22     255.051 205.262 199.407  0.48  6.43           O 0
+ATOM   8929   CD GLU D  83     255.362 210.545 200.017  0.00  0.00           C 0
+ATOM   9118  NE2 GLN D 107     254.127 215.251 204.759  0.86  4.37           N 0
+ATOM   9625  NE2 HIS D 192     245.218 209.300 201.965  0.81  4.37           N 0
+ATOM   9624  CE1 HIS D 192     245.019 210.468 201.382  0.00  0.00           C 0
+TER
+END

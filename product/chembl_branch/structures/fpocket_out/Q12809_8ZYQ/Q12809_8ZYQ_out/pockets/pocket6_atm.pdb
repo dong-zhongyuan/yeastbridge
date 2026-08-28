@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : -0.0139
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.5257
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3734
+HEADER 5  - Mean B-factor of pocket residues  : 0.0974
+HEADER 6  - Hydrophobicity Score              : 28.4286
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 72.6692
+HEADER 10 - Pocket volume (convex hull)       : 0.3292
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.3500
+ATOM   1040   CA VAL A 630     166.715 153.481 183.752  0.00  0.00           C 0
+ATOM   1045  CG2 VAL A 630     168.617 151.857 183.499  0.00  0.00           C 0
+ATOM    734    O TRP A 585     172.252 154.863 187.401  0.62  2.14           O 0
+ATOM   1034    O ASN A 629     165.777 152.270 186.095  0.06  6.43           O 0
+ATOM    771    N LEU A 589     171.542 152.787 189.289  0.79  1.09           N 0
+ATOM    798  OE1 GLN A 592     168.052 149.955 188.068  0.70  2.14           O 0
+ATOM   1044  CG1 VAL A 630     168.928 154.253 182.857  0.00  0.00           C 0
+ATOM    799  NE2 GLN A 592     166.669 151.483 188.956  0.66  8.75           N 0
+ATOM    767   CB ASN A 588     169.272 154.957 189.857  0.00  0.00           C 0
+ATOM    732   CA TRP A 585     171.670 157.004 186.523  0.00  0.00           C 0
+ATOM   1046    N SER A 631     166.033 155.810 183.816  0.58  2.19           N 0
+ATOM    735   CB TRP A 585     171.587 156.808 185.009  0.00  0.00           C 0
+ATOM    770  ND2 ASN A 588     167.773 156.848 189.728  0.10  9.84           N 0
+ATOM   1049    O SER A 631     166.777 158.338 184.756  0.62  1.07           O 0
+TER
+END

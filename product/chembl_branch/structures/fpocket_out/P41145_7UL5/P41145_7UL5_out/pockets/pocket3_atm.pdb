@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     3:
+HEADER 0  - Pocket Score                      : 0.1548
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.6591
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3657
+HEADER 5  - Mean B-factor of pocket residues  : 0.0731
+HEADER 6  - Hydrophobicity Score              : 27.6667
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 118.8783
+HEADER 10 - Pocket volume (convex hull)       : 1.3564
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.3182
+ATOM    689   OG SER A 129     134.591 136.422 140.634  0.84  3.21           O 0
+ATOM   2015  ND2 ASN A 308     134.353 141.189 135.047  0.72  1.09           N 0
+ATOM   1989  OD1 ASN A 304     139.228 139.770 137.404  0.62  5.36           O 0
+ATOM    349  CD1 LEU A  85     132.118 137.198 138.143  0.00  0.00           C 0
+ATOM    688   CB SER A 129     135.112 135.520 139.676  0.00  0.00           C 0
+ATOM    721  CD1 LEU A 133     136.220 135.366 134.009  0.00  0.00           C 0
+ATOM   1689  CD2 PHE A 265     139.056 136.485 136.362  0.00  0.00           C 0
+ATOM   1686   CB PHE A 265     139.710 137.148 134.030  0.00  0.00           C 0
+ATOM   2014  OD1 ASN A 308     136.219 142.328 134.553  0.77  2.14           O 0
+ATOM    376  OD2 ASP A  89     132.790 141.040 140.016  0.52  3.21           O 0
+ATOM    375  OD1 ASP A  89     134.326 140.660 141.535  0.56  2.14           O 0
+ATOM    350  CD2 LEU A  85     131.885 138.129 135.856  0.00  0.00           C 0
+ATOM   1986    O ASN A 304     138.005 143.519 138.078  0.59  1.07           O 0
+ATOM   1661  CG1 VAL A 261     135.040 139.507 131.555  0.00  0.00           C 0
+ATOM   1659    O VAL A 261     138.212 139.197 131.258  0.00  0.00           O 0
+ATOM   1992   CA SER A 305     136.877 143.313 140.539  0.00  0.00           C 0
+TER
+END

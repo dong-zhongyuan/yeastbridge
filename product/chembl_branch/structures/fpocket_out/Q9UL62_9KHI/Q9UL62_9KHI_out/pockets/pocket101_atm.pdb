@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   101:
+HEADER 0  - Pocket Score                      : -0.0991
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.7851
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5589
+HEADER 5  - Mean B-factor of pocket residues  : 0.1433
+HEADER 6  - Hydrophobicity Score              : -15.0000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 3.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 201.2043
+HEADER 10 - Pocket volume (convex hull)       : 6.9845
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.3684
+ATOM   9069   CE LYS D 554     123.055 104.868  97.817  0.00  0.00           C 0
+ATOM   9138    O ASN D 563     122.988 109.200 102.057  0.48  1.07           O 0
+ATOM   9195   CB GLU D 570     125.880 107.495 104.642  0.00  0.00           C 0
+ATOM   9198  OE1 GLU D 570     127.548 108.489 102.365  0.25  7.50           O 0
+ATOM   9196   CG GLU D 570     125.652 108.724 103.785  0.00  0.00           C 0
+ATOM   9067   CG LYS D 554     124.379 106.715  96.765  0.00  0.00           C 0
+ATOM   9065    O LYS D 554     127.616 108.591  97.181  0.28  4.29           O 0
+ATOM   9068   CD LYS D 554     123.972 105.256  96.673  0.00  0.00           C 0
+ATOM   9139   CB ASN D 563     121.890 108.485  99.626  0.00  0.00           C 0
+ATOM   9066   CB LYS D 554     125.423 107.058  95.720  0.00  0.00           C 0
+ATOM   9171  CG2 THR D 567     123.749 102.975 103.818  0.00  0.00           C 0
+ATOM   9163   CB SER D 566     120.707 105.891 102.700  0.00  0.00           C 0
+ATOM   9072   CA GLY D 555     126.346 110.272  98.978  0.00  0.00           C 0
+ATOM   8984  OE2 GLU D 543     121.718 103.295 100.413  0.44  4.29           O 0
+ATOM   9070   NZ LYS D 554     122.612 103.453  97.713  0.72  7.66           N 0
+ATOM   9170  OG1 THR D 567     125.345 104.364 104.969  0.42  4.29           O 0
+TER
+END

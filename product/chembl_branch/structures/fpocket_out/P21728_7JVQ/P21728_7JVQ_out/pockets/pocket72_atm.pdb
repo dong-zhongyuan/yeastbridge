@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    72:
+HEADER 0  - Pocket Score                      : -0.2561
+HEADER 1  - Drug Score                        : 0.0103
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 3.7694
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4730
+HEADER 5  - Mean B-factor of pocket residues  : 0.2118
+HEADER 6  - Hydrophobicity Score              : 82.8000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 5.2000
+HEADER 9  - Pocket volume (Monte Carlo)       : 131.2201
+HEADER 10 - Pocket volume (convex hull)       : 1.2843
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 22.0000
+HEADER 13 - Number of apolar alpha sphere     :    23
+HEADER 14 - Proportion of apolar alpha sphere : 0.9200
+ATOM   1998    O VAL R 315     103.424 108.452  74.345  0.00  0.00           O 0
+ATOM   2024   CB TRP R 318     103.160 105.031  74.494  0.00  0.00           C 0
+ATOM   2043  CE2 PHE R 319     106.789 110.047  75.573  0.00  0.00           C 0
+ATOM   2041  CD2 PHE R 319     105.583 109.831  76.215  0.00  0.00           C 0
+ATOM   2039   CG PHE R 319     105.547 109.277  77.483  0.00  0.00           C 0
+ATOM   2044   CZ PHE R 319     107.975 109.725  76.205  0.00  0.00           C 0
+ATOM     68  CE2 PHE R  29     108.692 102.845  74.635  0.00  0.00           C 0
+ATOM   2000  CG1 VAL R 315     105.592 109.595  72.214  0.00  0.00           C 0
+ATOM   2040  CD1 PHE R 319     106.745 108.978  78.115  0.00  0.00           C 0
+ATOM   2067   CB ALA R 322     105.368 104.416  80.056  0.00  0.00           C 0
+ATOM     69   CZ PHE R  29     109.648 103.090  75.604  0.00  0.00           C 0
+ATOM   2023    O TRP R 318     103.255 104.994  77.722  0.55  1.07           O 0
+ATOM   2034    N PHE R 319     103.202 107.135  77.029  0.00  0.00           N 0
+ATOM   2042  CE1 PHE R 319     107.954 109.189  77.478  0.00  0.00           C 0
+ATOM   2022    C TRP R 318     102.919 105.833  76.882  0.00  0.00           C 0
+TER
+END

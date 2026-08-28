@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    16:
+HEADER 0  - Pocket Score                      : -0.0201
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.7179
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4704
+HEADER 5  - Mean B-factor of pocket residues  : 0.2505
+HEADER 6  - Hydrophobicity Score              : 26.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 95.4510
+HEADER 10 - Pocket volume (convex hull)       : 0.5390
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3529
+ATOM   3668   CB GLN F1625      -5.707  10.810 -29.469  0.00  0.00           C 0
+ATOM   3667    O GLN F1625      -3.202   9.106 -28.355  0.81  1.07           O 0
+ATOM   3665   CA GLN F1625      -4.819   9.694 -30.018  0.00  0.00           C 0
+ATOM   3322  OE1 GLU C 114       1.041  12.272 -28.667  0.12  4.29           O 0
+ATOM   2632  CD1 LEU C  18      -4.286  12.644 -25.997  0.00  0.00           C 0
+ATOM   3310  CD2 LEU C 112      -3.684  13.320 -33.649  0.00  0.00           C 0
+ATOM   3309  CD1 LEU C 112      -2.167  11.353 -33.334  0.00  0.00           C 0
+ATOM   3307   CB LEU C 112      -1.166  13.588 -33.434  0.00  0.00           C 0
+ATOM   3669   CG GLN F1625      -6.107  11.840 -30.477  0.00  0.00           C 0
+ATOM   3672  NE2 GLN F1625      -6.194  14.226 -30.208  0.79  1.09           N 0
+ATOM   2633  CD2 LEU C  18      -3.388  14.959 -26.005  0.00  0.00           C 0
+ATOM   3306    O LEU C 112      -0.337  16.227 -32.252  0.52  8.57           O 0
+ATOM   2661   NZ LYS C  21      -4.957  18.323 -29.486  0.78  5.47           N 0
+TER
+END

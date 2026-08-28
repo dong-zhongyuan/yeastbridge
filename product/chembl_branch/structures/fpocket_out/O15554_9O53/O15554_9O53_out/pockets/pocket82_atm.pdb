@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    82:
+HEADER 0  - Pocket Score                      : -0.0729
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.2234
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5342
+HEADER 5  - Mean B-factor of pocket residues  : 0.6313
+HEADER 6  - Hydrophobicity Score              : 37.3750
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 302.1499
+HEADER 10 - Pocket volume (convex hull)       : 6.7212
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 15.0000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 0.9412
+ATOM  14233   CG MET G 110     106.499 142.476 124.361  0.00  0.00           C 0
+ATOM  14271  CG1 VAL G 122     103.176 141.603 123.094  0.00  0.00           C 0
+ATOM  14265   CB GLU G 121      99.726 142.438 126.594  0.00  0.00           C 0
+ATOM  14293   CE MET G 125     103.223 145.481 125.172  0.00  0.00           C 0
+ATOM  14232   CB MET G 110     106.943 141.071 124.745  0.00  0.00           C 0
+ATOM  14251    N ASP G 119     100.398 137.794 124.594  0.00  0.00           N 0
+ATOM  14231    O MET G 110     108.082 139.763 127.182  0.30  5.36           O 0
+ATOM   8107   CG GLN C 428     106.008 146.938 130.325  0.00  0.00           C 0
+ATOM   8108   CD GLN C 428     106.433 145.648 131.004  0.00  0.00           C 0
+ATOM   8109  OE1 GLN C 428     107.129 144.821 130.414  0.12  5.36           O 0
+ATOM   8146   CE MET C 432     101.676 147.218 132.144  0.00  0.00           C 0
+ATOM   8135  CE3 TRP C 431     100.599 148.320 127.626  0.00  0.00           C 0
+ATOM   8137  CZ3 TRP C 431      99.610 147.519 128.164  0.00  0.00           C 0
+ATOM   8110  NE2 GLN C 428     106.025 145.476 132.255  0.00  0.00           N 0
+ATOM  14234   SD MET G 110     107.179 143.753 125.437  0.00  0.00           S 0
+ATOM   8106   CB GLN C 428     106.742 147.175 129.020  0.00  0.00           C 0
+TER
+END

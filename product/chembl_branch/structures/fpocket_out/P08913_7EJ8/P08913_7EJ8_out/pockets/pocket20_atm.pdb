@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    20:
+HEADER 0  - Pocket Score                      : -0.0089
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.2136
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5341
+HEADER 5  - Mean B-factor of pocket residues  : 0.3057
+HEADER 6  - Hydrophobicity Score              : 17.8333
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 188.8572
+HEADER 10 - Pocket volume (convex hull)       : 1.0162
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1667
+ATOM   8127    C GLY H 170      92.267 141.421  62.323  0.00  0.00           C 0
+ATOM   7547   CE MET H  93      90.295 143.556  70.170  0.00  0.00           C 0
+ATOM   7571   OH TYR H  95      94.091 142.660  69.451  0.64  4.29           O 0
+ATOM   8126   CA GLY H 170      92.410 142.720  61.566  0.00  0.00           C 0
+ATOM   8129    N GLN H 171      93.303 140.971  63.028  0.00  0.00           N 0
+ATOM   8106  NE2 GLN H 167      96.718 142.809  67.007  0.00  0.00           N 0
+ATOM   8132    O GLN H 171      95.012 140.663  65.071  0.50  3.21           O 0
+ATOM   8125    N GLY H 170      93.764 143.178  61.353  0.76  2.19           N 0
+ATOM   8131    C GLN H 171      94.200 139.747  64.931  0.00  0.00           C 0
+ATOM   8130   CA GLN H 171      93.203 139.731  63.782  0.00  0.00           C 0
+ATOM   7720    O GLN H 113      89.979 139.704  69.387  0.00  0.00           O 0
+ATOM   7725  NE2 GLN H 113      89.756 137.382  66.132  0.58  6.56           N 0
+ATOM   8128    O GLY H 170      91.193 140.812  62.268  0.00  0.00           O 0
+TER
+END

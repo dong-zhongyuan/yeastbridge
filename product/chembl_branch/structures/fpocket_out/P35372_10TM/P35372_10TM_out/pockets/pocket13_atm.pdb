@@ -1,0 +1,55 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : -0.0579
+HEADER 1  - Drug Score                        : 0.0010
+HEADER 2  - Number of alpha spheres           :    37
+HEADER 3  - Mean alpha-sphere radius          : 3.9144
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5345
+HEADER 5  - Mean B-factor of pocket residues  : 0.3635
+HEADER 6  - Hydrophobicity Score              : 14.4286
+HEADER 7  - Polarity Score                    :    11
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 626.4561
+HEADER 10 - Pocket volume (convex hull)       : 131.7973
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 11.2000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.4054
+HETATM 2257   C1 MEA S   4     112.025 136.951 137.132  0.00  0.00           C 0
+ATOM    466    O GLN R 126     107.997 141.155 136.631  0.61  1.07           O 0
+ATOM     90   OH TYR R  77     110.729 141.734 141.290  0.00  0.00           O 0
+ATOM    467   CB GLN R 126     111.010 142.097 136.335  0.00  0.00           C 0
+ATOM   2032  CE1 HIS R 321     108.467 138.511 141.775  0.00  0.00           C 0
+ATOM    497   CB TYR R 130     105.694 139.582 138.772  0.00  0.00           C 0
+ATOM   2033  NE2 HIS R 321     107.770 137.774 142.619  0.85  7.66           N 0
+ATOM   2018  NE1 TRP R 320     112.056 136.161 143.418  0.58  7.66           N 0
+ATOM   2016  CD1 TRP R 320     111.099 136.439 144.351  0.00  0.00           C 0
+ATOM   1954  OE1 GLU R 312     107.433 130.113 144.757  0.44  7.50           O 0
+ATOM   1904   NZ LYS R 305     112.353 132.590 146.318  0.40  9.84           N 0
+ATOM   2019  CE2 TRP R 320     113.241 135.932 144.061  0.00  0.00           C 0
+ATOM   2021  CZ2 TRP R 320     114.485 135.612 143.552  0.00  0.00           C 0
+ATOM   1955  OE2 GLU R 312     105.356 130.826 144.614  0.00  0.00           O 1
+ATOM    499  CD1 TYR R 130     104.893 138.275 140.783  0.00  0.00           C 0
+ATOM    501  CE1 TYR R 130     104.087 138.117 141.899  0.00  0.00           C 0
+ATOM   1996  CG2 THR R 317     105.193 134.380 146.566  0.00  0.00           C 0
+ATOM   1994   CB THR R 317     105.536 135.860 146.557  0.00  0.00           C 0
+ATOM   1952   CG GLU R 312     106.307 130.640 146.785  0.00  0.00           C 0
+ATOM   1986   CG GLN R 316     108.554 132.472 149.420  0.00  0.00           C 0
+ATOM   1991   CA THR R 317     106.753 136.127 147.433  0.00  0.00           C 0
+ATOM   2014   CB TRP R 320     110.916 136.646 146.841  0.00  0.00           C 0
+ATOM   1953   CD GLU R 312     106.370 130.517 145.274  0.00  0.00           C 0
+ATOM    494   CA TYR R 130     105.204 138.721 137.613  0.00  0.00           C 0
+ATOM    522   CA GLY R 133     103.055 134.856 135.313  0.00  0.00           C 0
+ATOM    496    O TYR R 130     103.029 137.832 138.066  0.20  7.50           O 0
+ATOM   1169  NH2 ARG R 213     105.679 130.330 135.593  0.53  3.28           N 0
+ATOM    491  OD1 ASN R 129     107.775 136.633 135.068  0.43  9.64           O 0
+HETATM 2260    C MEA S   4     113.980 133.943 136.938  0.00  0.00           C 0
+HETATM 2258    N MEA S   4     113.299 136.299 137.291  0.00  0.00           N 0
+ATOM    523    C GLY R 133     103.595 134.187 134.063  0.00  0.00           C 0
+ATOM    488    O ASN R 129     105.043 137.371 135.215  0.00  0.00           O 0
+HETATM 2252    O DAL S   2     115.133 136.198 140.635  0.72  4.29           O 0
+TER
+END

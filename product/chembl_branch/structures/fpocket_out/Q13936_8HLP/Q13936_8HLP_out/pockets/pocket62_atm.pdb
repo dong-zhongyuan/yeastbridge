@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    62:
+HEADER 0  - Pocket Score                      : -0.0658
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0148
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5505
+HEADER 5  - Mean B-factor of pocket residues  : 0.7771
+HEADER 6  - Hydrophobicity Score              : -11.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 194.7223
+HEADER 10 - Pocket volume (convex hull)       : 3.0933
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   9992  OE2 GLU A1627     113.449 140.041 151.516  0.00  0.00           O 0
+ATOM   9825   CA SER A1593     112.018 144.239 158.381  0.00  0.00           C 0
+ATOM   9991  OE1 GLU A1627     112.330 141.783 150.792  0.00  0.00           O 0
+ATOM   9820    O VAL A1592     110.708 142.119 159.572  0.50  7.50           O 0
+ATOM  10149   CB PRO A1655     115.006 136.844 156.187  0.00  0.00           C 0
+ATOM  10148    O PRO A1655     115.950 139.031 157.609  0.64  8.57           O 0
+ATOM  10146   CA PRO A1655     115.304 138.175 155.483  0.00  0.00           C 0
+ATOM   9828   CB SER A1593     111.901 145.603 157.698  0.00  0.00           C 0
+ATOM   9899  NH2 ARG A1615     115.161 144.284 154.953  0.67  3.28           N 0
+ATOM   9827    O SER A1593     114.175 143.616 157.526  0.00  0.00           O 0
+ATOM  10141    O PRO A1654     115.808 139.808 153.375  0.69  1.07           O 0
+ATOM   9990   CD GLU A1627     113.400 141.219 151.105  0.00  0.00           C 0
+ATOM  10147    C PRO A1655     116.109 139.101 156.391  0.00  0.00           C 0
+TER
+END

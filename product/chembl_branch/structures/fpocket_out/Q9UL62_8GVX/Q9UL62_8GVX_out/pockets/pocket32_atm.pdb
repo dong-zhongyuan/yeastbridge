@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    32:
+HEADER 0  - Pocket Score                      : 0.0182
+HEADER 1  - Drug Score                        : 0.0008
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.8656
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6569
+HEADER 5  - Mean B-factor of pocket residues  : 0.8367
+HEADER 6  - Hydrophobicity Score              : 30.4286
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 237.0268
+HEADER 10 - Pocket volume (convex hull)       : 5.5633
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 5.4286
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.4375
+ATOM  28016   CA SER D 183     129.283 160.633 166.106  0.00  0.00           C 0
+ATOM  28018    O SER D 183     131.028 159.306 165.130  0.00  0.00           O 0
+ATOM  28041  OE2 GLU D 186     129.240 155.091 169.361  0.00  0.00           O 0
+ATOM  28048  CG2 VAL D 187     130.751 156.441 163.787  0.00  0.00           C 0
+ATOM  28019   CB SER D 183     128.068 160.730 165.185  0.00  0.00           C 0
+ATOM  28040  OE1 GLU D 186     129.612 156.917 170.521  0.29  7.50           O 0
+ATOM  27987   CA VAL D 179     125.357 164.924 167.484  0.00  0.00           C 0
+ATOM  28013  CG1 VAL D 182     129.032 161.841 170.515  0.00  0.00           C 0
+ATOM  27983    O CYS D 178     127.424 166.064 168.908  0.00  0.00           O 0
+ATOM  27975    O ASN D 177     126.387 167.528 171.639  0.08  2.14           O 0
+ATOM  27989    O VAL D 179     126.990 163.446 166.518  0.00  0.00           O 0
+ATOM  27992  CG2 VAL D 179     123.765 163.081 166.856  0.00  0.00           C 0
+ATOM  28039   CD GLU D 186     129.960 156.058 169.685  0.00  0.00           C 0
+ATOM  28015    N SER D 183     129.364 161.820 166.953  0.00  0.00           N 0
+ATOM  28012   CB VAL D 182     129.173 163.206 169.859  0.00  0.00           C 0
+ATOM  28014  CG2 VAL D 182     129.483 164.276 170.896  0.00  0.00           C 0
+TER
+END

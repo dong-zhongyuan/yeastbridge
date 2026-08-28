@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   128:
+HEADER 0  - Pocket Score                      : -0.2443
+HEADER 1  - Drug Score                        : 0.0028
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 4.1090
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5869
+HEADER 5  - Mean B-factor of pocket residues  : 0.8768
+HEADER 6  - Hydrophobicity Score              : 26.5714
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 357.3648
+HEADER 10 - Pocket volume (convex hull)       : 19.5898
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.6364
+ATOM   9901  CE1 PHE D 301     194.897 232.476 240.725  0.00  0.00           C 0
+ATOM   9934  CG2 ILE D 305     190.406 229.589 240.364  0.00  0.00           C 0
+ATOM   9899  CD1 PHE D 301     195.709 231.371 240.551  0.00  0.00           C 0
+ATOM   9927  OD2 ASP D 304     191.635 225.883 243.082  0.43  4.29           O 0
+ATOM   9925   CG ASP D 304     192.229 225.009 242.416  0.00  0.00           C 0
+ATOM   9926  OD1 ASP D 304     192.365 223.832 242.807  0.65  6.43           O 0
+ATOM  10438  CG1 VAL D 365     199.343 223.272 244.596  0.00  0.00           C 0
+ATOM   9896    O PHE D 301     193.837 228.645 238.844  0.53  1.07           O 0
+ATOM   9924   CB ASP D 304     192.812 225.396 241.072  0.00  0.00           C 0
+ATOM   9888    O ASN D 300     195.572 225.738 238.883  0.57  1.07           O 0
+ATOM  10439  CG2 VAL D 365     198.380 222.270 242.528  0.00  0.00           C 0
+ATOM   9887    C ASN D 300     196.683 226.104 238.477  0.00  0.00           C 0
+ATOM  10413   CG ARG D 362     193.416 220.998 245.417  0.00  0.00           C 0
+ATOM   9893    N PHE D 301     197.090 227.375 238.543  0.72  1.09           N 0
+ATOM   9894   CA PHE D 301     196.216 228.414 239.077  0.00  0.00           C 0
+ATOM   9861    O HIS D 297     199.944 227.968 238.537  0.48  3.21           O 0
+ATOM   9889   CB ASN D 300     198.596 224.560 238.948  0.00  0.00           C 0
+ATOM   9864  ND1 HIS D 297     203.042 226.757 241.414  0.46  1.09           N 0
+ATOM  10437   CB VAL D 365     198.922 221.979 243.917  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    32:
+HEADER 0  - Pocket Score                      : -0.0173
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.1130
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5835
+HEADER 5  - Mean B-factor of pocket residues  : 0.3531
+HEADER 6  - Hydrophobicity Score              : -2.8889
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 3.8889
+HEADER 9  - Pocket volume (Monte Carlo)       : 255.2522
+HEADER 10 - Pocket volume (convex hull)       : 5.8228
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0556
+ATOM   8143    C GLY B 310     105.847 100.449 120.879  0.00  0.00           C 0
+ATOM   8161  OD1 ASP B 312     106.253 104.853 118.974  0.53  6.43           O 0
+ATOM   8142   CA GLY B 310     104.935 100.176 122.050  0.00  0.00           C 0
+ATOM   8144    O GLY B 310     106.974 100.915 121.057  0.54  5.36           O 0
+ATOM   8148    O HIS B 311     104.143 101.508 117.540  0.00  0.00           O 0
+ATOM   8141    N GLY B 310     103.698  99.524 121.679  0.79  1.09           N 0
+ATOM   4011   CB LYS R 439     101.149 106.122 117.094  0.00  0.00           C 0
+ATOM   8011  CD2 PHE B 292     101.285 102.274 114.656  0.00  0.00           C 0
+ATOM   4012    N ARG R 440      98.337 104.580 116.567  0.00  0.00           N 0
+ATOM   8140   CB ALA B 309     100.713  98.785 122.314  0.00  0.00           C 0
+ATOM   4007    N LYS R 439      99.003 106.825 118.040  0.69  3.28           N 0
+ATOM   4016   CB ARG R 440      97.328 102.356 116.743  0.00  0.00           C 0
+ATOM   4006   CB ASP R 438      96.126 106.493 119.593  0.00  0.00           C 0
+ATOM   8022  ND2 ASN B 293     100.065  98.480 118.887  0.66  3.28           N 0
+ATOM   8008   CB PHE B 292     102.000 100.016 115.487  0.00  0.00           C 0
+TER
+END

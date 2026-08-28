@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    22:
+HEADER 0  - Pocket Score                      : 0.0004
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.6684
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4383
+HEADER 5  - Mean B-factor of pocket residues  : 0.4558
+HEADER 6  - Hydrophobicity Score              : 30.2857
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 75.1420
+HEADER 10 - Pocket volume (convex hull)       : 0.5535
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.2857
+ATOM   7717  OG1 THR N  61     132.165 110.485 136.569  0.00  0.00           O 0
+ATOM   7716   CB THR N  61     132.585 111.841 136.765  0.00  0.00           C 0
+ATOM   7718  CG2 THR N  61     131.559 112.538 137.654  0.00  0.00           C 0
+ATOM   7548   NE ARG N  38     135.320 109.308 143.226  0.69  1.09           N 0
+ATOM   7604   CD GLU N  46     131.210 109.881 143.249  0.00  0.00           C 0
+ATOM   7603   CG GLU N  46     131.216 108.468 142.701  0.00  0.00           C 0
+ATOM   7610    O TRP N  47     131.738 108.290 137.219  0.00  0.00           O 0
+ATOM   7622   CA VAL N  48     134.405 107.689 137.520  0.00  0.00           C 0
+ATOM   7627  CG2 VAL N  48     135.726 107.257 139.590  0.00  0.00           C 0
+ATOM   7735  CG2 VAL N  64     136.553 112.826 138.468  0.00  0.00           C 0
+ATOM   7551  NH2 ARG N  38     135.214 111.604 143.266  0.42  2.19           N 0
+ATOM   7728   OG SER N  63     133.269 115.141 140.441  0.45  2.14           O 0
+ATOM   7606  OE2 GLU N  46     132.240 110.305 143.814  0.65  1.07           O 0
+TER
+END

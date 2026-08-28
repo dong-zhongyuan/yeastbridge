@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   112:
+HEADER 0  - Pocket Score                      : -0.0993
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 4.0519
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6492
+HEADER 5  - Mean B-factor of pocket residues  : 0.6921
+HEADER 6  - Hydrophobicity Score              : 8.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.2000
+HEADER 9  - Pocket volume (Monte Carlo)       : 307.1937
+HEADER 10 - Pocket volume (convex hull)       : 3.6223
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0476
+ATOM   1054    N ARG A 165     184.457 149.208 102.546  0.77  3.28           N 0
+ATOM   1063  NH1 ARG A 165     190.242 148.209 101.020  0.00  0.00           N 0
+ATOM   1064  NH2 ARG A 165     189.267 150.287 101.023  0.76  8.75           N 0
+ATOM   1062   CZ ARG A 165     189.731 149.236 101.686  0.00  0.00           C 0
+ATOM   1046   CA LYS A 164     182.721 148.042 101.290  0.00  0.00           C 0
+ATOM   1039    O GLN A 163     182.949 145.306 100.914  0.45  4.29           O 0
+ATOM   1049   CB LYS A 164     182.091 149.366 100.865  0.00  0.00           C 0
+ATOM   1058   CB ARG A 165     186.745 149.814 103.225  0.00  0.00           C 0
+ATOM   1048    O LYS A 164     183.517 147.405 103.481  0.46  6.43           O 0
+ATOM   1059   CG ARG A 165     187.746 149.976 104.359  0.00  0.00           C 0
+ATOM   1055   CA ARG A 165     185.333 149.475 103.687  0.00  0.00           C 0
+ATOM   1061   NE ARG A 165     189.686 149.212 103.015  0.75  9.84           N 0
+ATOM   1047    C LYS A 164     183.599 148.191 102.533  0.00  0.00           C 0
+ATOM  16347    O LEU D  20     183.989 146.397 107.586  0.64  2.14           O 0
+ATOM  16356   CB GLN D  21     185.545 143.197 107.534  0.00  0.00           C 0
+ATOM  16359  OE1 GLN D  21     188.273 143.347 107.937  0.58  8.57           O 0
+TER
+END

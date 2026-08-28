@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    74:
+HEADER 0  - Pocket Score                      : -0.0781
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.8150
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5010
+HEADER 5  - Mean B-factor of pocket residues  : 0.2355
+HEADER 6  - Hydrophobicity Score              : 4.4286
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 181.0187
+HEADER 10 - Pocket volume (convex hull)       : 4.3854
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM  10595  CG1 ILE C  22     131.946 172.024 125.693  0.00  0.00           C 0
+ATOM  10596  CG2 ILE C  22     132.272 174.323 126.615  0.00  0.00           C 0
+ATOM  10620   CB ALA C  25     129.551 177.250 124.861  0.00  0.00           C 0
+ATOM  10594   CB ILE C  22     131.292 173.174 126.457  0.00  0.00           C 0
+ATOM  10645  OE2 GLU C  28     132.949 174.378 119.101  0.00  0.00           O 1
+ATOM  10624    O GLU C  26     132.121 179.011 121.387  0.58  2.14           O 0
+ATOM  10626   CG GLU C  26     134.941 179.010 123.012  0.00  0.00           C 0
+ATOM  16830   CE LYS D 159     136.535 173.901 123.609  0.00  0.00           C 0
+ATOM  16831   NZ LYS D 159     137.195 175.226 123.455  0.68  3.28           N 1
+ATOM  10621    N GLU C  26     132.203 179.029 124.127  0.80  3.28           N 0
+ATOM  10617   CA ALA C  25     130.769 177.781 125.615  0.00  0.00           C 0
+ATOM  16856   CA GLN D 163     131.771 168.226 122.863  0.00  0.00           C 0
+ATOM  16882  NH1 ARG D 165     127.530 169.163 125.371  0.00  0.00           N 1
+ATOM  16858    O GLN D 163     129.628 167.536 122.033  0.54  6.43           O 0
+ATOM  16860   CG GLN D 163     133.156 170.217 122.087  0.00  0.00           C 0
+ATOM  16863  NE2 GLN D 163     134.078 171.996 120.727  0.72  5.47           N 0
+TER
+END

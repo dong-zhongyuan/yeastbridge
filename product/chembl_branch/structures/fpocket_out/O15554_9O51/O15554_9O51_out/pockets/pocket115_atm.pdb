@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   115:
+HEADER 0  - Pocket Score                      : -0.1290
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 4.1142
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5717
+HEADER 5  - Mean B-factor of pocket residues  : 0.4320
+HEADER 6  - Hydrophobicity Score              : 23.1667
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 262.0496
+HEADER 10 - Pocket volume (convex hull)       : 10.6360
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.3182
+ATOM   4749    N LEU B 399     147.699 162.801 125.298  0.68  2.19           N 0
+ATOM   7392   CD ARG C 395     153.652 160.315 128.480  0.00  0.00           C 0
+ATOM   4741   CA GLU B 398     147.975 161.206 127.088  0.00  0.00           C 0
+ATOM   4744   CB GLU B 398     147.954 159.800 126.482  0.00  0.00           C 0
+ATOM   4790   CE LYS B 404     150.192 162.587 121.083  0.00  0.00           C 0
+ATOM   4791   NZ LYS B 404     150.333 161.180 120.618  0.00  0.00           N 1
+ATOM   7422  OE2 GLU C 398     157.280 158.634 125.211  0.00  8.57           O 1
+ATOM   4752    O LEU B 399     147.083 162.263 122.572  0.42  8.57           O 0
+ATOM   4747  OE1 GLU B 398     147.703 157.278 125.513  0.61  3.21           O 0
+ATOM   4755  CD1 LEU B 399     149.392 166.842 124.624  0.00  0.00           C 0
+ATOM   4753   CB LEU B 399     147.928 164.889 124.031  0.00  0.00           C 0
+ATOM   4754   CG LEU B 399     148.333 165.875 125.129  0.00  0.00           C 0
+ATOM   6736  OG1 THR C 307     151.566 166.569 128.447  0.67  2.14           O 0
+ATOM   4735    O LEU B 397     148.219 163.278 128.882  0.00  0.00           O 0
+ATOM   7393   NE ARG C 395     153.009 161.262 129.384  0.77  2.19           N 0
+ATOM   7394   CZ ARG C 395     153.513 162.444 129.713  0.00  0.00           C 0
+ATOM   6737  CG2 THR C 307     153.476 167.257 127.151  0.00  0.00           C 0
+ATOM   7395  NH1 ARG C 395     154.670 162.863 129.227  0.29  6.56           N 1
+TER
+END

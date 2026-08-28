@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    34:
+HEADER 0  - Pocket Score                      : -0.0074
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.6714
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5172
+HEADER 5  - Mean B-factor of pocket residues  : 0.5336
+HEADER 6  - Hydrophobicity Score              : -3.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 245.4082
+HEADER 10 - Pocket volume (convex hull)       : 13.1589
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.0952
+ATOM  10601  NH1 ARG M 275     104.761 103.939 164.904  0.00  0.00           N 0
+ATOM  10640  NH2 ARG M 279     106.336 108.135 159.244  0.67  3.28           N 0
+ATOM  10639  NH1 ARG M 279     104.355 107.150 158.638  0.58  3.28           N 0
+ATOM  10574  OE2 GLU M 272     107.040 106.381 165.650  0.00  0.00           O 0
+ATOM  11424  OXT PHE F 354     105.921 110.670 158.863  0.67  1.07           O 0
+ATOM  10610  ND2 ASN M 276     109.168 108.272 161.633  0.55  9.84           N 0
+ATOM  11152  OE1 GLU M 343     102.525 111.678 158.736  0.45  2.14           O 0
+ATOM  10602  NH2 ARG M 275     104.174 102.755 163.029  0.00  0.00           N 0
+ATOM  10638   CZ ARG M 279     105.660 107.304 158.463  0.00  0.00           C 0
+ATOM  10609  OD1 ASN M 276     108.506 107.067 159.862  0.00  0.00           O 0
+ATOM  10604   CA ASN M 276     109.269 104.600 160.898  0.00  0.00           C 0
+ATOM  10634   CB ARG M 279     106.834 103.683 157.683  0.00  0.00           C 0
+ATOM  11415    C PHE F 354     106.672 111.637 158.981  0.00  0.00           C 0
+ATOM  11416    O PHE F 354     106.185 112.716 159.308  0.78  6.43           O 0
+ATOM  10608   CG ASN M 276     109.028 107.130 160.975  0.00  0.00           C 0
+ATOM  11417   CB PHE F 354     108.891 112.493 159.697  0.00  0.00           C 0
+ATOM  10607   CB ASN M 276     109.526 105.885 161.687  0.00  0.00           C 0
+ATOM  11151   CD GLU M 343     102.441 112.841 159.184  0.00  0.00           C 0
+ATOM  11153  OE2 GLU M 343     101.717 113.141 160.156  0.59  2.14           O 0
+TER
+END

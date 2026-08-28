@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    42:
+HEADER 0  - Pocket Score                      : -0.0377
+HEADER 1  - Drug Score                        : 0.0033
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.8368
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5687
+HEADER 5  - Mean B-factor of pocket residues  : 0.3991
+HEADER 6  - Hydrophobicity Score              : 77.0000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 159.5664
+HEADER 10 - Pocket volume (convex hull)       : 1.9408
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.7500
+ATOM   6653    C THR R  72     107.596 124.076  85.525  0.00  0.00           C 0
+ATOM   6659   CA ILE R  73     109.124 125.935  85.796  0.00  0.00           C 0
+ATOM   6654    O THR R  72     107.932 123.626  86.626  0.51  4.29           O 0
+ATOM   6663  CG1 ILE R  73     110.752 126.476  83.960  0.00  0.00           C 0
+ATOM   6658    N ILE R  73     108.099 125.215  85.044  0.00  0.00           N 0
+ATOM   6656  OG1 THR R  72     107.945 123.519  82.675  0.81  5.36           O 0
+ATOM   8626   CB VAL R 318     113.609 123.615  80.363  0.00  0.00           C 0
+ATOM   8627  CG1 VAL R 318     112.303 124.211  79.869  0.00  0.00           C 0
+ATOM   6686  CD2 LEU R  76     112.485 122.223  87.934  0.00  0.00           C 0
+ATOM   6655   CB THR R  72     107.276 122.588  83.535  0.00  0.00           C 0
+ATOM   8665  CD1 PHE R 322     114.980 119.964  86.509  0.00  0.00           C 0
+ATOM   8625    O VAL R 318     115.738 123.779  82.824  0.68  3.21           O 0
+ATOM   8663   CB PHE R 322     116.094 121.849  85.293  0.00  0.00           C 0
+ATOM   8659    N PHE R 322     116.085 124.277  85.618  0.00  0.00           N 0
+TER
+END

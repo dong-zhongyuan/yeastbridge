@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    21:
+HEADER 0  - Pocket Score                      : -0.0343
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9143
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5582
+HEADER 5  - Mean B-factor of pocket residues  : 0.4950
+HEADER 6  - Hydrophobicity Score              : 26.4286
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 207.2354
+HEADER 10 - Pocket volume (convex hull)       : 3.5298
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.6000
+ATOM   1723  CD1 ILE A1016      60.722  54.438  15.986  0.00  0.00           C 0
+ATOM   1722  CG2 ILE A1016      59.507  56.698  17.667  0.00  0.00           C 0
+ATOM   1887  CD1 LEU A1038      65.716  58.239  15.313  0.00  0.00           C 0
+ATOM   1720   CB ILE A1016      58.966  56.248  16.319  0.00  0.00           C 0
+ATOM   1885   CB LEU A1038      64.854  58.492  17.684  0.00  0.00           C 0
+ATOM   1888  CD2 LEU A1038      64.842  60.445  16.114  0.00  0.00           C 0
+ATOM   1785  CE1 TYR A1024      61.957  60.084  19.178  0.00  0.00           C 0
+ATOM   1719    O ILE A1016      57.265  58.840  15.564  0.48  9.64           O 0
+ATOM   1915   NZ LYS A1042      63.597  55.473  12.131  0.61  9.84           N 0
+ATOM   2002    O GLY A1055      58.324  54.097  12.765  0.73  1.07           O 0
+ATOM   2000   CA GLY A1055      60.613  53.574  12.412  0.00  0.00           C 0
+ATOM   1716    N ILE A1016      56.956  56.139  14.903  0.65  1.09           N 0
+ATOM   1994    O ASN A1054      61.821  53.973   9.947  0.27  7.50           O 0
+ATOM   1715   CB LYS A1015      55.403  56.781  12.230  0.00  0.00           C 0
+TER
+END

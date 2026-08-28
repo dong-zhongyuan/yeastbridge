@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    30:
+HEADER 0  - Pocket Score                      : -0.0563
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.7246
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3408
+HEADER 5  - Mean B-factor of pocket residues  : 0.3024
+HEADER 6  - Hydrophobicity Score              : 54.2500
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 133.9111
+HEADER 10 - Pocket volume (convex hull)       : 2.4478
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.5333
+ATOM   3504   CB CYS B 115     180.478 193.996 213.781  0.00  0.00           C 0
+ATOM   3498  CG1 VAL B 114     183.877 198.036 214.120  0.00  0.00           C 0
+ATOM   3672   CG ARG B 159     187.165 193.817 213.250  0.00  0.00           C 0
+ATOM   3501   CA CYS B 115     180.878 194.967 212.668  0.00  0.00           C 0
+ATOM   3668   CA ARG B 159     188.767 195.407 214.464  0.00  0.00           C 0
+ATOM   3662    O LEU B 158     188.850 198.166 214.780  0.58  3.21           O 0
+ATOM   3477  OE2 GLU B 111     183.678 197.886 218.878  0.42  8.57           O 0
+ATOM   3175  CD2 LEU B  72     182.939 190.603 215.273  0.00  0.00           C 0
+ATOM   3698    N LEU B 162     189.316 195.624 219.267  0.00  0.00           N 0
+ATOM   3702   CB LEU B 162     187.913 193.641 219.016  0.00  0.00           C 0
+ATOM   3690   CB TYR B 161     189.467 199.062 219.001  0.00  0.00           C 0
+ATOM   3476  OE1 GLU B 111     182.971 195.823 219.133  0.57  3.21           O 0
+ATOM   3705  CD2 LEU B 162     186.468 191.681 218.420  0.00  0.00           C 0
+ATOM   3472    O GLU B 111     180.150 196.790 215.953  0.44  1.07           O 0
+TER
+END

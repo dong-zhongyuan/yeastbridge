@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    95:
+HEADER 0  - Pocket Score                      : -0.2081
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.2511
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6322
+HEADER 5  - Mean B-factor of pocket residues  : 0.1665
+HEADER 6  - Hydrophobicity Score              : 3.2857
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 301.3209
+HEADER 10 - Pocket volume (convex hull)       : 5.7829
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1875
+ATOM   1668  CE1 TYR A 350     168.775 178.813 121.533  0.00  0.00           C 0
+ATOM   1842   CG ASP A 371     169.732 178.591 125.402  0.00  0.00           C 0
+ATOM   1841   CB ASP A 371     171.100 178.044 124.998  0.00  0.00           C 0
+ATOM   1818  OD1 ASP A 368     172.947 179.640 120.354  0.75  4.29           O 0
+ATOM   1843  OD1 ASP A 371     169.660 179.325 126.409  0.34  8.57           O 0
+ATOM   9843  ND2 ASN R 610     168.809 185.563 125.882  0.73  9.84           N 0
+ATOM   1880  NH2 ARG A 375     166.374 179.667 125.230  0.50  2.19           N 0
+ATOM   1844  OD2 ASP A 371     168.733 178.299 124.712  0.00  0.00           O 1
+ATOM   1657    O CYS A 349     165.975 180.339 117.448  0.35  5.36           O 0
+ATOM   1648  CD1 TYR A 348     162.466 178.264 121.962  0.00  0.00           C 0
+ATOM   1879  NH1 ARG A 375     164.281 180.222 125.672  0.54  3.28           N 1
+ATOM   1666  CD1 TYR A 350     169.213 179.429 120.353  0.00  0.00           C 0
+ATOM   9841   CG ASN R 610     168.962 185.093 127.095  0.00  0.00           C 0
+ATOM   9840   CB ASN R 610     170.342 185.188 127.725  0.00  0.00           C 0
+ATOM   1646   CB TYR A 348     164.474 177.312 120.777  0.00  0.00           C 0
+TER
+END

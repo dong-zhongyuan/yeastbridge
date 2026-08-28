@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : 0.0482
+HEADER 1  - Drug Score                        : 0.0012
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.8461
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5207
+HEADER 5  - Mean B-factor of pocket residues  : 0.2392
+HEADER 6  - Hydrophobicity Score              : 40.6667
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.8889
+HEADER 9  - Pocket volume (Monte Carlo)       : 210.2367
+HEADER 10 - Pocket volume (convex hull)       : 5.4113
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.4762
+HETATM 7062   C1 MEA S   4     122.544 152.210 128.865  0.00  0.00           C 0
+ATOM   6837  CE1 HIS R 321     124.183 156.744 133.842  0.00  0.00           C 0
+ATOM   5272   CB GLN R 126     127.454 154.297 128.248  0.00  0.00           C 0
+ATOM   5271    O GLN R 126     126.028 157.244 128.330  0.60  1.07           O 0
+ATOM   4895   OH TYR R  77     127.486 154.681 133.253  0.00  0.00           O 0
+ATOM   5275  OE1 GLN R 126     127.391 152.028 129.879  0.66  1.07           O 0
+ATOM   5302   CB TYR R 130     124.156 159.323 130.689  0.00  0.00           C 0
+ATOM   5298    N TYR R 130     123.744 159.093 128.278  0.00  0.00           N 0
+ATOM   5299   CA TYR R 130     123.269 159.711 129.511  0.00  0.00           C 0
+ATOM   5304  CD1 TYR R 130     122.824 160.081 132.688  0.00  0.00           C 0
+ATOM   7059   CA GLY S   3     123.801 150.416 130.652  0.00  0.00           C 0
+ATOM   6823  NE1 TRP R 320     122.115 152.353 135.151  0.42  7.66           N 0
+ATOM   6863  CD1 ILE R 324     125.433 151.856 134.741  0.00  0.00           C 0
+ATOM   5296  OD1 ASN R 129     121.127 157.409 125.749  0.17  2.14           O 0
+ATOM   5293    O ASN R 129     121.862 159.656 127.188  0.36  2.14           O 0
+ATOM   5295   CG ASN R 129     122.067 156.621 125.796  0.00  0.00           C 0
+ATOM   5297  ND2 ASN R 129     121.895 155.306 125.818  0.39  7.66           N 0
+TER
+END

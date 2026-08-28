@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    25:
+HEADER 0  - Pocket Score                      : -0.0001
+HEADER 1  - Drug Score                        : 0.0082
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.8893
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6446
+HEADER 5  - Mean B-factor of pocket residues  : 0.1580
+HEADER 6  - Hydrophobicity Score              : 73.5000
+HEADER 7  - Polarity Score                    :     0
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 283.5017
+HEADER 10 - Pocket volume (convex hull)       : 10.7906
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 15.4118
+HEADER 13 - Number of apolar alpha sphere     :    17
+HEADER 14 - Proportion of apolar alpha sphere : 0.8947
+ATOM   8443   CG LEU R 378     111.531 132.676 134.325  0.00  0.00           C 0
+ATOM   8445  CD2 LEU R 378     111.318 134.152 134.031  0.00  0.00           C 0
+ATOM   8466  CG1 VAL R 381     107.337 130.963 131.039  0.00  0.00           C 0
+ATOM   8444  CD1 LEU R 378     111.394 132.411 135.814  0.00  0.00           C 0
+ATOM   8100  CD1 ILE R 333     105.205 136.791 135.270  0.00  0.00           C 0
+ATOM   8472   CB ILE R 382     109.222 135.972 131.485  0.00  0.00           C 0
+ATOM   8469   CA ILE R 382     108.351 135.326 130.393  0.00  0.00           C 0
+ATOM   8510  CE1 PHE R 386     103.345 134.359 131.625  0.00  0.00           C 0
+ATOM   8473  CG1 ILE R 382     108.482 137.140 132.132  0.00  0.00           C 0
+ATOM   8098  CG1 ILE R 333     106.202 137.826 135.731  0.00  0.00           C 0
+ATOM   8124   CB ALA R 337     111.606 137.485 135.943  0.00  0.00           C 0
+ATOM   8475  CD1 ILE R 382     109.068 137.557 133.440  0.00  0.00           C 0
+ATOM   8120    N ALA R 337     111.402 139.344 137.534  0.00  0.00           N 0
+ATOM   8121   CA ALA R 337     112.203 138.188 137.160  0.00  0.00           C 0
+ATOM   8118    C GLY R 336     111.525 139.903 138.737  0.00  0.00           C 0
+ATOM   8149  CG1 VAL R 340     113.545 136.862 140.416  0.00  0.00           C 0
+ATOM   8119    O GLY R 336     112.370 139.528 139.551  0.62  1.07           O 0
+ATOM   8096    O ILE R 333     109.065 139.655 135.914  0.00  0.00           O 0
+ATOM   8094   CA ILE R 333     106.752 140.267 136.067  0.00  0.00           C 0
+ATOM   8117   CA GLY R 336     110.674 141.122 139.023  0.00  0.00           C 0
+TER
+END

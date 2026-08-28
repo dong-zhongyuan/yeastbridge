@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    14:
+HEADER 0  - Pocket Score                      : 0.0146
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8843
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5295
+HEADER 5  - Mean B-factor of pocket residues  : 0.1701
+HEADER 6  - Hydrophobicity Score              : -12.2857
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 5.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 330.9114
+HEADER 10 - Pocket volume (convex hull)       : 8.0016
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1333
+ATOM   5633   NE ARG B 214      69.235 108.841 149.073  0.97  1.09           N 0
+ATOM   5641   CB GLU B 215      73.860 108.563 154.099  0.00  0.00           C 0
+ATOM   5637    N GLU B 215      73.595 110.019 152.147  0.57  2.19           N 0
+ATOM   5630   CB ARG B 214      71.308 110.729 150.095  0.00  0.00           C 0
+ATOM   5618  OD2 ASP B 212      74.205 104.919 151.851  0.53  7.50           O 0
+ATOM   5636  NH2 ARG B 214      68.198 106.824 149.458  0.00  0.00           N 0
+ATOM   5670  NH2 ARG B 219      73.728 104.809 155.343  0.56  7.66           N 0
+ATOM   5507    O ARG B 197      73.875 106.071 147.019  0.61  3.21           O 0
+ATOM   5508   CB ARG B 197      71.188 104.689 146.012  0.00  0.00           C 0
+ATOM   5615   CB ASP B 212      75.184 106.908 150.985  0.00  0.00           C 0
+ATOM   5516  CD2 LEU B 198      74.703 103.500 148.968  0.00  0.00           C 0
+ATOM   5514   CG LEU B 198      74.652 102.473 147.852  0.00  0.00           C 0
+ATOM   5515  CD1 LEU B 198      74.804 101.065 148.407  0.00  0.00           C 0
+ATOM   5495  OD1 ASP B 195      71.995 102.420 143.847  0.00  0.00           O 0
+ATOM   5496  OD2 ASP B 195      71.786 100.296 143.338  0.17  6.43           O 0
+ATOM   5494   CG ASP B 195      71.395 101.480 143.284  0.00  0.00           C 0
+TER
+END

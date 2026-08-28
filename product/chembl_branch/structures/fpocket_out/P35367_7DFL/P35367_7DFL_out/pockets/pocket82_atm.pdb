@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    82:
+HEADER 0  - Pocket Score                      : -0.1454
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0022
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5268
+HEADER 5  - Mean B-factor of pocket residues  : 0.5239
+HEADER 6  - Hydrophobicity Score              : 25.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 195.3036
+HEADER 10 - Pocket volume (convex hull)       : 1.8257
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.4000
+ATOM   4341  ND2 ASN B 268     122.456 156.207 121.038  0.55  5.47           N 0
+ATOM   4337    O ASN B 268     125.414 159.436 121.099  0.00  0.00           O 0
+ATOM   2239  NH2 ARG R 481     124.956 154.961 126.122  0.00  5.47           N 0
+ATOM   4509  OD2 ASP B 291     128.414 153.097 119.534  0.00  0.00           O 1
+ATOM   4347  CG1 ILE B 269     125.833 156.499 117.734  0.00  0.00           C 0
+ATOM   4343   CA ILE B 269     126.337 158.831 118.550  0.00  0.00           C 0
+ATOM   4348  CG2 ILE B 269     127.893 157.658 116.965  0.00  0.00           C 0
+ATOM   4506   CB ASP B 291     130.482 153.565 120.608  0.00  0.00           C 0
+ATOM   4355  CG1 ILE B 270     129.358 161.981 121.046  0.00  0.00           C 0
+ATOM   4362   CB CYS B 271     132.127 158.165 118.615  0.00  0.00           C 0
+ATOM   4363   SG CYS B 271     131.196 156.769 117.945  0.00  0.00           S 0
+ATOM   4350    N ILE B 270     128.054 160.499 118.899  0.00  0.00           N 0
+ATOM   4358    N CYS B 271     130.565 159.987 118.136  0.00  0.00           N 0
+TER
+END

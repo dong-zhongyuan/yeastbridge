@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    24:
+HEADER 0  - Pocket Score                      : -0.0517
+HEADER 1  - Drug Score                        : 0.0030
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0436
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7281
+HEADER 5  - Mean B-factor of pocket residues  : 0.2627
+HEADER 6  - Hydrophobicity Score              : 67.5000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 230.5570
+HEADER 10 - Pocket volume (convex hull)       : 5.1487
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.8750
+ATOM   1095    C GLU B 122     165.511 143.464 183.265  0.00  0.00           C 0
+ATOM   1107  CG1 ILE B 123     167.811 142.212 179.830  0.00  0.00           C 0
+ATOM   1096    O GLU B 122     164.981 144.561 183.038  0.00  0.00           O 0
+ATOM   1097   CB GLU B 122     167.244 143.172 185.056  0.00  0.00           C 0
+ATOM   1602  CD2 LEU B 184     166.441 148.213 185.059  0.00  0.00           C 0
+ATOM   1102    N ILE B 123     165.876 142.633 182.287  0.00  0.00           N 0
+ATOM   1103   CA ILE B 123     165.663 142.995 180.888  0.00  0.00           C 0
+ATOM   1134   CB ALA B 126     164.880 147.532 181.171  0.00  0.00           C 0
+ATOM   1577  CD2 PHE B 181     166.108 150.821 179.631  0.00  0.00           C 0
+ATOM   1609  CG2 ILE B 185     170.448 150.267 184.332  0.00  0.00           C 0
+ATOM   1580   CZ PHE B 181     166.387 149.647 177.573  0.00  0.00           C 0
+ATOM   1579  CE2 PHE B 181     165.651 149.906 178.709  0.00  0.00           C 0
+ATOM   1578  CE1 PHE B 181     167.572 150.311 177.355  0.00  0.00           C 0
+ATOM   1575   CG PHE B 181     167.297 151.497 179.424  0.00  0.00           C 0
+ATOM   1576  CD1 PHE B 181     168.024 151.228 178.279  0.00  0.00           C 0
+ATOM   1574   CB PHE B 181     167.801 152.487 180.430  0.00  0.00           C 0
+TER
+END

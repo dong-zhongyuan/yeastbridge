@@ -1,0 +1,48 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : 0.0784
+HEADER 1  - Drug Score                        : 0.0976
+HEADER 2  - Number of alpha spheres           :    26
+HEADER 3  - Mean alpha-sphere radius          : 3.9385
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6385
+HEADER 5  - Mean B-factor of pocket residues  : 0.1813
+HEADER 6  - Hydrophobicity Score              : 62.7778
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.1111
+HEADER 9  - Pocket volume (Monte Carlo)       : 426.8355
+HEADER 10 - Pocket volume (convex hull)       : 33.4209
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 18.5600
+HEADER 13 - Number of apolar alpha sphere     :    25
+HEADER 14 - Proportion of apolar alpha sphere : 0.9615
+ATOM   6492   CG ARG R 279     128.097 168.234 153.698  0.00  0.00           C 0
+ATOM   6520   NE ARG R 282     125.963 164.618 159.184  0.65  5.47           N 0
+ATOM   6519   CD ARG R 282     125.069 163.879 158.299  0.00  0.00           C 0
+ATOM   6488   CA ARG R 279     129.088 167.063 155.745  0.00  0.00           C 0
+ATOM   6948  CG1 VAL R 336     118.877 162.368 146.120  0.00  0.00           C 0
+ATOM   6951   CA LEU R 337     122.976 160.371 146.106  0.00  0.00           C 0
+ATOM   6986  CD1 LEU R 341     121.111 165.104 147.285  0.00  0.00           C 0
+ATOM   6987  CD2 LEU R 341     122.447 165.026 149.419  0.00  0.00           C 0
+ATOM   6491   CB ARG R 279     128.869 168.378 155.004  0.00  0.00           C 0
+ATOM   6517   CB ARG R 282     126.993 163.257 156.857  0.00  0.00           C 0
+ATOM   6518   CG ARG R 282     125.782 162.743 157.595  0.00  0.00           C 0
+ATOM   6530   SD MET R 283     125.859 163.659 150.717  0.00  0.00           S 0
+ATOM   6490    O ARG R 279     129.029 165.242 154.193  0.38  1.07           O 0
+ATOM   6524    N MET R 283     128.152 162.425 153.996  0.00  0.00           N 0
+ATOM   6956  CD1 LEU R 337     123.731 159.134 148.908  0.00  0.00           C 0
+ATOM   6553  CG2 VAL R 286     122.823 158.645 153.217  0.00  0.00           C 0
+ATOM   6531   CE MET R 283     124.950 162.529 149.656  0.00  0.00           C 0
+ATOM   6927  CD2 LEU R 333     118.497 155.832 148.369  0.00  0.00           C 0
+ATOM   6579  CG2 VAL R 290     121.480 155.142 150.778  0.00  0.00           C 0
+ATOM   6926  CD1 LEU R 333     117.199 157.538 147.096  0.00  0.00           C 0
+ATOM   6954   CB LEU R 337     123.032 158.893 146.503  0.00  0.00           C 0
+ATOM   6552  CG1 VAL R 286     124.809 159.772 152.260  0.00  0.00           C 0
+ATOM   6551   CB VAL R 286     124.281 158.966 153.428  0.00  0.00           C 0
+ATOM   6516    O ARG R 282     126.801 160.815 154.802  0.00  0.00           O 0
+ATOM   6515    C ARG R 282     127.593 161.742 154.996  0.00  0.00           C 0
+ATOM   6925   CG LEU R 333     118.450 156.678 147.108  0.00  0.00           C 0
+TER
+END

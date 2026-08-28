@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     2:
+HEADER 0  - Pocket Score                      : 0.0414
+HEADER 1  - Drug Score                        : 0.0021
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.8132
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7380
+HEADER 5  - Mean B-factor of pocket residues  : 0.0448
+HEADER 6  - Hydrophobicity Score              : 29.3333
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 240.7851
+HEADER 10 - Pocket volume (convex hull)       : 5.7162
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.4000
+ATOM     84    N ALA A  64      69.954 -40.457  -0.794  0.00  0.00           N 0
+ATOM     57    O VAL A  60      71.847 -41.615  -2.802  0.00  0.00           O 0
+ATOM     88   CB ALA A  64      71.642 -41.416   0.696  0.00  0.00           C 0
+ATOM     85   CA ALA A  64      70.251 -40.817   0.595  0.00  0.00           C 0
+ATOM     83  CG2 THR A  63      67.049 -41.754  -3.375  0.00  0.00           C 0
+ATOM    113   OG SER A  67      66.251 -41.653   1.368  0.75  9.64           O 0
+ATOM     51   CB PRO A  59      71.804 -39.887  -8.883  0.00  0.00           C 0
+ATOM     54    N VAL A  60      72.691 -41.322  -6.146  0.00  0.00           N 0
+ATOM     49    C PRO A  59      71.919 -40.241  -6.397  0.00  0.00           C 0
+ATOM    516  CD2 LEU A 120      68.097 -39.969  -8.866  0.00  0.00           C 0
+ATOM     60  CG2 VAL A  60      73.040 -44.264  -6.454  0.00  0.00           C 0
+ATOM     80    O THR A  63      67.695 -40.237  -0.566  0.00  0.00           O 0
+ATOM    515  CD1 LEU A 120      66.172 -40.766  -7.529  0.00  0.00           C 0
+ATOM     82  OG1 THR A  63      68.388 -40.594  -5.006  0.82  2.14           O 0
+ATOM     50    O PRO A  59      70.936 -39.937  -5.717  0.00  0.00           O 0
+ATOM     55   CA VAL A  60      72.439 -42.250  -5.036  0.00  0.00           C 0
+ATOM     79    C THR A  63      68.708 -40.206  -1.267  0.00  0.00           C 0
+ATOM     81   CB THR A  63      68.368 -41.030  -3.650  0.00  0.00           C 0
+ATOM     59  CG1 VAL A  60      73.020 -44.475  -3.962  0.00  0.00           C 0
+TER
+END

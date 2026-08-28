@@ -1,0 +1,44 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    64:
+HEADER 0  - Pocket Score                      : -0.0377
+HEADER 1  - Drug Score                        : 0.0045
+HEADER 2  - Number of alpha spheres           :    29
+HEADER 3  - Mean alpha-sphere radius          : 3.7153
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4806
+HEADER 5  - Mean B-factor of pocket residues  : 0.6618
+HEADER 6  - Hydrophobicity Score              : 55.1250
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 251.9820
+HEADER 10 - Pocket volume (convex hull)       : 13.3490
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 12.1429
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.4828
+ATOM   7733    N PHE A 978       4.104 -38.002  23.447  0.65  3.28           N 0
+ATOM   7740  CD2 PHE A 978       6.353 -39.302  21.068  0.00  0.00           C 0
+ATOM   7731   CB ALA A 977       7.140 -37.287  23.827  0.00  0.00           C 0
+ATOM   7750  CD1 LEU A 979       3.025 -43.184  24.302  0.00  0.00           C 0
+ATOM   7736   CB PHE A 978       3.861 -39.520  21.532  0.00  0.00           C 0
+ATOM   7728    N ALA A 977       5.739 -36.569  25.682  0.76  2.19           N 0
+ATOM   7744    N LEU A 979       1.794 -39.646  24.226  0.46  1.09           N 0
+ATOM   7747   CB LEU A 979       1.470 -41.683  25.597  0.00  0.00           C 0
+ATOM   6947   CZ PHE A 881       4.478 -45.674  26.582  0.00  0.00           C 0
+ATOM   6919    O SER A 878       4.042 -40.621  30.855  0.58  7.50           O 0
+ATOM   7751  CD2 LEU A 979       1.525 -44.155  26.049  0.00  0.00           C 0
+ATOM   6945  CE1 PHE A 881       3.907 -45.996  27.826  0.00  0.00           C 0
+ATOM   7725   CA GLY A 976       5.147 -35.700  27.910  0.00  0.00           C 0
+ATOM   7759  ND1 HIS A 980       0.783 -37.277  27.725  0.56  2.19           N 0
+ATOM   6934  CE1 PHE A 880      10.605 -38.459  25.984  0.00  0.00           C 0
+ATOM   7742  CE2 PHE A 978       7.426 -38.766  20.334  0.00  0.00           C 0
+ATOM   6932  CD1 PHE A 880      10.243 -39.531  26.817  0.00  0.00           C 0
+ATOM   6946  CE2 PHE A 881       5.784 -45.161  26.517  0.00  0.00           C 0
+ATOM   6944  CD2 PHE A 881       6.534 -45.004  27.696  0.00  0.00           C 0
+ATOM   6937    N PHE A 881       6.935 -42.783  30.183  0.00  0.00           N 0
+ATOM   6943  CD1 PHE A 881       4.652 -45.827  29.006  0.00  0.00           C 0
+ATOM   6926    N PHE A 880       7.304 -40.014  29.468  0.00  0.00           N 0
+TER
+END

@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    21:
+HEADER 0  - Pocket Score                      : 0.0080
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.5365
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3324
+HEADER 5  - Mean B-factor of pocket residues  : 0.1376
+HEADER 6  - Hydrophobicity Score              : 44.8571
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 105.7698
+HEADER 10 - Pocket volume (convex hull)       : 2.5304
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.4211
+ATOM  12386   CB MET G  76     202.105 250.595 190.227  0.00  0.00           C 0
+ATOM   4930   CD ARG C  15     200.033 253.733 194.553  0.00  0.00           C 0
+ATOM  12388   SD MET G  76     204.522 251.863 189.998  0.00  0.00           S 0
+ATOM   4900  CD1 LEU C  12     202.100 255.553 189.419  0.00  0.00           C 0
+ATOM  12385    O MET G  76     200.543 248.911 192.264  0.00  0.00           O 0
+ATOM   5986   NE ARG C 180     205.147 247.350 193.452  0.00  0.00           N 0
+ATOM   4933  NH1 ARG C  15     200.149 251.148 193.388  0.77  3.28           N 0
+ATOM   4942   CE LYS C  16     205.633 255.130 192.695  0.00  0.00           C 0
+ATOM   4931   NE ARG C  15     200.054 252.469 195.276  0.00  0.00           N 0
+ATOM   4932   CZ ARG C  15     200.106 251.278 194.703  0.00  0.00           C 0
+ATOM   4941   CD LYS C  16     205.625 255.870 194.022  0.00  0.00           C 0
+ATOM   5935    O LEU C 174     206.519 250.468 195.171  0.54  3.21           O 0
+ATOM   5987   CZ ARG C 180     203.924 246.927 193.738  0.00  0.00           C 0
+ATOM   4970  CD2 LEU C  19     204.372 252.354 198.280  0.00  0.00           C 0
+ATOM   4929   CG ARG C  15     200.184 254.868 195.523  0.00  0.00           C 0
+TER
+END

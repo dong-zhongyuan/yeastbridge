@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    16:
+HEADER 0  - Pocket Score                      : -0.0823
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.8956
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4631
+HEADER 5  - Mean B-factor of pocket residues  : 0.1641
+HEADER 6  - Hydrophobicity Score              : -10.1667
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 245.2517
+HEADER 10 - Pocket volume (convex hull)       : 15.8683
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5263
+ATOM   3289   NE ARG A 423     -25.591  -9.592  48.192  0.57  1.09           N 0
+ATOM   3065  CG1 VAL A 394     -25.304 -14.439  47.117  0.00  0.00           C 0
+ATOM   3292   CZ ARG A 423     -26.330  -9.203  49.217  0.00  0.00           C 0
+ATOM   3309  NH2 ARG A 425     -30.585 -13.468  47.323  0.00  0.00           N 0
+ATOM   3291  NH2 ARG A 423     -25.895  -9.365  50.433  0.00  0.00           N 0
+ATOM   3290  NH1 ARG A 423     -27.500  -8.645  49.060  0.00  0.00           N 0
+ATOM   3081  OE2 GLU A 396     -20.967 -10.970  50.433  0.78  4.29           O 0
+ATOM   3038   CD LYS A 390     -21.538 -14.419  53.543  0.00  0.00           C 0
+ATOM   3040   NZ LYS A 390     -21.650 -12.334  54.888  0.00  0.00           N 0
+ATOM   3064    O VAL A 394     -22.475 -16.422  47.859  0.77  3.21           O 0
+ATOM   3035   CB LYS A 390     -21.436 -16.592  52.264  0.00  0.00           C 0
+ATOM   3051   CB ASP A 392     -26.823 -18.758  52.092  0.00  0.00           C 0
+ATOM   3055  OD2 ASP A 392     -27.153 -17.772  54.208  0.00  0.00           O 0
+ATOM   3066  CG2 VAL A 394     -26.934 -16.105  47.923  0.00  0.00           C 0
+ATOM   3063   CB VAL A 394     -25.432 -15.803  47.816  0.00  0.00           C 0
+TER
+END

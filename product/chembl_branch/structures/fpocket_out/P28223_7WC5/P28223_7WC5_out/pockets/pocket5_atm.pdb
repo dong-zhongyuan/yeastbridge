@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     5:
+HEADER 0  - Pocket Score                      : -0.0319
+HEADER 1  - Drug Score                        : 0.0020
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0622
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6125
+HEADER 5  - Mean B-factor of pocket residues  : 0.2973
+HEADER 6  - Hydrophobicity Score              : -0.5714
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 337.6928
+HEADER 10 - Pocket volume (convex hull)       : 15.9097
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.4667
+ATOM   1568  OG1 THR A1009     -45.188  -5.419  90.834  0.00  0.00           O 0
+ATOM   1569  CG2 THR A1009     -47.513  -6.182  91.154  0.00  0.00           C 0
+ATOM   1538  OD1 ASN A1006     -43.805  -4.157  94.265  0.33  7.50           O 0
+ATOM   1773   CB ALA A1036     -43.589  -1.831  91.225  0.00  0.00           C 0
+ATOM   1567   CB THR A1009     -46.366  -5.896  90.205  0.00  0.00           C 0
+ATOM   1739    O LYS A1032     -44.611  -0.138  88.031  0.70  5.36           O 0
+ATOM   1744   NZ LYS A1032     -50.771  -2.148  83.978  0.56  6.56           N 0
+ATOM   1625  CG2 VAL A1016     -49.185  -7.178  81.431  0.00  0.00           C 0
+ATOM   1600  OD1 ASN A1013     -47.375  -4.332  83.591  0.54  1.07           O 0
+ATOM   1590   CB ASP A1012     -47.904  -9.061  86.428  0.00  0.00           C 0
+ATOM   1740   CB LYS A1032     -47.198  -0.358  86.014  0.00  0.00           C 0
+ATOM   1742   CD LYS A1032     -49.696  -0.600  85.593  0.00  0.00           C 0
+ATOM   1601  ND2 ASN A1013     -46.363  -4.145  85.561  0.70  4.37           N 0
+ATOM   1566    O THR A1009     -45.202  -6.198  87.417  0.00  0.00           O 0
+ATOM   1743   CE LYS A1032     -49.536  -1.415  84.334  0.00  0.00           C 0
+TER
+END

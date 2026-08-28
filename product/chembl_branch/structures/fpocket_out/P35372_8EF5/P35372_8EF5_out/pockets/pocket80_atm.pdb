@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    80:
+HEADER 0  - Pocket Score                      : -0.0957
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.0959
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5801
+HEADER 5  - Mean B-factor of pocket residues  : 0.6886
+HEADER 6  - Hydrophobicity Score              : 15.5000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 229.2772
+HEADER 10 - Pocket volume (convex hull)       : 4.0686
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2778
+ATOM   3511  CG2 ILE A 278     138.579 112.118 193.503  0.00  0.00           C 0
+ATOM   3643    N TYR A 296     138.447 108.157 190.804  0.77  5.47           N 0
+ATOM   3481    O GLU A 275     141.547 113.614 192.893  0.35  3.21           O 0
+ATOM   3517   CB LYS A 279     142.977 111.866 196.020  0.00  0.00           C 0
+ATOM   3514   CA LYS A 279     141.639 111.687 196.739  0.00  0.00           C 0
+ATOM   3634  OD1 ASN A 294     137.669 108.698 196.042  0.87  1.07           O 0
+ATOM   3631    O ASN A 294     138.842 105.377 194.801  0.00  0.00           O 0
+ATOM   3633   CG ASN A 294     138.019 108.038 197.021  0.00  0.00           C 0
+ATOM   3518   CG LYS A 279     144.099 110.981 196.540  0.00  0.00           C 0
+ATOM   3637   CA THR A 295     137.931 106.325 192.327  0.00  0.00           C 0
+ATOM   3635  ND2 ASN A 294     138.740 108.556 198.010  0.28  7.66           N 0
+ATOM   3516    O LYS A 279     141.962 111.204 199.069  0.40  4.29           O 0
+ATOM   3647   CB TYR A 296     139.415 109.876 189.348  0.00  0.00           C 0
+ATOM   3483   CG GLU A 275     142.262 113.184 189.697  0.00  0.00           C 0
+ATOM   3519   CD LYS A 279     145.364 111.154 195.714  0.00  0.00           C 0
+ATOM   3486  OE2 GLU A 275     143.816 112.044 188.306  0.00  0.00           O 0
+TER
+END

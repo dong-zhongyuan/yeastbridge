@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    44:
+HEADER 0  - Pocket Score                      : -0.0532
+HEADER 1  - Drug Score                        : 0.0017
+HEADER 2  - Number of alpha spheres           :    30
+HEADER 3  - Mean alpha-sphere radius          : 3.8862
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5528
+HEADER 5  - Mean B-factor of pocket residues  : 0.3634
+HEADER 6  - Hydrophobicity Score              : 18.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.4444
+HEADER 9  - Pocket volume (Monte Carlo)       : 288.7137
+HEADER 10 - Pocket volume (convex hull)       : 16.8969
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.4667
+ATOM   4453    O ASP B  27     142.560 204.873 126.932  0.00  0.00           O 0
+ATOM   4469  CG2 THR B  29     145.092 202.838 133.154  0.00  0.00           C 0
+ATOM   4491  OE1 GLN B  32     141.033 203.216 131.725  0.48  6.43           O 0
+ATOM   4459   CA ALA B  28     142.816 202.710 128.652  0.00  0.00           C 0
+ATOM   4463    N THR B  29     143.699 201.900 130.770  0.63  2.19           N 0
+ATOM   4449   CB ALA B  26     148.250 205.308 126.961  0.00  0.00           C 0
+ATOM   4458    N ALA B  28     143.537 202.902 127.400  0.00  0.00           N 0
+ATOM   4452    C ASP B  27     143.345 203.968 126.626  0.00  0.00           C 0
+ATOM   4460    C ALA B  28     143.533 201.648 129.467  0.00  0.00           C 0
+ATOM   7033  CG2 VAL G  30     145.928 200.743 126.519  0.00  0.00           C 0
+ATOM   7031   CB VAL G  30     146.913 199.602 126.472  0.00  0.00           C 0
+ATOM   4464   CA THR B  29     144.362 200.914 131.667  0.00  0.00           C 0
+ATOM   4461    O ALA B  28     143.874 200.589 128.935  0.58  1.07           O 0
+ATOM   7032  CG1 VAL G  30     148.326 200.131 126.413  0.00  0.00           C 0
+ATOM   6255  CD2 LEU B 261     148.649 197.433 130.115  0.00  0.00           C 0
+ATOM   6242    O GLU B 260     151.637 200.616 131.320  0.61  5.36           O 0
+ATOM   6251    O LEU B 261     148.906 198.959 134.071  0.48  5.36           O 0
+ATOM   6237  OE1 GLN B 259     150.384 202.674 127.017  0.00  0.00           O 0
+ATOM   6238  NE2 GLN B 259     152.111 204.042 127.412  0.56  8.75           N 0
+ATOM   6236   CD GLN B 259     151.555 202.844 127.348  0.00  0.00           C 0
+TER
+END

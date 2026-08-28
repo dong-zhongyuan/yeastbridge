@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    12:
+HEADER 0  - Pocket Score                      : 0.0064
+HEADER 1  - Drug Score                        : 0.0013
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.5200
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3514
+HEADER 5  - Mean B-factor of pocket residues  : 0.1249
+HEADER 6  - Hydrophobicity Score              : 27.2222
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.7778
+HEADER 9  - Pocket volume (Monte Carlo)       : 119.3850
+HEADER 10 - Pocket volume (convex hull)       : 3.3477
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3158
+ATOM   1933  CD1 TYR A 381     166.403 168.799 137.529  0.00  0.00           C 0
+ATOM   9116  OE1 GLU R 518     170.011 166.254 140.653  0.85  2.14           O 0
+ATOM   8568   CB PRO R 449     166.871 163.468 139.280  0.00  0.00           C 0
+ATOM   1935  CE1 TYR A 381     167.652 168.200 137.362  0.00  0.00           C 0
+ATOM   9125   NE ARG R 519     165.949 170.090 141.449  0.75  3.28           N 0
+ATOM   9127  NH1 ARG R 519     163.795 169.458 141.322  0.71  5.47           N 1
+ATOM   8567    O PRO R 449     166.130 162.272 142.385  0.00  0.00           O 0
+ATOM   8565   CA PRO R 449     167.503 162.829 140.517  0.00  0.00           C 0
+ATOM   8599  CD1 LEU R 452     170.305 164.116 144.348  0.00  0.00           C 0
+ATOM   9091  CG1 ILE R 515     167.404 166.189 146.131  0.00  0.00           C 0
+ATOM  10370  CG2 THR R 682     159.307 166.130 139.171  0.00  0.00           C 0
+ATOM   8608   CE MET R 453     163.542 164.029 141.689  0.00  0.00           C 0
+ATOM   1921    O GLN A 380     162.849 167.457 135.906  0.58  7.50           O 0
+ATOM   8607   SD MET R 453     164.089 164.542 143.341  0.00  0.00           S 0
+ATOM   9092  CG2 ILE R 515     166.800 168.337 144.981  0.00  0.00           C 0
+TER
+END

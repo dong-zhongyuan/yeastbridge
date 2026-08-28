@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : 0.0267
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 4.0015
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5626
+HEADER 5  - Mean B-factor of pocket residues  : 0.2379
+HEADER 6  - Hydrophobicity Score              : 9.1818
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Amino Acid based volume Score     : 4.9091
+HEADER 9  - Pocket volume (Monte Carlo)       : 323.0481
+HEADER 10 - Pocket volume (convex hull)       : 20.6650
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.3913
+ATOM   1933  OD1 ASP A 273     115.929 156.024 160.020  0.00  0.00           O 0
+ATOM   1921   CG ARG A 272     114.971 149.695 157.615  0.00  0.00           C 0
+ATOM   1935    N ASP A 274     114.130 153.307 160.396  0.00  0.00           N 0
+ATOM   1941  OD1 ASP A 274     113.015 156.412 158.310  0.00  0.00           O 0
+ATOM   1939   CB ASP A 274     112.190 154.428 159.318  0.00  0.00           C 0
+ATOM   1927    N ASP A 273     116.559 151.868 160.372  0.71  1.09           N 0
+ATOM   1996  CG2 VAL A 292     121.332 153.695 155.717  0.00  0.00           C 0
+ATOM   1963   CB ALA A 288     118.756 148.428 156.140  0.00  0.00           C 0
+ATOM   1995  CG1 VAL A 292     123.099 155.316 156.364  0.00  0.00           C 0
+ATOM   1505  NH1 ARG A 222     121.338 160.717 159.348  0.75  6.56           N 0
+ATOM   2030   OH TYR A 296     122.409 160.832 156.014  0.00  0.00           O 0
+ATOM   1917   CA ARG A 272     116.517 149.579 159.645  0.00  0.00           C 0
+ATOM   1931   CB ASP A 273     117.158 154.183 160.879  0.00  0.00           C 0
+ATOM   1909    O HIS A 271     119.192 149.060 159.723  0.00  0.00           O 0
+ATOM   2018   NZ LYS A 295     122.405 158.250 153.345  0.74  1.09           N 0
+ATOM   2028  CE2 TYR A 296     123.805 158.904 155.971  0.00  0.00           C 0
+ATOM   1472  CD2 LEU A 218     120.233 156.754 161.216  0.00  0.00           C 0
+ATOM   1471  CD1 LEU A 218     122.373 156.765 159.941  0.00  0.00           C 0
+ATOM   1962    O ALA A 288     121.425 150.232 155.309  0.00  0.00           O 0
+ATOM   1971   CE LYS A 289     122.136 151.737 161.054  0.00  0.00           C 0
+TER
+END

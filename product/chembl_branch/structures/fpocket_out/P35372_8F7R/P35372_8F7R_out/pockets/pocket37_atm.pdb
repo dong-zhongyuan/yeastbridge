@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    37:
+HEADER 0  - Pocket Score                      : -0.0075
+HEADER 1  - Drug Score                        : 0.0047
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.8383
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7232
+HEADER 5  - Mean B-factor of pocket residues  : 0.1120
+HEADER 6  - Hydrophobicity Score              : 37.4000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 254.3352
+HEADER 10 - Pocket volume (convex hull)       : 11.8126
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.9375
+ATOM    966    O ILE R 188     122.370 117.534 106.623  0.00  0.00           O 0
+ATOM    992  CG1 VAL R 191     122.336 122.245 106.244  0.00  0.00           C 0
+ATOM    969  CG2 ILE R 188     120.014 115.987 104.975  0.00  0.00           C 0
+ATOM    999   SG CYS R 192     120.121 117.859 108.961  0.00  0.00           S 0
+ATOM    991   CB VAL R 191     123.368 121.178 105.907  0.00  0.00           C 0
+ATOM    993  CG2 VAL R 191     124.224 121.685 104.757  0.00  0.00           C 0
+ATOM    968  CG1 ILE R 188     120.496 116.453 102.569  0.00  0.00           C 0
+ATOM    964   CA ILE R 188     122.274 116.913 104.299  0.00  0.00           C 0
+ATOM    957    O LYS R 187     124.536 118.495 104.186  0.57  1.07           O 0
+ATOM    956    C LYS R 187     124.454 117.540 103.404  0.00  0.00           C 0
+ATOM    963    N ILE R 188     123.411 116.700 103.402  0.00  0.00           N 0
+ATOM    970  CD1 ILE R 188     119.512 115.466 101.979  0.00  0.00           C 0
+ATOM    937   NE ARG R 184     118.663 115.061  97.738  0.24  5.47           N 0
+ATOM    935   CG ARG R 184     121.041 114.713  98.316  0.00  0.00           C 0
+ATOM    940  NH2 ARG R 184     116.677 115.390  98.852  0.00  8.75           N 0
+ATOM    958   CB LYS R 187     125.280 117.808 101.055  0.00  0.00           C 0
+ATOM    933    O ARG R 184     122.967 115.002 101.027  0.00  0.00           O 0
+TER
+END

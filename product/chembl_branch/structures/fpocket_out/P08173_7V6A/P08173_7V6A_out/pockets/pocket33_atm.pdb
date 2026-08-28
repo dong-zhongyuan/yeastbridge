@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    33:
+HEADER 0  - Pocket Score                      : -0.0278
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0429
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7500
+HEADER 5  - Mean B-factor of pocket residues  : 0.1547
+HEADER 6  - Hydrophobicity Score              : 8.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 239.3237
+HEADER 10 - Pocket volume (convex hull)       : 4.9829
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1333
+ATOM   4490   CB ALA C  43     102.888 137.473  67.220  0.00  0.00           C 0
+ATOM   4457    O ALA C  39     103.001 140.700  66.717  0.62  5.36           O 0
+ATOM   4460   CA TYR C  40     105.596 140.996  67.625  0.00  0.00           C 0
+ATOM   4465  CD1 TYR C  40     108.439 139.433  66.757  0.00  0.00           C 0
+ATOM   4433    O ASP C  36     105.788 144.443  65.075  0.53  4.29           O 0
+ATOM   4459    N TYR C  40     104.675 142.083  67.314  0.00  0.00           N 0
+ATOM   4437  OD2 ASP C  36     106.200 146.984  60.175  0.81  6.43           O 0
+ATOM   4435   CG ASP C  36     105.678 146.333  61.103  0.00  0.00           C 0
+ATOM   4436  OD1 ASP C  36     104.688 145.589  60.939  0.00  0.00           O 0
+ATOM   3578  NH2 ARG B 256     110.733 144.962  60.244  0.00  0.00           N 0
+ATOM   4456    C ALA C  39     103.439 141.843  66.878  0.00  0.00           C 0
+ATOM   4458   CB ALA C  39     102.276 143.083  65.055  0.00  0.00           C 0
+ATOM   4463   CB TYR C  40     107.041 141.436  67.365  0.00  0.00           C 0
+ATOM   3437  ND2 ASN B 237     109.822 143.318  64.687  0.64  2.19           N 0
+ATOM   3436  OD1 ASN B 237     110.907 141.517  63.910  0.00  0.00           O 0
+ATOM   4434   CB ASP C  36     106.271 146.451  62.493  0.00  0.00           C 0
+TER
+END

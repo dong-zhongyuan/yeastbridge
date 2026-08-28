@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    57:
+HEADER 0  - Pocket Score                      : -0.1270
+HEADER 1  - Drug Score                        : 0.0028
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9296
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6452
+HEADER 5  - Mean B-factor of pocket residues  : 0.3522
+HEADER 6  - Hydrophobicity Score              : 87.4000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 5.2000
+HEADER 9  - Pocket volume (Monte Carlo)       : 190.2388
+HEADER 10 - Pocket volume (convex hull)       : 4.6128
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 16.0000
+HEADER 13 - Number of apolar alpha sphere     :    17
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM   8159   CG LEU D  71     261.186 227.333 210.371  0.00  0.00           C 0
+ATOM   8161  CD2 LEU D  71     261.570 225.874 210.165  0.00  0.00           C 0
+ATOM   8158   CB LEU D  71     259.699 227.529 210.044  0.00  0.00           C 0
+ATOM   8157    O LEU D  71     258.088 229.150 207.703  0.57  2.14           O 0
+ATOM   8190  CD1 LEU D  75     258.509 226.884 203.035  0.00  0.00           C 0
+ATOM   8183   SG CYS D  74     260.659 230.969 207.392  0.00  0.00           S 0
+ATOM   8188   CB LEU D  75     257.315 228.381 204.647  0.00  0.00           C 0
+ATOM   8181    O CYS D  74     259.152 232.032 204.054  0.63  4.29           O 0
+ATOM   8185   CA LEU D  75     257.515 229.811 204.140  0.00  0.00           C 0
+ATOM   7828   CB TRP D  28     256.493 222.538 203.291  0.00  0.00           C 0
+ATOM   7831  CD2 TRP D  28     258.076 220.451 203.490  0.00  0.00           C 0
+ATOM   7834  CE3 TRP D  28     258.070 220.067 204.834  0.00  0.00           C 0
+ATOM   7864  CD1 LEU D  32     256.834 222.966 208.438  0.00  0.00           C 0
+ATOM   8191  CD2 LEU D  75     256.463 226.070 204.205  0.00  0.00           C 0
+ATOM   7829   CG TRP D  28     257.432 221.496 202.750  0.00  0.00           C 0
+ATOM   7865  CD2 LEU D  32     256.938 225.397 208.963  0.00  0.00           C 0
+TER
+END

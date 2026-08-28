@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : -0.0215
+HEADER 1  - Drug Score                        : 0.0054
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9902
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6538
+HEADER 5  - Mean B-factor of pocket residues  : 0.8920
+HEADER 6  - Hydrophobicity Score              : 56.6250
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 303.6689
+HEADER 10 - Pocket volume (convex hull)       : 12.0585
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 13.6000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.8333
+ATOM   3021  CG1 ILE A 400      -6.414  20.207 -16.490  0.00  0.00           C 0
+ATOM   3013    O THR A 399      -8.362  22.174 -13.547  0.60  5.36           O 0
+ATOM   2996   CA TRP A 398      -8.045  26.371 -15.877  0.00  0.00           C 0
+ATOM   2988    O ARG A 397     -10.890  26.361 -16.161  0.44  9.64           O 0
+ATOM   2997    C TRP A 398      -6.969  25.521 -15.160  0.00  0.00           C 0
+ATOM   2999    O TRP A 398      -5.792  25.585 -15.539  0.76  2.14           O 0
+ATOM   3023  CD1 ILE A 400      -5.605  19.909 -17.760  0.00  0.00           C 0
+ATOM   3004  CE3 TRP A 398      -8.066  27.481 -19.968  0.00  0.00           C 0
+ATOM   3596   CG ARG A 472      -2.321  24.812 -16.598  0.00  0.00           C 0
+ATOM   3599  NH1 ARG A 472      -4.245  27.736 -16.891  0.48  2.19           N 0
+ATOM   3569  CG1 ILE A 469      -2.128  19.256 -20.726  0.00  0.00           C 0
+ATOM   3560    O LEU A 468       0.130  22.943 -18.652  0.00  0.00           O 0
+ATOM   3558    C LEU A 468       0.604  22.234 -19.543  0.00  0.00           C 0
+ATOM   3559   CB LEU A 468       1.175  23.298 -21.768  0.00  0.00           C 0
+ATOM   3537    O VAL A 465       0.817  19.823 -22.335  0.00  0.00           O 0
+ATOM   3538  CG1 VAL A 465      -0.992  19.294 -24.975  0.00  0.00           C 0
+ATOM   3564    N ILE A 469       0.208  20.973 -19.737  0.00  0.00           N 0
+ATOM   3594   CB ARG A 472      -2.750  23.508 -15.906  0.00  0.00           C 0
+ATOM   3565   CA ILE A 469      -0.753  20.270 -18.879  0.00  0.00           C 0
+TER
+END

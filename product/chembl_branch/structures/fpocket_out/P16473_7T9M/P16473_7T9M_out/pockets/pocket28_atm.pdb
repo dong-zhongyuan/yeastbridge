@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    28:
+HEADER 0  - Pocket Score                      : -0.0750
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.8895
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7275
+HEADER 5  - Mean B-factor of pocket residues  : 0.8840
+HEADER 6  - Hydrophobicity Score              : 65.3333
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 173.6520
+HEADER 10 - Pocket volume (convex hull)       : 3.4995
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.4737
+ATOM  11473   CZ PHE R 451     132.450 133.683 167.184  0.00  0.00           C 0
+ATOM  12976  CZ2 TRP R 546     134.980 137.875 162.310  0.00  0.00           C 0
+ATOM  11471  CE1 PHE R 451     132.758 132.343 167.075  0.00  0.00           C 0
+ATOM  12978  CH2 TRP R 546     134.272 137.635 161.164  0.00  0.00           C 0
+ATOM  11537  ND2 ASN R 455     135.837 135.337 167.113  0.73  3.28           N 0
+ATOM  11577   CB PHE R 458     139.333 134.813 161.717  0.00  0.00           C 0
+ATOM  11578   CG PHE R 458     138.743 135.745 160.679  0.00  0.00           C 0
+ATOM  11580  CD2 PHE R 458     138.035 136.869 161.069  0.00  0.00           C 0
+ATOM  11522    O CYS R 454     139.540 132.729 164.599  0.70  1.07           O 0
+ATOM  11521    C CYS R 454     139.174 132.626 165.773  0.00  0.00           C 0
+ATOM  11523   CB CYS R 454     137.782 130.637 166.407  0.00  0.00           C 0
+ATOM  11535   CG ASN R 455     136.663 136.184 166.511  0.00  0.00           C 0
+ATOM  12925   CE MET R 542     133.360 137.768 165.925  0.00  0.00           C 0
+ATOM  11536  OD1 ASN R 455     136.271 137.056 165.735  0.00  0.00           O 0
+ATOM  11530    N ASN R 455     138.758 133.678 166.480  0.00  0.00           N 0
+ATOM  11531   CA ASN R 455     138.825 135.022 165.902  0.00  0.00           C 0
+TER
+END

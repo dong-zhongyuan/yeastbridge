@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    40:
+HEADER 0  - Pocket Score                      : -0.0417
+HEADER 1  - Drug Score                        : 0.0038
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.8236
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5498
+HEADER 5  - Mean B-factor of pocket residues  : 0.6960
+HEADER 6  - Hydrophobicity Score              : 42.6667
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 216.1002
+HEADER 10 - Pocket volume (convex hull)       : 3.8301
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.6111
+ATOM    105   CA ILE B  18      92.310  84.407 113.593  0.00  0.00           C 0
+ATOM    100   CG GLN B  17      89.498  81.000 111.578  0.00  0.00           C 0
+ATOM   2696   CB ALA C  23      95.288  80.088 110.607  0.00  0.00           C 0
+ATOM   2695    O ALA C  23      96.035  78.374 113.306  0.42  4.29           O 0
+ATOM   2730  NH1 ARG C  27      96.231  82.777 115.904  0.00  0.00           N 0
+ATOM    135   CB ALA B  21      91.206  81.636 116.958  0.00  0.00           C 0
+ATOM   2729   CZ ARG C  27      95.671  82.336 117.022  0.00  0.00           C 0
+ATOM   2731  NH2 ARG C  27      94.487  82.803 117.394  0.00  0.00           N 0
+ATOM     98    O GLN B  17      89.906  83.150 114.046  0.65  1.07           O 0
+ATOM    103  NE2 GLN B  17      88.251  79.478 112.989  0.21  8.75           N 0
+ATOM   2728   NE ARG C  27      96.294  81.430 117.767  0.00  0.00           N 0
+ATOM   2708    O ILE C  25      96.979  76.720 116.762  0.44  5.36           O 0
+ATOM   2727   CD ARG C  27      95.761  80.883 119.012  0.00  0.00           C 0
+ATOM    166   SG CYS B  25      92.414  80.474 121.851  0.00  0.00           S 0
+ATOM   2725   CB ARG C  27      96.082  79.219 120.865  0.00  0.00           C 0
+ATOM   2726   CG ARG C  27      96.662  79.804 119.588  0.00  0.00           C 0
+ATOM    109  CG1 ILE B  18      94.275  83.889 112.107  0.00  0.00           C 0
+ATOM   2693   CA ALA C  23      96.388  80.094 111.668  0.00  0.00           C 0
+TER
+END

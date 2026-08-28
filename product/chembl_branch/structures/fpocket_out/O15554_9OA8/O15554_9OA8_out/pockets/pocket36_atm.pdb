@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    36:
+HEADER 0  - Pocket Score                      : -0.0269
+HEADER 1  - Drug Score                        : 0.0030
+HEADER 2  - Number of alpha spheres           :    34
+HEADER 3  - Mean alpha-sphere radius          : 3.6401
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4172
+HEADER 5  - Mean B-factor of pocket residues  : 0.7854
+HEADER 6  - Hydrophobicity Score              : 44.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 149.3734
+HEADER 10 - Pocket volume (convex hull)       : 9.2566
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 23.0000
+HEADER 13 - Number of apolar alpha sphere     :    24
+HEADER 14 - Proportion of apolar alpha sphere : 0.7059
+ATOM  14020   CB GLU G 127     159.227 219.190 171.951  0.00  0.00           C 0
+ATOM   2286  CD1 TRP A 323     161.468 218.736 177.394  0.00  0.00           C 0
+ATOM   2319  CD1 TYR A 326     159.495 223.268 176.989  0.00  0.00           C 0
+ATOM   2288  NE1 TRP A 323     160.435 218.136 176.717  0.78  2.19           N 0
+ATOM  14130   CG MET G 144     165.207 221.848 174.981  0.00  0.00           C 0
+ATOM   2321  CE1 TYR A 326     158.911 223.891 175.903  0.00  0.00           C 0
+ATOM   2320  CD2 TYR A 326     160.993 225.102 177.247  0.00  0.00           C 0
+ATOM   2323   CZ TYR A 326     159.375 225.123 175.494  0.00  0.00           C 0
+ATOM   2322  CE2 TYR A 326     160.415 225.732 176.162  0.00  0.00           C 0
+ATOM  14131   SD MET G 144     165.330 220.171 174.330  0.00  0.00           S 0
+ATOM   2318   CG TYR A 326     160.545 223.862 177.679  0.00  0.00           C 0
+ATOM  14004    O MET G 124     162.113 216.865 171.431  0.66  1.07           O 0
+ATOM  14019    O GLU G 127     160.510 221.227 169.704  0.00  0.00           O 0
+ATOM   2324   OH TYR A 326     158.795 225.747 174.414  0.65  9.64           O 0
+ATOM  14124  NE2 GLN G 143     162.703 226.158 172.494  0.48  2.19           N 0
+ATOM  14018    C GLU G 127     160.596 220.036 170.026  0.00  0.00           C 0
+ATOM  14021    N ALA G 128     161.762 219.386 170.041  0.78  1.09           N 0
+ATOM  14129   CB MET G 144     165.394 222.919 173.917  0.00  0.00           C 0
+ATOM  14022   CA ALA G 128     162.997 220.074 169.677  0.00  0.00           C 0
+ATOM  14123  OE1 GLN G 143     163.858 225.682 170.629  0.68  7.50           O 0
+TER
+END

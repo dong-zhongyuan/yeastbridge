@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    20:
+HEADER 0  - Pocket Score                      : 0.0125
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.5100
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4700
+HEADER 5  - Mean B-factor of pocket residues  : 0.4441
+HEADER 6  - Hydrophobicity Score              : -8.1250
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.1250
+HEADER 9  - Pocket volume (Monte Carlo)       : 81.1678
+HEADER 10 - Pocket volume (convex hull)       : 0.7078
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3529
+ATOM   6725   OG SER B 193     179.339 153.636 168.653  0.44  2.14           O 0
+ATOM   7049  OE1 GLU B 234     179.158 155.719 164.201  0.23  5.36           O 0
+ATOM  13018  NE2 GLN C 309     182.442 151.471 166.018  0.76  3.28           N 0
+ATOM  13016   CD GLN C 309     181.858 150.292 165.829  0.00  0.00           C 0
+ATOM   7063   CB GLU B 236     176.191 150.648 163.486  0.00  0.00           C 0
+ATOM  13017  OE1 GLN C 309     181.323 149.662 166.743  0.72  4.29           O 0
+ATOM   7074  CD1 PHE B 237     174.518 151.541 167.834  0.00  0.00           C 0
+ATOM   7073   CG PHE B 237     174.928 152.864 167.781  0.00  0.00           C 0
+ATOM   7062    O GLU B 236     175.238 153.846 163.873  0.00  0.00           O 0
+ATOM  13138  NH1 ARG C 323     178.878 153.425 161.728  0.43  1.09           N 0
+ATOM   7075  CD2 PHE B 237     175.855 153.312 168.712  0.00  0.00           C 0
+ATOM   7076  CE1 PHE B 237     175.031 150.680 168.789  0.00  0.00           C 0
+ATOM   7077  CE2 PHE B 237     176.371 152.458 169.669  0.00  0.00           C 0
+ATOM  12983    O PRO C 305     177.790 147.271 164.677  0.00  0.00           O 0
+ATOM  12994  ND2 ASN C 306     178.853 147.808 169.251  0.90  2.19           N 0
+ATOM   7078   CZ PHE B 237     175.959 151.140 169.709  0.00  0.00           C 0
+TER
+END

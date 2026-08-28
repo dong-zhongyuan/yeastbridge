@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : 0.0323
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    26
+HEADER 3  - Mean alpha-sphere radius          : 3.6327
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3782
+HEADER 5  - Mean B-factor of pocket residues  : 0.3189
+HEADER 6  - Hydrophobicity Score              : 44.1111
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 151.0648
+HEADER 10 - Pocket volume (convex hull)       : 6.2245
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0385
+ATOM  12189    O ALA R 238     135.867 126.217 173.932  0.00  0.00           O 0
+ATOM  12379  NH2 ARG R 383     139.563 124.817 168.625  0.00  0.00           N 0
+ATOM  12251  NH1 ARG R 241     135.296 127.330 168.659  0.67  8.75           N 0
+ATOM  12463  CE2 PHE R 387     139.872 126.752 174.323  0.00  0.00           C 0
+ATOM   3353   CA ALA A 345     136.599 129.929 164.577  0.00  0.00           C 0
+ATOM   3356   CB ALA A 345     136.637 128.550 163.921  0.00  0.00           C 0
+ATOM  12461  CD2 PHE R 387     140.901 127.586 173.937  0.00  0.00           C 0
+ATOM   3461    O LEU A 353     141.620 129.578 169.694  0.54  5.36           O 0
+ATOM  12190   CB ALA R 238     137.190 129.246 174.069  0.00  0.00           C 0
+ATOM  12187   CA ALA R 238     135.816 128.615 173.847  0.00  0.00           C 0
+ATOM   3394   CB LEU A 348     138.194 131.897 168.267  0.00  0.00           C 0
+ATOM   3396  CD1 LEU A 348     136.055 130.824 169.010  0.00  0.00           C 0
+ATOM   3355    O ALA A 345     138.781 130.904 164.799  0.63  2.14           O 0
+ATOM  12378  NH1 ARG R 383     141.375 124.833 167.230  0.59  5.47           N 0
+ATOM   3419  NH2 ARG A 349     141.255 127.456 163.041  0.59  5.47           N 0
+ATOM   3479    C TYR A 354     143.219 127.296 168.927  0.00  0.00           C 0
+ATOM   3413   CB ARG A 349     142.204 131.521 164.661  0.00  0.00           C 0
+ATOM   3478   CA TYR A 354     143.885 128.582 168.451  0.00  0.00           C 0
+ATOM   3416   NE ARG A 349     142.924 129.004 163.300  0.82  3.28           N 0
+TER
+END

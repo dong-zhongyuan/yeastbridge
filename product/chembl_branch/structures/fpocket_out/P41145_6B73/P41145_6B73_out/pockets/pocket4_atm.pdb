@@ -1,0 +1,44 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     4:
+HEADER 0  - Pocket Score                      : 0.0271
+HEADER 1  - Drug Score                        : 0.0054
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 4.0770
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6504
+HEADER 5  - Mean B-factor of pocket residues  : 0.1049
+HEADER 6  - Hydrophobicity Score              : 48.7500
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.1250
+HEADER 9  - Pocket volume (Monte Carlo)       : 304.2941
+HEADER 10 - Pocket volume (convex hull)       : 14.7644
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 11.8571
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.5600
+ATOM    282   SD MET A  90      47.699 -24.369  20.059  0.00  0.00           S 0
+ATOM    283   CE MET A  90      46.017 -24.940  19.832  0.00  0.00           C 0
+ATOM    365  OD1 ASN A 100      49.792 -22.323  14.113  0.00  0.00           O 0
+ATOM    355  CD2 PHE A  99      49.965 -25.761  16.114  0.00  0.00           C 0
+ATOM    999  CG1 ILE A 180      44.440 -15.805  12.846  0.00  0.00           C 0
+ATOM    990   CB ASN A 179      49.555 -17.671  13.311  0.00  0.00           C 0
+ATOM    988    C ASN A 179      48.455 -16.306  11.520  0.00  0.00           C 0
+ATOM    994    N ILE A 180      47.336 -15.645  11.910  0.00  0.00           N 0
+ATOM    989    O ASN A 179      48.574 -16.813  10.407  0.00  0.00           O 0
+ATOM    995   CA ILE A 180      46.187 -15.452  11.006  0.00  0.00           C 0
+ATOM   1020   CB TRP A 183      46.831 -17.918   7.799  0.00  0.00           C 0
+ATOM    357  CE2 PHE A  99      49.051 -26.636  15.511  0.00  0.00           C 0
+ATOM    326  CG2 ILE A  96      49.901 -19.429  18.547  0.00  0.00           C 0
+ATOM    366  ND2 ASN A 100      50.652 -20.738  15.419  0.66  1.09           N 0
+ATOM    964    O LYS A 176      46.878 -15.710  14.731  0.35  2.14           O 0
+ATOM   1021   CG TRP A 183      45.653 -18.566   7.122  0.00  0.00           C 0
+ATOM   1023  CD2 TRP A 183      44.330 -18.013   6.996  0.00  0.00           C 0
+ATOM    966   CG LYS A 176      46.054 -17.579  18.907  0.00  0.00           C 0
+ATOM    965   CB LYS A 176      45.903 -16.478  17.856  0.00  0.00           C 0
+ATOM    968   CE LYS A 176      44.893 -18.888  20.738  0.00  0.00           C 0
+ATOM    325  CG1 ILE A  96      49.489 -20.151  20.939  0.00  0.00           C 0
+ATOM    962   CA LYS A 176      47.186 -16.182  17.055  0.00  0.00           C 0
+TER
+END

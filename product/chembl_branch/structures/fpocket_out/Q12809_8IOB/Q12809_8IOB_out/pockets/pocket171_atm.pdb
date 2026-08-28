@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   171:
+HEADER 0  - Pocket Score                      : -0.2719
+HEADER 1  - Drug Score                        : 0.0037
+HEADER 2  - Number of alpha spheres           :    26
+HEADER 3  - Mean alpha-sphere radius          : 3.7164
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4514
+HEADER 5  - Mean B-factor of pocket residues  : 0.5038
+HEADER 6  - Hydrophobicity Score              : 61.7143
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 222.3626
+HEADER 10 - Pocket volume (convex hull)       : 9.2565
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 16.8889
+HEADER 13 - Number of apolar alpha sphere     :    18
+HEADER 14 - Proportion of apolar alpha sphere : 0.6923
+ATOM  11344  CD2 LEU D 552     150.224 164.428 170.465  0.00  0.00           C 0
+ATOM  11241  CD2 LEU D 539     148.443 160.251 165.953  0.00  0.00           C 0
+ATOM  11343  CD1 LEU D 552     148.024 164.874 169.388  0.00  0.00           C 0
+ATOM  11240  CD1 LEU D 539     148.491 161.754 163.964  0.00  0.00           C 0
+ATOM  11237    O LEU D 539     145.717 164.475 163.869  0.62  1.07           O 0
+ATOM  11274   CB SER D 543     147.545 167.331 162.795  0.00  0.00           C 0
+ATOM  11238   CB LEU D 539     146.668 161.995 165.717  0.00  0.00           C 0
+ATOM  11316  CG1 VAL D 549     153.288 167.530 166.687  0.00  0.00           C 0
+ATOM  11270    N SER D 543     145.185 167.233 163.450  0.00  0.00           N 0
+ATOM  11262   CB TYR D 542     143.461 166.066 165.828  0.00  0.00           C 0
+ATOM  11310   CB ALA D 548     147.483 171.246 166.363  0.00  0.00           C 0
+ATOM  11260    C TYR D 542     144.083 167.691 164.037  0.00  0.00           C 0
+ATOM  11317  CG2 VAL D 549     151.569 168.166 164.990  0.00  0.00           C 0
+ATOM   1851   OH TYR A 667     156.366 163.698 163.767  0.39  8.57           O 0
+ATOM  11312   CA VAL D 549     151.333 168.960 167.360  0.00  0.00           C 0
+ATOM  11271   CA SER D 543     146.268 168.127 163.067  0.00  0.00           C 0
+ATOM  11309    O ALA D 548     149.114 169.805 168.725  0.73  4.29           O 0
+ATOM  11311    N VAL D 549     150.474 170.067 166.952  0.00  0.00           N 0
+ATOM  11261    O TYR D 542     143.889 168.897 164.224  0.50  7.50           O 0
+ATOM  11308    C ALA D 548     149.432 170.424 167.705  0.00  0.00           C 0
+TER
+END

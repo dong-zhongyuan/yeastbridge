@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     4:
+HEADER 0  - Pocket Score                      : 0.0779
+HEADER 1  - Drug Score                        : 0.0028
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.6420
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3768
+HEADER 5  - Mean B-factor of pocket residues  : 0.2119
+HEADER 6  - Hydrophobicity Score              : 31.1250
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 132.2422
+HEADER 10 - Pocket volume (convex hull)       : 3.0041
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 16.0000
+HEADER 13 - Number of apolar alpha sphere     :    17
+HEADER 14 - Proportion of apolar alpha sphere : 0.8095
+ATOM   7401  CG1 VAL R  73      -4.016 -73.434 -41.511  0.00  0.00           C 0
+ATOM   7656   CB SER R 107     -11.008 -74.618 -41.830  0.00  0.00           C 0
+ATOM   8942  CD1 TRP R 321      -7.097 -76.197 -45.608  0.00  0.00           C 0
+ATOM   7628  OD1 ASP R 103      -7.511 -78.193 -41.663  0.37  3.21           O 0
+ATOM   8676  CZ2 TRP R 285      -9.723 -72.531 -45.877  0.00  0.00           C 0
+ATOM   7675   OG SER R 110      -9.464 -67.729 -42.409  0.35  3.21           O 0
+ATOM   7674   CB SER R 110      -9.759 -68.611 -41.339  0.00  0.00           C 0
+ATOM   8967   CB SER R 324      -4.413 -69.742 -44.013  0.00  0.00           C 0
+ATOM   8963    N SER R 324      -5.064 -69.091 -46.275  0.00  0.00           N 0
+ATOM   8673  NE1 TRP R 285     -10.449 -70.362 -46.901  0.27  2.19           N 0
+ATOM   8937   CA TRP R 321      -5.652 -74.112 -47.124  0.00  0.00           C 0
+ATOM   8678  CH2 TRP R 285      -9.988 -73.873 -45.889  0.00  0.00           C 0
+ATOM   7652    N SER R 107     -10.096 -73.963 -39.655  0.00  0.00           N 0
+ATOM   8939    O TRP R 321      -4.364 -72.214 -46.435  0.61  1.07           O 0
+ATOM   7653   CA SER R 107     -10.699 -73.459 -40.882  0.00  0.00           C 0
+ATOM   7649    O CYS R 106      -9.038 -72.018 -39.260  0.00  0.00           O 0
+ATOM   7402  CG2 VAL R  73      -5.490 -72.148 -39.941  0.00  0.00           C 0
+TER
+END

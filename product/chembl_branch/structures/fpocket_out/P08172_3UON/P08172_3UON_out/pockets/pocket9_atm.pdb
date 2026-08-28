@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : -0.0538
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 4.1095
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7046
+HEADER 5  - Mean B-factor of pocket residues  : 0.0901
+HEADER 6  - Hydrophobicity Score              : 37.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 256.3188
+HEADER 10 - Pocket volume (convex hull)       : 8.6045
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.4545
+ATOM   2627  CE1 TYR A1139     -10.624   7.103  51.806  0.00  0.00           C 0
+ATOM   2691   CG LYS A1147      -9.520   9.212  48.869  0.00  0.00           C 0
+ATOM   2726  OG1 THR A1151     -12.481   6.913  44.073  0.55  9.64           O 0
+ATOM   2630   OH TYR A1139     -11.713   9.163  52.323  0.63  2.14           O 0
+ATOM   2687   CA LYS A1147      -9.153   7.256  47.260  0.00  0.00           C 0
+ATOM   2720  CD1 ILE A1150     -10.651   3.128  49.734  0.00  0.00           C 0
+ATOM   2717   CB ILE A1150     -11.178   3.122  47.241  0.00  0.00           C 0
+ATOM   2719  CG2 ILE A1150     -12.648   2.861  47.532  0.00  0.00           C 0
+ATOM   2578   CB ALA A1134     -13.251   4.372  53.342  0.00  0.00           C 0
+ATOM   2752   CD ARG A1154     -17.301   4.381  44.420  0.00  0.00           C 0
+ATOM   2755  NH1 ARG A1154     -18.425   3.963  46.974  0.00  0.00           N 0
+ATOM   2550   CB ALA A1130     -15.991   1.995  47.858  0.00  0.00           C 0
+ATOM   2549    O ALA A1130     -14.627   1.797  50.950  0.75  1.07           O 0
+ATOM   2548    C ALA A1130     -15.604   1.474  50.275  0.00  0.00           C 0
+ATOM   2689    O LYS A1147     -10.292   6.390  45.329  0.00  0.00           O 0
+ATOM   2690   CB LYS A1147      -9.332   8.768  47.425  0.00  0.00           C 0
+ATOM   2552   CA VAL A1131     -17.150   1.927  52.102  0.00  0.00           C 0
+ATOM   2551    N VAL A1131     -16.850   1.532  50.733  0.00  0.00           N 0
+ATOM   2557  CG2 VAL A1131     -19.507   2.648  51.597  0.00  0.00           C 0
+TER
+END

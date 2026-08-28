@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    56:
+HEADER 0  - Pocket Score                      : -0.0690
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.8840
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3982
+HEADER 5  - Mean B-factor of pocket residues  : 0.5045
+HEADER 6  - Hydrophobicity Score              : 27.5714
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 202.2205
+HEADER 10 - Pocket volume (convex hull)       : 5.5985
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.4500
+ATOM   1249  CE2 PHE A 315     131.167 124.645  73.138  0.00  0.00           C 0
+ATOM   1131    O VAL A 301     137.366 121.121  70.053  0.00  0.00           O 0
+ATOM   1385  NH1 ARG A 333     138.400 125.258  69.941  0.00  0.00           N 1
+ATOM   1382   CD ARG A 333     137.640 125.828  72.590  0.00  0.00           C 0
+ATOM   1410  NH1 ARG A 336     132.186 127.542  74.189  0.00  0.00           N 1
+ATOM   1192  OE2 GLU A 309     130.016 126.614  69.731  0.66  4.29           O 1
+ATOM   1250   CZ PHE A 315     131.263 124.135  74.417  0.00  0.00           C 0
+ATOM   1379    O ARG A 333     135.206 122.819  76.518  0.00  0.00           O 0
+ATOM   1380   CB ARG A 333     137.329 124.517  74.711  0.00  0.00           C 0
+ATOM   1191  OE1 GLU A 309     130.448 124.572  69.052  0.59  2.14           O 0
+ATOM   1176    N ILE A 308     130.261 120.385  69.790  0.00  0.00           N 0
+ATOM   1132   CB VAL A 301     136.118 120.053  72.719  0.00  0.00           C 0
+ATOM   1171   CB LYS A 307     131.910 120.632  67.081  0.00  0.00           C 0
+ATOM   1181  CG1 ILE A 308     130.124 120.308  72.740  0.00  0.00           C 0
+ATOM   1133  CG1 VAL A 301     135.027 119.244  73.403  0.00  0.00           C 0
+ATOM   1168   CA LYS A 307     131.823 119.537  68.148  0.00  0.00           C 0
+ATOM   1129   CA VAL A 301     136.605 119.330  71.451  0.00  0.00           C 0
+TER
+END

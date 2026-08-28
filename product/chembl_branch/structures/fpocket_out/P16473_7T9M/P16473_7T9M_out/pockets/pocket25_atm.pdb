@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    25:
+HEADER 0  - Pocket Score                      : -0.0721
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 3.8326
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4424
+HEADER 5  - Mean B-factor of pocket residues  : 0.0765
+HEADER 6  - Hydrophobicity Score              : 38.0833
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 221.8738
+HEADER 10 - Pocket volume (convex hull)       : 12.4212
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2000
+ATOM   3241    O LEU L   2     143.950 148.001 120.255  0.55  4.29           O 0
+ATOM   3225   CB HIS L   1     147.458 146.887 123.332  0.00  0.00           C 0
+ATOM   3228  CD2 HIS L   1     146.636 144.473 123.823  0.00  0.00           C 0
+ATOM   4618  CG2 THR L  96     144.507 147.083 116.973  0.00  0.00           C 0
+ATOM    974   NZ LYS H  63     150.638 145.747 120.950  0.62  3.28           N 1
+ATOM    704  OE2 GLU H  46     150.275 142.094 115.657  0.58  3.21           O 1
+ATOM   4596    O LEU L  95     148.003 149.312 115.788  0.51  4.29           O 0
+ATOM    944  ND2 ASN H  61     152.260 147.122 117.060  0.60  4.37           N 0
+ATOM   4613   CA THR L  96     145.359 148.919 115.567  0.00  0.00           C 0
+ATOM    680    O LEU H  45     146.738 144.235 111.813  0.36  7.50           O 0
+ATOM   4626    N PHE L  97     144.277 147.703 113.776  0.79  1.09           N 0
+ATOM    973   CE LYS H  63     151.260 144.474 120.492  0.00  0.00           C 0
+ATOM   4617  OG1 THR L  96     145.272 149.082 117.982  0.56  1.07           O 0
+ATOM   4582    O PRO L  94     147.752 150.547 118.604  0.50  1.07           O 0
+ATOM   3262  CG1 VAL L   3     142.998 144.533 121.854  0.00  0.00           C 0
+ATOM    697   CA GLU H  46     149.421 144.957 112.018  0.00  0.00           C 0
+ATOM    701   CG GLU H  46     150.603 143.622 113.865  0.00  0.00           C 0
+ATOM    711    N TRP H  47     150.491 146.990 112.787  0.53  1.09           N 0
+TER
+END

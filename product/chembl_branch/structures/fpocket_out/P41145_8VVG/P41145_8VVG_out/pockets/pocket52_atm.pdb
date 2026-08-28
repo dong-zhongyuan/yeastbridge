@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    52:
+HEADER 0  - Pocket Score                      : -0.0694
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 4.0298
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6434
+HEADER 5  - Mean B-factor of pocket residues  : 0.3948
+HEADER 6  - Hydrophobicity Score              : -23.3333
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 249.6708
+HEADER 10 - Pocket volume (convex hull)       : 6.1386
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1053
+ATOM   2311  NH2 ARG C  19     180.275 207.778 202.797  0.00  0.00           N 0
+ATOM   2317   CG ASP C  20     184.533 205.913 208.353  0.00  0.00           C 0
+ATOM   2316   CB ASP C  20     183.179 205.243 208.244  0.00  0.00           C 0
+ATOM   2318  OD1 ASP C  20     185.307 205.853 207.374  0.16  6.43           O 0
+ATOM   2279    O ASN C  16     179.940 205.598 207.637  0.42  3.21           O 0
+ATOM   2319  OD2 ASP C  20     184.824 206.499 209.416  0.46  8.57           O 0
+ATOM   2262  NE2 GLN C  13     177.668 210.216 212.092  0.00  0.00           N 0
+ATOM   2292  NE2 GLN C  17     180.530 206.004 213.146  0.00  0.00           N 0
+ATOM   2308   NE ARG C  19     181.157 205.715 203.258  0.67  2.19           N 0
+ATOM   2344   NZ LYS C  23     184.859 205.784 201.246  0.56  6.56           N 0
+ATOM   2342   CD LYS C  23     185.176 204.174 203.122  0.00  0.00           C 0
+ATOM   2280   CB ASN C  16     178.065 207.995 206.757  0.00  0.00           C 0
+ATOM   2285   CA GLN C  17     178.935 204.978 210.131  0.00  0.00           C 0
+ATOM   2284    N GLN C  17     178.199 205.654 209.066  0.00  0.00           N 0
+ATOM   2278    C ASN C  16     178.761 205.872 207.874  0.00  0.00           C 0
+TER
+END

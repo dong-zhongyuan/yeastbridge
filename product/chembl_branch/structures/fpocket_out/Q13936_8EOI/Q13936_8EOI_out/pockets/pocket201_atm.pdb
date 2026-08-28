@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   201:
+HEADER 0  - Pocket Score                      : -0.1353
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 4.0709
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6421
+HEADER 5  - Mean B-factor of pocket residues  : 0.1177
+HEADER 6  - Hydrophobicity Score              : 6.7500
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 219.1855
+HEADER 10 - Pocket volume (convex hull)       : 6.3070
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3158
+ATOM   7499    C ASP B   9     192.383 168.428 216.235  0.00  0.00           C 0
+ATOM   7518  CG2 THR B  11     190.598 169.398 210.268  0.00  0.00           C 0
+ATOM   7500    O ASP B   9     192.940 167.496 215.649  0.00  0.00           O 0
+ATOM   7507    C VAL B  10     189.659 169.220 214.063  0.00  0.00           C 0
+ATOM  27769  NH1 ARG J 305     197.190 172.070 215.995  0.67  7.66           N 0
+ATOM   7508    O VAL B  10     189.372 170.336 214.507  0.82  2.14           O 0
+ATOM   7505    N VAL B  10     191.149 168.833 215.938  0.83  2.19           N 0
+ATOM   7501   CB ASP B   9     194.603 169.229 217.149  0.00  0.00           C 0
+ATOM   7462    N SER B   5     191.437 173.024 219.058  0.00  0.00           N 0
+ATOM   7498   CA ASP B   9     193.091 169.189 217.352  0.00  0.00           C 0
+ATOM   7461  CG2 VAL B   4     189.821 173.194 216.149  0.00  0.00           C 0
+ATOM  27707   CE LYS J 298     197.219 176.749 218.133  0.00  0.00           C 0
+ATOM  27770  NH2 ARG J 305     197.930 173.520 217.604  0.80  1.09           N 0
+ATOM  27743  NH2 ARG J 302     199.268 176.570 214.929  0.50  5.47           N 0
+ATOM   7466   CB SER B   5     192.866 175.051 219.162  0.00  0.00           C 0
+ATOM   7463   CA SER B   5     192.560 173.663 219.744  0.00  0.00           C 0
+TER
+END

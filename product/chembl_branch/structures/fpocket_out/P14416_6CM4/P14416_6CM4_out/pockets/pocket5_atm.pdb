@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     5:
+HEADER 0  - Pocket Score                      : 0.0131
+HEADER 1  - Drug Score                        : 0.0011
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9215
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7466
+HEADER 5  - Mean B-factor of pocket residues  : 0.2057
+HEADER 6  - Hydrophobicity Score              : -11.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 284.0511
+HEADER 10 - Pocket volume (convex hull)       : 7.9028
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5882
+ATOM   2527    C ASP A1159      17.098  -1.638  38.765  0.00  0.00           C 0
+ATOM   2534   CA ALA A1160      18.793  -2.777  40.062  0.00  0.00           C 0
+ATOM   2528    O ASP A1159      16.820  -0.916  39.727  0.00  0.00           O 0
+ATOM   2465  CG2 THR A1151      16.602  -7.194  39.144  0.00  0.00           C 0
+ATOM   2533    N ALA A1160      18.061  -2.558  38.822  0.00  0.00           N 0
+ATOM   2430    C LYS A1147      20.649  -9.302  42.799  0.00  0.00           C 0
+ATOM   2433    N ARG A1148      21.599  -8.365  42.815  0.00  0.00           N 0
+ATOM   2438   CG ARG A1148      21.892  -4.860  42.620  0.00  0.00           C 0
+ATOM   2432   CB LYS A1147      20.023 -10.088  45.098  0.00  0.00           C 0
+ATOM   2537   CB ALA A1160      19.490  -4.133  40.023  0.00  0.00           C 0
+ATOM   2464  OG1 THR A1151      17.364  -8.577  40.957  0.64  8.57           O 0
+ATOM   2536    O ALA A1160      20.159  -1.427  41.488  0.00  0.00           O 0
+ATOM   2434   CA ARG A1148      21.574  -7.277  41.842  0.00  0.00           C 0
+ATOM   2529   CB ASP A1159      15.076  -2.368  37.498  0.00  0.00           C 0
+ATOM   2431    O LYS A1147      19.710  -9.273  41.995  0.61  1.07           O 0
+ATOM   2405   CA ASN A1144      23.656  -8.219  47.839  0.00  0.00           C 0
+ATOM   2407    O ASN A1144      23.168  -7.712  45.538  0.34  1.07           O 0
+ATOM   2410  OD1 ASN A1144      22.445  -6.054  49.938  0.00  0.00           O 0
+ATOM   2439   CD ARG A1148      22.475  -4.260  43.892  0.00  0.00           C 0
+TER
+END

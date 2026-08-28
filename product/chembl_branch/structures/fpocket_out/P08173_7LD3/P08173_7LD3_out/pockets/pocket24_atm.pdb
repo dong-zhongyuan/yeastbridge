@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    24:
+HEADER 0  - Pocket Score                      : -0.0541
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 3.7261
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4900
+HEADER 5  - Mean B-factor of pocket residues  : 0.3724
+HEADER 6  - Hydrophobicity Score              : -1.7143
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 135.2130
+HEADER 10 - Pocket volume (convex hull)       : 2.1820
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.1600
+ATOM   6897  CG2 VAL G  54     106.786  96.015  62.450  0.00  0.00           C 0
+ATOM   6414   SD MET B 325     109.279  92.868  63.806  0.00  0.00           S 0
+ATOM   6411    O MET B 325     111.680  94.093  66.817  0.00  0.00           O 0
+ATOM   6535  ND2 ASN B 340     109.023  94.975  68.681  0.00  0.00           N 0
+ATOM   6533   CG ASN B 340     109.358  96.209  69.033  0.00  0.00           C 0
+ATOM   6930   CG ASN G  59     105.477  94.912  67.128  0.00  0.00           C 0
+ATOM   6532   CB ASN B 340     110.816  96.592  68.742  0.00  0.00           C 0
+ATOM   6932  ND2 ASN G  59     105.116  95.943  67.880  0.56  6.56           N 0
+ATOM   6531    O ASN B 340     110.464  99.410  68.037  0.27  5.36           O 0
+ATOM   6534  OD1 ASN B 340     108.555  96.979  69.548  0.55  1.07           O 0
+ATOM   4328  NH2 ARG B  48     106.870 100.464  70.069  0.57  7.66           N 0
+ATOM   6929   CB ASN G  59     104.963  94.951  65.681  0.00  0.00           C 0
+ATOM   6894    O VAL G  54     105.441  99.007  62.780  0.27  9.64           O 0
+ATOM   6891    N VAL G  54     107.899  98.776  61.787  0.51  1.09           N 0
+ATOM   6888   CB PRO G  53     109.255 101.355  63.282  0.00  0.00           C 0
+ATOM   6857    O PRO G  49     111.971  98.179  63.250  0.33  4.29           O 0
+ATOM   6858   CB PRO G  49     111.758  95.169  62.403  0.00  0.00           C 0
+TER
+END

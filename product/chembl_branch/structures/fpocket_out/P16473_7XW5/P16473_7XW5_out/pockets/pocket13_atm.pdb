@@ -1,0 +1,43 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : 0.0047
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    28
+HEADER 3  - Mean alpha-sphere radius          : 4.0278
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5831
+HEADER 5  - Mean B-factor of pocket residues  : 0.1769
+HEADER 6  - Hydrophobicity Score              : 11.9091
+HEADER 7  - Polarity Score                    :     9
+HEADER 8  - Amino Acid based volume Score     : 4.8182
+HEADER 9  - Pocket volume (Monte Carlo)       : 350.8354
+HEADER 10 - Pocket volume (convex hull)       : 26.8144
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM    761   CG ASP A 240     169.212 159.711 118.420  0.00  0.00           C 0
+ATOM    760   CB ASP A 240     168.495 160.705 119.345  0.00  0.00           C 0
+ATOM    763  OD2 ASP A 240     169.185 158.497 118.708  0.00  0.00           O 1
+ATOM    759    O ASP A 240     170.408 162.826 119.728  0.33  8.57           O 0
+ATOM   2405   CD LYS B  57     167.390 155.815 116.912  0.00  0.00           C 0
+ATOM   4483    O TRP B 332     165.673 153.654 121.545  0.55  9.64           O 0
+ATOM    754  OD1 ASN A 239     164.073 159.567 118.014  0.26  6.43           O 0
+ATOM   2403   CB LYS B  57     167.668 153.868 118.465  0.00  0.00           C 0
+ATOM    286  NH1 ARG A  42     175.842 160.949 122.233  0.00  0.00           N 1
+ATOM    243   OH TYR A  37     174.307 157.547 119.885  0.53  4.29           O 0
+ATOM    254  NH2 ARG A  38     173.752 157.105 125.833  0.00  0.00           N 0
+ATOM    284   NE ARG A  42     175.444 161.189 120.008  0.17  1.09           N 0
+ATOM   2398   CB ALA B  56     172.394 154.650 120.108  0.00  0.00           C 0
+ATOM   2399    N LYS B  57     169.651 153.505 119.882  0.00  0.00           N 0
+ATOM   4506   CB SER B 334     169.012 150.986 123.210  0.00  0.00           C 0
+ATOM   4507   OG SER B 334     169.020 151.235 124.593  0.63  4.29           O 0
+ATOM   4361  ND2 ASN B 313     162.283 156.417 121.351  0.36  6.56           N 0
+ATOM   2389    O LEU B  55     172.941 154.085 123.756  0.00  0.00           O 0
+ATOM   4484   CB TRP B 332     163.933 153.692 119.009  0.00  0.00           C 0
+ATOM    241  CE2 TYR A  37     175.363 157.171 121.998  0.00  0.00           C 0
+ATOM   2395   CA ALA B  56     171.722 153.779 121.162  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    27:
+HEADER 0  - Pocket Score                      : 0.0026
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.6552
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4127
+HEADER 5  - Mean B-factor of pocket residues  : 0.5014
+HEADER 6  - Hydrophobicity Score              : 73.1429
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 77.4907
+HEADER 10 - Pocket volume (convex hull)       : 0.4550
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.5333
+ATOM    250  CG2 VAL A  41     216.555 187.247 229.401  0.00  0.00           C 0
+ATOM    926  CD1 LEU A 157     219.743 190.305 226.086  0.00  0.00           C 0
+ATOM    219    O ILE A  37     217.906 184.556 228.214  0.00  0.00           O 0
+ATOM    222  CG2 ILE A  37     218.333 186.153 225.494  0.00  0.00           C 0
+ATOM    896    O SER A 153     223.604 188.665 229.792  0.40  2.14           O 0
+ATOM   1449  CZ3 TRP A 221     218.621 191.327 231.238  0.00  0.00           C 0
+ATOM   1450  CH2 TRP A 221     218.414 190.167 231.995  0.00  0.00           C 0
+ATOM    924   CB LEU A 157     222.177 189.861 225.672  0.00  0.00           C 0
+ATOM    221  CG1 ILE A  37     220.679 185.586 224.832  0.00  0.00           C 0
+ATOM    240   CB MET A  40     220.499 184.119 230.873  0.00  0.00           C 0
+ATOM    217   CA ILE A  37     219.426 184.076 226.411  0.00  0.00           C 0
+ATOM    898   OG SER A 153     222.173 187.987 232.531  0.78  1.07           O 0
+ATOM    919   CE MET A 156     222.943 183.915 227.582  0.00  0.00           C 0
+TER
+END

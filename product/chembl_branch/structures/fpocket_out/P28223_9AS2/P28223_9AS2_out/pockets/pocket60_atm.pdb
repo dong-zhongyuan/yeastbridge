@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    60:
+HEADER 0  - Pocket Score                      : -0.1111
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 3.8865
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4253
+HEADER 5  - Mean B-factor of pocket residues  : 0.3731
+HEADER 6  - Hydrophobicity Score              : 22.1111
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 4.4444
+HEADER 9  - Pocket volume (Monte Carlo)       : 325.7441
+HEADER 10 - Pocket volume (convex hull)       : 21.9498
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.1739
+ATOM   4107    O ARG C  96     146.086 119.639 149.951  0.00  0.00           O 0
+ATOM   2235  CD1 ILE B  69     145.460 113.154 149.314  0.00  0.00           C 0
+ATOM   2249  OE2 GLU B  71     149.560 115.277 145.429  0.55  7.50           O 0
+ATOM   2248  OE1 GLU B  71     150.980 116.010 146.933  0.56  6.43           O 0
+ATOM   2247   CD GLU B  71     150.542 115.114 146.182  0.00  0.00           C 0
+ATOM   4263  OD2 ASP C 118     144.601 115.973 153.013  0.50  4.29           O 0
+ATOM   2216  OG1 THR B  66     150.454 112.392 152.074  0.48  6.43           O 0
+ATOM   4262  OD1 ASP C 118     144.495 113.967 152.129  0.86  1.07           O 0
+ATOM   2358  CE1 PHE B  84     146.958 113.426 144.096  0.00  0.00           C 0
+ATOM   4119   CB SER C  98     142.113 118.275 145.901  0.00  0.00           C 0
+ATOM   2360   CZ PHE B  84     146.177 114.006 143.120  0.00  0.00           C 0
+ATOM   2215   CB THR B  66     150.690 112.642 153.465  0.00  0.00           C 0
+ATOM   4129  NE1 TRP C  99     142.742 113.577 146.156  0.82  1.09           N 0
+ATOM   2231    O ILE B  69     148.323 110.870 150.884  0.55  1.07           O 0
+ATOM   2245   CB GLU B  71     150.280 112.625 145.818  0.00  0.00           C 0
+ATOM   2246   CG GLU B  71     151.235 113.767 146.183  0.00  0.00           C 0
+ATOM   2212   CA THR B  66     149.442 112.243 154.286  0.00  0.00           C 0
+ATOM   2211    N THR B  66     149.525 112.767 155.646  0.25  7.66           N 0
+ATOM   4115    N SER C  98     142.685 118.268 148.279  0.48  2.19           N 0
+ATOM   4110   CA SER C  97     143.629 118.290 150.525  0.00  0.00           C 0
+TER
+END

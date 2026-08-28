@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    61:
+HEADER 0  - Pocket Score                      : -0.1409
+HEADER 1  - Drug Score                        : 0.0017
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9039
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3967
+HEADER 5  - Mean B-factor of pocket residues  : 0.4025
+HEADER 6  - Hydrophobicity Score              : -5.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 162.3772
+HEADER 10 - Pocket volume (convex hull)       : 0.9604
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.6111
+ATOM   1752  NH1 ARG A 354      98.365 104.381  89.306  0.00  0.00           N 0
+ATOM   1751   CZ ARG A 354      99.237 105.038  88.559  0.00  0.00           C 0
+ATOM   1753  NH2 ARG A 354     100.468 104.557  88.420  0.48  2.19           N 0
+ATOM    953  CG2 THR A 136      99.030  99.334  83.731  0.00  0.00           C 0
+ATOM   1479   CD ARG A 208      95.275 101.080  82.216  0.00  0.00           C 0
+ATOM   1478   CG ARG A 208      95.460 102.586  82.282  0.00  0.00           C 0
+ATOM   1749   CD ARG A 354      97.595 106.795  88.013  0.00  0.00           C 0
+ATOM   1750   NE ARG A 354      98.909 106.166  87.943  0.76  3.28           N 0
+ATOM    951   CB THR A 136     100.409  99.945  83.549  0.00  0.00           C 0
+ATOM    950    O THR A 136     102.402 101.826  82.830  0.40  5.36           O 0
+ATOM   1476    O ARG A 208      99.473 104.858  82.490  0.62  6.43           O 0
+ATOM   1474   CA ARG A 208      97.163 104.467  81.968  0.00  0.00           C 0
+ATOM   1477   CB ARG A 208      96.841 102.983  81.797  0.00  0.00           C 0
+TER
+END

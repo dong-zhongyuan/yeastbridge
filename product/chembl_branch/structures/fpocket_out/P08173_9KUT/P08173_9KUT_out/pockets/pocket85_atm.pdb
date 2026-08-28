@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    85:
+HEADER 0  - Pocket Score                      : -0.3141
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.1037
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4667
+HEADER 5  - Mean B-factor of pocket residues  : 0.5769
+HEADER 6  - Hydrophobicity Score              : 34.1250
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.1250
+HEADER 9  - Pocket volume (Monte Carlo)       : 386.4487
+HEADER 10 - Pocket volume (convex hull)       : 10.8626
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.6471
+ATOM   7840  OD2 ASP C 417     139.235 117.232 132.938  0.28  6.43           O 0
+ATOM   7211  CG2 THR C 337     143.849 113.083 140.508  0.00  0.00           C 0
+ATOM   7155  CE2 TYR C 174     147.842 115.476 134.772  0.00  0.00           C 0
+ATOM   7658  CE2 TYR C 393     141.192 120.536 137.077  0.00  0.00           C 0
+ATOM   7693    O GLY C 397     138.428 112.959 139.281  0.64  1.07           O 0
+ATOM   7719   CB LEU C 401     139.006 109.670 140.578  0.00  0.00           C 0
+ATOM   7715    N LEU C 401     138.042 110.151 138.374  0.74  1.09           N 0
+ATOM   7184  CD2 LEU C 333     144.552 108.916 138.716  0.00  0.00           C 0
+ATOM   7711    C SER C 400     137.749 109.887 137.097  0.00  0.00           C 0
+ATOM   7712    O SER C 400     138.081 108.831 136.548  0.00  0.00           O 0
+ATOM   7716   CA LEU C 401     138.635 109.108 139.205  0.00  0.00           C 0
+ATOM   7713   CB SER C 400     137.966 111.910 135.640  0.00  0.00           C 0
+ATOM   7183  CD1 LEU C 333     146.102 109.894 137.018  0.00  0.00           C 0
+ATOM   7153  CD2 TYR C 174     147.955 114.136 134.465  0.00  0.00           C 0
+ATOM   7691   CA GLY C 397     138.452 115.321 138.846  0.00  0.00           C 0
+ATOM   7714   OG SER C 400     137.308 112.713 134.676  0.00  0.00           O 0
+TER
+END

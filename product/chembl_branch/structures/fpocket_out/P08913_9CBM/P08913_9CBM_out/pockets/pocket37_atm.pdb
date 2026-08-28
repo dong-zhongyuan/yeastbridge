@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    37:
+HEADER 0  - Pocket Score                      : -0.0626
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8688
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5072
+HEADER 5  - Mean B-factor of pocket residues  : 0.9668
+HEADER 6  - Hydrophobicity Score              : 49.6000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.2000
+HEADER 9  - Pocket volume (Monte Carlo)       : 257.1845
+HEADER 10 - Pocket volume (convex hull)       : 2.3499
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.5333
+ATOM   4053  CG2 ILE G   9     117.577 130.423 196.351  0.00  0.00           C 0
+ATOM   1589    C GLU B   3     111.304 132.444 197.411  0.00  0.00           C 0
+ATOM   1588   CA GLU B   3     110.547 131.593 198.425  0.00  0.00           C 0
+ATOM   1587    N GLU B   3     110.754 132.093 199.779  0.00  0.00           N 1
+ATOM   1592    N LEU B   4     111.581 131.865 196.241  0.61  4.37           N 0
+ATOM   4054  CD1 ILE G   9     115.546 129.278 194.227  0.00  0.00           C 0
+ATOM   4052  CG1 ILE G   9     116.765 128.609 194.824  0.00  0.00           C 0
+ATOM   1618   CB LEU B   7     114.644 136.541 195.385  0.00  0.00           C 0
+ATOM   1590    O GLU B   3     111.632 133.598 197.679  0.21  4.29           O 0
+ATOM   1593   CA LEU B   4     112.230 132.627 195.181  0.00  0.00           C 0
+ATOM   4083  NH1 ARG G  13     116.231 136.505 198.234  0.35  3.28           N 0
+ATOM   4080   CD ARG G  13     118.343 134.987 197.136  0.00  0.00           C 0
+ATOM   1598  CD1 LEU B   4     114.309 133.222 193.044  0.00  0.00           C 0
+TER
+END

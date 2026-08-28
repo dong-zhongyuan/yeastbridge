@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : 0.0324
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0097
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6888
+HEADER 5  - Mean B-factor of pocket residues  : 0.8682
+HEADER 6  - Hydrophobicity Score              : 2.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 250.4121
+HEADER 10 - Pocket volume (convex hull)       : 10.7368
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.4000
+ATOM   1571  ND1 HIS A 203      -5.169  -9.496  -1.986  0.00  0.00           N 0
+ATOM   1592   NE ARG A 206      -1.053 -12.584  -2.658  0.00  0.00           N 0
+ATOM   1594  NH2 ARG A 206      -2.481 -14.347  -2.879  0.00  0.00           N 0
+ATOM   1595   CZ ARG A 206      -2.068 -13.175  -3.270  0.00  0.00           C 0
+ATOM   1565   CA HIS A 203      -3.659  -7.032  -0.716  0.00  0.00           C 0
+ATOM   1590   CG ARG A 206       0.431 -10.749  -1.871  0.00  0.00           C 0
+ATOM   1567   CB HIS A 203      -3.350  -7.671  -2.080  0.00  0.00           C 0
+ATOM   1561    O THR A 202      -6.322  -7.531   0.017  0.55  3.21           O 0
+ATOM   2201   CE LYS A 288      -5.531  -8.226   5.613  0.00  0.00           C 0
+ATOM   2202   NZ LYS A 288      -6.816  -8.622   4.986  0.54  5.47           N 0
+ATOM   2169  CG1 VAL A 284      -0.880  -5.537   6.426  0.00  0.00           C 0
+ATOM   1581    N GLY A 205      -0.194  -7.137   2.295  0.45  2.19           N 0
+ATOM   2199   CG LYS A 288      -4.214  -8.191   7.770  0.00  0.00           C 0
+ATOM   1579   CG PRO A 204      -3.090  -5.756   3.478  0.00  0.00           C 0
+ATOM   1585    N ARG A 206       1.164  -8.527   0.129  0.44  1.09           N 0
+ATOM   1566    C HIS A 203      -2.437  -6.336  -0.093  0.00  0.00           C 0
+ATOM   1582   CA GLY A 205       1.017  -7.935   2.518  0.00  0.00           C 0
+ATOM   1580   CD PRO A 204      -3.655  -6.038   2.089  0.00  0.00           C 0
+TER
+END

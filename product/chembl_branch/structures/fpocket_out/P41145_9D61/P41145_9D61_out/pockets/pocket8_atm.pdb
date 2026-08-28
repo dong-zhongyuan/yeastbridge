@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : 0.0155
+HEADER 1  - Drug Score                        : 0.0025
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.7490
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4424
+HEADER 5  - Mean B-factor of pocket residues  : 0.2778
+HEADER 6  - Hydrophobicity Score              : 19.1250
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.3750
+HEADER 9  - Pocket volume (Monte Carlo)       : 99.0350
+HEADER 10 - Pocket volume (convex hull)       : 0.6212
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 15.0000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 0.8889
+ATOM   5843  CG1 VAL B 225     145.126 199.562 176.656  0.00  0.00           C 0
+ATOM   5415   CB SER B  44     141.866 199.118 180.283  0.00  0.00           C 0
+ATOM   5397   CB ALA B  41     145.458 199.743 181.502  0.00  0.00           C 0
+ATOM   6002   CB SER B 246     147.124 202.855 177.894  0.00  0.00           C 0
+ATOM   5848    O ALA B 226     140.621 203.344 176.184  0.58  1.07           O 0
+ATOM   5868   CB ASP B 229     140.263 205.008 179.945  0.00  0.00           C 0
+ATOM   5845    N ALA B 226     140.891 200.623 176.657  0.00  0.00           N 0
+ATOM   5842   CB VAL B 225     143.904 200.032 175.896  0.00  0.00           C 0
+ATOM   5967    O ARG B 242     146.349 205.150 180.383  0.64  3.21           O 0
+ATOM   5981   SD MET B 243     143.877 205.726 175.793  0.00  0.00           S 0
+ATOM   5966    C ARG B 242     145.634 206.131 180.628  0.00  0.00           C 0
+ATOM   5975    N MET B 243     145.266 207.004 179.687  0.00  0.00           N 0
+ATOM   5970   CD ARG B 242     142.124 204.697 183.832  0.00  0.00           C 0
+ATOM   5968   CB ARG B 242     143.789 205.701 182.261  0.00  0.00           C 0
+ATOM   5871  OD2 ASP B 229     139.993 203.415 181.695  0.58  2.14           O 0
+TER
+END

@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     5:
+HEADER 0  - Pocket Score                      : 0.0038
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.6967
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4985
+HEADER 5  - Mean B-factor of pocket residues  : 0.2215
+HEADER 6  - Hydrophobicity Score              : -9.5000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.6250
+HEADER 9  - Pocket volume (Monte Carlo)       : 171.8313
+HEADER 10 - Pocket volume (convex hull)       : 2.6449
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.4211
+ATOM   2223   CB PRO B  39      91.437  88.125  80.566  0.00  0.00           C 0
+ATOM   2236    O GLY B  41      94.458  90.556  85.033  0.00  0.00           O 0
+ATOM   4245   CB ASP B 303      92.662  95.181  79.493  0.00  0.00           C 0
+ATOM   4248  OD2 ASP B 303      91.126  93.824  78.290  0.69  6.43           O 1
+ATOM   2231  CG1 VAL B  40      96.592  90.200  81.802  0.00  0.00           C 0
+ATOM   2220   CA PRO B  39      92.545  87.651  79.619  0.00  0.00           C 0
+ATOM   4233   CD LYS B 301      92.250  90.592  76.245  0.00  0.00           C 0
+ATOM   4213  OD2 ASP B 298      95.769  91.740  76.988  0.70  1.07           O 1
+ATOM   4210   CB ASP B 298      96.838  93.130  78.594  0.00  0.00           C 0
+ATOM   4264   CB ALA B 305      96.438  93.263  83.785  0.00  0.00           C 0
+ATOM   4252    O ARG B 304      94.334  96.160  83.641  0.57  3.21           O 0
+ATOM   2226    N VAL B  40      94.729  88.143  80.521  0.68  2.19           N 0
+ATOM   4244    O ASP B 303      95.598  95.560  80.234  0.00  0.00           O 0
+ATOM   2233    N GLY B  41      94.755  88.316  83.302  0.00  0.00           N 0
+ATOM   4211   CG ASP B 298      96.717  91.853  77.789  0.00  0.00           C 0
+TER
+END

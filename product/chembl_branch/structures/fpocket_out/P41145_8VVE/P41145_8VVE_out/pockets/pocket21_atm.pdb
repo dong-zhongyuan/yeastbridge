@@ -1,0 +1,44 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    21:
+HEADER 0  - Pocket Score                      : -0.0409
+HEADER 1  - Drug Score                        : 0.0155
+HEADER 2  - Number of alpha spheres           :    35
+HEADER 3  - Mean alpha-sphere radius          : 3.8368
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4405
+HEADER 5  - Mean B-factor of pocket residues  : 0.1055
+HEADER 6  - Hydrophobicity Score              : 46.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 268.3030
+HEADER 10 - Pocket volume (convex hull)       : 14.5417
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 17.0000
+HEADER 13 - Number of apolar alpha sphere     :    18
+HEADER 14 - Proportion of apolar alpha sphere : 0.5143
+ATOM    701   CE MET A 151     152.736 163.034 147.458  0.00  0.00           C 0
+ATOM    700   SD MET A 151     153.534 164.474 148.164  0.00  0.00           S 0
+ATOM    721  CG1 VAL A 154     150.561 168.664 148.597  0.00  0.00           C 0
+ATOM    844   CZ PHE A 169     148.759 165.091 154.323  0.00  0.00           C 0
+ATOM    916  CD1 ILE A 178     152.094 161.203 152.590  0.00  0.00           C 0
+ATOM    283   OH TYR A  97     157.250 165.529 152.573  0.45  4.29           O 0
+ATOM    843  CE2 PHE A 169     149.816 165.976 154.229  0.00  0.00           C 0
+ATOM    837    O PHE A 169     152.151 166.827 157.582  0.00  0.00           O 0
+ATOM    841  CD2 PHE A 169     150.008 166.928 155.214  0.00  0.00           C 0
+ATOM    915  CG2 ILE A 178     154.331 162.273 151.051  0.00  0.00           C 0
+ATOM    697    O MET A 151     155.226 168.379 149.007  0.59  1.07           O 0
+ATOM    727   CB ASP A 155     155.221 170.365 151.854  0.00  0.00           C 0
+ATOM    724   CA ASP A 155     153.866 170.915 151.412  0.00  0.00           C 0
+ATOM    760  CG2 ILE A 158     150.624 171.132 153.372  0.00  0.00           C 0
+ATOM    914  CG1 ILE A 178     153.250 161.893 153.285  0.00  0.00           C 0
+ATOM    888   CA ALA A 175     156.823 164.076 156.165  0.00  0.00           C 0
+ATOM    881    O LYS A 174     154.843 162.171 156.049  0.00  0.00           O 0
+ATOM    723    N ASP A 155     153.592 170.521 150.033  0.00  0.00           N 0
+ATOM    729  OD1 ASP A 155     155.088 170.412 154.229  0.60  5.36           O 0
+ATOM    891   CB ALA A 175     157.693 165.266 156.563  0.00  0.00           C 0
+ATOM    846   CA ARG A 170     153.705 168.848 158.653  0.00  0.00           C 0
+ATOM    883   CG LYS A 174     152.076 163.374 157.313  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    64:
+HEADER 0  - Pocket Score                      : -0.0690
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9416
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5893
+HEADER 5  - Mean B-factor of pocket residues  : 0.6199
+HEADER 6  - Hydrophobicity Score              : 6.2000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 170.2926
+HEADER 10 - Pocket volume (convex hull)       : 1.7121
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5882
+ATOM  12558   CG ARG E  91     171.682 180.296 108.319  0.00  0.00           C 0
+ATOM  12586   CB ASP E  94     169.198 185.723 106.103  0.00  0.00           C 0
+ATOM  12551  CE2 PHE E  90     174.171 185.388 106.299  0.00  0.00           C 0
+ATOM  12589  OD2 ASP E  94     169.355 185.538 103.744  0.52  1.07           O 1
+ATOM  12606    O GLY E  97     168.576 182.709 100.856  0.00  0.00           O 0
+ATOM  12604   CA GLY E  97     167.123 183.575 102.519  0.00  0.00           C 0
+ATOM  12556    O ARG E  91     168.278 183.327 108.632  0.34  3.21           O 0
+ATOM  12585    O ASP E  94     166.606 184.608 106.389  0.50  2.14           O 0
+ATOM  12557   CB ARG E  91     170.559 180.914 109.132  0.00  0.00           C 0
+ATOM  12616   CA GLY E  99     172.419 185.158 102.047  0.00  0.00           C 0
+ATOM  12615    N GLY E  99     171.064 185.087 101.549  0.71  1.09           N 0
+ATOM  12554   CA ARG E  91     170.476 182.439 109.042  0.00  0.00           C 0
+ATOM  12549  CD2 PHE E  90     174.112 184.754 107.524  0.00  0.00           C 0
+TER
+END

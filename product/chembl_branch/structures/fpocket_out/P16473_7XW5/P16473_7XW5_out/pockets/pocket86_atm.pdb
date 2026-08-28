@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    86:
+HEADER 0  - Pocket Score                      : -0.1791
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.9918
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5356
+HEADER 5  - Mean B-factor of pocket residues  : 0.3227
+HEADER 6  - Hydrophobicity Score              : -28.5000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 171.4172
+HEADER 10 - Pocket volume (convex hull)       : 2.9190
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.2500
+ATOM   1283   CG PRO A 303     154.863 190.103  97.379  0.00  0.00           C 0
+ATOM   1290   CG GLU A 304     155.090 189.905 102.724  0.00  0.00           C 0
+ATOM   1318   CZ ARG A 307     151.151 194.851 102.396  0.00  0.00           C 0
+ATOM   1293  OE2 GLU A 304     154.366 187.820 101.795  0.47  6.43           O 1
+ATOM   1317   NE ARG A 307     152.403 195.177 102.659  0.57  8.75           N 0
+ATOM   1281    O PRO A 303     156.273 193.535  99.510  0.77  4.29           O 0
+ATOM   1319  NH1 ARG A 307     150.587 195.243 101.294  0.00  0.00           N 1
+ATOM   1282   CB PRO A 303     155.268 191.564  97.212  0.00  0.00           C 0
+ATOM   1320  NH2 ARG A 307     150.432 194.138 103.210  0.00  0.00           N 0
+ATOM   5482   NZ LYS N  65     150.626 186.344 101.487  0.68  6.56           N 1
+ATOM   5478   CB LYS N  65     150.876 186.196  97.432  0.00  0.00           C 0
+ATOM   1285    N GLU A 304     156.326 191.528 100.477  0.00  0.00           N 0
+ATOM   1286   CA GLU A 304     156.343 192.007 101.863  0.00  0.00           C 0
+ATOM   1280    C PRO A 303     156.346 192.315  99.399  0.00  0.00           C 0
+ATOM   1291   CD GLU A 304     155.186 188.762 101.693  0.00  0.00           C 0
+TER
+END

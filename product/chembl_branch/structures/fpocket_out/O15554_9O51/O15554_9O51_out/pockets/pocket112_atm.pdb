@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   112:
+HEADER 0  - Pocket Score                      : -0.1244
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 4.1384
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5720
+HEADER 5  - Mean B-factor of pocket residues  : 0.4320
+HEADER 6  - Hydrophobicity Score              : 23.1667
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 256.1100
+HEADER 10 - Pocket volume (convex hull)       : 8.9655
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM   4063  CG2 THR B 307     136.910 153.532 127.160  0.00  0.00           C 0
+ATOM   2081  CD1 LEU A 399     137.308 149.467 124.664  0.00  0.00           C 0
+ATOM   2075    N LEU A 399     141.349 147.772 125.329  0.67  2.19           N 0
+ATOM   4062  OG1 THR B 307     137.601 151.620 128.453  0.53  1.07           O 0
+ATOM   2116   CE LYS A 404     141.557 150.269 121.116  0.00  0.00           C 0
+ATOM   2079   CB LEU A 399     139.259 148.003 124.066  0.00  0.00           C 0
+ATOM   4718   CD ARG B 395     143.854 153.708 128.480  0.00  0.00           C 0
+ATOM   4719   NE ARG B 395     142.908 153.065 129.385  0.72  1.09           N 0
+ATOM   4721  NH1 ARG B 395     141.306 154.725 129.232  0.14  6.56           N 1
+ATOM   2067   CA GLU A 398     142.948 148.045 127.117  0.00  0.00           C 0
+ATOM   2061    O LEU A 397     140.879 148.288 128.915  0.34  2.14           O 0
+ATOM   2080   CG LEU A 399     138.275 148.407 125.166  0.00  0.00           C 0
+ATOM   2117   NZ LYS A 404     142.963 150.410 120.649  0.00  0.00           N 1
+ATOM   2070   CB GLU A 398     144.353 148.024 126.508  0.00  0.00           C 0
+ATOM   2078    O LEU A 399     141.882 147.158 122.602  0.42  4.29           O 0
+ATOM   2073  OE1 GLU A 398     146.873 147.773 125.534  0.69  8.57           O 0
+ATOM   4720   CZ ARG B 395     141.726 153.568 129.716  0.00  0.00           C 0
+ATOM   4748  OE2 GLU B 398     145.529 157.342 125.215  0.68  8.57           O 1
+TER
+END

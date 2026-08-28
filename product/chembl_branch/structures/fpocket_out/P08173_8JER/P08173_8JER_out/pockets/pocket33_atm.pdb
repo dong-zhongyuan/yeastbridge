@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    33:
+HEADER 0  - Pocket Score                      : -0.0497
+HEADER 1  - Drug Score                        : 0.0008
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 4.0330
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6109
+HEADER 5  - Mean B-factor of pocket residues  : 0.2962
+HEADER 6  - Hydrophobicity Score              : 18.5000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 3.9000
+HEADER 9  - Pocket volume (Monte Carlo)       : 391.7390
+HEADER 10 - Pocket volume (convex hull)       : 37.2618
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.3684
+ATOM   1295   CB CYS A 321     171.584 132.800 172.980  0.00  0.00           C 0
+ATOM   1274    O ILE A 319     172.263 136.363 169.994  0.41  3.21           O 0
+ATOM   1291    N CYS A 321     170.824 135.097 172.618  0.00  0.00           N 0
+ATOM   1168  NE2 GLN A 305     174.893 131.325 173.373  0.00  0.00           N 0
+ATOM   1201  OE1 GLU A 309     174.637 132.792 169.541  0.73  3.21           O 0
+ATOM   1407  OD1 ASP A 337     168.385 142.568 177.516  0.65  4.29           O 0
+ATOM   1408  OD2 ASP A 337     169.676 142.902 179.236  0.35  7.50           O 0
+ATOM   1286  CD2 TYR A 320     170.848 140.829 172.190  0.00  0.00           C 0
+ATOM   1435  OD2 ASP A 341     171.973 145.092 174.486  0.41  4.29           O 0
+ATOM   1283   CB TYR A 320     169.679 138.596 172.308  0.00  0.00           C 0
+ATOM   1413   CB ALA A 338     167.094 141.722 174.060  0.00  0.00           C 0
+ATOM   1304  CD2 HIS A 322     169.538 135.890 179.343  0.00  0.00           C 0
+ATOM   1381  CG2 VAL A 334     167.031 138.575 180.719  0.00  0.00           C 0
+ATOM   1306  NE2 HIS A 322     169.253 135.849 180.687  0.50  4.37           N 0
+ATOM   1380  CG1 VAL A 334     166.819 138.463 178.231  0.00  0.00           C 0
+ATOM   1294    O CYS A 321     171.231 134.752 175.402  0.46  7.50           O 0
+ATOM   1301   CB HIS A 322     168.464 134.751 177.274  0.00  0.00           C 0
+ATOM   1282    O TYR A 320     168.882 136.055 173.215  0.61  4.29           O 0
+ATOM   1280   CA TYR A 320     170.406 137.340 171.843  0.00  0.00           C 0
+TER
+END

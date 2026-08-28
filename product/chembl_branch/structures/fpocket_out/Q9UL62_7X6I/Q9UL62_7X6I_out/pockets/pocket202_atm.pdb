@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   202:
+HEADER 0  - Pocket Score                      : -0.1679
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 4.1127
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4955
+HEADER 5  - Mean B-factor of pocket residues  : 0.4359
+HEADER 6  - Hydrophobicity Score              : -13.1250
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.6250
+HEADER 9  - Pocket volume (Monte Carlo)       : 265.9018
+HEADER 10 - Pocket volume (convex hull)       : 10.1742
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.2727
+ATOM  11011   CB ASP B 392     136.603 175.088 232.987  0.00  0.00           C 0
+ATOM  11065   CG PRO B 399     130.907 170.940 228.283  0.00  0.00           C 0
+ATOM  11066   CD PRO B 399     131.987 169.993 228.721  0.00  0.00           C 0
+ATOM  11014  OD2 ASP B 392     135.356 173.640 234.408  0.00  0.00           O 0
+ATOM  11003    O THR B 391     137.269 175.541 229.868  0.41  2.14           O 0
+ATOM  11005  OG1 THR B 391     135.475 178.179 229.592  0.00  0.00           O 0
+ATOM  10998  NH1 ARG B 390     137.591 174.523 225.473  0.29  3.28           N 0
+ATOM  11078   CB THR B 401     133.918 175.718 223.421  0.00  0.00           C 0
+ATOM  11038  CG1 VAL B 395     135.516 170.204 233.664  0.00  0.00           C 0
+ATOM  11039  CG2 VAL B 395     136.510 170.139 231.389  0.00  0.00           C 0
+ATOM  11010    O ASP B 392     137.988 173.056 231.691  0.28  3.21           O 0
+ATOM  11057   CB PRO B 398     135.757 169.460 227.836  0.00  0.00           C 0
+ATOM  11079  OG1 THR B 401     133.636 177.068 223.805  0.48  4.29           O 0
+ATOM  11063    O PRO B 399     132.982 171.269 225.649  0.57  3.21           O 0
+ATOM  11075   CA THR B 401     132.606 174.974 223.189  0.00  0.00           C 0
+ATOM  11070    O PRO B 400     130.760 172.986 223.676  0.38  5.36           O 0
+TER
+END

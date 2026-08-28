@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     2:
+HEADER 0  - Pocket Score                      : 0.0336
+HEADER 1  - Drug Score                        : 0.0040
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.7792
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6785
+HEADER 5  - Mean B-factor of pocket residues  : 0.9383
+HEADER 6  - Hydrophobicity Score              : 56.6000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 259.5014
+HEADER 10 - Pocket volume (convex hull)       : 11.0754
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.8824
+ATOM    610  CG1 VAL A  83     -25.756   1.195  -2.420  0.00  0.00           C 0
+ATOM    608   CB VAL A  83     -26.694   0.106  -1.886  0.00  0.00           C 0
+ATOM    585   CG GLU A  80     -29.763   2.205   3.210  0.00  0.00           C 0
+ATOM    611  CG2 VAL A  83     -28.003   0.142  -2.697  0.00  0.00           C 0
+ATOM    619  CD1 ILE A  84     -24.469   0.896   3.818  0.00  0.00           C 0
+ATOM    587  OE1 GLU A  80     -30.260   4.127   4.505  0.00  0.00           O 0
+ATOM    586   CD GLU A  80     -29.976   2.915   4.551  0.00  0.00           C 0
+ATOM    583   CB GLU A  80     -28.882   0.956   3.356  0.00  0.00           C 0
+ATOM    617  CG1 ILE A  84     -23.937   0.617   2.406  0.00  0.00           C 0
+ATOM    554  CE1 TYR A  76     -25.069   1.656   7.275  0.00  0.00           C 0
+ATOM    584    O GLU A  80     -26.719  -0.965   1.709  0.00  0.00           O 0
+ATOM    581   CA GLU A  80     -28.796   0.147   2.061  0.00  0.00           C 0
+ATOM    578  CG1 VAL A  79     -32.130   0.262  -1.441  0.00  0.00           C 0
+ATOM    580    N GLU A  80     -30.129  -0.336   1.685  0.00  0.00           N 0
+ATOM    552  CD1 TYR A  76     -26.323   1.060   7.043  0.00  0.00           C 0
+ATOM    588  OE2 GLU A  80     -29.926   2.212   5.589  0.80  2.14           O 0
+TER
+END

@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    59:
+HEADER 0  - Pocket Score                      : -0.1448
+HEADER 1  - Drug Score                        : 0.0090
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0258
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7105
+HEADER 5  - Mean B-factor of pocket residues  : 0.5129
+HEADER 6  - Hydrophobicity Score              : 73.3333
+HEADER 7  - Polarity Score                    :     0
+HEADER 8  - Amino Acid based volume Score     : 3.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 259.7074
+HEADER 10 - Pocket volume (convex hull)       : 4.1100
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 15.0000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM   6099   CB CYS R  45     110.518  97.868  97.323  0.00  0.00           C 0
+ATOM   6123  CG1 ILE R  49     106.309  94.802 101.639  0.00  0.00           C 0
+ATOM   6124  CG2 ILE R  49     108.764  94.320 101.692  0.00  0.00           C 0
+ATOM   6122   CB ILE R  49     107.707  95.409 101.783  0.00  0.00           C 0
+ATOM   6125  CD1 ILE R  49     105.187  95.807 101.777  0.00  0.00           C 0
+ATOM   6098    O CYS R  45     110.115  97.078 100.425  0.49  1.07           O 0
+ATOM   6117  CG2 VAL R  48     108.920  99.885 101.062  0.00  0.00           C 0
+ATOM   6251    O ILE R  64     107.048 102.800  96.098  0.68  3.21           O 0
+ATOM   6279   CB VAL R  68     106.503 100.323  93.564  0.00  0.00           C 0
+ATOM   6255  CD1 ILE R  64     104.179 102.869  98.711  0.00  0.00           C 0
+ATOM   6281  CG2 VAL R  68     106.186  98.886  93.169  0.00  0.00           C 0
+ATOM   6101    N ALA R  46     112.102  96.325  99.696  0.00  0.00           N 0
+ATOM   6100   SG CYS R  45     111.491  96.754  96.328  0.00  0.00           S 0
+ATOM   6105   CB ALA R  46     113.346  94.367 100.477  0.00  0.00           C 0
+ATOM   6102   CA ALA R  46     112.166  95.304 100.734  0.00  0.00           C 0
+ATOM   6097    C CYS R  45     111.080  97.184  99.662  0.00  0.00           C 0
+ATOM   6252   CB ILE R  64     106.685 103.123  99.344  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,44 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : 0.0511
+HEADER 1  - Drug Score                        : 0.0070
+HEADER 2  - Number of alpha spheres           :    34
+HEADER 3  - Mean alpha-sphere radius          : 3.7282
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3932
+HEADER 5  - Mean B-factor of pocket residues  : 0.0194
+HEADER 6  - Hydrophobicity Score              : 47.0000
+HEADER 7  - Polarity Score                    :     9
+HEADER 8  - Amino Acid based volume Score     : 5.4615
+HEADER 9  - Pocket volume (Monte Carlo)       : 216.0959
+HEADER 10 - Pocket volume (convex hull)       : 18.8151
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 20.0000
+HEADER 13 - Number of apolar alpha sphere     :    21
+HEADER 14 - Proportion of apolar alpha sphere : 0.6176
+ATOM  13426   CB ALA F 453     215.167 181.438 192.778  0.00  0.00           C 0
+ATOM  13432   CG LEU F 454     219.440 179.211 190.535  0.00  0.00           C 0
+ATOM  13433  CD1 LEU F 454     220.535 179.972 189.825  0.00  0.00           C 0
+ATOM  13420  OD1 ASP F 452     218.797 182.371 194.316  0.52  5.36           O 0
+ATOM  11585   CG TYR F 217     220.926 182.733 185.535  0.00  0.00           C 0
+ATOM  11518  CG2 VAL F 207     220.182 186.738 188.465  0.00  0.00           C 0
+ATOM  11584   CB TYR F 217     221.526 184.085 185.791  0.00  0.00           C 0
+ATOM  11587  CD2 TYR F 217     219.570 182.586 185.327  0.00  0.00           C 0
+ATOM  13713  OD2 ASP F 491     220.619 186.213 193.369  0.77  3.21           O 0
+ATOM  11494   CG TRP F 205     223.498 183.912 191.161  0.00  0.00           C 0
+ATOM  11568   CB ALA F 215     215.765 184.868 184.090  0.00  0.00           C 0
+ATOM  11642  CH2 TRP F 223     215.398 180.271 188.001  0.00  0.00           C 0
+ATOM  11692  CE2 TYR F 236     213.236 183.493 188.286  0.00  0.00           C 0
+ATOM  11758  NE1 TRP F 243     215.340 187.988 191.265  0.64  3.28           N 0
+ATOM  13405   OH TYR F 450     217.280 187.397 195.112  0.61  1.07           O 0
+ATOM  11495  CD1 TRP F 205     223.159 183.695 192.457  0.00  0.00           C 0
+ATOM  11694   OH TYR F 236     214.361 184.489 190.124  0.54  7.50           O 0
+ATOM  11496  CD2 TRP F 205     223.754 182.625 190.593  0.00  0.00           C 0
+ATOM  11517  CG1 VAL F 207     218.352 187.456 186.957  0.00  0.00           C 0
+ATOM  11641  CZ3 TRP F 223     216.545 179.904 187.299  0.00  0.00           C 0
+ATOM  13403  CE2 TYR F 450     215.496 186.355 196.282  0.00  0.00           C 0
+ATOM  11742  NH2 ARG F 241     213.000 183.929 195.060  0.46  1.09           N 0
+TER
+END

@@ -1,7 +1,8 @@
-targets: 136, already inventoried: 0
-  25 done (pdb=25 af2=0 fail=0)
-  50 done (pdb=49 af2=1 fail=0)
-  75 done (pdb=70 af2=5 fail=0)
-  100 done (pdb=95 af2=5 fail=0)
-  125 done (pdb=115 af2=10 fail=0)
-FINISHED new: pdb=125 af2=11 network_fail=0
+targets: 33, already inventoried: 0
+  retry 1/6 https://data.rcsb.org/rest/v1/core/entry/6CNM: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1017)>
+  retry 1/6 https://data.rcsb.org/rest/v1/core/entry/6CNO: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1017)>
+  retry 2/6 https://data.rcsb.org/rest/v1/core/entry/6CNO: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1017)>
+  retry 3/6 https://data.rcsb.org/rest/v1/core/entry/6CNO: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1017)>
+  retry 4/6 https://data.rcsb.org/rest/v1/core/entry/6CNO: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1017)>
+  125 done (pdb=114 af2=11 fail=0)
+FINISHED new: pdb=362 af2=33 network_fail=0

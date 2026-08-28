@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     1:
+HEADER 0  - Pocket Score                      : 0.0139
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.9713
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7123
+HEADER 5  - Mean B-factor of pocket residues  : 0.1589
+HEADER 6  - Hydrophobicity Score              : -14.0000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 297.4021
+HEADER 10 - Pocket volume (convex hull)       : 13.1239
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.4091
+ATOM   1851   CG ASN A 240     -40.126   6.757  36.660  0.00  0.00           C 0
+ATOM   1849   CB ASN A 240     -40.845   6.218  35.431  0.00  0.00           C 0
+ATOM   1850    O ASN A 240     -42.970   4.432  34.647  0.43  8.57           O 0
+ATOM   1852  ND2 ASN A 240     -40.420   7.970  37.065  0.70  9.84           N 0
+ATOM   1848    C ASN A 240     -41.974   3.913  35.133  0.00  0.00           C 0
+ATOM   1853  OD1 ASN A 240     -39.309   6.102  37.280  0.00  0.00           O 0
+ATOM   1864   CG PRO A 242     -44.825   0.953  39.653  0.00  0.00           C 0
+ATOM   1843   CD LYS A 239     -36.524   0.652  35.363  0.00  0.00           C 0
+ATOM   1842   CG LYS A 239     -37.649   1.489  34.720  0.00  0.00           C 0
+ATOM   1844   CE LYS A 239     -37.033  -0.295  36.461  0.00  0.00           C 0
+ATOM   1841    O LYS A 239     -37.833   5.163  34.425  0.00  0.00           O 0
+ATOM   1865   CD PRO A 242     -44.898   0.980  38.132  0.00  0.00           C 0
+ATOM   1854    N ALA A 241     -41.967   2.628  35.502  0.75  1.09           N 0
+ATOM   1858    O ALA A 241     -41.859  -0.020  36.386  0.52  4.29           O 0
+ATOM   1847   CA ASN A 240     -40.648   4.691  35.216  0.00  0.00           C 0
+ATOM   1855   CA ALA A 241     -43.193   1.882  35.806  0.00  0.00           C 0
+ATOM   1856    C ALA A 241     -42.874   0.634  36.663  0.00  0.00           C 0
+ATOM   1859    N PRO A 242     -43.684   0.307  37.692  0.00  0.00           N 0
+ATOM   1860   CA PRO A 242     -43.385  -0.736  38.670  0.00  0.00           C 0
+TER
+END

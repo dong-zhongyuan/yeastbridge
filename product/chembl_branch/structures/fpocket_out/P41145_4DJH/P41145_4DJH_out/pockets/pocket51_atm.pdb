@@ -1,0 +1,44 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    51:
+HEADER 0  - Pocket Score                      : -0.2611
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    27
+HEADER 3  - Mean alpha-sphere radius          : 4.2388
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6109
+HEADER 5  - Mean B-factor of pocket residues  : 0.1564
+HEADER 6  - Hydrophobicity Score              : 16.5000
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 4.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 470.3406
+HEADER 10 - Pocket volume (convex hull)       : 35.5222
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.4444
+ATOM   6142  OE1 GLN B1141      47.390 -53.712  13.578  0.67  8.57           O 0
+ATOM   6099    O ARG B1137      46.229 -56.832  15.069  0.00  0.00           O 0
+ATOM   6140   CG GLN B1141      45.383 -53.465  12.291  0.00  0.00           C 0
+ATOM   6100   CB ARG B1137      49.254 -57.606  14.403  0.00  0.00           C 0
+ATOM   6139   CB GLN B1141      44.610 -54.452  13.154  0.00  0.00           C 0
+ATOM   6101    N TRP B1138      46.343 -59.047  14.737  0.80  2.19           N 0
+ATOM   6102   CA TRP B1138      44.962 -59.152  14.319  0.00  0.00           C 0
+ATOM   5872   CE MET B1106      44.974 -61.787  10.573  0.00  0.00           C 0
+ATOM   6150  CG2 THR B1142      40.039 -55.081  12.238  0.00  0.00           C 0
+ATOM   5238  OG1 THR B1021      39.298 -51.898   6.538  0.00  0.00           O 0
+ATOM   6138    O GLN B1141      41.921 -52.844  14.239  0.00  0.00           O 0
+ATOM   5247  OE1 GLU B1022      43.234 -53.153   5.125  0.00  0.00           O 0
+ATOM   6098    C ARG B1137      46.864 -57.883  15.096  0.00  0.00           C 0
+ATOM   6107  CD1 TRP B1138      42.296 -60.236  13.054  0.00  0.00           C 0
+ATOM   5237   CB THR B1021      38.747 -50.660   6.998  0.00  0.00           C 0
+ATOM   5239  CG2 THR B1021      37.447 -50.938   7.735  0.00  0.00           C 0
+ATOM   6149  OG1 THR B1142      40.820 -57.096  13.264  0.00  0.00           O 0
+ATOM   5864  NE2 GLN B1105      39.968 -58.640  10.669  0.72  8.75           N 0
+ATOM   5861   CG GLN B1105      39.672 -60.223   8.855  0.00  0.00           C 0
+ATOM   5859    O GLN B1105      40.821 -60.858   5.711  0.24  9.64           O 0
+ATOM   5869   CB MET B1106      43.693 -62.304   8.138  0.00  0.00           C 0
+ATOM   5248  OE2 GLU B1022      41.214 -53.982   4.871  0.00  0.00           O 1
+TER
+END

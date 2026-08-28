@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : 0.1604
+HEADER 1  - Drug Score                        : 0.0163
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.6179
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4825
+HEADER 5  - Mean B-factor of pocket residues  : 10.0000
+HEADER 6  - Hydrophobicity Score              : 67.4000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 6.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 173.8003
+HEADER 10 - Pocket volume (convex hull)       : 1.7804
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 20.0000
+HEADER 13 - Number of apolar alpha sphere     :    21
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM   1280  CD1 PHE B1658      -4.622   3.624  -2.595  0.00  0.00           C 0
+ATOM   1259  CD1 TYR B1657      -7.742   0.229  -2.871  0.00  0.00           C 0
+ATOM   1261  CE1 TYR B1657      -8.074  -0.348  -1.662  0.00  0.00           C 0
+ATOM   1275   CA PHE B1658      -7.478   5.035  -3.347  0.00  0.00           C 0
+ATOM   1284   CZ PHE B1658      -3.369   3.808  -0.568  0.00  0.00           C 0
+ATOM    967  CD1 LEU A 886      -5.627   1.505   2.868  0.00  0.00           C 0
+ATOM   1283  CE2 PHE B1658      -3.850   5.093  -0.392  0.00  0.00           C 0
+ATOM   1282  CE1 PHE B1658      -3.756   3.072  -1.673  0.00  0.00           C 0
+ATOM   1345   CG PHE B1661     -10.819   3.553   0.433  0.00  0.00           C 0
+ATOM   1279   CG PHE B1658      -5.107   4.910  -2.432  0.00  0.00           C 0
+ATOM    968  CD2 LEU A 886      -5.195   0.126   0.834  0.00  0.00           C 0
+ATOM   1281  CD2 PHE B1658      -4.710   5.637  -1.322  0.00  0.00           C 0
+ATOM   1347  CD2 PHE B1661     -10.543   4.175   1.641  0.00  0.00           C 0
+ATOM   1277    O PHE B1658      -8.980   6.776  -2.610  0.47  1.07           O 0
+ATOM   1365   CG LYS B1662      -9.623   9.539  -0.567  0.00  0.00           C 0
+ATOM   1368   NZ LYS B1662      -6.846  11.145   0.179  0.00  0.00           N 0
+ATOM   1367   CE LYS B1662      -7.337  10.464  -1.049  0.00  0.00           C 0
+ATOM   1344   CB PHE B1661     -10.697   4.306  -0.861  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     4:
+HEADER 0  - Pocket Score                      : 0.1479
+HEADER 1  - Drug Score                        : 0.0013
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.4789
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3510
+HEADER 5  - Mean B-factor of pocket residues  : 0.1842
+HEADER 6  - Hydrophobicity Score              : 11.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.7778
+HEADER 9  - Pocket volume (Monte Carlo)       : 102.6996
+HEADER 10 - Pocket volume (convex hull)       : 2.9692
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.4706
+ATOM   6197  OD2 ASP B 254     151.126 194.677 126.754  0.39  3.21           O 0
+ATOM   6196  OD1 ASP B 254     153.010 194.519 125.650  0.00  0.00           O 0
+ATOM   6083    O ASN B 239     154.053 191.247 126.328  0.00  0.00           O 0
+ATOM   7071  OD2 ASP G  36     148.397 190.188 123.440  0.56  1.07           O 0
+ATOM   6213   NE ARG B 256     150.994 192.072 121.112  0.56  2.19           N 0
+ATOM   7078  CD1 LEU G  37     149.248 190.220 130.009  0.00  0.00           C 0
+ATOM   7052    O ALA G  33     147.899 193.037 126.331  0.46  1.07           O 0
+ATOM   6084   CB ASN B 239     153.112 189.006 124.811  0.00  0.00           C 0
+ATOM   7070  OD1 ASP G  36     147.143 190.664 125.171  0.36  1.07           O 0
+ATOM   6075  ND2 ASN B 237     150.324 185.976 125.001  0.56  8.75           N 0
+ATOM   7076   CB LEU G  37     147.246 189.607 128.679  0.00  0.00           C 0
+ATOM   6057  CD2 PHE B 235     151.461 186.072 130.142  0.00  0.00           C 0
+ATOM   6072   CB ASN B 237     151.656 184.956 126.736  0.00  0.00           C 0
+ATOM   6082    C ASN B 239     154.448 190.111 126.607  0.00  0.00           C 0
+ATOM   6092   CB ALA B 240     153.539 191.071 129.476  0.00  0.00           C 0
+ATOM   6088    N ALA B 240     154.861 189.784 127.829  0.00  0.00           N 0
+TER
+END

@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    58:
+HEADER 0  - Pocket Score                      : -0.0917
+HEADER 1  - Drug Score                        : 0.0049
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.1353
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5460
+HEADER 5  - Mean B-factor of pocket residues  : 0.2717
+HEADER 6  - Hydrophobicity Score              : 4.6000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 254.8738
+HEADER 10 - Pocket volume (convex hull)       : 5.3792
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.8000
+ATOM    925  CG2 VAL A 139     113.674 137.655 137.112  0.00  0.00           C 0
+ATOM    916   CB PRO A 138     118.755 137.607 135.978  0.00  0.00           C 0
+ATOM    917   CG PRO A 138     119.020 136.885 134.705  0.00  0.00           C 0
+ATOM   2375  NE2 GLN B  31     117.205 140.604 130.513  0.42  9.84           N 0
+ATOM   2410  NE2 GLN B  35     116.188 135.466 130.649  0.70  3.28           N 0
+ATOM   2372   CG GLN B  31     115.063 141.471 129.799  0.00  0.00           C 0
+ATOM   2407   CG GLN B  35     114.085 135.344 129.457  0.00  0.00           C 0
+ATOM   2408   CD GLN B  35     115.275 134.666 130.114  0.00  0.00           C 0
+ATOM    918   CD PRO A 138     118.163 135.655 134.754  0.00  0.00           C 0
+ATOM    909   CB THR A 137     115.834 133.201 135.629  0.00  0.00           C 0
+ATOM    911  CG2 THR A 137     115.318 132.021 134.824  0.00  0.00           C 0
+ATOM    910  OG1 THR A 137     115.120 133.273 136.868  0.00  0.00           O 0
+ATOM   2409  OE1 GLN B  35     115.373 133.438 130.139  0.78  3.21           O 0
+TER
+END

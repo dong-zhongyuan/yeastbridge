@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    61:
+HEADER 0  - Pocket Score                      : -0.1624
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.0924
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5567
+HEADER 5  - Mean B-factor of pocket residues  : 0.0993
+HEADER 6  - Hydrophobicity Score              : 9.8000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.2000
+HEADER 9  - Pocket volume (Monte Carlo)       : 228.4413
+HEADER 10 - Pocket volume (convex hull)       : 5.2822
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.5294
+ATOM   1830   CE MET A 386     107.467 116.912 114.845  0.00  0.00           C 0
+ATOM   1827   CB MET A 386     109.727 119.699 114.385  0.00  0.00           C 0
+ATOM   1569   CD ARG A 356     116.398 116.092 116.515  0.00  0.00           C 0
+ATOM   1572  NH1 ARG A 356     115.545 114.851 114.141  0.33  9.84           N 1
+ATOM   1002  CG2 THR A 284     114.470 114.638 121.101  0.00  0.00           C 0
+ATOM   1000   CB THR A 284     113.178 115.391 121.391  0.00  0.00           C 0
+ATOM   1566    O ARG A 356     114.080 120.036 117.691  0.52  1.07           O 0
+ATOM   1854   CG ARG A 389     115.850 118.721 112.488  0.00  0.00           C 0
+ATOM   1826    O MET A 386     111.041 118.640 111.600  0.55  3.21           O 0
+ATOM   1567   CB ARG A 356     116.357 117.851 118.308  0.00  0.00           C 0
+ATOM   1824   CA MET A 386     110.606 120.300 113.282  0.00  0.00           C 0
+ATOM   1853   CB ARG A 389     114.698 119.530 111.913  0.00  0.00           C 0
+ATOM   1829   SD MET A 386     108.000 117.769 113.366  0.00  0.00           S 0
+ATOM   1867  OE1 GLN A 390     111.700 113.686 111.223  0.00  0.00           O 0
+ATOM    999    O THR A 284     111.258 117.395 121.526  0.00  0.00           O 0
+TER
+END

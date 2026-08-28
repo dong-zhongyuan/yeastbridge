@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    50:
+HEADER 0  - Pocket Score                      : -0.0990
+HEADER 1  - Drug Score                        : 0.0022
+HEADER 2  - Number of alpha spheres           :    30
+HEADER 3  - Mean alpha-sphere radius          : 3.9283
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5659
+HEADER 5  - Mean B-factor of pocket residues  : 0.2759
+HEADER 6  - Hydrophobicity Score              : 69.3750
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.3750
+HEADER 9  - Pocket volume (Monte Carlo)       : 193.7314
+HEADER 10 - Pocket volume (convex hull)       : 3.3544
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 15.0000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 0.5333
+ATOM   7125  CD1 ILE R 125     145.944 130.822 148.246  0.00  0.00           C 0
+ATOM   7343   CG MET R 152     145.326 128.229 145.601  0.00  0.00           C 0
+ATOM   7320   CE MET R 148     149.034 128.455 142.453  0.00  0.00           C 0
+ATOM   7344   SD MET R 152     146.298 127.664 147.032  0.00  0.00           S 0
+ATOM   7151    N ASP R 129     146.452 136.088 145.406  0.89  1.09           N 0
+ATOM   7121    O ILE R 125     144.565 134.462 146.844  0.00  0.00           O 0
+ATOM   7123  CG1 ILE R 125     144.616 131.183 147.611  0.00  0.00           C 0
+ATOM   7253  CE2 TYR R 140     149.042 133.835 140.733  0.00  0.00           C 0
+ATOM   7152   CA ASP R 129     146.248 136.219 143.970  0.00  0.00           C 0
+ATOM   7189  CD2 PHE R 132     151.598 134.621 143.937  0.00  0.00           C 0
+ATOM   7143    O PHE R 128     148.608 136.739 145.295  0.00  0.00           O 0
+ATOM   7142    C PHE R 128     147.631 136.366 145.961  0.00  0.00           C 0
+ATOM   7144   CB PHE R 128     147.868 134.708 147.812  0.00  0.00           C 0
+ATOM   7145   CG PHE R 128     148.588 134.434 149.102  0.00  0.00           C 0
+ATOM   7191  CE2 PHE R 132     152.583 133.875 144.551  0.00  0.00           C 0
+ATOM   7255   OH TYR R 140     146.698 134.123 141.018  0.76  2.14           O 0
+ATOM   7318   CG MET R 148     146.788 128.800 140.868  0.00  0.00           C 0
+ATOM   6700   CZ PHE R  70     142.928 131.677 143.340  0.00  0.00           C 0
+ATOM   6699  CE2 PHE R  70     142.833 132.549 144.395  0.00  0.00           C 0
+ATOM   7155   CB ASP R 129     144.827 135.760 143.624  0.00  0.00           C 0
+TER
+END

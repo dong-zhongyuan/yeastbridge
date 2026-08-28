@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     5:
+HEADER 0  - Pocket Score                      : 0.0110
+HEADER 1  - Drug Score                        : 0.0018
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.9572
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6414
+HEADER 5  - Mean B-factor of pocket residues  : 0.0851
+HEADER 6  - Hydrophobicity Score              : 57.5714
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 221.4451
+HEADER 10 - Pocket volume (convex hull)       : 7.0990
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 15.0000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 0.8421
+ATOM   1009  CD1 ILE A 144     184.734  35.222 546.396  0.00  0.00           C 0
+ATOM    983   CA GLY A 141     188.195  37.970 548.670  0.00  0.00           C 0
+ATOM   1008  CG2 ILE A 144     185.641  36.521 543.809  0.00  0.00           C 0
+ATOM    334  CD2 TYR A  60     183.754  37.770 550.599  0.00  0.00           C 0
+ATOM    364  CD1 PHE A  63     179.423  39.026 545.923  0.00  0.00           C 0
+ATOM    330    O TYR A  60     181.539  34.995 547.235  0.00  0.00           O 0
+ATOM   1033  NE1 TRP A 148     184.380  36.718 540.219  0.00  0.00           N 0
+ATOM    366  CE1 PHE A  63     179.135  40.333 545.579  0.00  0.00           C 0
+ATOM    369    N SER A  64     180.245  35.609 544.620  0.00  0.00           N 0
+ATOM    373   CB SER A  64     182.322  35.205 543.390  0.00  0.00           C 0
+ATOM    374   OG SER A  64     182.926  35.158 542.110  0.57  1.07           O 0
+ATOM    392   CB CYS A  67     178.714  38.403 540.832  0.00  0.00           C 0
+ATOM    370   CA SER A  64     180.868  35.670 543.301  0.00  0.00           C 0
+ATOM    393   SG CYS A  67     179.173  39.886 539.906  0.00  0.00           S 0
+ATOM   1006   CB ILE A 144     186.611  35.948 544.830  0.00  0.00           C 0
+ATOM    985    O GLY A 141     189.101  38.244 546.470  0.64  2.14           O 0
+TER
+END

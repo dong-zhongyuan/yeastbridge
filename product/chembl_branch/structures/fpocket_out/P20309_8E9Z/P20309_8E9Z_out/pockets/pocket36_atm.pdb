@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    36:
+HEADER 0  - Pocket Score                      : -0.0778
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.6561
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5966
+HEADER 5  - Mean B-factor of pocket residues  : 0.2602
+HEADER 6  - Hydrophobicity Score              : 51.1667
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 121.9450
+HEADER 10 - Pocket volume (convex hull)       : 1.2647
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.6667
+ATOM   7699   CG ASP E 125     121.821  88.634  99.255  0.00  0.00           C 0
+ATOM   7698   CB ASP E 125     120.737  87.849  99.972  0.00  0.00           C 0
+ATOM   7716  CG2 VAL E 127     117.758  85.901  95.348  0.00  0.00           C 0
+ATOM   7701  OD2 ASP E 125     122.925  88.082  99.067  0.30  9.64           O 0
+ATOM   8455    O PHE E 227     123.609  89.076  90.561  0.00  0.00           O 0
+ATOM   8451  CG2 THR E 226     123.323  89.544  96.054  0.00  0.00           C 0
+ATOM   8449   CB THR E 226     123.121  90.381  94.805  0.00  0.00           C 0
+ATOM   7715  CG1 VAL E 127     118.798  85.492  93.114  0.00  0.00           C 0
+ATOM   7717    N MET E 128     119.280  88.837  91.879  0.52  2.19           N 0
+ATOM   7705    O ILE E 126     119.980  89.477  95.697  0.66  1.07           O 0
+ATOM   7697    O ASP E 125     118.044  87.778  98.432  0.25  6.43           O 0
+ATOM   7711   CA VAL E 127     118.526  87.840  93.955  0.00  0.00           C 0
+ATOM   7720    O MET E 128     120.147  87.634  89.429  0.34  7.50           O 0
+TER
+END

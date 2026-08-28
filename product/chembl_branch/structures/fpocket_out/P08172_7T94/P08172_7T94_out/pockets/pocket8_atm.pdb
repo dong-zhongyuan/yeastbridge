@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : 0.0744
+HEADER 1  - Drug Score                        : 0.0031
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.9423
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6239
+HEADER 5  - Mean B-factor of pocket residues  : 0.2270
+HEADER 6  - Hydrophobicity Score              : 25.2857
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 274.5605
+HEADER 10 - Pocket volume (convex hull)       : 7.1842
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 9.8333
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.6000
+ATOM    767  CD1 LEU A 129     154.153 127.773 135.170  0.00  0.00           C 0
+ATOM   2161   CD LYS B  32     154.037 133.467 138.295  0.00  0.00           C 0
+ATOM    765   CB LEU A 129     152.601 129.563 134.340  0.00  0.00           C 0
+ATOM   2159   CB LYS B  32     154.691 131.389 139.536  0.00  0.00           C 0
+ATOM    774  OG1 THR A 130     153.369 133.973 134.542  0.59  6.43           O 0
+ATOM   2158    O LYS B  32     154.308 128.275 138.734  0.81  1.07           O 0
+ATOM   2436  CD1 LEU B 195     157.269 126.381 136.808  0.00  0.00           C 0
+ATOM   2425    O ASN B 194     160.783 128.860 136.433  0.50  8.57           O 0
+ATOM   2438    N HIS B 196     158.521 126.620 139.939  0.68  1.09           N 0
+ATOM   2424    C ASN B 194     161.600 128.250 137.124  0.00  0.00           C 0
+ATOM   2430    N LEU B 195     161.277 127.172 137.834  0.00  0.00           N 0
+ATOM   2423   CA ASN B 194     163.059 128.695 137.226  0.00  0.00           C 0
+ATOM   2401  CG2 THR B 191     161.931 126.583 143.680  0.00  0.00           C 0
+ATOM   2399   CB THR B 191     162.927 126.003 142.693  0.00  0.00           C 0
+ATOM   2433    O LEU B 195     160.560 125.665 140.021  0.00  0.00           O 0
+ATOM   2432    C LEU B 195     159.688 126.283 139.407  0.00  0.00           C 0
+ATOM   2156   CA LYS B  32     153.509 130.493 139.169  0.00  0.00           C 0
+ATOM   2442   CB HIS B 196     157.584 127.792 141.854  0.00  0.00           C 0
+TER
+END

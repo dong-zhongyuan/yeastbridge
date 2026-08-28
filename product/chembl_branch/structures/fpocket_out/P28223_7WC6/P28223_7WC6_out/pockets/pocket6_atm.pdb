@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : -0.0507
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.3148
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7993
+HEADER 5  - Mean B-factor of pocket residues  : 0.4209
+HEADER 6  - Hydrophobicity Score              : 14.4000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 206.2230
+HEADER 10 - Pocket volume (convex hull)       : 1.0148
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.5000
+ATOM   1849    O ALA A1079     -43.503   4.505  72.902  0.78  3.21           O 0
+ATOM   1852   CA ASN A1080     -42.532   6.941  73.947  0.00  0.00           C 0
+ATOM   1854    O ASN A1080     -43.238   7.840  71.867  0.52  9.64           O 0
+ATOM   1658   CG LYS A1027     -45.071   5.004  77.738  0.00  0.00           C 0
+ATOM   1857  OD1 ASN A1080     -42.903   7.100  76.694  0.97  2.14           O 0
+ATOM   1855   CB ASN A1080     -41.849   8.032  74.764  0.00  0.00           C 0
+ATOM   1660   CE LYS A1027     -45.629   7.279  78.736  0.00  0.00           C 0
+ATOM   1633   CA ALA A1024     -49.304   2.251  74.777  0.00  0.00           C 0
+ATOM   1659   CD LYS A1027     -46.098   5.858  78.486  0.00  0.00           C 0
+ATOM   1657   CB LYS A1027     -45.598   3.649  77.268  0.00  0.00           C 0
+ATOM   1630    O ALA A1023     -46.544   2.007  74.493  0.83  1.07           O 0
+ATOM   1631   CB ALA A1023     -46.024   2.455  71.518  0.00  0.00           C 0
+ATOM   1632    N ALA A1024     -48.578   1.772  73.573  0.72  1.09           N 0
+ATOM   1629    C ALA A1023     -47.249   1.689  73.547  0.00  0.00           C 0
+TER
+END

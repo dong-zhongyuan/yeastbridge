@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   102:
+HEADER 0  - Pocket Score                      : -0.1159
+HEADER 1  - Drug Score                        : 0.0017
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.7837
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6371
+HEADER 5  - Mean B-factor of pocket residues  : 0.5471
+HEADER 6  - Hydrophobicity Score              : 28.4000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.2000
+HEADER 9  - Pocket volume (Monte Carlo)       : 182.7525
+HEADER 10 - Pocket volume (convex hull)       : 3.0205
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.8000
+ATOM   5040   CG GLN A 711     247.265 181.445 248.088  0.00  0.00           C 0
+ATOM   5052  CE1 HIS A 712     251.411 183.442 245.159  0.00  0.00           C 0
+ATOM   5080   CG GLU A 715     246.186 186.000 249.099  0.00  0.00           C 0
+ATOM   5043  NE2 GLN A 711     248.490 181.052 250.133  0.45  9.84           N 0
+ATOM   5041   CD GLN A 711     248.322 180.692 248.866  0.00  0.00           C 0
+ATOM   5042  OE1 GLN A 711     248.978 179.795 248.338  0.59  5.36           O 0
+ATOM   5079   CB GLU A 715     245.783 187.204 248.276  0.00  0.00           C 0
+ATOM   5051  CD2 HIS A 712     251.074 185.464 244.382  0.00  0.00           C 0
+ATOM   5045   CA HIS A 712     247.417 184.990 244.692  0.00  0.00           C 0
+ATOM   5047    O HIS A 712     245.869 186.824 244.643  0.00  0.00           O 0
+ATOM   5049   CG HIS A 712     249.911 184.782 244.262  0.00  0.00           C 0
+ATOM   5090  CG2 VAL A 716     245.943 189.993 243.985  0.00  0.00           C 0
+ATOM   1874  CD1 ILE A 267     248.950 189.147 241.639  0.00  0.00           C 0
+ATOM   5050  ND1 HIS A 712     250.156 183.519 244.755  0.87  1.09           N 0
+ATOM   5053  NE2 HIS A 712     251.990 184.609 244.943  0.69  5.47           N 0
+ATOM   5048   CB HIS A 712     248.578 185.198 243.719  0.00  0.00           C 0
+TER
+END

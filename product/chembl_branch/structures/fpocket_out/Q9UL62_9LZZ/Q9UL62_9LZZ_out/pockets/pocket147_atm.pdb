@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   147:
+HEADER 0  - Pocket Score                      : -0.1029
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.7202
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3703
+HEADER 5  - Mean B-factor of pocket residues  : 0.0655
+HEADER 6  - Hydrophobicity Score              : 29.6250
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 173.5469
+HEADER 10 - Pocket volume (convex hull)       : 4.8439
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0500
+ATOM   4365    O GLY A 581     156.060 151.295 110.613  0.00  8.57           O 0
+ATOM  20943    O GLY B 581     152.671 156.061 110.624  0.00  9.64           O 0
+ATOM   4373  CD2 LEU A 582     156.900 155.287 110.284  0.00  0.00           C 0
+ATOM  20967  ND2 ASN B 584     154.182 156.021 105.255  0.74  9.84           N 0
+ATOM   4369    O LEU A 582     159.793 152.273 107.983  0.59  2.14           O 0
+ATOM  20961   CA ASN B 584     156.466 157.736 106.122  0.00  0.00           C 0
+ATOM  20968    N LEU B 585     158.843 157.299 106.078  0.73  1.09           N 0
+ATOM   4201  NE2 GLN A 561     160.485 152.091 104.592  0.31  6.56           N 0
+ATOM  20964   CB ASN B 584     156.095 157.382 104.684  0.00  0.00           C 0
+ATOM  20983  CD2 TYR B 586     158.069 156.867 101.589  0.00  0.00           C 0
+ATOM   4389  ND2 ASN A 584     156.022 149.782 105.245  0.68  8.75           N 0
+ATOM   4172    O CYS A 558     161.139 153.914 100.628  0.22  1.07           O 0
+ATOM   4178    O GLU A 559     158.476 152.481  99.199  0.54  4.29           O 0
+ATOM   4367   CA LEU A 582     158.375 152.651 109.871  0.00  0.00           C 0
+ATOM   4388  OD1 ASN A 584     157.686 150.060 103.767  0.63  4.29           O 0
+ATOM  20985  CE2 TYR B 586     156.705 156.933 101.412  0.00  0.00           C 0
+TER
+END

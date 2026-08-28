@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   100:
+HEADER 0  - Pocket Score                      : -0.1810
+HEADER 1  - Drug Score                        : 0.0013
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.1210
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6420
+HEADER 5  - Mean B-factor of pocket residues  : 0.0557
+HEADER 6  - Hydrophobicity Score              : 62.2857
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 299.2178
+HEADER 10 - Pocket volume (convex hull)       : 10.3134
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.8750
+ATOM   9628   CD LYS D 264     230.825 214.891 189.841  0.00  0.00           C 0
+ATOM   9601   CG MET D 261     236.687 214.620 189.755  0.00  0.00           C 0
+ATOM   9599    O MET D 261     235.157 216.940 191.613  0.00  0.00           O 0
+ATOM   9626   CB LYS D 264     231.184 216.097 192.001  0.00  0.00           C 0
+ATOM   9636  CG1 ILE D 265     235.032 216.302 195.381  0.00  0.00           C 0
+ATOM   9658  CD1 LEU D 268     230.534 213.939 197.552  0.00  0.00           C 0
+ATOM   9625    O LYS D 264     230.731 216.424 194.942  0.76  2.14           O 0
+ATOM   1609   CB LEU A 241     232.298 207.224 193.766  0.00  0.00           C 0
+ATOM   9602   SD MET D 261     237.644 215.000 191.232  0.00  0.00           S 0
+ATOM   1611  CD1 LEU A 241     234.638 206.351 193.847  0.00  0.00           C 0
+ATOM   1608    O LEU A 241     230.213 208.975 195.084  0.64  5.36           O 0
+ATOM   1617   CB TRP A 242     228.727 210.699 191.708  0.00  0.00           C 0
+ATOM   1613    N TRP A 242     229.328 208.734 193.026  0.00  0.00           N 0
+ATOM   1587    O SER A 238     231.785 208.428 188.813  0.48  9.64           O 0
+ATOM   1607    C LEU A 241     230.079 208.321 194.045  0.00  0.00           C 0
+ATOM   1623  CE3 TRP A 242     228.363 213.555 193.355  0.00  0.00           C 0
+ATOM   1614   CA TRP A 242     228.554 209.967 193.046  0.00  0.00           C 0
+TER
+END

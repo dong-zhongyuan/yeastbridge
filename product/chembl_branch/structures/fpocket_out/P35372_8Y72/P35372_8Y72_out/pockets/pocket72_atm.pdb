@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    72:
+HEADER 0  - Pocket Score                      : -0.1072
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.1600
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4962
+HEADER 5  - Mean B-factor of pocket residues  : 0.1044
+HEADER 6  - Hydrophobicity Score              : 16.5714
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 191.1467
+HEADER 10 - Pocket volume (convex hull)       : 2.2665
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3750
+ATOM     88  NH1 ARG A  15     115.321 113.374 148.752  0.66  6.56           N 1
+ATOM    147  ND2 ASN A  22     112.341 117.211 141.595  0.56  8.75           N 0
+ATOM    109   CB MET A  18     114.691 112.879 140.992  0.00  0.00           C 0
+ATOM    112   CE MET A  18     111.920 111.238 141.704  0.00  0.00           C 0
+ATOM    118  CG1 ILE A  19     116.886 116.639 144.038  0.00  0.00           C 0
+ATOM    111   SD MET A  18     113.547 110.500 141.831  0.00  0.00           S 0
+ATOM    113    N ILE A  19     116.376 115.569 141.255  0.00  0.00           N 0
+ATOM   5225   OG SER E  53     113.334 108.658 145.019  0.87  3.21           O 0
+ATOM   5036   OG SER E  30     106.698 112.780 145.900  0.50  9.64           O 0
+ATOM   5038   CA SER E  31     110.366 111.399 147.878  0.00  0.00           C 0
+ATOM   5034    O SER E  30     109.176 110.209 145.677  0.87  2.14           O 0
+ATOM   5041   CB SER E  31     110.609 112.706 148.642  0.00  0.00           C 0
+ATOM     84   CG ARG A  15     117.498 112.596 146.161  0.00  0.00           C 0
+ATOM     82    O ARG A  15     117.624 113.583 143.017  0.66  1.07           O 0
+ATOM   5040    O SER E  31     112.250 110.341 148.881  0.45  1.07           O 0
+TER
+END

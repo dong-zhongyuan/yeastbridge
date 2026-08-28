@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   116:
+HEADER 0  - Pocket Score                      : -0.1882
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9377
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4788
+HEADER 5  - Mean B-factor of pocket residues  : 0.2030
+HEADER 6  - Hydrophobicity Score              : 2.8571
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 347.3321
+HEADER 10 - Pocket volume (convex hull)       : 15.6188
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1765
+ATOM   3365   CB ASP A 261     133.819  99.470  97.099  0.00  0.00           C 0
+ATOM   3366   CG ASP A 261     132.913 100.535  96.493  0.00  0.00           C 0
+ATOM   3368  OD2 ASP A 261     132.834 101.638  97.074  0.60  4.29           O 0
+ATOM   3359  OG1 THR A 260     135.320 100.074  93.057  0.38  8.57           O 0
+ATOM   3795  NH2 ARG A 313     139.844  99.464  95.959  0.00  0.00           N 0
+ATOM   4088   NZ LYS A 349     134.433 101.001 100.408  0.88  5.47           N 0
+ATOM   2260  NH1 ARG R 347     139.077 105.562 100.453  0.06  8.75           N 0
+ATOM   4086   CD LYS A 349     134.090 102.725 102.171  0.00  0.00           C 0
+ATOM   2261  NH2 ARG R 347     137.920 107.341  99.581  0.39  7.66           N 0
+ATOM   3819  CG2 THR A 316     137.580  98.207  98.781  0.00  0.00           C 0
+ATOM   3818  OG1 THR A 316     139.606  97.024  98.559  0.00  0.00           O 0
+ATOM   4087   CE LYS A 349     134.762 101.415 101.799  0.00  0.00           C 0
+ATOM   4124  CE2 PHE A 354     137.057  99.649 104.098  0.00  0.00           C 0
+ATOM   4122  CD2 PHE A 354     136.804 100.703 104.958  0.00  0.00           C 0
+ATOM   4085   CG LYS A 349     134.435 103.141 103.592  0.00  0.00           C 0
+ATOM   4118    O PHE A 354     138.482 104.155 106.194  0.72  1.07           O 0
+ATOM   4126  OXT PHE A 354     139.601 102.371 106.024  0.54  6.43           O 0
+TER
+END

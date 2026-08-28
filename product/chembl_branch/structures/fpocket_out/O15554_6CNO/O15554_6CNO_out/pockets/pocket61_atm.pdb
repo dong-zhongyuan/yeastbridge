@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    61:
+HEADER 0  - Pocket Score                      : -0.1060
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.6656
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3441
+HEADER 5  - Mean B-factor of pocket residues  : 0.5909
+HEADER 6  - Hydrophobicity Score              : 25.8333
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 233.0706
+HEADER 10 - Pocket volume (convex hull)       : 5.2570
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.4118
+ATOM   3664    O ARG B 123     115.992 164.413 123.733  0.00  0.00           O 0
+ATOM   3142    O ALA B  55     113.208 158.324 124.516  0.73  1.07           O 0
+ATOM   3176   CB PHE B  59     111.274 160.340 126.651  0.00  0.00           C 0
+ATOM   3663    C ARG B 123     115.089 165.205 124.002  0.00  0.00           C 0
+ATOM   3143   CB ALA B  55     114.334 158.412 121.603  0.00  0.00           C 0
+ATOM   3172    N PHE B  59     113.277 159.154 127.355  0.76  1.09           N 0
+ATOM   3168   CB LEU B  58     116.180 158.111 126.609  0.00  0.00           C 0
+ATOM   3170  CD1 LEU B  58     117.867 157.556 124.908  0.00  0.00           C 0
+ATOM   3206   NZ LYS B  62     117.565 163.220 127.275  0.65  6.56           N 0
+ATOM   3178  CD1 PHE B  59     110.371 162.657 126.968  0.00  0.00           C 0
+ATOM   3173   CA PHE B  59     112.313 160.175 127.760  0.00  0.00           C 0
+ATOM   3204   CD LYS B  62     116.155 162.822 129.278  0.00  0.00           C 0
+ATOM   3653   CB PRO B 121     114.407 165.995 129.985  0.00  0.00           C 0
+TER
+END

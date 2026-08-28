@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    30:
+HEADER 0  - Pocket Score                      : -0.0425
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9158
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4769
+HEADER 5  - Mean B-factor of pocket residues  : 0.1711
+HEADER 6  - Hydrophobicity Score              : 3.2857
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 164.5225
+HEADER 10 - Pocket volume (convex hull)       : 3.3335
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1250
+ATOM   1408   CB LYS R 223     104.999 133.125 108.070  0.00  0.00           C 0
+ATOM   1421  NE2 GLN R 224     104.647 128.898 111.948  0.43  2.19           N 0
+ATOM   1451  NH2 ARG R 227     102.373 133.830 112.713  0.41  7.66           N 0
+ATOM   1410   CD LYS R 223     102.722 134.007 107.510  0.00  0.00           C 0
+ATOM   1449   CZ ARG R 227     103.463 133.238 113.195  0.00  0.00           C 0
+ATOM   8425  OE1 GLN D 384     103.295 127.463 110.510  0.57  2.14           O 0
+ATOM   8392  NH1 ARG D 380      98.736 128.145 112.264  0.00  0.00           N 0
+ATOM   1450  NH1 ARG R 227     103.352 132.064 113.793  0.32  5.47           N 0
+ATOM   8426  NE2 GLN D 384     101.213 126.627 110.473  0.00  0.00           N 0
+ATOM   8393  NH2 ARG D 380      97.009 127.370 110.976  0.00  0.00           N 0
+ATOM   1387  CG1 ILE R 220     101.654 128.455 105.440  0.00  0.00           C 0
+ATOM   1389  CD1 ILE R 220     100.770 127.238 105.565  0.00  0.00           C 0
+ATOM    832    O SER R 126      97.422 125.717 109.163  0.00  0.00           O 0
+ATOM   1388  CG2 ILE R 220     103.218 127.719 107.247  0.00  0.00           C 0
+TER
+END

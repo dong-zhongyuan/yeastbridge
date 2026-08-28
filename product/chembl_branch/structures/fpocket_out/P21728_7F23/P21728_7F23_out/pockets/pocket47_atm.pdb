@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    47:
+HEADER 0  - Pocket Score                      : -0.1118
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9705
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6441
+HEADER 5  - Mean B-factor of pocket residues  : 0.9111
+HEADER 6  - Hydrophobicity Score              : 0.4000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 284.8994
+HEADER 10 - Pocket volume (convex hull)       : 6.7358
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.2000
+ATOM   4216   CG GLU B  10     116.316 109.440  31.889  0.00  0.00           C 0
+ATOM   4215   CB GLU B  10     117.716 109.956  31.857  0.00  0.00           C 0
+ATOM   4181    O GLN B   6     117.500 106.506  30.926  0.00  0.00           O 0
+ATOM   4185  OE1 GLN B   6     116.393 105.109  25.655  0.00  0.00           O 0
+ATOM   4182   CB GLN B   6     117.214 104.750  28.238  0.00  0.00           C 0
+ATOM   4161  OE2 GLU B   3     112.119 106.032  26.312  0.00  0.00           O 0
+ATOM   4180    C GLN B   6     116.930 105.458  30.588  0.00  0.00           C 0
+ATOM   4187    N LEU B   7     115.759 105.080  31.099  0.00  0.00           N 0
+ATOM   4219  OE2 GLU B  10     114.237 110.096  32.780  0.81  1.07           O 0
+ATOM   7811   CD LYS D  20     112.095 115.452  31.982  0.00  0.00           C 0
+ATOM   7812   CE LYS D  20     113.057 116.030  30.953  0.00  0.00           C 0
+ATOM   7813   NZ LYS D  20     112.352 116.465  29.715  0.00  0.00           N 0
+ATOM   4218  OE1 GLU B  10     115.785 111.629  32.613  0.30  9.64           O 0
+ATOM   4192   CG LEU B   7     112.596 106.268  31.256  0.00  0.00           C 0
+ATOM   4217   CD GLU B  10     115.382 110.456  32.481  0.00  0.00           C 0
+ATOM   4194  CD2 LEU B   7     112.530 107.746  31.551  0.00  0.00           C 0
+TER
+END

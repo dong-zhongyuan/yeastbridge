@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    41:
+HEADER 0  - Pocket Score                      : -0.0556
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.5713
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3597
+HEADER 5  - Mean B-factor of pocket residues  : 0.2217
+HEADER 6  - Hydrophobicity Score              : 23.2857
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 123.5178
+HEADER 10 - Pocket volume (convex hull)       : 2.8130
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.5000
+ATOM   4357    O GLN B 229     143.100 136.748 186.243  0.61  2.14           O 0
+ATOM   3092  CZ2 TRP B  48     140.791 133.923 184.459  0.00  0.00           C 0
+ATOM   4366    O ALA B 230     141.359 135.941 189.251  0.40  5.36           O 0
+ATOM   4382   CB ALA B 233     139.548 139.936 186.366  0.00  0.00           C 0
+ATOM   3089  NE1 TRP B  48     138.528 134.055 183.422  0.54  6.56           N 0
+ATOM   4379   CA ALA B 233     141.063 139.777 186.202  0.00  0.00           C 0
+ATOM   4354    N GLN B 229     144.971 136.146 184.195  0.00  0.00           N 0
+ATOM   4396   CB HIS B 236     139.678 138.669 180.328  0.00  0.00           C 0
+ATOM   4388    N GLY B 235     143.668 140.337 182.359  0.00  0.00           N 0
+ATOM   4344   CA ARG B 228     144.878 135.102 182.016  0.00  0.00           C 0
+ATOM   4348   CG ARG B 228     143.151 133.928 180.605  0.00  0.00           C 0
+ATOM   4399  CD2 HIS B 236     138.914 136.228 179.911  0.00  0.00           C 0
+ATOM   4392    N HIS B 236     141.906 139.624 180.278  0.00  0.00           N 0
+TER
+END

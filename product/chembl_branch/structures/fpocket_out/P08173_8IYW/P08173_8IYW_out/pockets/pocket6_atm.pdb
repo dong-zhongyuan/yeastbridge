@@ -1,0 +1,45 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : 0.1011
+HEADER 1  - Drug Score                        : 0.3627
+HEADER 2  - Number of alpha spheres           :    32
+HEADER 3  - Mean alpha-sphere radius          : 3.6558
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3832
+HEADER 5  - Mean B-factor of pocket residues  : 0.0917
+HEADER 6  - Hydrophobicity Score              : 43.7143
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.0714
+HEADER 9  - Pocket volume (Monte Carlo)       : 223.7312
+HEADER 10 - Pocket volume (convex hull)       : 17.5255
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 27.2414
+HEADER 13 - Number of apolar alpha sphere     :    29
+HEADER 14 - Proportion of apolar alpha sphere : 0.9062
+ATOM   2022    O ASP C  83     164.358 147.919 178.099  0.00  0.00           O 0
+ATOM   2009   CB TRP C  82     161.338 151.680 178.160  0.00  0.00           C 0
+ATOM   2028   CA SER C  84     166.106 149.876 178.946  0.00  0.00           C 0
+ATOM   1798   CB LEU C  51     162.735 153.030 173.554  0.00  0.00           C 0
+ATOM   2031   CB SER C  84     166.724 151.059 179.686  0.00  0.00           C 0
+ATOM   2032   OG SER C  84     167.663 151.733 178.867  0.00  0.00           O 0
+ATOM   2057  OG1 THR C  87     165.511 148.260 173.176  0.57  5.36           O 0
+ATOM   3844  CG1 ILE C 338     167.920 154.083 175.524  0.00  0.00           C 0
+ATOM   1780   CB ARG C  49     168.862 150.827 172.973  0.00  0.00           C 0
+ATOM   2030    O SER C  84     167.938 149.186 177.590  0.00  0.00           O 0
+ATOM   3846  CD1 ILE C 338     167.367 155.056 176.527  0.00  0.00           C 0
+ATOM   1794    N LEU C  51     164.255 153.190 171.643  0.00  0.00           N 0
+ATOM   2053   CA THR C  87     163.831 147.553 174.768  0.00  0.00           C 0
+ATOM   1940   CB LEU C  70     163.345 154.721 180.953  0.00  0.00           C 0
+ATOM   3833   CB LEU C 336     162.887 157.444 173.902  0.00  0.00           C 0
+ATOM   3772   CB ALA C 328     167.038 158.328 178.164  0.00  0.00           C 0
+ATOM   2011  CD1 TRP C  82     160.057 153.792 177.551  0.00  0.00           C 0
+ATOM   3832    O LEU C 336     165.088 155.967 173.051  0.00  0.00           O 0
+ATOM   2010   CG TRP C  82     160.515 152.541 177.276  0.00  0.00           C 0
+ATOM   1952   CB SER C  72     158.727 157.509 177.397  0.00  0.00           C 0
+ATOM   1869   CB MET C  61     162.069 160.348 179.363  0.00  0.00           C 0
+ATOM   1944    O VAL C  71     159.630 158.013 181.085  1.00  1.07           O 0
+ATOM   3780    N GLY C 330     164.652 161.729 174.886  0.70  1.09           N 0
+TER
+END

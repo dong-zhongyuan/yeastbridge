@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    64:
+HEADER 0  - Pocket Score                      : -0.0710
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.6253
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3730
+HEADER 5  - Mean B-factor of pocket residues  : 0.7310
+HEADER 6  - Hydrophobicity Score              : -15.3333
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 5.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 128.0761
+HEADER 10 - Pocket volume (convex hull)       : 3.0327
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1250
+ATOM   2202    N THR R 478     125.853 153.291 132.881  0.00  0.00           N 0
+ATOM   2208  CG2 THR R 478     127.891 151.518 132.782  0.00  0.00           C 0
+ATOM   2238  NH1 ARG R 481     124.942 152.691 126.454  0.48  5.47           N 1
+ATOM   2197   CB LYS R 477     126.428 155.882 131.152  0.00  0.00           C 0
+ATOM    229   NZ LYS R  57     131.760 153.100 128.402  0.67  5.47           N 1
+ATOM    208  OE1 GLU R  55     126.570 148.880 127.465  0.70  6.43           O 0
+ATOM   2199   CD LYS R 477     127.665 157.520 129.698  0.00  0.00           C 0
+ATOM   2239  NH2 ARG R 481     124.956 154.961 126.122  0.00  5.47           N 0
+ATOM   2237   CZ ARG R 481     124.471 153.896 126.743  0.00  0.00           C 0
+ATOM   2203   CA THR R 478     125.436 151.898 132.983  0.00  0.00           C 0
+ATOM    206   CG GLU R  55     126.599 148.044 129.698  0.00  0.00           C 0
+ATOM   2235   CD ARG R 481     122.944 152.918 128.400  0.00  0.00           C 0
+ATOM    205   CB GLU R  55     128.063 147.661 129.585  0.00  0.00           C 0
+ATOM    213    O ARG R  56     131.819 148.652 128.870  0.39  5.36           O 0
+ATOM    207   CD GLU R  55     125.933 148.281 128.357  0.00  0.00           C 0
+TER
+END

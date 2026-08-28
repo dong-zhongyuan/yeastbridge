@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : 0.0750
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.4456
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4070
+HEADER 5  - Mean B-factor of pocket residues  : 0.7576
+HEADER 6  - Hydrophobicity Score              : 33.1429
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 54.8701
+HEADER 10 - Pocket volume (convex hull)       : 0.0754
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.4000
+ATOM   8133  NH1 ARG A1027      13.948 -22.511  18.905  0.00  0.00           N 0
+ATOM   7893  CG1 VAL A 996      13.785 -23.366  14.529  0.00  0.00           C 0
+ATOM   7920   OG SER A1000      18.169 -25.118  14.267  0.69  2.14           O 0
+ATOM   8134  NH2 ARG A1027      13.287 -24.386  17.909  0.88  1.09           N 0
+ATOM   7631  CD2 PHE A 964      16.993 -22.143  19.867  0.00  0.00           C 0
+ATOM   8106   NE ARG A1024      17.981 -20.658  15.260  0.00  0.00           N 0
+ATOM   7892    O VAL A 996      15.522 -26.053  14.526  0.73  1.07           O 0
+ATOM   7896   CA VAL A 997      15.320 -27.650  16.783  0.00  0.00           C 0
+ATOM   7608  CG2 THR A 961      20.150 -26.943  17.978  0.00  0.00           C 0
+ATOM   7609  OG1 THR A 961      20.904 -24.857  17.182  0.00  0.00           O 0
+ATOM   7604   CA THR A 961      20.382 -24.941  19.525  0.00  0.00           C 0
+ATOM   7627   CB PHE A 964      16.191 -24.188  21.140  0.00  0.00           C 0
+ATOM   7901  CG2 VAL A 997      14.611 -27.006  19.141  0.00  0.00           C 0
+TER
+END

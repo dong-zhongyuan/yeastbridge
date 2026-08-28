@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : 0.0640
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0074
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.8340
+HEADER 5  - Mean B-factor of pocket residues  : 0.0538
+HEADER 6  - Hydrophobicity Score              : 13.0000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 3.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 246.8710
+HEADER 10 - Pocket volume (convex hull)       : 2.7636
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM   3221    O PRO A 412     -31.729  54.265   5.000  0.70  5.36           O 0
+ATOM   3230  CD2 HIS A 413     -30.191  56.191   2.780  0.00  0.00           C 0
+ATOM   3232  CE1 HIS A 413     -28.199  56.217   1.857  0.00  0.00           C 0
+ATOM   3233  NE2 HIS A 413     -29.503  56.110   1.564  0.70  5.47           N 0
+ATOM   3219    C PRO A 412     -31.441  54.071   6.180  0.00  0.00           C 0
+ATOM   3225   CA HIS A 413     -29.223  55.088   5.953  0.00  0.00           C 0
+ATOM   3220   CB PRO A 412     -32.028  51.654   6.631  0.00  0.00           C 0
+ATOM   3229   CG HIS A 413     -29.267  56.354   3.777  0.00  0.00           C 0
+ATOM   3231  ND1 HIS A 413     -28.026  56.362   3.182  0.40  1.09           N 0
+ATOM   3234    N CYS A 414     -26.823  54.885   6.098  0.00  0.00           N 0
+ATOM   3226    C HIS A 413     -27.931  55.214   6.773  0.00  0.00           C 0
+ATOM   3238    O CYS A 414     -25.196  54.535   8.725  0.52  8.57           O 0
+ATOM   3224    N HIS A 413     -30.354  54.603   6.745  0.39  3.28           N 0
+ATOM   3228    O HIS A 413     -27.960  55.675   7.909  0.00  0.00           O 0
+ATOM   3240    N ALA A 415     -23.911  53.444   7.305  0.42  5.47           N 0
+ATOM   3236    C CYS A 414     -24.792  54.407   7.580  0.00  0.00           C 0
+TER
+END

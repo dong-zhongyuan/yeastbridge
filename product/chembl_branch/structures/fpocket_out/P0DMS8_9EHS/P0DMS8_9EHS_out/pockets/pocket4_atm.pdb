@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     4:
+HEADER 0  - Pocket Score                      : 0.0754
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.5033
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3893
+HEADER 5  - Mean B-factor of pocket residues  : 0.2488
+HEADER 6  - Hydrophobicity Score              : 2.2727
+HEADER 7  - Polarity Score                    :     9
+HEADER 8  - Amino Acid based volume Score     : 4.7273
+HEADER 9  - Pocket volume (Monte Carlo)       : 107.2033
+HEADER 10 - Pocket volume (convex hull)       : 2.6354
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   2072  NH1 ARG K  52     141.811 158.096 116.170  0.59  4.37           N 0
+ATOM   2691   OG SER L  13     148.106 156.182 116.481  0.53  3.21           O 0
+ATOM   2101  OD1 ASP K  56     142.840 154.980 119.708  0.25  3.21           O 0
+ATOM   2677   OG SER L  11     144.812 152.973 114.945  0.64  3.21           O 0
+ATOM   3705  OE1 GLU L 145     142.857 157.443 112.080  0.00  0.00           O 0
+ATOM   3706  OE2 GLU L 145     142.361 155.382 112.644  0.76  5.36           O 0
+ATOM   3414  OE2 GLU L 107     147.470 153.881 115.029  0.55  4.29           O 0
+ATOM   3687    N ARG L 144     145.768 158.105 110.084  0.71  1.09           N 0
+ATOM   3691   CB ARG L 144     145.704 155.809 109.273  0.00  0.00           C 0
+ATOM   3684   CB PRO L 143     145.623 159.873 112.454  0.00  0.00           C 0
+ATOM   2122   CZ PHE K  59     146.010 159.220 117.399  0.00  0.00           C 0
+ATOM   3676  CE1 TYR L 142     150.138 158.729 112.745  0.00  0.00           C 0
+ATOM   3940   OH TYR L 175     149.664 154.549 110.979  0.77  3.21           O 0
+ATOM   3938  CE2 TYR L 175     149.418 156.610 109.811  0.00  0.00           C 0
+ATOM   2073  NH2 ARG K  52     142.377 159.491 114.450  0.76  1.09           N 0
+ATOM   3679   OH TYR L 142     149.751 158.371 115.064  0.00  0.00           O 0
+TER
+END

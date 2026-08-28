@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    99:
+HEADER 0  - Pocket Score                      : -0.0851
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8030
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5796
+HEADER 5  - Mean B-factor of pocket residues  : 0.4989
+HEADER 6  - Hydrophobicity Score              : 16.6000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 3.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 261.4351
+HEADER 10 - Pocket volume (convex hull)       : 9.7793
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.6000
+ATOM  16085   CB PRO I   6     149.608 153.386 181.728  0.00  0.00           C 0
+ATOM  16154   CB CYS I  15     155.026 155.248 179.422  0.00  0.00           C 0
+ATOM  16155   SG CYS I  15     154.203 156.859 179.336  0.00  0.00           S 0
+ATOM  16087   CD PRO I   6     150.448 152.967 183.961  0.00  0.00           C 0
+ATOM  16153    O CYS I  15     158.041 154.401 178.919  0.61  8.57           O 0
+ATOM  16152    C CYS I  15     156.967 153.950 178.508  0.00  0.00           C 0
+ATOM  16164  NE2 GLN I  16     157.328 149.557 181.796  0.00  0.00           N 0
+ATOM  16163  OE1 GLN I  16     159.305 150.483 181.281  0.75  8.57           O 0
+ATOM  16086   CG PRO I   6     150.337 152.392 182.571  0.00  0.00           C 0
+ATOM  16126    O ALA I  12     153.829 150.701 178.689  0.59  6.43           O 0
+ATOM  16127   CB ALA I  12     150.822 150.021 179.822  0.00  0.00           C 0
+ATOM  16124   CA ALA I  12     151.572 151.242 179.293  0.00  0.00           C 0
+ATOM  16122   SG CYS I  11     150.321 156.362 179.417  0.00  0.00           S 0
+ATOM  16081    N PRO I   6     149.418 154.020 183.987  0.58  5.47           N 0
+ATOM  16120    O CYS I  11     152.192 153.796 178.502  0.00  0.00           O 0
+ATOM  16156    N GLN I  16     156.759 152.644 178.336  0.00  0.00           N 0
+TER
+END

@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     5:
+HEADER 0  - Pocket Score                      : 0.0658
+HEADER 1  - Drug Score                        : 0.0020
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.5762
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4008
+HEADER 5  - Mean B-factor of pocket residues  : 0.1045
+HEADER 6  - Hydrophobicity Score              : 90.0000
+HEADER 7  - Polarity Score                    :     0
+HEADER 8  - Amino Acid based volume Score     : 4.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 102.0667
+HEADER 10 - Pocket volume (convex hull)       : 1.5161
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 15.0000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM   6594  CD1 LEU D  50     161.906 145.067 183.674  0.00  0.00           C 0
+ATOM   4031   CE MET C  45     161.176 144.677 178.703  0.00  0.00           C 0
+ATOM   5868  CD1 LEU C 286     160.674 150.282 182.502  0.00  0.00           C 0
+ATOM   4030   SD MET C  45     162.468 145.715 178.039  0.00  0.00           S 0
+ATOM   5851   CG LEU C 284     166.133 149.544 182.903  0.00  0.00           C 0
+ATOM   5850   CB LEU C 284     164.982 150.141 183.719  0.00  0.00           C 0
+ATOM   6592   CB LEU D  50     164.284 144.407 183.208  0.00  0.00           C 0
+ATOM   4013  CG2 ILE C  43     166.275 146.549 177.432  0.00  0.00           C 0
+ATOM   5852  CD1 LEU C 284     166.455 150.438 181.732  0.00  0.00           C 0
+ATOM   4014  CD1 ILE C  43     167.790 148.796 178.912  0.00  0.00           C 0
+ATOM   5945  CG1 VAL C 296     164.251 151.083 179.138  0.00  0.00           C 0
+ATOM   5946  CG2 VAL C 296     162.186 150.280 178.025  0.00  0.00           C 0
+ATOM   6591    O LEU D  50     166.917 143.799 181.242  0.97  5.36           O 0
+ATOM   5869  CD2 LEU C 286     158.780 149.567 181.039  0.00  0.00           C 0
+TER
+END

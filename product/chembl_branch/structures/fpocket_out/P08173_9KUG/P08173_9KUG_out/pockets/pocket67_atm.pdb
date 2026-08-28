@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    67:
+HEADER 0  - Pocket Score                      : -0.1822
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0471
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5493
+HEADER 5  - Mean B-factor of pocket residues  : 0.2962
+HEADER 6  - Hydrophobicity Score              : 13.6250
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.6250
+HEADER 9  - Pocket volume (Monte Carlo)       : 279.1584
+HEADER 10 - Pocket volume (convex hull)       : 4.6873
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0667
+ATOM   7591    O GLY H 170     170.580 125.995 175.782  0.00  0.00           O 0
+ATOM   7600    N THR H 172     167.896 123.026 175.382  0.59  1.09           N 0
+ATOM   7773    O ARG H 191     165.189 122.784 179.820  0.36  5.36           O 0
+ATOM   7599  ND2 ASN H 171     166.252 127.628 175.282  0.00  0.00           N 0
+ATOM   7605  OG1 THR H 172     167.809 121.406 177.792  0.00  0.00           O 0
+ATOM   7774   CB ARG H 191     163.183 123.805 178.197  0.00  0.00           C 0
+ATOM   7802  ND2 ASN H 194     162.341 126.489 180.596  0.93  7.66           N 0
+ATOM   7788   CE MET H 192     169.472 120.837 180.530  0.00  0.00           C 0
+ATOM   7606  CG2 THR H 172     169.877 121.240 176.567  0.00  0.00           C 0
+ATOM   7563  CD1 LEU H 166     173.866 121.505 175.621  0.00  0.00           C 0
+ATOM   7801  OD1 ASN H 194     163.480 127.125 182.422  0.41  7.50           O 0
+ATOM   7793   CB SER H 193     166.310 124.275 183.370  0.00  0.00           C 0
+ATOM   7794   OG SER H 193     167.523 123.589 183.117  0.34  6.43           O 0
+ATOM   7593   CA ASN H 171     168.269 125.227 174.449  0.00  0.00           C 0
+ATOM   7776   CD ARG H 191     162.867 125.468 176.331  0.00  0.00           C 0
+ATOM   7777   NE ARG H 191     162.042 126.480 176.979  0.61  2.19           N 0
+TER
+END

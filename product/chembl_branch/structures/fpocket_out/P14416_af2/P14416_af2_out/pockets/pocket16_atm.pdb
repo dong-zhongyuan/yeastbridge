@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    16:
+HEADER 0  - Pocket Score                      : -0.0123
+HEADER 1  - Drug Score                        : 0.0010
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.7863
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5390
+HEADER 5  - Mean B-factor of pocket residues  : 0.8635
+HEADER 6  - Hydrophobicity Score              : 22.2000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 6.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 172.3382
+HEADER 10 - Pocket volume (convex hull)       : 5.2956
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.8667
+ATOM   1736    N ARG A 218      -8.335  -8.124  23.517  0.00  0.00           N 0
+ATOM   1730   CG ARG A 217      -6.516 -11.250  21.834  0.00  0.00           C 0
+ATOM   1741   CG ARG A 218      -6.522  -6.467  25.502  0.00  0.00           C 0
+ATOM   1775   CD LYS A 221      -7.189 -12.304  26.559  0.00  0.00           C 0
+ATOM   1776   CE LYS A 221      -6.140 -13.160  25.825  0.00  0.00           C 0
+ATOM   1777   NZ LYS A 221      -4.802 -13.117  26.489  0.00  0.00           N 0
+ATOM   1731   CD ARG A 217      -5.073 -11.644  21.476  0.00  0.00           C 0
+ATOM   1732   NE ARG A 217      -4.711 -12.992  21.978  0.00  0.00           N 0
+ATOM   1733  NH1 ARG A 217      -2.440 -12.856  21.593  0.00  0.00           N 0
+ATOM   1743   NE ARG A 218      -4.475  -5.093  25.971  0.68  4.37           N 0
+ATOM   1708  CG2 ILE A 214      -3.429  -5.132  22.638  0.00  0.00           C 0
+ATOM   1706    O ILE A 214      -6.456  -6.339  22.220  0.59  1.07           O 0
+ATOM   1707  CG1 ILE A 214      -2.145  -5.938  20.621  0.00  0.00           C 0
+ATOM   1703   CA ILE A 214      -4.682  -6.070  20.621  0.00  0.00           C 0
+ATOM   1728   CB ARG A 217      -6.886  -9.884  21.229  0.00  0.00           C 0
+ATOM   1698  CE1 TYR A 213      -3.419 -10.392  17.765  0.00  0.00           C 0
+TER
+END

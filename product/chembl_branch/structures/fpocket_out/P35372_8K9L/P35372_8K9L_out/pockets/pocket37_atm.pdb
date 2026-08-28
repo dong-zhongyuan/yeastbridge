@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    37:
+HEADER 0  - Pocket Score                      : -0.0109
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 4.1695
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5900
+HEADER 5  - Mean B-factor of pocket residues  : 0.0422
+HEADER 6  - Hydrophobicity Score              : -3.3000
+HEADER 7  - Polarity Score                    :     9
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 361.0827
+HEADER 10 - Pocket volume (convex hull)       : 17.6352
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1053
+ATOM   2357  CG1 VAL A  13     129.374 101.680 136.579  0.00  0.00           C 0
+ATOM   2390   CG LYS A  17     125.194 101.809 134.353  0.00  0.00           C 0
+ATOM   2384   OG SER A  16     124.317 103.189 139.004  0.22  5.36           O 0
+ATOM   2392   CE LYS A  17     127.475 102.468 133.524  0.00  0.00           C 0
+ATOM   4743  OG1 THR B  87     127.518 108.723 140.350  0.00  0.00           O 0
+ATOM   4751  OD1 ASN B  88     127.818 103.631 140.460  0.50  4.29           O 0
+ATOM   4734    O THR B  86     129.164 107.730 141.290  0.00  0.00           O 0
+ATOM   2358  CG2 VAL A  13     130.560 102.006 138.747  0.00  0.00           C 0
+ATOM   4761   NZ LYS B  89     120.969 106.584 139.015  0.22  3.28           N 0
+ATOM   2417  OD2 ASP A  20     120.933 105.665 136.144  0.55  8.57           O 0
+ATOM   4457    N ARG B  52     121.149 111.881 139.450  0.00  0.00           N 0
+ATOM   4445    O THR B  50     124.179 113.587 139.674  0.00  0.00           O 0
+ATOM   4742   CB THR B  87     126.714 109.320 141.374  0.00  0.00           C 0
+ATOM   4460    O ARG B  52     120.147 109.435 138.602  0.74  1.07           O 0
+ATOM   4461   CB ARG B  52     120.671 112.152 137.049  0.00  0.00           C 0
+ATOM   4463   CD ARG B  52     122.119 113.636 135.632  0.00  0.00           C 0
+ATOM   4462   CG ARG B  52     121.545 113.394 137.016  0.00  0.00           C 0
+ATOM   4741    O THR B  87     124.904 107.137 141.707  0.48  3.21           O 0
+TER
+END

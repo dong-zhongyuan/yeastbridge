@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    31:
+HEADER 0  - Pocket Score                      : -0.0468
+HEADER 1  - Drug Score                        : 0.0059
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.6773
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4266
+HEADER 5  - Mean B-factor of pocket residues  : 0.4068
+HEADER 6  - Hydrophobicity Score              : 64.7500
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.3750
+HEADER 9  - Pocket volume (Monte Carlo)       : 128.4473
+HEADER 10 - Pocket volume (convex hull)       : 2.8074
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.9375
+ATOM   7878   CB LEU H 245      98.678 170.143 151.232  0.00  0.00           C 0
+ATOM   7742  CE1 TYR H 227     102.358 168.643 152.314  0.00  0.00           C 0
+ATOM   7672  CD1 ILE H 216     102.518 166.131 148.536  0.00  0.00           C 0
+ATOM   7740  CD1 TYR H 227     102.954 169.883 152.292  0.00  0.00           C 0
+ATOM   7243   CB ILE H 157     103.853 172.220 147.039  0.00  0.00           C 0
+ATOM   7868  CG2 THR H 243     101.398 175.137 149.548  0.00  0.00           C 0
+ATOM   7739   CG TYR H 227     104.277 170.038 151.909  0.00  0.00           C 0
+ATOM   7182   CB VAL H 147      97.118 173.472 147.306  0.00  0.00           C 0
+ATOM   7184  CG2 VAL H 147      98.134 174.513 146.858  0.00  0.00           C 0
+ATOM   7236    O SER H 156     101.413 172.003 143.839  0.48  2.14           O 0
+ATOM   7232   CB VAL H 155      98.617 168.014 145.693  0.00  0.00           C 0
+ATOM   7183  CG1 VAL H 147      96.614 172.671 146.116  0.00  0.00           C 0
+ATOM   7235    C SER H 156     102.212 171.087 144.051  0.00  0.00           C 0
+ATOM   7239    N ILE H 157     103.271 171.210 144.847  0.58  1.09           N 0
+ATOM   7230    C VAL H 155     100.451 167.957 143.972  0.00  0.00           C 0
+ATOM   7233    N SER H 156     100.685 169.236 143.690  0.57  4.37           N 0
+TER
+END

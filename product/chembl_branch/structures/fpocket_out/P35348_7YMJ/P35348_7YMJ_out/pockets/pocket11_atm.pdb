@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : 0.0050
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.6580
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5003
+HEADER 5  - Mean B-factor of pocket residues  : 0.3806
+HEADER 6  - Hydrophobicity Score              : 3.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 121.5419
+HEADER 10 - Pocket volume (convex hull)       : 1.3499
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   2430   CB ASP D  35     110.759 110.973  74.338  0.00  0.00           C 0
+ATOM   2884   CG GLU D 100     110.675 107.391  75.946  0.00  0.00           C 0
+ATOM   2429    O ASP D  35     107.850 109.774  73.709  0.00  0.00           O 0
+ATOM   2872  OD1 ASN D  98     109.571 104.783  71.979  0.57  5.36           O 0
+ATOM   2471   OH TYR D  39     113.693 106.343  68.748  0.00  0.00           O 0
+ATOM   2871   CG ASN D  98     109.694 104.414  70.813  0.00  0.00           C 0
+ATOM   2870   CB ASN D  98     108.911 105.081  69.698  0.00  0.00           C 0
+ATOM   2434    N MET D  36     108.596 111.072  72.009  0.00  0.00           N 0
+ATOM   2436    C MET D  36     108.922 110.289  69.753  0.00  0.00           C 0
+ATOM   2435   CA MET D  36     107.961 110.327  70.933  0.00  0.00           C 0
+ATOM   2428    C ASP D  35     108.517 110.725  73.293  0.00  0.00           C 0
+ATOM   2437    O MET D  36     110.037 110.811  69.823  0.00  0.00           O 0
+ATOM   2542   OG SER D  52     113.054 112.055  69.096  0.74  8.57           O 0
+ATOM   2887  OE2 GLU D 100     112.965 107.921  75.598  0.43  8.57           O 0
+ATOM   2431   CG ASP D  35     111.835 112.029  74.454  0.00  0.00           C 0
+ATOM   2433  OD2 ASP D  35     112.830 111.792  75.170  0.61  3.21           O 0
+TER
+END

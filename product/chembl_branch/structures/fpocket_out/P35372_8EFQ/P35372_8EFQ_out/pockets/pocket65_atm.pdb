@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    65:
+HEADER 0  - Pocket Score                      : -0.1479
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.9829
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5363
+HEADER 5  - Mean B-factor of pocket residues  : 0.7823
+HEADER 6  - Hydrophobicity Score              : 8.8571
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 224.9100
+HEADER 10 - Pocket volume (convex hull)       : 4.3591
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.2857
+ATOM   1262  OG1 THR A 295     144.371  88.705 113.703  0.50  7.50           O 0
+ATOM   1268   CB TYR A 296     141.715  92.619 112.588  0.00  0.00           C 0
+ATOM   1103   CB GLU A 275     139.294  91.529 108.871  0.00  0.00           C 0
+ATOM   1284  OE2 GLU A 297     141.058  89.321 116.302  0.00  0.00           O 0
+ATOM   1258   CA THR A 295     145.543  89.738 111.841  0.00  0.00           C 0
+ATOM   1141   CE LYS A 279     140.428  85.555 106.458  0.00  0.00           C 0
+ATOM   1252    O ASN A 294     146.470  87.880 109.985  0.00  0.00           O 0
+ATOM   1102    O GLU A 275     140.783  90.562 106.153  0.54  1.07           O 0
+ATOM   1138   CB LYS A 279     142.100  87.630 104.837  0.00  0.00           C 0
+ATOM   1139   CG LYS A 279     142.150  86.113 104.723  0.00  0.00           C 0
+ATOM   1134    N LYS A 279     143.332  89.749 104.896  0.00  0.00           N 0
+ATOM   1283  OE1 GLU A 297     143.067  89.591 115.462  0.63  2.14           O 0
+ATOM   1135   CA LYS A 279     143.445  88.320 104.608  0.00  0.00           C 0
+ATOM   1264    N TYR A 296     143.793  91.335 112.348  0.70  3.28           N 0
+ATOM   1132  CG2 ILE A 278     145.293  91.589 107.553  0.00  0.00           C 0
+ATOM   1100   CA GLU A 275     140.025  92.222 107.712  0.00  0.00           C 0
+TER
+END

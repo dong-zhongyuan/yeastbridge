@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : 0.0019
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0458
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7512
+HEADER 5  - Mean B-factor of pocket residues  : 0.2162
+HEADER 6  - Hydrophobicity Score              : 8.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 334.0553
+HEADER 10 - Pocket volume (convex hull)       : 25.2017
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.2000
+ATOM   1400   CG ARG A 323     111.748 162.359  85.151  0.00  0.00           C 0
+ATOM   1396   CA ARG A 323     111.988 160.113  86.354  0.00  0.00           C 0
+ATOM   1391    O PRO A 322     111.536 159.309  88.934  0.00  0.00           O 0
+ATOM   1429  NH1 ARG A 326     106.271 158.492  84.627  0.00  0.00           N 1
+ATOM   1395    N ARG A 323     112.497 160.794  87.539  0.00  0.00           N 0
+ATOM   1392   CB PRO A 322     111.957 162.119  90.481  0.00  0.00           C 0
+ATOM   1390    C PRO A 322     112.250 160.302  88.755  0.00  0.00           C 0
+ATOM   1430  NH2 ARG A 326     104.501 157.152  84.076  0.84  5.47           N 0
+ATOM   1428   CZ ARG A 326     105.427 157.525  84.954  0.00  0.00           C 0
+ATOM   1269    O ALA A 306     100.949 157.433  83.681  0.00  0.00           O 0
+ATOM   1285    O TYR A 308     103.524 156.074  87.318  0.62  3.21           O 0
+ATOM   1427   NE ARG A 326     105.480 156.919  86.133  0.00  0.00           N 0
+ATOM   1299  OG1 THR A 309     101.858 157.453  90.225  0.00  0.00           O 0
+ATOM   1426   CD ARG A 326     106.431 157.229  87.196  0.00  0.00           C 0
+ATOM   1306  OG1 THR A 310     108.384 156.674  91.122  0.69  4.29           O 0
+ATOM   1424   CB ARG A 326     108.777 156.604  87.831  0.00  0.00           C 0
+ATOM   1301    N THR A 310     105.745 155.739  91.321  0.81  1.09           N 0
+ATOM   1300  CG2 THR A 309     103.258 157.220  92.173  0.00  0.00           C 0
+ATOM   1295   CA THR A 309     103.652 155.821  90.113  0.00  0.00           C 0
+TER
+END

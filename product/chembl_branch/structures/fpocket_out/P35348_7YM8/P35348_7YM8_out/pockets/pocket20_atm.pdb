@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    20:
+HEADER 0  - Pocket Score                      : -0.0464
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9564
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6569
+HEADER 5  - Mean B-factor of pocket residues  : 0.6995
+HEADER 6  - Hydrophobicity Score              : 11.3750
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.8750
+HEADER 9  - Pocket volume (Monte Carlo)       : 215.4548
+HEADER 10 - Pocket volume (convex hull)       : 4.2861
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.5625
+ATOM   3644   CG PRO D  41     155.766 149.280 182.630  0.00  0.00           C 0
+ATOM   4202  NE2 GLN D 111     150.522 150.921 185.123  0.00  0.00           N 0
+ATOM   3643   CB PRO D  41     156.185 150.156 181.493  0.00  0.00           C 0
+ATOM   4026  CG2 VAL D  91     149.734 150.148 181.859  0.00  0.00           C 0
+ATOM   3645   CD PRO D  41     154.724 148.370 182.077  0.00  0.00           C 0
+ATOM   3639    N PRO D  41     155.145 148.203 180.676  0.60  1.09           N 0
+ATOM   3640   CA PRO D  41     156.028 149.292 180.234  0.00  0.00           C 0
+ATOM   3637    O ALA D  40     154.798 147.524 178.562  0.64  2.14           O 0
+ATOM   3646    N GLY D  42     157.596 148.875 178.433  0.50  7.66           N 0
+ATOM   3653    O LYS D  43     155.394 147.111 175.446  0.00  0.00           O 0
+ATOM   3633  NE2 GLN D  39     152.512 148.456 174.535  0.00  0.00           N 0
+ATOM   3631   CD GLN D  39     151.581 148.552 175.474  0.00  0.00           C 0
+ATOM   3630   CG GLN D  39     151.812 147.753 176.734  0.00  0.00           C 0
+ATOM   4050   OH TYR D  93     148.513 150.189 177.391  0.00  0.00           O 0
+ATOM   3632  OE1 GLN D  39     150.572 149.245 175.342  0.00  0.00           O 0
+ATOM   3628    O GLN D  39     151.343 147.019 180.020  0.62  1.07           O 0
+TER
+END

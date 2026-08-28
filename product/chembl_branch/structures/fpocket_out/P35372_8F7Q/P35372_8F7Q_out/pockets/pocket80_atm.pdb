@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    80:
+HEADER 0  - Pocket Score                      : -0.0902
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8293
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5556
+HEADER 5  - Mean B-factor of pocket residues  : 0.0441
+HEADER 6  - Hydrophobicity Score              : -5.6667
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 150.1192
+HEADER 10 - Pocket volume (convex hull)       : 2.8950
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.6667
+ATOM   4674  NH2 ARG B  52     123.003 129.021  97.681  0.71  7.66           N 0
+ATOM   4654  OG1 THR B  50     123.350 130.729  93.321  0.70  5.36           O 0
+ATOM   6837   CE LYS B 337     126.584 127.267  92.216  0.00  0.00           C 0
+ATOM   4655  CG2 THR B  50     122.343 128.693  94.118  0.00  0.00           C 0
+ATOM   6838   NZ LYS B 337     128.015 127.240  92.623  0.60  4.37           N 0
+ATOM   6817  CD1 PHE B 335     122.415 124.417  95.383  0.00  0.00           C 0
+ATOM   6821   CZ PHE B 335     123.566 123.446  97.248  0.00  0.00           C 0
+ATOM   6819  CE1 PHE B 335     122.535 124.221  96.750  0.00  0.00           C 0
+ATOM   6818  CD2 PHE B 335     124.345 123.066  95.016  0.00  0.00           C 0
+ATOM   6804  OD2 ASP B 333     126.933 122.077  92.764  0.00  0.00           O 0
+ATOM   6656  OD2 ASP B 312     129.930 122.974  96.449  0.57  6.43           O 0
+ATOM   6820  CE2 PHE B 335     124.472 122.866  96.381  0.00  0.00           C 0
+ATOM   6816   CG PHE B 335     123.309 123.831  94.503  0.00  0.00           C 0
+TER
+END

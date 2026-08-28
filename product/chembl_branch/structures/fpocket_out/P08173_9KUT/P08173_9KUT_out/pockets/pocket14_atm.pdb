@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    14:
+HEADER 0  - Pocket Score                      : 0.0170
+HEADER 1  - Drug Score                        : 0.0022
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.5692
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3963
+HEADER 5  - Mean B-factor of pocket residues  : 0.1993
+HEADER 6  - Hydrophobicity Score              : 47.6250
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 162.3123
+HEADER 10 - Pocket volume (convex hull)       : 4.5250
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 16.0000
+HEADER 13 - Number of apolar alpha sphere     :    17
+HEADER 14 - Proportion of apolar alpha sphere : 0.7727
+ATOM    228  CD1 LEU A  38     143.141 165.421 179.070  0.00  0.00           C 0
+ATOM    486  OD2 ASP A 201     146.286 170.713 180.266  0.50  7.50           O 0
+ATOM    302  CG1 VAL A  50     145.233 166.345 184.177  0.00  0.00           C 0
+ATOM    301   CB VAL A  50     145.383 165.051 183.417  0.00  0.00           C 0
+ATOM    483   CB ASP A 201     147.093 169.474 178.403  0.00  0.00           C 0
+ATOM    346  CG1 VAL A 186     151.824 168.795 180.853  0.00  0.00           C 0
+ATOM    345   CB VAL A 186     151.175 169.495 179.672  0.00  0.00           C 0
+ATOM    362  OG1 THR A 188     149.992 164.256 181.249  0.75  3.21           O 0
+ATOM    303  CG2 VAL A  50     146.850 164.751 183.145  0.00  0.00           C 0
+ATOM    464   CB LEU A 199     146.567 162.684 177.849  0.00  0.00           C 0
+ATOM    479    N ASP A 201     147.621 168.227 176.349  0.00  0.00           N 0
+ATOM    470    C PHE A 200     147.033 167.289 175.614  0.00  0.00           C 0
+ATOM    462    C LEU A 199     147.942 164.058 176.272  0.00  0.00           C 0
+ATOM    271   CB LYS A  46     140.955 169.109 181.883  0.00  0.00           C 0
+ATOM    270    O LYS A  46     142.174 166.839 183.878  0.00  0.00           O 0
+ATOM    344    O VAL A 186     150.358 167.570 177.405  0.00  0.00           O 0
+ATOM    463    O LEU A 199     148.975 164.329 176.893  0.71  2.14           O 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    55:
+HEADER 0  - Pocket Score                      : -0.1004
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 4.2140
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5323
+HEADER 5  - Mean B-factor of pocket residues  : 0.1900
+HEADER 6  - Hydrophobicity Score              : -2.8333
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 305.0064
+HEADER 10 - Pocket volume (convex hull)       : 8.3029
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1579
+ATOM   3893  NH2 ARG C  68     121.752 140.642 152.309  0.50  1.09           N 0
+ATOM   7243   CB ASN E 157     120.420 145.573 152.637  0.00  0.00           C 0
+ATOM   7246  ND2 ASN E 157     120.656 145.305 150.242  0.21  9.84           N 0
+ATOM   7240   CA ASN E 157     118.947 145.996 152.583  0.00  0.00           C 0
+ATOM   7242    O ASN E 157     117.803 145.030 154.457  0.04  5.36           O 0
+ATOM   6213    O PRO D  60     114.816 138.547 149.268  0.00  0.00           O 0
+ATOM   7236    O SER E 156     116.570 147.026 151.698  0.00  0.00           O 0
+ATOM   4033  OG1 THR C  86     123.176 140.893 148.810  0.58  3.21           O 0
+ATOM   4020   CB TYR C  85     119.903 137.839 150.074  0.00  0.00           C 0
+ATOM   4023  CD2 TYR C  85     118.584 138.090 152.215  0.00  0.00           C 0
+ATOM   3892  NH1 ARG C  68     120.706 139.871 154.192  0.47  3.28           N 0
+ATOM   4025  CE2 TYR C  85     117.930 137.594 153.322  0.00  0.00           C 0
+ATOM   4019    O TYR C  85     120.578 137.739 146.763  0.45  4.29           O 0
+ATOM   4018    C TYR C  85     121.094 137.725 147.887  0.00  0.00           C 0
+ATOM   6211   CA PRO D  60     113.896 137.898 151.344  0.00  0.00           C 0
+ATOM   6214   CB PRO D  60     114.864 137.191 152.299  0.00  0.00           C 0
+TER
+END

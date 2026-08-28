@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : 0.1417
+HEADER 1  - Drug Score                        : 0.0095
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.7929
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7097
+HEADER 5  - Mean B-factor of pocket residues  : 0.0162
+HEADER 6  - Hydrophobicity Score              : 66.7500
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 161.6879
+HEADER 10 - Pocket volume (convex hull)       : 2.0204
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.8750
+ATOM    939   CB VAL R 161     123.806 110.319 114.024  0.00  0.00           C 0
+ATOM    911  CG1 ILE R 158     118.850 113.896 115.671  0.00  0.00           C 0
+ATOM    940  CG1 VAL R 161     123.179 108.958 113.722  0.00  0.00           C 0
+ATOM    941  CG2 VAL R 161     124.570 110.260 115.330  0.00  0.00           C 0
+ATOM    912  CG2 ILE R 158     118.966 114.377 113.177  0.00  0.00           C 0
+ATOM    909    O ILE R 158     121.901 113.507 112.383  0.00  0.00           O 0
+ATOM    948  CD1 LEU R 162     119.715 110.448 108.775  0.00  0.00           C 0
+ATOM    946   CB LEU R 162     121.466 112.144 109.539  0.00  0.00           C 0
+ATOM    942    N LEU R 162     123.252 111.380 111.030  0.00  0.00           N 0
+ATOM    903    O SER R 157     123.620 113.325 115.326  0.00  0.00           O 0
+ATOM    904   CB SER R 157     123.142 114.182 118.507  0.00  0.00           C 0
+ATOM    902    C SER R 157     123.043 114.185 116.001  0.00  0.00           C 0
+ATOM    906    N ILE R 158     121.832 114.651 115.682  0.00  0.00           N 0
+ATOM    907   CA ILE R 158     121.092 114.092 114.556  0.00  0.00           C 0
+TER
+END

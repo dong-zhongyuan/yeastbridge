@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   134:
+HEADER 0  - Pocket Score                      : -0.1104
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 4.1656
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6141
+HEADER 5  - Mean B-factor of pocket residues  : 0.6930
+HEADER 6  - Hydrophobicity Score              : -3.7778
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.4444
+HEADER 9  - Pocket volume (Monte Carlo)       : 260.9347
+HEADER 10 - Pocket volume (convex hull)       : 7.3918
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.4000
+ATOM    413   CD PRO A  68     134.200 148.845 196.186  0.00  0.00           C 0
+ATOM    169  CD2 LEU A  37     136.429 147.300 202.379  0.00  0.00           C 0
+ATOM    107  CD2 LEU A  29     133.473 146.919 200.219  0.00  0.00           C 0
+ATOM    403   CB ASP A  67     136.725 146.940 197.275  0.00  0.00           C 0
+ATOM   6491  OE2 GLU B 156     136.913 153.010 195.010  0.00  0.00           O 0
+ATOM    198  OE2 GLU A  41     143.716 150.780 200.626  0.39  6.43           O 0
+ATOM    177  ND2 ASN A  38     139.147 155.318 202.942  0.00  0.00           N 0
+ATOM    436  NH2 ARG A  71     140.837 149.246 195.713  0.36  6.56           N 0
+ATOM    406  OD2 ASP A  67     138.759 147.484 196.175  0.39  1.07           O 0
+ATOM    166   CB LEU A  37     138.620 148.531 202.068  0.00  0.00           C 0
+ATOM    171   CA ASN A  38     140.325 152.250 204.020  0.00  0.00           C 0
+ATOM    170    N ASN A  38     139.603 150.990 203.881  0.81  1.09           N 0
+ATOM    165    O LEU A  37     141.405 149.945 203.026  0.61  1.07           O 0
+ATOM    140    O LYS A  34     136.295 151.193 204.483  0.55  3.21           O 0
+ATOM    174   CB ASN A  38     139.356 153.377 204.373  0.00  0.00           C 0
+ATOM    142   CG LYS A  34     132.537 151.129 202.406  0.00  0.00           C 0
+ATOM    138   CA LYS A  34     134.123 150.227 204.196  0.00  0.00           C 0
+ATOM    167   CG LEU A  37     137.824 147.253 201.781  0.00  0.00           C 0
+ATOM    164    C LEU A  37     140.231 149.909 203.412  0.00  0.00           C 0
+TER
+END

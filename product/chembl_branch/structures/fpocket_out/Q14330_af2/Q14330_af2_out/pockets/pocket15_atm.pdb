@@ -1,0 +1,43 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : 0.0303
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 3.9079
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5344
+HEADER 5  - Mean B-factor of pocket residues  : 0.8186
+HEADER 6  - Hydrophobicity Score              : 8.8000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 336.7007
+HEADER 10 - Pocket volume (convex hull)       : 18.9286
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.3913
+ATOM   2503   OG SER A 309      -0.100  27.525  26.905  0.00  0.00           O 0
+ATOM   2531  NH1 ARG A 312      -2.482  30.641  22.825  0.00  0.00           N 0
+ATOM   2526   CB ARG A 312       1.908  32.053  23.924  0.00  0.00           C 0
+ATOM   2533   CZ ARG A 312      -1.460  29.843  22.685  0.00  0.00           C 0
+ATOM   2529   CD ARG A 312       0.133  31.694  22.144  0.00  0.00           C 0
+ATOM   2567   NE ARG A 316      -0.361  36.913  26.181  0.63  2.19           N 0
+ATOM   2528   CG ARG A 312       1.618  31.965  22.419  0.00  0.00           C 0
+ATOM   2568  NH1 ARG A 316      -2.105  36.367  27.576  0.50  6.56           N 0
+ATOM   2570   CZ ARG A 316      -1.654  36.752  26.414  0.00  0.00           C 0
+ATOM   2569  NH2 ARG A 316      -2.527  36.986  25.475  0.00  0.00           N 0
+ATOM   2566   CD ARG A 316       0.728  36.762  27.165  0.00  0.00           C 0
+ATOM   2525    C ARG A 312       3.526  33.025  25.594  0.00  0.00           C 0
+ATOM   2534    N LYS A 313       3.625  32.227  26.664  0.00  0.00           N 0
+ATOM   2539   CG LYS A 313       2.259  31.243  29.330  0.00  0.00           C 0
+ATOM   2502    O SER A 309       2.595  29.433  26.200  0.00  0.00           O 0
+ATOM   2541   CE LYS A 313       0.737  29.814  30.774  0.00  0.00           C 0
+ATOM   2527    O ARG A 312       3.563  34.249  25.683  0.50  2.14           O 0
+ATOM   2565   CG ARG A 316       2.066  37.269  26.612  0.00  0.00           C 0
+ATOM   2552   CB PHE A 315       6.306  35.862  23.524  0.00  0.00           C 0
+ATOM   2524   CA ARG A 312       3.383  32.382  24.210  0.00  0.00           C 0
+ATOM   2556  CD2 PHE A 315       7.162  34.091  21.906  0.00  0.00           C 0
+TER
+END

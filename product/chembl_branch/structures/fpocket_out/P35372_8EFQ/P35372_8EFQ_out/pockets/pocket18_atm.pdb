@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    18:
+HEADER 0  - Pocket Score                      : -0.0065
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.7445
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4512
+HEADER 5  - Mean B-factor of pocket residues  : 0.2384
+HEADER 6  - Hydrophobicity Score              : 22.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 89.2022
+HEADER 10 - Pocket volume (convex hull)       : 0.6098
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2667
+ATOM    482    O ASP A 193     124.297 120.554 128.385  0.73  4.29           O 0
+ATOM    493  CD1 LEU A 194     128.554 121.020 126.976  0.00  0.00           C 0
+ATOM    495    N HIS A 195     125.742 121.294 124.215  0.63  1.09           N 0
+ATOM    212    O ARG A  32     128.895 125.325 125.975  0.60  1.07           O 0
+ATOM   5661  OD2 ASP R 179     124.123 125.187 132.066  0.44  5.36           O 1
+ATOM    215   CD ARG A  32     124.836 127.432 127.725  0.00  0.00           C 0
+ATOM   5660  OD1 ASP R 179     125.057 126.942 131.134  0.84  1.07           O 0
+ATOM    213   CB ARG A  32     127.333 127.401 127.628  0.00  0.00           C 0
+ATOM    502  CD2 HIS A 195     123.003 123.589 124.385  0.00  0.00           C 0
+ATOM    214   CG ARG A  32     126.058 127.701 126.860  0.00  0.00           C 0
+ATOM   5652  CD1 LEU R 178     130.425 124.099 129.039  0.00  0.00           C 0
+ATOM   5628    O VAL R 175     127.801 122.662 132.229  0.34  1.07           O 0
+ATOM   5650   CB LEU R 178     129.666 125.619 130.887  0.00  0.00           C 0
+TER
+END

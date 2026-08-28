@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    26:
+HEADER 0  - Pocket Score                      : 0.0177
+HEADER 1  - Drug Score                        : 0.0042
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.5557
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3631
+HEADER 5  - Mean B-factor of pocket residues  : 0.3933
+HEADER 6  - Hydrophobicity Score              : 47.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.3750
+HEADER 9  - Pocket volume (Monte Carlo)       : 147.1148
+HEADER 10 - Pocket volume (convex hull)       : 4.2954
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.6667
+ATOM   5092  CD1 LEU D  66     123.894 122.430 123.998  0.00  0.00           C 0
+ATOM   5208  CG1 VAL D  80     121.723 121.975 129.195  0.00  0.00           C 0
+ATOM   5186  CD1 ILE D  77     117.667 119.787 124.977  0.00  0.00           C 0
+ATOM   5209  CG2 VAL D  80     121.977 119.689 128.252  0.00  0.00           C 0
+ATOM   5084  CG2 ILE D  65     124.104 117.305 126.522  0.00  0.00           C 0
+ATOM   5093  CD2 LEU D  66     124.602 121.463 126.185  0.00  0.00           C 0
+ATOM   5081    O ILE D  65     125.534 117.683 123.652  0.55  2.14           O 0
+ATOM   5176   CG ASN D  76     120.595 113.768 125.725  0.00  0.00           C 0
+ATOM   5178  ND2 ASN D  76     121.733 113.552 126.370  0.60  2.19           N 0
+ATOM   5175   CB ASN D  76     119.909 115.086 125.996  0.00  0.00           C 0
+ATOM   5124    O GLU D  70     120.433 115.110 120.484  0.38  2.14           O 0
+ATOM   5173    C ASN D  76     119.145 116.638 127.813  0.00  0.00           C 0
+ATOM   5174    O ASN D  76     119.981 117.251 128.489  0.00  0.00           O 0
+ATOM   5135   CG MET D  71     120.623 119.386 121.409  0.00  0.00           C 0
+ATOM   5136   SD MET D  71     122.023 119.140 120.305  0.00  0.00           S 0
+ATOM   5110  OE1 GLN D  68     125.091 113.282 121.656  0.55  8.57           O 0
+TER
+END

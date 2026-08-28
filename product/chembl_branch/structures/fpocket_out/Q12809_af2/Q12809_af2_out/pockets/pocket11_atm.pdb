@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : -0.0377
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.1948
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.8228
+HEADER 5  - Mean B-factor of pocket residues  : 0.0527
+HEADER 6  - Hydrophobicity Score              : 30.7500
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 3.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 265.8268
+HEADER 10 - Pocket volume (convex hull)       : 6.9118
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM   2279   CB ALA A 307     -64.044 -15.571 -10.113  0.00  0.00           C 0
+ATOM   2282   CA MET A 308     -60.692 -14.918  -7.177  0.00  0.00           C 0
+ATOM   2298  NE2 HIS A 309     -59.870  -8.970  -6.455  0.00  0.00           N 0
+ATOM   2287   SD MET A 308     -62.094 -13.203  -4.758  0.00  0.00           S 0
+ATOM   2281    N MET A 308     -61.204 -15.856  -8.199  0.71  3.28           N 0
+ATOM   2283    C MET A 308     -59.257 -14.478  -7.553  0.00  0.00           C 0
+ATOM   2285    O MET A 308     -58.632 -15.078  -8.427  0.00  0.00           O 0
+ATOM   2295  CD2 HIS A 309     -59.391 -10.214  -6.036  0.00  0.00           C 0
+ATOM   2289    N HIS A 309     -58.742 -13.407  -6.937  0.74  1.09           N 0
+ATOM   2294   CG HIS A 309     -58.156 -10.398  -6.599  0.00  0.00           C 0
+ATOM   2297  CE1 HIS A 309     -58.921  -8.435  -7.235  0.00  0.00           C 0
+ATOM   2296  ND1 HIS A 309     -57.876  -9.272  -7.341  0.60  8.75           N 0
+ATOM   2277   CA ALA A 307     -62.975 -16.605  -9.731  0.00  0.00           C 0
+ATOM   2275    O GLY A 306     -61.724 -18.799 -10.907  0.52  7.50           O 0
+ATOM   2290   CA HIS A 309     -57.455 -12.776  -7.283  0.00  0.00           C 0
+TER
+END

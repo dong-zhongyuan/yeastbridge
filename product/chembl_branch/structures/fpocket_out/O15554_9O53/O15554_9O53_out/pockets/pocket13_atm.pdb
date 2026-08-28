@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : 0.0620
+HEADER 1  - Drug Score                        : 0.0027
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.6889
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3685
+HEADER 5  - Mean B-factor of pocket residues  : 0.6799
+HEADER 6  - Hydrophobicity Score              : 83.8889
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 167.6321
+HEADER 10 - Pocket volume (convex hull)       : 8.3346
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 20.0000
+HEADER 13 - Number of apolar alpha sphere     :    21
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM   2426  CD1 LEU A 427     197.667 153.907 123.310  0.00  0.00           C 0
+ATOM   2457  CD1 TRP A 431     203.929 154.087 124.674  0.00  0.00           C 0
+ATOM   2455   CB TRP A 431     201.750 153.881 126.002  0.00  0.00           C 0
+ATOM  12372   CB MET E 145     200.903 149.658 121.348  0.00  0.00           C 0
+ATOM  12218   SD MET E 125     201.113 157.085 124.291  0.00  0.00           S 0
+ATOM  12216   CB MET E 125     202.896 157.265 122.183  0.00  0.00           C 0
+ATOM  12246   CB ALA E 129     202.455 153.096 118.347  0.00  0.00           C 0
+ATOM  12347  CD1 PHE E 142     195.844 151.863 119.917  0.00  0.00           C 0
+ATOM  12301  CG1 VAL E 137     198.443 153.411 115.934  0.00  0.00           C 0
+ATOM  12342   CA PHE E 142     197.228 149.430 118.469  0.00  0.00           C 0
+ATOM  12215    O MET E 125     203.914 155.341 119.676  0.69  1.07           O 0
+ATOM  12131  CD2 LEU E 106     198.569 158.370 119.300  0.00  0.00           C 0
+ATOM   2427  CD2 LEU A 427     196.582 156.054 122.632  0.00  0.00           C 0
+ATOM  12302  CG2 VAL E 137     199.885 155.383 115.402  0.00  0.00           C 0
+ATOM  12098  CD1 ILE E 101     195.269 155.321 116.823  0.00  0.00           C 0
+TER
+END

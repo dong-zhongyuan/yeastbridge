@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    46:
+HEADER 0  - Pocket Score                      : -0.0590
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.5324
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3350
+HEADER 5  - Mean B-factor of pocket residues  : 0.2023
+HEADER 6  - Hydrophobicity Score              : 17.7500
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.3750
+HEADER 9  - Pocket volume (Monte Carlo)       : 83.5239
+HEADER 10 - Pocket volume (convex hull)       : 0.4509
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0667
+ATOM   7607    N TRP N  47     130.274 106.485 139.150  0.86  2.19           N 0
+ATOM   7593    O LEU N  45     127.707 105.464 142.828  0.39  2.14           O 0
+ATOM   3161   CB GLU A 268     123.429 107.924 139.223  0.00  0.00           C 0
+ATOM   8105  CG1 VAL N 110     125.566 103.145 139.909  0.00  0.00           C 0
+ATOM   7611   CB TRP N  47     129.915 106.114 136.773  0.00  0.00           C 0
+ATOM   3186  ND2 ASN A 271     127.143 107.635 135.426  0.66  3.28           N 0
+ATOM   7599   CA GLU N  46     129.794 106.654 141.499  0.00  0.00           C 0
+ATOM   3124    O ASN A 264     125.281 110.635 141.749  0.19  6.43           O 0
+ATOM   3157    N GLU A 268     124.485 109.688 137.887  0.57  1.09           N 0
+ATOM   7602   CB GLU N  46     129.906 108.106 142.015  0.00  0.00           C 0
+ATOM   3158   CA GLU A 268     123.873 108.363 137.828  0.00  0.00           C 0
+ATOM   3152   CB GLN A 267     127.009 111.611 137.580  0.00  0.00           C 0
+ATOM   3153   CG GLN A 267     128.016 110.994 136.635  0.00  0.00           C 0
+TER
+END

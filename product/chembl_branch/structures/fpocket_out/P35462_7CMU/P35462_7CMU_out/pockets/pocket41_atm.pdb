@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    41:
+HEADER 0  - Pocket Score                      : -0.0614
+HEADER 1  - Drug Score                        : 0.0015
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 4.0827
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5850
+HEADER 5  - Mean B-factor of pocket residues  : 0.7968
+HEADER 6  - Hydrophobicity Score              : 56.6667
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 185.9307
+HEADER 10 - Pocket volume (convex hull)       : 3.8584
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.6190
+ATOM   8419   CB CYS R 358      93.297 138.185 119.033  0.00  0.00           C 0
+ATOM   8364   CB LEU R 351      95.324 134.000 116.176  0.00  0.00           C 0
+ATOM   8366  CD1 LEU R 351      94.455 134.620 113.908  0.00  0.00           C 0
+ATOM   8420   SG CYS R 358      94.566 138.517 117.788  0.00  0.00           S 0
+ATOM   8435   CB VAL R 360      90.221 134.474 120.256  0.00  0.00           C 0
+ATOM   8342  CG2 THR R 348      90.839 130.235 116.491  0.00  0.00           C 0
+ATOM   8341  OG1 THR R 348      90.743 130.395 114.085  0.39  7.50           O 0
+ATOM   8467  CD2 LEU R 364      87.477 132.948 115.905  0.00  0.00           C 0
+ATOM   8423    C HIS R 359      88.530 137.643 119.532  0.00  0.00           C 0
+ATOM   8431    N VAL R 360      89.259 136.738 120.188  0.00  0.00           N 0
+ATOM   8421    N HIS R 359      90.330 139.346 119.334  0.67  7.66           N 0
+ATOM   8337   CA THR R 348      92.935 130.360 115.113  0.00  0.00           C 0
+ATOM   8424    O HIS R 359      87.567 137.321 118.833  0.17  5.36           O 0
+ATOM   8432   CA VAL R 360      88.944 135.318 120.104  0.00  0.00           C 0
+ATOM   8437  CG2 VAL R 360      89.943 133.021 119.897  0.00  0.00           C 0
+ATOM   8339    O THR R 348      93.890 130.560 117.305  0.41  1.07           O 0
+TER
+END

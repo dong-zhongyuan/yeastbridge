@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    43:
+HEADER 0  - Pocket Score                      : -0.1642
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 3.9204
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4371
+HEADER 5  - Mean B-factor of pocket residues  : 0.0134
+HEADER 6  - Hydrophobicity Score              : 10.3750
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.6250
+HEADER 9  - Pocket volume (Monte Carlo)       : 280.0750
+HEADER 10 - Pocket volume (convex hull)       : 9.9003
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2000
+ATOM   6841   OG SER H  34     141.153 156.365 210.869  0.23  9.64           O 0
+ATOM   7376  NH1 ARG H 103     143.922 155.080 214.452  0.00  0.00           N 1
+ATOM   5504    O HIS C 210     144.178 158.445 208.259  0.55  3.21           O 0
+ATOM   5523  OE2 GLU C 212     143.045 161.763 212.703  0.00  0.00           O 1
+ATOM   7394  CD2 PHE H 105     145.374 154.161 208.317  0.00  0.00           C 0
+ATOM   7377  NH2 ARG H 103     146.125 154.730 214.955  0.67  6.56           N 0
+ATOM   7391   CB PHE H 105     146.657 152.882 210.047  0.00  0.00           C 0
+ATOM   6528   CD PRO C 346     149.678 158.399 213.053  0.00  0.00           C 0
+ATOM   6527   CG PRO C 346     149.352 158.265 214.516  0.00  0.00           C 0
+ATOM   5496  CD2 TYR C 209     146.382 161.901 213.449  0.00  0.00           C 0
+ATOM   5498  CE2 TYR C 209     146.931 162.410 214.604  0.00  0.00           C 0
+ATOM   6518  ND1 HIS C 345     150.074 155.742 209.641  0.44  3.28           N 0
+ATOM   5501    N HIS C 210     146.562 160.089 208.268  0.81  2.19           N 0
+ATOM   5505   CB HIS C 210     146.825 158.198 206.745  0.00  0.00           C 0
+ATOM   7390    O PHE H 105     146.561 152.570 212.787  0.63  2.14           O 0
+ATOM   5493   CB TYR C 209     146.538 161.188 211.041  0.00  0.00           C 0
+TER
+END

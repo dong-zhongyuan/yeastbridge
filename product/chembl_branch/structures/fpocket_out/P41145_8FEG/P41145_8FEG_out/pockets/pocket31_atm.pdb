@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    31:
+HEADER 0  - Pocket Score                      : -0.0185
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.8963
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6433
+HEADER 5  - Mean B-factor of pocket residues  : 0.6962
+HEADER 6  - Hydrophobicity Score              : -24.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 192.4999
+HEADER 10 - Pocket volume (convex hull)       : 3.2697
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1000
+ATOM   1632  OD1 ASN D  16     119.243  76.403 167.909  0.33  2.14           O 0
+ATOM   1626    N ASN D  16     122.004  79.023 169.260  0.84  1.09           N 0
+ATOM   1599  OE2 GLU D  12     123.905  74.047 167.291  0.00  0.00           O 0
+ATOM   1661  NH2 ARG D  19     118.797  76.601 164.897  0.71  9.84           N 0
+ATOM   1630   CB ASN D  16     121.002  76.804 169.477  0.00  0.00           C 0
+ATOM   1620    O LYS D  15     121.057  80.898 168.444  0.51  4.29           O 0
+ATOM   1619    C LYS D  15     122.055  80.297 168.861  0.00  0.00           C 0
+ATOM   1594    O GLU D  12     124.336  77.322 169.319  0.53  1.07           O 0
+ATOM   1631   CG ASN D  16     120.032  75.921 168.721  0.00  0.00           C 0
+ATOM   1655   CB ARG D  19     117.924  80.755 166.795  0.00  0.00           C 0
+ATOM   1659   CZ ARG D  19     117.984  77.616 164.621  0.00  0.00           C 0
+ATOM   1660  NH1 ARG D  19     117.866  78.031 163.370  0.61  7.66           N 0
+ATOM   1627   CA ASN D  16     120.744  78.290 169.243  0.00  0.00           C 0
+ATOM   1621   CB LYS D  15     124.231  80.718 167.688  0.00  0.00           C 0
+ATOM   1624   CE LYS D  15     126.686  80.410 165.835  0.00  0.00           C 0
+ATOM   1596   CG GLU D  12     126.054  75.071 167.313  0.00  0.00           C 0
+TER
+END

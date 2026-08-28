@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    43:
+HEADER 0  - Pocket Score                      : -0.0212
+HEADER 1  - Drug Score                        : 0.0030
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 3.7401
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4481
+HEADER 5  - Mean B-factor of pocket residues  : 0.2965
+HEADER 6  - Hydrophobicity Score              : 11.6250
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.1250
+HEADER 9  - Pocket volume (Monte Carlo)       : 190.2987
+HEADER 10 - Pocket volume (convex hull)       : 10.1403
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 15.0000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 0.6957
+ATOM   2182   CE LYS A1104      18.934 -33.568  39.624  0.00  0.00           C 0
+ATOM   2218  OG1 THR A 315      15.725 -37.506  42.443  0.81  6.43           O 0
+ATOM   2208   CB GLN A 314      20.917 -38.608  42.662  0.00  0.00           C 0
+ATOM   2206    C GLN A 314      18.967 -38.983  44.183  0.00  0.00           C 0
+ATOM   1825   CB MET A1058      16.592 -31.158  42.109  0.00  0.00           C 0
+ATOM   2241  ND2 ASN A 318      20.222 -36.473  46.318  0.00  0.00           N 0
+ATOM   1847   CB PHE A1061      14.589 -34.271  38.711  0.00  0.00           C 0
+ATOM   1850  CD2 PHE A1061      13.153 -36.116  39.631  0.00  0.00           C 0
+ATOM   1824    O MET A1058      14.233 -30.610  40.788  0.50  6.43           O 0
+ATOM   2207    O GLN A 314      19.227 -38.379  45.229  0.00  0.00           O 0
+ATOM   2180   CG LYS A1104      18.193 -35.882  39.000  0.00  0.00           C 0
+ATOM   2178    O LYS A1104      17.307 -38.425  40.616  0.00  0.00           O 0
+ATOM   2216    O THR A 315      16.039 -39.073  46.731  0.63  4.29           O 0
+ATOM   1819   CG PRO A1045      13.267 -33.679  46.921  0.00  0.00           C 0
+ATOM   2238   CB ASN A 318      19.000 -37.187  48.282  0.00  0.00           C 0
+ATOM   2214   CA THR A 315      16.584 -38.569  44.446  0.00  0.00           C 0
+ATOM   2219  CG2 THR A 315      14.191 -37.807  44.279  0.00  0.00           C 0
+ATOM   1820   CD PRO A1045      12.318 -34.370  45.969  0.00  0.00           C 0
+ATOM   1811   CB THR A1044      10.433 -34.656  42.997  0.00  0.00           C 0
+TER
+END

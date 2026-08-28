@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : 0.0287
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 3.9400
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6065
+HEADER 5  - Mean B-factor of pocket residues  : 0.6663
+HEADER 6  - Hydrophobicity Score              : 10.3750
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 346.5067
+HEADER 10 - Pocket volume (convex hull)       : 12.3250
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.0870
+ATOM   1047    C LYS A 164     124.472 176.948 191.573  0.00  0.00           C 0
+ATOM   1048    O LYS A 164     123.898 176.373 190.645  0.00  0.00           O 0
+ATOM   1039    O GLN A 163     122.763 174.556 193.199  0.00  0.00           O 0
+ATOM   1063  NH1 ARG A 165     120.097 181.945 193.149  0.00  0.00           N 0
+ATOM   1054    N ARG A 165     124.683 178.261 191.551  0.00  0.00           N 0
+ATOM   1046   CA LYS A 164     124.966 176.189 192.805  0.00  0.00           C 0
+ATOM   1064  NH2 ARG A 165     122.286 182.629 193.075  0.40  9.84           N 0
+ATOM   1049   CB LYS A 164     126.384 176.591 193.201  0.00  0.00           C 0
+ATOM   1058   CB ARG A 165     123.588 180.363 190.877  0.00  0.00           C 0
+ATOM   1061   NE ARG A 165     121.167 182.149 191.122  0.00  0.00           N 0
+ATOM   1062   CZ ARG A 165     121.184 182.239 192.448  0.00  0.00           C 0
+ATOM   1059   CG ARG A 165     122.999 181.193 189.745  0.00  0.00           C 0
+ATOM  16374  OE1 GLN D  21     118.030 177.183 186.122  0.79  6.43           O 0
+ATOM  16356   CB PRO D  19     121.206 179.991 183.141  0.00  0.00           C 0
+ATOM  16362    O LEU D  20     122.891 175.902 186.317  0.59  2.14           O 0
+ATOM   1055   CA ARG A 165     124.296 179.095 190.412  0.00  0.00           C 0
+ATOM   1068    O VAL A 166     125.537 178.398 185.968  0.00  0.00           O 0
+ATOM   1078  CG2 THR A 167     125.163 181.455 184.631  0.00  0.00           C 0
+ATOM  16359    N LEU D  20     123.242 177.379 183.921  0.60  1.09           N 0
+ATOM  16371   CB GLN D  21     119.588 174.982 186.454  0.00  0.00           C 0
+TER
+END

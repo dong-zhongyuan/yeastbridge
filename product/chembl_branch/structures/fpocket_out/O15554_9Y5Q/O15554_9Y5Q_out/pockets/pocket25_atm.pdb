@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    25:
+HEADER 0  - Pocket Score                      : -0.0379
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.6712
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4490
+HEADER 5  - Mean B-factor of pocket residues  : 0.2496
+HEADER 6  - Hydrophobicity Score              : 9.8571
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 188.5222
+HEADER 10 - Pocket volume (convex hull)       : 4.5980
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3000
+ATOM   7854   NE ARG C 352     204.755 248.722 244.048  0.54  3.28           N 0
+ATOM  11460  OE2 GLU E  87     208.579 249.723 250.241  0.67  9.64           O 0
+ATOM  11429   CG GLU E  84     203.151 251.770 246.459  0.00  0.00           C 0
+ATOM  11418    O GLU E  83     202.758 251.523 250.406  0.42  8.57           O 0
+ATOM  11428   CB GLU E  84     204.138 252.811 246.962  0.00  0.00           C 0
+ATOM  11425   CA GLU E  84     204.218 252.907 248.491  0.00  0.00           C 0
+ATOM  11427    O GLU E  84     206.515 253.510 248.688  0.70  2.14           O 0
+ATOM   7822  CD1 ILE C 348     207.163 255.786 244.916  0.00  0.00           C 0
+ATOM   7818    O ILE C 348     208.147 252.273 242.166  0.00  0.00           O 0
+ATOM   7821  CG2 ILE C 348     205.707 254.146 242.884  0.00  0.00           C 0
+ATOM   7851   CB ARG C 352     207.242 248.840 242.434  0.00  0.00           C 0
+ATOM   7847    N ARG C 352     209.446 249.788 242.921  0.65  1.09           N 0
+ATOM   7878   CB LYS C 355     210.652 246.312 246.304  0.00  0.00           C 0
+ATOM   7853   CD ARG C 352     205.596 247.554 243.822  0.00  0.00           C 0
+ATOM   7879   CG LYS C 355     209.994 245.628 247.491  0.00  0.00           C 0
+ATOM   7848   CA ARG C 352     208.626 248.587 243.032  0.00  0.00           C 0
+ATOM   7842  CD1 PHE C 351     210.578 251.167 246.448  0.00  0.00           C 0
+TER
+END

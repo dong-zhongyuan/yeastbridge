@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    52:
+HEADER 0  - Pocket Score                      : -0.1104
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.1807
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6183
+HEADER 5  - Mean B-factor of pocket residues  : 0.1325
+HEADER 6  - Hydrophobicity Score              : 11.3750
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 281.2504
+HEADER 10 - Pocket volume (convex hull)       : 8.0594
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1875
+ATOM   2590  CG2 THR A 183     184.512 184.869 136.552  0.00  0.00           C 0
+ATOM   4770  CG2 THR B 143     179.123 185.622 133.108  0.00  0.00           C 0
+ATOM   2584    N THR A 183     183.152 182.255 136.429  0.00  0.00           N 0
+ATOM   2589  OG1 THR A 183     182.112 184.943 136.730  0.79  3.21           O 0
+ATOM   4769  OG1 THR B 143     179.052 184.422 131.028  0.76  8.57           O 0
+ATOM   4765   CA THR B 143     178.474 183.201 133.033  0.00  0.00           C 0
+ATOM   4605  CD1 ILE B 120     182.231 174.107 136.467  0.00  0.00           C 0
+ATOM   4603  CG1 ILE B 120     180.957 174.496 135.770  0.00  0.00           C 0
+ATOM   4749   CB ALA B 140     182.247 174.824 132.216  0.00  0.00           C 0
+ATOM   4585    O ASP B 118     180.189 177.160 138.207  0.56  6.43           O 0
+ATOM   4594   CB ASN B 119     178.830 179.109 136.340  0.00  0.00           C 0
+ATOM   4593    O ASN B 119     178.572 176.918 134.668  0.00  0.00           O 0
+ATOM   4750    N GLY B 141     180.499 177.063 130.770  0.00  0.00           N 0
+ATOM   4757    O HIS B 142     178.948 180.485 133.293  0.60  6.43           O 0
+ATOM   4752    C GLY B 141     179.296 179.140 130.093  0.00  0.00           C 0
+ATOM   4751   CA GLY B 141     180.345 178.097 129.769  0.00  0.00           C 0
+ATOM   4753    O GLY B 141     179.293 180.216 129.490  0.29  7.50           O 0
+TER
+END

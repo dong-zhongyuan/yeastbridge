@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    48:
+HEADER 0  - Pocket Score                      : -0.1119
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 4.1290
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5611
+HEADER 5  - Mean B-factor of pocket residues  : 0.1382
+HEADER 6  - Hydrophobicity Score              : 31.5000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.3000
+HEADER 9  - Pocket volume (Monte Carlo)       : 210.1954
+HEADER 10 - Pocket volume (convex hull)       : 6.3621
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.5000
+ATOM    185  CD2 LEU A  39     126.384 126.479 160.560  0.00  0.00           C 0
+ATOM    514  CH2 TRP A 211     128.657 130.611 163.345  0.00  0.00           C 0
+ATOM    512  CZ2 TRP A 211     128.260 131.040 164.579  0.00  0.00           C 0
+ATOM    426  CG1 VAL A 201     129.971 127.278 162.391  0.00  0.00           C 0
+ATOM    424    O VAL A 201     130.441 126.585 165.454  0.57  2.14           O 0
+ATOM    429   CA GLY A 202     129.496 124.043 165.796  0.00  0.00           C 0
+ATOM    440    O GLN A 204     128.270 128.271 168.758  0.00  0.00           O 0
+ATOM    478   CD ARG A 208     123.689 130.456 162.917  0.00  0.00           C 0
+ATOM    477   CG ARG A 208     124.532 131.581 163.512  0.00  0.00           C 0
+ATOM    481  NH1 ARG A 208     121.725 129.840 164.871  0.64  5.47           N 0
+ATOM    789  CD2 LEU A 249     121.252 124.898 163.242  0.00  0.00           C 0
+ATOM    788  CD1 LEU A 249     120.703 127.330 163.310  0.00  0.00           C 0
+ATOM    189    O GLY A  40     124.257 122.461 163.841  0.35  9.64           O 0
+ATOM    222   NZ LYS A  46     127.682 121.653 164.036  0.41  4.37           N 1
+ATOM    431    O GLY A 202     129.097 124.302 168.127  0.36  2.14           O 0
+ATOM    476   CB ARG A 208     123.893 132.180 164.753  0.00  0.00           C 0
+ATOM    460    O SER A 206     125.437 131.625 169.266  0.03  3.21           O 0
+TER
+END

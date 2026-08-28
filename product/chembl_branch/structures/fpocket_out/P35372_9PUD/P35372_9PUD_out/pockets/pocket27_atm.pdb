@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    27:
+HEADER 0  - Pocket Score                      : -0.0003
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.2257
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6711
+HEADER 5  - Mean B-factor of pocket residues  : 0.3855
+HEADER 6  - Hydrophobicity Score              : 34.2857
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 361.7062
+HEADER 10 - Pocket volume (convex hull)       : 15.9816
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2500
+ATOM   2800  CG1 VAL B 135     166.597 180.623 121.400  0.00  0.00           C 0
+ATOM   2789   CG ARG B 134     167.304 176.274 116.606  0.00  0.00           C 0
+ATOM   2788   CB ARG B 134     166.838 177.719 116.798  0.00  0.00           C 0
+ATOM   2790   CD ARG B 134     168.772 176.200 116.182  0.00  0.00           C 0
+ATOM   2487    O PRO B  94     160.015 177.114 123.764  0.69  5.36           O 0
+ATOM   2499    N ARG B  96     160.998 179.402 127.245  0.69  3.28           N 0
+ATOM   2503   CB ARG B  96     163.130 180.223 128.153  0.00  0.00           C 0
+ATOM   2509  NH2 ARG B  96     165.618 181.761 124.335  0.00  0.00           N 0
+ATOM   2780    O VAL B 133     163.633 175.737 117.745  0.44  9.64           O 0
+ATOM   2490   CD PRO B  94     159.516 174.109 122.321  0.00  0.00           C 0
+ATOM   2489   CG PRO B  94     160.311 173.774 123.565  0.00  0.00           C 0
+ATOM   2709  CE1 TYR B 124     161.878 180.344 121.121  0.00  0.00           C 0
+ATOM   2785   CA ARG B 134     165.405 177.864 117.349  0.00  0.00           C 0
+ATOM   2798    O VAL B 135     167.607 181.547 118.723  0.50  5.36           O 0
+ATOM   2793  NH1 ARG B 134     170.221 178.584 115.637  0.52  3.28           N 0
+ATOM   2482  CG2 ILE B  93     159.336 177.840 120.792  0.00  0.00           C 0
+ATOM   2795    N VAL B 135     165.353 179.717 118.917  0.68  1.09           N 0
+ATOM   2712   OH TYR B 124     161.074 180.960 123.280  0.77  1.07           O 0
+TER
+END

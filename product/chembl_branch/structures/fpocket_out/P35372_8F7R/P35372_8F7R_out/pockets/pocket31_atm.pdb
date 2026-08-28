@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    31:
+HEADER 0  - Pocket Score                      : 0.0029
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.9266
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5543
+HEADER 5  - Mean B-factor of pocket residues  : 0.2198
+HEADER 6  - Hydrophobicity Score              : 0.1667
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 205.1895
+HEADER 10 - Pocket volume (convex hull)       : 2.6593
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1500
+ATOM   2458   CG MET A  18     110.147 116.981  84.111  0.00  0.00           C 0
+ATOM   2426  OE2 GLU A  14     109.693 123.102  85.527  0.00  0.00           O 0
+ATOM   7548   CA GLY E  54     104.891 118.990  85.763  0.00  0.00           C 0
+ATOM   7550    O GLY E  54     104.932 120.212  87.792  0.00  0.00           O 0
+ATOM   2459   SD MET A  18     108.492 117.226  83.439  0.00  0.00           S 0
+ATOM   2457   CB MET A  18     111.096 118.112  83.745  0.00  0.00           C 0
+ATOM   2484   NE ARG A  21     111.186 116.201  88.671  0.00  0.00           N 0
+ATOM   2486  NH1 ARG A  21     109.416 115.155  87.642  0.54  3.28           N 0
+ATOM   7544    O SER E  53     106.109 120.400  83.734  0.68  5.36           O 0
+ATOM   2454   CA MET A  18     112.491 117.992  84.358  0.00  0.00           C 0
+ATOM   2446    C LYS A  17     114.455 119.389  84.641  0.00  0.00           C 0
+ATOM   2453    N MET A  18     113.288 119.172  84.023  0.00  0.00           N 0
+ATOM   2448   CB LYS A  17     114.923 121.824  84.978  0.00  0.00           C 0
+ATOM   2447    O LYS A  17     114.872 118.654  85.545  0.51  2.14           O 0
+ATOM   2483   CD ARG A  21     112.235 116.328  89.679  0.00  0.00           C 0
+TER
+END

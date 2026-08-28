@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : 0.0673
+HEADER 1  - Drug Score                        : 0.0016
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.9060
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7282
+HEADER 5  - Mean B-factor of pocket residues  : 0.8016
+HEADER 6  - Hydrophobicity Score              : 11.6667
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 370.9124
+HEADER 10 - Pocket volume (convex hull)       : 27.4329
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 8.4000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5263
+ATOM  10817  CD2 HIS H 326     123.742 189.806 122.761  0.00  0.00           C 0
+ATOM  11182   CB LYS H 374     125.293 191.706 126.096  0.00  0.00           C 0
+ATOM  11184   CD LYS H 374     124.453 194.074 126.173  0.00  0.00           C 0
+ATOM  10819  NE2 HIS H 326     123.121 188.621 123.073  0.79  4.37           N 0
+ATOM  11177  OD2 ASP H 373     125.732 190.018 133.089  0.54  9.64           O 0
+ATOM  11156    O VAL H 370     127.451 193.145 129.086  0.40  1.07           O 0
+ATOM  11157   CB VAL H 370     127.259 196.110 130.626  0.00  0.00           C 0
+ATOM  11174   CB ASP H 373     126.955 190.533 131.114  0.00  0.00           C 0
+ATOM  11176  OD1 ASP H 373     125.816 188.485 131.520  0.22  3.21           O 0
+ATOM  11175   CG ASP H 373     126.107 189.613 131.968  0.00  0.00           C 0
+ATOM  11207  OE1 GLN H 377     123.160 188.069 128.237  0.00  0.00           O 0
+ATOM  11208  NE2 GLN H 377     124.144 186.717 129.735  0.30  3.28           N 0
+ATOM  11183   CG LYS H 374     125.111 192.946 126.957  0.00  0.00           C 0
+ATOM  11185   CE LYS H 374     124.719 195.433 126.805  0.00  0.00           C 0
+ATOM  11178    N LYS H 374     126.361 190.573 127.991  0.00  0.00           N 0
+ATOM  11179   CA LYS H 374     125.430 190.401 126.881  0.00  0.00           C 0
+ATOM  11181    O LYS H 374     125.040 188.663 125.279  0.00  0.00           O 0
+ATOM  11154   CA VAL H 370     128.167 194.864 130.607  0.00  0.00           C 0
+ATOM  11158  CG1 VAL H 370     127.114 196.642 132.047  0.00  0.00           C 0
+ATOM  11151   SD MET H 369     129.645 194.699 134.188  0.00  0.00           S 0
+TER
+END

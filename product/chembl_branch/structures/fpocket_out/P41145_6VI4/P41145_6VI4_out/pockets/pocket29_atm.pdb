@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    29:
+HEADER 0  - Pocket Score                      : -0.0999
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.1755
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5072
+HEADER 5  - Mean B-factor of pocket residues  : 0.4696
+HEADER 6  - Hydrophobicity Score              : -21.5000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 5.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 288.0262
+HEADER 10 - Pocket volume (convex hull)       : 2.9609
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0667
+ATOM   2020  ND2 ASN A 336      25.438 -29.022 -29.384  0.67  7.66           N 0
+ATOM   1547  OD1 ASN A 268      23.103 -26.749 -24.529  0.50  2.14           O 0
+ATOM   1548  ND2 ASN A 268      25.001 -25.547 -24.407  0.59  7.66           N 0
+ATOM   1540  NH2 ARG A 267      22.312 -22.387 -25.666  0.00  0.00           N 0
+ATOM   2051  NH2 ARG A 339      22.522 -26.843 -32.643  0.00  0.00           N 0
+ATOM   1537   NE ARG A 267      20.604 -23.798 -25.024  0.00  0.00           N 0
+ATOM   2012   CB GLU A 335      20.763 -30.132 -30.075  0.00  0.00           C 0
+ATOM   1575  NH2 ARG A 271      23.601 -28.901 -25.872  0.63  2.19           N 0
+ATOM   2050  NH1 ARG A 339      24.715 -26.295 -33.114  0.00  0.00           N 0
+ATOM   1572   NE ARG A 271      21.472 -29.338 -25.103  0.74  2.19           N 0
+ATOM   1573   CZ ARG A 271      22.577 -29.732 -25.733  0.00  0.00           C 0
+ATOM   1536   CD ARG A 267      19.341 -24.140 -24.363  0.00  0.00           C 0
+ATOM   1571   CD ARG A 271      20.278 -30.177 -24.930  0.00  0.00           C 0
+TER
+END

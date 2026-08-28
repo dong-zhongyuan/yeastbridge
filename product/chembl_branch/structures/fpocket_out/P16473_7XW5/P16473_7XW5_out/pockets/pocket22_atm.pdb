@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    22:
+HEADER 0  - Pocket Score                      : -0.0341
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.7161
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4924
+HEADER 5  - Mean B-factor of pocket residues  : 0.2167
+HEADER 6  - Hydrophobicity Score              : 11.2222
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 168.8153
+HEADER 10 - Pocket volume (convex hull)       : 2.8102
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0588
+ATOM    128   NZ LYS A  24     178.868 140.563 133.555  0.00  0.00           N 1
+ATOM    119  ND2 ASN A  23     177.858 138.027 129.375  0.33  7.66           N 0
+ATOM    154  OE2 GLU A  27     177.010 142.544 129.673  0.23  7.50           O 1
+ATOM    153  OE1 GLU A  27     178.508 142.121 131.218  0.67  3.21           O 0
+ATOM   2645    O THR B  87     173.898 137.687 126.972  0.67  3.21           O 0
+ATOM   2665   NZ LYS B  89     175.648 142.267 127.254  0.41  2.19           N 1
+ATOM   2647  OG1 THR B  87     171.764 137.109 129.210  0.00  0.00           O 0
+ATOM   2364    O ARG B  52     173.151 143.999 127.285  0.62  2.14           O 0
+ATOM   2361    N ARG B  52     170.474 143.428 126.738  0.00  0.00           N 0
+ATOM   2607  CZ3 TRP B  82     173.045 141.465 124.791  0.00  0.00           C 0
+ATOM   2366   CG ARG B  52     170.272 144.415 129.504  0.00  0.00           C 0
+ATOM   2646   CB THR B  87     171.245 137.012 127.909  0.00  0.00           C 0
+ATOM   2354   CA LEU B  51     169.183 141.592 125.764  0.00  0.00           C 0
+ATOM   2349    O THR B  50     168.026 140.221 127.946  0.47  3.21           O 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : 0.0372
+HEADER 1  - Drug Score                        : 0.0087
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.7357
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5639
+HEADER 5  - Mean B-factor of pocket residues  : 0.3669
+HEADER 6  - Hydrophobicity Score              : 61.2857
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 206.5202
+HEADER 10 - Pocket volume (convex hull)       : 3.0840
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 17.0000
+HEADER 13 - Number of apolar alpha sphere     :    18
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM    421  CG2 THR A  81     115.999 142.774 104.055  0.00  0.00           C 0
+ATOM    451  CG1 VAL A  85     114.408 144.956  99.037  0.00  0.00           C 0
+ATOM    445  CG2 THR A  84     117.772 142.988 100.452  0.00  0.00           C 0
+ATOM     26  CG1 ILE A  26     114.696 138.842  99.170  0.00  0.00           C 0
+ATOM     33   CB VAL A  27     112.379 139.402 103.227  0.00  0.00           C 0
+ATOM     35  CG2 VAL A  27     112.379 140.354 104.414  0.00  0.00           C 0
+ATOM     28  CD1 ILE A  26     115.058 139.837  98.088  0.00  0.00           C 0
+ATOM    450   CB VAL A  85     114.638 144.002  97.875  0.00  0.00           C 0
+ATOM    418    O THR A  81     116.522 144.841 101.799  0.46  1.07           O 0
+ATOM      9    O VAL A  23     111.745 138.232  99.901  0.64  1.07           O 0
+ATOM     34  CG1 VAL A  27     111.135 138.535 103.240  0.00  0.00           C 0
+ATOM     10   CB VAL A  23     110.283 140.003  97.577  0.00  0.00           C 0
+ATOM    452  CG2 VAL A  85     113.389 143.846  97.020  0.00  0.00           C 0
+ATOM     11    N VAL A  24     109.853 137.215  99.229  0.66  1.09           N 0
+ATOM     12   CA VAL A  24     109.634 136.622 100.544  0.00  0.00           C 0
+ATOM      8    C VAL A  23     110.904 138.010  99.018  0.00  0.00           C 0
+TER
+END

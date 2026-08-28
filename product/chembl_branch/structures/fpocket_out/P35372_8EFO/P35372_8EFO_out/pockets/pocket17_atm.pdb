@@ -1,0 +1,45 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    17:
+HEADER 0  - Pocket Score                      : 0.0027
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 3.9603
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7109
+HEADER 5  - Mean B-factor of pocket residues  : 0.4045
+HEADER 6  - Hydrophobicity Score              : 15.0000
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 3.3750
+HEADER 9  - Pocket volume (Monte Carlo)       : 370.2478
+HEADER 10 - Pocket volume (convex hull)       : 23.4819
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.1600
+ATOM   2012  OG1 THR R 317     197.925 172.405 182.997  0.58  5.36           O 0
+ATOM     29  CG2 THR R  69     203.417 171.765 179.377  0.00  0.00           C 0
+ATOM   2013  CG2 THR R 317     198.012 172.812 180.630  0.00  0.00           C 0
+ATOM    504   OH TYR R 130     199.925 174.558 178.408  0.74  7.50           O 0
+ATOM   2011   CB THR R 317     198.196 171.780 181.737  0.00  0.00           C 0
+ATOM   1985  OG1 THR R 314     203.443 171.520 185.222  0.00  0.00           O 0
+ATOM   1986  CG2 THR R 314     203.763 170.336 183.154  0.00  0.00           C 0
+ATOM      1    N SER R  66     207.030 174.740 181.689  0.00  0.00           N 0
+ATOM     27   CB THR R  69     204.869 172.216 179.314  0.00  0.00           C 0
+ATOM      2   CA SER R  66     206.934 176.170 181.421  0.00  0.00           C 0
+ATOM   1981   CA THR R 314     201.535 170.328 184.328  0.00  0.00           C 0
+ATOM     28  OG1 THR R  69     205.625 171.478 180.284  0.00  0.00           O 0
+ATOM   1980    N THR R 314     200.886 170.391 185.637  0.75  2.19           N 0
+ATOM      4    O SER R  66     206.047 176.896 179.312  0.74  7.50           O 0
+ATOM     30    N ALA R  70     204.922 174.046 176.717  0.68  1.09           N 0
+ATOM   1974   CA THR R 313     198.993 170.370 187.171  0.00  0.00           C 0
+ATOM   1967    O GLU R 312     197.747 172.060 189.040  0.00  0.00           O 0
+ATOM   1979  CG2 THR R 313     200.363 168.470 188.208  0.00  0.00           C 0
+ATOM   1966    C GLU R 312     197.113 171.673 188.054  0.00  0.00           C 0
+ATOM   1968   CB GLU R 312     195.531 173.543 187.526  0.00  0.00           C 0
+ATOM   1973    N THR R 313     197.644 170.909 187.103  0.00  0.00           N 0
+ATOM   1975    C THR R 313     199.552 170.439 185.753  0.00  0.00           C 0
+ATOM   1976    O THR R 313     198.796 170.587 184.789  0.00  0.00           O 0
+TER
+END

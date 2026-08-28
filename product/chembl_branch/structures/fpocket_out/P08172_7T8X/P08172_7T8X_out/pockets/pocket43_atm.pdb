@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    43:
+HEADER 0  - Pocket Score                      : -0.0608
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 4.0940
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5150
+HEADER 5  - Mean B-factor of pocket residues  : 0.2552
+HEADER 6  - Hydrophobicity Score              : 30.1429
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 395.2098
+HEADER 10 - Pocket volume (convex hull)       : 24.7856
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2381
+ATOM   4140   CD GLN C  44     108.671 132.483 140.843  0.00  0.00           C 0
+ATOM   4156   CG ARG C  46     113.868 137.025 142.220  0.00  0.00           C 0
+ATOM   4141  OE1 GLN C  44     108.389 133.680 140.802  0.00  0.00           O 0
+ATOM   4138   CB GLN C  44     109.391 132.809 143.242  0.00  0.00           C 0
+ATOM   4160  NH1 ARG C  46     115.855 137.082 139.864  0.00  0.00           N 1
+ATOM   4142  NE2 GLN C  44     108.685 131.713 139.762  0.00  0.00           N 0
+ATOM   6146    O VAL C 307     114.738 128.043 143.206  0.00  0.00           O 0
+ATOM   6143    N VAL C 307     113.033 126.051 144.015  0.44  4.37           N 0
+ATOM   4139   CG GLN C  44     109.028 131.812 142.154  0.00  0.00           C 0
+ATOM   4129    O ILE C  43     110.275 129.958 146.109  0.58  1.07           O 0
+ATOM   4146    O MET C  45     114.565 133.487 143.797  0.22  7.50           O 0
+ATOM   4135   CA GLN C  44     110.046 132.176 144.469  0.00  0.00           C 0
+ATOM   4157   CD ARG C  46     113.653 138.220 141.295  0.00  0.00           C 0
+ATOM   4143    N MET C  45     112.250 132.894 145.183  0.58  2.19           N 0
+ATOM   6140   CA GLY C 306     110.891 125.936 145.091  0.00  0.00           C 0
+ATOM   4125   CB ARG C  42     105.453 128.521 143.443  0.00  0.00           C 0
+ATOM   4126    N ILE C  43     107.294 129.183 146.427  0.76  1.09           N 0
+TER
+END

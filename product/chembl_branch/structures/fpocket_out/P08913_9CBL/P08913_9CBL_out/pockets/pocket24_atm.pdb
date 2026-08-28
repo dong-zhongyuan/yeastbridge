@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    24:
+HEADER 0  - Pocket Score                      : -0.0285
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.8880
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5420
+HEADER 5  - Mean B-factor of pocket residues  : 0.2457
+HEADER 6  - Hydrophobicity Score              : -2.8000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 259.3500
+HEADER 10 - Pocket volume (convex hull)       : 7.4301
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2000
+ATOM   1345  OE2 GLU A 318     115.256 119.907 142.071  0.00  0.00           O 0
+ATOM   1257   CD GLU A 308     112.553 117.628 146.577  0.00  0.00           C 0
+ATOM   1255   CB GLU A 308     111.102 119.443 147.578  0.00  0.00           C 0
+ATOM   1312   NZ LYS A 314     108.681 123.796 144.539  0.00  0.00           N 0
+ATOM   1283  ND2 ASN A 311     114.122 125.032 145.645  0.51  7.66           N 0
+ATOM   1344  OE1 GLU A 318     115.289 121.897 141.160  0.00  0.00           O 0
+ATOM   1254    O GLU A 308     110.145 122.310 147.425  0.00  0.00           O 0
+ATOM   1256   CG GLU A 308     112.507 118.886 147.421  0.00  0.00           C 0
+ATOM   1258  OE1 GLU A 308     111.551 116.884 146.552  0.00  0.00           O 0
+ATOM   1259  OE2 GLU A 308     113.590 117.386 145.926  0.61  4.29           O 0
+ATOM   1351  CG1 ILE A 319     115.994 122.208 147.232  0.00  0.00           C 0
+ATOM   1346    N ILE A 319     117.234 121.451 144.749  0.00  0.00           N 0
+ATOM   1350   CB ILE A 319     116.325 120.747 146.942  0.00  0.00           C 0
+ATOM   1307    O LYS A 314     112.376 126.508 140.058  0.72  8.57           O 0
+ATOM   1309   CG LYS A 314     109.873 126.302 143.309  0.00  0.00           C 0
+ATOM   1310   CD LYS A 314     108.508 125.728 142.978  0.00  0.00           C 0
+ATOM   1308   CB LYS A 314     110.492 126.973 142.101  0.00  0.00           C 0
+ATOM   1305   CA LYS A 314     111.982 127.275 142.249  0.00  0.00           C 0
+ATOM   1353  CD1 ILE A 319     114.831 122.383 148.136  0.00  0.00           C 0
+TER
+END

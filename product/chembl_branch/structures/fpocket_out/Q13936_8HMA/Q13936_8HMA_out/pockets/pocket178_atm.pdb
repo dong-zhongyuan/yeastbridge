@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   178:
+HEADER 0  - Pocket Score                      : -0.1939
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 4.0267
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5518
+HEADER 5  - Mean B-factor of pocket residues  : 0.1779
+HEADER 6  - Hydrophobicity Score              : -32.5000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 321.1794
+HEADER 10 - Pocket volume (convex hull)       : 13.6600
+HEADER 11 - Charge Score                      :    -3
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.1667
+ATOM   6233    N GLU E1100     191.376 174.378 190.729  0.00  0.00           N 0
+ATOM  13259   CD LYS F 270     187.752 178.572 192.621  0.00  0.00           C 0
+ATOM   6231    C GLY E1099     190.859 175.368 190.004  0.00  0.00           C 0
+ATOM  13260   CE LYS F 270     187.080 178.141 191.328  0.00  0.00           C 0
+ATOM   6241  OE2 GLU E1100     189.572 171.178 192.706  0.48  5.36           O 0
+ATOM   3919   CB ASP E 680     182.071 175.677 193.207  0.00  0.00           C 0
+ATOM   3918    O ASP E 680     183.703 176.728 190.535  0.56  2.14           O 0
+ATOM   3920   CG ASP E 680     181.631 174.233 193.050  0.00  0.00           C 0
+ATOM   3921  OD1 ASP E 680     181.773 173.681 191.939  0.71  5.36           O 0
+ATOM   6234   CA GLU E1100     192.143 174.682 191.930  0.00  0.00           C 0
+ATOM   6238   CG GLU E1100     191.324 172.666 193.295  0.00  0.00           C 0
+ATOM   6228  OD2 ASP E1098     188.179 168.205 189.332  0.41  9.64           O 0
+ATOM   3928   CG GLU E 681     183.405 172.395 187.556  0.00  0.00           C 0
+ATOM   6226   CG ASP E1098     188.725 169.000 188.539  0.00  0.00           C 0
+ATOM   6227  OD1 ASP E1098     188.769 168.806 187.306  0.00  4.29           O 0
+ATOM   6224    O ASP E1098     188.548 172.939 189.459  0.00  0.00           O 0
+ATOM   6239   CD GLU E1100     190.595 171.777 192.314  0.00  0.00           C 0
+ATOM   3922  OD2 ASP E 680     181.140 173.650 194.039  0.00  0.00           O 0
+ATOM   3924   CA GLU E 681     183.164 174.452 189.079  0.00  0.00           C 0
+ATOM   3927   CB GLU E 681     182.499 173.218 188.465  0.00  0.00           C 0
+TER
+END

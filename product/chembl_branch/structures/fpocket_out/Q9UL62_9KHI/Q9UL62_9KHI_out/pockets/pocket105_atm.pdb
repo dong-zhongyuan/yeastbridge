@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   105:
+HEADER 0  - Pocket Score                      : -0.1044
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.7062
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4781
+HEADER 5  - Mean B-factor of pocket residues  : 0.2138
+HEADER 6  - Hydrophobicity Score              : 2.6667
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 194.7058
+HEADER 10 - Pocket volume (convex hull)       : 7.1269
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2667
+ATOM  15417  OD1 ASN C 719     131.628 110.907 175.828  0.58  4.29           O 0
+ATOM  15440   CD LYS C 722     133.103 116.084 178.003  0.00  0.00           C 0
+ATOM   5797   CB PHE D 136     137.147 114.420 178.594  0.00  0.00           C 0
+ATOM   5799  CD1 PHE D 136     136.654 115.150 176.246  0.00  0.00           C 0
+ATOM   5794   CA PHE D 136     138.157 113.287 178.405  0.00  0.00           C 0
+ATOM  15442   NZ LYS C 722     131.691 115.012 179.752  0.00  0.00           N 0
+ATOM   5793    N PHE D 136     138.248 112.475 179.613  0.00  0.00           N 0
+ATOM  12074  NH1 ARG C 260     139.230 111.713 172.185  0.29  3.28           N 0
+ATOM   5804    N SER D 137     139.882 113.684 176.749  0.43  2.19           N 0
+ATOM  15453  NH2 ARG C 723     135.120 110.317 172.154  0.66  9.84           N 0
+ATOM  15450   NE ARG C 723     135.466 112.561 171.848  0.75  3.28           N 0
+ATOM  15416   CG ASN C 719     131.682 110.446 174.689  0.00  0.00           C 0
+ATOM  15418  ND2 ASN C 719     131.741 109.142 174.446  0.52  6.56           N 0
+ATOM  15415   CB ASN C 719     131.687 111.357 173.480  0.00  0.00           C 0
+ATOM  15414    O ASN C 719     132.343 114.471 172.676  0.89  1.07           O 0
+ATOM  15412   CA ASN C 719     131.107 112.738 173.781  0.00  0.00           C 0
+TER
+END

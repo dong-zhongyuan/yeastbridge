@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     5:
+HEADER 0  - Pocket Score                      : 0.0953
+HEADER 1  - Drug Score                        : 0.0011
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.5523
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3698
+HEADER 5  - Mean B-factor of pocket residues  : 0.1326
+HEADER 6  - Hydrophobicity Score              : 73.1429
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 81.7709
+HEADER 10 - Pocket volume (convex hull)       : 0.4966
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.8333
+ATOM   6251  CG1 VAL B 296      85.879  89.483 127.200  0.00  0.00           C 0
+ATOM   6158  CD1 LEU B 284      81.564  88.432 126.550  0.00  0.00           C 0
+ATOM   6174  CD1 LEU B 286      84.073  93.649 128.089  0.00  0.00           C 0
+ATOM   6901  CD1 LEU C  50      80.251  93.271 124.985  0.00  0.00           C 0
+ATOM   6175  CD2 LEU B 286      85.603  94.372 126.240  0.00  0.00           C 0
+ATOM   4352   CE MET B  45      84.628  92.530 121.925  0.00  0.00           C 0
+ATOM   6899   CB LEU C  50      79.267  91.081 124.252  0.00  0.00           C 0
+ATOM   6579    O ASN B 340      81.422  91.136 119.401  0.00  0.00           O 0
+ATOM   6898    O LEU C  50      79.433  88.096 123.172  0.88  1.07           O 0
+ATOM   4351   SD MET B  45      85.648  91.109 122.309  0.00  0.00           S 0
+ATOM   6902  CD2 LEU C  50      79.920  92.804 122.547  0.00  0.00           C 0
+ATOM   4338  CG2 ILE B  43      83.208  86.533 122.263  0.00  0.00           C 0
+ATOM   4350   CG MET B  45      85.467  90.139 120.800  0.00  0.00           C 0
+TER
+END

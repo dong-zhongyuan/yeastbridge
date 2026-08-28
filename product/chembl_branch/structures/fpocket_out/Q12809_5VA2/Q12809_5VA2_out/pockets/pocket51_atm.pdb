@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    51:
+HEADER 0  - Pocket Score                      : -0.1037
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0371
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5158
+HEADER 5  - Mean B-factor of pocket residues  : 0.6329
+HEADER 6  - Hydrophobicity Score              : 21.5556
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 192.1196
+HEADER 10 - Pocket volume (convex hull)       : 5.7104
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM   1415   CB ASN A 470     109.726  55.820  66.256  0.00  0.00           C 0
+ATOM   1595  CE1 TYR A 493     110.223  59.101  66.971  0.00  0.00           C 0
+ATOM   1593  CD1 TYR A 493     110.980  59.538  65.892  0.00  0.00           C 0
+ATOM   1879  NH2 ARG A 537     107.197  61.149  66.164  0.00  0.00           N 0
+ATOM   1417  OD1 ASN A 470     107.368  55.437  66.513  0.59  7.50           O 0
+ATOM   1414    O ASN A 470     110.848  55.316  63.361  0.56  2.14           O 0
+ATOM   1459   CB TYR A 475     107.840  58.325  58.404  0.00  0.00           C 0
+ATOM   1564  CD1 ILE A 489     111.397  56.521  60.392  0.00  0.00           C 0
+ATOM   1451    O THR A 474     106.998  55.079  59.158  0.38  7.50           O 0
+ATOM   1446  OG1 THR A 473     108.214  52.924  62.924  0.42  3.21           O 0
+ATOM   1056   NZ LYS A 407     103.952  53.036  63.878  0.00  0.00           N 0
+ATOM   1584  CD2 HIS A 492     110.157  62.146  60.578  0.00  0.00           C 0
+ATOM   1562  CG1 ILE A 489     112.472  57.582  60.378  0.00  0.00           C 0
+ATOM   1586  NE2 HIS A 492     109.062  62.935  60.320  0.77  6.56           N 0
+TER
+END

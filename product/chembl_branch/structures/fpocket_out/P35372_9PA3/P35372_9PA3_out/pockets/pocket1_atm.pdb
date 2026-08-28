@@ -1,0 +1,48 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     1:
+HEADER 0  - Pocket Score                      : 0.1609
+HEADER 1  - Drug Score                        : 0.1838
+HEADER 2  - Number of alpha spheres           :    46
+HEADER 3  - Mean alpha-sphere radius          : 3.8050
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4715
+HEADER 5  - Mean B-factor of pocket residues  : 0.4418
+HEADER 6  - Hydrophobicity Score              : 51.0909
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.3636
+HEADER 9  - Pocket volume (Monte Carlo)       : 214.2109
+HEADER 10 - Pocket volume (convex hull)       : 22.2588
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 30.9375
+HEADER 13 - Number of apolar alpha sphere     :    32
+HEADER 14 - Proportion of apolar alpha sphere : 0.6957
+ATOM   6835  CD1 TYR R 338     119.148 130.401 135.782  0.00  0.00           C 0
+ATOM   6855   CB LEU R 341     116.947 135.390 134.108  0.00  0.00           C 0
+ATOM   5530  NH2 ARG R 167     121.414 131.490 131.390  0.59  1.09           N 0
+ATOM   6862  OD1 ASP R 342     117.670 132.503 130.955  0.86  2.14           O 0
+ATOM   5527   NE ARG R 167     123.499 131.764 132.298  0.70  1.09           N 0
+ATOM   6837  CE1 TYR R 338     120.317 130.229 136.496  0.00  0.00           C 0
+ATOM   6412   CB MET R 283     119.226 137.818 136.148  0.00  0.00           C 0
+ATOM   6387  CG1 ILE R 280     122.230 140.667 131.543  0.00  0.00           C 0
+ATOM   4768   CB LEU A 353     121.698 136.875 129.752  0.00  0.00           C 0
+ATOM   6854    O LEU R 341     116.272 136.731 131.230  0.85  2.14           O 0
+ATOM   4771  CD2 LEU A 353     121.090 134.791 130.995  0.00  0.00           C 0
+ATOM   6191   OH TYR R 254     124.633 131.475 135.801  0.72  2.14           O 0
+ATOM   6383   CA ILE R 280     121.763 140.978 133.996  0.00  0.00           C 0
+ATOM   6378   NE ARG R 279     116.169 140.825 131.689  0.69  1.09           N 0
+ATOM   6374    O ARG R 279     119.515 141.319 135.532  0.65  1.07           O 0
+ATOM   4767    O LEU A 353     120.335 139.310 128.900  0.38  1.07           O 0
+ATOM   6441  CG2 VAL R 287     119.677 132.681 139.058  0.00  0.00           C 0
+ATOM   6411    O MET R 283     120.259 136.218 138.914  0.00  0.00           O 0
+ATOM   6410    C MET R 283     120.542 137.190 138.197  0.00  0.00           C 0
+ATOM   4765   CA LEU A 353     120.418 136.931 128.914  0.00  0.00           C 0
+ATOM   6414   CA VAL R 284     122.908 136.688 138.397  0.00  0.00           C 0
+ATOM   6439   CB VAL R 287     120.828 132.830 140.037  0.00  0.00           C 0
+ATOM   4770  CD1 LEU A 353     123.417 135.678 131.102  0.00  0.00           C 0
+ATOM   6385    O ILE R 280     122.402 139.662 135.915  0.00  0.00           O 0
+ATOM   6413    N VAL R 284     121.803 137.505 137.897  0.81  1.09           N 0
+ATOM   6419  CG2 VAL R 284     124.442 136.689 136.405  0.00  0.00           C 0
+TER
+END

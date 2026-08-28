@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : -0.1261
+HEADER 1  - Drug Score                        : 0.0014
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8320
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5995
+HEADER 5  - Mean B-factor of pocket residues  : 0.7528
+HEADER 6  - Hydrophobicity Score              : 23.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 219.2156
+HEADER 10 - Pocket volume (convex hull)       : 6.8020
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.9333
+ATOM   1860  CG1 ILE A1067      50.821  30.155  -1.698  0.00  0.00           C 0
+ATOM   1862  CD1 ILE A1067      50.863  31.674  -1.722  0.00  0.00           C 0
+ATOM   1922  CE2 TYR A1101      45.047  33.304   1.770  0.00  0.00           C 0
+ATOM   1920  CD2 TYR A1101      46.075  33.098   2.674  0.00  0.00           C 0
+ATOM   1841    O GLY A1064      50.901  29.372   1.464  0.58  2.14           O 0
+ATOM   1821    O ASP A1060      46.234  26.705   3.453  0.48  6.43           O 0
+ATOM   1923   CZ TYR A1101      43.746  33.002   2.131  0.00  0.00           C 0
+ATOM   1919  CD1 TYR A1101      44.509  32.296   4.287  0.00  0.00           C 0
+ATOM   1921  CE1 TYR A1101      43.472  32.498   3.389  0.00  0.00           C 0
+ATOM   1822   CB ASP A1060      43.243  26.329   3.413  0.00  0.00           C 0
+ATOM   1924   OH TYR A1101      42.715  33.202   1.237  0.00  0.00           O 0
+ATOM   1918   CG TYR A1101      45.824  32.588   3.943  0.00  0.00           C 0
+ATOM   1839   CA GLY A1064      49.195  27.792   2.034  0.00  0.00           C 0
+ATOM   1836    O HIS A1063      50.226  26.262  -0.009  0.66  1.07           O 0
+ATOM   1861  CG2 ILE A1067      50.518  28.322  -3.393  0.00  0.00           C 0
+ATOM   1838    N GLY A1064      49.122  26.341   1.963  0.00  0.00           N 0
+ATOM   1837   CB HIS A1063      48.388  23.828  -0.191  0.00  0.00           C 0
+ATOM   1835    C HIS A1063      49.628  25.689   0.911  0.00  0.00           C 0
+TER
+END

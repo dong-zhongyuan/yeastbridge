@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   260:
+HEADER 0  - Pocket Score                      : -0.2279
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0074
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5814
+HEADER 5  - Mean B-factor of pocket residues  : 0.7784
+HEADER 6  - Hydrophobicity Score              : -23.6000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 207.0170
+HEADER 10 - Pocket volume (convex hull)       : 4.9087
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.4667
+ATOM  24757    O LYS D 744     181.048 180.838 134.837  0.00  0.00           O 0
+ATOM  24759   CG LYS D 744     182.083 182.996 137.158  0.00  0.00           C 0
+ATOM  24764   CA GLU D 745     182.447 178.481 135.146  0.00  0.00           C 0
+ATOM  24762   NZ LYS D 744     182.519 184.520 134.627  0.47  5.47           N 0
+ATOM  24763    N GLU D 745     181.798 179.222 136.224  0.79  1.09           N 0
+ATOM  24733  OE1 GLU D 741     186.682 179.568 140.571  0.00  0.00           O 0
+ATOM  24729    O GLU D 741     182.610 178.381 138.882  0.58  1.07           O 0
+ATOM  24767   CB GLU D 745     183.303 177.355 135.724  0.00  0.00           C 0
+ATOM  24758   CB LYS D 744     181.434 181.871 137.950  0.00  0.00           C 0
+ATOM  24734  OE2 GLU D 741     186.013 181.532 141.291  0.71  5.36           O 0
+ATOM  24793   CB GLN D 748     182.467 181.473 131.845  0.00  0.00           C 0
+ATOM  24794   CG GLN D 748     183.575 182.023 130.961  0.00  0.00           C 0
+ATOM  13872   CD LYS C  42     190.371 178.994 131.704  0.00  0.00           C 0
+ATOM  24768   CG GLU D 745     184.514 176.992 134.876  0.00  0.00           C 0
+ATOM  13874   NZ LYS C  42     190.584 180.833 133.386  0.00  9.84           N 0
+ATOM  24771  OE2 GLU D 745     184.914 176.030 132.735  0.56  9.64           O 0
+TER
+END

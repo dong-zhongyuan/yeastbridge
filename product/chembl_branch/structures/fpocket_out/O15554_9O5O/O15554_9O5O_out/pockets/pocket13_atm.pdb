@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : 0.0389
+HEADER 1  - Drug Score                        : 0.0048
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 3.7415
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4223
+HEADER 5  - Mean B-factor of pocket residues  : 0.7637
+HEADER 6  - Hydrophobicity Score              : 74.8182
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.9091
+HEADER 9  - Pocket volume (Monte Carlo)       : 140.2410
+HEADER 10 - Pocket volume (convex hull)       : 5.5686
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 22.0000
+HEADER 13 - Number of apolar alpha sphere     :    23
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM   6783  CD1 ILE H 100     116.664 176.169 187.134  0.00  0.00           C 0
+ATOM   6814   CG LEU H 105     116.688 180.504 185.346  0.00  0.00           C 0
+ATOM   6815  CD1 LEU H 105     117.063 179.673 184.138  0.00  0.00           C 0
+ATOM   6912  CD1 ILE H 125     113.208 181.162 186.561  0.00  0.00           C 0
+ATOM   6986  CG1 VAL H 136     112.958 175.865 188.184  0.00  0.00           C 0
+ATOM  15229  CD2 LEU D 427     116.412 176.660 181.923  0.00  0.00           C 0
+ATOM   7027   CA PHE H 141     112.621 171.834 185.447  0.00  0.00           C 0
+ATOM   6931   CB ALA H 128     109.297 177.336 185.976  0.00  0.00           C 0
+ATOM   7057   CB MET H 144     109.684 173.801 182.478  0.00  0.00           C 0
+ATOM   6987  CG2 VAL H 136     112.650 178.264 188.826  0.00  0.00           C 0
+ATOM   7020    O GLU H 140     109.943 172.407 185.655  0.00  0.00           O 0
+ATOM   6903   SD MET H 124     113.041 179.719 181.568  0.00  0.00           S 0
+ATOM  15228  CD1 LEU D 427     114.759 174.933 181.164  0.00  0.00           C 0
+ATOM   7032  CD1 PHE H 141     115.015 173.276 184.043  0.00  0.00           C 0
+ATOM   6902   CG MET H 124     111.254 179.808 181.780  0.00  0.00           C 0
+ATOM  15257   CB TRP D 431     110.789 177.719 178.252  0.00  0.00           C 0
+TER
+END

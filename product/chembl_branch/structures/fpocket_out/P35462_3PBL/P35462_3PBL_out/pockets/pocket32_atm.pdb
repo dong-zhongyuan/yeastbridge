@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    32:
+HEADER 0  - Pocket Score                      : -0.0515
+HEADER 1  - Drug Score                        : 0.0024
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.9273
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5908
+HEADER 5  - Mean B-factor of pocket residues  : 0.1657
+HEADER 6  - Hydrophobicity Score              : 59.6000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 234.1555
+HEADER 10 - Pocket volume (convex hull)       : 9.0519
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.6667
+ATOM   4645  CD1 LEU B 206     -12.010  11.339   8.291  0.00  0.00           C 0
+ATOM   4643   CB LEU B 206     -11.250  13.064   9.922  0.00  0.00           C 0
+ATOM   4653  CG2 VAL B 207      -7.114  11.868  12.650  0.00  0.00           C 0
+ATOM   4623  CG1 VAL B 203      -7.046   9.609   8.956  0.00  0.00           C 0
+ATOM   4621    O VAL B 203      -7.905  12.574   9.573  0.00  0.00           O 0
+ATOM   4677   CD ARG B 210     -12.673  12.177  17.379  0.00  0.00           C 0
+ATOM   4678   NE ARG B 210     -13.498  11.632  16.282  0.20  4.37           N 0
+ATOM   4142   CZ TYR B 129      -9.209  10.342  19.598  0.00  0.00           C 0
+ATOM   4143   OH TYR B 129     -10.376   9.776  20.049  0.70  4.29           O 0
+ATOM   4139  CD2 TYR B 129      -6.905  10.170  18.991  0.00  0.00           C 0
+ATOM   4138  CD1 TYR B 129      -8.029  12.272  18.842  0.00  0.00           C 0
+ATOM   4648   CA VAL B 207      -8.426  13.964  13.123  0.00  0.00           C 0
+ATOM   4675   CB ARG B 210     -11.898  14.385  16.292  0.00  0.00           C 0
+ATOM   4140  CE1 TYR B 129      -9.193  11.689  19.298  0.00  0.00           C 0
+ATOM   4141  CE2 TYR B 129      -8.065   9.574  19.445  0.00  0.00           C 0
+ATOM   4647    N VAL B 207      -9.115  14.042  11.843  0.00  0.00           N 0
+ATOM   4137   CG TYR B 129      -6.871  11.527  18.680  0.00  0.00           C 0
+ATOM   4641    C LEU B 206     -10.360  14.493  11.712  0.00  0.00           C 0
+ATOM   4642    O LEU B 206     -11.058  14.860  12.654  0.73  2.14           O 0
+TER
+END

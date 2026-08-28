@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    22:
+HEADER 0  - Pocket Score                      : -0.0091
+HEADER 1  - Drug Score                        : 0.0066
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.6665
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3402
+HEADER 5  - Mean B-factor of pocket residues  : 0.3161
+HEADER 6  - Hydrophobicity Score              : 39.3000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 213.0897
+HEADER 10 - Pocket volume (convex hull)       : 9.8118
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.6111
+ATOM   7506  CG1 ILE B 213     144.191 131.158 144.684  0.00  0.00           C 0
+ATOM   7821  CG1 ILE B 254     140.955 126.735 148.602  0.00  0.00           C 0
+ATOM   7845  ND2 ASN B 257     146.785 127.793 147.537  0.00  0.00           N 0
+ATOM   7872  CE2 PHE B 260     144.655 131.964 148.054  0.00  0.00           C 0
+ATOM   7508  CD1 ILE B 213     142.785 131.480 144.246  0.00  0.00           C 0
+ATOM   7154  CD1 LEU B  39     138.525 129.904 146.497  0.00  0.00           C 0
+ATOM   7467  NH1 ARG B 209     139.755 127.613 142.489  0.00  0.00           N 0
+ATOM   7822  CG2 ILE B 254     141.205 128.361 150.484  0.00  0.00           C 0
+ATOM   7579  CD1 ILE B 222     140.503 131.972 150.361  0.00  0.00           C 0
+ATOM   7473   CB LYS B 210     149.344 126.699 141.940  0.00  0.00           C 0
+ATOM   7462   CB ARG B 209     144.072 126.639 141.757  0.00  0.00           C 0
+ATOM   7815   OG SER B 253     144.641 123.221 147.367  0.28  5.36           O 0
+ATOM   7507  CG2 ILE B 213     146.515 130.477 144.025  0.00  0.00           C 0
+ATOM   7470   CA LYS B 210     148.345 127.799 141.570  0.00  0.00           C 0
+ATOM   7469    N LYS B 210     147.116 127.208 141.050  0.56  1.09           N 0
+ATOM   7457  OE2 GLU B 208     147.773 123.485 140.035  0.53  8.57           O 0
+ATOM   7464   CD ARG B 209     141.951 125.848 142.844  0.00  0.00           C 0
+TER
+END

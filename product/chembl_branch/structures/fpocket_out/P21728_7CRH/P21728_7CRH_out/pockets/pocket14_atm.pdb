@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    14:
+HEADER 0  - Pocket Score                      : 0.0374
+HEADER 1  - Drug Score                        : 0.0060
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9247
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7028
+HEADER 5  - Mean B-factor of pocket residues  : 0.3565
+HEADER 6  - Hydrophobicity Score              : 88.6000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 5.2000
+HEADER 9  - Pocket volume (Monte Carlo)       : 280.6399
+HEADER 10 - Pocket volume (convex hull)       : 3.6948
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 10.5000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.8000
+ATOM   6330  CG2 VAL R  75     110.350  95.591  86.120  0.00  0.00           C 0
+ATOM   6299    O LEU R  71     111.235  98.158  87.696  0.00  0.00           O 0
+ATOM   6298    C LEU R  71     110.664  98.922  88.484  0.00  0.00           C 0
+ATOM   6300   CB LEU R  71     110.873  98.553  90.954  0.00  0.00           C 0
+ATOM   6280  CG1 VAL R  68     105.355 101.248  93.192  0.00  0.00           C 0
+ATOM   6310  CD1 LEU R  72     104.816  99.667  86.710  0.00  0.00           C 0
+ATOM   6915  CZ2 TRP R 148     103.012 103.399  89.615  0.00  0.00           C 0
+ATOM   6917  CH2 TRP R 148     103.190 102.928  88.344  0.00  0.00           C 0
+ATOM   6281  CG2 VAL R  68     106.186  98.886  93.169  0.00  0.00           C 0
+ATOM   6278    O VAL R  68     107.877 100.272  90.571  0.61  2.14           O 0
+ATOM   6309   CG LEU R  72     106.092  98.864  86.504  0.00  0.00           C 0
+ATOM   6329  CG1 VAL R  75     112.442  95.180  87.464  0.00  0.00           C 0
+ATOM   6305   CA LEU R  72     108.691  99.015  87.062  0.00  0.00           C 0
+ATOM   6308   CB LEU R  72     107.281  99.605  87.128  0.00  0.00           C 0
+ATOM   6304    N LEU R  72     109.432  99.386  88.264  0.00  0.00           N 0
+ATOM   6302  CD1 LEU R  71     111.295  96.922  92.804  0.00  0.00           C 0
+ATOM   6303  CD2 LEU R  71     112.744  96.894  90.763  0.00  0.00           C 0
+TER
+END

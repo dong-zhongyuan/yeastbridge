@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   105:
+HEADER 0  - Pocket Score                      : -0.1160
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.9682
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5818
+HEADER 5  - Mean B-factor of pocket residues  : 0.1072
+HEADER 6  - Hydrophobicity Score              : 17.1111
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.1111
+HEADER 9  - Pocket volume (Monte Carlo)       : 199.3083
+HEADER 10 - Pocket volume (convex hull)       : 5.3397
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.2857
+ATOM   9094   CG ASP B 516     181.106 170.062 166.089  0.00  0.00           C 0
+ATOM   9121   NZ LYS B 519     183.577 172.714 166.511  0.77  8.75           N 1
+ATOM   9095  OD1 ASP B 516     182.249 170.497 165.827  0.00  0.00           O 0
+ATOM   9096  OD2 ASP B 516     180.266 169.781 165.208  0.00  0.00           O 1
+ATOM  14314   OG SER C 509     175.722 179.040 163.818  0.74  4.29           O 0
+ATOM  15283   OH TYR C 628     175.882 173.824 164.686  0.61  8.57           O 0
+ATOM  15336   CB ALA C 635     176.800 178.791 160.193  0.00  0.00           C 0
+ATOM  14281   CB PRO C 505     180.826 179.398 162.602  0.00  0.00           C 0
+ATOM   9968   CE MET B 623     177.763 172.986 168.866  0.00  0.00           C 0
+ATOM  14279    C PRO C 505     179.380 179.954 164.596  0.00  0.00           C 0
+ATOM  14284    N LEU C 506     179.904 179.273 165.613  0.65  3.28           N 0
+ATOM  14291  CD2 LEU C 506     179.912 176.005 169.275  0.00  0.00           C 0
+ATOM   9120   CE LYS B 519     183.453 174.135 166.942  0.00  0.00           C 0
+ATOM  14290  CD1 LEU C 506     177.857 176.516 167.957  0.00  0.00           C 0
+ATOM  14258    O HIS C 502     183.935 177.601 166.015  0.73  3.21           O 0
+ATOM  14288   CB LEU C 506     179.892 177.849 167.591  0.00  0.00           C 0
+ATOM  14285   CA LEU C 506     179.055 178.724 166.661  0.00  0.00           C 0
+TER
+END

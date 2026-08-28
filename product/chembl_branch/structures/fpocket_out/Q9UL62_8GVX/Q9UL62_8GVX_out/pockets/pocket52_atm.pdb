@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    52:
+HEADER 0  - Pocket Score                      : -0.0141
+HEADER 1  - Drug Score                        : 0.0016
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.8648
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6567
+HEADER 5  - Mean B-factor of pocket residues  : 0.8367
+HEADER 6  - Hydrophobicity Score              : 30.4286
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 226.7936
+HEADER 10 - Pocket volume (convex hull)       : 5.5606
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 5.4286
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.4375
+ATOM   1351  CG2 VAL B 187     217.382 191.723 163.798  0.00  0.00           C 0
+ATOM   1342   CD GLU B 186     218.172 192.104 169.697  0.00  0.00           C 0
+ATOM   1321    O SER B 183     217.105 188.858 165.140  0.00  0.00           O 0
+ATOM   1344  OE2 GLU B 186     218.892 193.071 169.373  0.64  8.57           O 0
+ATOM   1315   CB VAL B 182     218.960 184.956 169.867  0.00  0.00           C 0
+ATOM   1317  CG2 VAL B 182     218.650 183.885 170.904  0.00  0.00           C 0
+ATOM   1286    O CYS B 178     220.709 182.098 168.915  0.68  1.07           O 0
+ATOM   1278    O ASN B 177     221.746 180.633 171.646  0.65  4.29           O 0
+ATOM   1316  CG1 VAL B 182     219.101 186.320 170.524  0.00  0.00           C 0
+ATOM   1292    O VAL B 179     221.143 184.718 166.526  0.62  1.07           O 0
+ATOM   1295  CG2 VAL B 179     224.368 185.083 166.865  0.00  0.00           C 0
+ATOM   1322   CB SER B 183     220.065 187.434 165.195  0.00  0.00           C 0
+ATOM   1290   CA VAL B 179     222.776 183.239 167.492  0.00  0.00           C 0
+ATOM   1319   CA SER B 183     218.850 187.530 166.115  0.00  0.00           C 0
+ATOM   1343  OE1 GLU B 186     218.520 191.244 170.532  0.30  8.57           O 0
+ATOM   1318    N SER B 183     218.769 186.343 166.962  0.00  0.00           N 0
+TER
+END

@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    64:
+HEADER 0  - Pocket Score                      : -0.1722
+HEADER 1  - Drug Score                        : 0.0020
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8853
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7564
+HEADER 5  - Mean B-factor of pocket residues  : 0.2163
+HEADER 6  - Hydrophobicity Score              : 29.8000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 2.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 139.2903
+HEADER 10 - Pocket volume (convex hull)       : 1.2703
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.6667
+ATOM   8360  CG2 THR E 201     139.107  94.657 170.134  0.00  0.00           C 0
+ATOM   8358   CB THR E 201     138.425  93.375 169.690  0.00  0.00           C 0
+ATOM   8346    O PHE E 200     138.582  91.972 166.647  0.68  3.21           O 0
+ATOM   8342   CB ALA E 199     143.408  91.990 164.341  0.00  0.00           C 0
+ATOM   8340    C ALA E 199     141.293  93.296 164.055  0.00  0.00           C 0
+ATOM   8318   CA GLY E 195     141.471  97.080 165.860  0.00  0.00           C 0
+ATOM   8341    O ALA E 199     141.616  94.486 164.019  0.00  0.00           O 0
+ATOM   8324    O SER E 196     144.184  95.158 162.337  0.55  4.29           O 0
+ATOM   8321    N SER E 196     143.109  96.945 164.126  0.52  4.37           N 0
+ATOM   8325   CB SER E 196     145.400  97.758 163.698  0.00  0.00           C 0
+ATOM   8345    C PHE E 200     138.611  93.191 166.466  0.00  0.00           C 0
+ATOM   8343    N PHE E 200     140.159  92.866 164.609  0.71  1.09           N 0
+ATOM   8344   CA PHE E 200     139.193  93.785 165.194  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    62:
+HEADER 0  - Pocket Score                      : -0.1306
+HEADER 1  - Drug Score                        : 0.0063
+HEADER 2  - Number of alpha spheres           :    32
+HEADER 3  - Mean alpha-sphere radius          : 3.9385
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4520
+HEADER 5  - Mean B-factor of pocket residues  : 0.6748
+HEADER 6  - Hydrophobicity Score              : 50.1111
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.2222
+HEADER 9  - Pocket volume (Monte Carlo)       : 251.8372
+HEADER 10 - Pocket volume (convex hull)       : 13.2593
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 18.0000
+HEADER 13 - Number of apolar alpha sphere     :    19
+HEADER 14 - Proportion of apolar alpha sphere : 0.5938
+ATOM  11400  CG1 VAL G 108     201.535 173.572 245.279  0.00  0.00           C 0
+ATOM   7410   CB ALA C 316     206.778 173.865 240.161  0.00  0.00           C 0
+ATOM  11398    O VAL G 108     202.160 172.085 242.522  0.54  2.14           O 0
+ATOM   7380    O LYS C 312     207.119 177.506 240.346  0.55  1.07           O 0
+ATOM  11423   CB LEU G 112     202.294 172.980 239.488  0.00  0.00           C 0
+ATOM   7394  OE2 GLU C 313     203.720 178.834 238.049  0.73  7.50           O 0
+ATOM   7381   CB LYS C 312     205.140 180.027 241.167  0.00  0.00           C 0
+ATOM  11304    O VAL G  91     205.432 177.686 247.233  0.27  4.29           O 0
+ATOM  11306  CG1 VAL G  91     207.602 178.737 244.952  0.00  0.00           C 0
+ATOM   7383   CD LYS C 312     205.227 181.101 243.485  0.00  0.00           C 0
+ATOM   7406    N ALA C 316     208.819 175.089 240.743  0.00  0.00           N 0
+ATOM  11309   CA PHE G  92     206.239 175.096 247.829  0.00  0.00           C 0
+ATOM   7405   CB ALA C 315     210.029 177.463 242.620  0.00  0.00           C 0
+ATOM   7403    C ALA C 315     209.941 175.246 241.448  0.00  0.00           C 0
+ATOM  11403   CA MET G 109     204.591 171.085 243.298  0.00  0.00           C 0
+ATOM  11312   CB PHE G  92     207.021 173.890 247.320  0.00  0.00           C 0
+ATOM  11406   CB MET G 109     205.768 170.905 244.260  0.00  0.00           C 0
+ATOM   7407   CA ALA C 316     208.237 173.755 240.600  0.00  0.00           C 0
+ATOM   7404    O ALA C 315     210.451 174.317 242.084  0.58  4.29           O 0
+TER
+END

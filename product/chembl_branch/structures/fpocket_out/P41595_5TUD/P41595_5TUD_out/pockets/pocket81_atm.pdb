@@ -1,0 +1,44 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    81:
+HEADER 0  - Pocket Score                      : -0.1242
+HEADER 1  - Drug Score                        : 0.0280
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 4.0323
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6998
+HEADER 5  - Mean B-factor of pocket residues  : 0.2664
+HEADER 6  - Hydrophobicity Score              : 76.8571
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 334.0036
+HEADER 10 - Pocket volume (convex hull)       : 17.8979
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 16.4211
+HEADER 13 - Number of apolar alpha sphere     :    19
+HEADER 14 - Proportion of apolar alpha sphere : 0.8636
+ATOM   2602  CG1 ILE A 364      28.400 -35.553  86.300  0.00  0.00           C 0
+ATOM   2590    C GLU A 363      26.377 -32.019  86.575  0.00  0.00           C 0
+ATOM   2591    O GLU A 363      26.650 -31.173  85.716  0.74  1.07           O 0
+ATOM   2597    N ILE A 364      26.533 -33.326  86.361  0.00  0.00           N 0
+ATOM    457  CD1 ILE A 115      30.209 -27.092  88.303  0.00  0.00           C 0
+ATOM   2592   CB GLU A 363      26.980 -31.545  88.958  0.00  0.00           C 0
+ATOM    456  CG2 ILE A 115      33.062 -28.025  88.816  0.00  0.00           C 0
+ATOM   2595  OE1 GLU A 363      28.661 -31.911  91.069  0.04  9.64           O 0
+ATOM     61  CD1 ILE A  61      34.188 -28.866  83.845  0.00  0.00           C 0
+ATOM   2629  CD1 TRP A 367      28.620 -29.132  84.036  0.00  0.00           C 0
+ATOM   2631  NE1 TRP A 367      29.141 -27.992  84.599  0.68  1.09           N 0
+ATOM   2598   CA ILE A 364      27.017 -33.826  85.079  0.00  0.00           C 0
+ATOM   2638   CA ILE A 368      25.260 -32.379  78.861  0.00  0.00           C 0
+ATOM   2642  CG1 ILE A 368      25.944 -34.618  79.776  0.00  0.00           C 0
+ATOM   2666  CG1 VAL A 371      26.860 -31.561  75.394  0.00  0.00           C 0
+ATOM   2626    O TRP A 367      26.827 -30.132  78.875  0.72  6.43           O 0
+ATOM   2627   CB TRP A 367      28.150 -30.051  81.695  0.00  0.00           C 0
+ATOM   2625    C TRP A 367      26.411 -30.554  79.960  0.00  0.00           C 0
+ATOM   2628   CG TRP A 367      28.637 -29.033  82.677  0.00  0.00           C 0
+ATOM     59  CG1 ILE A  61      34.382 -29.026  82.343  0.00  0.00           C 0
+ATOM   2603  CG2 ILE A 364      27.896 -35.845  83.852  0.00  0.00           C 0
+ATOM   2600    O ILE A 364      26.295 -33.055  82.915  0.00  0.00           O 0
+TER
+END

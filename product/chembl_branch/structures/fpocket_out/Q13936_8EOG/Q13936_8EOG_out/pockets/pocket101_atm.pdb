@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   101:
+HEADER 0  - Pocket Score                      : -0.1356
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    26
+HEADER 3  - Mean alpha-sphere radius          : 4.1137
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5556
+HEADER 5  - Mean B-factor of pocket residues  : 0.1982
+HEADER 6  - Hydrophobicity Score              : -17.0000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 250.0882
+HEADER 10 - Pocket volume (convex hull)       : 7.5865
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.3462
+ATOM   5597    O TYR D 746     231.525 176.419 260.720  0.44  2.14           O 0
+ATOM   4878  OE2 GLU D 656     237.343 175.137 257.966  0.09  9.64           O 0
+ATOM   4873    O GLU D 656     237.096 177.721 261.277  0.54  5.36           O 0
+ATOM   5451   NZ LYS D 726     237.132 173.934 265.182  0.00  0.00           N 0
+ATOM   5449   CD LYS D 726     235.427 172.144 265.486  0.00  0.00           C 0
+ATOM   5450   CE LYS D 726     236.900 172.510 265.546  0.00  0.00           C 0
+ATOM   5458  OD1 ASN D 727     233.629 167.949 264.641  0.71  6.43           O 0
+ATOM   5446    O LYS D 726     231.957 170.199 265.610  0.34  6.43           O 0
+ATOM   5448   CG LYS D 726     235.208 170.682 265.824  0.00  0.00           C 0
+ATOM   5629  OE1 GLU D 749     234.188 172.501 256.836  0.50  8.57           O 0
+ATOM   5613    N LYS D 748     232.033 175.308 257.999  0.62  1.09           N 0
+ATOM   5611   CG PRO D 747     228.740 172.990 260.571  0.00  0.00           C 0
+ATOM   5603  CE2 TYR D 746     231.914 174.591 264.873  0.00  0.00           C 0
+ATOM   5601  CD2 TYR D 746     230.731 174.961 264.267  0.00  0.00           C 0
+ATOM   5610   CB PRO D 747     229.730 172.907 259.461  0.00  0.00           C 0
+ATOM   5607   CA PRO D 747     230.574 174.183 259.578  0.00  0.00           C 0
+ATOM   5604   CZ TYR D 746     232.932 175.512 264.998  0.00  0.00           C 0
+ATOM   5602  CE1 TYR D 746     232.774 176.794 264.522  0.00  0.00           C 0
+ATOM   5605   OH TYR D 746     234.115 175.152 265.599  0.68  1.07           O 0
+TER
+END

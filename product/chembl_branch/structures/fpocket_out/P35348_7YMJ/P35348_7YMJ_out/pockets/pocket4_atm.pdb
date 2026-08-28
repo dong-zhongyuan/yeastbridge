@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     4:
+HEADER 0  - Pocket Score                      : 0.0706
+HEADER 1  - Drug Score                        : 0.0037
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.7042
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4162
+HEADER 5  - Mean B-factor of pocket residues  : 0.9389
+HEADER 6  - Hydrophobicity Score              : 44.1818
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.7273
+HEADER 9  - Pocket volume (Monte Carlo)       : 207.5458
+HEADER 10 - Pocket volume (convex hull)       : 9.0240
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.6364
+ATOM   3038  CG1 VAL D 119     103.728 105.223  52.288  0.00  0.00           C 0
+ATOM   2319  CD1 LEU D  20     100.352 108.435  52.163  0.00  0.00           C 0
+ATOM   2790  CD1 LEU D  87     104.877 109.856  50.189  0.00  0.00           C 0
+ATOM   3043    O THR D 120     102.825 103.521  48.153  0.77  1.07           O 0
+ATOM   2274    N LEU D  13      98.594 103.988  49.971  0.64  2.19           N 0
+ATOM   2320  CD2 LEU D  20      98.399 109.765  52.990  0.00  0.00           C 0
+ATOM   2271   CA GLY D  12      98.010 104.568  52.220  0.00  0.00           C 0
+ATOM   3051   CB VAL D 121     105.744 105.528  47.435  0.00  0.00           C 0
+ATOM   2283   CB VAL D  14      99.333 107.222  46.304  0.00  0.00           C 0
+ATOM   2306   CB GLU D  18     101.239 111.889  46.491  0.00  0.00           C 0
+ATOM   2287    O GLN D  15     102.775 108.586  44.774  0.54  1.07           O 0
+ATOM   2282    O VAL D  14     102.160 105.290  45.601  0.71  4.29           O 0
+ATOM   3053  CG2 VAL D 121     105.539 106.731  46.510  0.00  0.00           C 0
+ATOM   2279    N VAL D  14     100.013 104.978  47.139  0.58  1.09           N 0
+ATOM   2318   CG LEU D  20      99.775 109.830  52.346  0.00  0.00           C 0
+ATOM   2310    O SER D  19      99.596 112.758  50.680  0.65  3.21           O 0
+ATOM   2307    N SER D  19     101.403 113.581  48.811  0.74  1.09           N 0
+TER
+END

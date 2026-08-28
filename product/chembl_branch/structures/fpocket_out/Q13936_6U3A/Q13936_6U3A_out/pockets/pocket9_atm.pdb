@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : 0.0528
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.5945
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4330
+HEADER 5  - Mean B-factor of pocket residues  : 0.1720
+HEADER 6  - Hydrophobicity Score              : 19.6250
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.8750
+HEADER 9  - Pocket volume (Monte Carlo)       : 59.8513
+HEADER 10 - Pocket volume (convex hull)       : 0.0828
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1250
+ATOM   1177    O GLY C1616       9.172  17.946  28.930  0.58  4.29           O 0
+ATOM    676  OE1 GLU A  87       8.635  20.771  34.831  0.91  2.14           O 0
+ATOM    673   CB GLU A  87       6.739  21.928  33.317  0.00  0.00           C 0
+ATOM   1205  CD2 TYR C1619       7.782  15.028  33.589  0.00  0.00           C 0
+ATOM    644    O GLU A  84       4.025  19.101  33.808  0.66  1.07           O 0
+ATOM    678    N ALA A  88       4.414  20.838  31.417  0.00  0.00           N 0
+ATOM   1210    N ALA C1620       7.365  15.669  29.180  0.00  0.00           N 0
+ATOM   1239  CD1 LEU C1623       4.301  15.874  32.890  0.00  0.00           C 0
+ATOM    682   CB ALA A  88       3.357  18.815  30.510  0.00  0.00           C 0
+ATOM    679   CA ALA A  88       4.043  20.143  30.189  0.00  0.00           C 0
+ATOM   1202   CB TYR C1619       9.409  14.998  31.648  0.00  0.00           C 0
+ATOM    575   CE LYS A  75      10.441  18.005  35.199  0.00  0.00           C 0
+ATOM   1175   CA GLY C1616      11.011  18.957  30.076  0.00  0.00           C 0
+TER
+END

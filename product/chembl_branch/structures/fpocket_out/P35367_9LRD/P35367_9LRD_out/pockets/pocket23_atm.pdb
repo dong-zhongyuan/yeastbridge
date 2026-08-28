@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    23:
+HEADER 0  - Pocket Score                      : 0.0023
+HEADER 1  - Drug Score                        : 0.0008
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.0069
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5561
+HEADER 5  - Mean B-factor of pocket residues  : 0.4677
+HEADER 6  - Hydrophobicity Score              : 26.6000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 3.9000
+HEADER 9  - Pocket volume (Monte Carlo)       : 323.5403
+HEADER 10 - Pocket volume (convex hull)       : 21.1869
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3529
+ATOM   3751   CE MET B 262      90.806 139.827  86.147  0.00  0.00           C 0
+ATOM   4059   CB ALA B 302      90.636 140.259  89.820  0.00  0.00           C 0
+ATOM   1970   CB SER B  31      85.571 143.408  85.293  0.00  0.00           C 0
+ATOM   4049    O LYS B 301      87.727 139.732  89.554  0.68  5.36           O 0
+ATOM   3755    O THR B 263      93.254 142.882  89.268  0.00  0.00           O 0
+ATOM   3748   CB MET B 262      92.395 142.082  84.685  0.00  0.00           C 0
+ATOM   1966    N SER B  31      86.375 142.808  83.062  0.00  0.00           N 0
+ATOM   1971   OG SER B  31      85.355 144.796  85.108  0.00  0.00           O 0
+ATOM   3739    O LEU B 261      92.182 143.756  82.068  0.73  2.14           O 0
+ATOM   3735  OE2 GLU B 260      96.068 148.294  84.484  0.00  0.00           O 1
+ATOM   3745   CA MET B 262      93.437 143.165  84.397  0.00  0.00           C 0
+ATOM   3732   CG GLU B 260      96.311 146.742  82.699  0.00  0.00           C 0
+ATOM   1957  CG2 THR B  29      87.931 148.155  82.068  0.00  0.00           C 0
+ATOM   3730    O GLU B 260      94.649 145.663  80.751  0.38  2.14           O 0
+ATOM   3726  NE2 GLN B 259      93.518 149.351  79.006  0.34  7.66           N 0
+ATOM   1955   CB THR B  29      87.545 146.683  81.994  0.00  0.00           C 0
+ATOM   1956  OG1 THR B  29      86.251 146.501  82.584  0.59  1.07           O 0
+ATOM   1958    N LEU B  30      87.899 143.843  80.921  0.54  1.09           N 0
+TER
+END

@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    72:
+HEADER 0  - Pocket Score                      : -0.0626
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8760
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6413
+HEADER 5  - Mean B-factor of pocket residues  : 0.8846
+HEADER 6  - Hydrophobicity Score              : 22.0000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 162.6362
+HEADER 10 - Pocket volume (convex hull)       : 1.4949
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM   9768   CZ ARG E1585     103.868 148.050 165.377  0.00  0.00           C 0
+ATOM   9794   CG LYS E1589     108.084 149.694 161.473  0.00  0.00           C 0
+ATOM   9770  NH2 ARG E1585     103.685 146.733 165.402  0.62  7.66           N 0
+ATOM   9769  NH1 ARG E1585     103.128 148.788 164.563  0.59  7.66           N 0
+ATOM   9792    O LYS E1589     111.016 146.240 160.283  0.13  4.29           O 0
+ATOM   9790   CA LYS E1589     109.635 147.657 161.641  0.00  0.00           C 0
+ATOM   9793   CB LYS E1589     109.364 149.017 160.998  0.00  0.00           C 0
+ATOM   9822  CG1 VAL E1592     108.209 142.738 159.640  0.00  0.00           C 0
+ATOM   9823  CG2 VAL E1592     107.994 143.104 162.110  0.00  0.00           C 0
+ATOM   9786    O CYS E1588     109.691 145.537 163.368  0.00  0.00           O 0
+ATOM   9788   SG CYS E1588     107.257 145.747 166.051  0.00  0.00           S 0
+ATOM   9789    N LYS E1589     109.600 147.770 163.095  0.84  1.09           N 0
+ATOM   9821   CB VAL E1592     108.882 143.293 160.889  0.00  0.00           C 0
+ATOM   9785    C CYS E1588     109.672 146.674 163.855  0.00  0.00           C 0
+TER
+END

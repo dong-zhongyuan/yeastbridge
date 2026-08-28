@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    35:
+HEADER 0  - Pocket Score                      : -0.0526
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.9146
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5226
+HEADER 5  - Mean B-factor of pocket residues  : 0.3938
+HEADER 6  - Hydrophobicity Score              : 12.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 239.7793
+HEADER 10 - Pocket volume (convex hull)       : 4.4182
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0500
+ATOM   5649  OD2 ASP C 303      99.047 110.519 148.605  0.00  0.00           O 0
+ATOM   5653    O ARG C 304     103.500 114.380 145.030  0.41  5.36           O 0
+ATOM   5646   CB ASP C 303     101.106 111.703 148.781  0.00  0.00           C 0
+ATOM   5650    N ARG C 304     104.037 112.263 147.120  0.69  5.47           N 0
+ATOM   5371  NE2 HIS C 266     104.458 107.592 142.674  0.74  8.75           N 0
+ATOM   5647   CG ASP C 303     100.184 110.549 149.121  0.00  0.00           C 0
+ATOM   5648  OD1 ASP C 303     100.596 109.671 149.906  0.83  3.21           O 0
+ATOM   5640    O ALA C 302     103.861 108.977 149.758  0.15  5.36           O 0
+ATOM   5370  CE1 HIS C 266     105.013 108.790 142.680  0.00  0.00           C 0
+ATOM   5654   CB ARG C 304     105.773 112.632 145.385  0.00  0.00           C 0
+ATOM   5367   CG HIS C 266     106.439 107.383 143.601  0.00  0.00           C 0
+ATOM   5369  CD2 HIS C 266     105.330 106.693 143.239  0.00  0.00           C 0
+ATOM   5359    O SER C 265     106.915 105.619 147.355  0.38  6.43           O 0
+ATOM   5605  CZ3 TRP C 297     107.454 109.786 147.752  0.00  0.00           C 0
+ATOM   5643   CA ASP C 303     102.585 111.311 148.840  0.00  0.00           C 0
+ATOM   5368  ND1 HIS C 266     106.212 108.690 143.225  0.00  0.00           N 0
+TER
+END

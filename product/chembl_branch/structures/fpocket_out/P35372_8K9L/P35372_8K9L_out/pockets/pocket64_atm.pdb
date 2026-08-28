@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    64:
+HEADER 0  - Pocket Score                      : -0.1079
+HEADER 1  - Drug Score                        : 0.0043
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.8610
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4333
+HEADER 5  - Mean B-factor of pocket residues  : 0.4479
+HEADER 6  - Hydrophobicity Score              : 47.5000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 238.2027
+HEADER 10 - Pocket volume (convex hull)       : 10.6806
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.6842
+ATOM   1905  CG1 ILE R 303     111.170 117.685  84.032  0.00  0.00           C 0
+ATOM   1907  CD1 ILE R 303     112.053 116.646  84.689  0.00  0.00           C 0
+ATOM   1363  CD1 ILE R 236     111.913 110.465  83.991  0.00  0.00           C 0
+ATOM   1937  CD2 LEU R 307     109.791 117.270  78.839  0.00  0.00           C 0
+ATOM   1936  CD1 LEU R 307     111.701 115.951  77.909  0.00  0.00           C 0
+ATOM   1330  ND2 ASN R 232     115.706 111.423  79.636  0.17  9.84           N 0
+ATOM   1329  OD1 ASN R 232     116.953 112.707  80.992  0.33  1.07           O 0
+ATOM   1328   CG ASN R 232     116.461 111.614  80.712  0.00  0.00           C 0
+ATOM   1361  CG1 ILE R 236     112.271 111.366  85.149  0.00  0.00           C 0
+ATOM   1929   CB ALA R 306     116.201 117.310  81.403  0.00  0.00           C 0
+ATOM   1928    O ALA R 306     115.808 116.951  78.301  0.48  5.36           O 0
+ATOM   1351   CB LYS R 235     116.914 113.990  85.991  0.00  0.00           C 0
+ATOM   1326    O ASN R 232     115.850 110.573  84.765  0.00  0.00           O 0
+ATOM   1903    O ILE R 303     112.931 119.418  81.336  0.00  0.00           O 0
+ATOM   1353   CD LYS R 235     117.890 115.846  84.622  0.00  0.00           C 0
+TER
+END

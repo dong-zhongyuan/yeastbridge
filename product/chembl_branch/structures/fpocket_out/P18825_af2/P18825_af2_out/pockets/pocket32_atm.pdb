@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    32:
+HEADER 0  - Pocket Score                      : -0.0975
+HEADER 1  - Drug Score                        : 0.0035
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0734
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6540
+HEADER 5  - Mean B-factor of pocket residues  : 0.9056
+HEADER 6  - Hydrophobicity Score              : 52.1250
+HEADER 7  - Polarity Score                    :     0
+HEADER 8  - Amino Acid based volume Score     : 3.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 231.0229
+HEADER 10 - Pocket volume (convex hull)       : 4.9998
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 15.0000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM   1009   SG CYS A 143      -2.507  -6.673   4.714  0.00  0.00           S 0
+ATOM    984  CG1 VAL A 140       0.838  -2.129   6.394  0.00  0.00           C 0
+ATOM   1659  CD1 ILE A 225       0.407 -10.879   6.722  0.00  0.00           C 0
+ATOM    985  CG2 VAL A 140       1.720  -2.812   4.229  0.00  0.00           C 0
+ATOM   1007   CB CYS A 143      -2.909  -5.621   6.119  0.00  0.00           C 0
+ATOM   1636   CG PRO A 222       1.502  -7.395   2.164  0.00  0.00           C 0
+ATOM   1634   CB PRO A 222      -0.013  -7.512   2.281  0.00  0.00           C 0
+ATOM   1299  CG2 ILE A 178       5.409  -2.427   7.142  0.00  0.00           C 0
+ATOM   1326  CD1 ILE A 182       6.825  -3.859   3.892  0.00  0.00           C 0
+ATOM   1597    O GLY A 217       4.806  -6.791   1.547  0.70  3.21           O 0
+ATOM   1629   CB ALA A 221       3.543 -11.681   2.607  0.00  0.00           C 0
+ATOM   1632   CA PRO A 222      -0.271  -8.951   2.723  0.00  0.00           C 0
+ATOM   1637   CD PRO A 222       1.907  -8.792   1.718  0.00  0.00           C 0
+ATOM   1631    N PRO A 222       0.903  -9.701   2.276  0.00  0.00           N 0
+TER
+END

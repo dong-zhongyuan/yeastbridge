@@ -1,0 +1,44 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : -0.0496
+HEADER 1  - Drug Score                        : 0.0049
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 3.7496
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5359
+HEADER 5  - Mean B-factor of pocket residues  : 0.2323
+HEADER 6  - Hydrophobicity Score              : 34.5714
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 285.4776
+HEADER 10 - Pocket volume (convex hull)       : 14.7573
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.6087
+ATOM   2021  OE1 GLN A1103     -33.647 -15.968  94.366  0.00  0.00           O 0
+ATOM   2035    C GLY A1106     -33.098 -12.560  99.785  0.00  0.00           C 0
+ATOM   2037    N GLN A 313     -31.815 -12.666  99.393  0.64  1.09           N 0
+ATOM   2017    O GLN A1103     -31.254 -12.692  96.846  0.68  4.29           O 0
+ATOM   2036    O GLY A1106     -33.640 -13.292 100.639  0.00  0.00           O 0
+ATOM   2012    O ILE A1102     -34.079 -10.810  95.819  0.82  1.07           O 0
+ATOM   2022  NE2 GLN A1103     -35.085 -14.674  93.275  0.00  0.00           N 0
+ATOM   1475  CD2 LEU A1003     -37.502 -10.239  98.054  0.00  0.00           C 0
+ATOM   2013   CB ILE A1102     -35.711 -10.369  92.946  0.00  0.00           C 0
+ATOM   2038   CA GLN A 313     -30.827 -13.493 100.141  0.00  0.00           C 0
+ATOM   2041   CB GLN A 313     -29.506 -13.686  99.398  0.00  0.00           C 0
+ATOM   2034   CA GLY A1106     -33.989 -11.547  99.105  0.00  0.00           C 0
+ATOM   1505   CB TRP A1007     -41.285 -10.710  92.963  0.00  0.00           C 0
+ATOM   1473   CG LEU A1003     -38.260  -9.007  97.578  0.00  0.00           C 0
+ATOM   1507  CD1 TRP A1007     -39.594 -12.061  91.615  0.00  0.00           C 0
+ATOM   1506   CG TRP A1007     -40.846 -11.843  92.103  0.00  0.00           C 0
+ATOM   1508  CD2 TRP A1007     -41.658 -12.933  91.636  0.00  0.00           C 0
+ATOM   1477   CA GLU A1004     -42.810 -10.724  96.894  0.00  0.00           C 0
+ATOM   1481   CG GLU A1004     -42.440 -12.719  98.423  0.00  0.00           C 0
+ATOM   1511  CE3 TRP A1007     -43.012 -13.260  91.752  0.00  0.00           C 0
+ATOM   1471    O LEU A1003     -41.198  -8.611  95.887  0.49  1.07           O 0
+ATOM   1480   CB GLU A1004     -43.443 -11.765  97.806  0.00  0.00           C 0
+TER
+END

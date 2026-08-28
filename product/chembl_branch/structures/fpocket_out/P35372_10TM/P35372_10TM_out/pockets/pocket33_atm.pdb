@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    33:
+HEADER 0  - Pocket Score                      : -0.1264
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    26
+HEADER 3  - Mean alpha-sphere radius          : 3.9375
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5530
+HEADER 5  - Mean B-factor of pocket residues  : 0.4989
+HEADER 6  - Hydrophobicity Score              : -20.3333
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 351.8724
+HEADER 10 - Pocket volume (convex hull)       : 28.9088
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.1538
+ATOM   3194  CG2 THR F 182     130.417 111.527 134.302  0.00  0.00           C 0
+ATOM   3159   CA ASP F 179     127.703 113.622 137.430  0.00  0.00           C 0
+ATOM   3161    O ASP F 179     129.435 114.600 136.086  0.49  3.21           O 0
+ATOM   3164  OD1 ASP F 179     124.819 112.951 136.910  0.00  0.00           O 0
+ATOM   3162   CB ASP F 179     126.483 114.547 137.547  0.00  0.00           C 0
+ATOM   1257  CE1 HIS R 225     124.589 116.030 128.647  0.00  0.00           C 0
+ATOM   1258  NE2 HIS R 225     125.521 116.842 128.197  0.75  7.66           N 0
+ATOM   3211  NH1 ARG F 184     129.204 117.489 128.831  0.38  7.66           N 0
+ATOM   3208   CD ARG F 184     130.793 115.452 127.634  0.00  0.00           C 0
+ATOM   3193  OG1 THR F 182     131.194 113.631 133.438  0.52  5.36           O 0
+ATOM   3217   CB ASN F 185     132.315 117.071 133.816  0.00  0.00           C 0
+ATOM   1264   CG PRO R 226     128.146 119.154 135.107  0.00  0.00           C 0
+ATOM   1254   CG HIS R 225     125.461 117.090 130.372  0.00  0.00           C 0
+ATOM   3206   CB ARG F 184     132.609 114.504 129.138  0.00  0.00           C 0
+ATOM   3192   CB THR F 182     131.559 112.260 133.621  0.00  0.00           C 0
+ATOM   1253   CB HIS R 225     125.659 117.465 131.804  0.00  0.00           C 0
+ATOM   1265   CD PRO R 226     127.267 119.477 133.942  0.00  0.00           C 0
+ATOM   1252    O HIS R 225     123.722 118.563 134.372  0.28  6.43           O 0
+ATOM   1255  ND1 HIS R 225     124.531 116.158 129.965  0.00  0.00           N 0
+ATOM   1256  CD2 HIS R 225     126.076 117.509 129.259  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   132:
+HEADER 0  - Pocket Score                      : -0.1282
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.0122
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5737
+HEADER 5  - Mean B-factor of pocket residues  : 0.7032
+HEADER 6  - Hydrophobicity Score              : -5.8333
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 296.7526
+HEADER 10 - Pocket volume (convex hull)       : 8.7170
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1176
+ATOM   1161   CG ASN A 177     188.231 162.015 133.475  0.00  0.00           C 0
+ATOM   7663   CA GLY B 321     183.015 166.020 136.721  0.00  0.00           C 0
+ATOM   1162  OD1 ASN A 177     187.047 162.249 133.234  0.00  0.00           O 0
+ATOM   1163  ND2 ASN A 177     188.628 161.391 134.579  0.38  9.84           N 0
+ATOM   1197  CG1 VAL A 182     187.009 166.541 130.038  0.00  0.00           C 0
+ATOM   1160   CB ASN A 177     189.322 162.435 132.509  0.00  0.00           C 0
+ATOM   7660   CG PRO B 320     185.346 169.970 136.650  0.00  0.00           C 0
+ATOM   7701  NH2 ARG B 324     184.198 164.582 132.222  0.74  5.47           N 0
+ATOM   7659   CB PRO B 320     184.307 170.200 135.600  0.00  0.00           C 0
+ATOM   7665    O GLY B 321     182.556 164.198 138.196  0.37  2.14           O 0
+ATOM   7709   CE LYS B 325     183.960 164.701 141.181  0.00  0.00           C 0
+ATOM   7694    O ARG B 324     183.258 160.856 138.085  0.52  7.50           O 0
+ATOM   7662    N GLY B 321     183.187 167.447 136.908  0.55  1.09           N 0
+ATOM   7657    C PRO B 320     182.680 168.323 136.043  0.00  0.00           C 0
+ATOM   7698   NE ARG B 324     184.095 162.587 133.364  0.63  1.09           N 0
+ATOM   7696   CG ARG B 324     182.672 161.595 135.115  0.00  0.00           C 0
+TER
+END

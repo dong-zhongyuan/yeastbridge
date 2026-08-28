@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    49:
+HEADER 0  - Pocket Score                      : -0.1028
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0102
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5060
+HEADER 5  - Mean B-factor of pocket residues  : 0.3961
+HEADER 6  - Hydrophobicity Score              : -9.5000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.6250
+HEADER 9  - Pocket volume (Monte Carlo)       : 180.5963
+HEADER 10 - Pocket volume (convex hull)       : 2.8411
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1875
+ATOM   6199    O ARG C 304     161.848 181.102 131.391  0.65  7.50           O 0
+ATOM   6192   CB ASP C 303     164.152 183.495 128.534  0.00  0.00           C 0
+ATOM   6211   CB ALA C 305     159.425 179.029 129.149  0.00  0.00           C 0
+ATOM   4179    O GLY C  41     156.297 181.912 128.796  0.28  5.36           O 0
+ATOM   6191    O ASP C 303     163.576 180.517 128.397  0.74  1.07           O 0
+ATOM   4166   CB PRO C  39     158.268 186.694 125.631  0.00  0.00           C 0
+ATOM   6157   CB ASP C 298     162.546 180.665 124.773  0.00  0.00           C 0
+ATOM   4169    N VAL C  40     157.423 183.746 124.466  0.69  2.19           N 0
+ATOM   4176    N GLY C  41     155.656 183.196 126.616  0.00  0.00           N 0
+ATOM   4173   CB VAL C  40     157.280 181.241 124.545  0.00  0.00           C 0
+ATOM   6160  OD2 ASP C 298     161.572 182.430 123.534  0.72  3.21           O 0
+ATOM   6180   CD LYS C 301     162.516 185.826 123.096  0.00  0.00           C 0
+ATOM   6195  OD2 ASP C 303     164.100 185.525 127.312  0.41  8.57           O 0
+TER
+END

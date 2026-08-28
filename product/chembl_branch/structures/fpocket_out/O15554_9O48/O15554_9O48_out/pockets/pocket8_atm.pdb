@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : 0.1018
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.0733
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5591
+HEADER 5  - Mean B-factor of pocket residues  : 0.4729
+HEADER 6  - Hydrophobicity Score              : 5.3333
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 351.9070
+HEADER 10 - Pocket volume (convex hull)       : 11.0161
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2778
+ATOM  12715  OD1 ASN E 112     164.057 191.561 119.072  0.00  0.00           O 0
+ATOM   2417   CB ALA A 424     167.777 189.972 118.531  0.00  0.00           C 0
+ATOM   2423   CG ARG A 425     169.064 189.005 123.664  0.00  0.00           C 0
+ATOM   2396    O GLU A 421     167.135 187.626 121.416  0.68  1.07           O 0
+ATOM   2451  OE1 GLN A 428     170.414 192.792 123.046  0.67  3.21           O 0
+ATOM  12697    O MET E 110     164.330 195.407 118.915  0.00  0.00           O 0
+ATOM  12711    C ASN E 112     161.797 192.241 120.837  0.00  0.00           C 0
+ATOM  12700   SD MET E 110     168.606 194.348 116.664  0.00  0.00           S 0
+ATOM  12698   CB MET E 110     166.419 196.053 116.746  0.00  0.00           C 0
+ATOM   2427  NH1 ARG A 425     166.306 187.341 125.357  0.00  0.00           N 1
+ATOM   2397   CB GLU A 421     163.962 187.608 121.503  0.00  0.00           C 0
+ATOM   2400  OE1 GLU A 421     161.753 187.328 123.093  0.79  5.36           O 0
+ATOM  12712    O ASN E 112     160.956 192.186 121.735  0.57  5.36           O 0
+ATOM   2449   CG GLN A 428     172.481 193.761 122.327  0.00  0.00           C 0
+ATOM   2450   CD GLN A 428     171.357 193.533 123.318  0.00  0.00           C 0
+ATOM   2448   CB GLN A 428     172.327 192.924 121.069  0.00  0.00           C 0
+ATOM  12695   CA MET E 110     165.597 194.785 116.988  0.00  0.00           C 0
+ATOM   2416    O ALA A 424     170.836 190.542 119.473  0.00  0.00           O 0
+TER
+END

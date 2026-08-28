@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     5:
+HEADER 0  - Pocket Score                      : 0.0790
+HEADER 1  - Drug Score                        : 0.0038
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0002
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6382
+HEADER 5  - Mean B-factor of pocket residues  : 0.1736
+HEADER 6  - Hydrophobicity Score              : 19.6667
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 205.6250
+HEADER 10 - Pocket volume (convex hull)       : 2.9564
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.8125
+ATOM   1542  CD2 LEU R 231     114.476 119.781 121.819  0.00  0.00           C 0
+ATOM   1509    O ARG R 227     113.148 120.393 117.386  0.00  0.00           O 0
+ATOM   1511   CG ARG R 227     108.577 120.827 117.058  0.00  0.00           C 0
+ATOM   1534   CB ALA R 230     114.050 123.695 118.065  0.00  0.00           C 0
+ATOM   3925  CE1 TYR A 360     108.620 114.414 120.968  0.00  0.00           C 0
+ATOM   3923  CD1 TYR A 360     108.919 114.840 122.244  0.00  0.00           C 0
+ATOM   1515  NH1 ARG R 227     105.163 118.634 118.501  0.56  1.09           N 0
+ATOM   4103  OD2 ASP A 381     104.739 116.259 120.542  0.80  5.36           O 0
+ATOM   1510   CB ARG R 227     109.880 120.078 116.846  0.00  0.00           C 0
+ATOM   1540   CG LEU R 231     114.376 119.145 120.440  0.00  0.00           C 0
+ATOM   1541  CD1 LEU R 231     113.688 117.789 120.513  0.00  0.00           C 0
+ATOM   1512   CD ARG R 227     107.514 119.886 117.603  0.00  0.00           C 0
+ATOM   4139  NH2 ARG A 385     109.125 115.973 117.749  0.89  2.19           N 0
+ATOM   1507   CA ARG R 227     111.041 120.931 116.336  0.00  0.00           C 0
+TER
+END

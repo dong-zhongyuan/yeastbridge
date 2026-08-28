@@ -1,0 +1,44 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    32:
+HEADER 0  - Pocket Score                      : -0.0737
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 4.0422
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6082
+HEADER 5  - Mean B-factor of pocket residues  : 0.2689
+HEADER 6  - Hydrophobicity Score              : 13.5556
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.1111
+HEADER 9  - Pocket volume (Monte Carlo)       : 463.8217
+HEADER 10 - Pocket volume (convex hull)       : 31.2820
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.3810
+ATOM   2891   NZ LYS B 127     -26.087  25.037  23.924  0.53  5.47           N 0
+ATOM   2450  CD2 LEU B  69     -23.556  21.075  20.729  0.00  0.00           C 0
+ATOM   2449  CD1 LEU B  69     -25.480  19.895  19.647  0.00  0.00           C 0
+ATOM   2890   CE LYS B 127     -24.688  25.287  23.479  0.00  0.00           C 0
+ATOM     66  OE1 GLN A  19     -25.553  21.640  13.825  0.00  9.64           O 0
+ATOM   2439   NE ARG B  68     -27.841  19.456  16.657  0.00  0.00           N 0
+ATOM   2558  OD2 ASP B  83     -25.125  19.580  16.090  0.00  0.00           O 0
+ATOM   2613  CG1 VAL B  90     -21.024  23.165  18.353  0.00  0.00           C 0
+ATOM     92   CB ALA A  22     -19.097  25.675  12.671  0.00  0.00           C 0
+ATOM     60   CA GLN A  19     -22.991  24.238  11.400  0.00  0.00           C 0
+ATOM     64   CG GLN A  19     -23.465  22.126  12.762  0.00  0.00           C 0
+ATOM     35  OE2 GLU A  15     -27.431  28.184  13.975  0.00  0.00           O 0
+ATOM     30    O GLU A  15     -26.479  25.165  11.094  0.77  2.14           O 0
+ATOM     31   CB GLU A  15     -28.982  26.535  12.341  0.00  0.00           C 0
+ATOM     34  OE1 GLU A  15     -29.194  28.959  15.028  0.00  0.00           O 0
+ATOM     57    O ALA A  18     -21.721  26.457  10.404  0.55  2.14           O 0
+ATOM     56    C ALA A  18     -22.930  26.330  10.174  0.00  0.00           C 0
+ATOM     58   CB ALA A  18     -24.400  28.363  10.199  0.00  0.00           C 0
+ATOM     63   CB GLN A  19     -24.042  23.305  12.001  0.00  0.00           C 0
+ATOM     59    N GLN A  19     -23.641  25.306  10.650  0.00  0.00           N 0
+ATOM   2614  CG2 VAL B  90     -21.682  20.960  17.371  0.00  0.00           C 0
+ATOM   2609   CA VAL B  90     -19.403  21.901  16.902  0.00  0.00           C 0
+TER
+END

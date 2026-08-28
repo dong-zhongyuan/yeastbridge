@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    42:
+HEADER 0  - Pocket Score                      : -0.1075
+HEADER 1  - Drug Score                        : 0.0024
+HEADER 2  - Number of alpha spheres           :    26
+HEADER 3  - Mean alpha-sphere radius          : 4.0983
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5701
+HEADER 5  - Mean B-factor of pocket residues  : 0.3393
+HEADER 6  - Hydrophobicity Score              : 39.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 206.2068
+HEADER 10 - Pocket volume (convex hull)       : 4.3585
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 24.0000
+HEADER 13 - Number of apolar alpha sphere     :    25
+HEADER 14 - Proportion of apolar alpha sphere : 0.9615
+ATOM   8463   CG LEU D 110     242.992 238.414 206.490  0.00  0.00           C 0
+ATOM   8701  CE1 TYR D 161     244.955 230.657 206.940  0.00  0.00           C 0
+ATOM   8496  CG2 VAL D 114     243.755 235.555 209.982  0.00  0.00           C 0
+ATOM   8465  CD2 LEU D 110     241.765 238.308 205.603  0.00  0.00           C 0
+ATOM   8494   CB VAL D 114     244.929 234.601 209.916  0.00  0.00           C 0
+ATOM   8495  CG1 VAL D 114     244.474 233.182 210.195  0.00  0.00           C 0
+ATOM   8699  CD1 TYR D 161     243.797 229.924 206.793  0.00  0.00           C 0
+ATOM   8700  CD2 TYR D 161     244.034 230.010 204.429  0.00  0.00           C 0
+ATOM   8698   CG TYR D 161     243.319 229.582 205.538  0.00  0.00           C 0
+ATOM   8703   CZ TYR D 161     245.648 231.063 205.824  0.00  0.00           C 0
+ATOM   8702  CE2 TYR D 161     245.193 230.742 204.567  0.00  0.00           C 0
+ATOM   8461    O LEU D 110     245.877 237.145 207.795  0.00  0.00           O 0
+ATOM   8467   CA GLU D 111     247.114 235.682 205.845  0.00  0.00           C 0
+ATOM   8471   CG GLU D 111     246.509 234.279 203.807  0.00  0.00           C 0
+ATOM   8442  NE2 GLN D 107     243.426 235.044 199.375  0.00  0.00           N 0
+ATOM   8439   CG GLN D 107     243.959 237.150 200.438  0.00  0.00           C 0
+ATOM   8474  OE2 GLU D 111     246.343 232.497 202.242  0.65  2.14           O 0
+ATOM   8437    O GLN D 107     246.276 237.887 202.912  0.00  0.00           O 0
+ATOM   8466    N GLU D 111     246.606 237.038 205.668  0.00  0.00           N 0
+TER
+END

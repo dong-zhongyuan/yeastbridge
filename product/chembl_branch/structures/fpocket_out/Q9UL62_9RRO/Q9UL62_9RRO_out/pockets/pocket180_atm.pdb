@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   180:
+HEADER 0  - Pocket Score                      : -0.2066
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.0612
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5347
+HEADER 5  - Mean B-factor of pocket residues  : 0.3005
+HEADER 6  - Hydrophobicity Score              : -12.2857
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 313.9270
+HEADER 10 - Pocket volume (convex hull)       : 8.4610
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2222
+ATOM   9816   CE LYS B 554     190.076 204.468 230.946  0.00  0.00           C 0
+ATOM   9943   CG GLU B 570     189.687 202.609 224.587  0.00  0.00           C 0
+ATOM   9812    O LYS B 554     192.075 199.385 229.734  0.40  7.50           O 0
+ATOM   9814   CG LYS B 554     189.739 202.002 231.176  0.00  0.00           C 0
+ATOM   4540  OE1 GLU A 595     197.317 201.804 228.476  0.00  0.00           O 0
+ATOM   9813   CB LYS B 554     190.704 201.119 231.943  0.00  0.00           C 0
+ATOM   9754   CB ALA B 546     192.126 202.437 235.346  0.00  0.00           C 0
+ATOM   4519   NE ARG A 593     196.756 197.705 233.431  0.72  5.47           N 0
+ATOM   9802  ND2 ASN B 552     194.636 199.769 238.326  0.00  0.00           N 0
+ATOM   9798    O ASN B 552     193.491 198.474 236.109  0.61  1.07           O 0
+ATOM   9809    N LYS B 554     191.486 198.834 232.424  0.71  2.19           N 0
+ATOM   9946  OE2 GLU B 570     190.945 200.588 224.582  0.53  9.64           O 0
+ATOM   4541  OE2 GLU A 595     197.646 200.024 229.715  0.83  3.21           O 0
+ATOM   4522  NH2 ARG A 593     195.753 197.327 231.407  0.45  2.19           N 0
+ATOM   4539   CD GLU A 595     198.026 201.111 229.234  0.00  0.00           C 0
+ATOM   9819   CA GLY B 555     190.002 199.060 227.898  0.00  0.00           C 0
+TER
+END

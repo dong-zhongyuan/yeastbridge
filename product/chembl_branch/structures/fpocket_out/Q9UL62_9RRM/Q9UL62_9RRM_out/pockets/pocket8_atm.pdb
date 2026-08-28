@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : 0.0290
+HEADER 1  - Drug Score                        : 0.0022
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9397
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5860
+HEADER 5  - Mean B-factor of pocket residues  : 0.2163
+HEADER 6  - Hydrophobicity Score              : 18.4000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 6.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 263.7115
+HEADER 10 - Pocket volume (convex hull)       : 6.8510
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.7333
+ATOM   7203  NE1 TRP B 225     135.011 149.764 175.679  0.00  0.00           N 0
+ATOM   7737   CE LYS B 295     134.665 142.458 174.781  0.00  0.00           C 0
+ATOM   7206  CZ2 TRP B 225     136.049 149.812 173.402  0.00  0.00           C 0
+ATOM   7204  CE2 TRP B 225     136.053 149.754 174.791  0.00  0.00           C 0
+ATOM   7735   CG LYS B 295     136.981 142.731 173.875  0.00  0.00           C 0
+ATOM   7733    O LYS B 295     138.791 144.988 173.278  0.50  4.29           O 0
+ATOM   7176   CB ARG B 222     135.190 146.867 182.437  0.00  0.00           C 0
+ATOM   7201  CD1 TRP B 225     135.514 149.676 176.952  0.00  0.00           C 0
+ATOM   7750   OH TYR B 296     134.457 144.367 178.557  0.43  6.43           O 0
+ATOM   7178   CD ARG B 222     133.559 145.011 182.140  0.00  0.00           C 0
+ATOM   7216  OE1 GLU B 226     132.533 152.108 182.580  0.00  9.64           O 0
+ATOM   7175    O ARG B 222     136.235 149.817 181.383  0.55  1.07           O 0
+ATOM   7213   CB GLU B 226     134.504 152.643 180.781  0.00  0.00           C 0
+ATOM   7747  CE1 TYR B 296     136.073 145.800 177.559  0.00  0.00           C 0
+ATOM   7745  CD1 TYR B 296     137.380 146.058 177.221  0.00  0.00           C 0
+TER
+END

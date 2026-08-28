@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    32:
+HEADER 0  - Pocket Score                      : -0.0286
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 3.8597
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5608
+HEADER 5  - Mean B-factor of pocket residues  : 0.1813
+HEADER 6  - Hydrophobicity Score              : 11.6000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 3.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 276.4485
+HEADER 10 - Pocket volume (convex hull)       : 12.1034
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.2400
+ATOM  13194   CA HIS C 502     143.226 114.951 140.699  0.00  0.00           C 0
+ATOM  13190    O SER C 501     144.404 115.055 138.168  0.00  0.00           O 0
+ATOM  13199  ND1 HIS C 502     140.500 113.366 139.850  0.61  5.47           N 0
+ATOM   8406   NZ LYS B 519     139.201 117.812 141.141  0.43  3.28           N 0
+ATOM   8404   CD LYS B 519     140.212 118.777 143.209  0.00  0.00           C 0
+ATOM  13229  CD2 LEU C 506     143.237 122.504 142.947  0.00  0.00           C 0
+ATOM  13227   CG LEU C 506     143.789 121.124 143.192  0.00  0.00           C 0
+ATOM   8381  OD2 ASP B 516     137.918 121.468 141.121  0.00  0.00           O 0
+ATOM  13196    O HIS C 502     143.569 117.213 141.394  0.60  4.29           O 0
+ATOM  13220   CG PRO C 505     146.073 118.474 137.690  0.00  0.00           C 0
+ATOM  13219   CB PRO C 505     146.040 119.896 138.075  0.00  0.00           C 0
+ATOM  13217    C PRO C 505     146.968 121.132 140.067  0.00  0.00           C 0
+ATOM  13222    N LEU C 506     146.280 120.817 141.168  0.00  0.00           N 0
+ATOM  13218    O PRO C 505     147.399 122.271 139.864  0.00  0.00           O 0
+ATOM  14221   OH TYR C 628     141.997 126.080 140.161  0.55  8.57           O 0
+ATOM  14274   CB ALA C 635     146.358 123.852 135.228  0.00  0.00           C 0
+ATOM  14248   CA ALA C 632     144.500 127.269 134.844  0.00  0.00           C 0
+ATOM  14251   CB ALA C 632     143.063 127.469 135.328  0.00  0.00           C 0
+ATOM  13252   OG SER C 509     146.668 126.636 140.088  0.00  0.00           O 0
+ATOM  13251   CB SER C 509     147.385 125.434 139.886  0.00  0.00           C 0
+TER
+END

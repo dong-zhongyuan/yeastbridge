@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     2:
+HEADER 0  - Pocket Score                      : 0.0426
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 4.0687
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5670
+HEADER 5  - Mean B-factor of pocket residues  : 0.4810
+HEADER 6  - Hydrophobicity Score              : 25.8750
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 371.6543
+HEADER 10 - Pocket volume (convex hull)       : 7.9363
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM    124  CD1 ILE N  30     114.893 114.091  85.586  0.00  0.00           C 0
+ATOM    430  ND2 ASN N  78     113.068 116.253  83.806  0.00  0.00           N 0
+ATOM    122  CG1 ILE N  30     114.638 113.414  86.909  0.00  0.00           C 0
+ATOM    120    O ILE N  30     114.044 114.108  89.779  0.46  6.43           O 0
+ATOM    128    O PHE N  31     115.257 117.430  90.996  0.35  5.36           O 0
+ATOM    137   CA ARG N  32     117.405 117.640  89.271  0.00  0.00           C 0
+ATOM    429  OD1 ASN N  78     113.926 118.225  83.163  0.64  7.50           O 0
+ATOM    141   CG ARG N  32     117.672 120.150  89.724  0.00  0.00           C 0
+ATOM    405   CB ASN N  75     114.418 123.350  82.133  0.00  0.00           C 0
+ATOM    262   OG SER N  55     119.367 123.802  85.381  0.75  4.29           O 0
+ATOM    143   NE ARG N  32     117.717 122.517  90.424  0.00  0.00           N 0
+ATOM    151   CB LEU N  33     118.479 117.602  84.592  0.00  0.00           C 0
+ATOM    150    O LEU N  33     119.555 120.171  86.006  0.51  1.07           O 0
+ATOM    392  NH2 ARG N  73     118.693 120.982  83.025  0.33  2.19           N 0
+ATOM    404    O ASN N  75     112.599 120.840  82.541  0.64  6.43           O 0
+ATOM    146  NH2 ARG N  32     118.227 124.650  89.765  0.00  0.00           N 0
+ATOM    407  OD1 ASN N  75     116.802 123.430  81.945  0.65  1.07           O 0
+ATOM    406   CG ASN N  75     115.727 123.967  81.683  0.00  0.00           C 0
+ATOM    260    O SER N  55     119.214 126.123  83.282  0.63  3.21           O 0
+ATOM    147    N LEU N  33     118.257 117.923  87.029  0.83  2.19           N 0
+TER
+END

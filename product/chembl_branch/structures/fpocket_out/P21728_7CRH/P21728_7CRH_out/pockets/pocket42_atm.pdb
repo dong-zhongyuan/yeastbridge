@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    42:
+HEADER 0  - Pocket Score                      : -0.1036
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.9989
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5606
+HEADER 5  - Mean B-factor of pocket residues  : 0.6589
+HEADER 6  - Hydrophobicity Score              : 14.8889
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.4444
+HEADER 9  - Pocket volume (Monte Carlo)       : 323.9604
+HEADER 10 - Pocket volume (convex hull)       : 21.3192
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2500
+ATOM   1987  OE1 GLU B  10     119.650 104.367 173.178  0.00  0.00           O 0
+ATOM   4592  OE2 GLU G  17     111.650 103.142 171.077  0.00  0.00           O 1
+ATOM   4617   CE LYS G  20     114.012  99.842 171.605  0.00  0.00           C 0
+ATOM   4618   NZ LYS G  20     115.356  99.446 172.110  0.62  5.47           N 1
+ATOM   1947   CB GLN B   6     121.538 110.438 173.475  0.00  0.00           C 0
+ATOM   1979  NE2 GLN B   9     124.308 106.795 172.625  0.81  6.56           N 0
+ATOM   1950  OE1 GLN B   6     121.375 110.557 176.230  0.00  0.00           O 0
+ATOM   1946    O GLN B   6     121.412 108.175 171.098  0.00  0.00           O 0
+ATOM   1952    N LEU B   7     119.762 109.699 170.925  0.00  0.00           N 0
+ATOM   1958  CD1 LEU B   7     115.105 108.767 170.194  0.00  0.00           C 0
+ATOM   4582  CG1 VAL G  16     114.128 105.359 168.522  0.00  0.00           C 0
+ATOM   1921    O GLU B   3     118.708 112.028 172.315  0.74  1.07           O 0
+ATOM   1957   CG LEU B   7     116.410 108.502 169.459  0.00  0.00           C 0
+ATOM   1953   CA LEU B   7     118.898 108.786 170.185  0.00  0.00           C 0
+ATOM   1956   CB LEU B   7     117.518 109.418 169.985  0.00  0.00           C 0
+ATOM   1945    C GLN B   6     120.987 109.321 171.296  0.00  0.00           C 0
+ATOM   4583  CG2 VAL G  16     116.356 104.295 168.112  0.00  0.00           C 0
+ATOM   1986   CD GLU B  10     119.928 103.259 172.673  0.00  0.00           C 0
+ATOM   1988  OE2 GLU B  10     119.521 102.174 173.141  0.62  5.36           O 1
+ATOM   2018  CD1 LEU B  14     118.479 100.344 168.261  0.00  0.00           C 0
+TER
+END

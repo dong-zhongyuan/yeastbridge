@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   132:
+HEADER 0  - Pocket Score                      : -0.0883
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.8814
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5337
+HEADER 5  - Mean B-factor of pocket residues  : 0.3760
+HEADER 6  - Hydrophobicity Score              : 19.1250
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.3750
+HEADER 9  - Pocket volume (Monte Carlo)       : 215.2198
+HEADER 10 - Pocket volume (convex hull)       : 3.2610
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.3889
+ATOM  22389  CG1 VAL K1182     203.062 206.863 208.665  0.00  0.00           C 0
+ATOM  22392   CA GLY K1183     206.886 209.317 209.719  0.00  0.00           C 0
+ATOM  20508  CD2 LEU K 640     207.374 203.222 207.713  0.00  0.00           C 0
+ATOM  22391    N GLY K1183     205.887 209.051 208.700  0.00  0.00           N 0
+ATOM  22418  CG1 ILE K1186     204.461 207.911 213.105  0.00  0.00           C 0
+ATOM  20526   OG SER K 643     203.370 199.382 208.692  0.50  4.29           O 0
+ATOM  20497   CB ASN K 639     208.151 198.959 211.077  0.00  0.00           C 0
+ATOM  20495    C ASN K 639     207.388 198.743 208.686  0.00  0.00           C 0
+ATOM  20498   CG ASN K 639     209.021 200.193 210.931  0.00  0.00           C 0
+ATOM  21438  OD1 ASP K 758     203.211 202.850 208.263  0.72  1.07           O 0
+ATOM  21435    O ASP K 758     201.804 203.818 210.664  0.39  8.57           O 0
+ATOM  21448    O GLU K 760     200.452 200.180 213.021  0.56  5.36           O 0
+ATOM  20496    O ASN K 639     206.208 198.446 208.462  0.00  0.00           O 0
+ATOM  20500  ND2 ASN K 639     209.463 200.739 212.057  0.50  8.75           N 0
+TER
+END

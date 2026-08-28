@@ -1,0 +1,43 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   141:
+HEADER 0  - Pocket Score                      : -0.2800
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    32
+HEADER 3  - Mean alpha-sphere radius          : 3.9552
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4712
+HEADER 5  - Mean B-factor of pocket residues  : 0.5217
+HEADER 6  - Hydrophobicity Score              : 3.5556
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 3.7778
+HEADER 9  - Pocket volume (Monte Carlo)       : 272.7658
+HEADER 10 - Pocket volume (convex hull)       : 17.1276
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.1562
+ATOM  10842    N SER F  81     257.191 226.412 242.614  0.00  6.56           N 0
+ATOM   8477    C ASN D  91     256.151 230.317 236.721  0.00  0.00           C 0
+ATOM   8483    N GLY D  92     256.303 231.319 237.589  0.36  3.28           N 0
+ATOM   8486    O GLY D  92     259.145 230.463 238.301  0.39  8.57           O 0
+ATOM   8476   CA ASN D  91     254.717 229.810 236.576  0.00  0.00           C 0
+ATOM   8470    O ASP D  90     253.079 231.634 237.852  0.00  0.00           O 0
+ATOM   8482  ND2 ASN D  91     253.191 226.592 235.719  0.22  7.66           N 0
+ATOM   8480   CG ASN D  91     253.273 227.916 235.731  0.00  0.00           C 0
+ATOM   8478    O ASN D  91     257.084 229.814 236.101  0.68  5.36           O 0
+ATOM  10847   OG SER F  81     259.358 225.265 241.011  0.00  9.64           O 0
+ATOM   5047  CD1 LEU B 345     256.828 223.691 236.068  0.00  0.00           C 0
+ATOM  10843   CA SER F  81     257.571 225.005 242.641  0.00  0.00           C 0
+ATOM   8479   CB ASN D  91     254.664 228.505 235.788  0.00  0.00           C 0
+ATOM   5066  CD1 ILE B 348     254.467 220.226 240.998  0.00  0.00           C 0
+ATOM  10848    N GLU F  82     256.316 224.995 244.718  0.17  1.09           N 0
+ATOM  10860  OE1 GLU F  83     254.960 221.552 244.964  0.67  1.07           O 0
+ATOM  10844    C SER F  81     257.244 224.377 243.992  0.00  0.00           C 0
+ATOM  10851    O GLU F  82     253.618 225.072 245.486  0.30  9.64           O 0
+ATOM   5100  NH1 ARG B 352     250.233 222.662 240.093  0.64  9.84           N 0
+ATOM   5065  CG2 ILE B 348     254.384 220.192 237.894  0.00  0.00           C 0
+ATOM   5101  NH2 ARG B 352     251.123 221.801 242.018  0.58  5.47           N 0
+TER
+END

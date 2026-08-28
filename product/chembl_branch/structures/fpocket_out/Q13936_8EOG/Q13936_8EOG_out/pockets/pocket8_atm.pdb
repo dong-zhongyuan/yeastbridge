@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : 0.0205
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.7114
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4599
+HEADER 5  - Mean B-factor of pocket residues  : 0.5804
+HEADER 6  - Hydrophobicity Score              : 55.6250
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 100.2260
+HEADER 10 - Pocket volume (convex hull)       : 2.0898
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.4000
+ATOM  12880  CG1 ILE K 971     214.342 191.389 150.084  0.00  0.00           C 0
+ATOM  13069    O LEU K 997     214.671 191.618 156.244  0.64  3.21           O 0
+ATOM  13096   CB LEU K1000     211.592 188.497 153.976  0.00  0.00           C 0
+ATOM  13075   CA ARG K 998     215.773 189.184 157.076  0.00  0.00           C 0
+ATOM  12882  CD1 ILE K 971     212.958 191.346 150.699  0.00  0.00           C 0
+ATOM  12878    O ILE K 971     218.044 191.493 151.080  0.63  2.14           O 0
+ATOM  12879   CB ILE K 971     215.191 192.570 150.549  0.00  0.00           C 0
+ATOM  12906  CD2 LEU K 974     218.021 193.148 154.755  0.00  0.00           C 0
+ATOM  12911   CB LEU K 975     219.826 188.590 152.555  0.00  0.00           C 0
+ATOM  13095    O LEU K1000     212.837 186.282 152.988  0.57  1.07           O 0
+ATOM  12914  CD2 LEU K 975     219.101 186.189 152.515  0.00  0.00           C 0
+ATOM  13078   CB ARG K 998     217.253 188.823 157.249  0.00  0.00           C 0
+ATOM  13133   NE ARG K1004     214.996 186.424 149.823  0.73  1.09           N 0
+ATOM  13136  NH2 ARG K1004     215.416 188.463 148.867  0.71  1.09           N 0
+ATOM  13077    O ARG K 998     215.125 186.900 156.775  0.54  1.07           O 0
+ATOM  13105   CG ARG K1001     215.818 184.315 154.486  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    31:
+HEADER 0  - Pocket Score                      : 0.0040
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.7912
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4400
+HEADER 5  - Mean B-factor of pocket residues  : 0.2213
+HEADER 6  - Hydrophobicity Score              : 25.2857
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 220.4062
+HEADER 10 - Pocket volume (convex hull)       : 4.4247
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0526
+ATOM   5406  NH2 ARG A  32     133.847 137.349 142.921  0.00  0.00           N 0
+ATOM   5683  NE2 HIS A 195     133.370 132.503 138.652  0.00  0.00           N 0
+ATOM   3879  OD1 ASP R 160     135.153 136.000 144.942  0.48  3.21           O 0
+ATOM   3880  OD2 ASP R 160     135.191 134.274 146.295  0.75  5.36           O 0
+ATOM   5661    O ASP A 193     135.922 130.048 141.973  0.55  3.21           O 0
+ATOM   5399    O ARG A  32     138.901 135.152 139.769  0.45  1.07           O 0
+ATOM   5672  CD1 LEU A 194     140.484 131.368 140.712  0.00  0.00           C 0
+ATOM   3871  CD1 LEU R 159     141.304 134.550 143.108  0.00  0.00           C 0
+ATOM   5400   CB ARG A  32     137.819 137.513 141.179  0.00  0.00           C 0
+ATOM   3869   CB LEU R 159     140.133 136.163 144.639  0.00  0.00           C 0
+ATOM   5681  CD2 HIS A 195     134.661 132.923 138.439  0.00  0.00           C 0
+ATOM   3844    O ILE R 156     139.658 133.342 146.087  0.56  2.14           O 0
+ATOM   3847  CG2 ILE R 156     139.283 130.211 144.807  0.00  0.00           C 0
+TER
+END

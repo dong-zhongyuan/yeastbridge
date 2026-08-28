@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : -0.0873
+HEADER 1  - Drug Score                        : 0.0070
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.7685
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5487
+HEADER 5  - Mean B-factor of pocket residues  : 0.5712
+HEADER 6  - Hydrophobicity Score              : 85.0000
+HEADER 7  - Polarity Score                    :     0
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 162.6303
+HEADER 10 - Pocket volume (convex hull)       : 6.6689
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 15.0000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM     89   CA ILE R  73     138.680 136.155 112.672  0.00  0.00           C 0
+ATOM     93  CG1 ILE R  73     139.383 137.382 110.591  0.00  0.00           C 0
+ATOM     80    C ALA R  72     138.982 133.754 112.715  0.00  0.00           C 0
+ATOM     88    N ILE R  73     138.543 134.833 112.064  0.00  0.00           N 0
+ATOM     81    O ALA R  72     139.468 133.823 113.851  0.50  2.14           O 0
+ATOM    138  CD2 LEU R  76     143.112 137.271 115.263  0.00  0.00           C 0
+ATOM   4011  CG1 VAL R 318     144.081 136.853 108.294  0.00  0.00           C 0
+ATOM   4009    O VAL R 318     144.243 139.653 109.808  0.00  0.00           O 0
+ATOM   4078   CB PHE R 322     146.187 139.204 112.412  0.00  0.00           C 0
+ATOM   4080  CD1 PHE R 322     147.185 137.595 114.050  0.00  0.00           C 0
+ATOM   4079   CG PHE R 322     147.360 138.623 113.141  0.00  0.00           C 0
+ATOM   4012  CG2 VAL R 318     142.169 136.995 106.693  0.00  0.00           C 0
+ATOM     82   CB ALA R  72     139.947 132.259 110.951  0.00  0.00           C 0
+ATOM     33    O LEU R  69     137.795 134.526 109.183  0.38  1.07           O 0
+ATOM     31   CA LEU R  69     137.798 133.585 106.959  0.00  0.00           C 0
+TER
+END

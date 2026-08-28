@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : 0.0227
+HEADER 1  - Drug Score                        : 0.0013
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.5631
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4262
+HEADER 5  - Mean B-factor of pocket residues  : 0.2593
+HEADER 6  - Hydrophobicity Score              : 66.3333
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 64.1385
+HEADER 10 - Pocket volume (convex hull)       : 0.1075
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.8333
+ATOM   6484   CB GLN B 306     148.255 208.001 169.148  0.00  0.00           C 0
+ATOM   6498  CE2 PHE B 307     145.762 203.541 172.162  0.00  0.00           C 0
+ATOM   6497  CE1 PHE B 307     147.804 202.467 172.778  0.00  0.00           C 0
+ATOM   6499   CZ PHE B 307     146.605 203.047 173.137  0.00  0.00           C 0
+ATOM   6009   CG MET B 247     151.416 206.370 174.019  0.00  0.00           C 0
+ATOM   6008   CB MET B 247     150.556 205.977 175.207  0.00  0.00           C 0
+ATOM   6487  OE1 GLN B 306     147.819 209.711 171.414  0.86  2.14           O 0
+ATOM   6010   SD MET B 247     151.136 208.091 173.558  0.00  0.00           S 0
+ATOM   6495  CD1 PHE B 307     148.156 202.383 171.442  0.00  0.00           C 0
+ATOM   6496  CD2 PHE B 307     146.121 203.453 170.828  0.00  0.00           C 0
+ATOM   6494   CG PHE B 307     147.319 202.873 170.455  0.00  0.00           C 0
+ATOM   6523  CD1 LEU B 310     151.567 203.820 171.293  0.00  0.00           C 0
+ATOM   6345   OH TYR B 287     145.493 209.446 173.579  0.54  4.29           O 0
+ATOM   5978    O MET B 243     147.773 206.301 177.293  0.43  1.07           O 0
+ATOM   5980   CG MET B 243     144.757 207.289 175.955  0.00  0.00           C 0
+TER
+END

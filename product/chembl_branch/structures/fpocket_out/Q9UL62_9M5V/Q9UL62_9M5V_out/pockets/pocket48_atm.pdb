@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    48:
+HEADER 0  - Pocket Score                      : -0.0251
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.6467
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3749
+HEADER 5  - Mean B-factor of pocket residues  : 0.3558
+HEADER 6  - Hydrophobicity Score              : 30.2857
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 92.5395
+HEADER 10 - Pocket volume (convex hull)       : 0.7052
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.5625
+ATOM   6753  CE2 TYR B 155     144.349 183.204 126.560  0.00  0.00           C 0
+ATOM  10972   CG LYS B 722     147.319 190.025 126.967  0.00  0.00           C 0
+ATOM   6755   OH TYR B 155     142.961 184.570 127.935  0.34  4.29           O 0
+ATOM  10968   CA LYS B 722     147.544 189.004 129.302  0.00  0.00           C 0
+ATOM    543    O PRO A  68     146.568 186.934 122.818  0.52  9.64           O 0
+ATOM    550    O LEU A  69     150.739 186.620 123.798  0.50  1.07           O 0
+ATOM  11004  CG1 VAL B 725     148.355 183.414 127.955  0.00  0.00           C 0
+ATOM    216  OE2 GLU A  26     143.400 189.536 125.420  0.27  6.43           O 0
+ATOM  10965  CG1 VAL B 721     143.972 186.956 131.150  0.00  0.00           C 0
+ATOM    548   CA LEU A  69     148.914 185.462 122.791  0.00  0.00           C 0
+ATOM  10970    O LYS B 722     149.672 187.873 129.218  0.44  1.07           O 0
+ATOM  11003   CB VAL B 725     148.218 184.343 129.148  0.00  0.00           C 0
+ATOM  11005  CG2 VAL B 725     146.896 184.102 129.856  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    20:
+HEADER 0  - Pocket Score                      : 0.0511
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.5952
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4521
+HEADER 5  - Mean B-factor of pocket residues  : 0.2280
+HEADER 6  - Hydrophobicity Score              : 25.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 174.5306
+HEADER 10 - Pocket volume (convex hull)       : 2.1022
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   2798    C HIS A 188      89.893  84.571  87.408  0.00  0.00           C 0
+ATOM   2822  OG1 THR A 190      88.757  85.632  93.014  0.00  0.00           O 0
+ATOM   2800   CB HIS A 188      89.485  86.873  86.533  0.00  0.00           C 0
+ATOM   2799    O HIS A 188      88.833  84.004  87.121  0.42  9.64           O 0
+ATOM   2864   CB HIS A 195      92.141  88.507  92.986  0.00  0.00           C 0
+ATOM   2873    O PHE A 196      93.235  85.689  88.565  0.72  1.07           O 0
+ATOM   2866  ND1 HIS A 195      89.643  88.360  93.307  0.60  5.47           N 0
+ATOM   2807   CA PHE A 189      90.087  83.283  89.432  0.00  0.00           C 0
+ATOM   2817    N THR A 190      89.723  83.252  91.820  0.59  4.37           N 0
+ATOM   2806    N PHE A 189      90.607  84.271  88.493  0.73  2.19           N 0
+ATOM   2809    O PHE A 189      91.641  84.151  91.048  0.00  0.00           O 0
+ATOM   2593  OE2 GLU A  33      91.342  92.255  91.231  0.46  8.57           O 0
+ATOM   2592  OE1 GLU A  33      92.994  92.176  89.791  0.00  0.00           O 0
+ATOM   2591   CD GLU A  33      92.552  92.116  90.955  0.00  0.00           C 0
+ATOM   2802  ND1 HIS A 188      90.943  88.886  86.100  0.38  2.19           N 0
+ATOM   2886   CG LYS A 197      94.010  89.482  87.343  0.00  0.00           C 0
+TER
+END

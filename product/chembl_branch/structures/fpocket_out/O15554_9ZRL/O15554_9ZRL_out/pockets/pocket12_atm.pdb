@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    12:
+HEADER 0  - Pocket Score                      : -0.0536
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.6491
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5518
+HEADER 5  - Mean B-factor of pocket residues  : 0.4337
+HEADER 6  - Hydrophobicity Score              : 21.8333
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 204.1443
+HEADER 10 - Pocket volume (convex hull)       : 4.8369
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.4444
+ATOM    148  CE2 TRP A  28     219.218 171.454 202.316  0.00  0.00           C 0
+ATOM    152  CH2 TRP A  28     218.335 170.417 204.241  0.00  0.00           C 0
+ATOM    172  CG2 VAL A  31     218.314 176.165 206.468  0.00  0.00           C 0
+ATOM    150  CZ2 TRP A  28     218.289 170.588 202.885  0.00  0.00           C 0
+ATOM    151  CZ3 TRP A  28     219.279 171.083 205.030  0.00  0.00           C 0
+ATOM    146  CD2 TRP A  28     220.180 172.139 203.083  0.00  0.00           C 0
+ATOM    149  CE3 TRP A  28     220.202 171.943 204.466  0.00  0.00           C 0
+ATOM    138    O GLY A  27     220.021 177.437 202.336  0.32  4.29           O 0
+ATOM    147  NE1 TRP A  28     219.405 171.813 201.007  0.00  0.00           N 0
+ATOM   1090  NH1 ARG A 170     216.082 178.404 197.031  0.00  0.00           N 0
+ATOM   1091  NH2 ARG A 170     217.842 178.700 198.463  0.48  3.28           N 0
+ATOM    121   OG SER A  24     220.017 172.890 196.117  0.00  0.00           O 0
+ATOM    145  CD1 TRP A  28     220.452 172.699 200.934  0.00  0.00           C 0
+ATOM    144   CG TRP A  28     220.957 172.933 202.178  0.00  0.00           C 0
+ATOM    137    C GLY A  27     220.928 177.158 201.546  0.00  0.00           C 0
+ATOM    136   CA GLY A  27     221.132 178.012 200.315  0.00  0.00           C 0
+ATOM    117   CA SER A  24     221.888 174.378 196.536  0.00  0.00           C 0
+ATOM    110    O LYS A  23     221.860 177.115 196.684  0.00  0.00           O 0
+ATOM    112   CG LYS A  23     219.825 177.732 194.174  0.00  0.00           C 0
+ATOM    114   CE LYS A  23     217.681 177.201 192.989  0.00  0.00           C 0
+TER
+END

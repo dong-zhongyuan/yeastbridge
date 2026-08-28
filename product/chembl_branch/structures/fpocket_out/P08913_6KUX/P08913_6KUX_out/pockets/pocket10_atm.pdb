@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : -0.0415
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.1654
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7271
+HEADER 5  - Mean B-factor of pocket residues  : 0.1620
+HEADER 6  - Hydrophobicity Score              : 14.4000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 203.7984
+HEADER 10 - Pocket volume (convex hull)       : 2.0363
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.4667
+ATOM   2040  OD1 ASN A1080     -18.783 -47.172 -78.971  1.00  2.14           O 0
+ATOM   2039   CG ASN A1080     -18.768 -47.273 -80.198  0.00  0.00           C 0
+ATOM   2037    O ASN A1080     -17.614 -51.269 -81.169  0.50  7.50           O 0
+ATOM   1636   NZ LYS A1027     -22.835 -46.732 -77.728  0.00  0.00           N 0
+ATOM   2038   CB ASN A1080     -17.794 -48.205 -80.891  0.00  0.00           C 0
+ATOM   2041  ND2 ASN A1080     -19.592 -46.588 -80.982  0.00  0.00           N 0
+ATOM   1634   CD LYS A1027     -20.848 -46.935 -76.222  0.00  0.00           C 0
+ATOM   1604    C ALA A1023     -18.141 -51.082 -73.165  0.00  0.00           C 0
+ATOM   1607    N ALA A1024     -19.219 -51.588 -72.561  0.72  2.19           N 0
+ATOM   1608   CA ALA A1024     -20.350 -50.727 -72.231  0.00  0.00           C 0
+ATOM   1605    O ALA A1023     -18.038 -49.879 -73.429  0.63  1.07           O 0
+ATOM   1606   CB ALA A1023     -17.131 -52.458 -74.998  0.00  0.00           C 0
+ATOM   2032    O ALA A1079     -16.062 -50.476 -77.780  0.00  0.00           O 0
+ATOM   2035   CA ASN A1080     -17.217 -49.260 -79.946  0.00  0.00           C 0
+TER
+END

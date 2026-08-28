@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : 0.0727
+HEADER 1  - Drug Score                        : 0.0008
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.4820
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3110
+HEADER 5  - Mean B-factor of pocket residues  : 0.1461
+HEADER 6  - Hydrophobicity Score              : 54.2222
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 139.3790
+HEADER 10 - Pocket volume (convex hull)       : 7.5237
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2222
+ATOM   2165    O LEU R 337     139.745 106.042 107.384  0.71  2.14           O 0
+ATOM   2212  OD1 ASP R 342     136.306 104.898 102.801  0.44  3.21           O 0
+ATOM   1743   CE MET R 283     139.618 101.949 106.599  0.00  0.00           C 0
+ATOM    801  NH2 ARG R 167     133.502 104.933 105.864  0.59  1.09           N 0
+ATOM    800  NH1 ARG R 167     133.423 103.335 107.509  0.62  8.75           N 0
+ATOM   1750  CG2 VAL R 284     134.274  97.809 109.653  0.00  0.00           C 0
+ATOM   1525   CE MET R 257     130.420  98.302 106.764  0.00  0.00           C 0
+ATOM   4113  CD1 LEU A 353     132.969  98.686 104.036  0.00  0.00           C 0
+ATOM   1740   CB MET R 283     138.792  99.126 107.580  0.00  0.00           C 0
+ATOM   4114  CD2 LEU A 353     135.123  99.944 104.086  0.00  0.00           C 0
+ATOM   1744    N VAL R 284     137.194  98.383 110.158  0.00  0.00           N 0
+ATOM   1772  CG2 VAL R 287     137.297 103.326 110.981  0.00  0.00           C 0
+ATOM   1738    C MET R 283     138.238  99.206 110.015  0.00  0.00           C 0
+ATOM   1745   CA VAL R 284     136.127  98.643 111.128  0.00  0.00           C 0
+ATOM   1739    O MET R 283     138.367 100.250 110.672  0.00  0.00           O 0
+ATOM   2176  CD1 TYR R 338     135.135 107.535 108.263  0.00  0.00           C 0
+TER
+END

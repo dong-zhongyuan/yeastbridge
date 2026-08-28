@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : 0.0282
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.5044
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3399
+HEADER 5  - Mean B-factor of pocket residues  : 0.3225
+HEADER 6  - Hydrophobicity Score              : 36.7500
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 82.6907
+HEADER 10 - Pocket volume (convex hull)       : 0.2881
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0667
+ATOM   8040    O LEU R 287      88.269 106.320  94.853  0.47  1.07           O 0
+ATOM   6683  NH1 ARG R 116      92.564 107.984  92.139  0.58  4.37           N 0
+ATOM   8071   CB LEU R 291      86.678 104.446  92.498  0.00  0.00           C 0
+ATOM   1857    O TYR A 391      89.741 105.980  88.076  0.47  5.36           O 0
+ATOM   8073  CD1 LEU R 291      85.837 106.790  92.796  0.00  0.00           C 0
+ATOM   7635  CG2 THR R 235      86.721 108.638  89.194  0.00  0.00           C 0
+ATOM   7660  CG2 VAL R 239      88.895 110.662  92.833  0.00  0.00           C 0
+ATOM   6684  NH2 ARG R 116      92.879 105.944  93.138  0.54  4.37           N 0
+ATOM   8070    O LEU R 291      87.732 102.332  90.717  0.76  1.07           O 0
+ATOM   8069    C LEU R 291      87.665 102.228  91.945  0.00  0.00           C 0
+ATOM   8076   CA ASN R 292      89.619 100.766  92.009  0.00  0.00           C 0
+ATOM   8075    N ASN R 292      88.548 101.523  92.646  0.00  0.00           N 0
+ATOM   1848    O GLN A 390      91.367 101.761  88.400  0.00  0.00           O 0
+ATOM   8079   CB ASN R 292      90.871 100.764  92.881  0.00  0.00           C 0
+ATOM   1855   CA TYR A 391      91.590 104.485  87.876  0.00  0.00           C 0
+TER
+END

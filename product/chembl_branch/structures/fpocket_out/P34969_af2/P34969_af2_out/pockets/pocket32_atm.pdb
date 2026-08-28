@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    32:
+HEADER 0  - Pocket Score                      : -0.1547
+HEADER 1  - Drug Score                        : 0.0040
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9531
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5718
+HEADER 5  - Mean B-factor of pocket residues  : 0.9452
+HEADER 6  - Hydrophobicity Score              : 81.8333
+HEADER 7  - Polarity Score                    :     0
+HEADER 8  - Amino Acid based volume Score     : 4.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 222.8910
+HEADER 10 - Pocket volume (convex hull)       : 4.5547
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM   1166  CG1 VAL A 157      -6.667 -15.904  13.197  0.00  0.00           C 0
+ATOM   1146   CZ PHE A 154     -11.717 -15.397  10.597  0.00  0.00           C 0
+ATOM   1145  CE2 PHE A 154     -11.002 -16.408  11.260  0.00  0.00           C 0
+ATOM   1169   CA PHE A 158      -8.640 -11.560  13.013  0.00  0.00           C 0
+ATOM   1198   SD MET A 161      -3.191 -12.665   8.479  0.00  0.00           S 0
+ATOM   1197   CG MET A 161      -4.786 -11.909   8.903  0.00  0.00           C 0
+ATOM   1199   CE MET A 161      -3.434 -12.826   6.696  0.00  0.00           C 0
+ATOM    975   CB ALA A 133      -7.065 -12.833   5.819  0.00  0.00           C 0
+ATOM    976    O ALA A 133      -9.536 -11.824   7.322  0.56  5.36           O 0
+ATOM   1008  CE2 PHE A 137     -12.197 -13.895   6.943  0.00  0.00           C 0
+ATOM   1009   CZ PHE A 137     -12.998 -15.017   7.219  0.00  0.00           C 0
+ATOM   1195   CB MET A 161      -5.016 -11.704  10.402  0.00  0.00           C 0
+ATOM   1165    O VAL A 157      -6.079 -12.705  13.392  0.41  1.07           O 0
+TER
+END

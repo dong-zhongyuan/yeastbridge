@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    26:
+HEADER 0  - Pocket Score                      : -0.0129
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9750
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5733
+HEADER 5  - Mean B-factor of pocket residues  : 0.2319
+HEADER 6  - Hydrophobicity Score              : 7.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.4444
+HEADER 9  - Pocket volume (Monte Carlo)       : 359.8267
+HEADER 10 - Pocket volume (convex hull)       : 25.7541
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1875
+ATOM   5829    O ARG C 304     141.604  98.595  97.894  0.75  3.21           O 0
+ATOM   5839    C ALA C 305     140.342 101.816  97.084  0.00  0.00           C 0
+ATOM   5842    N GLY C 306     139.075 101.743  97.471  0.00  0.00           N 0
+ATOM   5840    O ALA C 305     141.076 102.758  97.403  0.71  3.21           O 0
+ATOM   5843   CA GLY C 306     138.490 102.814  98.255  0.00  0.00           C 0
+ATOM   5832   CD ARG C 304     137.558  97.619 100.322  0.00  0.00           C 0
+ATOM   5844    C GLY C 306     137.063 102.488  98.626  0.00  0.00           C 0
+ATOM   5851  CG1 VAL C 307     135.822 103.326 102.172  0.00  0.00           C 0
+ATOM   5850   CB VAL C 307     135.052 102.546 101.117  0.00  0.00           C 0
+ATOM   5835  NH1 ARG C 304     136.989  96.747 102.967  0.50  7.66           N 0
+ATOM   5852  CG2 VAL C 307     133.629 102.261 101.578  0.00  0.00           C 0
+ATOM   5566  CG1 ILE C 269     132.534  92.979 102.245  0.00  0.00           C 0
+ATOM   5728  OD2 ASP C 291     128.720  95.369 104.585  0.00  0.00           O 0
+ATOM   5556    O ASN C 268     132.042  92.320 106.245  0.12  7.50           O 0
+ATOM   5557   CB ASN C 268     134.918  92.220 106.597  0.00  0.00           C 0
+ATOM   5836  NH2 ARG C 304     137.069  94.564 102.283  0.87  3.28           N 0
+ATOM   5747  ND2 ASN C 293     130.566 100.731 104.252  0.38  5.47           N 0
+ATOM   5761  ND2 ASN C 295     132.761  97.244  99.946  0.64  4.37           N 0
+ATOM   5746  OD1 ASN C 293     129.431  99.844 102.531  0.68  1.07           O 0
+ATOM   5760  OD1 ASN C 295     133.721  99.259 100.178  0.63  2.14           O 0
+TER
+END

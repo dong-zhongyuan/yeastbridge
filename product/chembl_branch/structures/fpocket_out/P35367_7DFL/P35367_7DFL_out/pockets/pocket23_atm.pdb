@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    23:
+HEADER 0  - Pocket Score                      : 0.0402
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 3.9316
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4459
+HEADER 5  - Mean B-factor of pocket residues  : 0.0664
+HEADER 6  - Hydrophobicity Score              : -2.7778
+HEADER 7  - Polarity Score                    :     9
+HEADER 8  - Amino Acid based volume Score     : 4.5556
+HEADER 9  - Pocket volume (Monte Carlo)       : 210.8814
+HEADER 10 - Pocket volume (convex hull)       : 6.9258
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.0870
+ATOM   2679    O ARG B  52     145.428 133.993 117.147  0.00  0.00           O 0
+ATOM   2962  OG1 THR B  87     141.388 128.465 113.829  0.00  0.00           O 0
+ATOM   5461  OD2 ASP A  20     148.408 130.415 117.975  0.00  8.57           O 1
+ATOM   2681   CG ARG B  52     143.030 133.495 119.432  0.00  0.00           C 0
+ATOM   2676    N ARG B  52     142.870 134.899 116.894  0.45  1.09           N 0
+ATOM   2664    O THR B  50     139.919 133.273 116.717  0.20  5.36           O 0
+ATOM   5427   CB SER A  16     148.576 127.411 112.877  0.00  0.00           C 0
+ATOM   5435   CD LYS A  17     148.781 125.214 118.071  0.00  0.00           C 0
+ATOM   5437   NZ LYS A  17     146.525 125.463 119.099  0.68  7.66           N 1
+ATOM   5436   CE LYS A  17     147.381 124.638 118.205  0.00  0.00           C 0
+ATOM   2970  OD1 ASN B  88     144.836 125.964 112.291  0.44  3.21           O 0
+ATOM   5425    C SER A  16     150.505 127.483 114.465  0.00  0.00           C 0
+ATOM   2960    O THR B  87     143.837 130.299 112.706  0.60  2.14           O 0
+ATOM   2922  CZ3 TRP B  82     144.765 133.907 113.681  0.00  0.00           C 0
+ATOM   2980   NZ LYS B  89     147.597 132.887 115.613  0.50  2.19           N 1
+ATOM   2972    N LYS B  89     146.825 130.148 111.112  0.00  0.00           N 0
+ATOM   2961   CB THR B  87     141.106 129.779 113.343  0.00  0.00           C 0
+TER
+END

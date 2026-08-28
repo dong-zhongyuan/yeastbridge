@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    24:
+HEADER 0  - Pocket Score                      : 0.0002
+HEADER 1  - Drug Score                        : 0.0076
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9520
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7059
+HEADER 5  - Mean B-factor of pocket residues  : 0.1335
+HEADER 6  - Hydrophobicity Score              : 75.8333
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 285.1378
+HEADER 10 - Pocket volume (convex hull)       : 7.7871
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 11.5385
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.7222
+ATOM   3156  CD2 PHE B  59     182.744 179.096 233.708  0.00  0.00           C 0
+ATOM   3160    N LEU B  60     182.049 183.238 232.081  0.00  0.00           N 0
+ATOM   3161   CA LEU B  60     181.283 183.298 230.840  0.00  0.00           C 0
+ATOM   3127  CD1 LEU B  56     178.422 181.740 235.849  0.00  0.00           C 0
+ATOM   3166  CD1 LEU B  60     177.560 183.872 230.479  0.00  0.00           C 0
+ATOM   3188   CB CYS B  63     183.182 179.870 228.637  0.00  0.00           C 0
+ATOM   3189   SG CYS B  63     182.563 178.327 227.932  0.00  0.00           S 0
+ATOM   3164   CB LEU B  60     179.981 184.067 231.069  0.00  0.00           C 0
+ATOM   3152    O PHE B  59     183.340 181.556 231.326  0.00  0.00           O 0
+ATOM   3163    O LEU B  60     182.093 183.430 228.582  0.00  0.00           O 0
+ATOM   3165   CG LEU B  60     178.960 184.087 229.932  0.00  0.00           C 0
+ATOM   3195  OG1 THR B  64     181.090 183.789 226.058  0.39  3.21           O 0
+ATOM   3190    N THR B  64     183.287 182.118 226.232  0.00  0.00           N 0
+ATOM   3191   CA THR B  64     182.787 182.504 224.914  0.00  0.00           C 0
+ATOM   3187    O CYS B  63     183.765 180.022 225.557  0.00  0.00           O 0
+ATOM   3186    C CYS B  63     183.754 180.885 226.440  0.00  0.00           C 0
+ATOM   3216  CG1 ILE B  67     181.577 178.273 222.624  0.00  0.00           C 0
+ATOM   3196  CG2 THR B  64     181.347 184.164 223.702  0.00  0.00           C 0
+ATOM   3217  CG2 ILE B  67     180.766 179.126 220.415  0.00  0.00           C 0
+ATOM   3215   CB ILE B  67     181.834 179.262 221.486  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : -0.1181
+HEADER 1  - Drug Score                        : 0.0028
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.8354
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6665
+HEADER 5  - Mean B-factor of pocket residues  : 0.5277
+HEADER 6  - Hydrophobicity Score              : -9.4000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 229.0714
+HEADER 10 - Pocket volume (convex hull)       : 4.3731
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.6250
+ATOM   1610   CB PRO R 126      81.677  63.680 101.559  0.00  0.00           C 0
+ATOM   1597   CA GLU R 124      87.298  62.302  98.994  0.00  0.00           C 0
+ATOM   1598    C GLU R 124      86.942  62.096 100.462  0.00  0.00           C 0
+ATOM   1600   CB GLU R 124      87.375  60.954  98.273  0.00  0.00           C 0
+ATOM   1606    N PRO R 126      83.935  63.626 102.235  0.75  1.09           N 0
+ATOM   1473    C ASN R  99      87.096  57.145 101.152  0.00  0.00           C 0
+ATOM   1481    N SER R 101      84.619  57.904 103.290  0.84  1.09           N 0
+ATOM   1472   CA ASN R  99      87.487  57.510  99.722  0.00  0.00           C 0
+ATOM   1485   CB SER R 101      82.271  57.630 102.653  0.00  0.00           C 0
+ATOM   1474    O ASN R  99      86.545  56.075 101.417  0.00  3.21           O 0
+ATOM   1475   CB ASN R  99      87.531  56.267  98.830  0.00  0.00           C 0
+ATOM   1717    O TYR R 148      83.560  67.012 100.219  0.45  2.14           O 0
+ATOM   1718   CB TYR R 148      85.266  67.331  98.065  0.00  0.00           C 0
+ATOM   1599    O GLU R 124      86.872  60.957 100.936  0.86  1.07           O 0
+ATOM   1482   CA SER R 101      83.287  58.491 103.406  0.00  0.00           C 0
+TER
+END

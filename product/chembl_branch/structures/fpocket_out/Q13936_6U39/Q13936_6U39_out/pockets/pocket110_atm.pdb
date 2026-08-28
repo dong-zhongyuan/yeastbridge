@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   110:
+HEADER 0  - Pocket Score                      : -0.1445
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    26
+HEADER 3  - Mean alpha-sphere radius          : 3.8957
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5036
+HEADER 5  - Mean B-factor of pocket residues  : 0.4279
+HEADER 6  - Hydrophobicity Score              : 10.1429
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 194.8734
+HEADER 10 - Pocket volume (convex hull)       : 4.5850
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.3077
+ATOM  10510   CA GLN S  41      48.328 -14.271   8.539  0.00  0.00           C 0
+ATOM  10513   CB GLN S  41      48.827 -13.538   9.782  0.00  0.00           C 0
+ATOM  10816    O ARG S  90      52.003  -7.756   5.148  0.39  2.14           O 0
+ATOM  10819   CA VAL S  91      50.150  -7.646   7.147  0.00  0.00           C 0
+ATOM  10847    O LYS S  94      50.924 -11.264   1.003  0.57  7.50           O 0
+ATOM  10508    O GLY S  40      47.176 -14.829   6.097  0.53  6.43           O 0
+ATOM  10848   CB LYS S  94      47.815  -9.952   0.810  0.00  0.00           C 0
+ATOM  10845   CA LYS S  94      49.210  -9.614   1.338  0.00  0.00           C 0
+ATOM  10506   CA GLY S  40      45.497 -13.157   6.247  0.00  0.00           C 0
+ATOM  10500    O LEU S  39      46.128 -10.681   7.327  0.41  5.36           O 0
+ATOM  10507    C GLY S  40      46.694 -13.914   6.775  0.00  0.00           C 0
+ATOM  10821    O VAL S  91      48.398  -7.997   5.535  0.48  1.07           O 0
+ATOM  10839    O ASP S  93      51.381  -8.294   2.410  0.60  2.14           O 0
+ATOM  10509    N GLN S  41      47.193 -13.565   7.958  0.71  1.09           N 0
+ATOM  10824  CG2 VAL S  91      48.227  -8.352   8.625  0.00  0.00           C 0
+ATOM  10822   CB VAL S  91      49.592  -7.677   8.585  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    30:
+HEADER 0  - Pocket Score                      : -0.0543
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.7340
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5455
+HEADER 5  - Mean B-factor of pocket residues  : 0.4698
+HEADER 6  - Hydrophobicity Score              : -9.5000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.6250
+HEADER 9  - Pocket volume (Monte Carlo)       : 190.6590
+HEADER 10 - Pocket volume (convex hull)       : 4.1285
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.1905
+ATOM   2022   CB PRO B  39     163.275 163.052 108.576  0.00  0.00           C 0
+ATOM   2032    N GLY B  41     160.513 162.877 111.642  0.73  1.09           N 0
+ATOM   2035    O GLY B  41     160.343 160.419 113.224  0.51  7.50           O 0
+ATOM   2033   CA GLY B  41     161.078 162.681 112.975  0.00  0.00           C 0
+ATOM   4022  OD2 ASP B 298     159.771 160.589 106.280  0.00  0.00           O 1
+ATOM   4057  OD2 ASP B 303     165.262 157.587 107.637  0.70  7.50           O 1
+ATOM   2023   CG PRO B  39     164.358 164.043 108.826  0.00  0.00           C 0
+ATOM   4044   NZ LYS B 301     165.693 161.745 106.528  0.71  6.56           N 0
+ATOM   2031  CG2 VAL B  40     158.076 161.577 109.733  0.00  0.00           C 0
+ATOM   2025    N VAL B  40     160.066 163.569 109.024  0.00  0.00           N 0
+ATOM   4073   CB ALA B 305     157.391 158.161 111.222  0.00  0.00           C 0
+ATOM   4061    O ARG B 304     160.861 156.287 112.320  0.72  2.14           O 0
+ATOM   4070   CA ALA B 305     158.311 157.388 112.175  0.00  0.00           C 0
+ATOM   4053    O ASP B 303     160.203 155.519 108.482  0.00  0.00           O 0
+ATOM   4054   CB ASP B 303     163.351 156.453 108.486  0.00  0.00           C 0
+ATOM   4041   CG LYS B 301     163.606 159.677 105.633  0.00  0.00           C 0
+ATOM   4019   CB ASP B 298     158.949 158.376 106.593  0.00  0.00           C 0
+TER
+END

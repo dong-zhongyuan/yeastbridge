@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    65:
+HEADER 0  - Pocket Score                      : -0.0800
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0483
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6978
+HEADER 5  - Mean B-factor of pocket residues  : 0.4760
+HEADER 6  - Hydrophobicity Score              : 20.8000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 231.7618
+HEADER 10 - Pocket volume (convex hull)       : 6.9243
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.4000
+ATOM   6998   NE ARG A 338     170.177 158.301 138.382  0.61  4.37           N 0
+ATOM   7001  NH2 ARG A 338     171.826 159.875 138.694  0.57  2.19           N 0
+ATOM   6970   CB GLU A 335     171.309 162.167 136.954  0.00  0.00           C 0
+ATOM   6973  OE1 GLU A 335     171.415 164.098 138.874  0.00  0.00           O 0
+ATOM   6914  NE2 HIS A 327     167.654 166.621 135.284  0.75  4.37           N 0
+ATOM   6974  OE2 GLU A 335     171.221 165.804 137.507  0.52  9.64           O 1
+ATOM   6972   CD GLU A 335     171.293 164.577 137.728  0.00  0.00           C 0
+ATOM   6971   CG GLU A 335     171.235 163.630 136.549  0.00  0.00           C 0
+ATOM   6969    O GLU A 335     169.007 160.888 135.293  0.60  4.29           O 0
+ATOM   6993    C ARG A 338     165.684 158.784 135.205  0.00  0.00           C 0
+ATOM   6995   CB ARG A 338     167.798 158.164 136.387  0.00  0.00           C 0
+ATOM   7002    N PHE A 339     165.695 160.113 135.081  0.64  1.09           N 0
+ATOM   7035   CB ALA A 342     162.100 159.233 137.784  0.00  0.00           C 0
+ATOM   6912  CD2 HIS A 327     166.325 166.893 135.081  0.00  0.00           C 0
+ATOM   7006   CB PHE A 339     164.721 162.363 135.269  0.00  0.00           C 0
+ATOM   7008  CD1 PHE A 339     162.925 163.392 136.680  0.00  0.00           C 0
+ATOM   7003   CA PHE A 339     164.465 160.861 135.307  0.00  0.00           C 0
+TER
+END

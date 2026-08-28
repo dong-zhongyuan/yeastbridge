@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   311:
+HEADER 0  - Pocket Score                      : -0.2192
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.8955
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4800
+HEADER 5  - Mean B-factor of pocket residues  : 0.6866
+HEADER 6  - Hydrophobicity Score              : 15.4444
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 3.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 258.9582
+HEADER 10 - Pocket volume (convex hull)       : 5.9261
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.1905
+ATOM  23980    O SER C 385     199.595 189.533 217.443  0.67  2.14           O 0
+ATOM   4149  CD2 PHE B 540     197.573 190.046 221.060  0.00  0.00           C 0
+ATOM   4111  OD1 ASN B 536     195.548 187.215 217.562  0.59  1.07           O 0
+ATOM   4363    O SER B 566     195.471 185.647 220.805  0.57  2.14           O 0
+ATOM   4367   CA THR B 567     195.998 183.711 218.876  0.00  0.00           C 0
+ATOM  23990  OE1 GLN C 386     201.396 187.366 216.462  0.70  4.29           O 0
+ATOM   4372  CG2 THR B 567     197.123 182.687 220.874  0.00  0.00           C 0
+ATOM   4370   CB THR B 567     196.775 182.497 219.405  0.00  0.00           C 0
+ATOM  23999  CD2 HIS C 387     203.083 186.150 222.088  0.00  0.00           C 0
+ATOM  23992    N HIS C 387     202.647 189.275 220.782  0.69  2.19           N 0
+ATOM  23996   CB HIS C 387     202.545 188.484 223.096  0.00  0.00           C 0
+ATOM   4184  OE1 GLU B 543     196.788 185.381 224.428  0.26  7.50           O 0
+ATOM   4373    N LEU B 568     196.784 183.622 216.593  0.77  2.19           N 0
+ATOM  23991  NE2 GLN C 386     203.220 186.522 215.463  0.74  7.66           N 0
+ATOM   4377   CB LEU B 568     197.951 183.863 214.454  0.00  0.00           C 0
+ATOM   4112  ND2 ASN B 536     196.916 187.498 215.805  0.00  0.00           N 0
+TER
+END

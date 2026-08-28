@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    19:
+HEADER 0  - Pocket Score                      : -0.0090
+HEADER 1  - Drug Score                        : 0.0012
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.9120
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5470
+HEADER 5  - Mean B-factor of pocket residues  : 0.1507
+HEADER 6  - Hydrophobicity Score              : 5.4286
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 223.8275
+HEADER 10 - Pocket volume (convex hull)       : 5.2983
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.6842
+ATOM     10   CB ALA A  12      84.083 105.064 123.838  0.00  0.00           C 0
+ATOM     30   CG ARG A  15      82.038 109.725 119.982  0.00  0.00           C 0
+ATOM     29   CB ARG A  15      81.524 108.340 120.233  0.00  0.00           C 0
+ATOM     34  NH1 ARG A  15      81.849 111.905 122.552  0.61  8.75           N 0
+ATOM   2391  CG1 VAL B  90      87.177 112.493 122.419  0.00  0.00           C 0
+ATOM      4    O ALA A  11      80.128 105.761 122.940  0.74  9.64           O 0
+ATOM      7   CA ALA A  12      82.802 105.147 123.013  0.00  0.00           C 0
+ATOM      6    N ALA A  12      81.746 104.369 123.635  0.70  1.09           N 0
+ATOM   2373   CB ASN B  88      87.723 105.516 120.253  0.00  0.00           C 0
+ATOM   2392  CG2 VAL B  90      88.704 110.642 121.880  0.00  0.00           C 0
+ATOM   2336  OD2 ASP B  83      89.954 106.235 124.359  0.66  5.36           O 0
+ATOM   2333   CB ASP B  83      90.668 107.555 122.529  0.00  0.00           C 0
+ATOM   2387   CA VAL B  90      87.005 111.349 120.203  0.00  0.00           C 0
+ATOM      9    O ALA A  12      83.427 105.518 120.746  0.58  2.14           O 0
+ATOM   2380    O LYS B  89      85.954 109.415 118.591  0.76  2.14           O 0
+TER
+END

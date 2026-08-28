@@ -1,0 +1,48 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    17:
+HEADER 0  - Pocket Score                      : 0.0427
+HEADER 1  - Drug Score                        : 0.1429
+HEADER 2  - Number of alpha spheres           :    37
+HEADER 3  - Mean alpha-sphere radius          : 4.0236
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6249
+HEADER 5  - Mean B-factor of pocket residues  : 0.6779
+HEADER 6  - Hydrophobicity Score              : 62.1250
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 389.2113
+HEADER 10 - Pocket volume (convex hull)       : 20.7109
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 23.1200
+HEADER 13 - Number of apolar alpha sphere     :    25
+HEADER 14 - Proportion of apolar alpha sphere : 0.6757
+ATOM   1858   CB HIS A 321     130.090 136.178 182.015  0.00  0.00           C 0
+ATOM   1833  CG2 VAL A 318     123.904 136.540 181.618  0.00  0.00           C 0
+ATOM   1832  CG1 VAL A 318     124.916 137.590 179.597  0.00  0.00           C 0
+ATOM     46  CD1 ILE A  73     128.835 130.688 181.320  0.00  0.00           C 0
+ATOM   1830    O VAL A 318     127.789 138.633 180.445  0.62  1.07           O 0
+ATOM   1864    N PHE A 322     130.547 138.276 179.711  0.00  0.00           N 0
+ATOM   1868   CB PHE A 322     129.614 139.154 177.624  0.00  0.00           C 0
+ATOM   1828   CA VAL A 318     125.963 137.958 181.854  0.00  0.00           C 0
+ATOM   1865   CA PHE A 322     130.846 138.567 178.313  0.00  0.00           C 0
+ATOM   1870  CD1 PHE A 322     130.393 139.188 175.237  0.00  0.00           C 0
+ATOM     67  CD2 LEU A  76     132.644 131.491 175.681  0.00  0.00           C 0
+ATOM   1860  ND1 HIS A 321     130.216 135.586 184.465  0.71  1.09           N 0
+ATOM   1826   CB THR A 317     125.745 137.661 186.333  0.00  0.00           C 0
+ATOM   1824    C THR A 317     126.682 138.405 184.130  0.00  0.00           C 0
+ATOM   1827    N VAL A 318     125.691 138.342 183.237  0.00  0.00           N 0
+ATOM     44  CG1 ILE A  73     129.540 130.024 180.160  0.00  0.00           C 0
+ATOM   1893   CB ALA A 325     134.225 135.787 177.746  0.00  0.00           C 0
+ATOM   1859   CG HIS A 321     130.399 135.243 183.142  0.00  0.00           C 0
+ATOM   1825    O THR A 317     127.852 138.129 183.838  0.00  0.00           O 0
+ATOM   1857    O HIS A 321     132.528 137.261 180.050  0.00  0.00           O 0
+ATOM   1856    C HIS A 321     131.431 137.633 180.478  0.00  0.00           C 0
+ATOM   1861  CD2 HIS A 321     130.876 133.976 183.144  0.00  0.00           C 0
+ATOM     45  CG2 ILE A  73     131.893 130.284 180.989  0.00  0.00           C 0
+ATOM   1863  NE2 HIS A 321     130.974 133.582 184.456  0.95  2.19           N 0
+ATOM   1862  CE1 HIS A 321     130.569 134.571 185.233  0.00  0.00           C 0
+ATOM     76  CE1 TYR A  77     135.599 132.970 179.770  0.00  0.00           C 0
+TER
+END

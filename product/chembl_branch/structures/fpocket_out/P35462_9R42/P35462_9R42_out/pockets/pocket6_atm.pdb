@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : 0.0119
+HEADER 1  - Drug Score                        : 0.0008
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.6430
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3931
+HEADER 5  - Mean B-factor of pocket residues  : 0.2395
+HEADER 6  - Hydrophobicity Score              : 26.5714
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 175.7526
+HEADER 10 - Pocket volume (convex hull)       : 5.1246
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.4500
+ATOM   4480   CG GLU C  42     191.944 143.147 213.212  0.00  0.00           C 0
+ATOM   3832  NH2 ARG B 283     194.655 147.073 207.944  0.51  6.56           N 0
+ATOM   4503   CB ALA C  45     188.441 145.112 208.911  0.00  0.00           C 0
+ATOM   3829   NE ARG B 283     192.812 148.195 208.712  0.67  3.28           N 0
+ATOM   4483  OE2 GLU C  42     194.140 142.367 213.695  0.85  3.21           O 0
+ATOM   1949  OD1 ASP B  38     196.087 142.782 207.579  0.65  5.36           O 0
+ATOM   4471    C CYS C  41     188.945 146.181 212.930  0.00  0.00           C 0
+ATOM   4475    N GLU C  42     189.574 145.151 213.502  0.00  0.00           N 0
+ATOM   4476   CA GLU C  42     189.489 143.808 212.933  0.00  0.00           C 0
+ATOM   1942  CD1 ILE B  37     197.256 146.628 211.270  0.00  0.00           C 0
+ATOM   1939   CB ILE B  37     198.379 144.353 211.029  0.00  0.00           C 0
+ATOM   4449   CG MET C  38     195.531 146.706 216.130  0.00  0.00           C 0
+ATOM   4473   CB CYS C  41     190.542 148.104 213.203  0.00  0.00           C 0
+ATOM   4445   CA MET C  38     193.001 146.775 216.523  0.00  0.00           C 0
+ATOM   4448   CB MET C  38     194.302 145.985 216.637  0.00  0.00           C 0
+ATOM   3966   CG LEU B 300     195.082 150.201 212.597  0.00  0.00           C 0
+TER
+END

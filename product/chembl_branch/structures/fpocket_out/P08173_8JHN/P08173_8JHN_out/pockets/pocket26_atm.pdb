@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    26:
+HEADER 0  - Pocket Score                      : -0.0996
+HEADER 1  - Drug Score                        : 0.0012
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.1009
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6715
+HEADER 5  - Mean B-factor of pocket residues  : 0.2116
+HEADER 6  - Hydrophobicity Score              : 8.5000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 285.1437
+HEADER 10 - Pocket volume (convex hull)       : 7.3214
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.6000
+ATOM   7666  CD2 LEU H 233     147.503 190.008 183.887  0.00  0.00           C 0
+ATOM   7665  CD1 LEU H 233     148.413 187.847 183.040  0.00  0.00           C 0
+ATOM   7186  CE1 HIS H 167     146.468 185.649 180.550  0.00  0.00           C 0
+ATOM   7664   CG LEU H 233     148.724 189.302 183.327  0.00  0.00           C 0
+ATOM   7671   CB GLU H 234     151.978 191.142 180.358  0.00  0.00           C 0
+ATOM   7662    O LEU H 233     151.463 188.267 181.621  0.66  2.14           O 0
+ATOM      4    O SER A   6     151.415 185.162 177.904  0.18  4.29           O 0
+ATOM     36  NH2 ARG A  10     153.498 187.402 177.032  0.56  7.66           N 0
+ATOM   7184  ND1 HIS H 167     146.093 185.698 181.815  0.70  6.56           N 0
+ATOM      8   CA ALA A   7     151.361 185.169 180.662  0.00  0.00           C 0
+ATOM      7    N ALA A   7     150.580 184.284 179.804  0.00  0.00           N 0
+ATOM      3    C SER A   6     150.675 184.362 178.476  0.00  0.00           C 0
+ATOM      1    N SER A   6     148.394 183.720 177.813  0.48  4.37           N 0
+ATOM   7156   CD LYS H 163     145.022 193.303 183.000  0.00  0.00           C 0
+ATOM   7162    O SER H 164     144.147 190.305 186.058  0.43  3.21           O 0
+ATOM   7158   NZ LYS H 163     146.648 193.613 181.135  0.00  0.00           N 0
+TER
+END

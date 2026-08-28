@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    25:
+HEADER 0  - Pocket Score                      : -0.0843
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.0098
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6121
+HEADER 5  - Mean B-factor of pocket residues  : 0.1981
+HEADER 6  - Hydrophobicity Score              : 13.2857
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 183.3751
+HEADER 10 - Pocket volume (convex hull)       : 5.3322
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM   2473  OE1 GLN A1122      28.995  -0.205  63.845  0.80  1.07           O 0
+ATOM   2169    O LYS A1083      31.709   0.966  68.277  0.67  3.21           O 0
+ATOM   2205  CG2 VAL A1087      29.464   2.724  65.785  0.00  0.00           C 0
+ATOM   2474  NE2 GLN A1122      27.241  -1.573  63.922  0.00  0.00           N 0
+ATOM   2197   CG PRO A1086      32.171  -1.111  65.075  0.00  0.00           C 0
+ATOM   2448  NH1 ARG A1119      23.440  -3.266  69.163  0.00  0.00           N 0
+ATOM   2413    O THR A1115      24.509   1.298  70.344  0.44  4.29           O 0
+ATOM   2170   CB LYS A1083      32.173  -0.053  71.242  0.00  0.00           C 0
+ATOM   2171   CG LYS A1083      31.746  -1.230  72.116  0.00  0.00           C 0
+ATOM   2167   CA LYS A1083      32.797  -0.459  69.893  0.00  0.00           C 0
+ATOM   2173   CE LYS A1083      29.406  -0.975  73.103  0.00  0.00           C 0
+ATOM   2435   CB LEU A1118      27.014   3.507  68.748  0.00  0.00           C 0
+ATOM   2416  CG2 THR A1115      25.398  -1.118  72.832  0.00  0.00           C 0
+ATOM   2434    O LEU A1118      25.955   3.048  65.750  0.00  0.00           O 0
+ATOM   2437  CD1 LEU A1118      28.658   3.868  70.607  0.00  0.00           C 0
+ATOM   2411   CA THR A1115      25.427   1.381  72.563  0.00  0.00           C 0
+ATOM   2444   CG ARG A1119      23.244  -1.326  66.501  0.00  0.00           C 0
+ATOM   2443   CB ARG A1119      23.230   0.036  67.161  0.00  0.00           C 0
+ATOM   2440   CA ARG A1119      23.963   1.113  66.374  0.00  0.00           C 0
+TER
+END

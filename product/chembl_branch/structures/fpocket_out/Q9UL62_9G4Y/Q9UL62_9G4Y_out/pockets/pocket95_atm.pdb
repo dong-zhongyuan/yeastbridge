@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    95:
+HEADER 0  - Pocket Score                      : -0.1012
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8289
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6014
+HEADER 5  - Mean B-factor of pocket residues  : 0.3099
+HEADER 6  - Hydrophobicity Score              : 36.5000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 196.4636
+HEADER 10 - Pocket volume (convex hull)       : 2.8258
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2667
+ATOM   4780  CD1 ILE A 631     146.308 158.324 143.079  0.00  0.00           C 0
+ATOM   4778  CG1 ILE A 631     146.302 158.141 144.578  0.00  0.00           C 0
+ATOM   3809  NH2 ARG A 512     141.861 158.928 146.623  0.00  0.00           N 0
+ATOM   3803   CB ARG A 512     142.902 157.730 142.052  0.00  0.00           C 0
+ATOM   3832  CD1 LEU A 515     140.511 161.400 140.616  0.00  0.00           C 0
+ATOM   3808  NH1 ARG A 512     140.253 158.143 145.197  0.54  3.28           N 0
+ATOM   3807   CZ ARG A 512     141.500 158.116 145.634  0.00  0.00           C 0
+ATOM   4743   OG SER A 627     148.686 162.684 141.986  0.39  7.50           O 0
+ATOM   3840  OD1 ASP A 516     145.300 163.566 140.551  0.84  7.50           O 0
+ATOM   4769   CB LEU A 630     149.442 160.794 147.809  0.00  0.00           C 0
+ATOM   4771  CD1 LEU A 630     149.854 163.239 147.508  0.00  0.00           C 0
+ATOM   4739   CA SER A 627     150.183 161.198 143.188  0.00  0.00           C 0
+ATOM   3802    O ARG A 512     143.812 160.188 140.433  0.54  3.21           O 0
+ATOM   4741    O SER A 627     149.500 159.289 144.478  0.00  0.00           O 0
+TER
+END

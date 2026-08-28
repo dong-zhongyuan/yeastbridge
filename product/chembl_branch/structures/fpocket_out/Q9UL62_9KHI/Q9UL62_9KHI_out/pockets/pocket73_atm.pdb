@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    73:
+HEADER 0  - Pocket Score                      : -0.0761
+HEADER 1  - Drug Score                        : 0.0012
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8468
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4962
+HEADER 5  - Mean B-factor of pocket residues  : 0.3080
+HEADER 6  - Hydrophobicity Score              : 7.6667
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 206.0171
+HEADER 10 - Pocket volume (convex hull)       : 3.6861
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.6000
+ATOM  12156  ND2 ASN C 270     124.440 100.646 161.459  0.54  7.66           N 0
+ATOM  12122   CD GLU C 266     128.816  99.615 164.223  0.00  0.00           C 0
+ATOM  12121   CG GLU C 266     128.101 100.950 164.143  0.00  0.00           C 0
+ATOM  12124  OE2 GLU C 266     128.803  98.996 165.308  0.72  5.36           O 0
+ATOM  12119    O GLU C 266     125.619 103.357 163.316  0.00  0.00           O 0
+ATOM  12126   CA ILE C 267     125.976 104.074 165.940  0.00  0.00           C 0
+ATOM  12153   CB ASN C 270     122.855 102.240 162.350  0.00  0.00           C 0
+ATOM  12130  CG1 ILE C 267     126.827 102.834 167.962  0.00  0.00           C 0
+ATOM  15327  NE2 GLN C 709     119.233 101.767 166.277  0.21  9.84           N 0
+ATOM  12131  CG2 ILE C 267     125.544 104.954 168.259  0.00  0.00           C 0
+ATOM  15324   CG GLN C 709     119.636 101.732 168.664  0.00  0.00           C 0
+ATOM  15349   CB HIS C 712     124.206 102.777 172.398  0.00  0.00           C 0
+ATOM  15322    O GLN C 709     120.621 103.895 171.107  0.00  0.00           O 0
+ATOM  15351  ND1 HIS C 712     123.695 100.324 172.698  0.77  8.75           N 0
+ATOM  12128    O ILE C 267     124.033 105.424 165.503  0.59  1.07           O 0
+ATOM  12164  CD2 HIS C 271     119.343 106.528 167.763  0.00  0.00           C 0
+TER
+END

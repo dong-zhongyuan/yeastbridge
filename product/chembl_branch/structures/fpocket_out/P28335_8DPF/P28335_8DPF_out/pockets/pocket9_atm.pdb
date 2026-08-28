@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : 0.0656
+HEADER 1  - Drug Score                        : 0.0272
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 3.6986
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4191
+HEADER 5  - Mean B-factor of pocket residues  : 0.3805
+HEADER 6  - Hydrophobicity Score              : 74.3750
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 199.2795
+HEADER 10 - Pocket volume (convex hull)       : 9.5300
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 22.0000
+HEADER 13 - Number of apolar alpha sphere     :    23
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM    350  CD2 LEU A 111     112.100 138.322 101.799  0.00  0.00           C 0
+ATOM     13   CA VAL A  61     113.012 133.784 103.263  0.00  0.00           C 0
+ATOM     37   CB ILE A  64     115.170 134.830 107.517  0.00  0.00           C 0
+ATOM     16   CB VAL A  61     111.579 134.320 103.432  0.00  0.00           C 0
+ATOM    317    O MET A 107     116.460 140.584 104.450  0.00  0.00           O 0
+ATOM    318   CB MET A 107     118.058 138.605 106.564  0.00  0.00           C 0
+ATOM    316    C MET A 107     116.695 140.506 105.667  0.00  0.00           C 0
+ATOM   1727  CH2 TRP A 355     117.984 137.959 101.910  0.00  0.00           C 0
+ATOM   1726  CZ3 TRP A 355     118.829 136.904 102.244  0.00  0.00           C 0
+ATOM    349  CD1 LEU A 111     113.093 138.680  99.537  0.00  0.00           C 0
+ATOM     11   CB ILE A  60     115.461 133.830  99.301  0.00  0.00           C 0
+ATOM     12    N VAL A  61     113.266 133.414 101.874  0.67  1.09           N 0
+ATOM      9    C ILE A  60     114.443 132.976 101.432  0.00  0.00           C 0
+ATOM     10    O ILE A  60     115.398 132.784 102.190  0.59  1.07           O 0
+ATOM    323   CA PRO A 108     114.356 141.008 106.085  0.00  0.00           C 0
+ATOM    325    O PRO A 108     113.299 142.209 104.326  0.00  0.00           O 0
+ATOM    326   CB PRO A 108     113.566 141.200 107.386  0.00  0.00           C 0
+ATOM    327   CG PRO A 108     114.384 140.520 108.430  0.00  0.00           C 0
+ATOM    322    N PRO A 108     115.732 140.771 106.558  0.00  0.00           N 0
+ATOM     30  CG1 ILE A  63     118.060 132.961 103.997  0.00  0.00           C 0
+TER
+END

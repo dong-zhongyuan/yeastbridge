@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    94:
+HEADER 0  - Pocket Score                      : -0.1089
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9409
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5532
+HEADER 5  - Mean B-factor of pocket residues  : 0.2179
+HEADER 6  - Hydrophobicity Score              : 27.1667
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 199.0627
+HEADER 10 - Pocket volume (convex hull)       : 6.8262
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.6667
+ATOM  13893  CG1 VAL K1101     188.308 156.930 199.352  0.00  0.00           C 0
+ATOM  13884   CB ASN K1100     190.881 158.299 194.692  0.00  0.00           C 0
+ATOM  10439    O GLU K 544     188.401 154.962 194.662  0.00  0.00           O 0
+ATOM  13888    N VAL K1101     188.456 158.365 196.708  0.00  0.00           N 0
+ATOM  13895    N LEU K1102     190.210 159.420 198.537  0.81  1.09           N 0
+ATOM  10452  CD2 HIS K 545     191.268 153.289 194.570  0.00  0.00           C 0
+ATOM  10428    O ALA K 542     188.683 153.701 200.083  0.35  9.64           O 0
+ATOM  13886  OD1 ASN K1100     191.672 158.252 192.433  0.96  5.36           O 0
+ATOM  13885   CG ASN K1100     191.678 158.833 193.518  0.00  0.00           C 0
+ATOM  13899   CB LEU K1102     192.628 159.620 198.902  0.00  0.00           C 0
+ATOM  13902  CD2 LEU K1102     195.129 159.650 199.162  0.00  0.00           C 0
+ATOM  13887  ND2 ASN K1100     192.375 159.942 193.733  0.32  7.66           N 0
+ATOM  10454  NE2 HIS K 545     191.896 152.348 195.349  0.62  7.66           N 0
+TER
+END

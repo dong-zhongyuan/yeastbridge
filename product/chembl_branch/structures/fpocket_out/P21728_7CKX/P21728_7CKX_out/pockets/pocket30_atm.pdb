@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    30:
+HEADER 0  - Pocket Score                      : -0.0347
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.8871
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5569
+HEADER 5  - Mean B-factor of pocket residues  : 0.1497
+HEADER 6  - Hydrophobicity Score              : 15.2727
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Amino Acid based volume Score     : 3.4545
+HEADER 9  - Pocket volume (Monte Carlo)       : 261.9184
+HEADER 10 - Pocket volume (convex hull)       : 11.6763
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0588
+ATOM   3777    O ASP B 247     -17.327 -30.162  -0.449  0.00  0.00           O 0
+ATOM   3932    O HIS B 266     -11.328 -31.830   2.764  0.45  6.43           O 0
+ATOM   3786   CB ALA B 248     -14.612 -28.786  -0.230  0.00  0.00           C 0
+ATOM   3958    O ILE B 269     -12.689 -28.720   2.703  0.54  6.43           O 0
+ATOM   3785    O ALA B 248     -13.795 -31.007  -1.699  0.56  1.07           O 0
+ATOM   5715  CE2 PHE N 103     -16.773 -27.511   4.708  0.00  0.00           C 0
+ATOM   5716   CZ PHE N 103     -16.368 -28.111   5.884  0.00  0.00           C 0
+ATOM   5149  OD1 ASN N  31     -19.406 -29.084   4.394  0.00  0.00           O 0
+ATOM   5124  OG1 THR N  28     -21.513 -32.625   4.316  0.53  2.14           O 0
+ATOM   3629  OE2 GLU B 226     -21.045 -33.088  -0.054  0.00  0.00           O 0
+ATOM   5125  CG2 THR N  28     -20.877 -34.783   3.458  0.00  0.00           C 0
+ATOM   3927   CB SER B 265     -13.474 -34.851  -0.595  0.00  0.00           C 0
+ATOM   3793  CG2 THR B 249     -16.731 -33.098  -1.561  0.00  0.00           C 0
+ATOM   3628  OE1 GLU B 226     -20.742 -35.170  -0.679  0.39  6.43           O 0
+ATOM   3928   OG SER B 265     -13.544 -36.261  -0.479  0.00  0.00           O 0
+ATOM   3910  CG2 THR B 263     -15.728 -36.827  -3.257  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    30:
+HEADER 0  - Pocket Score                      : -0.0269
+HEADER 1  - Drug Score                        : 0.0014
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.9232
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4662
+HEADER 5  - Mean B-factor of pocket residues  : 0.4678
+HEADER 6  - Hydrophobicity Score              : 20.5000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.2500
+HEADER 9  - Pocket volume (Monte Carlo)       : 203.5095
+HEADER 10 - Pocket volume (convex hull)       : 6.7178
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.4545
+ATOM   3621   CA ALA B 218      92.795 146.073 165.177  0.00  0.00           C 0
+ATOM   3064   CE LYS B 145      91.961 139.872 168.212  0.00  0.00           C 0
+ATOM   3055  OD1 ASN B 144      95.917 142.534 166.069  0.52  1.07           O 0
+ATOM   3624   CB ALA B 218      91.561 145.958 166.071  0.00  0.00           C 0
+ATOM   3623    O ALA B 218      92.209 145.873 162.868  0.12  3.21           O 0
+ATOM   2364   CB THR B  48      92.170 140.853 160.233  0.00  0.00           C 0
+ATOM   2366  CG2 THR B  48      91.632 142.262 159.989  0.00  0.00           C 0
+ATOM   2363    O THR B  48      94.493 142.363 159.780  0.00  7.50           O 0
+ATOM   2365  OG1 THR B  48      91.037 139.980 160.166  0.00  0.00           O 0
+ATOM   2342   CA GLY B  45      93.657 137.259 163.598  0.00  0.00           C 0
+ATOM   3062   CG LYS B 145      93.556 141.722 168.784  0.00  0.00           C 0
+ATOM   3617    O CYS B 217      95.427 146.200 164.409  0.52  2.14           O 0
+ATOM   3613  CG2 THR B 216      98.479 145.650 163.369  0.00  0.00           C 0
+ATOM   3056  ND2 ASN B 144      95.864 140.492 165.142  0.62  2.19           N 0
+ATOM   2344    O GLY B  45      94.877 138.502 161.970  0.30  2.14           O 0
+ATOM   2374  CD1 ILE B  49      98.677 140.673 161.018  0.00  0.00           C 0
+TER
+END

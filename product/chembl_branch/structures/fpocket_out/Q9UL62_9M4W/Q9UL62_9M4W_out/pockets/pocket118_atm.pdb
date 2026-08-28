@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   118:
+HEADER 0  - Pocket Score                      : -0.1217
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9918
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5384
+HEADER 5  - Mean B-factor of pocket residues  : 0.5890
+HEADER 6  - Hydrophobicity Score              : 86.0000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 5.2000
+HEADER 9  - Pocket volume (Monte Carlo)       : 249.4024
+HEADER 10 - Pocket volume (convex hull)       : 11.7920
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3750
+ATOM   6326   CZ TYR B 118     203.140 166.454 114.277  0.00  0.00           C 0
+ATOM   6325  CE2 TYR B 118     202.657 167.529 113.564  0.00  0.00           C 0
+ATOM   6158  CG1 VAL B  96     200.039 171.762 115.412  0.00  0.00           C 0
+ATOM   6327   OH TYR B 118     204.093 166.653 115.250  0.00  0.00           O 0
+ATOM   6159  CG2 VAL B  96     197.622 170.980 115.349  0.00  0.00           C 0
+ATOM   6323  CD2 TYR B 118     201.698 167.326 112.589  0.00  0.00           C 0
+ATOM   6297    O LEU B 115     197.564 165.351 115.549  0.62  7.50           O 0
+ATOM   6156    O VAL B  96     198.440 172.197 117.965  0.22  4.29           O 0
+ATOM   6324  CE1 TYR B 118     202.674 165.183 114.023  0.00  0.00           C 0
+ATOM   6309  CD2 LEU B 116     198.009 161.690 119.155  0.00  0.00           C 0
+ATOM   6184  CD2 LEU B 100     197.032 165.206 120.656  0.00  0.00           C 0
+ATOM   6305    O LEU B 116     199.232 161.757 115.114  0.00  0.00           O 0
+ATOM   6303   CA LEU B 116     197.326 162.687 116.197  0.00  0.00           C 0
+ATOM   6181   CB LEU B 100     195.806 167.385 120.577  0.00  0.00           C 0
+ATOM   6298   CB LEU B 115     194.696 166.525 116.084  0.00  0.00           C 0
+ATOM   6177    N LEU B 100     194.756 169.515 119.992  0.50  1.09           N 0
+TER
+END

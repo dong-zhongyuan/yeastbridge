@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : 0.1043
+HEADER 1  - Drug Score                        : 0.0013
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.5429
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4023
+HEADER 5  - Mean B-factor of pocket residues  : 0.1417
+HEADER 6  - Hydrophobicity Score              : 64.7778
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.5556
+HEADER 9  - Pocket volume (Monte Carlo)       : 77.7913
+HEADER 10 - Pocket volume (convex hull)       : 0.8866
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5882
+ATOM   5882  CG1 VAL B 213     170.034 185.988 123.515  0.00  0.00           C 0
+ATOM   5480  CG1 VAL B 158     172.891 184.408 127.173  0.00  0.00           C 0
+ATOM   5781  CD1 PHE B 199     169.021 188.066 126.215  0.00  0.00           C 0
+ATOM   5433  CD2 LEU B 152     169.848 181.537 125.388  0.00  0.00           C 0
+ATOM   5770    O LEU B 198     164.442 186.611 125.154  0.00  0.00           O 0
+ATOM   5767    N LEU B 198     165.206 186.052 122.667  0.00  0.00           N 0
+ATOM   5756    N ARG B 197     164.942 183.289 122.261  0.45  1.09           N 0
+ATOM   5750   CA THR B 196     164.809 181.299 123.613  0.00  0.00           C 0
+ATOM   5751    C THR B 196     165.338 182.023 122.372  0.00  0.00           C 0
+ATOM   5729    N ALA B 193     163.333 184.253 127.263  0.63  1.09           N 0
+ATOM   5725   CB LEU B 192     165.761 182.791 128.766  0.00  0.00           C 0
+ATOM   5726   CG LEU B 192     167.284 182.760 128.684  0.00  0.00           C 0
+ATOM   5779   CB PHE B 199     166.933 187.497 127.476  0.00  0.00           C 0
+ATOM   5769    C LEU B 198     165.238 187.405 124.650  0.00  0.00           C 0
+ATOM   5481  CG2 VAL B 158     171.804 184.177 129.374  0.00  0.00           C 0
+TER
+END

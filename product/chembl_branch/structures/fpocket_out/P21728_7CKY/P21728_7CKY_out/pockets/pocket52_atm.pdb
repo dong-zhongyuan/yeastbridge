@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    52:
+HEADER 0  - Pocket Score                      : -0.0550
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9664
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6876
+HEADER 5  - Mean B-factor of pocket residues  : 0.2695
+HEADER 6  - Hydrophobicity Score              : 4.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 297.0963
+HEADER 10 - Pocket volume (convex hull)       : 7.8895
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3750
+ATOM   5634  CG2 VAL N  93     114.623 106.103  56.137  0.00  0.00           C 0
+ATOM   5239   CG PRO N  41     120.251 106.690  54.511  0.00  0.00           C 0
+ATOM   5235   CA PRO N  41     121.184 105.334  56.254  0.00  0.00           C 0
+ATOM   5238   CB PRO N  41     121.284 105.640  54.754  0.00  0.00           C 0
+ATOM   5871  NE2 GLN N 123     115.060 106.411  52.796  0.64  8.75           N 0
+ATOM   5234    N PRO N  41     120.581 106.554  56.809  0.00  0.00           N 0
+ATOM   5226   CD GLN N  39     116.595 103.118  61.031  0.00  0.00           C 0
+ATOM   5223    O GLN N  39     117.220 106.978  58.608  0.72  1.07           O 0
+ATOM   5228  NE2 GLN N  39     115.331 103.086  60.626  0.50  6.56           N 0
+ATOM   5225   CG GLN N  39     117.286 104.466  60.982  0.00  0.00           C 0
+ATOM   5232    O ALA N  40     120.548 105.700  58.888  0.62  1.07           O 0
+ATOM   5227  OE1 GLN N  39     117.190 102.116  61.428  0.00  0.00           O 0
+ATOM   5241    N GLY N  42     122.654 103.957  57.612  0.52  5.47           N 0
+ATOM   5248    O LYS N  43     120.656 104.579  61.612  0.66  4.29           O 0
+ATOM   5242   CA GLY N  42     123.866 103.626  58.326  0.00  0.00           C 0
+ATOM   5243    C GLY N  42     123.918 104.115  59.757  0.00  0.00           C 0
+TER
+END

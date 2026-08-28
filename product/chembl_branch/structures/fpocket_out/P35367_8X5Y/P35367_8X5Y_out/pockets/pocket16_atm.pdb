@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    16:
+HEADER 0  - Pocket Score                      : -0.1262
+HEADER 1  - Drug Score                        : 0.0055
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.8005
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6138
+HEADER 5  - Mean B-factor of pocket residues  : 0.3213
+HEADER 6  - Hydrophobicity Score              : 55.4286
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 310.8364
+HEADER 10 - Pocket volume (convex hull)       : 24.9803
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 13.6000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.7500
+ATOM    489  CG2 ILE B  85     182.770 155.641 147.341  0.00  0.00           C 0
+ATOM    461   CA PRO B  82     178.511 158.248 148.562  0.00  0.00           C 0
+ATOM    115   OG SER B  35     184.442 155.294 151.364  0.62  9.64           O 0
+ATOM    490  CD1 ILE B  85     183.258 158.502 148.615  0.00  0.00           C 0
+ATOM    136   SG CYS B  38     180.368 160.502 151.995  0.00  0.00           S 0
+ATOM    135   CB CYS B  38     182.164 160.632 151.851  0.00  0.00           C 0
+ATOM    113    O SER B  35     184.477 158.921 153.855  0.71  1.07           O 0
+ATOM    144  CD2 LEU B  39     181.154 158.483 156.560  0.00  0.00           C 0
+ATOM    111   CA SER B  35     185.112 157.547 151.990  0.00  0.00           C 0
+ATOM    492   CA LEU B  86     179.900 153.878 144.571  0.00  0.00           C 0
+ATOM    526  CD2 LEU B  89     184.261 150.174 145.983  0.00  0.00           C 0
+ATOM    497  CD1 LEU B  86     178.643 151.129 145.157  0.00  0.00           C 0
+ATOM    114   CB SER B  35     185.066 156.068 152.374  0.00  0.00           C 0
+ATOM    142   CG LEU B  39     182.665 158.618 156.529  0.00  0.00           C 0
+ATOM    143  CD1 LEU B  39     183.317 157.532 157.366  0.00  0.00           C 0
+ATOM    464   CB PRO B  82     177.524 157.905 149.688  0.00  0.00           C 0
+ATOM    463    O PRO B  82     178.594 156.635 146.808  0.74  3.21           O 0
+ATOM    495   CB LEU B  86     178.484 153.626 145.085  0.00  0.00           C 0
+ATOM    491    N LEU B  86     180.372 155.181 145.030  0.00  0.00           N 0
+ATOM    465   CG PRO B  82     177.213 159.185 150.376  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   208:
+HEADER 0  - Pocket Score                      : -0.3055
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 4.2414
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5921
+HEADER 5  - Mean B-factor of pocket residues  : 0.3704
+HEADER 6  - Hydrophobicity Score              : 3.0000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.6250
+HEADER 9  - Pocket volume (Monte Carlo)       : 385.0060
+HEADER 10 - Pocket volume (convex hull)       : 18.4441
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.5000
+ATOM   5501   CD LYS B  34     181.502 188.994 195.928  0.00  0.00           C 0
+ATOM    958   CG GLU A 156     181.438 185.192 187.282  0.00  0.00           C 0
+ATOM    961  OE2 GLU A 156     181.218 187.477 186.646  0.71  6.43           O 0
+ATOM   5503   NZ LYS B  34     183.364 190.111 194.711  0.89  4.37           N 0
+ATOM    704  CG1 VAL A 109     184.048 181.971 190.356  0.00  0.00           C 0
+ATOM   5457  OE2 GLU B  28     183.539 193.191 192.676  0.49  5.36           O 0
+ATOM    986   NZ LYS A 159     182.898 191.235 186.420  0.40  6.56           N 0
+ATOM   5456  OE1 GLU B  28     184.581 193.538 190.775  0.50  5.36           O 0
+ATOM    729  OE1 GLU A 113     187.024 183.976 193.914  0.38  8.57           O 0
+ATOM    730  OE2 GLU A 113     185.371 182.534 193.927  0.00  0.00           O 0
+ATOM    993  CD1 LEU A 160     188.750 186.027 190.200  0.00  0.00           C 0
+ATOM    956    O GLU A 156     185.140 185.041 186.038  0.60  2.14           O 0
+ATOM    994  CD2 LEU A 160     187.945 183.666 190.017  0.00  0.00           C 0
+ATOM    991   CB LEU A 160     188.028 185.113 187.985  0.00  0.00           C 0
+ATOM   1018  NE2 GLN A 163     188.045 191.033 188.318  0.73  6.56           N 0
+ATOM    988   CA LEU A 160     188.562 186.304 187.191  0.00  0.00           C 0
+ATOM    985   CE LYS A 159     183.572 190.245 185.538  0.00  0.00           C 0
+ATOM    984   CD LYS A 159     185.081 190.334 185.649  0.00  0.00           C 0
+ATOM    987    N LEU A 160     187.753 186.497 185.991  0.00  0.00           N 0
+TER
+END

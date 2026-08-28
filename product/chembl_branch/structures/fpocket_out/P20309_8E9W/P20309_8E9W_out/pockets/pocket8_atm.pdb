@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : 0.0580
+HEADER 1  - Drug Score                        : 0.0010
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9966
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5552
+HEADER 5  - Mean B-factor of pocket residues  : 0.2747
+HEADER 6  - Hydrophobicity Score              : 25.2000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 358.1295
+HEADER 10 - Pocket volume (convex hull)       : 21.5921
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.5000
+ATOM   1623   CA THR A 492     116.412 143.972 142.372  0.00  0.00           C 0
+ATOM   1647   CB ALA A 495     115.956 140.901 145.735  0.00  0.00           C 0
+ATOM   1620  OE1 GLN A 491     112.658 143.548 142.656  0.00  0.00           O 0
+ATOM   1628  CG2 THR A 492     117.137 142.744 140.317  0.00  0.00           C 0
+ATOM   1627  OG1 THR A 492     115.121 144.056 140.328  0.64  1.07           O 0
+ATOM   3841  ND2 ASN B 244     113.809 140.186 136.590  0.55  6.56           N 0
+ATOM   3840  OD1 ASN B 244     113.512 142.341 136.056  0.66  4.29           O 0
+ATOM   2071   SG CYS A 547     116.870 138.830 138.754  0.00  0.00           S 0
+ATOM   1654  CG2 ILE A 496     119.521 139.907 142.782  0.00  0.00           C 0
+ATOM   1621  NE2 GLN A 491     112.414 142.387 144.562  0.44  8.75           N 0
+ATOM   2031    O VAL A 542     116.646 134.953 139.989  0.36  2.14           O 0
+ATOM   2040   SG CYS A 543     118.056 136.217 144.513  0.00  0.00           S 0
+ATOM   1601   CE LYS A 488     111.848 144.887 136.503  0.00  0.00           C 0
+ATOM   2112  NH1 ARG A 552     110.763 138.287 133.599  0.50  7.66           N 0
+ATOM   1602   NZ LYS A 488     111.258 144.643 135.159  0.45  6.56           N 0
+ATOM   2113  NH2 ARG A 552     111.933 138.129 135.559  0.46  5.47           N 0
+ATOM   2036   CA CYS A 543     118.480 135.965 141.750  0.00  0.00           C 0
+TER
+END

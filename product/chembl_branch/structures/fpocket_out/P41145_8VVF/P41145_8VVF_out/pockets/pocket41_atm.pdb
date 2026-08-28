@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    41:
+HEADER 0  - Pocket Score                      : -0.1094
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.7279
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4853
+HEADER 5  - Mean B-factor of pocket residues  : 0.5425
+HEADER 6  - Hydrophobicity Score              : 9.7500
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 264.4969
+HEADER 10 - Pocket volume (convex hull)       : 12.5103
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1667
+ATOM   2126   CA ARG A 339     170.784 181.317 158.420  0.00  0.00           C 0
+ATOM   2124   NZ LYS A 338     173.660 185.369 154.189  0.54  6.56           N 0
+ATOM   2119    O LYS A 338     172.855 181.911 156.718  0.58  2.14           O 0
+ATOM   2121   CG LYS A 338     171.626 183.125 153.882  0.00  0.00           C 0
+ATOM   2125    N ARG A 339     170.845 180.933 157.012  0.00  0.00           N 0
+ATOM   2095  OE1 GLU A 335     167.583 183.989 153.709  0.57  5.36           O 0
+ATOM   2091    O GLU A 335     168.112 180.634 155.991  0.52  4.29           O 0
+ATOM   2129   CB ARG A 339     169.373 181.089 158.963  0.00  0.00           C 0
+ATOM   6827   NZ LYS B 349     163.258 183.529 159.803  0.75  8.75           N 0
+ATOM   2103  OD1 ASN A 336     165.262 177.758 157.480  0.37  6.43           O 0
+ATOM   2092   CB GLU A 335     166.315 181.495 153.664  0.00  0.00           C 0
+ATOM   6822    O LYS B 349     161.469 179.260 157.798  0.38  2.14           O 0
+ATOM   6843   CA GLY B 352     162.736 178.705 154.363  0.00  0.00           C 0
+ATOM   6844    C GLY B 352     162.457 179.733 153.294  0.00  0.00           C 0
+ATOM   6846    N LEU B 353     161.355 180.471 153.398  0.00  0.00           N 0
+ATOM   6856    C PHE B 354     161.262 184.614 155.760  0.00  0.00           C 0
+ATOM   6857    O PHE B 354     161.561 185.760 156.096  0.52  5.36           O 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   149:
+HEADER 0  - Pocket Score                      : -0.2580
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0099
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4940
+HEADER 5  - Mean B-factor of pocket residues  : 0.0722
+HEADER 6  - Hydrophobicity Score              : 32.5455
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.1818
+HEADER 9  - Pocket volume (Monte Carlo)       : 375.6977
+HEADER 10 - Pocket volume (convex hull)       : 19.4164
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1333
+ATOM   6210    C ASN C  91     132.177 113.579 174.320  0.00  0.00           C 0
+ATOM   6209   CA ASN C  91     132.879 114.906 174.108  0.00  0.00           C 0
+ATOM   6211    O ASN C  91     131.059 113.551 174.845  0.52  7.50           O 0
+ATOM   6203    O ASP C  90     135.262 115.859 175.082  0.32  5.36           O 0
+ATOM   6214  OD1 ASN C  91     133.374 117.732 173.797  0.78  1.07           O 0
+ATOM  11739   OG SER E  81     130.794 119.990 178.185  0.65  2.14           O 0
+ATOM   2485  CD2 LEU A 345     128.060 119.481 172.727  0.00  0.00           C 0
+ATOM   6212   CB ASN C  91     132.052 115.831 173.226  0.00  0.00           C 0
+ATOM   2503  CD1 ILE A 348     127.543 122.250 175.161  0.00  0.00           C 0
+ATOM   2477  CD2 LEU A 344     123.789 119.678 174.843  0.00  0.00           C 0
+ATOM  11774  CD1 ILE E  85     128.080 120.750 180.963  0.00  0.00           C 0
+ATOM  12185    O MET E 145     123.978 117.249 180.675  0.00  0.00           O 0
+ATOM  12196  CG2 THR E 146     127.057 115.796 182.912  0.00  0.00           C 0
+ATOM   2449  NE2 GLN A 341     124.685 114.755 173.575  0.57  9.84           N 0
+ATOM  11738   CB SER E  81     132.193 120.046 177.976  0.00  0.00           C 0
+ATOM  11713   NZ LYS E  77     136.517 117.798 178.972  0.00  0.00           N 0
+TER
+END

@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   125:
+HEADER 0  - Pocket Score                      : -0.1324
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.8979
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4192
+HEADER 5  - Mean B-factor of pocket residues  : 0.4301
+HEADER 6  - Hydrophobicity Score              : 1.5000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 201.1892
+HEADER 10 - Pocket volume (convex hull)       : 4.3431
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1111
+ATOM   5311    O ARG B 355     218.440 242.472 182.157  0.00  0.00           O 0
+ATOM   5347   CA ARG B 359     217.774 238.960 180.658  0.00  0.00           C 0
+ATOM   5346    N ARG B 359     217.113 239.861 181.601  0.00  0.00           N 0
+ATOM   5383  NH1 ARG B 362     215.662 241.076 175.787  0.00  0.00           N 0
+ATOM   5350   CB ARG B 359     219.242 239.361 180.498  0.00  0.00           C 0
+ATOM   5313   CG ARG B 355     219.418 245.099 180.236  0.00  0.00           C 0
+ATOM   4955   CE MET B 311     215.563 246.467 178.816  0.00  0.00           C 0
+ATOM  14810  OE1 GLU H  87     220.623 246.377 176.169  0.41  7.50           O 0
+ATOM   5384  NH2 ARG B 362     217.246 239.745 174.806  0.00  0.00           N 0
+ATOM   5351   CG ARG B 359     219.967 238.729 179.307  0.00  0.00           C 0
+ATOM   5317  NH1 ARG B 355     222.790 244.469 179.398  0.00  0.00           N 0
+ATOM  14811  OE2 GLU H  87     222.256 245.962 174.763  0.06  3.21           O 0
+ATOM   5314   CD ARG B 355     220.372 245.961 179.429  0.00  0.00           C 0
+ATOM   5342  ND1 HIS B 358     213.802 242.629 179.594  0.69  2.19           N 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   134:
+HEADER 0  - Pocket Score                      : -0.1506
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.0120
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5331
+HEADER 5  - Mean B-factor of pocket residues  : 0.7436
+HEADER 6  - Hydrophobicity Score              : 6.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 255.3779
+HEADER 10 - Pocket volume (convex hull)       : 4.3001
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1667
+ATOM   9686    O LEU A1569     122.532 150.025 173.880  0.38  3.21           O 0
+ATOM   9707   CG ARG A1571     122.913 153.561 174.706  0.00  0.00           C 0
+ATOM   9689  CD1 LEU A1569     123.833 148.234 176.541  0.00  0.00           C 0
+ATOM   9729  NE2 GLN A1573     126.237 154.944 172.020  0.00  0.00           N 0
+ATOM   9477  OE1 GLU A1544     126.240 146.843 171.654  0.74  1.07           O 0
+ATOM   9690  CD2 LEU A1569     124.699 146.332 175.163  0.00  0.00           C 0
+ATOM   9474   CB GLU A1544     128.949 146.388 171.826  0.00  0.00           C 0
+ATOM   9688   CG LEU A1569     123.755 147.523 175.198  0.00  0.00           C 0
+ATOM   9692   CA ARG A1570     121.384 149.942 171.360  0.00  0.00           C 0
+ATOM   9478  OE2 GLU A1544     126.339 147.803 169.683  0.76  4.29           O 0
+ATOM   9724    O GLN A1573     122.954 153.139 168.387  0.75  4.29           O 0
+ATOM   9702    N ARG A1571     121.902 152.226 172.013  0.62  2.19           N 0
+ATOM   9726   CG GLN A1573     125.355 154.481 169.815  0.00  0.00           C 0
+ATOM   9475   CG GLU A1544     128.399 147.332 170.773  0.00  0.00           C 0
+ATOM   9476   CD GLU A1544     126.885 147.324 170.699  0.00  0.00           C 0
+ATOM   9451  CD2 HIS A1541     128.307 151.234 168.277  0.00  0.00           C 0
+TER
+END

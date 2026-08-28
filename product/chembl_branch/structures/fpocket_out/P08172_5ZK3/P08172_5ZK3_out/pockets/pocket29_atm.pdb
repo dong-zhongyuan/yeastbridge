@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    29:
+HEADER 0  - Pocket Score                      : -0.1223
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9795
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6849
+HEADER 5  - Mean B-factor of pocket residues  : 0.7135
+HEADER 6  - Hydrophobicity Score              : 0.1667
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 195.4304
+HEADER 10 - Pocket volume (convex hull)       : 4.7515
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2667
+ATOM   1762   CA GLN A1025     155.416  13.593 561.676  0.00  0.00           C 0
+ATOM   1765   CB GLN A1025     155.485  14.896 560.880  0.00  0.00           C 0
+ATOM   1702  CG1 VAL A1016     159.518  16.516 561.596  0.00  0.00           C 0
+ATOM   1766   CG GLN A1025     155.247  14.719 559.387  0.00  0.00           C 0
+ATOM   1678  OD1 ASN A1013     163.397  13.004 563.687  0.59  3.21           O 0
+ATOM   1822   NZ LYS A1032     164.923  10.984 561.151  0.00  0.00           N 0
+ATOM   1703  CG2 VAL A1016     161.814  17.379 561.127  0.00  0.00           C 0
+ATOM   1790   CB ASP A1028     157.665  10.015 562.166  0.00  0.00           C 0
+ATOM   1789    O ASP A1028     160.299   9.967 564.076  0.68  4.29           O 0
+ATOM   1821   CE LYS A1032     164.635   9.960 562.192  0.00  0.00           C 0
+ATOM   1793  OD2 ASP A1028     155.987   9.308 560.633  0.48  6.43           O 0
+ATOM   1788    C ASP A1028     159.221  10.574 564.051  0.00  0.00           C 0
+ATOM   1764    O GLN A1025     157.026  13.691 563.446  0.00  0.00           O 0
+ATOM   1794    N ALA A1029     159.130  11.869 564.358  0.00  0.00           N 0
+ATOM   1795   CA ALA A1029     160.300  12.583 564.854  0.00  0.00           C 0
+ATOM   1798   CB ALA A1029     160.162  14.080 564.575  0.00  0.00           C 0
+TER
+END

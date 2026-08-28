@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : -0.1815
+HEADER 1  - Drug Score                        : 0.0027
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 4.1204
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6434
+HEADER 5  - Mean B-factor of pocket residues  : 0.0802
+HEADER 6  - Hydrophobicity Score              : 91.0000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 5.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 231.9477
+HEADER 10 - Pocket volume (convex hull)       : 6.9842
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 16.0000
+HEADER 13 - Number of apolar alpha sphere     :    17
+HEADER 14 - Proportion of apolar alpha sphere : 0.8947
+ATOM    562  CD2 LEU A 147     -12.216  -8.171 147.714  0.00  0.00           C 0
+ATOM    561  CD1 LEU A 147     -11.521 -10.287 148.865  0.00  0.00           C 0
+ATOM    559   CB LEU A 147     -13.833  -9.414 149.142  0.00  0.00           C 0
+ATOM    531  CD1 LEU A 143     -13.183 -13.911 147.956  0.00  0.00           C 0
+ATOM    558    O LEU A 147     -16.309  -9.273 147.691  0.63  1.07           O 0
+ATOM    582   CA TRP A 151     -18.035  -9.545 144.353  0.00  0.00           C 0
+ATOM    579  CG1 VAL A 150     -14.954  -5.808 144.438  0.00  0.00           C 0
+ATOM    621  CD1 LEU A 154     -15.238  -8.008 140.138  0.00  0.00           C 0
+ATOM    419  CG2 VAL A 130     -14.356 -15.073 143.880  0.00  0.00           C 0
+ATOM    581    N TRP A 151     -17.642  -8.336 145.118  0.78  1.09           N 0
+ATOM    386    O LEU A 126     -14.870 -13.815 140.755  0.57  4.29           O 0
+ATOM    390  CD2 LEU A 126     -11.487 -11.605 137.945  0.00  0.00           C 0
+ATOM    387   CB LEU A 126     -13.968 -11.745 138.322  0.00  0.00           C 0
+ATOM    587  CD1 TRP A 151     -17.812 -12.608 143.498  0.00  0.00           C 0
+ATOM    585   CB TRP A 151     -17.876 -10.768 145.220  0.00  0.00           C 0
+ATOM    418  CG1 VAL A 130     -16.281 -15.166 145.431  0.00  0.00           C 0
+TER
+END

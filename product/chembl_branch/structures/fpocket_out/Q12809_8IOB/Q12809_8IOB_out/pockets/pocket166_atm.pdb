@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   166:
+HEADER 0  - Pocket Score                      : -0.2535
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0261
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4311
+HEADER 5  - Mean B-factor of pocket residues  : 0.3134
+HEADER 6  - Hydrophobicity Score              : 44.4286
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 240.7881
+HEADER 10 - Pocket volume (convex hull)       : 5.9091
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.4375
+ATOM   5270    O LEU B 666     177.487 159.869 157.810  0.52  7.50           O 0
+ATOM   5274  CD2 LEU B 666     181.224 161.406 160.438  0.00  0.00           C 0
+ATOM   8808  CD2 LEU C 678     183.650 161.290 152.156  0.00  0.00           C 0
+ATOM   8807  CD1 LEU C 678     181.399 162.364 152.116  0.00  0.00           C 0
+ATOM   5259    O ARG B 665     177.979 163.213 157.202  0.19  4.29           O 0
+ATOM   5268   CA LEU B 666     178.384 161.519 159.306  0.00  0.00           C 0
+ATOM   5265  NH1 ARG B 665     182.299 165.411 157.840  0.62  6.56           N 0
+ATOM   4426   OH TYR B 545     185.270 162.807 160.155  0.65  3.21           O 0
+ATOM   8774  CD2 HIS C 674     184.887 166.884 155.740  0.00  0.00           C 0
+ATOM   4423  CE1 TYR B 545     187.116 164.150 159.473  0.00  0.00           C 0
+ATOM   8771   CB HIS C 674     183.035 166.829 153.926  0.00  0.00           C 0
+ATOM   8800   CE MET C 677     186.935 163.749 152.780  0.00  0.00           C 0
+ATOM   8837  NH2 ARG C 681     187.640 159.472 153.442  0.71  8.75           N 0
+TER
+END

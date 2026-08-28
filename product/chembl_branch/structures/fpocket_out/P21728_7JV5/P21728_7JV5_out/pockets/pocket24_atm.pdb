@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    24:
+HEADER 0  - Pocket Score                      : -0.0068
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9570
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5445
+HEADER 5  - Mean B-factor of pocket residues  : 0.4277
+HEADER 6  - Hydrophobicity Score              : 35.1667
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 234.5820
+HEADER 10 - Pocket volume (convex hull)       : 3.5935
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1333
+ATOM   4555  OE1 GLN B  44     117.372  70.246 102.372  0.50  3.21           O 0
+ATOM   4554   CD GLN B  44     118.443  70.706 102.766  0.00  0.00           C 0
+ATOM   4556  NE2 GLN B  44     119.382  71.146 101.936  0.76  9.84           N 0
+ATOM   4575  NH2 ARG B  46     112.715  72.201 101.439  0.00  0.00           N 0
+ATOM   4560    O MET B  45     114.238  73.158 107.654  0.32  7.50           O 0
+ATOM   4552   CB GLN B  44     117.601  70.326 105.117  0.00  0.00           C 0
+ATOM   4553   CG GLN B  44     118.756  70.793 104.246  0.00  0.00           C 0
+ATOM   4573   CZ ARG B  46     111.688  72.696 102.116  0.00  0.00           C 0
+ATOM   4574  NH1 ARG B  46     111.322  73.957 101.929  0.00  0.00           N 0
+ATOM   6574    O VAL B 307     118.683  76.820 108.714  0.18  7.50           O 0
+ATOM   4538  NH1 ARG B  42     121.384  74.846 104.193  0.00  0.00           N 0
+ATOM   4549   CA GLN B  44     117.893  70.378 106.617  0.00  0.00           C 0
+ATOM   4543    O ILE B  43     120.024  70.857 108.358  0.31  1.07           O 0
+ATOM   4557    N MET B  45     116.006  71.113 107.939  0.59  1.09           N 0
+ATOM   6571    N VAL B 307     121.052  75.476 109.662  0.21  3.28           N 0
+ATOM   4536   NE ARG B  42     122.399  73.065 105.237  0.00  0.00           N 0
+TER
+END

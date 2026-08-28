@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    56:
+HEADER 0  - Pocket Score                      : -0.1936
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0597
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5712
+HEADER 5  - Mean B-factor of pocket residues  : 0.3766
+HEADER 6  - Hydrophobicity Score              : 10.1250
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.8750
+HEADER 9  - Pocket volume (Monte Carlo)       : 283.1139
+HEADER 10 - Pocket volume (convex hull)       : 12.4774
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.2000
+ATOM   4423  OD1 ASP B  38     121.110  63.612 124.204  0.69  6.43           O 0
+ATOM   6305  NH1 ARG B 283     116.204  66.397 125.666  0.49  9.84           N 0
+ATOM   4420    O ASP B  38     120.246  66.818 123.868  0.54  2.14           O 0
+ATOM   4424  OD2 ASP B  38     120.762  63.205 122.078  0.00  0.00           O 0
+ATOM   4433   CA VAL B  40     117.249  68.605 120.868  0.00  0.00           C 0
+ATOM   7078  CD1 LEU D  51     113.093  66.774 121.191  0.00  0.00           C 0
+ATOM   4437  CG1 VAL B  40     115.624  68.923 122.747  0.00  0.00           C 0
+ATOM   7079  CD2 LEU D  51     112.039  65.255 122.841  0.00  0.00           C 0
+ATOM   4435    O VAL B  40     116.683  68.252 118.581  0.00  0.00           O 0
+ATOM   7075    O LEU D  51     111.615  65.921 117.776  0.55  5.36           O 0
+ATOM   7086  CG2 THR D  52     111.389  62.016 119.352  0.00  0.00           C 0
+ATOM   4428    O PRO B  39     119.812  67.613 120.701  0.55  6.43           O 0
+ATOM   7077   CG LEU D  51     112.037  65.725 121.407  0.00  0.00           C 0
+ATOM   7009  OE1 GLU D  42     116.698  60.966 125.985  0.00  0.00           O 0
+ATOM   7010  OE2 GLU D  42     115.739  62.541 127.164  0.57  8.57           O 0
+ATOM   7030   CB ALA D  45     112.249  61.591 125.018  0.00  0.00           C 0
+TER
+END

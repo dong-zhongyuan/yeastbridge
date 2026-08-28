@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   205:
+HEADER 0  - Pocket Score                      : -0.3345
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 4.0299
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5367
+HEADER 5  - Mean B-factor of pocket residues  : 0.2458
+HEADER 6  - Hydrophobicity Score              : 36.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 278.8716
+HEADER 10 - Pocket volume (convex hull)       : 11.8461
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.4762
+ATOM   8100    N LEU D   9     254.718 245.476 249.563  0.00  0.00           N 0
+ATOM  12409   CZ ARG F  74     253.779 236.287 251.771  0.00  0.00           C 0
+ATOM  12411  NH2 ARG F  74     254.856 236.542 252.509  0.00  0.00           N 0
+ATOM   8107  CD2 LEU D   9     253.121 245.169 252.375  0.00  0.00           C 0
+ATOM  12399    O ALA F  73     249.170 238.893 248.845  0.61  7.50           O 0
+ATOM  12408   NE ARG F  74     252.582 236.322 252.340  0.86  5.47           N 0
+ATOM  12410  NH1 ARG F  74     253.927 236.002 250.488  0.00  0.00           N 0
+ATOM  12407   CD ARG F  74     251.330 236.058 251.641  0.00  0.00           C 0
+ATOM   8101   CA LEU D   9     253.298 245.567 249.241  0.00  0.00           C 0
+ATOM   8106  CD1 LEU D   9     251.001 244.686 251.128  0.00  0.00           C 0
+ATOM   8116   CB ALA D  11     253.575 242.283 244.860  0.00  0.00           C 0
+ATOM  12434   CG LYS F  77     251.332 236.175 244.984  0.00  0.00           C 0
+ATOM  12435   CD LYS F  77     250.946 237.489 244.267  0.00  0.00           C 0
+ATOM   8124  CD2 LEU D  12     249.093 242.738 246.882  0.00  0.00           C 0
+ATOM  12400   CB ALA F  73     249.493 241.264 251.041  0.00  0.00           C 0
+ATOM  12378  OG1 THR F  70     250.756 240.376 255.651  0.66  7.50           O 0
+TER
+END

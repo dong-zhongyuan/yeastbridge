@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   156:
+HEADER 0  - Pocket Score                      : -0.1591
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.9796
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4871
+HEADER 5  - Mean B-factor of pocket residues  : 0.5024
+HEADER 6  - Hydrophobicity Score              : 7.6667
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 284.6214
+HEADER 10 - Pocket volume (convex hull)       : 14.6652
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1500
+ATOM   8011   CG ARG B 353     195.408 117.029 163.089  0.00  0.00           C 0
+ATOM   8078   NZ LYS B 361     192.631 122.775 161.037  0.00  0.00           N 0
+ATOM   8050  CD2 LEU B 358     189.796 118.049 161.754  0.00  0.00           C 0
+ATOM   8002    O PRO B 352     192.000 118.531 165.428  0.72  1.07           O 0
+ATOM   8004   CG PRO B 352     195.800 119.110 167.955  0.00  0.00           C 0
+ATOM   8014   CZ ARG B 353     199.113 117.395 162.834  0.00  0.00           C 0
+ATOM   8013   NE ARG B 353     197.796 117.530 162.709  0.00  0.00           N 0
+ATOM   8016  NH2 ARG B 353     199.920 118.387 162.481  0.00  0.00           N 0
+ATOM  10484  OE2 GLU B 653     195.793 125.639 160.071  0.57  6.43           O 0
+ATOM  10483  OE1 GLU B 653     197.312 126.576 161.344  0.00  0.00           O 0
+ATOM  10482   CD GLU B 653     196.140 126.473 160.931  0.00  0.00           C 0
+ATOM   8076   CD LYS B 361     191.904 123.702 163.236  0.00  0.00           C 0
+ATOM   7976   OH TYR B 348     194.782 124.405 166.791  0.59  4.29           O 0
+ATOM   8003   CB PRO B 352     194.746 119.513 166.996  0.00  0.00           C 0
+ATOM   7973  CE1 TYR B 348     192.895 122.977 167.058  0.00  0.00           C 0
+ATOM   8077   CE LYS B 361     191.587 122.749 162.096  0.00  0.00           C 0
+TER
+END

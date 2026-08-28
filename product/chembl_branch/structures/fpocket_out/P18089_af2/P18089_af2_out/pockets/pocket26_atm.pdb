@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    26:
+HEADER 0  - Pocket Score                      : -0.1202
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.8369
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5505
+HEADER 5  - Mean B-factor of pocket residues  : 0.6022
+HEADER 6  - Hydrophobicity Score              : 43.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 6.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 153.4014
+HEADER 10 - Pocket volume (convex hull)       : 1.7542
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1875
+ATOM   2707  CD1 TRP A 356     -32.155  -9.155  22.194  0.00  0.00           C 0
+ATOM   2702   CA TRP A 356     -32.407  -5.780  22.333  0.00  0.00           C 0
+ATOM   2748  NH1 ARG A 359     -27.032  -6.036  26.126  0.42  7.66           N 0
+ATOM   2746   CD ARG A 359     -27.772  -4.947  23.550  0.00  0.00           C 0
+ATOM   2700  OE1 GLN A 355     -30.776  -2.255  27.967  0.65  3.21           O 0
+ATOM   2680    O ILE A 352     -34.709  -5.249  25.305  0.62  2.14           O 0
+ATOM   2682  CG2 ILE A 352     -35.014  -7.123  27.977  0.00  0.00           C 0
+ATOM   2704   CB TRP A 356     -33.294  -6.955  22.756  0.00  0.00           C 0
+ATOM   2695   CB GLN A 355     -31.998  -2.463  25.435  0.00  0.00           C 0
+ATOM   2701    N TRP A 356     -32.738  -4.605  23.138  0.70  1.09           N 0
+ATOM   2750   CZ ARG A 359     -27.214  -4.752  25.977  0.00  0.00           C 0
+ATOM   2749  NH2 ARG A 359     -27.108  -4.001  27.036  0.54  6.56           N 0
+ATOM   2747   NE ARG A 359     -27.506  -4.218  24.804  0.50  3.28           N 0
+TER
+END

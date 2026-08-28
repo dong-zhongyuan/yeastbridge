@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    12:
+HEADER 0  - Pocket Score                      : 0.0328
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.4664
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3704
+HEADER 5  - Mean B-factor of pocket residues  : 0.3509
+HEADER 6  - Hydrophobicity Score              : 22.6250
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 63.8828
+HEADER 10 - Pocket volume (convex hull)       : 0.1251
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.5000
+ATOM   6891  CZ2 TRP R1138       9.488 -96.359 -68.298  0.00  0.00           C 0
+ATOM   6665   CG ASN R1101       9.075 -98.545 -62.084  0.00  0.00           C 0
+ATOM   6956  CG2 VAL R1149      12.718 -94.777 -65.733  0.00  0.00           C 0
+ATOM   6955  CG1 VAL R1149      12.456 -95.109 -63.271  0.00  0.00           C 0
+ATOM   6933    O ARG R1145       9.988 -92.677 -65.072  0.65  1.07           O 0
+ATOM   6694  NE2 GLN R1105       5.484 -97.018 -64.063  0.65  1.09           N 0
+ATOM   6934   CB ARG R1145       7.094 -92.710 -64.491  0.00  0.00           C 0
+ATOM   6693  OE1 GLN R1105       6.360 -97.899 -65.933  0.77  6.43           O 0
+ATOM   6667  ND2 ASN R1101       9.369 -97.403 -61.474  0.76  1.09           N 0
+ATOM   6085  OD2 ASP R1010       8.145 -95.156 -61.049  0.55  1.07           O 1
+ATOM   6664   CB ASN R1101      10.225 -99.510 -62.295  0.00  0.00           C 0
+ATOM   6645    O ALA R1098      12.785-100.434 -64.411  0.00  0.00           O 0
+ATOM   6673   CG MET R1102      11.233-100.112 -67.399  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : 0.0521
+HEADER 1  - Drug Score                        : 0.0008
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.7040
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4272
+HEADER 5  - Mean B-factor of pocket residues  : 0.3748
+HEADER 6  - Hydrophobicity Score              : 48.3333
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 116.9749
+HEADER 10 - Pocket volume (convex hull)       : 2.0841
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.2857
+ATOM   1745   SD MET R 283     104.521 127.629 111.567  0.00  0.00           S 0
+ATOM   1744   CG MET R 283     102.953 127.781 112.424  0.00  0.00           C 0
+ATOM   4071  CD2 LEU A 353     102.300 123.060 114.560  0.00  0.00           C 0
+ATOM   1746   CE MET R 283     105.576 128.439 112.739  0.00  0.00           C 0
+ATOM   1775  CG2 VAL R 287     105.917 124.746 108.362  0.00  0.00           C 0
+ATOM   2180  CD2 TYR R 338     109.303 122.122 111.898  0.00  0.00           C 0
+ATOM   2178   CG TYR R 338     110.216 123.057 111.431  0.00  0.00           C 0
+ATOM   2168    O LEU R 337     109.295 127.548 112.382  0.00  0.00           O 0
+ATOM   2210   CA ASP R 342     107.953 127.328 117.616  0.00  0.00           C 0
+ATOM   2204    O LEU R 341     106.669 129.002 115.719  0.59  3.21           O 0
+ATOM   2176    O TYR R 338     110.386 125.646 115.094  0.59  2.14           O 0
+ATOM   4063    O GLY A 352     104.228 125.066 118.129  0.46  1.07           O 0
+ATOM    804  NH2 ARG R 167     106.548 121.369 114.129  0.51  5.47           N 0
+ATOM   2213   CB ASP R 342     108.897 126.132 117.726  0.00  0.00           C 0
+ATOM   2174   CA TYR R 338     110.583 125.230 112.739  0.00  0.00           C 0
+ATOM   2214   CG ASP R 342     108.307 124.995 118.519  0.00  0.00           C 0
+ATOM    803  NH1 ARG R 167     104.921 121.474 112.523  0.65  3.28           N 0
+TER
+END

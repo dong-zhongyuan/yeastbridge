@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   150:
+HEADER 0  - Pocket Score                      : -0.2601
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0110
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4950
+HEADER 5  - Mean B-factor of pocket residues  : 0.0784
+HEADER 6  - Hydrophobicity Score              : 32.5455
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.1818
+HEADER 9  - Pocket volume (Monte Carlo)       : 371.8793
+HEADER 10 - Pocket volume (convex hull)       : 19.2583
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1333
+ATOM   3427   CA ASN B  91     114.890 176.113 174.110  0.00  0.00           C 0
+ATOM   3429    O ASN B  91     113.535 177.932 174.847  0.47  8.57           O 0
+ATOM   3428    C ASN B  91     113.563 176.815 174.323  0.00  0.00           C 0
+ATOM   3421    O ASP B  90     115.843 173.730 175.085  0.56  4.29           O 0
+ATOM  14996  CD1 ILE H  85     120.742 180.905 180.954  0.00  0.00           C 0
+ATOM  14961   OG SER H  81     119.981 178.189 178.177  0.57  2.14           O 0
+ATOM  15418  CG2 THR H 146     115.789 181.930 182.903  0.00  0.00           C 0
+ATOM  15407    O MET H 145     117.242 185.008 180.664  0.24  8.57           O 0
+ATOM  10831  CD2 LEU D 345     119.466 180.929 172.732  0.00  0.00           C 0
+ATOM   3430   CB ASN B  91     115.815 176.939 173.229  0.00  0.00           C 0
+ATOM  10849  CD1 ILE D 348     122.234 181.447 175.166  0.00  0.00           C 0
+ATOM  10823  CD2 LEU D 344     119.662 185.200 174.849  0.00  0.00           C 0
+ATOM   3432  OD1 ASN B  91     117.716 175.618 173.799  0.70  4.29           O 0
+ATOM  10795  NE2 GLN D 341     114.740 184.305 173.581  0.65  9.84           N 0
+ATOM  14960   CB SER H  81     120.036 176.791 177.969  0.00  0.00           C 0
+ATOM  14935   NZ LYS H  77     117.788 172.468 178.968  0.00  0.00           N 0
+TER
+END

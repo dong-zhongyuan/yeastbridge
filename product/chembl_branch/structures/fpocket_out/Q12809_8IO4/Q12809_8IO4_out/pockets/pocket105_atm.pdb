@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   105:
+HEADER 0  - Pocket Score                      : -0.1232
+HEADER 1  - Drug Score                        : 0.0014
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9316
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6818
+HEADER 5  - Mean B-factor of pocket residues  : 0.8257
+HEADER 6  - Hydrophobicity Score              : 44.3333
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 209.6725
+HEADER 10 - Pocket volume (convex hull)       : 7.9872
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.6667
+ATOM   2877  CG1 VAL A 795     210.015 183.697 208.289  0.00  0.00           C 0
+ATOM   2822   CG GLU A 788     208.041 179.268 204.938  0.00  0.00           C 0
+ATOM   2821   CB GLU A 788     207.182 180.223 205.754  0.00  0.00           C 0
+ATOM   3103  CD2 LEU A 825     209.567 180.287 201.330  0.00  0.00           C 0
+ATOM   2820    O GLU A 788     205.989 181.799 207.657  0.45  2.14           O 0
+ATOM   2840  CD1 LEU A 790     207.042 187.304 208.501  0.00  0.00           C 0
+ATOM   3085   CG ARG A 823     203.764 184.923 206.452  0.00  0.00           C 0
+ATOM   3100   CB LEU A 825     207.080 180.468 201.030  0.00  0.00           C 0
+ATOM   3102  CD1 LEU A 825     208.628 181.902 199.661  0.00  0.00           C 0
+ATOM   3084   CB ARG A 823     203.816 183.673 205.594  0.00  0.00           C 0
+ATOM   3096    N LEU A 825     204.686 181.034 201.071  0.00  0.00           N 0
+ATOM   3097   CA LEU A 825     205.868 180.935 200.223  0.00  0.00           C 0
+ATOM   3094    O ALA A 824     203.870 182.849 200.011  0.50  7.50           O 0
+ATOM   3091    N ALA A 824     202.528 182.660 202.835  0.61  7.66           N 0
+ATOM   3086   CD ARG A 823     203.282 186.118 205.646  0.00  0.00           C 0
+ATOM   3093    C ALA A 824     203.739 181.942 200.838  0.00  0.00           C 0
+TER
+END

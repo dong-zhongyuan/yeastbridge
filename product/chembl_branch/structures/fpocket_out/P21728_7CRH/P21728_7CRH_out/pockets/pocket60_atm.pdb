@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    60:
+HEADER 0  - Pocket Score                      : -0.1454
+HEADER 1  - Drug Score                        : 0.0017
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.1499
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7740
+HEADER 5  - Mean B-factor of pocket residues  : 0.8146
+HEADER 6  - Hydrophobicity Score              : 63.0000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 3.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 362.1175
+HEADER 10 - Pocket volume (convex hull)       : 13.4308
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.6000
+ATOM   5974   SG CYS R  28     131.353  95.133  82.196  0.00  0.00           S 0
+ATOM   5970   CA CYS R  28     129.280  96.313  80.702  0.00  0.00           C 0
+ATOM   5973   CB CYS R  28     130.797  96.151  80.807  0.00  0.00           C 0
+ATOM   5969    N CYS R  28     128.881  96.419  79.302  0.60  1.09           N 0
+ATOM   6004   CB LEU R  32     127.740  98.195  85.785  0.00  0.00           C 0
+ATOM   6006  CD1 LEU R  32     127.883  97.707  88.244  0.00  0.00           C 0
+ATOM   6007  CD2 LEU R  32     129.765  98.897  87.097  0.00  0.00           C 0
+ATOM   6001   CA LEU R  32     126.284  97.737  85.710  0.00  0.00           C 0
+ATOM   6031  CD2 LEU R  35     125.309  94.429  89.293  0.00  0.00           C 0
+ATOM   5944    O ILE R  24     131.549  95.284  76.881  0.00  0.00           O 0
+ATOM   6028   CB LEU R  35     123.491  95.494  87.923  0.00  0.00           C 0
+ATOM   5997    O SER R  31     123.991  96.467  84.966  0.45  2.14           O 0
+ATOM   6030  CD1 LEU R  35     123.260  93.120  88.712  0.00  0.00           C 0
+ATOM   5966    C ALA R  27     127.591  96.513  78.968  0.00  0.00           C 0
+ATOM   5999   OG SER R  31     125.036  95.141  80.723  0.87  7.50           O 0
+ATOM   5968   CB ALA R  27     127.349  95.298  76.789  0.00  0.00           C 0
+ATOM   5998   CB SER R  31     124.991  95.199  82.139  0.00  0.00           C 0
+ATOM   5972    O CYS R  28     128.247  97.373  82.591  0.00  0.00           O 0
+ATOM   6000    N LEU R  32     125.949  97.369  84.338  0.68  1.09           N 0
+ATOM   5996    C SER R  31     124.776  96.788  84.071  0.00  0.00           C 0
+TER
+END

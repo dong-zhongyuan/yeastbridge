@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : -0.0175
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 3.6553
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4328
+HEADER 5  - Mean B-factor of pocket residues  : 0.1132
+HEADER 6  - Hydrophobicity Score              : 32.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.6250
+HEADER 9  - Pocket volume (Monte Carlo)       : 111.4301
+HEADER 10 - Pocket volume (convex hull)       : 1.5966
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.3043
+ATOM   6740   CB SER A 189     199.484 183.268 230.891  0.00  0.00           C 0
+ATOM  18623    C GLN D 309     197.829 188.094 226.215  0.00  0.00           C 0
+ATOM  18630    N LEU D 310     196.743 188.597 226.807  0.00  0.00           N 0
+ATOM  18625   CB GLN D 309     199.642 188.409 227.870  0.00  0.00           C 0
+ATOM  18624    O GLN D 309     197.786 187.082 225.507  0.72  1.07           O 0
+ATOM  18657  CG2 THR D 313     197.872 183.859 225.466  0.00  0.00           C 0
+ATOM   6741   OG SER A 189     200.595 183.553 230.059  0.77  1.07           O 0
+ATOM  18628  OE1 GLN D 309     200.544 187.864 230.391  0.74  1.07           O 0
+ATOM  18601    O ASN D 306     197.177 190.571 228.968  0.00  0.00           O 0
+ATOM  18631   CA LEU D 310     195.445 187.954 226.618  0.00  0.00           C 0
+ATOM  18335   OG SER D 262     194.983 185.156 232.534  0.52  6.43           O 0
+ATOM  18656  OG1 THR D 313     195.573 184.636 225.420  0.72  4.29           O 0
+ATOM  18636  CD1 LEU D 310     193.095 186.465 227.830  0.00  0.00           C 0
+ATOM  18363  CD2 LEU D 265     194.906 190.231 231.428  0.00  0.00           C 0
+ATOM  18634   CB LEU D 310     194.412 188.570 227.560  0.00  0.00           C 0
+ATOM   6746   CB LEU A 190     199.106 187.107 234.593  0.00  0.00           C 0
+ATOM   6748  CD1 LEU A 190     198.105 189.371 234.725  0.00  0.00           C 0
+TER
+END

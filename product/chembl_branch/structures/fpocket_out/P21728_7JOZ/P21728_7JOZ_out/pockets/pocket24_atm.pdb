@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    24:
+HEADER 0  - Pocket Score                      : -0.0108
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.5483
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3764
+HEADER 5  - Mean B-factor of pocket residues  : 0.2143
+HEADER 6  - Hydrophobicity Score              : 8.4286
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 114.5597
+HEADER 10 - Pocket volume (convex hull)       : 1.7337
+HEADER 11 - Charge Score                      :    -3
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5000
+ATOM   1895    N GLU A 330     -18.225 -21.877 -60.455  0.68  1.09           N 0
+ATOM   8479   CB ALA R 238     -16.636 -24.109 -65.367  0.00  0.00           C 0
+ATOM   1891   CB ASP A 329     -20.288 -23.572 -62.230  0.00  0.00           C 0
+ATOM   1902  OE1 GLU A 330     -15.792 -19.210 -62.622  0.63  7.50           O 0
+ATOM   1718  CD1 TYR A 304     -21.688 -21.259 -66.844  0.00  0.00           C 0
+ATOM   8478    O ALA R 238     -15.715 -22.901 -67.823  0.09  9.64           O 0
+ATOM   8476   CA ALA R 238     -17.245 -24.373 -66.745  0.00  0.00           C 0
+ATOM   1689    O GLU A 300     -19.361 -17.212 -68.904  0.76  3.21           O 0
+ATOM   8492    O ASN R 240     -15.779 -20.851 -70.925  0.00  0.00           O 0
+ATOM   8493   CB ASN R 240     -18.850 -22.130 -71.490  0.00  0.00           C 0
+ATOM   1690   CB GLU A 300     -16.514 -17.079 -67.926  0.00  0.00           C 0
+ATOM   1863  CD1 PHE A 326     -20.639 -18.393 -64.319  0.00  0.00           C 0
+ATOM   1720  CE1 TYR A 304     -22.051 -22.161 -65.861  0.00  0.00           C 0
+ATOM   1865  CE1 PHE A 326     -19.412 -17.846 -64.645  0.00  0.00           C 0
+ATOM   1860    O PHE A 326     -20.440 -20.155 -61.130  0.00  0.00           O 0
+TER
+END

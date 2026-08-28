@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    60:
+HEADER 0  - Pocket Score                      : -0.1074
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.8165
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5547
+HEADER 5  - Mean B-factor of pocket residues  : 0.2064
+HEADER 6  - Hydrophobicity Score              : 17.8000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.2000
+HEADER 9  - Pocket volume (Monte Carlo)       : 168.5311
+HEADER 10 - Pocket volume (convex hull)       : 3.5437
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   6296    C ARG B 304     150.480 142.358 100.715  0.00  0.00           C 0
+ATOM   6297    O ARG B 304     151.598 142.879 100.675  0.57  7.50           O 0
+ATOM   6303  NH1 ARG B 304     152.200 138.408 104.591  0.36  6.56           N 0
+ATOM   6298   CB ARG B 304     150.570 139.890 101.151  0.00  0.00           C 0
+ATOM   4295   NE ARG B  42     151.040 146.137 105.848  0.73  2.19           N 0
+ATOM   6307    C ALA B 305     148.734 144.458 103.110  0.00  0.00           C 0
+ATOM   4297  NH1 ARG B  42     152.771 145.956 107.355  0.72  5.47           N 0
+ATOM   4294   CD ARG B  42     151.815 146.895 104.868  0.00  0.00           C 0
+ATOM   6306   CA ALA B 305     149.512 144.297 101.816  0.00  0.00           C 0
+ATOM   6300   CD ARG B 304     149.809 138.563 103.101  0.00  0.00           C 0
+ATOM   6310    N GLY B 306     148.017 143.434 103.556  0.64  2.19           N 0
+ATOM   6320  CG2 VAL B 307     148.369 139.837 107.121  0.00  0.00           C 0
+ATOM   6311   CA GLY B 306     147.316 143.503 104.822  0.00  0.00           C 0
+ATOM   4298  NH2 ARG B  42     150.736 145.022 107.834  0.15  5.47           N 0
+ATOM   6305    N ALA B 305     149.416 142.972 101.230  0.00  0.00           N 0
+ATOM   4296   CZ ARG B  42     151.516 145.706 107.011  0.00  0.00           C 0
+TER
+END

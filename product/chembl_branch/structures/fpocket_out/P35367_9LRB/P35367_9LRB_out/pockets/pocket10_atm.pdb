@@ -1,0 +1,32 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : -0.0146
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.7774
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4495
+HEADER 5  - Mean B-factor of pocket residues  : 0.1370
+HEADER 6  - Hydrophobicity Score              : 5.3333
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 101.9919
+HEADER 10 - Pocket volume (convex hull)       : 0.0671
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.5333
+ATOM   1529   CD ARG A 337     102.471 143.950  87.587  0.00  0.00           C 0
+ATOM   1493  OD1 ASP A 333     104.034 145.480  89.862  0.38  3.21           O 0
+ATOM   1289  CD2 TYR A 308     103.610 151.013  88.014  0.00  0.00           C 0
+ATOM   1530   NE ARG A 337     101.105 143.893  87.079  0.56  3.28           N 0
+ATOM   1291  CE2 TYR A 308     104.243 150.286  88.997  0.00  0.00           C 0
+ATOM   1465  CE1 PHE A 330     104.424 149.397  84.052  0.00  0.00           C 0
+ATOM   1251   CG GLU A 304     101.139 148.780  82.668  0.00  0.00           C 0
+ATOM   1491   CB ASP A 333     106.054 146.620  89.327  0.00  0.00           C 0
+ATOM   1463  CD1 PHE A 330     105.267 149.933  85.003  0.00  0.00           C 0
+ATOM   1503  OE2 GLU A 334     103.798 145.416  83.994  0.63  2.14           O 1
+TER
+END

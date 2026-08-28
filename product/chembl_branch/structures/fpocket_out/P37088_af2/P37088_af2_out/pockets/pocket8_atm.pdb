@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : 0.0588
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.8834
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4819
+HEADER 5  - Mean B-factor of pocket residues  : 0.9725
+HEADER 6  - Hydrophobicity Score              : -2.0000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 259.4862
+HEADER 10 - Pocket volume (convex hull)       : 6.0957
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1364
+ATOM   3076  NH2 ARG A 380      -5.460  20.837 -10.573  0.23  4.37           N 0
+ATOM   4302  OE1 GLU A 530      -8.170  20.553 -11.145  0.76  1.07           O 0
+ATOM   4294   NZ LYS A 529     -10.703  23.052  -5.279  0.00  0.00           N 0
+ATOM   4303  OE2 GLU A 530      -9.480  22.277 -11.484  0.64  6.43           O 0
+ATOM   3073   CD ARG A 380      -6.712  18.062  -8.609  0.00  0.00           C 0
+ATOM   3070   CB ARG A 380      -8.644  16.609  -7.935  0.00  0.00           C 0
+ATOM   3924   CB GLN A 485      -6.615  15.038  -4.501  0.00  0.00           C 0
+ATOM   3943   OG SER A 487     -10.221  18.458  -0.922  0.00  0.00           O 0
+ATOM   3077   CZ ARG A 380      -5.374  19.844  -9.740  0.00  0.00           C 0
+ATOM   3075  NH1 ARG A 380      -4.264  19.619  -9.088  0.00  0.00           N 0
+ATOM   4292   CD LYS A 529     -11.949  21.270  -6.492  0.00  0.00           C 0
+ATOM   3925    O GLN A 485      -9.613  14.557  -4.496  0.70  1.07           O 0
+ATOM   3057    O SER A 378     -13.157  15.713  -3.597  0.65  1.07           O 0
+ATOM   3058   OG SER A 378     -14.079  18.614  -3.366  0.68  7.50           O 0
+ATOM   3061    C MET A 379     -11.799  15.354  -7.262  0.00  0.00           C 0
+ATOM   3074   NE ARG A 380      -6.448  19.109  -9.594  0.00  0.00           N 0
+ATOM   3067    N ARG A 380     -10.481  15.146  -7.239  0.00  0.00           N 0
+TER
+END

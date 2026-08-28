@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : -0.0022
+HEADER 1  - Drug Score                        : 0.0061
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9677
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6822
+HEADER 5  - Mean B-factor of pocket residues  : 0.9347
+HEADER 6  - Hydrophobicity Score              : 46.4444
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.2222
+HEADER 9  - Pocket volume (Monte Carlo)       : 279.4882
+HEADER 10 - Pocket volume (convex hull)       : 14.4701
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.7059
+ATOM   2566  CG1 ILE A 329      -0.650  -9.225   3.397  0.00  0.00           C 0
+ATOM   2562   CA ILE A 329      -2.711  -8.375   4.647  0.00  0.00           C 0
+ATOM   2561    N ILE A 329      -3.379  -7.917   3.417  0.00  0.00           N 0
+ATOM   2558    O PRO A 328      -5.467  -8.482   4.059  0.72  1.07           O 0
+ATOM   2592   CB ALA A 332      -5.652 -10.790   6.964  0.00  0.00           C 0
+ATOM   2556    C PRO A 328      -4.701  -8.005   3.215  0.00  0.00           C 0
+ATOM   2557   CB PRO A 328      -5.033  -8.393   0.740  0.00  0.00           C 0
+ATOM   2678   OG SER A 342      -9.975 -17.703   8.247  0.69  5.36           O 0
+ATOM   2674   CA SER A 342     -10.961 -18.214   6.071  0.00  0.00           C 0
+ATOM   2700  CD1 LEU A 345      -7.276 -17.402   2.252  0.00  0.00           C 0
+ATOM   2711   SG CYS A 347      -7.824 -21.025   5.261  0.00  0.00           S 0
+ATOM   2673    N SER A 342     -11.025 -16.793   5.699  0.70  1.09           N 0
+ATOM   2665   CB PHE A 341      -9.868 -14.118   4.475  0.00  0.00           C 0
+ATOM   2669  CD2 PHE A 341      -8.741 -11.864   4.490  0.00  0.00           C 0
+ATOM   2638   CA ARG A 338     -10.400 -12.656   8.627  0.00  0.00           C 0
+ATOM   2642   CG ARG A 338      -8.805 -13.760  10.254  0.00  0.00           C 0
+ATOM   2641    O ARG A 338     -11.020 -14.847   7.928  0.62  1.07           O 0
+ATOM    323  CD2 LEU A  43      -8.280 -13.709   0.803  0.00  0.00           C 0
+ATOM   2671  CE2 PHE A 341      -8.610 -10.534   4.053  0.00  0.00           C 0
+TER
+END

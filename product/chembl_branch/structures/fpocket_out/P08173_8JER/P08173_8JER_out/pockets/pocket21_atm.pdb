@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    21:
+HEADER 0  - Pocket Score                      : 0.0008
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.8535
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4605
+HEADER 5  - Mean B-factor of pocket residues  : 0.7915
+HEADER 6  - Hydrophobicity Score              : 45.5556
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.5556
+HEADER 9  - Pocket volume (Monte Carlo)       : 155.3353
+HEADER 10 - Pocket volume (convex hull)       : 3.3926
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2000
+ATOM   5519  NH2 ARG R 251     188.757 188.420 165.694  0.69  4.37           N 0
+ATOM   5025    O SER R 181     192.167 192.615 163.805  0.21  5.36           O 0
+ATOM   5050    O THR R 185     189.076 194.761 167.923  0.41  5.36           O 0
+ATOM   5518  NH1 ARG R 251     190.967 188.366 165.102  0.70  5.47           N 0
+ATOM   5517   CZ ARG R 251     189.985 187.944 165.880  0.00  0.00           C 0
+ATOM   5087   CB GLU R 190     187.023 189.133 168.371  0.00  0.00           C 0
+ATOM   5058  CD1 PHE R 186     187.726 191.612 171.091  0.00  0.00           C 0
+ATOM   5039    O CYS R 183     192.913 194.172 168.078  0.65  6.43           O 0
+ATOM   5516   NE ARG R 251     190.197 187.057 166.843  0.00  0.00           N 0
+ATOM   5029   CA ILE R 182     194.952 192.557 164.079  0.00  0.00           C 0
+ATOM   5036    N CYS R 183     194.324 194.138 165.817  0.68  1.09           N 0
+ATOM   5515   CD ARG R 251     191.492 186.457 167.134  0.00  0.00           C 0
+ATOM   5536   CA PHE R 255     194.641 189.104 172.172  0.00  0.00           C 0
+ATOM   5535    N PHE R 255     195.252 188.331 171.093  0.00  0.00           N 0
+ATOM   5533    O ILE R 254     196.742 189.957 170.650  0.00  0.00           O 0
+ATOM   5532    C ILE R 254     196.290 188.830 170.417  0.00  0.00           C 0
+ATOM   5060  CE1 PHE R 186     188.089 190.320 171.432  0.00  0.00           C 0
+TER
+END

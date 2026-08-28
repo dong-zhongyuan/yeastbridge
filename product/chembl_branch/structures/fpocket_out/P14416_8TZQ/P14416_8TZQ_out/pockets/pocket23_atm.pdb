@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    23:
+HEADER 0  - Pocket Score                      : -0.0123
+HEADER 1  - Drug Score                        : 0.0163
+HEADER 2  - Number of alpha spheres           :    26
+HEADER 3  - Mean alpha-sphere radius          : 3.9393
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5384
+HEADER 5  - Mean B-factor of pocket residues  : 0.3233
+HEADER 6  - Hydrophobicity Score              : 26.2222
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 251.8720
+HEADER 10 - Pocket volume (convex hull)       : 6.1378
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 15.0000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 0.6154
+ATOM    288   CG PRO E  41     147.847 193.597 108.834  0.00  0.00           C 0
+ATOM    883  CG2 THR E 116     141.123 191.257 111.826  0.00  0.00           C 0
+ATOM    289   CD PRO E  41     148.413 193.364 110.202  0.00  0.00           C 0
+ATOM    674  CG2 THR E  91     144.514 196.366 113.862  0.00  0.00           C 0
+ATOM    680    N MET E  93     145.385 189.765 114.210  0.00  0.00           N 0
+ATOM    898  CG2 THR E 118     141.096 195.565 112.540  0.00  0.00           C 0
+ATOM    677    C ALA E  92     144.942 190.923 114.693  0.00  0.00           C 0
+ATOM    275   CD GLN E  39     149.426 186.523 110.131  0.00  0.00           C 0
+ATOM    284   CA PRO E  41     149.976 192.556 108.503  0.00  0.00           C 0
+ATOM    283    N PRO E  41     149.613 192.554 109.931  0.00  0.00           N 0
+ATOM    684   CB MET E  93     144.553 187.916 112.824  0.00  0.00           C 0
+ATOM    882  OG1 THR E 116     141.072 188.894 111.354  0.72  5.36           O 0
+ATOM    686   SD MET E  93     143.238 186.408 110.905  0.00  0.00           S 0
+ATOM    276  OE1 GLN E  39     148.360 185.930 110.282  0.61  5.36           O 0
+ATOM    675    N ALA E  92     145.350 193.232 115.319  0.00  0.00           N 0
+ATOM    887    O LEU E 117     142.491 193.800 115.453  0.00  0.00           O 0
+ATOM    676   CA ALA E  92     145.952 192.063 114.692  0.00  0.00           C 0
+ATOM    272    O GLN E  39     148.013 189.826 113.019  0.44  4.29           O 0
+ATOM    280    C ALA E  40     150.274 191.762 110.779  0.00  0.00           C 0
+ATOM    274   CG GLN E  39     149.963 187.443 111.205  0.00  0.00           C 0
+TER
+END

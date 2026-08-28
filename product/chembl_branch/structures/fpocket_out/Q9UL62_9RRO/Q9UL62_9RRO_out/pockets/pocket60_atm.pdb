@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    60:
+HEADER 0  - Pocket Score                      : -0.0693
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.0156
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6689
+HEADER 5  - Mean B-factor of pocket residues  : 0.6237
+HEADER 6  - Hydrophobicity Score              : 13.3333
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 256.2778
+HEADER 10 - Pocket volume (convex hull)       : 12.1080
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5556
+ATOM    349  CE1 TYR A  58     215.697 191.722 120.529  0.00  0.00           C 0
+ATOM    315   CG GLU A  54     210.981 190.251 123.844  0.00  0.00           C 0
+ATOM    351   CZ TYR A  58     214.984 192.887 120.354  0.00  0.00           C 0
+ATOM    352   OH TYR A  58     214.493 193.207 119.109  0.00  0.00           O 0
+ATOM    318  OE2 GLU A  54     209.265 191.799 123.276  0.00  0.00           O 0
+ATOM    350  CE2 TYR A  58     214.760 193.733 121.418  0.00  0.00           C 0
+ATOM    339  CG2 ILE A  57     216.974 188.369 120.960  0.00  0.00           C 0
+ATOM    337   CB ILE A  57     216.451 187.364 121.971  0.00  0.00           C 0
+ATOM    308  OE1 GLN A  53     208.508 183.860 122.155  0.62  5.36           O 0
+ATOM    305   CB GLN A  53     210.357 184.628 124.062  0.00  0.00           C 0
+ATOM    332  OE2 GLU A  56     213.366 182.587 123.158  0.75  5.36           O 0
+ATOM    338  CG1 ILE A  57     216.249 186.000 121.310  0.00  0.00           C 0
+ATOM    286  OE1 GLN A  50     206.332 187.489 122.047  0.64  7.50           O 0
+ATOM    311   CA GLU A  54     212.551 188.488 124.827  0.00  0.00           C 0
+ATOM    347  CD1 TYR A  58     216.189 191.403 121.779  0.00  0.00           C 0
+ATOM    310    N GLU A  54     211.734 187.311 125.098  0.87  1.09           N 0
+ATOM    303    C GLN A  53     212.227 186.091 124.881  0.00  0.00           C 0
+ATOM    304    O GLN A  53     213.365 185.913 124.433  0.65  1.07           O 0
+ATOM    282    O GLN A  50     208.834 187.877 125.489  0.00  0.00           O 0
+TER
+END

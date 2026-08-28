@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    29:
+HEADER 0  - Pocket Score                      : -0.0110
+HEADER 1  - Drug Score                        : 0.0089
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.6243
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4141
+HEADER 5  - Mean B-factor of pocket residues  : 0.6012
+HEADER 6  - Hydrophobicity Score              : 48.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 160.0455
+HEADER 10 - Pocket volume (convex hull)       : 4.0590
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 19.0000
+HEADER 13 - Number of apolar alpha sphere     :    20
+HEADER 14 - Proportion of apolar alpha sphere : 0.9524
+ATOM  12393  CD1 LEU K 911     217.358 193.625 216.475  0.00  0.00           C 0
+ATOM  12420  CG1 ILE K 915     215.723 194.319 211.440  0.00  0.00           C 0
+ATOM  12421  CG2 ILE K 915     217.311 192.944 210.065  0.00  0.00           C 0
+ATOM  12419   CB ILE K 915     216.102 192.907 210.987  0.00  0.00           C 0
+ATOM  12617  CD2 PHE K 940     222.263 192.520 212.090  0.00  0.00           C 0
+ATOM  12584   CA ASP K 937     221.872 189.105 209.225  0.00  0.00           C 0
+ATOM  12589  OD1 ASP K 937     220.428 191.072 208.023  0.59  4.29           O 0
+ATOM  12614   CB PHE K 940     222.281 190.428 213.477  0.00  0.00           C 0
+ATOM  12427   CB SER K 916     216.843 187.839 210.981  0.00  0.00           C 0
+ATOM  12423    N SER K 916     215.651 189.899 210.414  0.00  0.00           N 0
+ATOM  12619  CE2 PHE K 940     222.806 193.733 211.708  0.00  0.00           C 0
+ATOM  12586    O ASP K 937     221.973 187.569 211.066  0.00  0.00           O 0
+ATOM  12396   CA LEU K 912     215.517 190.250 215.066  0.00  0.00           C 0
+ATOM  12651  CE2 PHE K 944     219.505 190.414 216.430  0.00  0.00           C 0
+ATOM  12626  OG1 THR K 941     220.297 185.865 212.459  0.77  1.07           O 0
+ATOM  13098  NH2 ARG K1001     216.714 186.312 213.994  0.91  1.09           N 0
+TER
+END

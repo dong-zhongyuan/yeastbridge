@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    17:
+HEADER 0  - Pocket Score                      : 0.0173
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8044
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5978
+HEADER 5  - Mean B-factor of pocket residues  : 0.2970
+HEADER 6  - Hydrophobicity Score              : 11.2000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 209.7799
+HEADER 10 - Pocket volume (convex hull)       : 6.3140
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   2310    O ARG B 304      92.150 131.666 100.574  0.00  0.00           O 0
+ATOM   2312   CG ARG B 304      95.328 132.991 101.137  0.00  0.00           C 0
+ATOM   2316  NH1 ARG B 304      96.637 134.236 103.922  0.22  7.66           N 0
+ATOM    304  NH1 ARG B  42      92.213 128.018 105.394  0.00  0.00           N 0
+ATOM   2031  NE2 HIS B 266      92.496 137.944 102.172  0.00  0.00           N 0
+ATOM   2317  NH2 ARG B 304      96.560 136.484 103.501  0.71  3.28           N 0
+ATOM   2030  CE1 HIS B 266      92.772 138.887 103.055  0.00  0.00           C 0
+ATOM   2326    O GLY B 306      97.120 129.986 102.179  0.00  0.00           O 0
+ATOM    305  NH2 ARG B  42      94.244 127.549 106.343  0.52  6.56           N 0
+ATOM   2325    C GLY B 306      96.958 128.818 102.520  0.00  0.00           C 0
+ATOM   2315   CZ ARG B 304      96.601 135.233 103.053  0.00  0.00           C 0
+ATOM   2311   CB ARG B 304      94.320 133.731 100.296  0.00  0.00           C 0
+ATOM   2323    N GLY B 306      94.841 128.817 101.297  0.00  0.00           N 0
+ATOM   2331   CB VAL B 307      98.798 129.734 104.962  0.00  0.00           C 0
+ATOM   2332  CG1 VAL B 307      98.529 128.963 106.240  0.00  0.00           C 0
+ATOM    303   CZ ARG B  42      93.322 127.298 105.417  0.00  0.00           C 0
+TER
+END

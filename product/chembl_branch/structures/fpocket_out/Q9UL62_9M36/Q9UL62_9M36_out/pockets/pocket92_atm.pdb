@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    92:
+HEADER 0  - Pocket Score                      : -0.1042
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    30
+HEADER 3  - Mean alpha-sphere radius          : 3.9252
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4709
+HEADER 5  - Mean B-factor of pocket residues  : 0.3878
+HEADER 6  - Hydrophobicity Score              : 21.3750
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.6250
+HEADER 9  - Pocket volume (Monte Carlo)       : 308.6072
+HEADER 10 - Pocket volume (convex hull)       : 23.7599
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.3667
+ATOM    312  OE1 GLU A  56     190.754 138.576 102.409  0.00  0.00           O 0
+ATOM    607   CB SER A  93     186.516 137.072 107.820  0.00  0.00           C 0
+ATOM    588    O ASN A  91     182.803 138.255 105.256  0.00  6.43           O 0
+ATOM    313  OE2 GLU A  56     190.379 137.209 100.736  0.65  6.43           O 1
+ATOM    310   CG GLU A  56     190.681 139.511 100.200  0.00  0.00           C 0
+ATOM    600  CD2 HIS A  92     184.807 142.049 102.670  0.00  0.00           C 0
+ATOM    290  NE2 GLN A  53     187.908 142.106  97.545  0.80  4.37           N 0
+ATOM    311   CD GLU A  56     190.602 138.353 101.188  0.00  0.00           C 0
+ATOM    594   CA HIS A  92     184.625 140.305 105.612  0.00  0.00           C 0
+ATOM    595    C HIS A  92     185.479 139.721 106.731  0.00  0.00           C 0
+ATOM    277    O LEU A  52     189.718 144.149 102.351  0.57  3.21           O 0
+ATOM    306   CA GLU A  56     192.076 141.215 101.533  0.00  0.00           C 0
+ATOM    376  CD1 ILE A  63     191.675 142.299 107.609  0.00  0.00           C 0
+ATOM    596    O HIS A  92     186.680 140.014 106.803  0.41  6.43           O 0
+ATOM    374  CG1 ILE A  63     190.782 143.514 107.825  0.00  0.00           C 0
+ATOM    278   CB LEU A  52     187.832 145.591 104.470  0.00  0.00           C 0
+ATOM    597   CB HIS A  92     185.129 141.692 105.219  0.00  0.00           C 0
+ATOM    303    O ALA A  55     194.149 142.434 102.841  0.38  3.21           O 0
+ATOM    305    N GLU A  56     192.168 142.648 101.792  0.00  0.00           N 0
+ATOM    309   CB GLU A  56     190.740 140.885 100.868  0.00  0.00           C 0
+TER
+END

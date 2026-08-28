@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     4:
+HEADER 0  - Pocket Score                      : 0.0801
+HEADER 1  - Drug Score                        : 0.0187
+HEADER 2  - Number of alpha spheres           :    30
+HEADER 3  - Mean alpha-sphere radius          : 3.5957
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3892
+HEADER 5  - Mean B-factor of pocket residues  : 0.4267
+HEADER 6  - Hydrophobicity Score              : 64.4000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.3000
+HEADER 9  - Pocket volume (Monte Carlo)       : 184.8227
+HEADER 10 - Pocket volume (convex hull)       : 12.5061
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 25.0000
+HEADER 13 - Number of apolar alpha sphere     :    26
+HEADER 14 - Proportion of apolar alpha sphere : 0.8667
+ATOM   5491  CG1 VAL D 236     161.159 162.516 182.969  0.00  0.00           C 0
+ATOM   4674   CB ALA D 122     164.867 158.292 180.196  0.00  0.00           C 0
+ATOM   4670    N ALA D 122     163.377 157.901 178.290  0.00  0.00           N 0
+ATOM   4671   CA ALA D 122     164.637 158.511 178.705  0.00  0.00           C 0
+ATOM   5897  CG1 VAL D 293     157.508 162.747 178.241  0.00  0.00           C 0
+ATOM   4668  CG1 VAL D 121     160.556 159.590 176.864  0.00  0.00           C 0
+ATOM   4648  CD2 LEU D 118     158.140 158.964 182.379  0.00  0.00           C 0
+ATOM   4644    O LEU D 118     161.496 156.888 180.367  0.00  0.00           O 0
+ATOM   4697   NE ARG D 125     162.492 163.264 176.899  0.69  2.19           N 0
+ATOM   5492  CG2 VAL D 236     160.858 164.773 182.032  0.00  0.00           C 0
+ATOM   5490   CB VAL D 236     161.562 163.969 183.100  0.00  0.00           C 0
+ATOM   5284   OG SER D 208     167.461 161.877 183.430  0.68  3.21           O 0
+ATOM   5308  CD1 ILE D 211     168.886 162.461 177.876  0.00  0.00           C 0
+ATOM   5279    N SER D 208     169.642 161.206 182.065  0.00  0.00           N 0
+ATOM   5253  CD1 ILE D 204     163.646 157.975 183.436  0.00  0.00           C 0
+ATOM   4696   CD ARG D 125     163.602 162.313 176.908  0.00  0.00           C 0
+ATOM   5467   CA ILE D 233     164.825 166.721 181.454  0.00  0.00           C 0
+ATOM   5472  CG2 ILE D 233     166.896 165.350 181.031  0.00  0.00           C 0
+ATOM   5469    O ILE D 233     165.047 165.439 183.471  0.56  1.07           O 0
+ATOM   5471  CG1 ILE D 233     165.640 166.349 179.116  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     4:
+HEADER 0  - Pocket Score                      : 0.1321
+HEADER 1  - Drug Score                        : 0.0123
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.6353
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3457
+HEADER 5  - Mean B-factor of pocket residues  : 0.7520
+HEADER 6  - Hydrophobicity Score              : 72.4000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.7000
+HEADER 9  - Pocket volume (Monte Carlo)       : 143.2417
+HEADER 10 - Pocket volume (convex hull)       : 4.1813
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 19.0000
+HEADER 13 - Number of apolar alpha sphere     :    20
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM    751   CE MET A 243     146.434 145.007 104.757  0.00  0.00           C 0
+ATOM   1038  CD1 LEU A 283     144.683 147.688  98.943  0.00  0.00           C 0
+ATOM    987  CE1 PHE A 274     148.126 149.671  99.573  0.00  0.00           C 0
+ATOM    683    O LEU A 227     149.805 146.196 102.236  0.00  0.00           O 0
+ATOM    687  CD2 LEU A 227     148.706 149.699 105.101  0.00  0.00           C 0
+ATOM   1145    O ALA A 299     143.440 152.876 102.639  0.68  1.07           O 0
+ATOM    989   CZ PHE A 274     147.779 151.001  99.694  0.00  0.00           C 0
+ATOM   1173   CB ILE A 303     143.784 150.396 105.169  0.00  0.00           C 0
+ATOM   1148   CA ALA A 300     145.569 154.341 103.568  0.00  0.00           C 0
+ATOM   1039  CD2 LEU A 283     143.305 149.677  99.575  0.00  0.00           C 0
+ATOM    702   CB TYR A 230     147.047 144.335 100.615  0.00  0.00           C 0
+ATOM   1069  CE2 TYR A 287     140.934 146.396 102.941  0.00  0.00           C 0
+ATOM   1059   CB CYS A 286     141.839 143.328 100.202  0.00  0.00           C 0
+ATOM    749   CG MET A 243     144.153 143.496 105.221  0.00  0.00           C 0
+TER
+END

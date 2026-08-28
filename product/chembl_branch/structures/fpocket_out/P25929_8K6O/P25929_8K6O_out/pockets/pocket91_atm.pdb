@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    91:
+HEADER 0  - Pocket Score                      : -0.2155
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.2099
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5595
+HEADER 5  - Mean B-factor of pocket residues  : 0.1140
+HEADER 6  - Hydrophobicity Score              : 7.2857
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 311.5824
+HEADER 10 - Pocket volume (convex hull)       : 8.4610
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.5000
+ATOM   2232  CD1 LEU B  55      92.057 110.123 109.165  0.00  0.00           C 0
+ATOM   2230   CB LEU B  55      91.839 111.243 111.396  0.00  0.00           C 0
+ATOM   2233  CD2 LEU B  55      93.687 109.607 110.982  0.00  0.00           C 0
+ATOM    204   CB ALA A  31      94.600 116.190 105.673  0.00  0.00           C 0
+ATOM    176    O GLY A  27      92.354 113.660 105.514  0.70  4.29           O 0
+ATOM    182   CG GLU A  28      95.370 110.622 103.150  0.00  0.00           C 0
+ATOM    177    N GLU A  28      92.762 111.808 104.304  0.68  1.09           N 0
+ATOM    148    O ARG A  24      92.619 108.833 104.300  0.70  1.07           O 0
+ATOM    178   CA GLU A  28      93.679 112.528 103.422  0.00  0.00           C 0
+ATOM    151   CD ARG A  24      95.756 105.310 105.054  0.00  0.00           C 0
+ATOM   5148  NH2 ARG D  72      99.048 108.058 110.269  0.00  0.00           N 0
+ATOM   5781  ND2 ASN D 151     100.303 108.224 103.152  0.63  3.28           N 0
+ATOM    185  OE2 GLU A  28      96.822 108.818 102.597  0.66  2.14           O 0
+ATOM    175    C GLY A  27      92.134 112.469 105.280  0.00  0.00           C 0
+ATOM   2229    O LEU B  55      92.406 113.424 113.152  0.00  0.00           O 0
+ATOM    150   CG ARG A  24      94.656 106.363 105.078  0.00  0.00           C 0
+ATOM   5780  OD1 ASN D 151     101.405 109.731 104.401  0.00  9.64           O 0
+TER
+END

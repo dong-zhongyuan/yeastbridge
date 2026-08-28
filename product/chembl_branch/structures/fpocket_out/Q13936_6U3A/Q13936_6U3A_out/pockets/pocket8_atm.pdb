@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : 0.1067
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.5554
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3522
+HEADER 5  - Mean B-factor of pocket residues  : 0.1458
+HEADER 6  - Hydrophobicity Score              : -1.7143
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 100.8164
+HEADER 10 - Pocket volume (convex hull)       : 1.4480
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   1615  CG2 THR B  34       7.470   8.145  12.256  0.00  0.00           C 0
+ATOM    260    O THR A  34       9.397  13.717  13.693  0.63  1.07           O 0
+ATOM    294   CB SER A  38       5.961  14.233  13.847  0.00  0.00           C 0
+ATOM    295   OG SER A  38       6.076  14.097  15.256  0.79  4.29           O 0
+ATOM    172   CE LYS A  21       8.533   8.233  15.866  0.00  0.00           C 0
+ATOM    173   NZ LYS A  21       7.656   7.726  16.964  0.74  1.09           N 0
+ATOM    269  CG1 VAL A  35       9.794  11.203  17.618  0.00  0.00           C 0
+ATOM    864  OD1 ASN A 111       3.036  12.268  14.253  0.60  1.07           O 0
+ATOM   1612    O THR B  34       4.788   9.443  11.018  0.63  1.07           O 0
+ATOM   1610   CA THR B  34       5.255   7.158  11.610  0.00  0.00           C 0
+ATOM   1638   NE ARG B  37       1.719   6.947  14.502  0.71  1.09           N 0
+ATOM    886  OE2 GLU A 114       5.257   6.143  16.826  0.00  0.00           O 0
+ATOM    861    O ASN A 111       3.427  10.189  18.187  0.61  5.36           O 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    20:
+HEADER 0  - Pocket Score                      : 0.0096
+HEADER 1  - Drug Score                        : 0.0032
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8581
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6130
+HEADER 5  - Mean B-factor of pocket residues  : 0.4027
+HEADER 6  - Hydrophobicity Score              : 53.4286
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 225.6480
+HEADER 10 - Pocket volume (convex hull)       : 9.3913
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.8667
+ATOM   2128  CD2 LEU E 427     159.774 177.571 184.556  0.00  0.00           C 0
+ATOM   1714  CG2 VAL E 371     164.353 181.962 181.179  0.00  0.00           C 0
+ATOM   2160  CD1 LEU E 431     161.609 180.478 178.780  0.00  0.00           C 0
+ATOM   1731   CB ALA E 374     162.052 180.878 186.818  0.00  0.00           C 0
+ATOM   2124    O LEU E 427     161.936 176.444 180.612  0.71  1.07           O 0
+ATOM   1713  CG1 VAL E 371     165.543 179.910 181.939  0.00  0.00           C 0
+ATOM   1706    O ARG E 370     164.296 182.953 185.943  0.00  0.00           O 0
+ATOM   1707   CB ARG E 370     164.223 186.003 184.655  0.00  0.00           C 0
+ATOM   1679    O LYS E 367     166.025 184.693 181.616  0.00  0.00           O 0
+ATOM   1681   CG LYS E 367     164.421 185.970 178.893  0.00  0.00           C 0
+ATOM   2122   CA LEU E 427     159.868 176.013 181.708  0.00  0.00           C 0
+ATOM   2113    O PHE E 426     158.016 176.902 179.855  0.65  7.50           O 0
+ATOM   1709   CA VAL E 371     164.985 181.709 183.596  0.00  0.00           C 0
+ATOM   1708    N VAL E 371     165.255 183.109 183.914  0.00  0.00           N 0
+ATOM   1705    C ARG E 370     164.881 183.624 185.087  0.00  0.00           C 0
+ATOM   1711    O VAL E 371     165.128 179.822 185.081  0.48  1.07           O 0
+TER
+END

@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    82:
+HEADER 0  - Pocket Score                      : -0.1000
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0321
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5434
+HEADER 5  - Mean B-factor of pocket residues  : 0.7000
+HEADER 6  - Hydrophobicity Score              : 1.1250
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 180.3764
+HEADER 10 - Pocket volume (convex hull)       : 1.8096
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.2000
+ATOM  14984   CE MET D  66     117.588 162.500  96.063  0.00  0.00           C 0
+ATOM  15288    N GLN D 135     115.689 167.593  98.682  0.31  9.84           N 0
+ATOM   4835   NZ LYS A 722     113.163 162.412 101.936  0.59  5.47           N 0
+ATOM  15301   CB PHE D 136     117.215 163.209 100.795  0.00  0.00           C 0
+ATOM  14861  OE2 GLU D  26     111.554 157.804  96.261  0.72  5.36           O 0
+ATOM  15009   CA GLY D  70     117.627 159.046  96.958  0.00  0.00           C 0
+ATOM   4833   CD LYS A 722     113.698 159.985 102.083  0.00  0.00           C 0
+ATOM  14996    O PRO D  68     114.259 156.285  98.458  0.65  5.36           O 0
+ATOM  15008    N GLY D  70     117.051 157.736  97.178  0.00  0.00           N 0
+ATOM  14988    O ASP D  67     114.735 157.648  95.320  0.50  1.07           O 0
+ATOM  15304  CD2 PHE D 136     118.327 160.959 100.755  0.00  0.00           C 0
+ATOM  15297    N PHE D 136     117.796 165.435  99.895  0.38  1.09           N 0
+ATOM  14981   CB MET D  66     115.539 161.498  93.427  0.00  0.00           C 0
+TER
+END

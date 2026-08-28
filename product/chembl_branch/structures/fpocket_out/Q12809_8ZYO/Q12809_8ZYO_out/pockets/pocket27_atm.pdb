@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    27:
+HEADER 0  - Pocket Score                      : -0.1345
+HEADER 1  - Drug Score                        : 0.0014
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.7744
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4883
+HEADER 5  - Mean B-factor of pocket residues  : 0.6348
+HEADER 6  - Hydrophobicity Score              : 28.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 185.3160
+HEADER 10 - Pocket volume (convex hull)       : 2.3817
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.8235
+ATOM   4508  CG1 ILE C 663     162.658 161.732 146.766  0.00  0.00           C 0
+ATOM   4512   CA GLN C 664     161.572 159.828 151.162  0.00  0.00           C 0
+ATOM   4511    N GLN C 664     162.430 159.613 150.004  0.00  0.00           N 0
+ATOM   4506    O ILE C 663     162.980 161.789 149.888  0.00  0.00           O 0
+ATOM   4515   CB GLN C 664     160.619 158.640 151.335  0.00  0.00           C 0
+ATOM   4509  CG2 ILE C 663     162.272 159.304 146.852  0.00  0.00           C 0
+ATOM   4487    O SER C 660     161.845 156.462 148.232  0.55  6.43           O 0
+ATOM   3158    O GLY B 657     156.497 158.181 145.415  0.46  5.36           O 0
+ATOM   3184   CB ALA B 661     155.082 158.343 148.523  0.00  0.00           C 0
+ATOM   3163   CB ASN B 658     157.779 162.161 145.500  0.00  0.00           C 0
+ATOM   3162    O ASN B 658     154.751 161.182 146.135  0.00  0.00           O 0
+ATOM   3160   CA ASN B 658     157.018 160.831 145.468  0.00  0.00           C 0
+ATOM   3190  CG1 ILE B 662     153.148 163.250 147.863  0.00  0.00           C 0
+TER
+END

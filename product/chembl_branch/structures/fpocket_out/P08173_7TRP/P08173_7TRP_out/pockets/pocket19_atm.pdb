@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    19:
+HEADER 0  - Pocket Score                      : -0.0196
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.8841
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5257
+HEADER 5  - Mean B-factor of pocket residues  : 0.4981
+HEADER 6  - Hydrophobicity Score              : -6.1667
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 138.3622
+HEADER 10 - Pocket volume (convex hull)       : 2.0196
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1000
+ATOM   8365  OE2 GLU A 318     114.682  89.279 129.032  0.48  5.36           O 0
+ATOM   8369    O ILE A 319     114.302  90.601 132.852  0.77  5.36           O 0
+ATOM   8332   NZ LYS A 314     108.592  84.706 132.683  0.71  7.66           N 0
+ATOM   8278  OE1 GLU A 308     114.088  85.641 135.399  0.00  0.00           O 0
+ATOM   8366    N ILE A 319     111.948  91.452 131.471  0.59  2.19           N 0
+ATOM   8364  OE1 GLU A 318     112.892  89.426 127.781  0.30  5.36           O 0
+ATOM   8303  ND2 ASN A 311     107.425  89.067 131.269  0.44  3.28           N 0
+ATOM   8351    O LYS A 317     108.878  90.596 128.214  0.53  1.07           O 0
+ATOM   8370   CB ILE A 319     111.417  90.860 133.820  0.00  0.00           C 0
+ATOM   8275   CB GLU A 308     111.517  86.114 136.145  0.00  0.00           C 0
+ATOM   8277   CD GLU A 308     113.930  86.790 135.862  0.00  0.00           C 0
+ATOM   8276   CG GLU A 308     112.579  87.156 136.439  0.00  0.00           C 0
+ATOM   8274    O GLU A 308     108.691  85.761 135.004  0.00  0.00           O 0
+ATOM   8330   CD LYS A 314     107.660  85.173 130.419  0.00  0.00           C 0
+ATOM   8327    O LYS A 314     108.093  88.154 126.714  0.66  6.43           O 0
+ATOM   8373  CD1 ILE A 319     109.074  90.312 134.604  0.00  0.00           C 0
+TER
+END

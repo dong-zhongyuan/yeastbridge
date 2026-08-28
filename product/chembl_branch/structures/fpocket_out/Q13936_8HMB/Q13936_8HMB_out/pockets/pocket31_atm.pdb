@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    31:
+HEADER 0  - Pocket Score                      : -0.0193
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.8479
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5483
+HEADER 5  - Mean B-factor of pocket residues  : 0.9197
+HEADER 6  - Hydrophobicity Score              : 51.5000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 286.3372
+HEADER 10 - Pocket volume (convex hull)       : 11.7465
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5000
+ATOM  11230  CG1 ILE D1620     123.163 152.732 153.359  0.00  0.00           C 0
+ATOM  11226   CA ILE D1620     121.311 154.410 153.029  0.00  0.00           C 0
+ATOM   8396  OD2 ASP D1203     129.305 156.036 153.344  0.70  3.21           O 0
+ATOM  11231  CG2 ILE D1620     122.953 153.934 151.186  0.00  0.00           C 0
+ATOM   8395  OD1 ASP D1203     129.281 154.225 152.109  0.60  2.14           O 0
+ATOM   8412  OD1 ASN D1205     129.771 153.585 154.782  0.00  0.00           O 0
+ATOM  11209    O LEU D1618     121.983 154.780 157.023  0.55  6.43           O 0
+ATOM  10708  CD1 ILE D1536     127.421 156.527 158.182  0.00  0.00           C 0
+ATOM   8394   CG ASP D1203     129.767 155.331 152.424  0.00  0.00           C 0
+ATOM   8388  CD2 LEU D1202     126.440 154.857 147.266  0.00  0.00           C 0
+ATOM   8393   CB ASP D1203     130.973 155.836 151.657  0.00  0.00           C 0
+ATOM   8385   CB LEU D1202     127.993 153.407 148.596  0.00  0.00           C 0
+ATOM   8389    N ASP D1203     130.386 154.434 149.752  0.66  2.19           N 0
+ATOM   8387  CD1 LEU D1202     125.520 153.001 148.664  0.00  0.00           C 0
+ATOM  11212  CD1 LEU D1618     125.642 151.018 156.003  0.00  0.00           C 0
+ATOM  11213  CD2 LEU D1618     125.571 152.843 157.706  0.00  0.00           C 0
+ATOM   8413  ND2 ASN D1205     129.617 155.082 156.437  0.64  7.66           N 0
+TER
+END

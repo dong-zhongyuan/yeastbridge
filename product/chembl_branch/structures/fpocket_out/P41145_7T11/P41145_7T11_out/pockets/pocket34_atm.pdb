@@ -1,0 +1,44 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    34:
+HEADER 0  - Pocket Score                      : -0.0239
+HEADER 1  - Drug Score                        : 0.0095
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 3.7708
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4282
+HEADER 5  - Mean B-factor of pocket residues  : 0.3163
+HEADER 6  - Hydrophobicity Score              : 56.8750
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 3.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 281.2562
+HEADER 10 - Pocket volume (convex hull)       : 21.3010
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.6522
+ATOM   7844   CA ALA R 283     138.553 200.665 170.406  0.00  0.00           C 0
+ATOM   7848    N ILE R 284     136.811 199.101 171.023  0.71  2.19           N 0
+ATOM   7841    O MET R 282     139.261 198.809 168.484  0.72  1.07           O 0
+ATOM   7826    O SER R 279     141.171 195.661 168.800  0.37  9.64           O 0
+ATOM   7851    O ILE R 284     135.683 197.820 173.289  0.52  5.36           O 0
+ATOM   7847   CB ALA R 283     138.697 201.882 171.320  0.00  0.00           C 0
+ATOM   7827   CB SER R 279     139.784 193.049 167.934  0.00  0.00           C 0
+ATOM   7855  CD1 ILE R 284     136.169 195.996 168.070  0.00  0.00           C 0
+HETATM 6066   CB DPN P   1     137.581 194.308 174.221  0.00  0.00           C 0
+ATOM   7852   CB ILE R 284     135.541 197.108 170.277  0.00  0.00           C 0
+ATOM   7799  CE1 PHE R 275     134.830 191.108 166.583  0.00  0.00           C 0
+ATOM   7854  CG2 ILE R 284     134.223 196.377 170.438  0.00  0.00           C 0
+ATOM   7892  CD2 LEU R 290     130.024 193.029 169.505  0.00  0.00           C 0
+ATOM   7891  CD1 LEU R 290     131.323 194.360 171.169  0.00  0.00           C 0
+HETATM 6063   CA DPN P   1     138.957 193.718 174.553  0.00  0.00           C 0
+HETATM 6062    N DPN P   1     139.302 193.966 175.948  0.00  0.00           N 0
+HETATM 6068  CD1 DPN P   1     135.409 193.127 173.801  0.00  0.00           C 0
+ATOM   7801   CZ PHE R 275     135.252 190.652 167.807  0.00  0.00           C 0
+ATOM   6073    N CYS P   2     139.241 191.897 172.970  0.53  2.19           N 0
+ATOM   7889   CB LEU R 290     131.351 191.857 171.284  0.00  0.00           C 0
+ATOM   6077   CB CYS P   2     138.173 190.019 171.795  0.00  0.00           C 0
+ATOM   6078   SG CYS P   2     136.633 190.091 172.743  0.00  0.00           S 0
+TER
+END

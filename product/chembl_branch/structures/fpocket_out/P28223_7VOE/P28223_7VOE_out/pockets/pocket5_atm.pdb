@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     5:
+HEADER 0  - Pocket Score                      : -0.0505
+HEADER 1  - Drug Score                        : 0.0011
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.8471
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5420
+HEADER 5  - Mean B-factor of pocket residues  : 0.3140
+HEADER 6  - Hydrophobicity Score              : 45.8333
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 170.7166
+HEADER 10 - Pocket volume (convex hull)       : 5.0284
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 15.0000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 0.7273
+ATOM   1381  CG1 ILE A 258     -39.301 -12.058 115.419  0.00  0.00           C 0
+ATOM   1377   CA ILE A 258     -39.859 -10.226 113.769  0.00  0.00           C 0
+ATOM   2074  NE2 GLN A 319     -38.714 -12.712 108.624  0.74  5.47           N 0
+ATOM   1382  CG2 ILE A 258     -41.408 -12.228 114.037  0.00  0.00           C 0
+ATOM   2071   CG GLN A 319     -36.359 -12.908 109.128  0.00  0.00           C 0
+ATOM   2070   CB GLN A 319     -35.398 -14.056 109.373  0.00  0.00           C 0
+ATOM   2069    O GLN A 319     -33.864 -15.387 111.791  0.43  5.36           O 0
+ATOM   2089   CB CYS A 322     -34.174 -12.159 114.201  0.00  0.00           C 0
+ATOM   1383  CD1 ILE A 258     -39.782 -13.313 116.120  0.00  0.00           C 0
+ATOM   2072   CD GLN A 319     -37.566 -13.291 108.306  0.00  0.00           C 0
+ATOM   2091    N LYS A 323     -33.213 -15.229 114.909  0.56  1.09           N 0
+ATOM   1405  CD1 LEU A 261     -35.515  -9.768 110.359  0.00  0.00           C 0
+ATOM   1349   OH TYR A 254     -36.767 -14.676 118.109  0.23  4.29           O 0
+ATOM   2087    C CYS A 322     -33.300 -14.092 115.608  0.00  0.00           C 0
+ATOM   2092   CA LYS A 323     -33.468 -16.572 115.499  0.00  0.00           C 0
+ATOM   2095   CB LYS A 323     -33.593 -17.662 114.421  0.00  0.00           C 0
+TER
+END

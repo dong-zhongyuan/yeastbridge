@@ -1,0 +1,44 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    61:
+HEADER 0  - Pocket Score                      : -0.1167
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.9348
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5438
+HEADER 5  - Mean B-factor of pocket residues  : 0.6346
+HEADER 6  - Hydrophobicity Score              : 3.7273
+HEADER 7  - Polarity Score                    :    10
+HEADER 8  - Amino Acid based volume Score     : 4.9091
+HEADER 9  - Pocket volume (Monte Carlo)       : 359.4387
+HEADER 10 - Pocket volume (convex hull)       : 23.4034
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.2917
+ATOM   9406  CE2 TYR R 387     121.899 201.216 176.560  0.00  0.00           C 0
+ATOM   9475  OD2 ASP R 392     123.572 195.922 179.126  0.62  2.14           O 0
+ATOM   9474  OD1 ASP R 392     123.979 196.866 177.186  0.70  7.50           O 0
+ATOM   9408   OH TYR R 387     124.083 200.537 175.894  0.20  5.36           O 0
+ATOM   9423  OG1 THR R 388     117.801 201.798 179.978  0.75  5.36           O 0
+ATOM   9424  CG2 THR R 388     118.027 200.460 181.968  0.00  0.00           C 0
+ATOM   9419   CA THR R 388     118.193 199.426 179.681  0.00  0.00           C 0
+ATOM   1960  CD1 TYR B  45     120.705 199.207 184.315  0.00  0.00           C 0
+ATOM   9400    O TYR R 387     119.257 198.013 177.584  0.62  1.07           O 0
+ATOM   1962  CE1 TYR B  45     120.537 198.331 183.261  0.00  0.00           C 0
+ATOM   9421    O THR R 388     118.612 197.473 181.010  0.00  0.00           O 0
+ATOM   1958   CB TYR B  45     120.932 199.715 186.781  0.00  0.00           C 0
+ATOM   8822  NH2 ARG R 274     126.900 199.497 184.175  0.00  0.00           N 0
+ATOM   8502  NH2 ARG R 255     127.961 202.948 187.917  0.00  0.00           N 0
+ATOM   8819   NE ARG R 274     125.487 197.965 185.127  0.00  0.00           N 0
+ATOM   8853  OD2 ASP R 276     128.165 199.981 187.079  0.31  1.07           O 0
+ATOM   8470  CD1 ILE R 253     126.200 200.166 191.152  0.00  0.00           C 0
+ATOM   8821  NH1 ARG R 274     125.785 198.021 182.828  0.00  0.00           N 0
+ATOM   2610   NZ LYS B  87     120.480 207.114 186.633  0.00  0.00           N 0
+ATOM   2009   OG SER B  48     119.024 204.704 187.226  0.00  0.00           O 0
+ATOM   8436  OE1 GLU R 251     123.189 196.860 188.754  0.75  2.14           O 0
+ATOM   8820   CZ ARG R 274     126.047 198.485 184.041  0.00  0.00           C 0
+TER
+END

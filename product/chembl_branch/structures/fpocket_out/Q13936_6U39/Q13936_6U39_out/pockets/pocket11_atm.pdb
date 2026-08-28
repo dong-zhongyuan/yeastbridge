@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : 0.0372
+HEADER 1  - Drug Score                        : 0.0046
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.4747
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3620
+HEADER 5  - Mean B-factor of pocket residues  : 0.3599
+HEADER 6  - Hydrophobicity Score              : 70.3333
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 5.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 86.8537
+HEADER 10 - Pocket volume (convex hull)       : 0.5465
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 19.0000
+HEADER 13 - Number of apolar alpha sphere     :    20
+HEADER 14 - Proportion of apolar alpha sphere : 0.9524
+ATOM    962  CE2 PHE B1618      10.557  -0.618  42.281  0.00  0.00           C 0
+ATOM    952   CB LYS B1617       9.612   2.745  47.193  0.00  0.00           C 0
+ATOM    260   SD MET A  51       8.192  -2.315  46.689  0.00  0.00           S 0
+ATOM    200   SD MET A  36      11.983  -0.025  48.903  0.00  0.00           S 0
+ATOM    960  CD2 PHE B1618      10.525   0.764  42.296  0.00  0.00           C 0
+ATOM    959  CD1 PHE B1618      12.903   0.826  42.157  0.00  0.00           C 0
+ATOM    958   CG PHE B1618      11.696   1.501  42.236  0.00  0.00           C 0
+ATOM    953    N PHE B1618      11.052   3.641  44.535  0.00  0.00           N 0
+ATOM     92   CZ PHE A  19      15.810   0.715  44.280  0.00  0.00           C 0
+ATOM     90  CE1 PHE A  19      15.890  -0.547  44.834  0.00  0.00           C 0
+ATOM    951    O LYS B1617      12.428   4.218  46.223  0.85  1.07           O 0
+ATOM    961  CE1 PHE B1618      12.942  -0.556  42.142  0.00  0.00           C 0
+ATOM    963   CZ PHE B1618      11.767  -1.279  42.204  0.00  0.00           C 0
+ATOM    199   CG MET A  36      12.516  -1.738  49.081  0.00  0.00           C 0
+ATOM    175   CB LEU A  32      13.495  -5.164  44.856  0.00  0.00           C 0
+ATOM    174    O LEU A  32      14.400  -3.984  47.657  0.00  0.00           O 0
+TER
+END

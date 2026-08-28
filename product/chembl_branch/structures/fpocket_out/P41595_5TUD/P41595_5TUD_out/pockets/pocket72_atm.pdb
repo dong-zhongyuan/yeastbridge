@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    72:
+HEADER 0  - Pocket Score                      : -0.0933
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.0136
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6671
+HEADER 5  - Mean B-factor of pocket residues  : 0.3286
+HEADER 6  - Hydrophobicity Score              : 0.8000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 250.4610
+HEADER 10 - Pocket volume (convex hull)       : 4.0853
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.4118
+ATOM   8114  CD1 LEU D1076      37.524 -54.195  21.511  0.00  0.00           C 0
+ATOM   8115  CD2 LEU D1076      37.309 -56.218  22.964  0.00  0.00           C 0
+ATOM   8145  ND2 ASN D1080      39.628 -55.733  18.167  0.50  5.47           N 0
+ATOM   8144  OD1 ASN D1080      41.861 -55.551  18.033  0.73  7.50           O 0
+ATOM   8113   CG LEU D1076      37.117 -55.662  21.561  0.00  0.00           C 0
+ATOM   7841   CB LYS D1027      39.336 -51.034  20.368  0.00  0.00           C 0
+ATOM   7843   CD LYS D1027      41.519 -51.085  19.162  0.00  0.00           C 0
+ATOM   7847   CA ASP D1028      39.399 -48.386  24.302  0.00  0.00           C 0
+ATOM   7850   CB ASP D1028      40.194 -47.081  24.371  0.00  0.00           C 0
+ATOM   7852  OD1 ASP D1028      41.284 -47.193  26.488  0.58  9.64           O 0
+ATOM   7845   NZ LYS D1027      43.691 -50.404  20.192  0.00  0.00           N 0
+ATOM   7840    O LYS D1027      38.977 -50.929  23.365  0.62  1.07           O 0
+ATOM   7846    N ASP D1028      39.102 -48.728  22.915  0.00  0.00           N 0
+ATOM   7842   CG LYS D1027      40.632 -50.287  20.109  0.00  0.00           C 0
+ATOM   7872  OG1 THR D1031      39.128 -51.386  25.991  0.74  7.50           O 0
+ATOM   7873  CG2 THR D1031      38.959 -53.525  24.869  0.00  0.00           C 0
+TER
+END

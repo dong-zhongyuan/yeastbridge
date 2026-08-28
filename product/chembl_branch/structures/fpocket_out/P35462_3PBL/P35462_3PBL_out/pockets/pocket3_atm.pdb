@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     3:
+HEADER 0  - Pocket Score                      : 0.1117
+HEADER 1  - Drug Score                        : 0.0035
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.5259
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3476
+HEADER 5  - Mean B-factor of pocket residues  : 0.4080
+HEADER 6  - Hydrophobicity Score              : 54.4167
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 136.2440
+HEADER 10 - Pocket volume (convex hull)       : 4.0899
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.3750
+ATOM   5220  CD1 ILE B1058     -19.576   3.705  45.780  0.00  0.00           C 0
+ATOM   5138  CD1 LEU B1046     -20.946   3.345  51.109  0.00  0.00           C 0
+ATOM   5169  CD1 ILE B1050     -25.554   4.092  47.742  0.00  0.00           C 0
+ATOM   5219  CG2 ILE B1058     -21.203   1.341  47.126  0.00  0.00           C 0
+ATOM   5284  CD2 LEU B1066     -22.341   8.336  49.266  0.00  0.00           C 0
+ATOM   5248    O GLU B1062     -23.771   6.886  44.738  0.73  1.07           O 0
+ATOM   5286   CA PHE B1067     -21.205  12.951  45.042  0.00  0.00           C 0
+ATOM   5320  OD2 ASP B1070     -20.108  12.983  49.764  0.64  2.14           O 0
+ATOM   5028   CB HIS B1031     -18.407  10.062  50.193  0.00  0.00           C 0
+ATOM   5015    O ILE B1029     -15.674  12.171  46.694  0.30  2.14           O 0
+ATOM   5003    O ILE B1027     -16.521   7.598  48.802  0.50  1.07           O 0
+ATOM   5282   CG LEU B1066     -22.539   9.695  48.580  0.00  0.00           C 0
+ATOM   5257    O ALA B1063     -21.362   9.484  44.101  0.50  1.07           O 0
+ATOM   5285    N PHE B1067     -22.122  11.856  45.316  0.00  0.00           N 0
+ATOM   5255   CA ALA B1063     -21.092   7.082  44.028  0.00  0.00           C 0
+ATOM   5006  CG2 ILE B1027     -17.821   5.104  50.369  0.00  0.00           C 0
+ATOM   5012    N ILE B1029     -16.224   9.058  45.558  0.65  1.09           N 0
+ATOM   5016   CB ILE B1029     -16.362  11.185  44.236  0.00  0.00           C 0
+ATOM   5009   CA GLY B1028     -16.428   6.707  46.136  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    24:
+HEADER 0  - Pocket Score                      : 0.0141
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9291
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5857
+HEADER 5  - Mean B-factor of pocket residues  : 0.1455
+HEADER 6  - Hydrophobicity Score              : 11.3750
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 314.4947
+HEADER 10 - Pocket volume (convex hull)       : 13.4798
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2667
+ATOM   5091  CG2 THR A 182      93.817 120.511 146.086  0.00  0.00           C 0
+ATOM    881  CD1 ILE B 120      93.384 113.598 144.978  0.00  0.00           C 0
+ATOM   1041   CB ALA B 140      94.267 114.432 149.634  0.00  0.00           C 0
+ATOM   5085    N THR A 182      90.967 120.819 145.244  0.00  0.00           N 0
+ATOM    879  CG1 ILE B 120      94.794 114.068 145.220  0.00  0.00           C 0
+ATOM   5088    O THR A 182      92.140 119.772 143.059  0.25  4.29           O 0
+ATOM    861    O ASP B 118      95.232 116.609 143.048  0.54  3.21           O 0
+ATOM   1045    O GLY B 141      98.104 119.447 151.605  0.00  0.00           O 0
+ATOM   1043   CA GLY B 141      97.383 117.176 151.665  0.00  0.00           C 0
+ATOM   1049    O HIS B 142      97.529 119.696 148.143  0.57  2.14           O 0
+ATOM   1062  CG2 THR B 143      97.191 123.337 149.729  0.00  0.00           C 0
+ATOM   1042    N GLY B 141      96.864 116.290 150.647  0.65  1.09           N 0
+ATOM   1044    C GLY B 141      98.144 118.337 151.070  0.00  0.00           C 0
+ATOM   1039    C ALA B 140      96.262 115.151 150.963  0.00  0.00           C 0
+ATOM   1040    O ALA B 140      96.094 114.772 152.126  0.46  5.36           O 0
+ATOM    869    O ASN B 119      97.494 116.192 146.157  0.00  0.00           O 0
+TER
+END

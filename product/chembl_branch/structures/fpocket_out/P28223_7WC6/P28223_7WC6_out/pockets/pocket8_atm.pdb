@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : -0.0636
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.6390
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4362
+HEADER 5  - Mean B-factor of pocket residues  : 0.3815
+HEADER 6  - Hydrophobicity Score              : 35.6667
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 118.7479
+HEADER 10 - Pocket volume (convex hull)       : 2.1337
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.4706
+ATOM   1500  CD1 TRP A1007     -39.314 -12.306  91.937  0.00  0.00           C 0
+ATOM   1536   CB ASN A1011     -42.705 -11.794  87.426  0.00  0.00           C 0
+ATOM   1982  CG2 ILE A1098     -36.588  -8.943  88.100  0.00  0.00           C 0
+ATOM   1502  NE1 TRP A1007     -39.178 -13.497  91.271  0.79  7.66           N 0
+ATOM   1497    O TRP A1007     -42.744  -9.718  89.903  0.68  1.07           O 0
+ATOM   1532    N ASN A1011     -42.496  -9.291  87.339  0.74  1.09           N 0
+ATOM   1538  OD1 ASN A1011     -41.912 -12.989  85.525  0.54  3.21           O 0
+ATOM   1990  OD1 ASN A1099     -35.093 -13.441  87.923  0.33  4.29           O 0
+ATOM   1505  CZ2 TRP A1007     -40.811 -15.132  90.259  0.00  0.00           C 0
+ATOM   1503  CE2 TRP A1007     -40.426 -13.980  90.963  0.00  0.00           C 0
+ATOM   1958   CG LYS A1095     -36.449 -11.861  82.658  0.00  0.00           C 0
+ATOM   1562  CD1 LEU A1014     -39.222  -9.670  83.655  0.00  0.00           C 0
+ATOM   1960   CE LYS A1095     -38.241 -13.652  82.489  0.00  0.00           C 0
+ATOM   1537   CG ASN A1011     -42.520 -13.043  86.592  0.00  0.00           C 0
+ATOM   1533   CA ASN A1011     -42.705 -10.530  86.556  0.00  0.00           C 0
+TER
+END

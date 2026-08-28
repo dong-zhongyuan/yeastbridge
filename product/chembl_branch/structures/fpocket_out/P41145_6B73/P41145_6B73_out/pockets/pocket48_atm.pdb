@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    48:
+HEADER 0  - Pocket Score                      : -0.2246
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.0713
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5436
+HEADER 5  - Mean B-factor of pocket residues  : 0.1837
+HEADER 6  - Hydrophobicity Score              : -5.4286
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 197.3565
+HEADER 10 - Pocket volume (convex hull)       : 4.2387
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.4444
+ATOM   4609   CG ARG C  67      38.481   6.578 -31.993  0.00  0.00           C 0
+ATOM   4605   CA ARG C  67      40.845   5.931 -31.251  0.00  0.00           C 0
+ATOM   4599    O ASP C  66      40.763   7.275 -28.747  0.50  7.50           O 0
+ATOM   4758   OG SER C  85      35.892   2.849 -30.429  0.00  0.00           O 0
+ATOM   4749   CB ASN C  84      39.858   0.727 -31.096  0.00  0.00           C 0
+ATOM   4607    O ARG C  67      42.112   3.883 -31.268  0.62  8.57           O 0
+ATOM   3019  CG2 THR B 171      44.793   2.815 -26.188  0.00  0.00           C 0
+ATOM   3017   CB THR B 171      44.418   3.994 -25.317  0.00  0.00           C 0
+ATOM   3031   CB LEU B 173      40.612   4.966 -22.510  0.00  0.00           C 0
+ATOM   3034  CD2 LEU B 173      39.165   2.929 -22.255  0.00  0.00           C 0
+ATOM   3026   CD PRO B 172      43.946   7.442 -26.133  0.00  0.00           C 0
+ATOM   4752  ND2 ASN C  84      41.028  -0.550 -29.420  0.30  6.56           N 0
+ATOM   3018  OG1 THR B 171      43.981   3.543 -24.037  0.31  5.36           O 0
+ATOM   3025   CG PRO B 172      42.811   8.384 -25.960  0.00  0.00           C 0
+ATOM   3027    N LEU B 173      42.290   6.749 -22.902  0.75  1.09           N 0
+TER
+END

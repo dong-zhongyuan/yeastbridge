@@ -1,0 +1,44 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    20:
+HEADER 0  - Pocket Score                      : -0.0839
+HEADER 1  - Drug Score                        : 0.0147
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 3.9159
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6039
+HEADER 5  - Mean B-factor of pocket residues  : 0.1046
+HEADER 6  - Hydrophobicity Score              : 69.3636
+HEADER 7  - Polarity Score                    :     0
+HEADER 8  - Amino Acid based volume Score     : 4.1818
+HEADER 9  - Pocket volume (Monte Carlo)       : 348.9879
+HEADER 10 - Pocket volume (convex hull)       : 30.7585
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 17.3000
+HEADER 13 - Number of apolar alpha sphere     :    20
+HEADER 14 - Proportion of apolar alpha sphere : 0.8696
+ATOM   6408  CG1 ILE C 245      11.078 -34.888  45.393  0.00  0.00           C 0
+ATOM   6416   CG PRO C 246      15.045 -34.510  44.291  0.00  0.00           C 0
+ATOM   6437  CD1 ILE C 249      10.667 -34.023  40.259  0.00  0.00           C 0
+ATOM   6410  CD1 ILE C 245      10.149 -33.758  45.834  0.00  0.00           C 0
+ATOM   5862   CE MET C 164      15.782 -30.361  41.678  0.00  0.00           C 0
+ATOM   6371    O VAL C 241      14.452 -33.778  47.262  0.68  1.07           O 0
+ATOM   6136  CD1 ILE C 206      15.706 -28.948  47.228  0.00  0.00           C 0
+ATOM   5861   SD MET C 164      16.970 -31.046  42.816  0.00  0.00           S 0
+ATOM   6082  CG2 VAL C 199      19.220 -26.811  38.036  0.00  0.00           C 0
+ATOM   5891   CB ALA C 168      18.211 -29.101  35.422  0.00  0.00           C 0
+ATOM   6111  CD1 ILE C 202      14.136 -24.881  41.675  0.00  0.00           C 0
+ATOM   6412   CA PRO C 246      14.408 -35.963  42.619  0.00  0.00           C 0
+ATOM   6373  CG1 VAL C 241      13.858 -31.666  49.595  0.00  0.00           C 0
+ATOM   5888   CA ALA C 168      17.398 -30.334  35.046  0.00  0.00           C 0
+ATOM   5887    N ALA C 168      17.612 -31.383  36.030  0.00  0.00           N 0
+ATOM   5884    O CYS C 167      16.212 -32.766  34.943  0.00  0.00           O 0
+ATOM   5910   CB LEU C 171      13.214 -31.462  33.401  0.00  0.00           C 0
+ATOM   5858    O MET C 164      18.958 -30.790  38.279  0.00  0.00           O 0
+ATOM   5883    C CYS C 167      16.975 -32.548  35.891  0.00  0.00           C 0
+ATOM   5885   CB CYS C 167      16.419 -33.221  38.219  0.00  0.00           C 0
+ATOM   5886   SG CYS C 167      15.660 -34.648  38.844  0.00  0.00           S 0
+ATOM   6436  CG2 ILE C 249      12.158 -35.052  37.824  0.00  0.00           C 0
+TER
+END

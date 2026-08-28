@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    23:
+HEADER 0  - Pocket Score                      : 0.0019
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.8925
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5061
+HEADER 5  - Mean B-factor of pocket residues  : 0.6001
+HEADER 6  - Hydrophobicity Score              : -15.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.2500
+HEADER 9  - Pocket volume (Monte Carlo)       : 230.2719
+HEADER 10 - Pocket volume (convex hull)       : 2.4341
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   5765  OE2 GLU B 130      99.955 146.653  97.974  0.00  0.00           O 1
+ATOM   5741   CZ ARG B 129     101.950 153.144  98.407  0.00  0.00           C 0
+ATOM   5743  NH2 ARG B 129     102.572 153.288  97.275  0.00  0.00           N 0
+ATOM   5742  NH1 ARG B 129     100.692 153.469  98.439  0.00  0.00           N 1
+ATOM   5740   NE ARG B 129     102.544 152.689  99.497  0.47  2.19           N 0
+ATOM   5761   CB GLU B 130     101.706 146.833 101.092  0.00  0.00           C 0
+ATOM   5738   CG ARG B 129     104.147 150.796  99.693  0.00  0.00           C 0
+ATOM   5723   CB THR B 128     104.475 145.878  97.086  0.00  0.00           C 0
+ATOM   5733    N ARG B 129     105.798 148.298  98.704  0.71  5.47           N 0
+ATOM   5671  ND2 ASN B 125     105.876 146.995  92.924  0.61  7.66           N 0
+ATOM   5725  CG2 THR B 128     104.007 145.342  95.745  0.00  0.00           C 0
+ATOM   5763   CD GLU B 130     100.127 146.308  99.162  0.00  0.00           C 0
+ATOM   5764  OE1 GLU B 130      99.167 146.048  99.912  0.00  0.00           O 0
+ATOM   5720   CA THR B 128     105.899 146.460  97.062  0.00  0.00           C 0
+TER
+END

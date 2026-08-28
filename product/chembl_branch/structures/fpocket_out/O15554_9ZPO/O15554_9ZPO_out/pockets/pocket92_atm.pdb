@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    92:
+HEADER 0  - Pocket Score                      : -0.1167
+HEADER 1  - Drug Score                        : 0.0010
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9391
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5992
+HEADER 5  - Mean B-factor of pocket residues  : 0.1048
+HEADER 6  - Hydrophobicity Score              : 20.8333
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 208.8519
+HEADER 10 - Pocket volume (convex hull)       : 1.7765
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.6667
+ATOM  11474  CG1 VAL F  91     196.583 182.731 182.868  0.00  0.00           C 0
+ATOM   9186   CB MET D 311     199.031 185.576 186.501  0.00  0.00           C 0
+ATOM   9195   CG LYS D 312     200.540 181.170 184.502  0.00  0.00           C 0
+ATOM  11475  CG2 VAL F  91     196.194 185.157 182.484  0.00  0.00           C 0
+ATOM   9198   NZ LYS D 312     201.469 180.787 181.623  0.86  8.75           N 0
+ATOM   9158   CA THR D 308     203.839 185.759 185.781  0.00  0.00           C 0
+ATOM   9163  CG2 THR D 308     204.505 184.661 183.631  0.00  0.00           C 0
+ATOM   9188   SD MET D 311     198.647 187.886 185.133  0.00  0.00           S 0
+ATOM   9162  OG1 THR D 308     205.027 186.962 184.054  0.48  6.43           O 0
+ATOM   9189   CE MET D 311     199.846 189.173 185.416  0.00  0.00           C 0
+ATOM   9160    O THR D 308     202.391 183.849 185.743  0.56  1.07           O 0
+ATOM  11470   CA VAL F  91     195.744 183.528 180.644  0.00  0.00           C 0
+ATOM  11472    O VAL F  91     196.665 181.401 180.008  0.26  1.07           O 0
+ATOM  11499   CB LYS F  94     198.902 181.959 176.682  0.00  0.00           C 0
+ATOM   9573  NE2 HIS D 358     202.931 191.515 184.062  0.47  7.66           N 0
+ATOM   9572  CE1 HIS D 358     203.613 190.696 184.841  0.00  0.00           C 0
+TER
+END

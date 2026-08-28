@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   123:
+HEADER 0  - Pocket Score                      : -0.1641
+HEADER 1  - Drug Score                        : 0.0017
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.7231
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3457
+HEADER 5  - Mean B-factor of pocket residues  : 0.7315
+HEADER 6  - Hydrophobicity Score              : 19.3750
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.6250
+HEADER 9  - Pocket volume (Monte Carlo)       : 272.9241
+HEADER 10 - Pocket volume (convex hull)       : 19.2084
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.5000
+ATOM  10272   CB LYS D 420     142.189 117.835 116.709  0.00  0.00           C 0
+ATOM  10274   CD LYS D 420     142.191 117.863 114.199  0.00  0.00           C 0
+ATOM  12093  NE2 HIS H 108     144.496 111.463 114.119  0.71  4.37           N 0
+ATOM  12123  ND2 ASN H 112     140.512 112.880 118.597  0.74  8.75           N 0
+ATOM  10276   NZ LYS D 420     142.192 117.966 111.708  0.74  8.75           N 1
+ATOM  10275   CE LYS D 420     142.879 118.400 112.955  0.00  0.00           C 0
+ATOM  12091  CD2 HIS H 108     143.431 110.876 113.480  0.00  0.00           C 0
+ATOM  12001   CB LYS H  95     142.926 115.884 107.613  0.00  0.00           C 0
+ATOM  11979   CA PHE H  93     137.758 115.667 110.652  0.00  0.00           C 0
+ATOM  11974    O VAL H  92     139.516 117.764 110.592  0.62  1.07           O 0
+ATOM  11981    O PHE H  93     139.325 114.654 109.142  0.28  3.21           O 0
+ATOM  10273   CG LYS D 420     142.910 118.311 115.460  0.00  0.00           C 0
+ATOM  12067   CG GLU H 105     140.730 110.403 108.166  0.00  0.00           C 0
+ATOM  12070  OE2 GLU H 105     140.905 112.293 106.732  0.41  5.36           O 1
+ATOM  12099  CG1 VAL H 109     139.254 111.868 113.729  0.00  0.00           C 0
+ATOM  10271    O LYS D 420     139.086 117.005 117.657  0.62  2.14           O 0
+ATOM  11984  CD1 PHE H  93     136.729 115.112 113.355  0.00  0.00           C 0
+TER
+END

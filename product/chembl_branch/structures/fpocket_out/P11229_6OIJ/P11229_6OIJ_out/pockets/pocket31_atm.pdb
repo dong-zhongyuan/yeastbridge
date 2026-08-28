@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    31:
+HEADER 0  - Pocket Score                      : -0.0147
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.8023
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6095
+HEADER 5  - Mean B-factor of pocket residues  : 0.2565
+HEADER 6  - Hydrophobicity Score              : 5.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 192.5040
+HEADER 10 - Pocket volume (convex hull)       : 8.7929
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   5195   CB SER H 168     126.503  89.289 140.392  0.00  0.00           C 0
+ATOM   5196   OG SER H 168     125.089  89.244 140.447  0.00  0.00           O 0
+ATOM     12  OG1 THR A   4     128.334  94.296 141.183  0.59  3.21           O 0
+ATOM     13  CG2 THR A   4     126.804  95.871 140.169  0.00  0.00           C 0
+ATOM     10    O THR A   4     129.349  94.134 138.964  0.47  2.14           O 0
+ATOM   5187  ND1 HIS H 167     131.304  90.389 138.059  0.00  0.00           N 0
+ATOM   5197    N ASN H 169     127.140  87.621 137.591  0.73  1.09           N 0
+ATOM   5204  ND2 ASN H 169     129.286  89.088 134.582  0.50  3.28           N 0
+ATOM   5202   CG ASN H 169     128.713  88.152 135.320  0.00  0.00           C 0
+ATOM   5189  CE1 HIS H 167     131.160  91.589 138.593  0.00  0.00           C 0
+ATOM     48  OD1 ASP A   9     128.996  92.342 132.840  0.16  5.36           O 0
+ATOM     15   CA LEU A   5     130.509  95.192 136.660  0.00  0.00           C 0
+ATOM     20  CD1 LEU A   5     127.928  96.357 135.395  0.00  0.00           C 0
+ATOM   5198   CA ASN H 169     126.592  87.193 136.314  0.00  0.00           C 0
+ATOM   5194    O SER H 168     125.340  86.905 138.726  0.23  7.50           O 0
+ATOM   5201   CB ASN H 169     127.217  88.007 135.179  0.00  0.00           C 0
+TER
+END

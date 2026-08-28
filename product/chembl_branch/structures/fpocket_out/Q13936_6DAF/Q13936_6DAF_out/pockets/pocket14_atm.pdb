@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    14:
+HEADER 0  - Pocket Score                      : 0.1177
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 3.8484
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5527
+HEADER 5  - Mean B-factor of pocket residues  : 0.6052
+HEADER 6  - Hydrophobicity Score              : 17.6667
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 334.4354
+HEADER 10 - Pocket volume (convex hull)       : 13.3154
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.4400
+ATOM    850  OE1 GLU A 120       6.927   1.415  12.145  0.52  2.14           O 0
+ATOM    849   CD GLU A 120       5.912   0.914  11.625  0.00  0.00           C 0
+ATOM    851  OE2 GLU A 120       5.614  -0.293  11.735  0.00  0.00           O 0
+ATOM    820   CG LEU A 116       6.764   3.750  15.087  0.00  0.00           C 0
+ATOM   1187   CG LYS C1632       3.466   0.834  18.254  0.00  0.00           C 0
+ATOM   1189   CE LYS C1632       5.877   1.243  18.838  0.00  0.00           C 0
+ATOM   1183   CA LYS C1632       1.089   0.205  17.553  0.00  0.00           C 0
+ATOM   1185    O LYS C1632       0.318  -1.980  16.933  0.00  0.00           O 0
+ATOM    813    O LYS A 115      10.125   0.770  15.054  0.50  6.43           O 0
+ATOM   1188   CD LYS C1632       4.691   0.307  18.988  0.00  0.00           C 0
+ATOM   1190   NZ LYS C1632       7.062   0.766  19.608  0.00  0.00           N 0
+ATOM   1174    O PHE C1631      -0.994   1.291  16.129  0.00  0.00           O 0
+ATOM   1179  CE1 PHE C1631       0.251   3.872  13.027  0.00  0.00           C 0
+ATOM   1198    C ARG C1634      -3.061  -1.945  14.130  0.00  0.00           C 0
+ATOM   1200   CB ARG C1634      -3.855   0.383  14.595  0.00  0.00           C 0
+ATOM   1180  CE2 PHE C1631       2.219   3.033  14.122  0.00  0.00           C 0
+ATOM    821  CD1 LEU A 116       7.225   3.369  16.486  0.00  0.00           C 0
+ATOM   1186   CB LYS C1632       2.245  -0.039  18.524  0.00  0.00           C 0
+ATOM   1181   CZ PHE C1631       1.503   3.279  12.955  0.00  0.00           C 0
+TER
+END

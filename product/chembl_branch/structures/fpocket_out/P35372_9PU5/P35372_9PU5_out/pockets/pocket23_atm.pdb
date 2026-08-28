@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    23:
+HEADER 0  - Pocket Score                      : 0.0313
+HEADER 1  - Drug Score                        : 0.0008
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.7963
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6601
+HEADER 5  - Mean B-factor of pocket residues  : 0.4457
+HEADER 6  - Hydrophobicity Score              : -3.7143
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 224.2609
+HEADER 10 - Pocket volume (convex hull)       : 5.5055
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.4706
+ATOM   1643   CA ASP A 337     161.442 115.969 145.649  0.00  0.00           C 0
+ATOM   1665  CG2 THR A 340     157.769 118.733 142.937  0.00  0.00           C 0
+ATOM   1645    O ASP A 337     161.759 118.276 145.085  0.51  1.07           O 0
+ATOM   1663   CB THR A 340     159.101 118.030 142.791  0.00  0.00           C 0
+ATOM   1646   CB ASP A 337     161.413 115.780 147.164  0.00  0.00           C 0
+ATOM   1664  OG1 THR A 340     158.886 116.745 142.198  0.81  2.14           O 0
+ATOM   1672  OD1 ASP A 341     159.868 121.862 146.331  0.67  1.07           O 0
+ATOM   1673  OD2 ASP A 341     161.659 121.176 147.394  0.59  1.07           O 1
+ATOM   6394  NH2 ARG R 265     161.042 117.936 151.023  0.00  0.00           N 0
+ATOM   6376    O SER R 263     157.029 123.431 151.544  0.00  0.00           O 0
+ATOM   6391   NE ARG R 265     161.695 120.125 151.172  0.41  2.19           N 0
+ATOM   6392   CZ ARG R 265     161.819 118.932 150.608  0.00  0.00           C 0
+ATOM   6389   CG ARG R 265     161.779 122.583 151.187  0.00  0.00           C 0
+ATOM   6384    N ARG R 265     159.940 124.716 149.851  0.00  0.00           N 0
+ATOM   1640  CE2 PHE A 336     157.829 113.176 142.799  0.00  0.00           C 0
+ATOM   1638  CD2 PHE A 336     159.057 112.884 143.355  0.00  0.00           C 0
+ATOM   1612  NE2 GLN A 333     158.473 110.977 146.911  0.42  8.75           N 0
+TER
+END

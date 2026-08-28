@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : 0.0659
+HEADER 1  - Drug Score                        : 0.0011
+HEADER 2  - Number of alpha spheres           :    26
+HEADER 3  - Mean alpha-sphere radius          : 3.6219
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4605
+HEADER 5  - Mean B-factor of pocket residues  : 0.1328
+HEADER 6  - Hydrophobicity Score              : 38.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.6250
+HEADER 9  - Pocket volume (Monte Carlo)       : 93.7586
+HEADER 10 - Pocket volume (convex hull)       : 1.1384
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.3462
+ATOM   1165  CH2 TRP B 108     153.296 143.770 172.336  0.00  0.00           C 0
+ATOM   1167   CA LEU B 109     158.000 145.688 172.134  0.00  0.00           C 0
+ATOM   1171   CG LEU B 109     157.851 146.506 174.618  0.00  0.00           C 0
+ATOM   1164  CZ3 TRP B 108     154.523 143.351 172.858  0.00  0.00           C 0
+ATOM   1169    O LEU B 109     158.067 147.973 171.375  0.64  2.14           O 0
+ATOM    269   CG ARG A  34     153.009 149.736 176.137  0.00  0.00           C 0
+ATOM   1797  CD1 ILE B 187     156.967 150.023 176.736  0.00  0.00           C 0
+ATOM   1199   CB TYR B 113     157.508 151.437 171.668  0.00  0.00           C 0
+ATOM   1194  OD2 ASP B 112     152.782 147.470 169.790  0.00  0.00           O 1
+ATOM   1191   CB ASP B 112     155.056 147.633 169.115  0.00  0.00           C 0
+ATOM   1195    N TYR B 113     156.769 150.120 169.753  0.00  0.00           N 0
+ATOM   1192   CG ASP B 112     153.608 148.082 169.080  0.00  0.00           C 0
+ATOM    273  NH1 ARG A  34     153.051 152.682 173.102  0.40  4.37           N 1
+ATOM   2494   OH TYR B 439     151.038 148.514 172.194  0.46  1.07           O 0
+ATOM    270   CD ARG A  34     152.534 150.682 175.047  0.00  0.00           C 0
+ATOM    261   CB PRO A  33     152.724 145.416 175.934  0.00  0.00           C 0
+TER
+END

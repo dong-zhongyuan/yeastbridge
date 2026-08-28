@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   188:
+HEADER 0  - Pocket Score                      : -0.2510
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.1125
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4922
+HEADER 5  - Mean B-factor of pocket residues  : 0.3001
+HEADER 6  - Hydrophobicity Score              : -4.6250
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 357.9526
+HEADER 10 - Pocket volume (convex hull)       : 15.1724
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0667
+ATOM  11046  NH1 ARG K 620     177.618 152.355 193.159  0.64  2.19           N 0
+ATOM  13498   NZ LYS K1052     183.611 152.245 189.372  0.00  0.00           N 0
+ATOM  10993   CB PRO K 613     174.460 152.645 188.349  0.00  0.00           C 0
+ATOM  13465    O GLN K1049     179.041 156.540 191.105  0.14  6.43           O 0
+ATOM  11047  NH2 ARG K 620     178.516 150.249 193.116  0.33  7.66           N 0
+ATOM  13470  NE2 GLN K1049     180.308 153.468 193.796  0.81  5.47           N 0
+ATOM  14125  OE1 GLU K1130     182.546 154.758 185.005  0.00  0.00           O 0
+ATOM  13510   CE LYS K1054     178.866 158.486 185.632  0.00  0.00           C 0
+ATOM  10994   CG PRO K 613     173.761 153.149 187.127  0.00  0.00           C 0
+ATOM  13511   NZ LYS K1054     177.404 158.618 185.869  0.00  0.00           N 0
+ATOM  14114    O THR K1129     180.400 157.389 182.867  0.00  0.00           O 0
+ATOM  14112   CA THR K1129     179.227 156.924 180.815  0.00  0.00           C 0
+ATOM  14111    N THR K1129     178.482 158.166 181.056  0.00  0.00           N 0
+ATOM  13474    O LEU K1050     179.200 159.098 188.780  0.41  3.21           O 0
+ATOM  13497   CE LYS K1052     184.016 153.631 189.008  0.00  0.00           C 0
+ATOM  13494   CB LYS K1052     183.782 156.639 189.338  0.00  0.00           C 0
+TER
+END

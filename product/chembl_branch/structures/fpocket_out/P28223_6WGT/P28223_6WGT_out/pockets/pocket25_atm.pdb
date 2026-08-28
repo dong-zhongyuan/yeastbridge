@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    25:
+HEADER 0  - Pocket Score                      : -0.0399
+HEADER 1  - Drug Score                        : 0.0011
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9397
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6013
+HEADER 5  - Mean B-factor of pocket residues  : 0.4263
+HEADER 6  - Hydrophobicity Score              : 2.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 365.4724
+HEADER 10 - Pocket volume (convex hull)       : 13.5814
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.4706
+ATOM   6774    C ASP C1028      -2.131 -40.938  -5.091  0.00  0.00           C 0
+ATOM   6780    N ALA C1029      -1.072 -41.477  -5.714  0.00  0.00           N 0
+ATOM   6685  OD1 ASN C1013       1.818 -44.442  -1.371  0.00  0.00           O 0
+ATOM   6776   CB ASP C1028      -3.828 -42.662  -5.674  0.00  0.00           C 0
+ATOM   6781   CA ALA C1029       0.261 -41.481  -5.122  0.00  0.00           C 0
+ATOM   6706  CG2 VAL C1016       0.945 -47.457  -5.554  0.00  0.00           C 0
+ATOM   6779  OD2 ASP C1028      -5.667 -44.119  -5.281  0.00  0.00           O 0
+ATOM   6802   CB LYS C1032      -0.672 -41.069  -0.668  0.00  0.00           C 0
+ATOM   6775    O ASP C1028      -2.036 -40.229  -4.081  0.69  3.21           O 0
+ATOM   6777   CG ASP C1028      -5.327 -42.936  -5.568  0.00  0.00           C 0
+ATOM   6798    N LYS C1032      -1.219 -38.918  -1.713  0.00  0.00           N 0
+ATOM   6797   CB THR C1031      -3.564 -37.502  -3.301  0.00  0.00           C 0
+ATOM   6705  CG1 VAL C1016       0.464 -45.811  -7.407  0.00  0.00           C 0
+ATOM   6757    O GLN C1025      -3.011 -43.537  -8.691  0.96  5.36           O 0
+ATOM   6796    O THR C1031      -1.549 -36.926  -0.699  0.31  5.36           O 0
+ATOM   6795    C THR C1031      -1.616 -37.639  -1.710  0.00  0.00           C 0
+TER
+END

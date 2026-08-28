@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : 0.0377
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.1356
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7159
+HEADER 5  - Mean B-factor of pocket residues  : 0.1446
+HEADER 6  - Hydrophobicity Score              : -25.5000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 313.7667
+HEADER 10 - Pocket volume (convex hull)       : 7.7966
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2667
+ATOM   1825  NH1 ARG A1062      16.410  14.061   0.101  0.73  5.47           N 0
+ATOM   1664   CG LYS A1042      13.806  18.826  -1.319  0.00  0.00           C 0
+ATOM   1662    O LYS A1042      15.694  17.444   2.036  0.00  0.00           O 0
+ATOM   1826  NH2 ARG A1062      17.683  13.304  -1.650  0.00  0.00           N 0
+ATOM   1822   CD ARG A1062      15.350  12.576  -3.087  0.00  0.00           C 0
+ATOM   1823   NE ARG A1062      15.382  13.179  -1.756  0.00  0.00           N 0
+ATOM   1657  OE1 GLN A1041      10.056  14.723  -4.528  0.00  0.00           O 0
+ATOM   1859  OD2 ASP A1066      10.815  10.899  -8.027  0.41  7.50           O 0
+ATOM   1656   CD GLN A1041      10.621  13.891  -3.827  0.00  0.00           C 0
+ATOM   1824   CZ ARG A1062      16.492  13.515  -1.105  0.00  0.00           C 0
+ATOM   1660   CA LYS A1042      13.894  17.045   0.521  0.00  0.00           C 0
+ATOM   1658  NE2 GLN A1041      10.663  12.604  -4.141  0.62  2.19           N 0
+ATOM   1820   CB ARG A1062      14.195  10.515  -3.920  0.00  0.00           C 0
+ATOM   1858  OD1 ASP A1066       9.520  12.400  -7.082  0.42  7.50           O 0
+ATOM   1655   CG GLN A1041      11.329  14.288  -2.555  0.00  0.00           C 0
+ATOM   1653    O GLN A1041      13.322  14.473  -0.349  0.00  0.00           O 0
+ATOM   1666   CE LYS A1042      12.429  19.496  -3.301  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : -0.0082
+HEADER 1  - Drug Score                        : 0.0024
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0419
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6907
+HEADER 5  - Mean B-factor of pocket residues  : 0.0556
+HEADER 6  - Hydrophobicity Score              : 73.6667
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 275.3416
+HEADER 10 - Pocket volume (convex hull)       : 6.7554
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.9333
+ATOM    848  CE2 TYR A 122     194.751  17.716 547.748  0.00  0.00           C 0
+ATOM    849   CZ TYR A 122     194.380  16.388 547.800  0.00  0.00           C 0
+ATOM   1503  CD2 LEU A 205     191.889  18.161 544.071  0.00  0.00           C 0
+ATOM    850   OH TYR A 122     195.347  15.410 547.875  0.69  9.64           O 0
+ATOM   1501   CG LEU A 205     190.920  18.392 542.920  0.00  0.00           C 0
+ATOM   1493   CB VAL A 204     190.946  13.489 540.408  0.00  0.00           C 0
+ATOM   1469    O ILE A 201     190.009  17.219 540.046  0.56  1.07           O 0
+ATOM   1494  CG1 VAL A 204     191.912  12.824 541.375  0.00  0.00           C 0
+ATOM   1461    O ILE A 200     189.694  15.152 537.400  0.00  0.00           O 0
+ATOM   1467   CA ILE A 201     190.919  17.555 537.844  0.00  0.00           C 0
+ATOM   1495  CG2 VAL A 204     190.926  12.755 539.079  0.00  0.00           C 0
+ATOM   1464  CG2 ILE A 200     191.105  14.016 534.816  0.00  0.00           C 0
+ATOM   1472  CG2 ILE A 201     192.236  19.360 539.002  0.00  0.00           C 0
+ATOM   1537  CD2 HIS A 208     191.974  13.146 545.104  0.00  0.00           C 0
+ATOM   1539  NE2 HIS A 208     192.727  12.109 544.611  0.00  0.00           N 0
+ATOM   1471  CG1 ILE A 201     192.877  18.634 536.690  0.00  0.00           C 0
+TER
+END

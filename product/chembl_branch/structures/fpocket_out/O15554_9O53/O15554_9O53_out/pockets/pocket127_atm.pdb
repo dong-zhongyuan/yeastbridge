@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   127:
+HEADER 0  - Pocket Score                      : -0.1296
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.2718
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5317
+HEADER 5  - Mean B-factor of pocket residues  : 0.6643
+HEADER 6  - Hydrophobicity Score              : 37.3750
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 299.7803
+HEADER 10 - Pocket volume (convex hull)       : 5.6633
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.9375
+ATOM  13256   CE MET F 125     158.729 103.230 125.181  0.00  0.00           C 0
+ATOM   5300  CZ3 TRP B 431     156.674  99.618 128.162  0.00  0.00           C 0
+ATOM  13228   CB GLU F 121     161.765  99.733 126.605  0.00  0.00           C 0
+ATOM   5309   CE MET B 432     156.980 101.682 132.159  0.00  0.00           C 0
+ATOM   5298  CE3 TRP B 431     155.876 100.609 127.625  0.00  0.00           C 0
+ATOM   5270   CG GLN B 428     157.260 106.026 130.307  0.00  0.00           C 0
+ATOM  13234  CG1 VAL F 122     162.618 103.174 123.111  0.00  0.00           C 0
+ATOM  13196   CG MET F 110     161.730 106.503 124.363  0.00  0.00           C 0
+ATOM   5271   CD GLN B 428     158.556 106.446 130.980  0.00  0.00           C 0
+ATOM   5272  OE1 GLN B 428     159.383 107.138 130.386  0.00  9.64           O 0
+ATOM   5273  NE2 GLN B 428     158.733 106.035 132.229  0.78  8.75           N 0
+ATOM  13195   CB MET F 110     163.133 106.950 124.748  0.00  0.00           C 0
+ATOM  13214    N ASP F 119     166.417 100.418 124.573  0.00  0.00           N 0
+ATOM  13194    O MET F 110     164.440 108.093 127.186  0.26  6.43           O 0
+ATOM  13197   SD MET F 110     160.449 107.177 125.438  0.00  0.00           S 0
+TER
+END

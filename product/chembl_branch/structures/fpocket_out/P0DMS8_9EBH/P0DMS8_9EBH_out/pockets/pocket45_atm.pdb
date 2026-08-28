@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    45:
+HEADER 0  - Pocket Score                      : -0.0862
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.7763
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6679
+HEADER 5  - Mean B-factor of pocket residues  : 0.7880
+HEADER 6  - Hydrophobicity Score              : -0.3333
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 3.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 189.3975
+HEADER 10 - Pocket volume (convex hull)       : 1.0802
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.4000
+ATOM   8323   CG PRO R 260     108.594 119.702  79.313  0.00  0.00           C 0
+ATOM   8308   CD GLU R 258     110.715 124.041  74.130  0.00  0.00           C 0
+ATOM   8305    O GLU R 258     113.427 120.637  76.731  0.56  7.50           O 0
+ATOM   8309  OE1 GLU R 258     110.963 123.621  72.980  0.58  8.57           O 0
+ATOM   8307   CG GLU R 258     111.719 123.768  75.232  0.00  0.00           C 0
+ATOM   8310  OE2 GLU R 258     109.678 124.677  74.413  0.00  0.00           O 0
+ATOM   8324   CD PRO R 260     110.066 119.955  79.445  0.00  0.00           C 0
+ATOM   8306   CB GLU R 258     112.950 123.027  74.731  0.00  0.00           C 0
+ATOM   8319   CA PRO R 260     108.835 121.929  80.166  0.00  0.00           C 0
+ATOM   8322   CB PRO R 260     107.935 120.688  80.211  0.00  0.00           C 0
+ATOM   8318    N PRO R 260     110.131 121.398  79.736  0.00  0.00           N 0
+ATOM   8313    C VAL R 259     111.077 122.218  79.285  0.00  0.00           C 0
+ATOM   8314    O VAL R 259     110.810 123.392  78.990  0.25  9.64           O 0
+TER
+END

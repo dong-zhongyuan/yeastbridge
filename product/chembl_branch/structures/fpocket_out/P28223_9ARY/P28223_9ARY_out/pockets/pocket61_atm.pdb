@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    61:
+HEADER 0  - Pocket Score                      : -0.1300
+HEADER 1  - Drug Score                        : 0.0008
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.9987
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6404
+HEADER 5  - Mean B-factor of pocket residues  : 0.6099
+HEADER 6  - Hydrophobicity Score              : -17.2000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 313.7202
+HEADER 10 - Pocket volume (convex hull)       : 11.3126
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2273
+ATOM   2000  NH2 ARG B  24     127.967 147.501 129.578  0.00  0.00           N 0
+ATOM   1992    C ARG B  24     125.924 142.387 126.822  0.00  0.00           C 0
+ATOM   1994   CB ARG B  24     127.994 143.739 127.205  0.00  0.00           C 0
+ATOM   1993    O ARG B  24     125.556 141.472 127.564  0.65  1.07           O 0
+ATOM   2001    N GLU B  25     125.070 143.274 126.304  0.00  0.00           N 0
+ATOM   2026   CB GLU B  28     123.684 140.452 130.049  0.00  0.00           C 0
+ATOM   2002   CA GLU B  25     123.647 143.215 126.627  0.00  0.00           C 0
+ATOM   2027   CG GLU B  28     123.449 140.601 131.542  0.00  0.00           C 0
+ATOM   2029  OE1 GLU B  28     125.784 140.244 131.888  0.68  5.36           O 0
+ATOM   1997   NE ARG B  24     129.186 145.764 128.711  0.47  7.66           N 0
+ATOM   2008  OE1 GLU B  25     121.369 146.512 125.052  0.81  2.14           O 0
+ATOM   1972   CE LYS B  21     123.837 149.572 125.195  0.00  0.00           C 0
+ATOM   1973   NZ LYS B  21     122.877 150.313 124.328  0.00  5.47           N 0
+ATOM   2009  OE2 GLU B  25     119.691 146.004 126.373  0.00  0.00           O 0
+ATOM    796  CG2 THR A 190     128.804 143.011 136.309  0.00  0.00           C 0
+ATOM   2007   CD GLU B  25     120.779 145.728 125.824  0.00  0.00           C 0
+ATOM   2005   CB GLU B  25     122.932 144.426 126.023  0.00  0.00           C 0
+ATOM   1968    O LYS B  21     126.123 145.687 125.007  0.00  0.00           O 0
+ATOM   1970   CG LYS B  21     126.302 149.043 125.362  0.00  0.00           C 0
+ATOM   2006   CG GLU B  25     121.413 144.381 126.108  0.00  0.00           C 0
+TER
+END

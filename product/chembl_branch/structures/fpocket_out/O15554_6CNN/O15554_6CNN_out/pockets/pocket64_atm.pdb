@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    64:
+HEADER 0  - Pocket Score                      : -0.0879
+HEADER 1  - Drug Score                        : 0.0008
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.5727
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3578
+HEADER 5  - Mean B-factor of pocket residues  : 0.2214
+HEADER 6  - Hydrophobicity Score              : 23.2857
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 125.3176
+HEADER 10 - Pocket volume (convex hull)       : 2.7564
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.5000
+ATOM   1575    O GLN A 229     172.252 143.098 186.242  0.00  0.00           O 0
+ATOM   1584    O ALA A 230     173.054 141.364 189.255  0.44  8.57           O 0
+ATOM   1600   CB ALA A 233     169.044 139.555 186.384  0.00  0.00           C 0
+ATOM    310  CZ2 TRP A  48     175.083 140.807 184.463  0.00  0.00           C 0
+ATOM   1572    N GLN A 229     172.854 144.969 184.193  0.00  0.00           N 0
+ATOM   1614   CB HIS A 236     170.313 139.684 180.331  0.00  0.00           C 0
+ATOM   1597   CA ALA A 233     169.210 141.069 186.213  0.00  0.00           C 0
+ATOM   1606    N GLY A 235     168.661 143.685 182.357  0.44  1.09           N 0
+ATOM   1562   CA ARG A 228     173.898 144.878 182.014  0.00  0.00           C 0
+ATOM   1610    N HIS A 236     169.363 141.915 180.275  0.54  1.09           N 0
+ATOM    307  NE1 TRP A  48     174.943 138.544 183.427  0.32  7.66           N 0
+ATOM   1566   CG ARG A 228     175.074 143.150 180.604  0.00  0.00           C 0
+ATOM   1617  CD2 HIS A 236     172.759 138.919 179.944  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    25:
+HEADER 0  - Pocket Score                      : -0.0304
+HEADER 1  - Drug Score                        : 0.0022
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.9174
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4913
+HEADER 5  - Mean B-factor of pocket residues  : 0.3916
+HEADER 6  - Hydrophobicity Score              : 34.4286
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 233.4090
+HEADER 10 - Pocket volume (convex hull)       : 4.8660
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.7500
+ATOM   3366   CG ARG B 219      98.622  38.972 117.533  0.00  0.00           C 0
+ATOM   4415   CG MET G  21      96.270  31.844 114.521  0.00  0.00           C 0
+ATOM   3353   SD MET B 217     100.528  34.325 114.781  0.00  0.00           S 0
+ATOM   4446  CG2 ILE G  25      93.644  34.613 120.215  0.00  0.00           C 0
+ATOM   3362   CA ARG B 219      96.614  38.859 115.941  0.00  0.00           C 0
+ATOM   4417   CE MET G  21      97.458  33.640 112.784  0.00  0.00           C 0
+ATOM   3358    O CYS B 218      96.343  37.655 113.524  0.69  1.07           O 0
+ATOM   3368   NE ARG B 219     100.402  39.165 119.242  0.79  4.37           N 0
+ATOM   3367   CD ARG B 219      99.086  39.623 118.817  0.00  0.00           C 0
+ATOM   3365   CB ARG B 219      97.247  39.488 117.178  0.00  0.00           C 0
+ATOM   4447  CD1 ILE G  25      92.306  37.366 119.910  0.00  0.00           C 0
+ATOM   3380  NE2 GLN B 220      92.904  41.134 120.444  0.60  7.66           N 0
+ATOM   3364    O ARG B 219      94.297  38.329 116.245  0.61  2.14           O 0
+ATOM   4413    O MET G  21      93.608  32.607 116.381  0.62  6.43           O 0
+ATOM   4419   CA GLU G  22      92.529  34.821 115.224  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   128:
+HEADER 0  - Pocket Score                      : -0.2028
+HEADER 1  - Drug Score                        : 0.0020
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9341
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4122
+HEADER 5  - Mean B-factor of pocket residues  : 0.2785
+HEADER 6  - Hydrophobicity Score              : -1.4000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.2000
+HEADER 9  - Pocket volume (Monte Carlo)       : 284.0062
+HEADER 10 - Pocket volume (convex hull)       : 8.0212
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 16.0000
+HEADER 13 - Number of apolar alpha sphere     :    17
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM   4750  CG2 VAL B 284     143.285 149.104 159.215  0.00  0.00           C 0
+ATOM   4769   CD ARG B 287     144.948 148.830 164.701  0.00  0.00           C 0
+ATOM   4749  CG1 VAL B 284     143.189 146.638 159.048  0.00  0.00           C 0
+ATOM   4745   CA VAL B 284     145.274 147.781 159.926  0.00  0.00           C 0
+ATOM   4747    O VAL B 284     145.766 145.535 160.634  0.52  2.14           O 0
+ATOM   4165   CB PRO B 204     139.426 147.311 162.973  0.00  0.00           C 0
+ATOM   4767   CB ARG B 287     146.422 146.833 164.551  0.00  0.00           C 0
+ATOM   4780   CD LYS B 288     144.011 142.111 164.886  0.00  0.00           C 0
+ATOM   4166   CG PRO B 204     138.866 147.053 164.334  0.00  0.00           C 0
+ATOM   4167   CD PRO B 204     137.575 146.352 164.082  0.00  0.00           C 0
+ATOM   4782   NZ LYS B 288     142.918 140.307 166.245  0.00  0.00           N 0
+ATOM   4779   CG LYS B 288     144.711 142.398 163.571  0.00  0.00           C 0
+ATOM   4168    N GLY B 205     138.054 145.818 160.434  0.65  5.47           N 0
+ATOM   4169   CA GLY B 205     138.246 145.283 159.106  0.00  0.00           C 0
+ATOM   4781   CE LYS B 288     143.689 140.627 165.012  0.00  0.00           C 0
+TER
+END

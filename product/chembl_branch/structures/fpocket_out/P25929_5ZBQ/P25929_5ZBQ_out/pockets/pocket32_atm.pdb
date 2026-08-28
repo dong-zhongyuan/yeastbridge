@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    32:
+HEADER 0  - Pocket Score                      : -0.1418
+HEADER 1  - Drug Score                        : 0.0200
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 4.1167
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5605
+HEADER 5  - Mean B-factor of pocket residues  : 0.1324
+HEADER 6  - Hydrophobicity Score              : 73.7143
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 328.7116
+HEADER 10 - Pocket volume (convex hull)       : 10.1500
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 18.0000
+HEADER 13 - Number of apolar alpha sphere     :    19
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM    144   CA MET A  39     -27.304  -8.184  70.117  0.00  0.00           C 0
+ATOM    147   CB MET A  39     -28.455  -7.491  69.352  0.00  0.00           C 0
+ATOM    176  CG2 THR A  42     -27.214  -8.616  75.314  0.00  0.00           C 0
+ATOM    149   SD MET A  39     -27.789  -4.923  70.462  0.00  0.00           S 0
+ATOM    146    O MET A  39     -27.977 -10.182  71.245  0.64  1.07           O 0
+ATOM   2182  CD2 LEU A 304     -35.249  -8.299  73.642  0.00  0.00           C 0
+ATOM    183  CD1 LEU A  43     -31.371 -11.603  70.964  0.00  0.00           C 0
+ATOM   2146  CD1 LEU A 300     -34.326  -8.677  68.779  0.00  0.00           C 0
+ATOM   2181  CD1 LEU A 304     -36.899  -7.501  71.946  0.00  0.00           C 0
+ATOM   2147  CD2 LEU A 300     -35.286  -6.695  67.592  0.00  0.00           C 0
+ATOM    148   CG MET A  39     -28.208  -6.001  69.040  0.00  0.00           C 0
+ATOM    182   CG LEU A  43     -30.957 -11.821  72.401  0.00  0.00           C 0
+ATOM    202   CB ALA A  46     -29.732 -13.081  77.855  0.00  0.00           C 0
+ATOM    184  CD2 LEU A  43     -32.179 -12.103  73.288  0.00  0.00           C 0
+ATOM   2206  CD2 LEU A 307     -33.405 -12.428  76.987  0.00  0.00           C 0
+ATOM    173    O THR A  42     -27.297 -11.897  75.776  0.57  1.07           O 0
+ATOM    178   CA LEU A  43     -29.017 -12.917  73.746  0.00  0.00           C 0
+TER
+END

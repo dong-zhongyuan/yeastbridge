@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    12:
+HEADER 0  - Pocket Score                      : 0.0068
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.7428
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5667
+HEADER 5  - Mean B-factor of pocket residues  : 0.3472
+HEADER 6  - Hydrophobicity Score              : 9.4000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 229.2702
+HEADER 10 - Pocket volume (convex hull)       : 7.0828
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2667
+ATOM   3099  NH2 ARG N  19     195.854 185.098 120.486  0.15  6.56           N 0
+ATOM   3097   CZ ARG N  19     196.762 184.134 120.502  0.00  0.00           C 0
+ATOM   3098  NH1 ARG N  19     198.026 184.457 120.314  0.00  0.00           N 0
+ATOM   3879   OG SER N  71     195.585 183.226 127.048  0.00  0.00           O 0
+ATOM   3096   NE ARG N  19     196.371 182.874 120.664  0.00  0.00           N 0
+ATOM   4018   CB TYR N  80     193.823 182.371 124.185  0.00  0.00           C 0
+ATOM   4060   CD GLN N  82     201.520 179.306 121.863  0.00  0.00           C 0
+ATOM   4059   CG GLN N  82     200.107 179.684 121.480  0.00  0.00           C 0
+ATOM   4062  NE2 GLN N  82     202.447 179.596 120.964  0.90  8.75           N 0
+ATOM   4021  CD2 TYR N  80     193.259 184.826 124.397  0.00  0.00           C 0
+ATOM   3095   CD ARG N  19     197.257 181.713 120.597  0.00  0.00           C 0
+ATOM   4058   CB GLN N  82     199.015 179.419 122.518  0.00  0.00           C 0
+ATOM   4019   CG TYR N  80     193.395 183.699 123.593  0.00  0.00           C 0
+ATOM   3844    O THR N  69     197.213 178.710 126.500  0.22  2.14           O 0
+ATOM   4054    N GLN N  82     196.756 178.448 122.939  0.00  0.00           N 0
+ATOM   3846  OG1 THR N  69     199.790 178.763 126.015  0.17  6.43           O 0
+TER
+END

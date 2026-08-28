@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : 0.0626
+HEADER 1  - Drug Score                        : 0.0018
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.6306
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3993
+HEADER 5  - Mean B-factor of pocket residues  : 0.6620
+HEADER 6  - Hydrophobicity Score              : 62.0000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.1111
+HEADER 9  - Pocket volume (Monte Carlo)       : 115.5166
+HEADER 10 - Pocket volume (convex hull)       : 1.6532
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 16.0000
+HEADER 13 - Number of apolar alpha sphere     :    17
+HEADER 14 - Proportion of apolar alpha sphere : 0.8500
+ATOM   5818   CB ALA B1083     -27.529  20.880 -11.839  0.00  0.00           C 0
+ATOM   5914  CG1 VAL B1095     -29.088  17.428 -11.304  0.00  0.00           C 0
+ATOM   5792   CG GLU B1080     -31.736  21.664  -7.500  0.00  0.00           C 0
+ATOM   5788   CA GLU B1080     -30.746  22.843  -9.552  0.00  0.00           C 0
+ATOM   5743   CA GLY B1073     -27.846  17.704  -5.164  0.00  0.00           C 0
+ATOM   5548  CG1 VAL B1048     -24.039  21.603  -6.901  0.00  0.00           C 0
+ATOM   5503   CB PHE B1041     -28.719  21.750  -4.882  0.00  0.00           C 0
+ATOM   5745    O GLY B1073     -30.014  17.748  -6.162  0.57  1.07           O 0
+ATOM   5782    O LEU B1079     -28.319  24.107 -10.486  0.00  0.00           O 0
+ATOM   5787    N GLU B1080     -30.073  24.041  -9.024  0.00  0.00           N 0
+ATOM   5781    C LEU B1079     -28.925  24.578  -9.524  0.00  0.00           C 0
+ATOM   5742    N GLY B1073     -27.476  16.543  -5.969  0.68  1.09           N 0
+ATOM   5733  CD1 ILE B1071     -24.797  18.350 -11.615  0.00  0.00           C 0
+ATOM   5730   CB ILE B1071     -23.617  16.567 -10.227  0.00  0.00           C 0
+ATOM   5472  CD2 PHE B1037     -22.680  17.625  -5.507  0.00  0.00           C 0
+TER
+END

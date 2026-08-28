@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    34:
+HEADER 0  - Pocket Score                      : -0.0534
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9353
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4569
+HEADER 5  - Mean B-factor of pocket residues  : 0.8162
+HEADER 6  - Hydrophobicity Score              : 61.1250
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.6250
+HEADER 9  - Pocket volume (Monte Carlo)       : 273.5004
+HEADER 10 - Pocket volume (convex hull)       : 11.1122
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.6667
+ATOM   1204  CG1 VAL R 161     118.366  96.930  63.304  0.00  0.00           C 0
+ATOM   1177  CD2 HIS R 158     122.264 101.101  64.750  0.00  0.00           C 0
+ATOM   1165  CD2 TYR R 157     123.831  97.845  60.707  0.00  0.00           C 0
+ATOM   1161    O TYR R 157     121.070  99.153  60.087  0.45  2.14           O 0
+ATOM   1167  CE2 TYR R 157     123.672  96.507  61.009  0.00  0.00           C 0
+ATOM   1230  CD1 LEU R 164     119.104  94.833  66.645  0.00  0.00           C 0
+ATOM   1179  NE2 HIS R 158     123.633 101.005  64.809  0.82  9.84           N 0
+ATOM   1272   CA SER R 170     122.683  96.985  70.541  0.00  0.00           C 0
+ATOM   1274    O SER R 170     121.644  98.565  69.079  0.83  5.36           O 0
+ATOM   1267    O VAL R 169     124.469  98.791  71.577  0.00  0.00           O 0
+ATOM   1118   CE MET R 151     125.142 101.544  69.825  0.00  0.00           C 0
+ATOM   1275   CB SER R 170     121.983  95.659  70.238  0.00  0.00           C 0
+ATOM   1276   OG SER R 170     122.863  94.565  70.426  0.54  9.64           O 0
+ATOM   1205  CG2 VAL R 161     116.537  98.208  64.436  0.00  0.00           C 0
+ATOM    533  CE1 PHE R  80     117.130 100.595  68.029  0.00  0.00           C 0
+ATOM    531  CD1 PHE R  80     116.346  99.489  67.755  0.00  0.00           C 0
+TER
+END

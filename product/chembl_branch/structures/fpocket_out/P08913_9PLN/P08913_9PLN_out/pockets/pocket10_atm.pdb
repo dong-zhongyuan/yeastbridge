@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : -0.0929
+HEADER 1  - Drug Score                        : 0.0008
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.8818
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5062
+HEADER 5  - Mean B-factor of pocket residues  : 0.0953
+HEADER 6  - Hydrophobicity Score              : 64.8000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 178.4971
+HEADER 10 - Pocket volume (convex hull)       : 4.2625
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.6667
+ATOM   2840    N ALA R 238     134.745 129.653 174.113  0.70  1.09           N 0
+ATOM   2841   CA ALA R 238     135.750 128.725 173.605  0.00  0.00           C 0
+ATOM   2827  CG2 ILE R 237     132.209 131.192 172.168  0.00  0.00           C 0
+ATOM   2844   CB ALA R 238     137.136 129.356 173.697  0.00  0.00           C 0
+ATOM   1669  CG2 ILE R 150     133.282 134.572 170.556  0.00  0.00           C 0
+ATOM   1668  CG1 ILE R 150     135.468 135.336 169.575  0.00  0.00           C 0
+ATOM   2902   CD ARG R 241     133.067 128.003 169.451  0.00  0.00           C 0
+ATOM   1666    O ILE R 150     131.335 134.811 168.056  0.36  8.57           O 0
+ATOM   2767    O ILE R 234     135.644 132.228 175.169  0.00  0.00           O 0
+ATOM   2770  CG2 ILE R 234     137.343 134.689 174.233  0.00  0.00           C 0
+ATOM   2904   CZ ARG R 241     134.512 127.357 167.533  0.00  0.00           C 0
+ATOM   2905  NH1 ARG R 241     135.626 127.772 168.120  0.43  7.66           N 0
+ATOM   2903   NE ARG R 241     133.328 127.432 168.131  0.72  4.37           N 0
+TER
+END

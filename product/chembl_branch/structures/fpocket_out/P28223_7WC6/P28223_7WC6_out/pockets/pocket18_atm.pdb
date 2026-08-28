@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    18:
+HEADER 0  - Pocket Score                      : -0.1056
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 3.8470
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4841
+HEADER 5  - Mean B-factor of pocket residues  : 0.2952
+HEADER 6  - Hydrophobicity Score              : 10.8571
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 229.4349
+HEADER 10 - Pocket volume (convex hull)       : 7.0579
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.4783
+ATOM    868   CD LYS A 191     -21.859   3.890 113.083  0.00  0.00           C 0
+ATOM    838    N SER A 188     -19.483   1.645 111.617  0.00  0.00           N 0
+ATOM    258   CB ALA A 108     -22.678  -3.135 114.845  0.00  0.00           C 0
+ATOM    870   NZ LYS A 191     -23.071   4.238 110.953  0.00  0.00           N 0
+ATOM    772  OD1 ASP A 172     -27.104   0.044 116.719  0.13  2.14           O 0
+ATOM    866   CB LYS A 191     -20.651   3.276 115.159  0.00  0.00           C 0
+ATOM    841    O SER A 188     -18.893   0.660 114.099  0.49  1.07           O 0
+ATOM    901   CD LYS A 195     -24.716   1.723 119.219  0.00  0.00           C 0
+ATOM    872   CA ALA A 192     -20.192   0.175 118.289  0.00  0.00           C 0
+ATOM    295  CE2 PHE A 112     -24.251  -2.894 119.680  0.00  0.00           C 0
+ATOM    903   NZ LYS A 195     -26.396   2.317 117.477  0.00  0.00           N 0
+ATOM    773  OD2 ASP A 172     -26.419  -2.040 116.281  0.56  4.29           O 1
+ATOM    902   CE LYS A 195     -25.118   2.699 118.131  0.00  0.00           C 0
+ATOM    871    N ALA A 192     -19.777   1.291 117.417  0.00  0.00           N 0
+ATOM    864    C LYS A 191     -20.306   2.518 117.481  0.00  0.00           C 0
+ATOM    865    O LYS A 191     -21.170   2.835 118.275  0.61  2.14           O 0
+TER
+END

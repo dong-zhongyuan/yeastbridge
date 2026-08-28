@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : 0.0254
+HEADER 1  - Drug Score                        : 0.0016
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.7317
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4480
+HEADER 5  - Mean B-factor of pocket residues  : 0.3070
+HEADER 6  - Hydrophobicity Score              : 28.6667
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.8889
+HEADER 9  - Pocket volume (Monte Carlo)       : 107.2541
+HEADER 10 - Pocket volume (convex hull)       : 1.9886
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 17.0000
+HEADER 13 - Number of apolar alpha sphere     :    18
+HEADER 14 - Proportion of apolar alpha sphere : 0.7500
+ATOM   6774   CG LEU R  90     136.310 138.642 113.045  0.00  0.00           C 0
+ATOM   8349   CG PRO R 438     130.381 136.280 112.231  0.00  0.00           C 0
+ATOM   6591  OD1 ASN R  66     130.738 139.415 113.669  0.00  0.00           O 0
+ATOM   6800  OD2 ASP R  94     132.966 139.647 111.754  0.76  1.07           O 0
+ATOM   6777    N ALA R  91     134.302 140.189 115.922  0.68  1.09           N 0
+ATOM   6778   CA ALA R  91     132.861 140.394 115.982  0.00  0.00           C 0
+ATOM   6781   CB ALA R  91     132.272 139.618 117.158  0.00  0.00           C 0
+ATOM   8348   CB PRO R 438     130.224 135.021 112.992  0.00  0.00           C 0
+ATOM   6751    O LEU R  87     135.282 138.229 117.780  0.61  2.14           O 0
+ATOM   6613  CG1 VAL R  69     131.897 135.254 118.564  0.00  0.00           C 0
+ATOM   6614  CG2 VAL R  69     129.988 134.632 117.100  0.00  0.00           C 0
+ATOM   8345   CA PRO R 438     131.390 134.137 112.534  0.00  0.00           C 0
+ATOM   6776  CD2 LEU R  90     136.840 137.280 112.637  0.00  0.00           C 0
+ATOM   6755  CD2 LEU R  87     136.872 133.908 116.608  0.00  0.00           C 0
+ATOM   8370   CB TYR R 441     135.776 131.776 113.101  0.00  0.00           C 0
+ATOM   8383  OG1 THR R 442     132.185 131.741 116.177  0.88  1.07           O 0
+TER
+END

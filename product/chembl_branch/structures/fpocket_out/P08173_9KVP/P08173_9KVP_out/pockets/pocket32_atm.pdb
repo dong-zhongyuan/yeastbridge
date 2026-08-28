@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    32:
+HEADER 0  - Pocket Score                      : -0.0359
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0186
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6238
+HEADER 5  - Mean B-factor of pocket residues  : 0.4283
+HEADER 6  - Hydrophobicity Score              : 2.6667
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 206.1471
+HEADER 10 - Pocket volume (convex hull)       : 4.3598
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.5625
+ATOM   5553   CG PRO H 181      97.326  73.474 152.201  0.00  0.00           C 0
+ATOM   5836   CB VAL H 224     101.803  74.126 156.094  0.00  0.00           C 0
+ATOM   5837  CG1 VAL H 224     101.335  72.829 155.456  0.00  0.00           C 0
+ATOM   5835    O VAL H 224     101.288  75.361 153.320  0.67  1.07           O 0
+ATOM   5541   CB ARG H 180      98.850  77.622 150.801  0.00  0.00           C 0
+ATOM   5554   CD PRO H 181      98.466  74.253 151.639  0.00  0.00           C 0
+ATOM   5567  NE2 GLN H 183      95.571  79.279 151.345  0.75  9.84           N 0
+ATOM   5820    O ALA H 221     100.201  77.099 158.029  0.66  5.36           O 0
+ATOM   5543   CD ARG H 180      99.192  79.734 152.120  0.00  0.00           C 0
+ATOM   5542   CG ARG H 180      99.844  78.505 151.520  0.00  0.00           C 0
+ATOM   5823   CA GLU H 222     100.630  79.681 157.116  0.00  0.00           C 0
+ATOM   5826   CB GLU H 222     100.360  81.188 157.155  0.00  0.00           C 0
+ATOM   5825    O GLU H 222     101.606  79.714 154.943  0.39  1.07           O 0
+TER
+END

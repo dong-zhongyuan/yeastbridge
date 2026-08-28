@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    16:
+HEADER 0  - Pocket Score                      : 0.0048
+HEADER 1  - Drug Score                        : 0.0135
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 4.0969
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5626
+HEADER 5  - Mean B-factor of pocket residues  : 0.3565
+HEADER 6  - Hydrophobicity Score              : 47.1250
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.3750
+HEADER 9  - Pocket volume (Monte Carlo)       : 297.0270
+HEADER 10 - Pocket volume (convex hull)       : 13.9209
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 17.0000
+HEADER 13 - Number of apolar alpha sphere     :    18
+HEADER 14 - Proportion of apolar alpha sphere : 0.9000
+ATOM   6062   CA GLY R  40      94.365 111.125 118.670  0.00  0.00           C 0
+ATOM   8036  CE2 PHE R 341      97.388 111.518 112.594  0.00  0.00           C 0
+ATOM   7923   CB PRO R 328      98.328 112.270 118.017  0.00  0.00           C 0
+ATOM   6064    O GLY R  40      95.716 109.351 117.787  0.00  0.00           O 0
+ATOM   6084   CB LEU R  43      93.545 109.097 115.104  0.00  0.00           C 0
+ATOM   6086  CD1 LEU R  43      92.254 111.107 114.346  0.00  0.00           C 0
+ATOM   8034  CD2 PHE R 341      96.494 112.014 111.666  0.00  0.00           C 0
+ATOM   8009   NE ARG R 338      97.372 118.281 107.802  0.00  0.00           N 0
+ATOM   7967  CE1 PHE R 333      98.846 119.034 111.848  0.00  0.00           C 0
+ATOM   8007   CG ARG R 338      97.558 115.831 107.522  0.00  0.00           C 0
+ATOM   7965  CD1 PHE R 333      99.666 117.976 112.195  0.00  0.00           C 0
+ATOM   7957    O ALA R 332     100.271 113.186 112.083  0.32  1.07           O 0
+ATOM   7931  CG1 ILE R 329      97.396 117.092 118.119  0.00  0.00           C 0
+ATOM   7927   CA ILE R 329      99.470 116.527 116.813  0.00  0.00           C 0
+ATOM   7932  CG2 ILE R 329      98.467 118.842 116.717  0.00  0.00           C 0
+ATOM   7922    O PRO R 328      99.911 114.023 115.771  0.00  0.00           O 0
+ATOM   7921    C PRO R 328      99.708 114.117 116.988  0.00  0.00           C 0
+TER
+END

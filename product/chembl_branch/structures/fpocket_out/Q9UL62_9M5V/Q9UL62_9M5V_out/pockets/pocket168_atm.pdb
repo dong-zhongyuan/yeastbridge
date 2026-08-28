@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   168:
+HEADER 0  - Pocket Score                      : -0.1488
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.0503
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6251
+HEADER 5  - Mean B-factor of pocket residues  : 0.6881
+HEADER 6  - Hydrophobicity Score              : 6.6667
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 288.6194
+HEADER 10 - Pocket volume (convex hull)       : 7.7454
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1667
+ATOM  11339   CA ALA C   2     207.591 153.174 143.266  0.00  0.00           C 0
+ATOM  11323   CB PHE C   0     209.269 158.193 142.561  0.00  0.00           C 0
+ATOM  11342   CB ALA C   2     208.253 152.272 144.308  0.00  0.00           C 0
+ATOM  11427  NH2 ARG C  15     214.671 154.806 141.513  0.00  0.00           N 0
+ATOM  11315   CG GLU C  -1     211.511 159.706 148.799  0.00  0.00           C 0
+ATOM  11303    N PRO C  -2     215.049 162.120 144.414  0.50  8.75           N 0
+ATOM  11305    C PRO C  -2     212.753 161.224 144.777  0.00  0.00           C 0
+ATOM  11310    N GLU C  -1     212.037 161.305 145.896  0.47  2.19           N 0
+ATOM  11306    O PRO C  -2     212.745 160.239 144.040  0.38  4.29           O 0
+ATOM  11311   CA GLU C  -1     211.168 160.214 146.310  0.00  0.00           C 0
+ATOM  11316   CD GLU C  -1     211.166 158.230 148.914  0.00  0.00           C 0
+ATOM  11317  OE1 GLU C  -1     210.403 157.719 148.068  0.56  5.36           O 0
+ATOM  11319    N PHE C   0     209.727 158.886 144.883  0.66  3.28           N 0
+ATOM  11426  NH1 ARG C  15     214.248 157.055 141.574  0.65  7.66           N 0
+ATOM  11322    O PHE C   0     208.085 156.772 145.334  0.51  3.21           O 0
+ATOM  18209  NE2 GLN D 173     208.254 156.825 148.075  0.48  8.75           N 0
+TER
+END

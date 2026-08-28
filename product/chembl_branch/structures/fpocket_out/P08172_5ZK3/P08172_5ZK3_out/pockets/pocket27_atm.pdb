@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    27:
+HEADER 0  - Pocket Score                      : -0.1163
+HEADER 1  - Drug Score                        : 0.0012
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 4.0307
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5359
+HEADER 5  - Mean B-factor of pocket residues  : 0.0218
+HEADER 6  - Hydrophobicity Score              : 94.0000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 5.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 185.2824
+HEADER 10 - Pocket volume (convex hull)       : 1.6618
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.7500
+ATOM    642  CD1 TRP A  99     176.888  38.628 524.997  0.00  0.00           C 0
+ATOM    481  CD1 LEU A  79     174.850  41.216 524.092  0.00  0.00           C 0
+ATOM    449  CD2 PHE A  75     175.733  42.929 529.080  0.00  0.00           C 0
+ATOM    637   CA TRP A  99     179.749  39.841 524.270  0.00  0.00           C 0
+ATOM    632   CB LEU A  98     182.058  43.725 524.080  0.00  0.00           C 0
+ATOM    612  CG1 VAL A  95     177.177  44.392 521.278  0.00  0.00           C 0
+ATOM    636    N TRP A  99     180.676  40.837 523.741  0.00  0.00           N 0
+ATOM    640   CB TRP A  99     178.521  39.730 523.366  0.00  0.00           C 0
+ATOM    610    O VAL A  95     179.470  42.291 521.542  0.58  1.07           O 0
+ATOM    630    C LEU A  98     181.693  41.277 524.487  0.00  0.00           C 0
+ATOM    451  CE2 PHE A  75     175.941  44.161 529.672  0.00  0.00           C 0
+ATOM    634  CD1 LEU A  98     182.213  46.218 523.843  0.00  0.00           C 0
+ATOM    670  CD2 LEU A 102     179.113  40.908 529.563  0.00  0.00           C 0
+ATOM    631    O LEU A  98     181.892  40.864 525.636  0.52  5.36           O 0
+TER
+END

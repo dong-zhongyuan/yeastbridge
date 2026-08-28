@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    55:
+HEADER 0  - Pocket Score                      : -0.1102
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 4.0476
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6286
+HEADER 5  - Mean B-factor of pocket residues  : 0.1757
+HEADER 6  - Hydrophobicity Score              : -8.5000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.3750
+HEADER 9  - Pocket volume (Monte Carlo)       : 340.5842
+HEADER 10 - Pocket volume (convex hull)       : 25.3147
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   1350  OD1 ASN A 305     139.881 110.484 120.607  0.42  8.57           O 0
+ATOM   3621  CG1 VAL B 246     137.626 113.679 120.924  0.00  0.00           C 0
+ATOM   1378   CD LYS A 308     136.479 113.270 116.415  0.00  0.00           C 0
+ATOM   1380   NZ LYS A 308     134.247 112.905 117.434  0.00  0.00           N 0
+ATOM   3623  OXT VAL B 246     134.589 114.195 119.971  0.63  4.29           O 0
+ATOM   3579   NE ARG B 241     136.463 114.218 126.770  0.80  3.28           N 0
+ATOM   3619    O VAL B 246     134.576 115.617 121.535  0.56  4.29           O 0
+ATOM   3305   CA GLY B 207     137.744 106.894 125.730  0.00  0.00           C 0
+ATOM   3302    O ASP B 206     135.033 106.387 125.727  0.38  4.29           O 0
+ATOM   1351  ND2 ASN A 305     140.823 110.824 122.609  0.68  5.47           N 0
+ATOM   1320   CD GLN A 301     140.427 105.145 123.818  0.00  0.00           C 0
+ATOM   1322  NE2 GLN A 301     139.282 104.563 123.484  0.23  4.37           N 0
+ATOM   3307    O GLY B 207     138.517 108.979 126.548  0.40  1.07           O 0
+ATOM   3582  NH2 ARG B 241     138.171 112.695 126.855  0.46  5.47           N 0
+ATOM   3306    C GLY B 207     137.849 107.968 126.790  0.00  0.00           C 0
+ATOM   3308    N ARG B 208     137.209 107.793 127.947  0.00  0.00           N 0
+ATOM   3309   CA ARG B 208     137.233 108.826 128.973  0.00  0.00           C 0
+ATOM   3312   CB ARG B 208     136.068 108.630 129.944  0.00  0.00           C 0
+TER
+END

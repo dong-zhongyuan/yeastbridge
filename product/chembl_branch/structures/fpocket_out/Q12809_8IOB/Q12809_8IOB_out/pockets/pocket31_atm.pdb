@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    31:
+HEADER 0  - Pocket Score                      : -0.0048
+HEADER 1  - Drug Score                        : 0.0012
+HEADER 2  - Number of alpha spheres           :    29
+HEADER 3  - Mean alpha-sphere radius          : 3.7073
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4304
+HEADER 5  - Mean B-factor of pocket residues  : 0.1123
+HEADER 6  - Hydrophobicity Score              : 52.6667
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 163.9600
+HEADER 10 - Pocket volume (convex hull)       : 10.5033
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 15.0000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 0.5517
+ATOM   8603  CE2 TYR C 652     169.159 174.311 178.722  0.00  0.00           C 0
+ATOM   4961   OG SER B 624     172.026 171.171 183.439  0.62  1.07           O 0
+ATOM   8396   OG SER C 624     168.578 172.006 183.457  0.62  3.21           O 0
+ATOM   5168  CE2 TYR B 652     173.009 171.252 178.299  0.00  0.00           C 0
+ATOM  12040   OH TYR D 652     164.309 171.187 179.535  0.56  4.29           O 0
+ATOM   8601  CD2 TYR C 652     167.866 174.446 178.268  0.00  0.00           C 0
+ATOM   5170   OH TYR B 652     173.021 168.963 178.925  0.79  3.21           O 0
+ATOM  11831   OG SER D 624     167.585 168.557 183.466  0.74  2.14           O 0
+ATOM   1526   OG SER A 624     171.048 167.592 183.457  0.68  2.14           O 0
+ATOM   1733  CE2 TYR A 652     170.438 165.323 178.677  0.00  0.00           C 0
+ATOM  12038  CE2 TYR D 652     165.300 169.189 178.702  0.00  0.00           C 0
+ATOM  12036  CD2 TYR D 652     165.170 167.895 178.250  0.00  0.00           C 0
+ATOM   1765   CZ PHE A 656     168.889 165.957 175.936  0.00  0.00           C 0
+ATOM   1764  CE2 PHE A 656     169.782 166.911 175.496  0.00  0.00           C 0
+ATOM   1735   OH TYR A 652     168.429 164.354 179.508  0.23  9.64           O 0
+ATOM  12070   CZ PHE D 656     165.955 170.723 175.966  0.00  0.00           C 0
+ATOM  12069  CE2 PHE D 656     166.913 169.836 175.524  0.00  0.00           C 0
+ATOM   8634  CE2 PHE C 656     169.773 172.667 175.534  0.00  0.00           C 0
+ATOM   5199  CE2 PHE B 656     172.547 169.644 175.389  0.00  0.00           C 0
+TER
+END

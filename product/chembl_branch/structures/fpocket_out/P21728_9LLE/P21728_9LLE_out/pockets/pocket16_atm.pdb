@@ -1,0 +1,51 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    16:
+HEADER 0  - Pocket Score                      : 0.0238
+HEADER 1  - Drug Score                        : 0.0989
+HEADER 2  - Number of alpha spheres           :    35
+HEADER 3  - Mean alpha-sphere radius          : 3.7740
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5489
+HEADER 5  - Mean B-factor of pocket residues  : 0.2175
+HEADER 6  - Hydrophobicity Score              : 81.1818
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.5455
+HEADER 9  - Pocket volume (Monte Carlo)       : 365.4012
+HEADER 10 - Pocket volume (convex hull)       : 54.1347
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 17.8519
+HEADER 13 - Number of apolar alpha sphere     :    27
+HEADER 14 - Proportion of apolar alpha sphere : 0.7714
+ATOM   2194  CG2 VAL O  12      97.981  85.935  84.722  0.00  0.00           C 0
+ATOM   2193  CG1 VAL O  12      98.552  85.599  87.131  0.00  0.00           C 0
+ATOM   2163  CG2 ILE O   8      99.482  84.369  81.089  0.00  0.00           C 0
+ATOM   2192   CB VAL O  12      98.900  86.356  85.859  0.00  0.00           C 0
+ATOM   2170  CG1 ILE O   9     104.562  84.194  82.845  0.00  0.00           C 0
+ATOM   2166   CA ILE O   9     103.098  86.201  83.277  0.00  0.00           C 0
+ATOM   2531  CD1 LEU O  50     105.115  85.786  88.925  0.00  0.00           C 0
+ATOM   2160    O ILE O   8     100.468  86.866  82.859  0.00  0.00           O 0
+ATOM   2171  CG2 ILE O   9     105.346  86.011  84.391  0.00  0.00           C 0
+ATOM   2532  CD2 LEU O  50     107.116  84.570  88.033  0.00  0.00           C 0
+ATOM   2168    O ILE O   9     102.677  87.739  85.081  0.00  0.00           O 0
+ATOM   2195    N SER O  13     100.867  88.450  87.257  0.70  1.09           N 0
+ATOM   2196   CA SER O  13     101.643  88.871  88.416  0.00  0.00           C 0
+ATOM   2200   OG SER O  13     103.917  88.948  89.268  0.55  2.14           O 0
+ATOM   2222  CD1 ILE O  16      98.700  85.791  91.089  0.00  0.00           C 0
+ATOM   2198    O SER O  13     101.153  90.539  90.066  0.00  0.00           O 0
+ATOM   2468    O VAL O  43     105.390  89.457  95.123  0.00  0.00           O 0
+ATOM   2221  CG2 ILE O  16      99.171  87.714  93.310  0.00  0.00           C 0
+ATOM   2493  CG1 VAL O  46     105.764  85.508  92.881  0.00  0.00           C 0
+ATOM   2495    N PHE O  47     106.792  88.929  92.638  0.61  1.09           N 0
+ATOM   2471  CG2 VAL O  43     102.138  88.153  98.053  0.00  0.00           C 0
+ATOM   2494  CG2 VAL O  46     106.863  85.009  95.065  0.00  0.00           C 0
+ATOM   2492   CB VAL O  46     106.467  86.104  94.090  0.00  0.00           C 0
+ATOM   2470  CG1 VAL O  43     102.445  89.872  96.271  0.00  0.00           C 0
+ATOM   2223    N PHE O  17      99.676  91.245  92.416  0.73  1.09           N 0
+ATOM   2499   CB PHE O  47     105.700  91.026  92.029  0.00  0.00           C 0
+ATOM   2219   CB ILE O  16      98.807  88.201  91.917  0.00  0.00           C 0
+ATOM   2466   CA VAL O  43     104.441  88.642  97.180  0.00  0.00           C 0
+ATOM   2463  CG1 VAL O  42     106.346  84.963  99.354  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : -0.0698
+HEADER 1  - Drug Score                        : 0.0017
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0207
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6725
+HEADER 5  - Mean B-factor of pocket residues  : 0.5433
+HEADER 6  - Hydrophobicity Score              : 65.6000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 210.8304
+HEADER 10 - Pocket volume (convex hull)       : 4.4044
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.7333
+ATOM   1188    C ASN A 232     140.472 153.619 193.286  0.00  0.00           C 0
+ATOM   1189    O ASN A 232     140.413 154.013 192.116  0.00  0.00           O 0
+ATOM   1190   CB ASN A 232     138.239 153.661 194.387  0.00  0.00           C 0
+ATOM   1224  CG1 ILE A 236     139.911 156.578 190.372  0.00  0.00           C 0
+ATOM   1200  CD1 LEU A 233     144.754 156.764 193.341  0.00  0.00           C 0
+ATOM   1223   CB ILE A 236     141.237 156.671 189.611  0.00  0.00           C 0
+ATOM   1225  CG2 ILE A 236     141.318 157.993 188.860  0.00  0.00           C 0
+ATOM   1195   CA LEU A 233     142.632 154.669 193.579  0.00  0.00           C 0
+ATOM   1163  CE1 TYR A 229     141.248 158.477 199.000  0.00  0.00           C 0
+ATOM   1198   CB LEU A 233     143.609 154.975 194.714  0.00  0.00           C 0
+ATOM   1165   CZ TYR A 229     142.608 158.621 198.822  0.00  0.00           C 0
+ATOM   1166   OH TYR A 229     143.114 159.814 198.360  0.00  0.00           O 0
+ATOM   1194    N LEU A 233     141.492 153.919 194.091  0.00  0.00           N 0
+ATOM   1158    O TYR A 229     141.072 154.003 196.954  0.57  2.14           O 0
+ATOM   1161  CD1 TYR A 229     140.744 157.278 199.465  0.00  0.00           C 0
+ATOM   1153    O TRP A 228     137.875 153.065 198.297  0.69  5.36           O 0
+TER
+END

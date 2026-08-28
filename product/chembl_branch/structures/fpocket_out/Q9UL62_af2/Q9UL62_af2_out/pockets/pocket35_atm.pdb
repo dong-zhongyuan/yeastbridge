@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    35:
+HEADER 0  - Pocket Score                      : -0.0913
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.9832
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6226
+HEADER 5  - Mean B-factor of pocket residues  : 0.8661
+HEADER 6  - Hydrophobicity Score              : 32.1667
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 256.4374
+HEADER 10 - Pocket volume (convex hull)       : 6.7006
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.4762
+ATOM    701   CD GLU A  87     -40.892  -2.254  35.511  0.00  0.00           C 0
+ATOM    735  OD1 ASN A  91     -42.598   3.586  39.018  0.00  0.00           O 0
+ATOM    703  OE2 GLU A  87     -41.769  -2.577  36.348  0.65  4.29           O 0
+ATOM    700   CG GLU A  87     -39.719  -1.373  35.974  0.00  0.00           C 0
+ATOM    933   OG SER A 117     -40.601   4.017  30.818  0.86  2.14           O 0
+ATOM    932    O SER A 117     -41.344   7.708  30.557  0.11  8.57           O 0
+ATOM    941  CD2 TYR A 118     -39.964   7.293  36.020  0.00  0.00           C 0
+ATOM    935   CA TYR A 118     -39.620   7.544  32.798  0.00  0.00           C 0
+ATOM    937   CB TYR A 118     -38.742   6.858  33.852  0.00  0.00           C 0
+ATOM    734  ND2 ASN A  91     -42.568   1.597  39.928  0.52  9.84           N 0
+ATOM    911  CD2 LEU A 114     -39.655  -0.176  32.265  0.00  0.00           C 0
+ATOM    698   CB GLU A  87     -39.706  -1.138  37.488  0.00  0.00           C 0
+ATOM    696   CA GLU A  87     -38.629  -0.139  37.937  0.00  0.00           C 0
+ATOM    699    O GLU A  87     -39.489   1.454  39.526  0.65  1.07           O 0
+ATOM    723   CB LEU A  90     -37.522   4.208  37.804  0.00  0.00           C 0
+ATOM    726  CD1 LEU A  90     -36.452   3.389  35.683  0.00  0.00           C 0
+ATOM    908    O LEU A 114     -37.967   4.176  31.576  0.00  0.00           O 0
+TER
+END

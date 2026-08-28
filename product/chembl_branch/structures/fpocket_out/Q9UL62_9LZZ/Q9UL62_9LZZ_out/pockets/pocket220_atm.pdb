@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   220:
+HEADER 0  - Pocket Score                      : -0.2320
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.1574
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5007
+HEADER 5  - Mean B-factor of pocket residues  : 0.5715
+HEADER 6  - Hydrophobicity Score              : 3.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 315.2309
+HEADER 10 - Pocket volume (convex hull)       : 6.5824
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM   1054   NE ARG A 165     194.856 164.864 179.340  0.78  7.66           N 0
+ATOM   1069   CB THR A 167     191.004 162.684 173.858  0.00  0.00           C 0
+ATOM   1052   CG ARG A 165     192.461 165.241 179.822  0.00  0.00           C 0
+ATOM   1061    O VAL A 166     189.052 164.682 175.722  0.66  5.36           O 0
+ATOM   1070  OG1 THR A 167     191.424 162.578 172.493  0.73  1.07           O 0
+ATOM   1057  NH2 ARG A 165     196.964 164.516 178.512  0.00  0.00           N 0
+ATOM  16583   CB ARG B  17     194.348 162.261 170.385  0.00  0.00           C 0
+ATOM   1071  CG2 THR A 167     191.648 161.572 174.674  0.00  0.00           C 0
+ATOM   1050    O ARG A 165     190.103 162.891 179.678  0.54  5.36           O 0
+ATOM   1055   CZ ARG A 165     196.116 164.498 179.536  0.00  0.00           C 0
+ATOM  16602   CB PRO B  19     191.662 167.893 172.677  0.00  0.00           C 0
+ATOM  16582    O ARG B  17     193.277 164.735 169.526  0.23  8.57           O 0
+ATOM  16584   CG ARG B  17     194.927 160.870 170.636  0.00  0.00           C 0
+ATOM  16586   NE ARG B  17     194.054 158.983 171.966  0.89  4.37           N 0
+TER
+END

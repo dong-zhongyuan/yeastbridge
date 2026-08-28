@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    45:
+HEADER 0  - Pocket Score                      : -0.0213
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 4.0503
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5576
+HEADER 5  - Mean B-factor of pocket residues  : 0.0606
+HEADER 6  - Hydrophobicity Score              : 5.1667
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 206.1346
+HEADER 10 - Pocket volume (convex hull)       : 6.0755
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.0833
+ATOM   2205   CB ARG B  52     116.348 122.813 108.768  0.00  0.00           C 0
+ATOM   2485    O THR B  87     114.316 129.306 103.905  0.00  0.00           O 0
+ATOM   2207   CD ARG B  52     118.414 124.076 109.467  0.00  0.00           C 0
+ATOM   2201    N ARG B  52     117.205 123.255 106.514  0.00  0.00           N 0
+ATOM   2204    O ARG B  52     114.901 122.202 105.613  0.83  4.29           O 0
+ATOM    118  OD1 ASP A  20     110.154 124.218 107.393  0.64  5.36           O 0
+ATOM   2203    C ARG B  52     115.249 121.814 106.734  0.00  0.00           C 0
+ATOM    119  OD2 ASP A  20     109.771 126.345 107.771  0.00  0.00           O 0
+ATOM   2486   CB THR B  87     117.023 129.720 103.786  0.00  0.00           C 0
+ATOM   2189    O THR B  50     120.090 126.528 105.919  0.42  7.50           O 0
+ATOM   2505   NZ LYS B  89     112.955 123.688 103.943  0.59  4.37           N 0
+ATOM   2200  CD2 LEU B  51     118.006 126.195 102.444  0.00  0.00           C 0
+ATOM   2487  OG1 THR B  87     116.554 130.694 104.727  0.00  0.00           O 0
+ATOM   2504   CE LYS B  89     111.675 123.631 104.703  0.00  0.00           C 0
+ATOM   2502   CG LYS B  89     111.019 125.354 103.037  0.00  0.00           C 0
+ATOM   2194   CA LEU B  51     118.844 124.201 105.001  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : 0.0279
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0450
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7038
+HEADER 5  - Mean B-factor of pocket residues  : 0.4358
+HEADER 6  - Hydrophobicity Score              : 26.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 316.9249
+HEADER 10 - Pocket volume (convex hull)       : 6.0954
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   5939   CA MET B 262     135.297 103.918  63.393  0.00  0.00           C 0
+ATOM   5944   SD MET B 262     133.401 106.504  62.746  0.00  0.00           S 0
+ATOM   4174  OG1 THR B  29     137.657 107.461  59.073  0.00  0.00           O 0
+ATOM   5933    O LEU B 261     136.424 104.014  60.840  0.66  1.07           O 0
+ATOM   5929  OE2 GLU B 260     139.069 103.632  66.227  0.55  5.36           O 0
+ATOM   5924    O GLU B 260     139.983 101.510  61.264  0.00  0.00           O 0
+ATOM   5951  OG1 THR B 263     137.451 105.021  67.310  0.00  0.00           O 0
+ATOM   5946    N THR B 263     135.168 104.818  65.635  0.62  2.19           N 0
+ATOM   5938    N MET B 262     136.163 102.920  62.785  0.00  0.00           N 0
+ATOM   5925   CB GLU B 260     140.188 100.777  64.306  0.00  0.00           C 0
+ATOM   5927   CD GLU B 260     139.639 102.543  66.008  0.00  0.00           C 0
+ATOM   5928  OE1 GLU B 260     140.633 102.152  66.655  0.66  4.29           O 0
+ATOM   5916   CB GLN B 259     142.967  98.837  60.454  0.00  0.00           C 0
+ATOM   5919  OE1 GLN B 259     143.390 101.348  58.580  0.00  0.00           O 0
+ATOM   5921    N GLU B 260     140.938  99.220  62.595  0.62  2.19           N 0
+ATOM   5932    C LEU B 261     136.567 102.998  61.521  0.00  0.00           C 0
+ATOM   5926   CG GLU B 260     139.110 101.660  64.899  0.00  0.00           C 0
+TER
+END

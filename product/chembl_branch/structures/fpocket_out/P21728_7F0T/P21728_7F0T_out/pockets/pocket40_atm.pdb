@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    40:
+HEADER 0  - Pocket Score                      : -0.1123
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.7796
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4086
+HEADER 5  - Mean B-factor of pocket residues  : 0.2308
+HEADER 6  - Hydrophobicity Score              : -8.4000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 180.7418
+HEADER 10 - Pocket volume (convex hull)       : 4.4488
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   2143   CA ASN F 334     104.171  99.759 101.150  0.00  0.00           C 0
+ATOM   2146   CB ASN F 334     102.701  99.443 101.401  0.00  0.00           C 0
+ATOM   2150    N ALA F 335     105.229  99.131 103.236  0.61  2.19           N 0
+ATOM   4092  OE1 GLN A 390     100.095 102.038 104.827  0.48  4.29           O 0
+ATOM   4113  OE1 GLU A 392     106.083 104.639 102.947  0.38  6.43           O 0
+ATOM   4082   CZ ARG A 389     104.102 105.606 109.947  0.00  0.00           C 0
+ATOM   4077    O ARG A 389     101.901 106.634 105.716  0.32  3.21           O 0
+ATOM   4083  NH1 ARG A 389     103.261 104.583 109.936  0.00  0.00           N 0
+ATOM   4084  NH2 ARG A 389     105.323 105.450 110.438  0.82  7.66           N 0
+ATOM   2154   CB ALA F 335     106.137  98.896 105.497  0.00  0.00           C 0
+ATOM   4088    O GLN A 390     101.093 104.537 102.889  0.31  1.07           O 0
+ATOM   4114  OE2 GLU A 392     106.059 106.745 103.563  0.36  9.64           O 0
+ATOM   4081   NE ARG A 389     103.719 106.783 109.469  0.43  4.37           N 0
+TER
+END

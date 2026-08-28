@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   135:
+HEADER 0  - Pocket Score                      : -0.1410
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0621
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5779
+HEADER 5  - Mean B-factor of pocket residues  : 0.3043
+HEADER 6  - Hydrophobicity Score              : 0.8333
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 192.2340
+HEADER 10 - Pocket volume (convex hull)       : 1.2202
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.5333
+ATOM   6473  CG2 VAL B 187     159.646 209.791 165.809  0.00  0.00           C 0
+ATOM   6477    O ASP B 188     161.459 204.906 165.183  0.36  1.07           O 0
+ATOM   6478   CB ASP B 188     163.033 206.517 166.940  0.00  0.00           C 0
+ATOM   6501   CG ARG B 191     161.061 203.540 169.568  0.00  0.00           C 0
+ATOM   6449    O SER B 184     157.605 207.474 164.410  0.26  2.14           O 0
+ATOM   6511   CB HIS B 192     158.568 203.367 164.855  0.00  0.00           C 0
+ATOM   6507    N HIS B 192     160.214 202.444 166.413  0.00  0.00           N 0
+ATOM   6508   CA HIS B 192     158.835 202.331 165.947  0.00  0.00           C 0
+ATOM   6502   CD ARG B 191     161.442 204.546 170.629  0.00  0.00           C 0
+ATOM   6451   OG SER B 184     154.987 207.821 165.759  0.00  0.00           O 0
+ATOM   6514  CD2 HIS B 192     156.054 204.012 164.790  0.00  0.00           C 0
+ATOM   6539   OG SER B 195     157.875 200.785 170.255  0.87  6.43           O 0
+ATOM   6538   CB SER B 195     156.858 200.219 169.450  0.00  0.00           C 0
+TER
+END

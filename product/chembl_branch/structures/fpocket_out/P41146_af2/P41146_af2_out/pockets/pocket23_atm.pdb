@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    23:
+HEADER 0  - Pocket Score                      : 0.0048
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9586
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6565
+HEADER 5  - Mean B-factor of pocket residues  : 0.8497
+HEADER 6  - Hydrophobicity Score              : 13.5000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 281.2784
+HEADER 10 - Pocket volume (convex hull)       : 12.3219
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2778
+ATOM   1433   CA MET A 188       1.948  -7.371 -19.890  0.00  0.00           C 0
+ATOM   1437   CG MET A 188      -0.439  -7.274 -20.829  0.00  0.00           C 0
+ATOM   1428    O ILE A 187       3.365  -9.789 -19.229  0.70  3.21           O 0
+ATOM   1430  CG2 ILE A 187       0.992 -12.051 -19.436  0.00  0.00           C 0
+ATOM   1447   CB SER A 190       8.172  -6.474 -20.154  0.00  0.00           C 0
+ATOM   1462  NE2 GLN A 192       8.474  -6.215 -23.704  0.00  0.00           N 0
+ATOM   1552  OE2 GLU A 203       5.937  -6.017 -24.833  0.00  0.00           O 0
+ATOM   1449   OG SER A 190       7.707  -5.509 -21.067  0.00  0.00           O 0
+ATOM   1550   CD GLU A 203       5.271  -5.279 -25.600  0.00  0.00           C 0
+ATOM   1548    O GLU A 203       1.207  -4.070 -23.142  0.83  4.29           O 0
+ATOM   1547   CB GLU A 203       4.248  -4.230 -23.489  0.00  0.00           C 0
+ATOM   1562   CA PRO A 205      -0.902  -4.583 -27.310  0.00  0.00           C 0
+ATOM   1564   CB PRO A 205      -2.009  -5.608 -27.036  0.00  0.00           C 0
+ATOM   1436    O MET A 188       3.757  -5.847 -20.278  0.60  2.14           O 0
+ATOM   1551  OE1 GLU A 203       5.175  -5.467 -26.833  0.00  0.00           O 0
+ATOM   1549   CG GLU A 203       4.464  -4.110 -25.007  0.00  0.00           C 0
+ATOM   1567   CD PRO A 205      -1.906  -4.077 -25.197  0.00  0.00           C 0
+ATOM   1438   SD MET A 188      -1.925  -6.300 -21.223  0.00  0.00           S 0
+TER
+END

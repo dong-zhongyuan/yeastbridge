@@ -1,0 +1,34 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : 0.0042
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.6045
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4084
+HEADER 5  - Mean B-factor of pocket residues  : 0.3536
+HEADER 6  - Hydrophobicity Score              : 22.1429
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 79.3324
+HEADER 10 - Pocket volume (convex hull)       : 0.2232
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1875
+ATOM   1614  OE1 GLU A 358     157.882 157.193 140.237  0.77  3.21           O 0
+ATOM   1611   CB GLU A 358     157.058 155.755 138.093  0.00  0.00           C 0
+ATOM   1622   CD PRO A 359     159.006 154.129 135.603  0.00  0.00           C 0
+ATOM   1619    O PRO A 359     159.028 152.190 138.642  0.78  1.07           O 0
+ATOM   6318  OE1 GLU B 501     162.529 157.072 142.010  0.68  3.21           O 0
+ATOM   1568   CE MET A 352     161.111 152.095 142.302  0.00  0.00           C 0
+ATOM   1635  CD2 PHE A 361     164.030 153.681 138.197  0.00  0.00           C 0
+ATOM   2027  OG1 THR A 412     159.998 159.047 135.422  0.00  0.00           O 0
+ATOM   2028  CG2 THR A 412     161.232 159.940 137.278  0.00  0.00           C 0
+ATOM   6319  OE2 GLU B 501     162.733 158.200 140.137  0.00  0.00           O 0
+ATOM   1637  CE2 PHE A 361     163.842 154.265 136.960  0.00  0.00           C 0
+ATOM   2053  CG2 VAL A 415     161.898 156.344 134.258  0.00  0.00           C 0
+TER
+END

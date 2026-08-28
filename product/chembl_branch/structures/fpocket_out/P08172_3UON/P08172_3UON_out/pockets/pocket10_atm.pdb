@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : -0.0566
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.7714
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6333
+HEADER 5  - Mean B-factor of pocket residues  : 0.2991
+HEADER 6  - Hydrophobicity Score              : 19.2500
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 251.7490
+HEADER 10 - Pocket volume (convex hull)       : 16.2490
+HEADER 11 - Charge Score                      :     4
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1875
+ATOM   3382   CD LYS A 448      15.969  19.823  19.381  0.00  0.00           C 0
+ATOM   3329    O ALA A 441      13.601  16.751  18.356  0.45  2.14           O 0
+ATOM   3354   CA ALA A 445      14.147  15.984  22.812  0.00  0.00           C 0
+ATOM   3357   CB ALA A 445      13.676  16.755  24.035  0.00  0.00           C 0
+ATOM   3334    O LEU A 442       9.782  17.021  18.784  0.00  0.00           O 0
+ATOM   3383   CE LYS A 448      15.449  20.318  18.039  0.00  0.00           C 0
+ATOM   3353    N ALA A 445      13.162  14.975  22.438  0.31  1.09           N 0
+ATOM   2903  NH2 ARG A 387       7.933  13.835  23.618  0.60  3.28           N 0
+ATOM   2878   NZ LYS A 384      10.992  13.679  25.143  0.36  2.19           N 0
+ATOM   2850  NH1 ARG A 381       8.427  15.031  27.383  0.00  0.00           N 0
+ATOM   3332   CA LEU A 442      11.264  17.025  16.893  0.00  0.00           C 0
+ATOM   3338  CD2 LEU A 442      11.626  19.618  15.284  0.00  0.00           C 0
+ATOM   2901   CZ ARG A 387       6.715  14.154  23.203  0.00  0.00           C 0
+ATOM   2902  NH1 ARG A 387       5.944  14.931  23.951  0.00  0.00           N 0
+ATOM   2900   NE ARG A 387       6.269  13.695  22.040  0.00  0.00           N 0
+ATOM   2899   CD ARG A 387       4.948  13.986  21.493  0.00  0.00           C 0
+ATOM   3341    C CYS A 443       9.944  13.726  19.830  0.00  0.00           C 0
+ATOM   3342    O CYS A 443       9.311  13.174  20.731  0.00  0.00           O 0
+TER
+END

@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    16:
+HEADER 0  - Pocket Score                      : 0.0253
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.5816
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3505
+HEADER 5  - Mean B-factor of pocket residues  : 0.2863
+HEADER 6  - Hydrophobicity Score              : 14.2222
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 2.8889
+HEADER 9  - Pocket volume (Monte Carlo)       : 114.1069
+HEADER 10 - Pocket volume (convex hull)       : 2.9152
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3125
+ATOM  24903   CB ALA F  41     174.200 127.314 116.655  0.00  0.00           C 0
+ATOM  26434   CD ARG F 242     175.776 127.218 110.055  0.00  0.00           C 0
+ATOM  26432   CB ARG F 242     177.799 128.188 111.194  0.00  0.00           C 0
+ATOM  26328  OD2 ASP F 229     176.969 124.498 111.151  0.51  4.29           O 0
+ATOM  24907    O GLY F  42     172.605 124.912 113.249  0.32  5.36           O 0
+ATOM  26431    O ARG F 242     178.693 128.938 114.254  0.64  2.14           O 0
+ATOM  26302    N ALA F 226     178.324 121.490 115.082  0.87  3.28           N 0
+ATOM  24921   CB SER F  44     174.486 122.056 116.277  0.00  0.00           C 0
+ATOM  26470   CB SER F 246     179.001 127.018 117.364  0.00  0.00           C 0
+ATOM  26305    O ALA F 226     180.329 122.381 113.018  0.00  0.00           O 0
+ATOM  26325   CB ASP F 229     179.304 124.812 110.871  0.00  0.00           C 0
+ATOM  26471   OG SER F 246     180.365 126.973 116.980  0.87  1.07           O 0
+ATOM  26292    O CYS F 224     176.304 122.361 119.052  0.48  2.14           O 0
+ATOM  26296   CA VAL F 225     178.635 121.761 117.486  0.00  0.00           C 0
+TER
+END

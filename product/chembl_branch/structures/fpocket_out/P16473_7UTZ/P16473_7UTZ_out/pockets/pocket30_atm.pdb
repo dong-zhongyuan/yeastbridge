@@ -1,0 +1,43 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    30:
+HEADER 0  - Pocket Score                      : -0.0544
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.9321
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5881
+HEADER 5  - Mean B-factor of pocket residues  : 0.3131
+HEADER 6  - Hydrophobicity Score              : 34.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 373.0132
+HEADER 10 - Pocket volume (convex hull)       : 27.3034
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.6190
+ATOM  23230   CA GLU Z  42     219.646 158.590 209.525  0.00  0.00           C 0
+ATOM  23233   CB GLU Z  42     219.651 157.207 210.183  0.00  0.00           C 0
+ATOM  23232    O GLU Z  42     219.686 160.271 211.236  0.45  1.07           O 0
+ATOM  23275   CB ALA Z  45     216.928 162.228 208.897  0.00  0.00           C 0
+ATOM  21821  NH1 ARG Y 283     214.528 157.384 206.202  0.40  9.84           N 0
+ATOM  22082  CD1 LEU Y 300     217.949 155.766 203.935  0.00  0.00           C 0
+ATOM  23173    O MET Z  38     221.479 155.952 207.566  0.00  0.00           O 0
+ATOM  18110  CG2 ILE Y  37     216.275 151.956 208.280  0.00  0.00           C 0
+ATOM  23175   CG MET Z  38     220.633 152.809 207.623  0.00  0.00           C 0
+ATOM  23236  OE1 GLU Z  42     219.882 154.670 211.118  0.00  0.00           O 0
+ATOM  23229    N GLU Z  42     220.265 158.525 208.206  0.72  1.09           N 0
+ATOM  18105   CA ILE Y  37     213.829 151.564 208.683  0.00  0.00           C 0
+ATOM  18123    N ASP Y  38     211.874 152.893 209.199  0.65  3.28           N 0
+ATOM  18093    O ASN Y  36     212.525 149.618 210.094  0.74  3.21           O 0
+ATOM  18129  OD1 ASP Y  38     210.261 152.189 211.524  0.78  5.36           O 0
+ATOM  18128   CG ASP Y  38     210.175 153.435 211.541  0.00  0.00           C 0
+ATOM  18130  OD2 ASP Y  38     210.190 154.103 212.595  0.00  0.00           O 0
+ATOM  18127   CB ASP Y  38     210.048 154.170 210.221  0.00  0.00           C 0
+ATOM  18126    O ASP Y  38     211.305 154.822 207.343  0.52  2.14           O 0
+ATOM  18108   CB ILE Y  37     214.866 152.353 207.862  0.00  0.00           C 0
+ATOM  18111  CD1 ILE Y  37     215.532 153.086 205.516  0.00  0.00           C 0
+TER
+END

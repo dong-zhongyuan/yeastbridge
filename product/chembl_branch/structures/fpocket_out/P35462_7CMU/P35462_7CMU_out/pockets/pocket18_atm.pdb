@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    18:
+HEADER 0  - Pocket Score                      : -0.0116
+HEADER 1  - Drug Score                        : 0.0013
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.8719
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6425
+HEADER 5  - Mean B-factor of pocket residues  : 0.2724
+HEADER 6  - Hydrophobicity Score              : -7.6667
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.8889
+HEADER 9  - Pocket volume (Monte Carlo)       : 264.1827
+HEADER 10 - Pocket volume (convex hull)       : 15.0273
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.4706
+ATOM   4770   CB VAL C  54      86.865  59.237 102.902  0.00  0.00           C 0
+ATOM   4795   CB GLU C  58      90.607  57.470 104.897  0.00  0.00           C 0
+ATOM   4779   CD PRO C  55      85.764  58.394 106.086  0.00  0.00           C 0
+ATOM   4771  CG1 VAL C  54      86.575  58.406 101.661  0.00  0.00           C 0
+ATOM   4796   CG GLU C  58      91.178  56.770 103.665  0.00  0.00           C 0
+ATOM   4757  OG1 THR C  52      81.732  57.552  99.083  0.86  4.29           O 0
+ATOM   4706    O LYS C  46      82.426  53.403  98.165  0.83  6.43           O 0
+ATOM   4713   CA GLU C  47      84.234  53.770  96.072  0.00  0.00           C 0
+ATOM   4723    C ASP C  48      83.997  58.389  96.043  0.00  0.00           C 0
+ATOM   4729    N PRO C  49      85.207  58.865  96.355  0.00  0.00           N 0
+ATOM   4721    N ASP C  48      83.638  56.056  95.462  0.00  0.00           N 0
+ATOM   4714    C GLU C  47      84.562  55.100  95.399  0.00  0.00           C 0
+ATOM   4734   CG PRO C  49      87.487  58.971  96.801  0.00  0.00           C 0
+ATOM   4715    O GLU C  47      85.642  55.265  94.829  0.71  4.29           O 0
+ATOM   4798  OE1 GLU C  58      90.022  58.339 102.292  1.00  1.07           O 0
+ATOM   4797   CD GLU C  58      90.998  57.565 102.385  0.00  0.00           C 0
+ATOM   4799  OE2 GLU C  58      91.834  57.414 101.470  0.42  6.43           O 1
+ATOM   4285   CE MET B 325      91.247  59.603  99.413  0.00  0.00           C 0
+ATOM   4730   CA PRO C  49      85.339  59.804  97.484  0.00  0.00           C 0
+TER
+END

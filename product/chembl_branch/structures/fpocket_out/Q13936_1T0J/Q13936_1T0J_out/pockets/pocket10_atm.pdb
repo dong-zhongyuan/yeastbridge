@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : 0.0192
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.7952
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4628
+HEADER 5  - Mean B-factor of pocket residues  : 0.3574
+HEADER 6  - Hydrophobicity Score              : 32.3333
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 168.4838
+HEADER 10 - Pocket volume (convex hull)       : 1.2123
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM   1010   NZ LYS B 247      -7.313  15.053 -20.404  0.60  6.56           N 0
+ATOM   1007   CG LYS B 247      -5.424  14.298 -18.388  0.00  0.00           C 0
+ATOM    980    O MET B 244      -1.267  13.110 -20.298  0.56  3.21           O 0
+ATOM   1009   CE LYS B 247      -6.605  16.211 -19.721  0.00  0.00           C 0
+ATOM   2364    O GLN C 443      -5.653  12.601 -24.596  0.28  5.36           O 0
+ATOM   2357    O THR C 442      -4.390  14.312 -27.465  0.00  0.00           O 0
+ATOM    978   CA MET B 244      -0.545  15.365 -19.909  0.00  0.00           C 0
+ATOM    981   CB MET B 244      -0.207  16.014 -21.252  0.00  0.00           C 0
+ATOM   1011    N ALA B 248      -3.636  11.259 -19.335  0.69  1.09           N 0
+ATOM    983   SD MET B 244      -0.728  18.208 -22.719  0.00  0.00           S 0
+ATOM    982   CG MET B 244      -0.471  17.498 -21.185  0.00  0.00           C 0
+ATOM    984   CE MET B 244      -1.836  19.748 -22.045  0.00  0.00           C 0
+ATOM   2349    O ILE C 441      -1.767  14.719 -25.155  0.73  2.14           O 0
+TER
+END

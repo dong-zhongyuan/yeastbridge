@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : 0.0937
+HEADER 1  - Drug Score                        : 0.0025
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.5303
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3348
+HEADER 5  - Mean B-factor of pocket residues  : 0.5055
+HEADER 6  - Hydrophobicity Score              : 33.2727
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.9091
+HEADER 9  - Pocket volume (Monte Carlo)       : 132.5333
+HEADER 10 - Pocket volume (convex hull)       : 5.5725
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.5833
+ATOM  13448  CD1 LEU D 830     162.938 196.004 125.750  0.00  0.00           C 0
+ATOM  13121  CD1 ILE D 787     164.258 201.643 128.627  0.00  0.00           C 0
+ATOM  13447   CG LEU D 830     161.556 196.191 126.354  0.00  0.00           C 0
+ATOM  13432   CB CYS D 828     163.037 198.330 131.627  0.00  0.00           C 0
+ATOM  13449  CD2 LEU D 830     160.804 197.304 125.646  0.00  0.00           C 0
+ATOM  13429   CA CYS D 828     161.532 198.440 131.845  0.00  0.00           C 0
+ATOM  13118   CB ILE D 787     162.461 202.233 126.921  0.00  0.00           C 0
+ATOM  13085  CG2 ILE D 782     157.050 198.654 126.375  0.00  0.00           C 0
+ATOM  13437    O ASP D 829     158.075 196.735 128.612  0.00  0.00           O 0
+ATOM  12984  CD1 LEU D 769     166.432 196.059 126.984  0.00  0.00           C 0
+ATOM  12966    O ASP D 767     168.158 200.513 129.708  0.57  1.07           O 0
+ATOM  12944   CB ALA D 763     164.747 195.165 132.261  0.00  0.00           C 0
+ATOM  12928  OG1 THR D 761     161.988 192.653 128.083  0.33  2.14           O 0
+ATOM  13431    O CYS D 828     161.441 196.042 131.923  0.00  0.00           O 0
+ATOM  13434    N ASP D 829     159.639 197.085 131.106  0.56  1.09           N 0
+ATOM  13111    O SER D 786     160.887 202.988 129.952  0.64  1.07           O 0
+ATOM  13108    N SER D 786     158.230 202.650 130.210  0.73  2.19           N 0
+ATOM  13110    C SER D 786     160.198 203.401 129.016  0.00  0.00           C 0
+ATOM  13096    O ARG D 784     156.821 198.679 130.445  0.63  1.07           O 0
+TER
+END

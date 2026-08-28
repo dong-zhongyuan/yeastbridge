@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   264:
+HEADER 0  - Pocket Score                      : -0.2005
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.2945
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6823
+HEADER 5  - Mean B-factor of pocket residues  : 0.1162
+HEADER 6  - Hydrophobicity Score              : -23.0000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 213.0840
+HEADER 10 - Pocket volume (convex hull)       : 3.4756
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2500
+ATOM  27280   CB SER J 242     198.477 152.475 240.701  0.00  0.00           C 0
+ATOM  27277   CA SER J 242     199.307 151.865 241.834  0.00  0.00           C 0
+ATOM  15609   CB PRO H 200     194.705 151.639 241.311  0.00  0.00           C 0
+ATOM  15610   CG PRO H 200     194.222 151.196 239.979  0.00  0.00           C 0
+ATOM  27276    N SER J 242     198.509 151.694 243.051  0.77  2.19           N 0
+ATOM  15575  OD2 ASP H 196     193.304 146.457 238.768  0.76  5.36           O 0
+ATOM  15595  OG1 THR H 198     191.830 147.332 241.738  0.62  5.36           O 0
+ATOM  27262    O ARG J 240     195.526 150.205 244.739  0.77  2.14           O 0
+ATOM  27263   CB ARG J 240     195.869 147.690 245.841  0.00  0.00           C 0
+ATOM   9733   CD LYS B 279     193.989 143.119 242.060  0.00  0.00           C 0
+ATOM  27260   CA ARG J 240     197.063 148.638 245.737  0.00  0.00           C 0
+ATOM  27261    C ARG J 240     196.619 150.025 245.281  0.00  0.00           C 0
+ATOM  27253    O GLU J 239     199.759 148.049 246.140  0.00  0.00           O 0
+TER
+END

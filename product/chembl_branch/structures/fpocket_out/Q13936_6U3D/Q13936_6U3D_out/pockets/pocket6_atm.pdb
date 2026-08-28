@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : 0.0269
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.0312
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6214
+HEADER 5  - Mean B-factor of pocket residues  : 0.5449
+HEADER 6  - Hydrophobicity Score              : -7.6250
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.1250
+HEADER 9  - Pocket volume (Monte Carlo)       : 284.4549
+HEADER 10 - Pocket volume (convex hull)       : 11.1318
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   1658  OE1 GLN B  41       7.781 -12.886  -4.053  0.58  3.21           O 0
+ATOM   2028    O ARG B  90       9.929  -8.543  -1.378  0.53  4.29           O 0
+ATOM   2500   NZ LYS D1617       7.732 -11.124  -6.452  0.53  3.28           N 0
+ATOM   2029   CB ARG B  90       9.380  -6.686  -3.834  0.00  0.00           C 0
+ATOM   1659  NE2 GLN B  41       8.635 -12.559  -2.002  0.00  0.00           N 0
+ATOM   1652   CA GLN B  41       6.679 -15.215  -0.986  0.00  0.00           C 0
+ATOM   1650    O GLY B  40       6.888 -14.121   1.554  0.24  5.36           O 0
+ATOM   1660    N ASN B  42       4.292 -15.679  -1.029  0.00  0.00           N 0
+ATOM   1657   CD GLN B  41       8.252 -13.336  -3.009  0.00  0.00           C 0
+ATOM   2462    N GLU D1612       2.724  -9.350  -5.789  0.00  0.00           N 0
+ATOM   2465    O GLU D1612       4.855 -10.685  -7.000  0.00  0.00           O 0
+ATOM   2463   CA GLU D1612       2.476 -10.322  -6.852  0.00  0.00           C 0
+ATOM   1699  OE1 GLU B  47       0.503 -15.404  -6.384  0.00  0.00           O 0
+ATOM   1663    O ASN B  42       1.212 -15.984  -2.226  0.30  6.43           O 0
+ATOM   1700  OE2 GLU B  47       0.299 -13.566  -7.590  0.45  4.29           O 0
+ATOM   2473  CG2 VAL D1613       4.177 -14.178  -5.415  0.00  0.00           C 0
+TER
+END

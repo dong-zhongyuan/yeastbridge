@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    61:
+HEADER 0  - Pocket Score                      : -0.1474
+HEADER 1  - Drug Score                        : 0.0010
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9352
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4911
+HEADER 5  - Mean B-factor of pocket residues  : 0.5678
+HEADER 6  - Hydrophobicity Score              : 69.0000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 235.8836
+HEADER 10 - Pocket volume (convex hull)       : 4.0168
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.8235
+ATOM     33   CB VAL A  68     115.350 113.914 164.624  0.00  0.00           C 0
+ATOM     60  CG2 ILE A  71     116.933 118.509 160.650  0.00  0.00           C 0
+ATOM     58   CB ILE A  71     115.702 117.689 160.997  0.00  0.00           C 0
+ATOM     59  CG1 ILE A  71     115.009 118.256 162.238  0.00  0.00           C 0
+ATOM    492  CG1 ILE A 129     122.227 117.620 162.827  0.00  0.00           C 0
+ATOM     34  CG1 VAL A  68     115.402 114.320 166.089  0.00  0.00           C 0
+ATOM    501  CG2 ILE A 130     119.000 113.131 161.221  0.00  0.00           C 0
+ATOM    493  CG2 ILE A 129     121.679 116.654 160.573  0.00  0.00           C 0
+ATOM    490    O ILE A 129     122.478 114.591 163.808  0.57  8.57           O 0
+ATOM    498    O ILE A 130     121.898 110.987 163.901  0.66  8.57           O 0
+ATOM    517  OD1 ASN A 132     123.393 112.640 165.944  0.62  4.29           O 0
+ATOM    518  ND2 ASN A 132     124.130 113.606 167.829  0.00  0.00           N 0
+ATOM    496   CA ILE A 130     121.211 112.662 162.330  0.00  0.00           C 0
+ATOM     35  CG2 VAL A  68     115.460 112.405 164.476  0.00  0.00           C 0
+ATOM     32    O VAL A  68     114.820 114.491 161.713  0.00  0.00           O 0
+TER
+END

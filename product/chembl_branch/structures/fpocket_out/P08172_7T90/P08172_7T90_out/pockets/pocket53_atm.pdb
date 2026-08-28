@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    53:
+HEADER 0  - Pocket Score                      : -0.1102
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    26
+HEADER 3  - Mean alpha-sphere radius          : 4.0620
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4748
+HEADER 5  - Mean B-factor of pocket residues  : 0.1900
+HEADER 6  - Hydrophobicity Score              : 9.1429
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 352.7650
+HEADER 10 - Pocket volume (convex hull)       : 22.4450
+HEADER 11 - Charge Score                      :     4
+HEADER 12 - Local hydrophobic density Score   : 2.8000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.1923
+ATOM   6229  CE2 PHE C 335     143.629 143.093 169.453  0.00  0.00           C 0
+ATOM   4091   CB ARG C  52     143.853 139.199 171.410  0.00  0.00           C 0
+ATOM    217  OE1 GLN A  55     140.607 140.888 164.990  0.00  0.00           O 0
+ATOM   4096  NH1 ARG C  52     144.932 139.498 167.287  0.70  5.47           N 1
+ATOM    190    O ARG A  52     139.533 144.867 164.176  0.38  6.43           O 0
+ATOM   4119  CD2 LEU C  55     135.788 142.674 170.847  0.00  0.00           C 0
+ATOM    213    O GLN A  55     136.741 142.352 162.397  0.00  0.00           O 0
+ATOM    191   CB ARG A  52     141.517 146.279 166.399  0.00  0.00           C 0
+ATOM   4115    O LEU C  55     136.061 147.192 171.477  0.00  0.00           O 0
+ATOM   4105    O HIS C  54     138.688 143.132 172.589  0.36  3.21           O 0
+ATOM   4090    O ARG C  52     141.713 138.376 172.946  0.46  3.21           O 0
+ATOM   4089    C ARG C  52     142.295 139.380 173.360  0.00  0.00           C 0
+ATOM   6219   OG SER C 334     141.071 144.908 171.113  0.75  2.14           O 0
+ATOM    199  CD2 HIS A  53     138.544 150.178 164.878  0.00  0.00           C 0
+ATOM    189    C ARG A  52     140.315 145.832 164.241  0.00  0.00           C 0
+ATOM    193   CA HIS A  53     138.786 147.308 163.012  0.00  0.00           C 0
+ATOM    192    N HIS A  53     140.075 147.030 163.702  0.00  0.00           N 0
+ATOM   2192   NZ LYS B  24     136.797 138.567 171.499  0.61  3.28           N 1
+ATOM   2191   CE LYS B  24     135.835 137.830 170.635  0.00  0.00           C 0
+ATOM   4113   CA LEU C  55     136.818 145.157 172.462  0.00  0.00           C 0
+TER
+END

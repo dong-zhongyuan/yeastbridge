@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    31:
+HEADER 0  - Pocket Score                      : -0.0858
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.8913
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5944
+HEADER 5  - Mean B-factor of pocket residues  : 0.9498
+HEADER 6  - Hydrophobicity Score              : 2.2000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 148.4760
+HEADER 10 - Pocket volume (convex hull)       : 2.1768
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3750
+ATOM   5158   CB GLN B   6      82.370  92.343 163.955  0.00  0.00           C 0
+ATOM   5170  CD2 LEU B   7      86.722  95.363 160.713  0.00  0.00           C 0
+ATOM   5161  OE1 GLN B   6      83.808  91.875 166.241  0.00  0.00           O 0
+ATOM   5168   CG LEU B   7      86.394  93.878 160.691  0.00  0.00           C 0
+ATOM   5194  OE1 GLU B  10      83.143  98.349 162.685  0.48  7.50           O 0
+ATOM   5156    C GLN B   6      82.336  93.211 161.624  0.00  0.00           C 0
+ATOM   5157    O GLN B   6      81.732  94.279 161.463  0.74  5.36           O 0
+ATOM   5133   CB GLU B   3      87.053  90.043 164.631  0.00  0.00           C 0
+ATOM   7753   NE ARG D  13      91.555  94.816 164.160  0.67  8.75           N 0
+ATOM   5136  OE1 GLU B   3      88.645  90.899 162.571  0.69  2.14           O 0
+ATOM   7756  NH2 ARG D  13      91.498  92.961 165.503  0.70  8.75           N 0
+ATOM   5169  CD1 LEU B   7      87.651  93.054 160.497  0.00  0.00           C 0
+ATOM   5132    O GLU B   3      85.363  91.017 162.121  0.00  0.00           O 0
+TER
+END

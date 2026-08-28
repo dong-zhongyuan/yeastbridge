@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    42:
+HEADER 0  - Pocket Score                      : -0.1649
+HEADER 1  - Drug Score                        : 0.0091
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.1808
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6628
+HEADER 5  - Mean B-factor of pocket residues  : 0.1998
+HEADER 6  - Hydrophobicity Score              : 82.0000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 367.6253
+HEADER 10 - Pocket volume (convex hull)       : 14.5113
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM   3757  CG1 VAL F 252     114.057 127.636 144.597  0.00  0.00           C 0
+ATOM   3756   CB VAL F 252     114.733 126.285 144.638  0.00  0.00           C 0
+ATOM   3730   CA ILE F 249     116.117 124.124 140.381  0.00  0.00           C 0
+ATOM   3734  CG1 ILE F 249     117.184 125.144 138.341  0.00  0.00           C 0
+ATOM   3764   SG CYS F 253     111.659 126.229 140.279  0.00  0.00           S 0
+ATOM   1361  CG2 ILE R 236     119.270 132.885 136.642  0.00  0.00           C 0
+ATOM   3736  CD1 ILE F 249     117.655 124.912 136.935  0.00  0.00           C 0
+ATOM   1362  CD1 ILE R 236     116.418 133.850 136.985  0.00  0.00           C 0
+ATOM   3724    O LEU F 248     116.611 124.055 143.077  0.00  0.00           O 0
+ATOM   1336  CD1 LEU R 233     116.469 131.252 131.464  0.00  0.00           C 0
+ATOM   3054  CG2 VAL F 165     111.920 125.922 136.294  0.00  0.00           C 0
+ATOM   1295  CE1 TYR R 229     111.316 130.959 131.781  0.00  0.00           C 0
+ATOM   1298   OH TYR R 229     112.415 129.202 130.616  0.63  5.36           O 0
+ATOM   3053  CG1 VAL F 165     110.207 127.413 135.308  0.00  0.00           C 0
+ATOM   3735  CG2 ILE F 249     114.861 124.256 138.229  0.00  0.00           C 0
+ATOM   3732    O ILE F 249     113.913 123.930 141.327  0.00  0.00           O 0
+ATOM   3729    N ILE F 249     117.340 123.611 140.993  0.00  0.00           N 0
+ATOM   3723    C LEU F 248     117.501 123.649 142.317  0.00  0.00           C 0
+ATOM   3725   CB LEU F 248     119.934 124.167 142.625  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     1:
+HEADER 0  - Pocket Score                      : 0.4072
+HEADER 1  - Drug Score                        : 0.1443
+HEADER 2  - Number of alpha spheres           :    27
+HEADER 3  - Mean alpha-sphere radius          : 3.9525
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5586
+HEADER 5  - Mean B-factor of pocket residues  : 0.4750
+HEADER 6  - Hydrophobicity Score              : 21.8000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 214.5396
+HEADER 10 - Pocket volume (convex hull)       : 8.8246
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.4815
+ATOM    284   CB ASN W 434     -16.948 -25.365  -5.599  0.00  0.00           C 0
+ATOM    699  OG1 THR P 638     -14.630 -27.634   0.495  0.00  0.00           O 0
+ATOM    694    N THR P 638     -12.570 -25.852   1.006  0.23  4.37           N 0
+ATOM    306   CG ARG W 436     -16.802 -20.290  -3.917  0.00  0.00           C 0
+ATOM    530  CE3 TRP W 449     -11.506 -20.538  -4.464  0.00  0.00           C 0
+ATOM    532  CZ3 TRP W 449     -12.107 -21.490  -5.264  0.00  0.00           C 0
+ATOM    305   CB ARG W 436     -15.762 -20.336  -5.025  0.00  0.00           C 0
+ATOM    285   CG ASN W 434     -16.223 -26.665  -5.316  0.00  0.00           C 0
+ATOM    287  ND2 ASN W 434     -16.832 -27.521  -4.513  0.48  2.19           N 0
+ATOM    526  CD1 TRP W 449      -8.611 -21.109  -2.361  0.00  0.00           C 0
+ATOM    527  CD2 TRP W 449     -10.390 -20.904  -3.704  0.00  0.00           C 0
+ATOM    525   CG TRP W 449      -9.538 -20.206  -2.789  0.00  0.00           C 0
+ATOM    528  NE1 TRP W 449      -8.834 -22.327  -2.952  0.00  0.00           N 0
+ATOM    533  CH2 TRP W 449     -11.617 -22.800  -5.320  0.00  0.00           C 0
+ATOM    531  CZ2 TRP W 449     -10.528 -23.186  -4.589  0.00  0.00           C 0
+ATOM    711    O ALA P 639     -10.255 -25.909  -2.702  0.54  5.36           O 0
+ATOM    286  OD1 ASN W 434     -15.123 -26.895  -5.815  0.54  7.50           O 0
+ATOM    708    N ALA P 639     -11.633 -27.485  -0.896  0.00  0.00           N 0
+ATOM    712   CB ALA P 639     -11.941 -28.609  -3.044  0.00  0.00           C 0
+ATOM    529  CE2 TRP W 449      -9.921 -22.228  -3.781  0.00  0.00           C 0
+TER
+END

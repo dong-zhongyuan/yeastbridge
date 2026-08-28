@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    22:
+HEADER 0  - Pocket Score                      : 0.0041
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 3.8790
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5184
+HEADER 5  - Mean B-factor of pocket residues  : 0.4620
+HEADER 6  - Hydrophobicity Score              : 35.8000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 185.2493
+HEADER 10 - Pocket volume (convex hull)       : 3.7794
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.5652
+ATOM  10999    C LEU S 116      32.896  -3.468  15.393  0.00  0.00           C 0
+ATOM  11031   CD GLU S 120      29.979   1.177  17.086  0.00  0.00           C 0
+ATOM  11000    O LEU S 116      32.456  -3.267  16.531  0.74  3.21           O 0
+ATOM  11032  OE1 GLU S 120      30.856   1.954  17.520  0.65  7.50           O 0
+ATOM  11033  OE2 GLU S 120      29.519   1.250  15.927  0.48  7.50           O 0
+ATOM  11011  CG2 THR S 117      30.793  -1.579  12.458  0.00  0.00           C 0
+ATOM  11321   CB PHE T1628      37.518   3.037  12.036  0.00  0.00           C 0
+ATOM  11005    N THR S 117      32.120  -3.400  14.308  0.00  0.00           N 0
+ATOM  11323  CD1 PHE T1628      36.320   2.299   9.958  0.00  0.00           C 0
+ATOM   9873  OG1 THR Q 117      30.963  -0.075   9.772  0.00  0.00           O 0
+ATOM  11322   CG PHE T1628      37.298   2.067  10.911  0.00  0.00           C 0
+ATOM  10982    O GLY S 113      33.557  -3.073  11.610  0.71  1.07           O 0
+ATOM   9874  CG2 THR Q 117      32.858  -0.728   8.441  0.00  0.00           C 0
+ATOM  11001   CB LEU S 116      35.148  -2.550  14.792  0.00  0.00           C 0
+ATOM  11003  CD1 LEU S 116      37.255  -1.694  13.736  0.00  0.00           C 0
+ATOM  10980   CA GLY S 113      35.571  -2.764  10.353  0.00  0.00           C 0
+TER
+END

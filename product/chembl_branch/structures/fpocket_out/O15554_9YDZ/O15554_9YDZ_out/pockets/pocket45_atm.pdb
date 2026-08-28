@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    45:
+HEADER 0  - Pocket Score                      : -0.0942
+HEADER 1  - Drug Score                        : 0.0016
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.7859
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3043
+HEADER 5  - Mean B-factor of pocket residues  : 0.6588
+HEADER 6  - Hydrophobicity Score              : 46.1000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.1000
+HEADER 9  - Pocket volume (Monte Carlo)       : 301.0201
+HEADER 10 - Pocket volume (convex hull)       : 26.9980
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 9.5000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.5455
+ATOM   5160  NH2 ARG B 352     205.859 251.612 180.273  0.55  6.56           N 0
+ATOM   5157   NE ARG B 352     205.990 250.182 182.058  0.00  0.00           N 0
+ATOM   8585  ND2 ASN D  91     209.346 255.121 187.521  0.00  0.00           N 0
+ATOM   5124  CG2 ILE B 348     203.431 251.991 183.792  0.00  0.00           C 0
+ATOM   8582   CB ASN D  91     210.414 257.258 187.886  0.00  0.00           C 0
+ATOM   5107  CD2 LEU B 345     204.776 256.913 186.811  0.00  0.00           C 0
+ATOM   5106  CD1 LEU B 345     205.230 257.933 189.051  0.00  0.00           C 0
+ATOM   8589    O GLY D  92     209.874 261.626 185.879  0.30  9.64           O 0
+ATOM   8556   CA MET D  88     213.339 260.196 190.873  0.00  0.00           C 0
+ATOM   8553  CE2 PHE D  87     209.094 257.396 192.736  0.00  0.00           C 0
+ATOM   8594   CB LEU D  93     209.572 263.028 188.698  0.00  0.00           C 0
+ATOM   8650   CB ALA D  99     209.430 260.546 194.837  0.00  0.00           C 0
+ATOM   8559   CB MET D  88     213.593 261.540 191.554  0.00  0.00           C 0
+ATOM  11000    O SER F  81     205.737 256.602 180.054  0.39  8.57           O 0
+ATOM   5125  CD1 ILE B 348     201.553 254.617 183.852  0.00  0.00           C 0
+ATOM   8581    O ASN D  91     210.995 258.503 184.886  0.54  7.50           O 0
+ATOM  11001   CB SER F  81     207.101 258.942 180.116  0.00  0.00           C 0
+ATOM  11002   OG SER F  81     205.783 259.266 180.521  0.72  9.64           O 0
+ATOM   8596  CD1 LEU D  93     207.372 262.627 189.760  0.00  0.00           C 0
+ATOM   8551  CD2 PHE D  87     210.396 257.590 193.156  0.00  0.00           C 0
+TER
+END

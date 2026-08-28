@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   176:
+HEADER 0  - Pocket Score                      : -0.1730
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.7961
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4715
+HEADER 5  - Mean B-factor of pocket residues  : 0.3034
+HEADER 6  - Hydrophobicity Score              : 2.3750
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 4.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 212.1201
+HEADER 10 - Pocket volume (convex hull)       : 9.9593
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.0909
+ATOM   5358  ND2 ASN A 719     176.012 129.833 186.145  0.00  0.00           N 0
+ATOM   5356   CG ASN A 719     175.183 130.761 186.604  0.00  0.00           C 0
+ATOM   5357  OD1 ASN A 719     174.845 130.823 187.785  0.54  6.43           O 0
+ATOM   5393  NH2 ARG A 723     177.971 133.465 184.799  0.00  0.00           N 0
+ATOM  18035  CG2 THR D 134     181.328 131.204 190.828  0.00  0.00           C 0
+ATOM   5390   NE ARG A 723     176.732 135.367 185.100  0.70  1.09           N 0
+ATOM  18051  CD1 PHE D 136     175.362 136.440 190.181  0.00  0.00           C 0
+ATOM  18046   CA PHE D 136     177.550 135.152 192.286  0.00  0.00           C 0
+ATOM  18032    O THR D 134     179.202 130.704 192.959  0.31  4.29           O 0
+ATOM   5381   CE LYS A 722     172.017 133.273 191.940  0.00  0.00           C 0
+ATOM  18049   CB PHE D 136     176.027 135.267 192.298  0.00  0.00           C 0
+ATOM   5380   CD LYS A 722     171.903 133.236 190.426  0.00  0.00           C 0
+ATOM   1853  NH1 ARG A 260     179.824 137.092 186.676  0.00  0.00           N 0
+ATOM  18056    N SER D 137     178.677 137.088 191.359  0.20  5.47           N 0
+ATOM  18045    N PHE D 136     178.007 134.259 193.339  0.55  1.09           N 0
+ATOM  18043  OE1 GLN D 135     177.274 133.408 195.745  0.56  6.43           O 0
+ATOM  18039    O GLN D 135     180.087 134.088 192.499  0.41  7.50           O 0
+TER
+END

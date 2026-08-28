@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : 0.0255
+HEADER 1  - Drug Score                        : 0.0067
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9777
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5578
+HEADER 5  - Mean B-factor of pocket residues  : 0.2549
+HEADER 6  - Hydrophobicity Score              : 51.5000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 266.4609
+HEADER 10 - Pocket volume (convex hull)       : 4.0387
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 17.0000
+HEADER 13 - Number of apolar alpha sphere     :    18
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM   1637  CE1 PHE A 226     -60.080 -21.575  93.783  0.00  0.00           C 0
+ATOM    931  CE1 HIS A 139     -60.330 -19.717 101.481  0.00  0.00           C 0
+ATOM   1639   CZ PHE A 226     -58.985 -22.233  94.295  0.00  0.00           C 0
+ATOM   1672   SG CYS A 230     -57.419 -19.481  96.503  0.00  0.00           S 0
+ATOM    932  NE2 HIS A 139     -59.957 -18.551 100.955  0.00  0.00           N 0
+ATOM   1665  CG2 ILE A 229     -61.108 -15.504  95.197  0.00  0.00           C 0
+ATOM   1702   CD LYS A 233     -61.795 -16.125  99.147  0.00  0.00           C 0
+ATOM   1703   CE LYS A 233     -62.972 -16.612  99.969  0.00  0.00           C 0
+ATOM    901  CG1 VAL A 136     -57.206 -25.442  98.213  0.00  0.00           C 0
+ATOM    902  CG2 VAL A 136     -56.566 -24.314  96.082  0.00  0.00           C 0
+ATOM    897   CA VAL A 136     -55.534 -23.524  98.268  0.00  0.00           C 0
+ATOM    929  ND1 HIS A 139     -59.330 -20.581 101.508  0.27  5.47           N 0
+ATOM    928   CG HIS A 139     -58.245 -19.915 100.965  0.00  0.00           C 0
+ATOM    927   CB HIS A 139     -56.912 -20.581 100.817  0.00  0.00           C 0
+TER
+END

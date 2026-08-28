@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : -0.0241
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.7383
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4474
+HEADER 5  - Mean B-factor of pocket residues  : 0.4984
+HEADER 6  - Hydrophobicity Score              : 7.5000
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 4.3750
+HEADER 9  - Pocket volume (Monte Carlo)       : 190.2063
+HEADER 10 - Pocket volume (convex hull)       : 7.7740
+HEADER 11 - Charge Score                      :    -3
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0667
+ATOM    210  CE2 TYR N  39     131.512 115.477  76.054  0.00  0.00           C 0
+ATOM    211   CZ TYR N  39     130.385 115.636  76.832  0.00  0.00           C 0
+ATOM    711  CZ2 TRP N 113     130.454 110.471  78.148  0.00  0.00           C 0
+ATOM    212   OH TYR N  39     130.454 116.368  77.994  0.75  5.36           O 0
+ATOM    174  OD2 ASP N  35     127.640 120.840  82.756  0.36  4.29           O 0
+ATOM    595   CD GLU N 100     127.643 116.926  85.055  0.00  0.00           C 0
+ATOM    171   CB ASP N  35     125.759 119.395  82.592  0.00  0.00           C 0
+ATOM    597  OE2 GLU N 100     128.845 116.654  85.253  0.53  6.43           O 0
+ATOM    583  ND2 ASN N  98     127.829 111.937  79.950  0.61  1.09           N 0
+ATOM    695  OD2 ASP N 111     129.650 111.915  83.702  0.39  9.64           O 0
+ATOM    177    C MET N  36     124.395 118.544  77.838  0.00  0.00           C 0
+ATOM    175    N MET N  36     123.853 118.993  80.141  0.00  0.00           N 0
+ATOM    178    O MET N  36     125.039 119.596  77.846  0.00  0.00           O 0
+ATOM    241   OG SER N  52     127.725 121.037  78.397  0.79  3.21           O 0
+ATOM    582  OD1 ASN N  98     126.953 113.934  80.473  0.66  8.57           O 0
+TER
+END

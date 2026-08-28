@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : 0.0273
+HEADER 1  - Drug Score                        : 0.0012
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.6349
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4297
+HEADER 5  - Mean B-factor of pocket residues  : 0.1821
+HEADER 6  - Hydrophobicity Score              : 65.2857
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 87.5528
+HEADER 10 - Pocket volume (convex hull)       : 0.9617
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 15.0000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 0.8421
+ATOM   3892   CA GLN A 507     172.202 146.965 149.182  0.00  0.00           C 0
+ATOM  21225  CG1 ILE D 523     172.905 148.462 142.797  0.00  0.00           C 0
+ATOM   3920  CD1 LEU A 510     170.724 150.701 146.288  0.00  0.00           C 0
+ATOM  21224   CB ILE D 523     174.186 149.249 143.069  0.00  0.00           C 0
+ATOM   3826  CE2 PHE A 497     176.245 145.618 144.381  0.00  0.00           C 0
+ATOM  21184    O LYS D 519     178.147 151.600 145.368  0.68  1.07           O 0
+ATOM  21220    N ILE D 523     176.538 149.516 142.374  0.00  0.00           N 0
+ATOM   3824  CD2 PHE A 497     175.797 145.137 145.595  0.00  0.00           C 0
+ATOM   3871  CD2 LEU A 503     179.682 148.425 147.616  0.00  0.00           C 0
+ATOM   3890  CD2 LEU A 506     175.190 151.871 148.449  0.00  0.00           C 0
+ATOM   3891    N GLN A 507     173.087 147.775 150.013  0.00  0.00           N 0
+ATOM   3888   CG LEU A 506     174.099 151.399 149.394  0.00  0.00           C 0
+ATOM   3867    O LEU A 503     175.741 146.880 150.101  0.71  1.07           O 0
+ATOM   3895   CB GLN A 507     172.948 145.737 148.664  0.00  0.00           C 0
+ATOM   3868   CB LEU A 503     178.488 146.451 148.604  0.00  0.00           C 0
+TER
+END

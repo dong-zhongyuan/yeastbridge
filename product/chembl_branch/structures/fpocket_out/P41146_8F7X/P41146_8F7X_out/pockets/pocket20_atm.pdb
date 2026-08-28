@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    20:
+HEADER 0  - Pocket Score                      : 0.0019
+HEADER 1  - Drug Score                        : 0.0012
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.8058
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4875
+HEADER 5  - Mean B-factor of pocket residues  : 0.6224
+HEADER 6  - Hydrophobicity Score              : 52.6000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 6.2000
+HEADER 9  - Pocket volume (Monte Carlo)       : 163.4570
+HEADER 10 - Pocket volume (convex hull)       : 1.5421
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.7500
+ATOM   2190  NH1 ARG R 331     124.815 102.665  99.857  0.85  3.28           N 0
+ATOM   2174   CB PHE R 330     121.409 105.381 100.164  0.00  0.00           C 0
+ATOM   2175   CG PHE R 330     122.514 106.124 100.867  0.00  0.00           C 0
+ATOM   2177  CD2 PHE R 330     123.838 105.737 100.717  0.00  0.00           C 0
+ATOM   2155   CG LYS R 327     120.776  99.861 102.086  0.00  0.00           C 0
+ATOM   2151   CA LYS R 327     119.916 101.528 100.341  0.00  0.00           C 0
+ATOM   2101  CD1 PHE R 321     121.545 104.785 106.744  0.00  0.00           C 0
+ATOM   2179  CE2 PHE R 330     124.854 106.415 101.371  0.00  0.00           C 0
+ATOM   2098    O PHE R 321     120.325 100.532 105.237  0.00  0.00           O 0
+ATOM   2157   CE LYS R 327     122.865  98.562 101.601  0.00  0.00           C 0
+ATOM   2191  NH2 ARG R 331     125.596 100.549 100.272  0.66  5.47           N 0
+ATOM   2146  CD2 PHE R 326     118.052 104.322 103.847  0.00  0.00           C 0
+ATOM   2148  CE2 PHE R 326     118.546 105.530 104.310  0.00  0.00           C 0
+TER
+END

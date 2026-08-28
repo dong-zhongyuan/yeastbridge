@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : 0.0143
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.6890
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4028
+HEADER 5  - Mean B-factor of pocket residues  : 0.1314
+HEADER 6  - Hydrophobicity Score              : 69.7500
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.6250
+HEADER 9  - Pocket volume (Monte Carlo)       : 92.7887
+HEADER 10 - Pocket volume (convex hull)       : 1.0803
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 15.0000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 0.8889
+ATOM   3176  CD1 PHE B  79     209.147 175.812 202.678  0.00  0.00           C 0
+ATOM   3175   CG PHE B  79     210.202 175.227 203.354  0.00  0.00           C 0
+ATOM   2777   CB ALA B  26     206.254 178.466 203.958  0.00  0.00           C 0
+ATOM   2774   CA ALA B  26     205.456 177.606 204.945  0.00  0.00           C 0
+ATOM   3694  NH1 ARG B 165     212.059 178.642 205.531  0.97  2.19           N 0
+ATOM   2800   CB ALA B  29     206.151 176.850 209.681  0.00  0.00           C 0
+ATOM   3670  CD2 LEU B 162     210.460 179.701 209.661  0.00  0.00           C 0
+ATOM   3691   CD ARG B 165     210.161 180.726 205.187  0.00  0.00           C 0
+ATOM   2776    O ALA B  26     204.816 179.208 206.587  0.54  4.29           O 0
+ATOM   3157  CD1 ILE B  76     211.240 175.697 209.582  0.00  0.00           C 0
+ATOM   3174   CB PHE B  79     210.004 173.953 204.126  0.00  0.00           C 0
+ATOM   3145    O LEU B  75     209.070 171.958 206.858  0.00  0.00           O 0
+ATOM   2768    O LEU B  25     205.205 175.022 205.934  0.00  0.00           O 0
+TER
+END

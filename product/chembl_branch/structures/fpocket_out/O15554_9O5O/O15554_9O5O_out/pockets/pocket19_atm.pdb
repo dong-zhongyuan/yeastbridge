@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    19:
+HEADER 0  - Pocket Score                      : 0.0103
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.8146
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6027
+HEADER 5  - Mean B-factor of pocket residues  : 0.2817
+HEADER 6  - Hydrophobicity Score              : -12.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 180.1348
+HEADER 10 - Pocket volume (convex hull)       : 4.9604
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.6471
+ATOM  10064   CB ARG C 133     166.293 112.159 159.348  0.00  0.00           C 0
+ATOM  10058   CE LYS C 132     167.302 117.227 163.901  0.00  0.00           C 0
+ATOM  10092  OD2 ASP C 136     168.081 117.374 158.207  0.59  6.43           O 0
+ATOM  10061   CA ARG C 133     165.791 113.531 158.903  0.00  0.00           C 0
+ATOM  10065   CG ARG C 133     167.213 111.473 158.359  0.00  0.00           C 0
+ATOM  10103   CZ TYR C 137     169.167 111.362 154.684  0.00  0.00           C 0
+ATOM  10101  CE1 TYR C 137     169.281 112.430 153.821  0.00  0.00           C 0
+ATOM  10104   OH TYR C 137     170.293 110.836 155.273  0.00  0.00           O 0
+ATOM  10089   CB ASP C 136     167.213 116.929 156.037  0.00  0.00           C 0
+ATOM  10063    O ARG C 133     165.591 113.618 156.513  0.60  1.07           O 0
+ATOM  10056   CG LYS C 132     165.852 117.165 161.860  0.00  0.00           C 0
+ATOM  10025    O GLU C 129     165.259 112.385 162.446  0.44  1.07           O 0
+ATOM  10060    N ARG C 133     164.972 114.125 159.954  0.00  0.00           N 0
+ATOM  10029  OE1 GLU C 129     168.986 113.049 166.000  0.00  0.00           O 0
+ATOM  10070  NH2 ARG C 133     167.335 108.551 162.034  0.53  4.37           N 0
+ATOM  10067   NE ARG C 133     167.529 109.742 160.087  0.00  0.00           N 0
+TER
+END

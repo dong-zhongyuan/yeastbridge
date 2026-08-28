@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    30:
+HEADER 0  - Pocket Score                      : -0.0780
+HEADER 1  - Drug Score                        : 0.0045
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8411
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5705
+HEADER 5  - Mean B-factor of pocket residues  : 0.5591
+HEADER 6  - Hydrophobicity Score              : 54.2000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 148.2578
+HEADER 10 - Pocket volume (convex hull)       : 1.8079
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM    410   CB ARG A  56     112.369  67.773  22.418  0.00  0.00           C 0
+ATOM    443   CG MET A  60     112.350  62.979  21.241  0.00  0.00           C 0
+ATOM    412   CD ARG A  56     112.317  68.488  24.819  0.00  0.00           C 0
+ATOM    445   CE MET A  60     111.109  60.914  22.622  0.00  0.00           C 0
+ATOM    411   CG ARG A  56     113.167  68.365  23.566  0.00  0.00           C 0
+ATOM    323   SG CYS A  44     116.038  65.720  23.285  0.00  0.00           S 0
+ATOM    318    N CYS A  44     116.177  63.767  25.665  0.00  0.00           N 0
+ATOM    444   SD MET A  60     112.735  61.614  22.353  0.00  0.00           S 0
+ATOM    301    O ILE A  42     112.640  60.241  25.519  0.00  0.00           O 0
+ATOM    312  CD1 TYR A  43     113.617  63.851  28.211  0.00  0.00           C 0
+ATOM    307   CA TYR A  43     114.938  61.725  26.036  0.00  0.00           C 0
+ATOM    314  CE1 TYR A  43     113.644  65.094  28.833  0.00  0.00           C 0
+ATOM    415  NH1 ARG A  56     111.206  69.216  27.359  0.76  8.75           N 0
+TER
+END

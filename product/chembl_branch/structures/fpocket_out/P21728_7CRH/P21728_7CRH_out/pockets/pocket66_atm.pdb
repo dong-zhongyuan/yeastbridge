@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    66:
+HEADER 0  - Pocket Score                      : -0.1843
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.3463
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7568
+HEADER 5  - Mean B-factor of pocket residues  : 0.3608
+HEADER 6  - Hydrophobicity Score              : 14.6000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 263.3252
+HEADER 10 - Pocket volume (convex hull)       : 2.5354
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.4000
+ATOM   1172   CG LYS A 307     122.220 146.442 142.252  0.00  0.00           C 0
+ATOM   1188   CB GLU A 309     125.087 144.684 140.806  0.00  0.00           C 0
+ATOM   1174   CE LYS A 307     121.453 148.585 141.197  0.00  0.00           C 0
+ATOM   1189   CG GLU A 309     126.600 144.641 140.983  0.00  0.00           C 0
+ATOM   1191  OE1 GLU A 309     126.757 143.934 138.714  0.63  1.07           O 0
+ATOM   1255   CB ALA A 316     129.078 145.337 136.925  0.00  0.00           C 0
+ATOM   1249  CE2 PHE A 315     122.551 145.521 136.364  0.00  0.00           C 0
+ATOM   1247  CD2 PHE A 315     123.464 144.547 136.721  0.00  0.00           C 0
+ATOM   1254    O ALA A 316     129.080 146.341 133.998  0.00  7.50           O 0
+ATOM   1411  NH2 ARG A 336     125.226 147.011 133.567  0.42  7.66           N 0
+ATOM   1252   CA ALA A 316     128.086 145.115 135.782  0.00  0.00           C 0
+ATOM   1175   NZ LYS A 307     121.046 149.265 139.937  0.35  3.28           N 1
+ATOM   1173   CD LYS A 307     121.736 147.108 140.974  0.00  0.00           C 0
+ATOM   1410  NH1 ARG A 336     123.345 148.047 134.375  0.57  7.66           N 1
+TER
+END

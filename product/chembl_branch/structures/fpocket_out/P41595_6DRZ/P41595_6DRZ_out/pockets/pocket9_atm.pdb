@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : -0.0511
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.2204
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6421
+HEADER 5  - Mean B-factor of pocket residues  : 0.4133
+HEADER 6  - Hydrophobicity Score              : 43.5000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 253.6269
+HEADER 10 - Pocket volume (convex hull)       : 3.2297
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.6875
+ATOM    380   CE MET A  94      13.942  11.824 -15.403  0.00  0.00           C 0
+ATOM    315   CG GLN A  86      13.490  12.945 -23.600  0.00  0.00           C 0
+ATOM    318  NE2 GLN A  86      11.078  12.925 -23.464  0.00  0.00           N 0
+ATOM    271  CG1 VAL A  79      15.292  14.540 -18.779  0.00  0.00           C 0
+ATOM    379   SD MET A  94      13.605  13.582 -15.315  0.00  0.00           S 0
+ATOM    274   CA SER A  80      10.745  16.233 -19.449  0.00  0.00           C 0
+ATOM    278   OG SER A  80      10.266  16.196 -17.066  0.00  0.00           O 0
+ATOM    353   CB TYR A  91      17.679   8.967 -16.902  0.00  0.00           C 0
+ATOM    319    N TYR A  87      17.710  10.820 -22.816  0.00  0.00           N 0
+ATOM    322    O TYR A  87      19.036   9.891 -20.577  0.59  1.07           O 0
+ATOM    350   CA TYR A  91      17.979  10.413 -16.511  0.00  0.00           C 0
+ATOM    349    N TYR A  91      18.825  11.042 -17.521  0.00  0.00           N 0
+ATOM    314   CB GLN A  86      14.543  11.940 -23.932  0.00  0.00           C 0
+ATOM    311   CA GLN A  86      15.951  12.343 -23.527  0.00  0.00           C 0
+ATOM    269    O VAL A  79      12.997  15.476 -20.811  0.62  1.07           O 0
+ATOM    316   CD GLN A  86      12.148  12.511 -24.133  0.00  0.00           C 0
+TER
+END

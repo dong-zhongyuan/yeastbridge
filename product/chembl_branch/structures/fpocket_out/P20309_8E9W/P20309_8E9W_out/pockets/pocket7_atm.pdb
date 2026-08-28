@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : 0.0705
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 3.6782
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4611
+HEADER 5  - Mean B-factor of pocket residues  : 0.0647
+HEADER 6  - Hydrophobicity Score              : 26.3333
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 3.8889
+HEADER 9  - Pocket volume (Monte Carlo)       : 120.0649
+HEADER 10 - Pocket volume (convex hull)       : 2.3024
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0435
+ATOM   6979    O SER E  31     146.122 128.337  98.538  0.43  1.07           O 0
+ATOM   2262   CG ARG B  15     141.061 126.106 101.623  0.00  0.00           C 0
+ATOM   2261   CB ARG B  15     141.654 124.923 102.363  0.00  0.00           C 0
+ATOM   7156   OG SER E  53     146.720 126.937 102.989  0.59  8.57           O 0
+ATOM   2266  NH1 ARG B  15     141.962 128.001  98.862  0.61  2.19           N 0
+ATOM   7136   OH TYR E  50     149.293 121.327 101.469  0.59  1.07           O 0
+ATOM   2236    O ALA B  11     143.245 121.525 102.771  0.41  4.29           O 0
+ATOM   7150   OG SER E  52     148.594 123.756 104.438  0.25  4.29           O 0
+ATOM   7529  CD2 TYR E 101     146.696 121.079  98.515  0.00  0.00           C 0
+ATOM   7151    N SER E  53     149.485 125.750 102.946  0.00  0.00           N 0
+ATOM   6993    N GLY E  33     149.389 125.838  98.560  0.43  1.09           N 0
+ATOM   7522    N TYR E 101     144.240 123.110  97.029  0.00  0.00           N 0
+ATOM   7519  CG1 ILE E 100     144.287 126.252  96.043  0.00  0.00           C 0
+ATOM   2263   CD ARG B  15     140.800 125.763 100.172  0.00  0.00           C 0
+ATOM   7525    O TYR E 101     141.872 122.764  99.038  0.00  0.00           O 0
+ATOM   7526   CB TYR E 101     144.180 121.172  98.537  0.00  0.00           C 0
+TER
+END

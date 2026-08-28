@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : 0.0823
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.6463
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4021
+HEADER 5  - Mean B-factor of pocket residues  : 0.1101
+HEADER 6  - Hydrophobicity Score              : -8.7273
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 3.9091
+HEADER 9  - Pocket volume (Monte Carlo)       : 114.8583
+HEADER 10 - Pocket volume (convex hull)       : 1.8995
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3158
+ATOM   5738    O ASP N 106     106.707 108.164  78.855  0.00  0.00           O 0
+ATOM   5742  OD2 ASP N 106     107.244 107.141  81.652  0.78  5.36           O 1
+ATOM   5698   CB ALA N 101     102.925 105.393  79.515  0.00  0.00           C 0
+ATOM    619   CB ARG A 232     108.415 101.137  78.106  0.00  0.00           C 0
+ATOM    618    O ARG A 232     108.007 100.289  80.918  0.50  1.07           O 0
+ATOM    951  ND2 ASN A 279     110.052 105.367  83.625  0.70  1.09           N 0
+ATOM    950  OD1 ASN A 279     108.001 105.573  84.515  0.57  3.21           O 0
+ATOM   5757  CE1 PHE N 108     110.964 104.188  80.006  0.00  0.00           C 0
+ATOM   5692   CG PRO N 100     105.567 103.854  75.435  0.00  0.00           C 0
+ATOM   3643  OD2 ASP B 228     103.831 100.726  77.080  0.00  0.00           O 1
+ATOM   3773  OD2 ASP B 246     102.333 100.790  79.621  0.53  1.07           O 1
+ATOM    665  NE2 GLN A 236     106.100 100.706  82.898  0.53  8.75           N 0
+ATOM    634   NZ LYS A 233     104.079  99.161  80.552  0.48  1.09           N 1
+ATOM   5744   CA CYS N 107     108.717 107.222  77.138  0.00  0.00           C 0
+ATOM   5755  CD1 PHE N 108     110.954 103.982  78.639  0.00  0.00           C 0
+TER
+END

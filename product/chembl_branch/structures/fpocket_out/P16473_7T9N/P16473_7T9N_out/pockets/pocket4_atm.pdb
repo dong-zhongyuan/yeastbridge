@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     4:
+HEADER 0  - Pocket Score                      : 0.0212
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.5487
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4025
+HEADER 5  - Mean B-factor of pocket residues  : 0.2197
+HEADER 6  - Hydrophobicity Score              : 43.7778
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.8889
+HEADER 9  - Pocket volume (Monte Carlo)       : 89.6005
+HEADER 10 - Pocket volume (convex hull)       : 0.7338
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0526
+ATOM  15581  CG2 VAL R 597     181.829 188.267 172.154  0.00  0.00           C 0
+ATOM  15513    O ALA R 593     179.427 190.096 173.624  0.00  0.00           O 0
+ATOM  16040  OD2 ASP R 633     178.633 187.508 169.227  0.82  1.07           O 0
+ATOM  14214  OG1 THR R 513     179.977 187.019 175.747  0.73  1.07           O 0
+ATOM  14197  CD2 LEU R 512     180.245 183.847 170.243  0.00  0.00           C 0
+ATOM  14142    O VAL R 509     178.887 184.280 175.561  0.62  2.14           O 0
+ATOM  16039  OD1 ASP R 633     177.274 185.840 168.816  0.69  7.50           O 0
+ATOM  14194   CB LEU R 512     180.816 183.081 172.545  0.00  0.00           C 0
+ATOM  14140   CA VAL R 509     176.838 183.227 174.854  0.00  0.00           C 0
+ATOM  15512    C ALA R 593     178.212 190.115 173.855  0.00  0.00           C 0
+ATOM  15514   CB ALA R 593     177.187 188.479 175.452  0.00  0.00           C 0
+ATOM  14144  CG1 VAL R 509     175.912 185.485 175.432  0.00  0.00           C 0
+ATOM  14145  CG2 VAL R 509     174.689 184.005 173.850  0.00  0.00           C 0
+ATOM  15464    O ASN R 590     174.467 189.614 173.550  0.00  0.00           O 0
+ATOM  16100   CG MET R 637     172.592 188.008 170.013  0.00  0.00           C 0
+ATOM  15520    N PHE R 594     177.314 190.322 172.894  0.72  1.09           N 0
+TER
+END

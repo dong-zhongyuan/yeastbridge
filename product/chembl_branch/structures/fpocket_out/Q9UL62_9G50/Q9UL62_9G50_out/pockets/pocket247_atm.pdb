@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   247:
+HEADER 0  - Pocket Score                      : -0.2460
+HEADER 1  - Drug Score                        : 0.0014
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9686
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5033
+HEADER 5  - Mean B-factor of pocket residues  : 0.7456
+HEADER 6  - Hydrophobicity Score              : 97.0000
+HEADER 7  - Polarity Score                    :     0
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 228.4929
+HEADER 10 - Pocket volume (convex hull)       : 6.6197
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.7333
+ATOM  22010    C LEU D 761     163.251 156.279 224.076  0.00  0.00           C 0
+ATOM  16506    C LEU C 761     163.814 163.604 224.674  0.00  0.00           C 0
+ATOM  16508   CB LEU C 761     166.295 163.718 224.999  0.00  0.00           C 0
+ATOM  16507    O LEU C 761     162.860 162.932 224.280  0.50  7.50           O 0
+ATOM  16505   CA LEU C 761     165.170 163.516 223.981  0.00  0.00           C 0
+ATOM  16511  CD2 LEU C 761     168.126 162.553 223.738  0.00  0.00           C 0
+ATOM  22011    O LEU D 761     162.252 156.961 223.847  0.56  6.43           O 0
+ATOM  22007  CD2 LEU D 760     165.977 157.956 219.658  0.00  0.00           C 0
+ATOM  16483    O LEU C 758     168.633 162.246 219.549  0.65  7.50           O 0
+ATOM  22006  CD1 LEU D 760     167.655 156.351 220.596  0.00  0.00           C 0
+ATOM  16499    O LEU C 760     165.789 162.965 221.333  0.39  5.36           O 0
+ATOM  22005   CG LEU D 760     166.176 156.642 220.397  0.00  0.00           C 0
+ATOM  22008    N LEU D 761     164.393 154.695 222.581  0.67  2.19           N 0
+TER
+END

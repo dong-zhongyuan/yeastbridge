@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   147:
+HEADER 0  - Pocket Score                      : -0.1584
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 4.0238
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4671
+HEADER 5  - Mean B-factor of pocket residues  : 0.1863
+HEADER 6  - Hydrophobicity Score              : 57.5000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 399.5346
+HEADER 10 - Pocket volume (convex hull)       : 22.0516
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.4737
+ATOM   1472  CG2 THR A 219     123.666 102.993 148.417  0.00  0.00           C 0
+ATOM   1360  CD2 LEU A 203     117.329 106.008 151.599  0.00  0.00           C 0
+ATOM   1506  CD1 LEU A 223     119.750 106.548 145.601  0.00  0.00           C 0
+ATOM   1359  CD1 LEU A 203     115.918 106.249 149.546  0.00  0.00           C 0
+ATOM   1507  CD2 LEU A 223     121.398 107.071 147.410  0.00  0.00           C 0
+ATOM   1356    O LEU A 203     120.787 108.070 150.618  0.51  2.14           O 0
+ATOM   5360  CG1 ILE B  18     114.296 101.836 152.509  0.00  0.00           C 0
+ATOM   1498  NH1 ARG A 222     121.166 100.150 144.785  0.75  6.56           N 0
+ATOM   5361  CG2 ILE B  18     116.084 101.601 154.207  0.00  0.00           C 0
+ATOM   1388    O LEU A 208     123.248 105.284 154.850  0.44  2.14           O 0
+ATOM   1390   CG LEU A 208     120.921 107.249 155.886  0.00  0.00           C 0
+ATOM   5377  CD2 LEU B  20     118.304 102.889 156.739  0.00  0.00           C 0
+ATOM   1419   OG SER A 212     121.899 102.608 156.417  0.51  1.07           O 0
+ATOM   1398  CG1 ILE A 209     124.547 106.561 150.899  0.00  0.00           C 0
+ATOM   1417    O SER A 212     122.554 100.640 154.736  0.30  5.36           O 0
+ATOM   1425   OG SER A 213     125.437 100.609 151.478  0.53  1.07           O 0
+ATOM   1471  OG1 THR A 219     124.638 100.791 148.497  0.18  4.29           O 0
+ATOM   1394   CA ILE A 209     125.331 105.532 153.059  0.00  0.00           C 0
+ATOM   1424   CB SER A 213     125.179 100.959 152.826  0.00  0.00           C 0
+TER
+END

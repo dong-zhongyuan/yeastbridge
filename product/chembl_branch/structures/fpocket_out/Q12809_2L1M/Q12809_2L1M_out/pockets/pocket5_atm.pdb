@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     5:
+HEADER 0  - Pocket Score                      : 0.1280
+HEADER 1  - Drug Score                        : 0.0054
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8208
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6024
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 47.2000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 156.1324
+HEADER 10 - Pocket volume (convex hull)       : 0.8966
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.7333
+ATOM   1578  NH1 ARG A 100     -48.178  -7.749 -14.233  0.58  9.84           N 0
+ATOM   1662  CD1 PHE A 106     -46.443  -5.663  -8.001  0.00  0.00           C 0
+ATOM   2059  CG1 VAL A 131     -42.184  -8.421  -9.154  0.00  0.00           C 0
+ATOM   1664  CE1 PHE A 106     -46.094  -5.077  -9.232  0.00  0.00           C 0
+ATOM   2058   CB VAL A 131     -41.305  -7.207  -9.475  0.00  0.00           C 0
+ATOM    806  CD1 LEU A  51     -42.598  -3.818 -11.895  0.00  0.00           C 0
+ATOM    458   NZ LYS A  28     -40.404  -8.418 -13.806  0.33  1.09           N 0
+ATOM   1577   CZ ARG A 100     -47.437  -6.698 -14.448  0.00  0.00           C 0
+ATOM   1666   CZ PHE A 106     -47.091  -4.749 -10.167  0.00  0.00           C 0
+ATOM   1663  CD2 PHE A 106     -48.789  -5.603  -8.645  0.00  0.00           C 0
+ATOM   1579  NH2 ARG A 100     -46.275  -6.878 -15.000  0.00  0.00           N 0
+ATOM   1665  CE2 PHE A 106     -48.440  -5.013  -9.872  0.00  0.00           C 0
+ATOM   2060  CG2 VAL A 131     -42.072  -5.930  -9.122  0.00  0.00           C 0
+ATOM   1661   CG PHE A 106     -47.795  -5.918  -7.696  0.00  0.00           C 0
+ATOM    457   CE LYS A  28     -40.539  -7.094 -14.472  0.00  0.00           C 0
+TER
+END

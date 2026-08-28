@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     4:
+HEADER 0  - Pocket Score                      : 0.0172
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.6704
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5900
+HEADER 5  - Mean B-factor of pocket residues  : 0.4511
+HEADER 6  - Hydrophobicity Score              : -2.5000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 196.6832
+HEADER 10 - Pocket volume (convex hull)       : 5.9636
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 15.0000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 0.8000
+ATOM   1965  CG2 ILE A1050      -6.129  18.674 -36.492  0.00  0.00           C 0
+ATOM   1962    O ILE A1050      -4.219  19.631 -33.858  0.42  6.43           O 0
+ATOM   2053   CG GLU A1062     -10.273  18.763 -36.167  0.00  0.00           C 0
+ATOM   2055  OE1 GLU A1062      -9.029  16.737 -36.244  0.00  0.00           O 0
+ATOM   2079   NZ LYS A1065      -6.742  22.965 -31.792  0.00  0.00           N 0
+ATOM   2049   CA GLU A1062     -11.557  20.966 -36.253  0.00  0.00           C 0
+ATOM   2077   CD LYS A1065      -8.183  24.473 -33.159  0.00  0.00           C 0
+ATOM   2052   CB GLU A1062     -10.717  19.940 -37.021  0.00  0.00           C 0
+ATOM   2075   CB LYS A1065     -10.690  24.178 -33.535  0.00  0.00           C 0
+ATOM   2043    O ASP A1061     -13.511  21.986 -34.432  0.62  6.43           O 0
+ATOM   2076   CG LYS A1065      -9.577  24.366 -32.501  0.00  0.00           C 0
+ATOM   2042    C ASP A1061     -13.787  21.011 -35.135  0.00  0.00           C 0
+ATOM   2044   CB ASP A1061     -15.288  19.287 -34.020  0.00  0.00           C 0
+ATOM   1964  CG1 ILE A1050      -6.268  20.798 -37.824  0.00  0.00           C 0
+ATOM   1960   CA ILE A1050      -4.582  20.671 -35.995  0.00  0.00           C 0
+ATOM   2048    N GLU A1062     -12.910  20.456 -36.008  0.00  0.00           N 0
+ATOM   2051    O GLU A1062     -10.856  23.192 -36.806  0.64  2.14           O 0
+TER
+END

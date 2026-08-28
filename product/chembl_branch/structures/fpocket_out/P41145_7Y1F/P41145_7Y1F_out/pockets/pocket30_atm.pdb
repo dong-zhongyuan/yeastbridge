@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    30:
+HEADER 0  - Pocket Score                      : 0.0110
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.6152
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4535
+HEADER 5  - Mean B-factor of pocket residues  : 0.0368
+HEADER 6  - Hydrophobicity Score              : 25.7500
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.1250
+HEADER 9  - Pocket volume (Monte Carlo)       : 83.1659
+HEADER 10 - Pocket volume (convex hull)       : 0.7159
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2500
+ATOM   4942   OH TYR B 124     115.498 126.555 104.153  0.84  3.21           O 0
+ATOM   4922   OG SER B 122     115.477 124.322 100.213  0.45  4.29           O 0
+ATOM   4870   SG CYS B 114     119.767 127.799 102.600  0.00  0.00           S 0
+ATOM   4893  OD1 ASP B 118     119.092 121.050 101.479  0.51  4.29           O 0
+ATOM   4729    N ARG B  96     116.077 123.255 106.760  0.63  2.19           N 0
+ATOM   4740    N SER B  97     117.888 121.308 106.148  0.74  2.19           N 0
+ATOM   4771  CG1 VAL B 100     122.232 124.336 103.998  0.00  0.00           C 0
+ATOM   4733   CB ARG B  96     114.667 121.561 105.711  0.00  0.00           C 0
+ATOM   4725   CB LEU B  95     118.324 125.264 107.153  0.00  0.00           C 0
+ATOM   4743    O SER B  97     120.564 122.436 106.199  0.00  0.00           O 0
+ATOM   4868    O CYS B 114     119.751 126.220  99.783  0.56  1.07           O 0
+ATOM   4728  CD2 LEU B  95     118.200 127.368 105.898  0.00  0.00           C 0
+ATOM   4727  CD1 LEU B  95     120.359 126.360 106.417  0.00  0.00           C 0
+TER
+END

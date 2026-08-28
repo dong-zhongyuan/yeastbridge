@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : 0.0375
+HEADER 1  - Drug Score                        : 0.0022
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.5946
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3669
+HEADER 5  - Mean B-factor of pocket residues  : 0.0694
+HEADER 6  - Hydrophobicity Score              : 69.7500
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.6250
+HEADER 9  - Pocket volume (Monte Carlo)       : 120.6946
+HEADER 10 - Pocket volume (convex hull)       : 2.3771
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.8333
+ATOM   9438  CD2 LEU D 162     251.848 211.178 205.329  0.00  0.00           C 0
+ATOM   9462  NH1 ARG D 165     253.297 212.377 202.046  0.95  6.56           N 0
+ATOM   8913  CG1 ILE D  76     256.964 212.219 206.005  0.00  0.00           C 0
+ATOM   8557   CB ALA D  29     255.663 206.984 205.147  0.00  0.00           C 0
+ATOM   8531   CA ALA D  26     254.473 205.988 201.024  0.00  0.00           C 0
+ATOM   8533    O ALA D  26     253.323 205.055 202.913  0.45  2.14           O 0
+ATOM   8933   CG PHE D  79     257.018 210.962 199.425  0.00  0.00           C 0
+ATOM   8934  CD1 PHE D  79     256.525 209.851 198.767  0.00  0.00           C 0
+ATOM   8534   CB ALA D  26     253.498 206.508 199.970  0.00  0.00           C 0
+ATOM   9459   CD ARG D 165     251.821 210.865 200.145  0.00  0.00           C 0
+ATOM   9434    O LEU D 162     248.611 208.320 203.231  0.64  2.14           O 0
+ATOM   8932   CB PHE D  79     258.227 210.855 200.311  0.00  0.00           C 0
+ATOM   8909   CA ILE D  76     258.987 212.014 204.525  0.00  0.00           C 0
+ATOM   8903    O LEU D  75     260.258 209.931 203.304  0.71  1.07           O 0
+ATOM   8525    O LEU D  25     256.767 205.319 202.369  0.61  1.07           O 0
+ATOM   9435   CB LEU D 162     249.912 209.611 205.526  0.00  0.00           C 0
+TER
+END

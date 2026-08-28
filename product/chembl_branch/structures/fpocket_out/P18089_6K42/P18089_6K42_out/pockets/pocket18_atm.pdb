@@ -1,0 +1,45 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    18:
+HEADER 0  - Pocket Score                      : 0.0704
+HEADER 1  - Drug Score                        : 0.0064
+HEADER 2  - Number of alpha spheres           :    36
+HEADER 3  - Mean alpha-sphere radius          : 3.9004
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5419
+HEADER 5  - Mean B-factor of pocket residues  : 0.3080
+HEADER 6  - Hydrophobicity Score              : -9.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.7000
+HEADER 9  - Pocket volume (Monte Carlo)       : 253.8259
+HEADER 10 - Pocket volume (convex hull)       : 16.1071
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 18.0000
+HEADER 13 - Number of apolar alpha sphere     :    19
+HEADER 14 - Proportion of apolar alpha sphere : 0.5278
+ATOM   4087   CE LYS B 301     199.342 194.594 144.012  0.00  0.00           C 0
+ATOM   4117   CB ALA B 305     192.296 193.091 146.361  0.00  0.00           C 0
+ATOM   4086   CD LYS B 301     198.273 194.746 142.941  0.00  0.00           C 0
+ATOM   4105    O ARG B 304     195.261 190.612 147.677  0.61  8.57           O 0
+ATOM   2081   CA ARG B  42     192.378 195.668 151.429  0.00  0.00           C 0
+ATOM   2086   CD ARG B  42     192.963 193.053 152.996  0.00  0.00           C 0
+ATOM   2084   CB ARG B  42     193.118 195.557 152.760  0.00  0.00           C 0
+ATOM   2080    N ARG B  42     192.843 196.845 150.701  0.00  0.00           N 0
+ATOM   4118    N GLY B 306     192.353 190.874 149.357  0.75  1.09           N 0
+ATOM   4114   CA ALA B 305     192.915 192.092 147.329  0.00  0.00           C 0
+ATOM   2079    O GLY B  41     191.976 196.197 148.726  0.00  0.00           O 0
+ATOM   2078    C GLY B  41     192.583 197.026 149.408  0.00  0.00           C 0
+ATOM   4097    O ASP B 303     195.169 190.539 143.877  0.00  0.00           O 0
+ATOM   4063   CB ASP B 298     193.825 192.963 140.973  0.00  0.00           C 0
+ATOM   2069    N VAL B  40     193.418 198.579 144.675  0.72  1.09           N 0
+ATOM   4065  OD1 ASP B 298     192.839 195.117 140.751  0.00  0.00           O 0
+ATOM   2063   CA PRO B  39     195.570 199.084 143.668  0.00  0.00           C 0
+ATOM   4098   CB ASP B 303     198.405 190.685 144.160  0.00  0.00           C 0
+ATOM   4101  OD2 ASP B 303     199.770 190.969 146.091  0.76  9.64           O 0
+ATOM   2066   CB PRO B  39     196.458 198.571 144.807  0.00  0.00           C 0
+ATOM   2075  CG2 VAL B  40     191.333 196.481 145.035  0.00  0.00           C 0
+ATOM   2076    N GLY B  41     193.056 198.349 147.383  0.77  2.19           N 0
+ATOM   2077   CA GLY B  41     193.098 198.334 148.828  0.00  0.00           C 0
+TER
+END

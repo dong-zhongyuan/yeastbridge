@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    80:
+HEADER 0  - Pocket Score                      : -0.0982
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0054
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5265
+HEADER 5  - Mean B-factor of pocket residues  : 0.4360
+HEADER 6  - Hydrophobicity Score              : 1.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 2.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 157.3133
+HEADER 10 - Pocket volume (convex hull)       : 2.1510
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3750
+ATOM  12212   CA ASN G  53     197.407 246.011 169.884  0.00  0.00           C 0
+ATOM  12254   CA GLY G  59     197.629 252.878 165.794  0.00  0.00           C 0
+ATOM  12215   CB ASN G  53     196.515 245.098 169.043  0.00  0.00           C 0
+ATOM  12214    O ASN G  53     196.079 247.694 170.962  0.34  6.43           O 0
+ATOM  12256    O GLY G  59     198.558 251.895 163.843  0.61  5.36           O 0
+ATOM  12266   CA GLY G  61     201.510 248.934 165.762  0.00  0.00           C 0
+ATOM  12186  NE2 GLN G  49     199.664 243.745 166.404  0.67  6.56           N 0
+ATOM  12235    O ASP G  56     197.012 250.975 171.128  0.50  3.21           O 0
+ATOM  12255    C GLY G  59     198.786 252.502 164.897  0.00  0.00           C 0
+ATOM  12265    N GLY G  61     201.147 250.322 165.577  0.00  0.00           N 0
+ATOM  12238  OD1 ASP G  56     199.707 251.163 170.679  0.18  1.07           O 0
+ATOM  12206    O ILE G  52     199.565 247.152 171.105  0.36  1.07           O 0
+ATOM  12253    N GLY G  59     198.000 253.428 167.078  0.61  1.09           N 0
+TER
+END

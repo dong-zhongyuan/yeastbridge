@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    32:
+HEADER 0  - Pocket Score                      : -0.0897
+HEADER 1  - Drug Score                        : 0.0145
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.7486
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4967
+HEADER 5  - Mean B-factor of pocket residues  : 0.8156
+HEADER 6  - Hydrophobicity Score              : 57.4286
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 161.8974
+HEADER 10 - Pocket volume (convex hull)       : 3.5552
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 20.0000
+HEADER 13 - Number of apolar alpha sphere     :    21
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM   1602  CD1 LEU A 207       1.883  -2.368  -3.640  0.00  0.00           C 0
+ATOM   1510   CB ALA A 196      -2.029   3.793  -4.978  0.00  0.00           C 0
+ATOM   1508   CA ALA A 196      -3.111   2.709  -4.927  0.00  0.00           C 0
+ATOM   1603  CD2 LEU A 207       0.230  -1.661  -1.931  0.00  0.00           C 0
+ATOM   1511    O ALA A 196      -3.283   1.397  -2.920  0.60  1.07           O 0
+ATOM   1548   CE MET A 200       0.653   0.360   0.727  0.00  0.00           C 0
+ATOM   1535  CD1 TYR A 199      -1.707  -3.319  -4.985  0.00  0.00           C 0
+ATOM   1532   CB TYR A 199      -3.698  -1.757  -4.848  0.00  0.00           C 0
+ATOM   1246   CA PRO A 164       3.402   1.259  -9.882  0.00  0.00           C 0
+ATOM   1248   CB PRO A 164       3.632   2.363  -8.845  0.00  0.00           C 0
+ATOM   1273  CG1 VAL A 167       0.718  -3.304  -9.062  0.00  0.00           C 0
+ATOM   1280   CG LEU A 168      -1.441   1.600  -9.267  0.00  0.00           C 0
+ATOM   1249    O PRO A 164       1.208   1.116 -10.792  0.00  0.00           O 0
+ATOM   1282  CD2 LEU A 168      -2.290   1.196  -8.068  0.00  0.00           C 0
+ATOM   1281  CD1 LEU A 168      -1.151   3.099  -9.160  0.00  0.00           C 0
+TER
+END

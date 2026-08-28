@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    25:
+HEADER 0  - Pocket Score                      : -0.1171
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 4.1393
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5626
+HEADER 5  - Mean B-factor of pocket residues  : 0.0608
+HEADER 6  - Hydrophobicity Score              : 5.5000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 3.2500
+HEADER 9  - Pocket volume (Monte Carlo)       : 288.6998
+HEADER 10 - Pocket volume (convex hull)       : 4.9085
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM   3454  CG1 ILE A 434     -29.738 -23.784  13.219  0.00  0.00           C 0
+ATOM   3435   CD GLU A 431     -24.275 -30.167  13.081  0.00  0.00           C 0
+ATOM   3437  OE2 GLU A 431     -25.261 -30.634  12.471  0.00  0.00           O 0
+ATOM   3436  OE1 GLU A 431     -23.483 -29.325  12.590  0.00  0.00           O 0
+ATOM   3432   CB GLU A 431     -25.254 -30.349  15.435  0.00  0.00           C 0
+ATOM   3456  CD1 ILE A 434     -30.798 -24.537  12.404  0.00  0.00           C 0
+ATOM   3433    O GLU A 431     -26.733 -29.140  17.794  0.40  5.36           O 0
+ATOM   3445    N GLY A 433     -26.543 -25.174  17.476  0.00  0.00           N 0
+ATOM   3442    O PRO A 432     -24.378 -25.424  16.935  0.67  6.43           O 0
+ATOM   3448    O GLY A 433     -26.382 -22.289  15.504  0.65  7.50           O 0
+ATOM   3440    C PRO A 432     -25.373 -25.820  17.539  0.00  0.00           C 0
+ATOM   3447    C GLY A 433     -27.115 -23.040  16.145  0.00  0.00           C 0
+ATOM   3449    N ILE A 434     -28.413 -23.173  15.850  0.00  0.00           N 0
+ATOM   3452   CB ILE A 434     -30.311 -22.792  14.260  0.00  0.00           C 0
+TER
+END

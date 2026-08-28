@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : 0.0524
+HEADER 1  - Drug Score                        : 0.0192
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.5678
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3166
+HEADER 5  - Mean B-factor of pocket residues  : 0.6540
+HEADER 6  - Hydrophobicity Score              : 55.4444
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.8889
+HEADER 9  - Pocket volume (Monte Carlo)       : 139.1532
+HEADER 10 - Pocket volume (convex hull)       : 5.1958
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 17.8947
+HEADER 13 - Number of apolar alpha sphere     :    19
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM   3211   CB MET A 243     126.704 119.106 194.501  0.00  0.00           C 0
+ATOM   3192   CB ASN A 241     126.145 120.346 199.390  0.00  0.00           C 0
+ATOM   3223  CE1 HIS A 244     123.934 116.956 198.222  0.00  0.00           C 0
+ATOM   3572   SG CYS A 286     128.624 114.807 198.952  0.00  0.00           S 0
+ATOM   3101   CB TYR A 230     130.548 118.165 196.407  0.00  0.00           C 0
+ATOM   3247   CE MET A 247     123.093 115.526 192.630  0.00  0.00           C 0
+ATOM   3213   SD MET A 243     127.874 118.572 192.045  0.00  0.00           S 0
+ATOM   3581  CE1 TYR A 287     126.048 113.373 196.571  0.00  0.00           C 0
+ATOM   3212   CG MET A 243     128.053 118.962 193.807  0.00  0.00           C 0
+ATOM   3550  CD1 LEU A 283     130.919 113.428 195.916  0.00  0.00           C 0
+ATOM   3584   OH TYR A 287     126.486 111.945 194.723  0.72  3.21           O 0
+ATOM   3705  CG1 ILE A 303     129.334 113.454 190.950  0.00  0.00           C 0
+ATOM   3706  CG2 ILE A 303     128.342 115.068 189.345  0.00  0.00           C 0
+ATOM   3701   CA ILE A 303     127.707 112.609 189.229  0.00  0.00           C 0
+ATOM   3707  CD1 ILE A 303     130.592 114.232 191.248  0.00  0.00           C 0
+TER
+END

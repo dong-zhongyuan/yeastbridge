@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    48:
+HEADER 0  - Pocket Score                      : -0.1260
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.8778
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6622
+HEADER 5  - Mean B-factor of pocket residues  : 0.6611
+HEADER 6  - Hydrophobicity Score              : 29.5000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 225.7399
+HEADER 10 - Pocket volume (convex hull)       : 3.3667
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1875
+ATOM   6023    O ALA B 454      76.397  23.360  99.487  0.62  5.36           O 0
+ATOM   6032  CD2 LEU B 455      78.804  22.017  95.767  0.00  0.00           C 0
+ATOM   6028    O LEU B 455      75.914  24.568  95.636  0.33  5.36           O 0
+ATOM   6078   NZ LYS B 461      81.487  26.434 100.864  0.70  9.84           N 0
+ATOM   6051   CB ALA B 458      75.332  30.126  99.761  0.00  0.00           C 0
+ATOM   6076   CD LYS B 461      79.190  26.259 101.816  0.00  0.00           C 0
+ATOM   6042    O ASN B 457      74.296  26.152  99.754  0.00  0.00           O 0
+ATOM   6048   CA ALA B 458      74.765  28.832 100.326  0.00  0.00           C 0
+ATOM   6041    C ASN B 457      73.597  27.006  99.207  0.00  0.00           C 0
+ATOM   6047    N ALA B 458      73.729  28.308  99.441  0.68  2.19           N 0
+ATOM   6039    N ASN B 457      72.961  25.537  97.321  0.00  0.00           N 0
+ATOM   6036    O CYS B 456      72.059  26.468  95.485  0.52  5.36           O 0
+ATOM   6035    C CYS B 456      72.687  25.555  96.020  0.00  0.00           C 0
+TER
+END

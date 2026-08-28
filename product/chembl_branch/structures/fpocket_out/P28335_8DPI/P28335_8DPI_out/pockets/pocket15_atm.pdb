@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : 0.0289
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.7646
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5748
+HEADER 5  - Mean B-factor of pocket residues  : 0.1752
+HEADER 6  - Hydrophobicity Score              : -4.8571
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 222.6533
+HEADER 10 - Pocket volume (convex hull)       : 9.9160
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.4000
+ATOM   6044  CE2 PHE C 335     113.948 119.996 103.937  0.00  0.00           C 0
+ATOM   5865    O GLY C 310     106.674 122.898 103.771  0.00  0.00           O 0
+ATOM   6042  CD2 PHE C 335     113.302 120.681 102.928  0.00  0.00           C 0
+ATOM   6062   NZ LYS C 337     107.627 119.525 101.342  0.48  7.66           N 0
+ATOM   6028  OD2 ASP C 333     111.544 124.331 103.283  0.64  1.07           O 0
+ATOM   6061   CE LYS C 337     107.123 120.921 101.239  0.00  0.00           C 0
+ATOM   3934  NH2 ARG C  52     110.946 114.569 103.357  0.00  0.00           N 0
+ATOM   6040   CG PHE C 335     113.142 120.114 101.676  0.00  0.00           C 0
+ATOM   3915  CG2 THR C  50     110.019 116.443  99.856  0.00  0.00           C 0
+ATOM   6041  CD1 PHE C 335     113.641 118.842 101.454  0.00  0.00           C 0
+ATOM   6045   CZ PHE C 335     114.443 118.728 103.701  0.00  0.00           C 0
+ATOM   3933  NH1 ARG C  52     113.113 115.276 103.575  0.67  7.66           N 0
+ATOM   5880   CB ASP C 312     110.642 125.321 107.245  0.00  0.00           C 0
+ATOM   5876    N ASP C 312     109.391 125.944 105.234  0.63  2.19           N 0
+ATOM   6025   CB ASP C 333     113.840 124.609 103.831  0.00  0.00           C 0
+ATOM   6043  CE1 PHE C 335     114.291 118.152 102.458  0.00  0.00           C 0
+TER
+END

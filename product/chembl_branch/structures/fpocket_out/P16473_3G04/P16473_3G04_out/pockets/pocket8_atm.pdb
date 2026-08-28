@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : 0.0391
+HEADER 1  - Drug Score                        : 0.0034
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.7209
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5068
+HEADER 5  - Mean B-factor of pocket residues  : 0.3310
+HEADER 6  - Hydrophobicity Score              : 15.8000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.2000
+HEADER 9  - Pocket volume (Monte Carlo)       : 162.6776
+HEADER 10 - Pocket volume (convex hull)       : 1.4636
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.5417
+ATOM   4423  ND2 ASN C 177     -10.063  78.677  10.565  0.64  6.56           N 0
+ATOM   4421   CG ASN C 177      -9.446  79.600  11.303  0.00  0.00           C 0
+ATOM   4190  CD1 TYR C 148      -3.776  78.267   6.679  0.00  0.00           C 0
+ATOM   4422  OD1 ASN C 177      -9.604  80.808  11.131  0.21  6.43           O 0
+ATOM   4416    N ASN C 177      -6.245  79.358  13.089  0.70  1.09           N 0
+ATOM   4420   CB ASN C 177      -8.515  79.078  12.358  0.00  0.00           C 0
+ATOM   4413    O CYS C 176      -4.780  81.061  12.894  0.33  5.36           O 0
+ATOM   4412    C CYS C 176      -5.025  79.877  13.121  0.00  0.00           C 0
+ATOM   4399   CA GLY C 174      -1.700  81.088   9.094  0.00  0.00           C 0
+ATOM   4417   CA ASN C 177      -7.465  80.098  12.797  0.00  0.00           C 0
+ATOM   4185   CA TYR C 148      -3.758  76.135   8.898  0.00  0.00           C 0
+ATOM   4188   CB TYR C 148      -4.250  75.914   7.469  0.00  0.00           C 0
+ATOM   4187    O TYR C 148      -5.540  74.635   9.484  0.66  2.14           O 0
+ATOM   4199    O SER C 149      -6.185  76.411  12.473  0.52  1.07           O 0
+ATOM   4186    C TYR C 148      -4.539  75.241   9.860  0.00  0.00           C 0
+ATOM   4401    O GLY C 174      -1.621  78.712   9.283  0.00  0.00           O 0
+TER
+END

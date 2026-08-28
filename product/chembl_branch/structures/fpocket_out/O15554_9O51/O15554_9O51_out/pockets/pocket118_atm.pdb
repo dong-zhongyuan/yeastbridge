@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   118:
+HEADER 0  - Pocket Score                      : -0.1315
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9979
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7342
+HEADER 5  - Mean B-factor of pocket residues  : 0.3145
+HEADER 6  - Hydrophobicity Score              : -23.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 202.8648
+HEADER 10 - Pocket volume (convex hull)       : 8.0344
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.5000
+ATOM   8128   CE LYS D 132     189.261 157.713 131.787  0.00  0.00           C 0
+ATOM   8129   NZ LYS D 132     189.377 156.945 130.518  0.18  9.84           N 1
+ATOM   8127   CD LYS D 132     189.791 159.127 131.637  0.00  0.00           C 0
+ATOM   8099  OE1 GLU D 129     193.329 159.947 129.015  0.00  0.00           O 0
+ATOM   8095    O GLU D 129     193.288 162.904 132.633  0.60  3.21           O 0
+ATOM   8137   NE ARG D 133     197.151 162.363 135.234  0.70  9.84           N 0
+ATOM   8134   CB ARG D 133     194.463 162.053 135.858  0.00  0.00           C 0
+ATOM   8096   CB GLU D 129     194.508 162.677 129.540  0.00  0.00           C 0
+ATOM   8140  NH2 ARG D 133     197.988 163.705 133.577  0.64  8.75           N 0
+ATOM   8162  OD2 ASP D 136     191.121 158.300 136.968  0.70  8.57           O 1
+ATOM   9278  CE1 HIS D 276     189.202 156.793 135.068  0.00  0.00           C 0
+ATOM   8126   CG LYS D 132     189.665 159.921 132.928  0.00  0.00           C 0
+ATOM   8125   CB LYS D 132     190.205 161.324 132.733  0.00  0.00           C 0
+ATOM   8130    N ARG D 133     192.123 162.228 135.166  0.74  1.09           N 0
+ATOM   8131   CA ARG D 133     193.007 161.796 136.244  0.00  0.00           C 0
+ATOM   8135   CG ARG D 133     195.478 161.360 136.747  0.00  0.00           C 0
+TER
+END

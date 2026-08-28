@@ -1,0 +1,44 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    74:
+HEADER 0  - Pocket Score                      : -0.1323
+HEADER 1  - Drug Score                        : 0.0076
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 3.9028
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6632
+HEADER 5  - Mean B-factor of pocket residues  : 0.0845
+HEADER 6  - Hydrophobicity Score              : 63.4286
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 249.3132
+HEADER 10 - Pocket volume (convex hull)       : 12.0657
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 15.0000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 0.6957
+ATOM   9138  CE2 TRP R 520     177.224 175.708 141.188  0.00  0.00           C 0
+ATOM   9140  CZ2 TRP R 520     178.618 175.736 141.124  0.00  0.00           C 0
+ATOM   9108  CD2 LEU R 517     175.964 172.542 146.238  0.00  0.00           C 0
+ATOM   9141  CZ3 TRP R 520     178.653 173.412 141.815  0.00  0.00           C 0
+ATOM   9139  CE3 TRP R 520     177.252 173.402 141.885  0.00  0.00           C 0
+ATOM   9142  CH2 TRP R 520     179.336 174.572 141.427  0.00  0.00           C 0
+ATOM   9137  NE1 TRP R 520     176.262 176.649 140.943  0.62  3.28           N 0
+ATOM   9779   CG LYS R 603     175.698 181.070 142.093  0.00  0.00           C 0
+ATOM   9782   NZ LYS R 603     178.800 181.451 141.164  0.00  0.00           N 1
+ATOM   9723   CA ILE R 596     173.471 176.811 150.205  0.00  0.00           C 0
+ATOM   9720  CG1 VAL R 595     174.413 180.691 152.759  0.00  0.00           C 0
+ATOM   9727  CG1 ILE R 596     175.328 175.560 151.394  0.00  0.00           C 0
+ATOM   9748   SG CYS R 599     174.906 181.089 148.559  0.00  0.00           S 0
+ATOM   9747   CB CYS R 599     174.515 179.987 147.197  0.00  0.00           C 0
+ATOM   9754   SG CYS R 600     173.461 175.230 145.508  0.00  0.00           S 0
+ATOM   9746    O CYS R 599     173.302 180.017 144.191  0.77  1.07           O 0
+ATOM   9136  CD2 TRP R 520     176.499 174.544 141.553  0.00  0.00           C 0
+ATOM   9728  CG2 ILE R 596     174.205 174.510 149.403  0.00  0.00           C 0
+ATOM   9725    O ILE R 596     172.537 176.955 148.028  0.00  0.00           O 0
+ATOM   9745    C CYS R 599     173.040 179.522 145.278  0.00  0.00           C 0
+ATOM   9749    N CYS R 600     172.601 178.273 145.385  0.00  0.00           N 0
+ATOM   9750   CA CYS R 600     172.447 177.406 144.235  0.00  0.00           C 0
+TER
+END

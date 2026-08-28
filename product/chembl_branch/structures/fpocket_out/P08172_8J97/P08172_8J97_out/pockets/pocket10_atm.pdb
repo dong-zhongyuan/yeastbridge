@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : -0.0216
+HEADER 1  - Drug Score                        : 0.0013
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 4.0317
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4945
+HEADER 5  - Mean B-factor of pocket residues  : 0.4649
+HEADER 6  - Hydrophobicity Score              : 41.7143
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 281.9506
+HEADER 10 - Pocket volume (convex hull)       : 11.4083
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.3043
+ATOM   3864   CA GLY V 313     178.724 199.699 183.431  0.00  0.00           C 0
+HETATM 3847   CB SEP V 311     175.141 196.680 182.155  0.00  0.00           C 0
+ATOM   3863    N GLY V 313     178.169 198.475 183.971  0.00  0.00           N 0
+HETATM 3842  O3P TPO V 310     170.343 199.332 183.585  0.36  9.64           O 0
+ATOM    637   CB LYS A 107     176.598 201.497 188.177  0.00  0.00           C 0
+ATOM    645  CD2 LEU A 108     172.336 202.122 190.758  0.00  0.00           C 0
+ATOM    636    O LYS A 107     175.133 204.437 188.174  0.00  0.00           O 0
+HETATM 3837  CG2 TPO V 310     171.573 196.010 186.738  0.00  0.00           C 0
+ATOM    124  CE2 TYR A  21     171.245 197.899 190.731  0.00  0.00           C 0
+ATOM    126   OH TYR A  21     170.129 199.979 190.670  0.23  6.43           O 0
+HETATM 3841  O2P TPO V 310     169.244 198.179 185.538  0.35  4.29           O 0
+HETATM 3848   OG SEP V 311     176.531 197.027 182.082  0.00  0.00           O 0
+HETATM 3852  O1P SEP V 311     176.577 197.756 179.714  0.00  0.00           O 0
+HETATM 3850    O SEP V 311     174.968 196.568 185.549  0.73  4.29           O 0
+HETATM 3838  OG1 TPO V 310     171.344 197.138 184.622  0.54  1.07           O 0
+ATOM    615  CD2 LEU A 104     175.462 197.078 191.009  0.00  0.00           C 0
+TER
+END

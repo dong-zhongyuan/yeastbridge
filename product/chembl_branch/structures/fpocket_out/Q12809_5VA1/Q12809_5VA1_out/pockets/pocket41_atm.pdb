@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    41:
+HEADER 0  - Pocket Score                      : -0.1104
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9995
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5487
+HEADER 5  - Mean B-factor of pocket residues  : 0.6228
+HEADER 6  - Hydrophobicity Score              : 20.1667
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 214.0933
+HEADER 10 - Pocket volume (convex hull)       : 6.3857
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM      5   CB VAL A   3      97.290  56.559  59.613  0.00  0.00           C 0
+ATOM      7  CG2 VAL A   3      96.839  56.458  61.066  0.00  0.00           C 0
+ATOM      1    N VAL A   3      94.875  56.495  58.876  0.00  0.00           N 0
+ATOM   1952  OE2 GLU A 544      92.772  54.505  59.559  0.00  0.00           O 0
+ATOM     26   NE ARG A   5      98.102  51.947  52.787  0.72  9.84           N 0
+ATOM   1016   CB TYR A 403     100.391  51.542  56.846  0.00  0.00           C 0
+ATOM     25   CD ARG A   5      99.044  52.743  53.575  0.00  0.00           C 0
+ATOM      4    O VAL A   3      96.432  56.238  56.557  0.27  7.50           O 0
+ATOM   1925  NH2 ARG A 541      99.190  53.191  61.420  0.91  4.37           N 0
+ATOM   1951  OE1 GLU A 544      92.110  53.246  61.230  0.00  0.00           O 0
+ATOM   1061   CB ALA A 408      97.437  49.108  63.159  0.00  0.00           C 0
+ATOM   1922   NE ARG A 541      97.703  53.648  63.118  0.83  3.28           N 0
+ATOM   1015    O TYR A 403      99.493  49.128  58.151  0.00  0.00           O 0
+ATOM   1019  CD2 TYR A 403     100.376  49.651  55.144  0.00  0.00           C 0
+ATOM   1013   CA TYR A 403     100.840  51.124  58.264  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,48 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    41:
+HEADER 0  - Pocket Score                      : 0.0226
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.9149
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6165
+HEADER 5  - Mean B-factor of pocket residues  : 0.5075
+HEADER 6  - Hydrophobicity Score              : 34.2222
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 444.0564
+HEADER 10 - Pocket volume (convex hull)       : 47.4970
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 4.6667
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.2500
+ATOM   2703  NH2 ARG B 123     108.772 129.882 127.613  0.48  3.28           N 0
+ATOM   3292   CB MET B 197     113.890 125.650 127.241  0.00  0.00           C 0
+ATOM   2702  NH1 ARG B 123     107.719 129.660 125.593  0.00  0.00           N 1
+ATOM   3302  CG2 VAL B 198     111.943 129.635 124.607  0.00  0.00           C 0
+ATOM   3334  OD1 ASP B 203     110.196 121.718 124.234  0.00  0.00           O 0
+ATOM   3297   CA VAL B 198     114.077 128.551 123.844  0.00  0.00           C 0
+ATOM   3291    O MET B 197     114.904 125.946 124.110  0.00  0.00           O 0
+ATOM   3321    C GLY B 201     115.317 123.129 121.993  0.00  0.00           C 0
+ATOM   3322    O GLY B 201     115.135 122.090 121.352  0.28  4.29           O 0
+ATOM   3320   CA GLY B 201     115.466 124.455 121.274  0.00  0.00           C 0
+ATOM   3326    O ALA B 202     113.389 123.133 125.149  0.71  2.14           O 0
+ATOM   3290    C MET B 197     114.830 126.633 125.134  0.00  0.00           C 0
+ATOM   3263    O GLN B 194     113.616 129.103 127.670  0.52  1.07           O 0
+ATOM   3261   CA GLN B 194     113.080 128.763 129.985  0.00  0.00           C 0
+ATOM   3301  CG1 VAL B 198     113.350 130.754 122.864  0.00  0.00           C 0
+ATOM   3299    O VAL B 198     115.277 128.487 121.756  0.27  5.36           O 0
+ATOM   3331    O ASP B 203     111.925 120.936 128.563  0.45  5.36           O 0
+ATOM   3329   CA ASP B 203     112.229 120.846 126.185  0.00  0.00           C 0
+ATOM   3264   CB GLN B 194     111.781 129.485 130.344  0.00  0.00           C 0
+ATOM   3265   CG GLN B 194     110.885 128.700 131.287  0.00  0.00           C 0
+ATOM   3258  CG2 ILE B 193     114.831 125.624 132.739  0.00  0.00           C 0
+ATOM   3352  NE1 TRP B 205     111.084 122.729 133.386  0.65  6.56           N 0
+ATOM   3293   CG MET B 197     114.122 124.901 128.542  0.00  0.00           C 0
+ATOM   3350  CD1 TRP B 205     112.189 122.072 132.898  0.00  0.00           C 0
+ATOM   3266   CD GLN B 194     109.566 129.395 131.554  0.00  0.00           C 0
+ATOM   3268  NE2 GLN B 194     108.700 128.744 132.323  0.58  5.47           N 0
+TER
+END

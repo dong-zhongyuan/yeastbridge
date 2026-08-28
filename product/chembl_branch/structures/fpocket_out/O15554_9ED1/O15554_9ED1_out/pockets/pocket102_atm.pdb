@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   102:
+HEADER 0  - Pocket Score                      : -0.1580
+HEADER 1  - Drug Score                        : 0.0048
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 4.0367
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5396
+HEADER 5  - Mean B-factor of pocket residues  : 0.0758
+HEADER 6  - Hydrophobicity Score              : 30.1667
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 239.2745
+HEADER 10 - Pocket volume (convex hull)       : 11.8064
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 20.0000
+HEADER 13 - Number of apolar alpha sphere     :    21
+HEADER 14 - Proportion of apolar alpha sphere : 0.8750
+ATOM   6331    O GLN C 107     213.979 254.982 210.095  0.00  0.00           O 0
+ATOM   6359  CD2 LEU C 110     211.285 251.100 212.306  0.00  0.00           C 0
+ATOM   6333   CG GLN C 107     213.235 252.925 207.283  0.00  0.00           C 0
+ATOM   6365   CG GLU C 111     217.121 253.216 210.780  0.00  0.00           C 0
+ATOM   6336  NE2 GLN C 107     214.856 251.484 206.211  0.00  0.00           N 0
+ATOM   6368  OE2 GLU C 111     218.657 252.370 209.172  0.56  1.07           O 0
+ATOM   6596  CE2 TYR C 161     219.303 249.896 211.240  0.00  0.00           C 0
+ATOM   6390  CG2 VAL C 114     214.632 250.973 216.461  0.00  0.00           C 0
+ATOM   6357   CG LEU C 110     211.865 252.094 213.296  0.00  0.00           C 0
+ATOM   6361   CA GLU C 111     216.251 254.191 212.980  0.00  0.00           C 0
+ATOM   6355    O LEU C 110     214.318 253.704 214.863  0.00  0.00           O 0
+ATOM   6595  CE1 TYR C 161     219.325 249.437 213.585  0.00  0.00           C 0
+ATOM   6593  CD1 TYR C 161     219.327 248.084 213.315  0.00  0.00           C 0
+ATOM   6389  CG1 VAL C 114     216.864 250.006 216.980  0.00  0.00           C 0
+ATOM   6597   CZ TYR C 161     219.313 250.338 212.544  0.00  0.00           C 0
+ATOM   6594  CD2 TYR C 161     219.304 248.540 210.980  0.00  0.00           C 0
+ATOM   6631  NH2 ARG C 165     220.308 251.832 207.419  0.61  6.56           N 0
+ATOM   6388   CB VAL C 114     216.102 251.283 216.672  0.00  0.00           C 0
+ATOM   6592   CG TYR C 161     219.323 247.611 212.012  0.00  0.00           C 0
+TER
+END

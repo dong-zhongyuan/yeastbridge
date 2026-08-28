@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : 0.0671
+HEADER 1  - Drug Score                        : 0.0025
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.5177
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4106
+HEADER 5  - Mean B-factor of pocket residues  : 0.3949
+HEADER 6  - Hydrophobicity Score              : 29.7778
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 3.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 176.6911
+HEADER 10 - Pocket volume (convex hull)       : 9.3505
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 9.8182
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.6875
+ATOM   6795  CD1 LEU H 148     105.056  37.637  84.848  0.00  0.00           C 0
+ATOM   7142    N ILE H 205     108.067  36.994  87.900  0.38  1.09           N 0
+ATOM   7262   CE LYS H 220     103.585  35.257  88.772  0.00  0.00           C 0
+ATOM   7263   NZ LYS H 220     104.843  34.920  88.050  0.00  0.00           N 1
+ATOM   6771   CB ALA H 135      99.070  35.758  85.325  0.00  0.00           C 0
+ATOM   6793   CB LEU H 148     103.174  38.624  83.518  0.00  0.00           C 0
+ATOM   6796  CD2 LEU H 148     105.327  37.978  82.385  0.00  0.00           C 0
+ATOM   6778   CD PRO H 136     100.161  36.534  82.144  0.00  0.00           C 0
+ATOM   6768   CA ALA H 135      99.049  37.191  84.801  0.00  0.00           C 0
+ATOM   6806   SG CYS H 150     104.540  41.672  89.050  0.00  0.00           S 0
+ATOM   7259   CB LYS H 220     104.948  35.837  91.342  0.00  0.00           C 0
+ATOM   6800    O GLY H 149     101.843  41.409  87.317  0.84  1.07           O 0
+ATOM   6761    C LEU H 134      99.003  39.349  85.945  0.00  0.00           C 0
+ATOM   6762    O LEU H 134      99.884  39.816  85.215  0.00  0.00           O 0
+ATOM   6756   CB PRO H 133     101.029  38.351  90.603  0.00  0.00           C 0
+ATOM   6767    N ALA H 135      98.539  38.095  85.818  0.73  2.19           N 0
+TER
+END

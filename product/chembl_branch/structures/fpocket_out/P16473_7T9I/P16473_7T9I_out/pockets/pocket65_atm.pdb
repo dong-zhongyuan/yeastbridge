@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    65:
+HEADER 0  - Pocket Score                      : -0.1259
+HEADER 1  - Drug Score                        : 0.0056
+HEADER 2  - Number of alpha spheres           :    34
+HEADER 3  - Mean alpha-sphere radius          : 3.9012
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4472
+HEADER 5  - Mean B-factor of pocket residues  : 0.7544
+HEADER 6  - Hydrophobicity Score              : 61.3000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.3000
+HEADER 9  - Pocket volume (Monte Carlo)       : 243.7517
+HEADER 10 - Pocket volume (convex hull)       : 9.5775
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 21.0000
+HEADER 13 - Number of apolar alpha sphere     :    22
+HEADER 14 - Proportion of apolar alpha sphere : 0.6471
+ATOM   9115   CA MET R 300     212.992 201.233 242.876  0.00  0.00           C 0
+ATOM   9110    O LEU R 299     215.223 202.191 241.584  0.59  5.36           O 0
+ATOM    122    O PHE A  17     214.845 202.092 248.871  0.45  4.29           O 0
+ATOM   9149   CB GLU R 303     217.078 200.523 243.909  0.00  0.00           C 0
+ATOM   9111   CB LEU R 299     214.028 205.245 241.151  0.00  0.00           C 0
+ATOM   9114    N MET R 300     213.005 202.352 241.941  0.00  0.00           N 0
+ATOM    930   CA GLY A  72     214.456 209.245 245.470  0.00  0.00           C 0
+ATOM   9109    C LEU R 299     214.140 202.743 241.356  0.00  0.00           C 0
+ATOM   9078   CB LEU R 296     208.841 206.548 242.921  0.00  0.00           C 0
+ATOM    931    C GLY A  72     213.397 210.006 244.708  0.00  0.00           C 0
+ATOM    135  CE2 PHE A  18     210.553 204.214 247.834  0.00  0.00           C 0
+ATOM   9118   CB MET R 300     211.611 201.118 243.518  0.00  0.00           C 0
+ATOM    936    N GLY A  73     212.493 210.671 245.417  0.00  0.00           N 0
+ATOM    902  CG2 VAL A  70     212.808 208.966 249.146  0.00  0.00           C 0
+ATOM    133  CD2 PHE A  18     211.566 204.386 248.758  0.00  0.00           C 0
+ATOM    943    N PHE A  74     209.741 210.775 246.115  0.74  1.09           N 0
+ATOM    947   CB PHE A  74     208.012 209.414 246.931  0.00  0.00           C 0
+ATOM   9077    O LEU R 296     210.638 203.954 242.055  0.65  3.21           O 0
+ATOM   9075   CA LEU R 296     209.762 206.163 241.765  0.00  0.00           C 0
+ATOM    932    O GLY A  72     213.412 210.004 243.492  0.10  7.50           O 0
+TER
+END

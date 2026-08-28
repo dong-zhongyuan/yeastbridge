@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    32:
+HEADER 0  - Pocket Score                      : -0.0986
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.8368
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5456
+HEADER 5  - Mean B-factor of pocket residues  : 0.5503
+HEADER 6  - Hydrophobicity Score              : 31.8333
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 146.2280
+HEADER 10 - Pocket volume (convex hull)       : 2.3263
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.4762
+ATOM   1272   CB ALA A 300     193.888 217.314 204.713  0.00  0.00           C 0
+ATOM   1470   CG PHE A 323     189.509 214.202 202.366  0.00  0.00           C 0
+ATOM   1244   OH TYR A 296     190.405 219.094 205.015  0.89  1.07           O 0
+ATOM   1471  CD1 PHE A 323     190.163 214.055 201.155  0.00  0.00           C 0
+ATOM   1472  CD2 PHE A 323     190.238 214.066 203.533  0.00  0.00           C 0
+ATOM   1473  CE1 PHE A 323     191.514 213.775 201.111  0.00  0.00           C 0
+ATOM   1252  OE1 GLU A 297     194.678 221.172 200.147  0.43  8.57           O 0
+ATOM   1242  CE2 TYR A 296     191.874 220.940 204.697  0.00  0.00           C 0
+ATOM   1253  OE2 GLU A 297     193.072 222.406 200.992  0.41  5.36           O 0
+ATOM   1039   CE LYS A 271     187.872 218.442 203.089  0.00  0.00           C 0
+ATOM   1040   NZ LYS A 271     187.340 218.445 201.699  0.40  7.66           N 0
+ATOM   1474  CE2 PHE A 323     191.590 213.786 203.495  0.00  0.00           C 0
+ATOM   1475   CZ PHE A 323     192.228 213.641 202.283  0.00  0.00           C 0
+ATOM   1273    N ALA A 301     196.240 215.827 203.113  0.00  0.00           N 0
+ATOM   1274   CA ALA A 301     196.656 214.939 202.036  0.00  0.00           C 0
+ATOM   1277   CB ALA A 301     197.163 215.753 200.844  0.00  0.00           C 0
+TER
+END

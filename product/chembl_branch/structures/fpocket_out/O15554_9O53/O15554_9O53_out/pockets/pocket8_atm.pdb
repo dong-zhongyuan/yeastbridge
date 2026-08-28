@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : 0.0689
+HEADER 1  - Drug Score                        : 0.0064
+HEADER 2  - Number of alpha spheres           :    30
+HEADER 3  - Mean alpha-sphere radius          : 3.7318
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4279
+HEADER 5  - Mean B-factor of pocket residues  : 0.7151
+HEADER 6  - Hydrophobicity Score              : 74.8182
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.9091
+HEADER 9  - Pocket volume (Monte Carlo)       : 188.7120
+HEADER 10 - Pocket volume (convex hull)       : 13.7081
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 29.0000
+HEADER 13 - Number of apolar alpha sphere     :    30
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM  14289    O MET G 125      99.999 148.866 119.771  0.00  0.00           O 0
+ATOM  14290   CB MET G 125     101.182 146.884 122.184  0.00  0.00           C 0
+ATOM  14320   CB ALA G 129     101.332 151.098 118.459  0.00  0.00           C 0
+ATOM   8131  CD1 TRP C 431     100.364 150.071 124.466  0.00  0.00           C 0
+ATOM  14301  CD1 ILE G 126     102.760 145.860 117.158  0.00  0.00           C 0
+ATOM   8100  CD1 LEU C 427     106.595 150.326 123.175  0.00  0.00           C 0
+ATOM  14446   CB MET G 145     103.178 154.508 121.443  0.00  0.00           C 0
+ATOM  14421  CD1 PHE G 142     108.281 152.407 119.773  0.00  0.00           C 0
+ATOM   8129   CB TRP C 431     102.517 150.325 125.830  0.00  0.00           C 0
+ATOM  14292   SD MET G 125     103.012 146.999 124.247  0.00  0.00           S 0
+ATOM   8101  CD2 LEU C 427     107.648 148.128 122.660  0.00  0.00           C 0
+ATOM  14288    C MET G 125      99.932 147.699 120.173  0.00  0.00           C 0
+ATOM  14416   CA PHE G 142     106.810 154.846 118.456  0.00  0.00           C 0
+ATOM  14409    O GLU G 141     104.165 155.552 118.244  0.76  1.07           O 0
+ATOM  14423  CE1 PHE G 142     108.850 151.724 120.827  0.00  0.00           C 0
+ATOM  14172  CD1 ILE G 101     108.840 148.997 116.773  0.00  0.00           C 0
+ATOM  14375  CG1 VAL G 137     105.501 150.828 116.023  0.00  0.00           C 0
+ATOM  14204  CD1 LEU G 106     107.064 145.794 120.090  0.00  0.00           C 0
+ATOM  14376  CG2 VAL G 137     104.168 148.793 115.456  0.00  0.00           C 0
+ATOM  14203   CG LEU G 106     106.595 145.095 118.839  0.00  0.00           C 0
+TER
+END

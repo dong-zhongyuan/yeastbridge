@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    63:
+HEADER 0  - Pocket Score                      : -0.1298
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0957
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5500
+HEADER 5  - Mean B-factor of pocket residues  : 0.3314
+HEADER 6  - Hydrophobicity Score              : 6.5000
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Amino Acid based volume Score     : 4.3000
+HEADER 9  - Pocket volume (Monte Carlo)       : 210.7886
+HEADER 10 - Pocket volume (convex hull)       : 7.2449
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0625
+ATOM   3584   CA GLU B 242     136.290 121.425 126.359  0.00  0.00           C 0
+ATOM   3587   CB GLU B 242     137.120 122.244 127.347  0.00  0.00           C 0
+ATOM   3586    O GLU B 242     134.846 122.975 125.244  0.55  3.21           O 0
+ATOM    165   CB HIS A  85     133.596 125.638 131.365  0.00  0.00           C 0
+ATOM    181  OG1 THR A  88     134.413 126.459 126.988  0.38  2.14           O 0
+ATOM   1871  CD1 ILE A 374     128.999 117.266 127.599  0.00  0.00           C 0
+ATOM   3575    O ARG B 241     135.270 119.397 124.825  0.43  2.14           O 0
+ATOM   3577   CG ARG B 241     135.751 116.486 126.139  0.00  0.00           C 0
+ATOM   1858  ND2 ASN A 372     131.285 118.787 124.361  0.25  8.75           N 0
+ATOM    190  ND2 ASN A  89     130.580 125.063 127.643  0.57  6.56           N 0
+ATOM   3606  OD1 ASN B 244     131.803 121.539 123.011  0.23  3.21           O 0
+ATOM    161    N HIS A  85     131.209 125.216 131.015  0.73  2.19           N 0
+ATOM    154   CA LEU A  84     128.987 124.268 130.723  0.00  0.00           C 0
+ATOM    151    O LYS A  83     128.780 121.631 131.567  0.17  8.57           O 0
+ATOM    160  CD2 LEU A  84     128.152 123.105 127.655  0.00  0.00           C 0
+TER
+END

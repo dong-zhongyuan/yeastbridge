@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    42:
+HEADER 0  - Pocket Score                      : -0.0785
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.9514
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5491
+HEADER 5  - Mean B-factor of pocket residues  : 0.6344
+HEADER 6  - Hydrophobicity Score              : -14.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 240.1846
+HEADER 10 - Pocket volume (convex hull)       : 7.0673
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2500
+ATOM    860    O ARG R 181     126.280 123.849 121.762  0.00  0.00           O 0
+ATOM    866  NH1 ARG R 181     124.955 127.785 124.493  0.06  5.47           N 0
+ATOM   3869  OD2 ASP A 350     121.403 129.126 120.957  0.54  4.29           O 0
+ATOM    257   CB ALA R 104     121.466 122.681 125.203  0.00  0.00           C 0
+ATOM    252  CG2 THR R 103     118.457 126.209 123.064  0.00  0.00           C 0
+ATOM    253    N ALA R 104     119.363 123.227 124.077  0.59  2.19           N 0
+ATOM    867  NH2 ARG R 181     123.484 127.544 126.231  0.67  6.56           N 0
+ATOM    861   CB ARG R 181     126.769 124.845 124.403  0.00  0.00           C 0
+ATOM    244    O LYS R 102     117.710 121.692 120.918  0.61  4.29           O 0
+ATOM    246    N THR R 103     116.452 123.243 121.945  0.00  0.00           N 0
+ATOM    247   CA THR R 103     117.591 123.903 122.563  0.00  0.00           C 0
+ATOM    251  OG1 THR R 103     116.325 125.888 122.013  0.52  7.50           O 0
+ATOM    880   CG PRO R 183     120.858 120.711 120.618  0.00  0.00           C 0
+ATOM    243    C LYS R 102     116.599 122.169 121.175  0.00  0.00           C 0
+ATOM    245   CB LYS R 102     114.790 122.362 119.442  0.00  0.00           C 0
+ATOM    881   CD PRO R 183     122.330 121.021 120.558  0.00  0.00           C 0
+TER
+END

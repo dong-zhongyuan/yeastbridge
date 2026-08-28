@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    26:
+HEADER 0  - Pocket Score                      : -0.0402
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9566
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5627
+HEADER 5  - Mean B-factor of pocket residues  : 0.2595
+HEADER 6  - Hydrophobicity Score              : -7.1429
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 288.6756
+HEADER 10 - Pocket volume (convex hull)       : 13.0758
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2500
+ATOM    821   CA LYS A 165     109.120 131.420 124.906  0.00  0.00           C 0
+ATOM    818  CG1 VAL A 164     106.952 134.334 127.802  0.00  0.00           C 0
+ATOM    825   CG LYS A 165     106.781 131.164 123.914  0.00  0.00           C 0
+ATOM    849  OD2 ASP A 168     109.864 128.870 128.932  0.50  2.14           O 0
+ATOM    816    O VAL A 164     109.794 132.667 127.290  0.30  2.14           O 0
+ATOM   2600    O ASP B 193     106.056 133.255 131.405  0.00  0.00           O 0
+ATOM   2613    N HIS B 195     106.775 134.913 135.264  0.59  1.09           N 0
+ATOM   2599    C ASP B 193     104.988 133.826 131.638  0.00  0.00           C 0
+ATOM   2576  CG2 THR B 190     102.090 133.433 135.643  0.00  0.00           C 0
+ATOM   2598   CA ASP B 193     103.670 133.259 131.119  0.00  0.00           C 0
+ATOM   2601   CB ASP B 193     103.896 132.469 129.824  0.00  0.00           C 0
+ATOM   2603  OD1 ASP B 193     101.927 131.227 130.315  0.00  0.00           O 0
+ATOM   2379  NH1 ARG B  32     109.824 128.671 132.153  0.26  2.19           N 0
+ATOM   2602   CG ASP B 193     102.684 131.655 129.419  0.00  0.00           C 0
+ATOM   2604  OD2 ASP B 193     102.488 131.443 128.203  0.46  9.64           O 0
+ATOM   2617   CB HIS B 195     107.251 133.559 137.259  0.00  0.00           C 0
+TER
+END

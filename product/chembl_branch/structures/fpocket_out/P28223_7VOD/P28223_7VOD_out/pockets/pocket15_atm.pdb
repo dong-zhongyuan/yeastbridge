@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : -0.1544
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 4.0448
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5203
+HEADER 5  - Mean B-factor of pocket residues  : 0.6038
+HEADER 6  - Hydrophobicity Score              : 27.2857
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 227.2447
+HEADER 10 - Pocket volume (convex hull)       : 7.2429
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 15.0000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 0.6957
+ATOM   2014   CA GLY A1106     -34.199 -12.107 100.019  0.00  0.00           C 0
+ATOM   1459  CD2 LEU A1003     -38.011  -9.995  98.026  0.00  0.00           C 0
+ATOM   1466   CD GLU A1004     -40.772 -14.448  97.137  0.00  0.00           C 0
+ATOM   1438   CB ALA A 265     -40.338 -11.684 104.155  0.00  0.00           C 0
+ATOM   1437    O ALA A 265     -41.871 -10.519 101.513  0.73  7.50           O 0
+ATOM   1465   CG GLU A1004     -41.170 -12.976  97.294  0.00  0.00           C 0
+ATOM   1467  OE1 GLU A1004     -41.563 -15.312  97.573  0.82  7.50           O 0
+ATOM   2041   OG SER A 316     -34.550 -15.799 103.627  0.43  9.64           O 0
+ATOM   2016    O GLY A1106     -33.562 -13.325 101.960  0.56  1.07           O 0
+ATOM   1435   CA ALA A 265     -40.462 -10.392 103.407  0.00  0.00           C 0
+ATOM   2035  CD1 ILE A 315     -36.045  -8.910 102.985  0.00  0.00           C 0
+ATOM   2032   CB ILE A 315     -35.063 -10.713 104.504  0.00  0.00           C 0
+ATOM   1468  OE2 GLU A1004     -39.626 -14.727  96.589  0.41  9.64           O 1
+ATOM   2034  CG2 ILE A 315     -36.155 -11.273 105.394  0.00  0.00           C 0
+ATOM   2067  NE2 GLN A 319     -37.872 -13.173 107.499  0.46  4.37           N 0
+TER
+END

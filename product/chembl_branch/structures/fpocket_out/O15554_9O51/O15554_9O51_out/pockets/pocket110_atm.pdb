@@ -1,0 +1,48 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   110:
+HEADER 0  - Pocket Score                      : -0.1158
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.9149
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6165
+HEADER 5  - Mean B-factor of pocket residues  : 0.5075
+HEADER 6  - Hydrophobicity Score              : 34.2222
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 440.9470
+HEADER 10 - Pocket volume (convex hull)       : 47.5074
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 4.6667
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.2500
+ATOM   8640   CB MET D 197     190.226 178.580 127.193  0.00  0.00           C 0
+ATOM   8682  OD1 ASP D 203     193.914 182.511 124.177  0.00  0.00           O 0
+ATOM   8051  NH2 ARG D 123     195.341 174.343 127.546  0.42  3.28           N 0
+ATOM   8050  NH1 ARG D 123     196.388 174.566 125.523  0.00  0.00           N 1
+ATOM   8679    O ASP D 203     192.199 183.291 128.513  0.43  7.50           O 0
+ATOM   8674    O ALA D 202     190.722 181.098 125.101  0.00  0.00           O 0
+ATOM   8668   CA GLY D 201     188.632 179.781 121.232  0.00  0.00           C 0
+ATOM   8639    O MET D 197     189.202 178.287 124.065  0.55  1.07           O 0
+ATOM   8647    O VAL D 198     188.819 175.747 121.711  0.20  7.50           O 0
+ATOM   8645   CA VAL D 198     190.026 175.682 123.795  0.00  0.00           C 0
+ATOM   8609   CA GLN D 194     191.041 175.464 129.932  0.00  0.00           C 0
+ATOM   8611    O GLN D 194     190.498 175.127 127.619  0.00  0.00           O 0
+ATOM   8614   CD GLN D 194     194.560 174.828 131.490  0.00  0.00           C 0
+ATOM   8613   CG GLN D 194     193.241 175.524 131.228  0.00  0.00           C 0
+ATOM   8616  NE2 GLN D 194     195.429 175.478 132.256  0.00  0.00           N 0
+ATOM   8677   CA ASP D 203     191.887 183.383 126.136  0.00  0.00           C 0
+ATOM   8669    C GLY D 201     188.785 181.106 121.951  0.00  0.00           C 0
+ATOM   8670    O GLY D 201     188.966 182.145 121.311  0.34  9.64           O 0
+ATOM   8612   CB GLN D 194     192.341 174.741 130.287  0.00  0.00           C 0
+ATOM   8641   CG MET D 197     189.999 179.328 128.495  0.00  0.00           C 0
+ATOM   8700  NE1 TRP D 205     193.054 181.494 133.332  0.00  0.00           N 0
+ATOM   8606  CG2 ILE D 193     189.302 178.602 132.694  0.00  0.00           C 0
+ATOM   8698  CD1 TRP D 205     191.948 182.152 132.848  0.00  0.00           C 0
+ATOM   8650  CG2 VAL D 198     192.161 174.595 124.550  0.00  0.00           C 0
+ATOM   8638    C MET D 197     189.278 177.599 125.088  0.00  0.00           C 0
+ATOM   8649  CG1 VAL D 198     190.748 173.479 122.811  0.00  0.00           C 0
+TER
+END

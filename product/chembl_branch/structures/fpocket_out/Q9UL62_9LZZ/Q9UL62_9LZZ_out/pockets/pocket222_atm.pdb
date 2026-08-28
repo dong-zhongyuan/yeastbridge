@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   222:
+HEADER 0  - Pocket Score                      : -0.2345
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 4.1007
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4573
+HEADER 5  - Mean B-factor of pocket residues  : 0.7257
+HEADER 6  - Hydrophobicity Score              : -9.7143
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 215.4138
+HEADER 10 - Pocket volume (convex hull)       : 6.4736
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.2400
+ATOM  16975   SD MET B  66     167.373 178.593 183.516  0.00  0.00           S 0
+ATOM  16667  OG1 THR B  27     175.256 180.037 185.988  0.00  0.00           O 0
+ATOM   5199   NZ LYS A 722     170.372 180.236 179.208  0.62  9.84           N 0
+ATOM  16976   CE MET B  66     167.226 180.219 184.252  0.00  0.00           C 0
+ATOM  16973   CB MET B  66     168.407 177.941 186.020  0.00  0.00           C 0
+ATOM  16658   CG GLU B  26     175.729 177.462 180.062  0.00  0.00           C 0
+ATOM  16657   CB GLU B  26     175.989 177.517 181.560  0.00  0.00           C 0
+ATOM  16660  OE1 GLU B  26     175.535 179.830 180.210  0.59  7.50           O 0
+ATOM  16972    O MET B  66     170.735 176.169 186.874  0.50  6.43           O 0
+ATOM  16665    O THR B  27     175.619 177.283 186.199  0.34  3.21           O 0
+ATOM  16980    O ASP B  67     169.745 174.352 184.191  0.67  2.14           O 0
+ATOM  16659   CD GLU B  26     175.520 178.835 179.454  0.00  0.00           C 0
+ATOM  16986   CA PRO B  68     171.778 172.904 183.163  0.00  0.00           C 0
+ATOM  16988    O PRO B  68     170.957 173.050 180.936  0.55  7.50           O 0
+ATOM   5198   CE LYS A 722     170.176 178.944 178.494  0.00  0.00           C 0
+ATOM  17001   CA GLY B  70     166.952 175.186 182.055  0.00  0.00           C 0
+ATOM  17000    N GLY B  70     167.834 174.037 182.093  0.81  1.09           N 0
+TER
+END

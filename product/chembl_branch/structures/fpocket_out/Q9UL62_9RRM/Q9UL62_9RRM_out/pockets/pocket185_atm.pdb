@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   185:
+HEADER 0  - Pocket Score                      : -0.2000
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.9238
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5559
+HEADER 5  - Mean B-factor of pocket residues  : 0.4120
+HEADER 6  - Hydrophobicity Score              : 21.6667
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 259.7627
+HEADER 10 - Pocket volume (convex hull)       : 9.2097
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2083
+ATOM  20829   CB ARG D 512     178.664 176.506 163.905  0.00  0.00           C 0
+ATOM  20834  NH1 ARG D 512     181.027 175.908 166.510  0.00  0.00           N 0
+ATOM  21768   CB SER D 627     176.312 170.326 164.319  0.00  0.00           C 0
+ATOM  20828    O ARG D 512     179.873 174.275 161.920  0.39  1.07           O 0
+ATOM  21767    O SER D 627     174.736 171.957 166.683  0.81  1.07           O 0
+ATOM  20866  OD1 ASP D 516     179.668 170.263 162.514  0.41  5.36           O 0
+ATOM  21769   OG SER D 627     177.257 169.294 164.111  0.00  0.00           O 0
+ATOM  21803   CB ILE D 631     175.343 175.522 167.708  0.00  0.00           C 0
+ATOM  21793    C LEU D 630     174.661 172.992 170.295  0.00  0.00           C 0
+ATOM  21799    N ILE D 631     174.564 173.672 169.147  0.00  0.00           N 0
+ATOM  21806  CD1 ILE D 631     177.012 177.060 168.869  0.00  0.00           C 0
+ATOM  20835  NH2 ARG D 512     180.289 176.620 168.557  0.45  5.47           N 0
+ATOM  21800   CA ILE D 631     174.802 175.109 169.093  0.00  0.00           C 0
+ATOM  21795   CB LEU D 630     175.738 170.779 169.825  0.00  0.00           C 0
+ATOM  21797  CD1 LEU D 630     177.152 168.746 170.220  0.00  0.00           C 0
+ATOM  21765   CA SER D 627     175.381 169.984 165.480  0.00  0.00           C 0
+ATOM  21794    O LEU D 630     174.918 173.549 171.369  0.43  3.21           O 0
+ATOM  21827  CD2 HIS D 634     177.682 176.647 174.326  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : 0.0065
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.6127
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4434
+HEADER 5  - Mean B-factor of pocket residues  : 0.0600
+HEADER 6  - Hydrophobicity Score              : 20.4286
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 74.1307
+HEADER 10 - Pocket volume (convex hull)       : 0.2562
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   7816   CB TYR E 101     122.501  76.334 107.729  0.00  0.00           C 0
+ATOM   2214    O ALA A  11     121.489  80.193 109.133  0.45  2.14           O 0
+ATOM   7819  CD2 TYR E 101     124.866  76.273 108.602  0.00  0.00           C 0
+ATOM   7436   OG SER E  53     125.390  82.942 106.134  0.38  2.14           O 0
+ATOM   2241   CB ARG A  15     121.244  81.390 105.744  0.00  0.00           C 0
+ATOM   7416   OH TYR E  50     126.450  78.636 110.560  0.50  1.07           O 0
+ATOM   7431    N SER E  53     127.582  82.231 107.946  0.39  2.19           N 0
+ATOM   7265    N GLY E  33     128.953  78.013 106.067  0.21  1.09           N 0
+ATOM   7815    O TYR E 101     120.844  77.339 105.580  0.75  1.07           O 0
+ATOM   7812    N TYR E 101     123.418  75.708 105.537  0.00  0.00           N 0
+ATOM   2243   CD ARG A  15     121.444  79.980 103.649  0.00  0.00           C 0
+ATOM   7251    O SER E  31     126.799  80.015 103.619  0.33  3.21           O 0
+ATOM   7435   CB SER E  53     126.706  82.650 105.697  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    21:
+HEADER 0  - Pocket Score                      : -0.0992
+HEADER 1  - Drug Score                        : 0.0218
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.8338
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3756
+HEADER 5  - Mean B-factor of pocket residues  : 0.3422
+HEADER 6  - Hydrophobicity Score              : 42.6667
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 274.5765
+HEADER 10 - Pocket volume (convex hull)       : 13.5323
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.7368
+ATOM   3137   CB LEU L  12     179.147 188.380 154.934  0.00  0.00           C 0
+ATOM   3179   CB VAL L  20     183.466 187.931 159.936  0.00  0.00           C 0
+ATOM   3173    O ARG L  19     184.964 191.318 159.282  0.00  0.00           O 0
+ATOM   3176   CA VAL L  20     183.501 189.311 160.576  0.00  0.00           C 0
+ATOM   3141    O SER L  13     183.217 189.763 153.009  0.71  6.43           O 0
+ATOM   3148   CB ALA L  14     185.137 187.849 155.058  0.00  0.00           C 0
+ATOM   3192  CD1 ILE L  22     178.466 184.665 161.746  0.00  0.00           C 0
+ATOM   3778  CG2 VAL L 105     181.160 182.959 157.070  0.00  0.00           C 0
+ATOM   3567  CD1 ILE L  76     184.029 183.586 162.522  0.00  0.00           C 0
+ATOM   3777  CG1 VAL L 105     182.663 184.256 155.556  0.00  0.00           C 0
+ATOM   3766  CG2 THR L 103     176.472 184.869 158.346  0.00  0.00           C 0
+ATOM   3120   CG PRO L   9     175.724 189.725 157.226  0.00  0.00           C 0
+ATOM   3183    O THR L  21     178.731 189.918 161.423  0.63  9.64           O 0
+ATOM   3180    N THR L  21     181.505 189.930 161.803  0.58  1.09           N 0
+ATOM   3190  CG1 ILE L  22     178.387 186.162 161.941  0.00  0.00           C 0
+ATOM   3639  CE1 TYR L  87     181.057 180.974 159.880  0.00  0.00           C 0
+TER
+END

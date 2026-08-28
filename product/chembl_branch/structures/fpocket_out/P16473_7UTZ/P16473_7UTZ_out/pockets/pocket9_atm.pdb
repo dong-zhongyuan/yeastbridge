@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : 0.0345
+HEADER 1  - Drug Score                        : 0.0015
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.8304
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5551
+HEADER 5  - Mean B-factor of pocket residues  : 0.8456
+HEADER 6  - Hydrophobicity Score              : 37.5000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 201.0225
+HEADER 10 - Pocket volume (convex hull)       : 4.3596
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 8.6000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.6250
+ATOM   9456   SG CYS R 390     115.872 192.500 176.782  0.00  0.00           S 0
+ATOM    171   CZ PHE A  17     110.190 195.462 177.831  0.00  0.00           C 0
+ATOM   9237   CB SER R 304     111.490 192.923 172.872  0.00  0.00           C 0
+ATOM   9203   CA CYS R 301     112.775 190.325 175.826  0.00  0.00           C 0
+ATOM   9388    O ASP R 386     116.109 197.016 176.743  0.61  1.07           O 0
+ATOM   9454    O CYS R 390     118.671 193.564 175.565  0.00  0.00           O 0
+ATOM   9238   OG SER R 304     112.490 192.052 172.375  0.64  8.57           O 0
+ATOM   9438  CG2 ILE R 389     114.483 194.407 180.028  0.00  0.00           C 0
+ATOM   9397    N TYR R 387     116.379 199.096 175.901  0.00  0.00           N 0
+ATOM   9387    C ASP R 386     115.624 198.088 176.350  0.00  0.00           C 0
+ATOM   9462   CA GLY R 391     119.828 196.011 175.291  0.00  0.00           C 0
+ATOM   9398   CA TYR R 387     117.834 198.996 175.919  0.00  0.00           C 0
+ATOM   9401   CB TYR R 387     118.454 200.240 175.281  0.00  0.00           C 0
+ATOM   9403  CD1 TYR R 387     120.803 199.574 174.635  0.00  0.00           C 0
+ATOM   9389   CB ASP R 386     113.535 198.076 174.968  0.00  0.00           C 0
+ATOM   9386   CA ASP R 386     114.118 198.310 176.361  0.00  0.00           C 0
+ATOM   9390   CG ASP R 386     112.020 198.095 174.959  0.00  0.00           C 0
+TER
+END

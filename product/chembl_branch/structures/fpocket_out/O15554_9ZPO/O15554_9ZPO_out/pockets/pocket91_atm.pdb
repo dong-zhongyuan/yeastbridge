@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    91:
+HEADER 0  - Pocket Score                      : -0.1158
+HEADER 1  - Drug Score                        : 0.0040
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9118
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5416
+HEADER 5  - Mean B-factor of pocket residues  : 0.4669
+HEADER 6  - Hydrophobicity Score              : 79.7143
+HEADER 7  - Polarity Score                    :     0
+HEADER 8  - Amino Acid based volume Score     : 4.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 227.4564
+HEADER 10 - Pocket volume (convex hull)       : 10.4344
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.8235
+ATOM   8088   CA VAL D 114     244.565 232.924 222.571  0.00  0.00           C 0
+ATOM   8093  CG2 VAL D 114     242.475 233.614 221.371  0.00  0.00           C 0
+ATOM   8110  CD1 LEU D 117     244.238 233.704 228.182  0.00  0.00           C 0
+ATOM   8085  CG1 VAL D 113     244.892 237.270 224.066  0.00  0.00           C 0
+ATOM   8090    O VAL D 114     245.427 231.045 223.798  0.50  1.07           O 0
+ATOM   8092  CG1 VAL D 114     242.914 231.202 221.802  0.00  0.00           C 0
+ATOM   8083    O VAL D 113     246.187 234.303 224.263  0.00  0.00           O 0
+ATOM   8229   SD MET D 156     243.763 227.729 226.908  0.00  0.00           S 0
+ATOM   8230   CE MET D 156     244.679 228.912 227.874  0.00  0.00           C 0
+ATOM   8222   CB ALA D 155     239.284 228.170 228.770  0.00  0.00           C 0
+ATOM   8201   CG LEU D 152     243.788 230.048 232.464  0.00  0.00           C 0
+ATOM   8202  CD1 LEU D 152     242.750 230.939 233.122  0.00  0.00           C 0
+ATOM   8197   CA LEU D 152     242.181 228.025 232.204  0.00  0.00           C 0
+ATOM   8221    O ALA D 155     240.506 227.404 226.306  0.47  2.14           O 0
+ATOM   8246  CD2 LEU D 158     238.499 228.655 223.900  0.00  0.00           C 0
+ATOM   8245  CD1 LEU D 158     240.294 228.578 222.172  0.00  0.00           C 0
+TER
+END

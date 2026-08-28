@@ -1,0 +1,44 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     1:
+HEADER 0  - Pocket Score                      : 0.1616
+HEADER 1  - Drug Score                        : 0.0069
+HEADER 2  - Number of alpha spheres           :    30
+HEADER 3  - Mean alpha-sphere radius          : 4.0789
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6037
+HEADER 5  - Mean B-factor of pocket residues  : 0.2040
+HEADER 6  - Hydrophobicity Score              : 51.8571
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 366.5940
+HEADER 10 - Pocket volume (convex hull)       : 19.1140
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 17.6190
+HEADER 13 - Number of apolar alpha sphere     :    21
+HEADER 14 - Proportion of apolar alpha sphere : 0.7000
+ATOM    615   CG GLN A 194     110.050 174.689 140.416  0.00  0.00           C 0
+ATOM    616   CD GLN A 194     109.874 176.180 140.567  0.00  0.00           C 0
+ATOM    644   SD MET A 197     107.127 171.545 137.632  0.00  0.00           S 0
+ATOM    618  NE2 GLN A 194     109.171 176.590 141.614  0.00  0.00           N 0
+ATOM     47  NH2 ARG A 123     109.635 178.460 137.284  0.00  0.00           N 0
+ATOM    617  OE1 GLN A 194     110.360 176.957 139.750  0.00  0.00           O 0
+ATOM    607  CG1 ILE A 193     111.120 169.035 143.655  0.00  0.00           C 0
+ATOM    608  CG2 ILE A 193     109.457 169.542 141.877  0.00  0.00           C 0
+ATOM    581   CB ALA A 190     110.882 174.226 145.980  0.00  0.00           C 0
+ATOM    578   CA ALA A 190     111.688 173.108 145.326  0.00  0.00           C 0
+ATOM    580    O ALA A 190     111.676 173.268 142.928  0.41  1.07           O 0
+ATOM    698   CB TRP A 205     105.308 169.127 141.676  0.00  0.00           C 0
+ATOM    642   CB MET A 197     109.111 170.707 136.157  0.00  0.00           C 0
+ATOM    613    O GLN A 194     111.767 172.556 136.755  0.00  0.00           O 0
+ATOM    652  CG2 VAL A 198     111.533 174.158 133.961  0.00  0.00           C 0
+ATOM     46  NH1 ARG A 123     109.087 178.338 135.066  0.63  8.75           N 0
+ATOM    704  CE3 TRP A 205     105.207 167.577 144.576  0.00  0.00           C 0
+ATOM    701  CD2 TRP A 205     104.233 168.323 143.910  0.00  0.00           C 0
+ATOM    645   CE MET A 197     105.798 170.572 138.283  0.00  0.00           C 0
+ATOM    699   CG TRP A 205     104.199 169.017 142.662  0.00  0.00           C 0
+ATOM    614   CB GLN A 194     111.135 174.330 139.419  0.00  0.00           C 0
+ATOM    606   CB ILE A 193     110.763 169.968 142.507  0.00  0.00           C 0
+TER
+END

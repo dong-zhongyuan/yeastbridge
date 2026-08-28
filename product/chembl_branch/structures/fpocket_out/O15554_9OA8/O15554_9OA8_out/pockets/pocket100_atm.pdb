@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   100:
+HEADER 0  - Pocket Score                      : -0.0988
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.7238
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5768
+HEADER 5  - Mean B-factor of pocket residues  : 0.2093
+HEADER 6  - Hydrophobicity Score              : 32.2000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 126.4493
+HEADER 10 - Pocket volume (convex hull)       : 1.6641
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.4000
+ATOM   6614   CB ARG C 170     192.828 243.856 199.545  0.00  0.00           C 0
+ATOM   6619  NH1 ARG C 170     194.991 246.029 200.953  0.00  0.00           N 0
+ATOM   6616   CD ARG C 170     192.488 244.968 201.772  0.00  0.00           C 0
+ATOM   6588   CA VAL C 167     193.331 239.599 201.433  0.00  0.00           C 0
+ATOM   6592  CG1 VAL C 167     195.633 238.622 201.142  0.00  0.00           C 0
+ATOM   6859   OH TYR C 199     199.361 240.187 198.099  0.00  0.00           O 0
+ATOM   6621    N SER C 171     193.954 242.368 196.916  0.00  0.00           N 0
+ATOM   6622   CA SER C 171     194.982 242.244 195.893  0.00  0.00           C 0
+ATOM   6593  CG2 VAL C 167     194.841 239.270 203.406  0.00  0.00           C 0
+ATOM   6585    O ALA C 166     191.584 241.625 202.106  0.00  0.00           O 0
+ATOM   6590    O VAL C 167     193.721 240.010 199.104  0.51  2.14           O 0
+ATOM   6625   CB SER C 171     195.741 240.930 196.058  0.00  0.00           C 0
+ATOM   6613    O ARG C 170     193.596 244.538 196.457  0.45  5.36           O 0
+ATOM   6612    C ARG C 170     193.320 243.523 197.106  0.00  0.00           C 0
+TER
+END

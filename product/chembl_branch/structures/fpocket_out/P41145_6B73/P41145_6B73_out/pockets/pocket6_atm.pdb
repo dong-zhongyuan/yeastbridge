@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : 0.0192
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.6054
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4618
+HEADER 5  - Mean B-factor of pocket residues  : 0.1160
+HEADER 6  - Hydrophobicity Score              : 26.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.7000
+HEADER 9  - Pocket volume (Monte Carlo)       : 79.4487
+HEADER 10 - Pocket volume (convex hull)       : 0.4945
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.4286
+ATOM   2051   CB ALA A 331      60.721 -27.349  19.695  0.00  0.00           C 0
+ATOM   2039   CB TYR A 330      62.833 -23.191  17.484  0.00  0.00           C 0
+ATOM    374  CD2 LEU A 101      60.084 -22.761  14.155  0.00  0.00           C 0
+ATOM    346  CG2 ILE A  98      57.533 -25.176  19.542  0.00  0.00           C 0
+ATOM   2013    O ASN A 326      63.516 -26.110  15.556  0.00  0.00           O 0
+ATOM   2047    N ALA A 331      62.613 -25.827  19.339  0.00  0.00           N 0
+ATOM    343    O ILE A  98      56.068 -25.075  16.613  0.69  1.07           O 0
+ATOM    372   CG LEU A 101      58.996 -23.061  13.145  0.00  0.00           C 0
+ATOM    182  OD1 ASN A  77      59.116 -29.043  12.506  0.28  1.07           O 0
+ATOM    400  OD2 ASP A 105      59.937 -25.646  11.046  0.61  1.07           O 0
+ATOM    375    N ALA A 102      56.304 -25.772  13.641  0.60  1.09           N 0
+ATOM   2019   CA PRO A 327      62.348 -28.577  15.664  0.00  0.00           C 0
+ATOM    203  CG1 VAL A  80      57.316 -28.841  18.283  0.00  0.00           C 0
+ATOM    379   CB ALA A 102      56.109 -27.885  14.855  0.00  0.00           C 0
+ATOM    376   CA ALA A 102      56.396 -27.228  13.518  0.00  0.00           C 0
+ATOM   2018    N PRO A 327      62.817 -27.936  14.418  0.00  0.00           N 0
+TER
+END

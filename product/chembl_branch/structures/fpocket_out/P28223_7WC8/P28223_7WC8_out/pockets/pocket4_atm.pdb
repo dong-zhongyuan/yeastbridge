@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     4:
+HEADER 0  - Pocket Score                      : -0.0227
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.7461
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5003
+HEADER 5  - Mean B-factor of pocket residues  : 0.2827
+HEADER 6  - Hydrophobicity Score              : 22.8750
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 234.5405
+HEADER 10 - Pocket volume (convex hull)       : 10.0780
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1579
+ATOM   1607    O LEU A1014     -42.638  -8.184  80.267  0.54  3.21           O 0
+ATOM   1964    O GLN A1088     -37.602  -5.732  76.348  0.57  4.29           O 0
+ATOM   1985    N GLU A1092     -35.991  -6.576  78.974  0.00  0.00           N 0
+ATOM   1992  OE1 GLU A1092     -36.710 -11.036  78.484  0.56  7.50           O 0
+ATOM   1640   CB GLU A1018     -42.869 -10.062  77.343  0.00  0.00           C 0
+ATOM   1641   CG GLU A1018     -42.538 -11.300  76.554  0.00  0.00           C 0
+ATOM   1636    N GLU A1018     -43.519  -7.720  77.452  0.00  0.00           N 0
+ATOM   1634  CG2 ILE A1017     -41.699  -4.529  77.778  0.00  0.00           C 0
+ATOM   2015   NZ LYS A1095     -38.020 -11.600  81.102  0.62  1.09           N 0
+ATOM   1639    O GLU A1018     -44.020  -9.258  74.335  0.32  8.57           O 0
+ATOM   1637   CA GLU A1018     -43.179  -8.818  76.510  0.00  0.00           C 0
+ATOM   1965   CB GLN A1088     -39.833  -5.016  74.047  0.00  0.00           C 0
+ATOM   1984   CB ALA A1091     -38.370  -4.494  79.437  0.00  0.00           C 0
+ATOM   1967   CD GLN A1088     -42.011  -5.256  72.829  0.00  0.00           C 0
+ATOM   1968  OE1 GLN A1088     -41.515  -5.262  71.704  0.70  8.57           O 0
+ATOM   1963    C GLN A1088     -37.691  -4.980  75.369  0.00  0.00           C 0
+ATOM   1970    N ALA A1089     -36.707  -4.767  74.507  0.00  0.00           N 0
+ATOM   1611  CD2 LEU A1014     -39.094  -6.665  82.819  0.00  0.00           C 0
+ATOM   2014   CE LYS A1095     -37.264 -10.747  82.044  0.00  0.00           C 0
+TER
+END

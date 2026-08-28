@@ -1,0 +1,34 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    37:
+HEADER 0  - Pocket Score                      : -0.0215
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.5459
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4176
+HEADER 5  - Mean B-factor of pocket residues  : 0.0701
+HEADER 6  - Hydrophobicity Score              : 57.6667
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 73.8972
+HEADER 10 - Pocket volume (convex hull)       : 0.5191
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.6667
+ATOM  13102   CG LEU F 221     155.032 142.848 133.388  0.00  0.00           C 0
+HETATM14141   CB MEA H   4     160.941 139.857 135.217  0.00  0.00           C 0
+ATOM  13097    N LEU F 221     157.626 144.455 132.806  0.41  1.09           N 0
+HETATM14140    O MEA H   4     160.355 142.001 136.832  0.21  4.29           O 0
+ATOM  13091   CA THR F 220     159.934 143.734 132.619  0.00  0.00           C 0
+ATOM  12541   OH TYR F 150     153.905 140.224 136.982  0.67  4.29           O 0
+ATOM  13103  CD1 LEU F 221     154.119 142.516 134.537  0.00  0.00           C 0
+ATOM  12507  CD1 ILE F 146     158.921 138.409 132.383  0.00  0.00           C 0
+ATOM  12538  CE1 TYR F 150     154.204 138.483 135.391  0.00  0.00           C 0
+ATOM  12506  CG2 ILE F 146     156.129 138.627 131.839  0.00  0.00           C 0
+ATOM  14135    O GLY H   3     160.010 138.915 137.850  0.30  4.29           O 0
+HETATM14147  CD2 MEA H   4     160.495 137.380 135.162  0.00  0.00           C 0
+TER
+END

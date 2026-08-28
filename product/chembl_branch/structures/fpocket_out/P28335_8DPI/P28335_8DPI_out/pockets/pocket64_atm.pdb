@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    64:
+HEADER 0  - Pocket Score                      : -0.1891
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 4.0629
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6241
+HEADER 5  - Mean B-factor of pocket residues  : 0.2964
+HEADER 6  - Hydrophobicity Score              : 12.6364
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Amino Acid based volume Score     : 4.3636
+HEADER 9  - Pocket volume (Monte Carlo)       : 289.2521
+HEADER 10 - Pocket volume (convex hull)       : 14.9030
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2000
+ATOM    190  ND2 ASN A  89     116.329 120.999 119.745  0.00  0.00           N 0
+ATOM    189  OD1 ASN A  89     115.424 121.172 121.791  0.52  1.07           O 0
+ATOM   3576    O GLU B 242     119.765 123.964 122.718  0.58  2.14           O 0
+ATOM    160  CD2 LEU A  84     113.445 123.481 119.612  0.00  0.00           C 0
+ATOM    181  OG1 THR A  88     119.576 120.419 120.458  0.52  1.07           O 0
+ATOM    165   CB HIS A  85     118.979 121.124 116.522  0.00  0.00           C 0
+ATOM    154   CA LEU A  84     114.282 122.315 116.782  0.00  0.00           C 0
+ATOM    161    N HIS A  85     116.561 121.522 116.556  0.66  5.47           N 0
+ATOM    151    O LYS A  83     113.753 124.988 116.198  0.39  8.57           O 0
+ATOM   3574   CA GLU B 242     121.285 125.481 121.659  0.00  0.00           C 0
+ATOM   3564    C ARG B 241     121.244 127.667 122.723  0.00  0.00           C 0
+ATOM   3567   CG ARG B 241     120.455 130.453 121.677  0.00  0.00           C 0
+ATOM   3565    O ARG B 241     120.046 127.539 123.000  0.40  1.07           O 0
+ATOM   3573    N GLU B 242     121.940 126.709 122.105  0.00  0.00           N 0
+ATOM   3577   CB GLU B 242     122.232 124.682 120.764  0.00  0.00           C 0
+ATOM   3596  OD1 ASN B 244     116.900 125.267 124.683  0.17  3.21           O 0
+ATOM   3541    O MET B 238     124.047 127.679 120.328  0.57  3.21           O 0
+ATOM   3568   CD ARG B 241     120.441 131.540 120.612  0.00  0.00           C 0
+ATOM   1854  ND2 ASN A 372     116.330 128.022 123.376  0.74  5.47           N 0
+ATOM   1867  CD1 ILE A 374     113.552 129.294 120.003  0.00  0.00           C 0
+TER
+END

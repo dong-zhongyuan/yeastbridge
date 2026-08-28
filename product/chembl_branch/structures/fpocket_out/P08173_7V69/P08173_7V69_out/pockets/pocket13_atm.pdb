@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : 0.0095
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.6374
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4011
+HEADER 5  - Mean B-factor of pocket residues  : 0.0431
+HEADER 6  - Hydrophobicity Score              : 20.6667
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 5.1111
+HEADER 9  - Pocket volume (Monte Carlo)       : 83.3764
+HEADER 10 - Pocket volume (convex hull)       : 0.6413
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.5000
+ATOM   5407    N TYR S 103     131.073 146.598 154.810  0.64  6.56           N 0
+ATOM   2271  OD2 ASP B  83     127.255 143.647 152.411  0.31  3.21           O 0
+ATOM   2308   CB ASN B  88     130.020 143.712 148.118  0.00  0.00           C 0
+ATOM   2327  CG2 VAL B  90     131.559 142.159 153.964  0.00  0.00           C 0
+ATOM     68   CB ALA A  12     130.857 148.591 149.678  0.00  0.00           C 0
+ATOM   5396   CA TYR S 102     133.101 147.479 153.799  0.00  0.00           C 0
+ATOM   2315    O LYS B  89     134.301 142.598 150.199  0.84  1.07           O 0
+ATOM     67    O ALA A  12     132.722 147.022 147.469  0.66  2.14           O 0
+ATOM   2314    C LYS B  89     133.571 141.645 150.483  0.00  0.00           C 0
+ATOM   5399   CB TYR S 102     133.944 146.221 154.046  0.00  0.00           C 0
+ATOM   5386    O TYR S 101     134.324 148.950 151.729  0.00  0.00           O 0
+ATOM     91   CD ARG A  15     136.477 146.385 151.006  0.00  0.00           C 0
+ATOM   2322   CA VAL B  90     133.808 142.078 152.855  0.00  0.00           C 0
+TER
+END

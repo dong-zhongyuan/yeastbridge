@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    90:
+HEADER 0  - Pocket Score                      : -0.1495
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9100
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5393
+HEADER 5  - Mean B-factor of pocket residues  : 0.0114
+HEADER 6  - Hydrophobicity Score              : 49.7500
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 138.5574
+HEADER 10 - Pocket volume (convex hull)       : 1.8632
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.5625
+ATOM   7047  OG1 THR C 250     153.080 157.104 162.508  0.00  0.00           O 0
+ATOM   4547  CG2 THR B 278     150.145 153.324 155.404  0.00  0.00           C 0
+ATOM   7223  CG2 VAL C 275     147.753 156.565 159.200  0.00  0.00           C 0
+ATOM   7242  CG2 THR C 278     153.324 158.855 155.403  0.00  0.00           C 0
+ATOM   7241  OG1 THR C 278     152.216 160.299 156.946  0.69  4.29           O 0
+ATOM   7048  CG2 THR C 250     150.742 157.607 162.393  0.00  0.00           C 0
+ATOM   7240   CB THR C 278     152.043 159.581 155.720  0.00  0.00           C 0
+ATOM   7218   CA VAL C 275     148.027 158.361 157.512  0.00  0.00           C 0
+ATOM   7222  CG1 VAL C 275     147.326 156.057 156.855  0.00  0.00           C 0
+ATOM   4352  OG1 THR B 250     151.898 153.081 162.509  0.00  0.00           O 0
+ATOM   4342    O LEU B 249     149.491 154.142 162.615  0.36  2.14           O 0
+ATOM   4546  OG1 THR B 278     148.701 152.216 156.946  0.52  5.36           O 0
+ATOM   7220    O VAL C 275     148.476 158.551 155.160  0.68  2.14           O 0
+TER
+END

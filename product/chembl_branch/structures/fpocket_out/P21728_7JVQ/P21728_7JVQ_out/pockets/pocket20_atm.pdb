@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    20:
+HEADER 0  - Pocket Score                      : -0.0503
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.7870
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6713
+HEADER 5  - Mean B-factor of pocket residues  : 0.3685
+HEADER 6  - Hydrophobicity Score              : -19.7500
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.6250
+HEADER 9  - Pocket volume (Monte Carlo)       : 149.0155
+HEADER 10 - Pocket volume (convex hull)       : 3.6861
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1579
+ATOM   7223  CG2 THR G  52     113.156  55.952 110.004  0.00  0.00           C 0
+ATOM   7237  CG2 VAL G  54     107.616  58.921 111.014  0.00  0.00           C 0
+ATOM   7171    O LYS G  46     112.215  53.862 114.568  0.36  9.64           O 0
+ATOM   7220    O THR G  52     111.562  59.074 110.858  0.69  1.07           O 0
+ATOM   7227    O PRO G  53     110.153  57.372 108.335  0.64  5.36           O 0
+ATOM   7189    O ASP G  48     112.393  58.502 114.130  0.00  0.00           O 0
+ATOM   7221   CB THR G  52     113.628  56.862 111.129  0.00  0.00           C 0
+ATOM   7232   CA VAL G  54     107.539  58.405 108.557  0.00  0.00           C 0
+ATOM   7244   CD PRO G  55     106.343  56.000 107.195  0.00  0.00           C 0
+ATOM   7236  CG1 VAL G  54     105.443  58.217 109.991  0.00  0.00           C 0
+ATOM   7195   CA PRO G  49     110.080  59.947 113.936  0.00  0.00           C 0
+ATOM   7194    N PRO G  49     110.656  59.453 115.197  0.00  0.00           N 0
+ATOM   7199   CG PRO G  49     108.379  59.585 115.598  0.00  0.00           C 0
+ATOM   7179    C GLU G  47     111.501  56.133 117.162  0.00  0.00           C 0
+ATOM   7180    O GLU G  47     110.527  56.655 117.715  0.31  2.14           O 0
+ATOM   7178   CA GLU G  47     111.654  54.617 117.191  0.00  0.00           C 0
+ATOM   7188    C ASP G  48     111.805  58.768 115.190  0.00  0.00           C 0
+TER
+END

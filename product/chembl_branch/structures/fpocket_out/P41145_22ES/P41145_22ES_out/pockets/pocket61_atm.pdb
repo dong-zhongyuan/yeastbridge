@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    61:
+HEADER 0  - Pocket Score                      : -0.1039
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.9086
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4765
+HEADER 5  - Mean B-factor of pocket residues  : 0.1876
+HEADER 6  - Hydrophobicity Score              : 10.8000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 275.5551
+HEADER 10 - Pocket volume (convex hull)       : 12.7146
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.3500
+ATOM    335   CA ARG B  48     124.791 105.335 142.509  0.00  0.00           C 0
+ATOM   3000   CB GLU C  63     128.135 106.374 148.823  0.00  0.00           C 0
+ATOM    330    O THR B  47     123.477 107.752 142.855  0.00  0.00           O 0
+ATOM    340   CD ARG B  48     123.304 103.810 144.695  0.00  0.00           C 0
+ATOM    321   CG ARG B  46     118.470 107.403 146.007  0.00  0.00           C 0
+ATOM    326  NH2 ARG B  46     119.824 107.178 148.680  0.00  0.00           N 0
+ATOM    320   CB ARG B  46     119.411 106.610 145.113  0.00  0.00           C 0
+ATOM    327    N THR B  47     120.587 107.256 142.270  0.50  3.28           N 0
+ATOM    337    O ARG B  48     127.024 106.161 142.323  0.32  8.57           O 0
+ATOM   2997   CA GLU C  63     128.816 105.428 147.832  0.00  0.00           C 0
+ATOM   2996    N GLU C  63     128.312 104.069 147.996  0.58  3.28           N 0
+ATOM   2977    O PHE C  61     126.533 102.129 145.181  0.00  0.00           O 0
+ATOM   3001   CG GLU C  63     128.544 107.830 148.674  0.00  0.00           C 0
+ATOM   3002   CD GLU C  63     127.831 108.739 149.655  0.00  0.00           C 0
+ATOM   3004  OE2 GLU C  63     128.068 109.965 149.613  0.00  0.00           O 0
+ATOM    344  NH2 ARG B  48     122.319 104.414 147.261  0.43  8.75           N 0
+ATOM   3003  OE1 GLU C  63     127.033 108.229 150.469  0.16  7.50           O 0
+TER
+END

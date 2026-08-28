@@ -1,0 +1,45 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    14:
+HEADER 0  - Pocket Score                      : 0.0338
+HEADER 1  - Drug Score                        : 0.0223
+HEADER 2  - Number of alpha spheres           :    35
+HEADER 3  - Mean alpha-sphere radius          : 3.7238
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6262
+HEADER 5  - Mean B-factor of pocket residues  : 0.3023
+HEADER 6  - Hydrophobicity Score              : 45.0000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 207.5221
+HEADER 10 - Pocket volume (convex hull)       : 10.3798
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 30.0000
+HEADER 13 - Number of apolar alpha sphere     :    31
+HEADER 14 - Proportion of apolar alpha sphere : 0.8857
+ATOM    640   CG TYR R 132     101.488 111.542 122.593  0.00  0.00           C 0
+ATOM   1021    C GLY R 182      97.943 111.722 127.917  0.00  0.00           C 0
+ATOM    606   CB ALA R 128     101.877 115.844 127.101  0.00  0.00           C 0
+ATOM    641  CD1 TYR R 132     100.286 110.860 122.551  0.00  0.00           C 0
+ATOM    639   CB TYR R 132     102.380 111.477 123.799  0.00  0.00           C 0
+ATOM    605    O ALA R 128     103.389 113.204 125.679  0.00  0.00           O 0
+ATOM    642  CD2 TYR R 132     101.815 112.367 121.522  0.00  0.00           C 0
+ATOM   1022    O GLY R 182      98.603 112.430 128.683  0.68  1.07           O 0
+ATOM    604    C ALA R 128     103.619 114.328 126.143  0.00  0.00           C 0
+ATOM    607    N ILE R 129     104.503 115.168 125.589  0.00  0.00           N 0
+ATOM    608   CA ILE R 129     105.192 114.840 124.344  0.00  0.00           C 0
+ATOM   1029  CG2 VAL R 183      94.864 113.662 126.025  0.00  0.00           C 0
+ATOM   1002    O SER R 179      95.506 110.553 125.222  0.00  0.00           O 0
+ATOM   1023    N VAL R 183      96.646 111.929 127.685  0.00  0.00           N 0
+ATOM   1000   CA SER R 179      96.406 110.128 123.033  0.00  0.00           C 0
+ATOM    643  CE1 TYR R 132      99.466 110.947 121.448  0.00  0.00           C 0
+ATOM   1004   OG SER R 179      96.361 111.262 120.872  0.47  5.36           O 0
+ATOM   1003   CB SER R 179      95.569 110.830 121.963  0.00  0.00           C 0
+ATOM   1024   CA VAL R 183      95.972 113.125 128.215  0.00  0.00           C 0
+ATOM    645   CZ TYR R 132      99.815 111.753 120.391  0.00  0.00           C 0
+ATOM   1048   CB ALA R 186      99.205 115.583 129.627  0.00  0.00           C 0
+ATOM    612  CG1 ILE R 129     104.944 117.071 123.176  0.00  0.00           C 0
+ATOM   1020   CA GLY R 182      98.626 110.581 127.187  0.00  0.00           C 0
+TER
+END

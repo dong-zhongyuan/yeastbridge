@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    50:
+HEADER 0  - Pocket Score                      : -0.0380
+HEADER 1  - Drug Score                        : 0.0039
+HEADER 2  - Number of alpha spheres           :    27
+HEADER 3  - Mean alpha-sphere radius          : 4.0010
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4551
+HEADER 5  - Mean B-factor of pocket residues  : 0.4885
+HEADER 6  - Hydrophobicity Score              : 71.2000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 210.6893
+HEADER 10 - Pocket volume (convex hull)       : 12.2232
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 24.0000
+HEADER 13 - Number of apolar alpha sphere     :    25
+HEADER 14 - Proportion of apolar alpha sphere : 0.9259
+ATOM  13608  CG2 ILE G  28     129.345 172.879 112.953  0.00  0.00           C 0
+ATOM  13867  CD1 ILE G  64     124.554 171.149 113.576  0.00  0.00           C 0
+ATOM  13645  CD2 LEU G  33     128.792 167.437 113.990  0.00  0.00           C 0
+ATOM  13644  CD1 LEU G  33     130.325 168.103 115.847  0.00  0.00           C 0
+ATOM  13783   CE MET G  52     126.201 164.782 116.954  0.00  0.00           C 0
+ATOM  13779    O MET G  52     123.349 165.582 114.169  0.58  1.07           O 0
+ATOM  13609  CD1 ILE G  28     128.269 174.693 115.102  0.00  0.00           C 0
+ATOM  13548   CG PHE G  20     131.232 173.026 117.601  0.00  0.00           C 0
+ATOM  13550  CD2 PHE G  20     130.281 173.446 118.512  0.00  0.00           C 0
+ATOM  13936   CE MET G  72     122.536 168.157 118.190  0.00  0.00           C 0
+ATOM  13934   CG MET G  72     122.694 170.551 119.580  0.00  0.00           C 0
+ATOM   1387  CD1 LEU A 291     129.005 167.928 121.506  0.00  0.00           C 0
+ATOM   1386   CG LEU A 291     129.901 166.817 121.005  0.00  0.00           C 0
+ATOM  13552  CE2 PHE G  20     129.977 172.684 119.619  0.00  0.00           C 0
+ATOM  13911  CE1 PHE G  69     126.362 174.043 119.235  0.00  0.00           C 0
+ATOM  13909  CD1 PHE G  69     125.445 174.349 118.256  0.00  0.00           C 0
+ATOM  13553   CZ PHE G  20     130.620 171.485 119.824  0.00  0.00           C 0
+ATOM  13969   NZ LYS G  76     125.777 167.838 121.306  0.82  7.66           N 0
+ATOM   1363   OG SER A 287     128.218 171.475 122.961  0.00  0.00           O 0
+TER
+END

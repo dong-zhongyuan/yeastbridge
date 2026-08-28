@@ -1,0 +1,44 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : 0.0166
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    26
+HEADER 3  - Mean alpha-sphere radius          : 4.2645
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7877
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 12.4286
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 239.3780
+HEADER 10 - Pocket volume (convex hull)       : 5.2655
+HEADER 11 - Charge Score                      :    -3
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.5385
+ATOM   1960   CA ALA A 129     -19.701 -51.539  29.045  0.00  0.00           C 0
+ATOM   2125   CB GLU A 141     -18.027 -46.208  31.331  0.00  0.00           C 0
+ATOM   1969    N ASP A 130     -18.286 -51.052  30.925  0.79  2.19           N 0
+ATOM   1981    N ILE A 131     -15.231 -49.911  31.610  0.00  0.00           N 0
+ATOM   1971    C ASP A 130     -15.814 -51.021  31.239  0.00  0.00           C 0
+ATOM   2175    O GLN A 144     -21.923 -43.857  25.618  0.58  3.21           O 0
+ATOM   2193   CB MET A 145     -22.957 -46.832  28.229  0.00  0.00           C 0
+ATOM   2194   CG MET A 145     -23.362 -48.152  27.554  0.00  0.00           C 0
+ATOM   2177   CG GLN A 144     -18.864 -43.126  26.050  0.00  0.00           C 0
+ATOM   1972    O ASP A 130     -15.324 -51.789  30.436  0.58  6.43           O 0
+ATOM   1947    O GLU A 128     -19.237 -53.276  27.011  0.00  0.00           O 0
+ATOM   1961    C ALA A 129     -18.536 -51.901  29.961  0.00  0.00           C 0
+ATOM   1962    O ALA A 129     -17.896 -52.915  29.782  0.68  3.21           O 0
+ATOM   1963   CB ALA A 129     -20.592 -50.516  29.765  0.00  0.00           C 0
+ATOM   2190   CA MET A 145     -23.137 -45.664  27.238  0.00  0.00           C 0
+ATOM   2189    N MET A 145     -22.296 -44.530  27.698  0.00  0.00           N 0
+ATOM   2174    C GLN A 144     -21.763 -43.727  26.815  0.00  0.00           C 0
+ATOM   1982   CA ILE A 131     -13.907 -49.559  31.036  0.00  0.00           C 0
+ATOM   1986  CG1 ILE A 131     -14.604 -47.204  31.619  0.00  0.00           C 0
+ATOM   2124    O GLU A 141     -20.827 -45.375  30.053  0.74  1.07           O 0
+ATOM   2122   CA GLU A 141     -18.613 -44.889  30.799  0.00  0.00           C 0
+ATOM   2176   CB GLN A 144     -19.452 -43.053  27.459  0.00  0.00           C 0
+TER
+END

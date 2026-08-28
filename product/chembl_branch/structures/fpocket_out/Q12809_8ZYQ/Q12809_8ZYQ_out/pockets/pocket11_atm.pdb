@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : -0.0617
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0031
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5488
+HEADER 5  - Mean B-factor of pocket residues  : 0.5758
+HEADER 6  - Hydrophobicity Score              : 16.8333
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 259.8969
+HEADER 10 - Pocket volume (convex hull)       : 9.6867
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1250
+ATOM   2098  OE1 GLU B 544     131.251 162.360 149.180  0.00  0.00           O 0
+ATOM   2071  NH1 ARG B 541     124.388 159.393 149.410  0.41  6.56           N 0
+ATOM   2097   CD GLU B 544     131.702 162.297 148.019  0.00  0.00           C 0
+ATOM   2096   CG GLU B 544     131.997 160.931 147.439  0.00  0.00           C 0
+ATOM   2095   CB GLU B 544     131.893 159.818 148.470  0.00  0.00           C 0
+ATOM   2065    O ARG B 541     129.368 158.853 151.525  0.61  3.21           O 0
+ATOM   1323    O ALA B 408     121.441 163.108 152.752  0.46  5.36           O 0
+ATOM   2068   CD ARG B 541     124.775 159.215 152.248  0.00  0.00           C 0
+ATOM   1362  NE1 TRP B 412     126.148 162.797 154.233  0.45  9.84           N 0
+ATOM   2063   CA ARG B 541     127.810 157.117 150.971  0.00  0.00           C 0
+ATOM   2060    O ASP B 540     129.664 155.872 149.378  0.00  0.00           O 0
+ATOM   2111   OH TYR B 545     129.691 166.122 149.462  0.00  0.00           O 0
+ATOM   2099  OE2 GLU B 544     131.920 163.303 147.313  0.77  6.43           O 0
+ATOM   2067   CG ARG B 541     126.223 158.913 151.869  0.00  0.00           C 0
+ATOM   2109  CE2 TYR B 545     130.539 164.695 151.173  0.00  0.00           C 0
+ATOM   1365  CZ2 TRP B 412     128.518 161.989 154.287  0.00  0.00           C 0
+TER
+END

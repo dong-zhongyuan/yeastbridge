@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   129:
+HEADER 0  - Pocket Score                      : -0.1357
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9577
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6881
+HEADER 5  - Mean B-factor of pocket residues  : 0.3417
+HEADER 6  - Hydrophobicity Score              : 33.7143
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 6.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 230.5241
+HEADER 10 - Pocket volume (convex hull)       : 7.3197
+HEADER 11 - Charge Score                      :     4
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.4706
+ATOM   9224   CG ARG D 206     139.152 101.823 142.848  0.00  0.00           C 0
+ATOM   9217  CZ3 TRP D 205     137.221 104.888 145.840  0.00  0.00           C 0
+ATOM   9218  CH2 TRP D 205     137.032 103.634 146.427  0.00  0.00           C 0
+ATOM   9223   CB ARG D 206     140.105 102.761 142.135  0.00  0.00           C 0
+ATOM   9225   CD ARG D 206     139.876 100.595 143.373  0.00  0.00           C 0
+ATOM   9226   NE ARG D 206     140.052  99.568 142.353  0.60  3.28           N 0
+ATOM   5408   NE ARG B 446     142.901  99.922 140.539  0.55  2.19           N 0
+ATOM   5389  CE1 HIS B 443     146.357  98.409 143.581  0.00  0.00           C 0
+ATOM   5452  NH2 ARG B 450     145.887 104.087 142.304  0.63  7.66           N 0
+ATOM   5451  NH1 ARG B 450     143.985 104.442 141.087  0.00  0.00           N 0
+ATOM   9222    O ARG D 206     141.509 105.567 141.670  0.00  0.00           O 0
+ATOM   9246    O MET D 209     143.493 107.922 143.857  0.41  5.36           O 0
+ATOM   5407   CD ARG B 446     142.730 101.273 140.020  0.00  0.00           C 0
+ATOM   9247   CB MET D 209     140.776 107.778 144.641  0.00  0.00           C 0
+ATOM   9220   CA ARG D 206     139.583 104.188 141.991  0.00  0.00           C 0
+ATOM   9248   CG MET D 209     139.305 107.449 144.489  0.00  0.00           C 0
+ATOM   9297  CD1 ILE D 214     142.749 108.254 148.418  0.00  0.00           C 0
+TER
+END

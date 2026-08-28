@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    96:
+HEADER 0  - Pocket Score                      : -0.1588
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.0060
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6138
+HEADER 5  - Mean B-factor of pocket residues  : 0.6981
+HEADER 6  - Hydrophobicity Score              : 11.1667
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 200.4895
+HEADER 10 - Pocket volume (convex hull)       : 8.0023
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2778
+ATOM   2597   CB GLN C  11     162.650 139.983 227.901  0.00  0.00           C 0
+ATOM   2598   CG GLN C  11     163.874 140.389 227.096  0.00  0.00           C 0
+ATOM   2624   CD LYS C  14     161.249 146.301 228.614  0.00  0.00           C 0
+ATOM   2594   CA GLN C  11     162.454 140.787 229.186  0.00  0.00           C 0
+ATOM   2625   CE LYS C  14     160.792 147.514 227.820  0.00  0.00           C 0
+ATOM   2623   CG LYS C  14     160.261 145.959 229.717  0.00  0.00           C 0
+ATOM   2658  OE1 GLN C  18     155.266 146.223 227.281  0.63  9.64           O 0
+ATOM   2627    N LEU C  15     158.016 142.895 230.664  0.00  0.00           N 0
+ATOM   2596    O GLN C  11     160.137 141.156 229.702  0.60  4.29           O 0
+ATOM   2633  CD1 LEU C  15     154.816 141.731 227.910  0.00  0.00           C 0
+ATOM   2631   CB LEU C  15     156.600 141.206 229.596  0.00  0.00           C 0
+ATOM   2628   CA LEU C  15     156.649 142.581 230.261  0.00  0.00           C 0
+ATOM   1384   CA GLY B 182     156.669 145.630 222.361  0.00  0.00           C 0
+ATOM   1386    O GLY B 182     154.847 144.116 222.204  0.64  4.29           O 0
+ATOM   1379    O THR B 181     156.764 148.392 222.633  0.61  5.36           O 0
+ATOM   1381  OG1 THR B 181     160.092 149.161 222.467  0.44  6.43           O 0
+ATOM   1383    N GLY B 182     157.475 146.537 221.573  0.84  7.66           N 0
+TER
+END

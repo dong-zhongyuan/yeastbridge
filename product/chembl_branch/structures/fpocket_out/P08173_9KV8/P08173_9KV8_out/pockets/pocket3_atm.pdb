@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     3:
+HEADER 0  - Pocket Score                      : 0.0763
+HEADER 1  - Drug Score                        : 0.0018
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 3.6495
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4921
+HEADER 5  - Mean B-factor of pocket residues  : 0.3912
+HEADER 6  - Hydrophobicity Score              : 23.1250
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 82.3617
+HEADER 10 - Pocket volume (convex hull)       : 0.6778
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.6000
+ATOM    351   CG LEU C  64     163.948 166.443 180.956  0.00  0.00           C 0
+ATOM   2039   CA PRO C 425     158.649 171.066 180.417  0.00  0.00           C 0
+ATOM    355   CA THR C  65     160.316 165.090 178.217  0.00  0.00           C 0
+ATOM   2038    N PRO C 425     158.878 170.546 181.777  0.00  0.00           N 0
+ATOM    381  OD2 ASP C  68     160.683 166.021 182.646  0.69  1.07           O 0
+ATOM    353  CD2 LEU C  64     164.468 167.862 181.066  0.00  0.00           C 0
+ATOM   2033    O ASN C 424     160.870 171.574 181.833  0.67  1.07           O 0
+ATOM   2068   CB TYR C 428     163.791 172.002 180.184  0.00  0.00           C 0
+ATOM   2076    N ALA C 429     161.885 173.039 177.996  0.76  1.09           N 0
+ATOM   2080   CB ALA C 429     160.542 172.006 176.230  0.00  0.00           C 0
+ATOM    320    O PHE C  61     162.983 166.414 176.096  0.69  2.14           O 0
+ATOM    321   CB PHE C  61     164.448 169.116 174.912  0.00  0.00           C 0
+ATOM    354    N THR C  65     161.768 165.002 178.267  0.00  0.00           N 0
+ATOM    358   CB THR C  65     159.869 166.042 177.103  0.00  0.00           C 0
+ATOM   2032    C ASN C 424     160.015 170.878 182.407  0.00  0.00           C 0
+ATOM    318   CA PHE C  61     164.851 167.848 175.664  0.00  0.00           C 0
+ATOM    323  CD1 PHE C  61     165.933 170.353 176.516  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    20:
+HEADER 0  - Pocket Score                      : 0.0083
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8894
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6553
+HEADER 5  - Mean B-factor of pocket residues  : 0.5016
+HEADER 6  - Hydrophobicity Score              : 8.5714
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 225.3918
+HEADER 10 - Pocket volume (convex hull)       : 2.6665
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0667
+ATOM   8865   CB ASP O 131      26.559  14.618 -11.369  0.00  0.00           C 0
+ATOM   7595  NH2 ARG M 106      27.937  20.581 -14.149  0.00  0.00           N 0
+ATOM   8866    N GLY O 132      26.216  16.380 -14.280  0.00  0.00           N 0
+ATOM   8862   CA ASP O 131      25.914  15.891 -11.928  0.00  0.00           C 0
+ATOM   8838   CB ARG O 126      29.914  16.922  -7.324  0.00  0.00           C 0
+ATOM   8808    O ASP O 122      31.061  20.115  -8.285  0.61  2.14           O 0
+ATOM   8810   CG ASP O 122      33.014  22.041 -11.775  0.00  0.00           C 0
+ATOM   8812  OD2 ASP O 122      33.959  21.808 -12.559  0.59  8.57           O 0
+ATOM   8811  OD1 ASP O 122      32.009  22.707 -12.100  0.00  0.00           O 0
+ATOM   8809   CB ASP O 122      33.091  21.491 -10.365  0.00  0.00           C 0
+ATOM   7592   NE ARG M 106      29.145  22.539 -14.170  0.00  0.00           N 0
+ATOM   7593   CZ ARG M 106      28.271  21.718 -14.745  0.00  0.00           C 0
+ATOM   8856    O ILE O 130      25.926  17.205  -9.496  0.00  0.00           O 0
+ATOM   8834    N ARG O 126      28.388  18.837  -7.319  0.00  0.00           N 0
+ATOM   8832  CG2 ILE O 125      26.329  20.546  -9.999  0.00  0.00           C 0
+ATOM   8830   CB ILE O 125      27.405  21.216  -9.159  0.00  0.00           C 0
+TER
+END

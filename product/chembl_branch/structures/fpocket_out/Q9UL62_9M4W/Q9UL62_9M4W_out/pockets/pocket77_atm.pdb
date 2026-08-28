@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    77:
+HEADER 0  - Pocket Score                      : -0.0863
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.6820
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5228
+HEADER 5  - Mean B-factor of pocket residues  : 0.2758
+HEADER 6  - Hydrophobicity Score              : 24.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 138.5929
+HEADER 10 - Pocket volume (convex hull)       : 1.1635
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1250
+ATOM   4894   CB ALA A 632     156.950 161.687 159.123  0.00  0.00           C 0
+ATOM   4891   CA ALA A 632     156.441 160.316 158.678  0.00  0.00           C 0
+ATOM   4917   CB ALA A 635     152.851 158.359 159.243  0.00  0.00           C 0
+ATOM   4893    O ALA A 632     155.377 160.793 156.603  0.46  9.64           O 0
+ATOM   4864   OH TYR A 628     155.571 163.222 163.980  0.54  9.64           O 0
+ATOM   3895   OG SER A 509     154.291 158.522 163.618  0.63  5.36           O 0
+ATOM   3862   CB PRO A 505     149.252 159.519 162.036  0.00  0.00           C 0
+ATOM   3861    O PRO A 505     151.401 157.980 164.007  0.00  0.00           O 0
+ATOM   3860    C PRO A 505     150.257 158.447 164.086  0.00  0.00           C 0
+ATOM  20175   NZ LYS D 519     150.455 164.321 165.445  0.00  0.00           N 0
+ATOM   3866   CA LEU A 506     150.670 159.222 166.346  0.00  0.00           C 0
+ATOM   3871  CD1 LEU A 506     151.934 161.491 168.116  0.00  0.00           C 0
+ATOM   3865    N LEU A 506     149.830 159.111 165.161  0.74  1.09           N 0
+TER
+END

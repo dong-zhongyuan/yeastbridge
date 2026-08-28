@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : -0.0477
+HEADER 1  - Drug Score                        : 0.0028
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.8263
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6482
+HEADER 5  - Mean B-factor of pocket residues  : 0.3831
+HEADER 6  - Hydrophobicity Score              : 0.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 191.1991
+HEADER 10 - Pocket volume (convex hull)       : 2.7329
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.8824
+ATOM   2294   CB ARG B 126      27.318  -1.086   8.312  0.00  0.00           C 0
+ATOM   2704  CG1 VAL D1640      32.477  -3.311   3.801  0.00  0.00           C 0
+ATOM   2295   CG ARG B 126      27.887   0.249   8.787  0.00  0.00           C 0
+ATOM   2296   CD ARG B 126      28.836   0.104   9.972  0.00  0.00           C 0
+ATOM   2305   CB GLU B 127      28.557  -2.038   3.102  0.00  0.00           C 0
+ATOM   2306   CG GLU B 127      29.216  -1.646   1.771  0.00  0.00           C 0
+ATOM   2302   CA GLU B 127      27.892  -0.865   3.824  0.00  0.00           C 0
+ATOM   2270   CG GLU B 123      30.827  -6.394   8.658  0.00  0.00           C 0
+ATOM   2266   CA GLU B 123      28.628  -5.473   7.686  0.00  0.00           C 0
+ATOM   2299  NH1 ARG B 126      28.444  -2.270  11.401  0.58  3.28           N 0
+ATOM   2269   CB GLU B 123      29.882  -6.313   7.435  0.00  0.00           C 0
+ATOM   2301    N GLU B 127      27.309  -1.305   5.090  0.68  1.09           N 0
+ATOM   2292    C ARG B 126      26.803  -0.405   5.943  0.00  0.00           C 0
+ATOM   2268    O GLU B 123      28.116  -4.080   5.799  0.33  1.07           O 0
+ATOM   2293    O ARG B 126      26.783   0.803   5.685  0.00  0.00           O 0
+ATOM   2702    O VAL D1640      33.431  -0.939   1.555  0.00  0.00           O 0
+ATOM   2304    O GLU B 127      27.133   0.767   2.235  0.00  0.00           O 0
+TER
+END

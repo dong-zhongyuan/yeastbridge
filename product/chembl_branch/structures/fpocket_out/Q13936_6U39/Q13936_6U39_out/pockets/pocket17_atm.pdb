@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    17:
+HEADER 0  - Pocket Score                      : 0.0096
+HEADER 1  - Drug Score                        : 0.0036
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.6076
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3856
+HEADER 5  - Mean B-factor of pocket residues  : 0.4468
+HEADER 6  - Hydrophobicity Score              : 65.0000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 117.4405
+HEADER 10 - Pocket volume (convex hull)       : 0.3862
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.8333
+ATOM   6998   CZ PHE M  12      20.142  41.366   4.734  0.00  0.00           C 0
+ATOM   6996  CE1 PHE M  12      20.848  41.077   3.583  0.00  0.00           C 0
+ATOM   7957  CE2 PHE N1622      21.084  37.381   2.117  0.00  0.00           C 0
+ATOM   7932  CE1 TYR N1619      17.098  36.364   0.650  0.00  0.00           C 0
+ATOM   7425   CE MET M  72      20.430  41.851  -0.563  0.00  0.00           C 0
+ATOM   7930  CD1 TYR N1619      17.060  37.485  -0.166  0.00  0.00           C 0
+ATOM   7421    O MET M  72      16.712  42.668   3.455  0.62  3.21           O 0
+ATOM   7439    O LYS M  75      14.484  40.011   5.049  0.42  8.57           O 0
+ATOM   7440   CB LYS M  75      13.881  40.561   2.179  0.00  0.00           C 0
+ATOM   7422   CB MET M  72      18.813  43.763   1.481  0.00  0.00           C 0
+ATOM   7424   SD MET M  72      19.398  43.190  -1.153  0.00  0.00           S 0
+ATOM   7419   CA MET M  72      17.365  44.186   1.722  0.00  0.00           C 0
+ATOM   7928   CB TYR N1619      16.915  38.600  -2.434  0.00  0.00           C 0
+ATOM   7902  CG1 VAL N1615      14.061  43.259  -2.489  0.00  0.00           C 0
+TER
+END

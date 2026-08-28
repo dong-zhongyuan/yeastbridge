@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    30:
+HEADER 0  - Pocket Score                      : -0.1337
+HEADER 1  - Drug Score                        : 0.0022
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 4.0015
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5849
+HEADER 5  - Mean B-factor of pocket residues  : 0.9982
+HEADER 6  - Hydrophobicity Score              : 78.4286
+HEADER 7  - Polarity Score                    :     0
+HEADER 8  - Amino Acid based volume Score     : 4.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 201.4779
+HEADER 10 - Pocket volume (convex hull)       : 2.4932
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 19.0000
+HEADER 13 - Number of apolar alpha sphere     :    20
+HEADER 14 - Proportion of apolar alpha sphere : 0.8333
+ATOM    773   CA LEU A 104      -1.656  -4.186 -13.486  0.00  0.00           C 0
+ATOM   1180  CD2 PHE A 154      -8.590  -5.123 -16.571  0.00  0.00           C 0
+ATOM   1182  CE2 PHE A 154      -8.089  -5.906 -17.626  0.00  0.00           C 0
+ATOM    778  CD1 LEU A 104      -2.228  -6.876 -11.942  0.00  0.00           C 0
+ATOM   1216   CB ALA A 158      -6.257  -2.869 -18.654  0.00  0.00           C 0
+ATOM    770   CB ALA A 103      -2.006  -2.918 -17.829  0.00  0.00           C 0
+ATOM    769    C ALA A 103      -2.063  -2.579 -15.307  0.00  0.00           C 0
+ATOM    744  CD2 LEU A 100      -0.435  -7.786 -19.997  0.00  0.00           C 0
+ATOM   1244  CD1 LEU A 162      -3.689  -4.738 -21.913  0.00  0.00           C 0
+ATOM    775   CB LEU A 104      -0.680  -5.351 -13.248  0.00  0.00           C 0
+ATOM    772    N LEU A 104      -1.361  -3.591 -14.791  0.81  1.09           N 0
+ATOM    741    O LEU A 100       0.577  -5.111 -16.327  0.61  4.29           O 0
+ATOM    803   CB VAL A 107      -5.875  -2.201 -13.265  0.00  0.00           C 0
+ATOM    806  CG2 VAL A 107      -6.091  -1.813 -14.732  0.00  0.00           C 0
+ATOM    805  CG1 VAL A 107      -7.129  -2.982 -12.834  0.00  0.00           C 0
+ATOM    771    O ALA A 103      -3.019  -2.086 -14.712  0.00  0.00           O 0
+TER
+END

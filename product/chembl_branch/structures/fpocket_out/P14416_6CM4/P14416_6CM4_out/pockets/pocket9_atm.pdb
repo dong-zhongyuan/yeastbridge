@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : -0.0149
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9599
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5311
+HEADER 5  - Mean B-factor of pocket residues  : 0.4299
+HEADER 6  - Hydrophobicity Score              : 0.4444
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 250.2118
+HEADER 10 - Pocket volume (convex hull)       : 8.7610
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM    999   CA GLY A 173       9.333  21.223 -17.023  0.00  0.00           C 0
+ATOM    990    O PHE A 172       9.011  23.607 -15.641  0.62  6.43           O 0
+ATOM   1021    O ASN A 176      13.054  23.656 -19.280  0.00  0.00           O 0
+ATOM   1034   CA GLN A 179       8.987  22.105 -23.424  0.00  0.00           C 0
+ATOM   1031    O ASP A 178       9.372  20.082 -21.554  0.42  2.14           O 0
+ATOM   1036    O GLN A 179       6.787  21.279 -22.902  0.00  0.00           O 0
+ATOM   1030    C ASP A 178      10.328  20.465 -22.235  0.00  0.00           C 0
+ATOM    998    N GLY A 173       8.179  21.592 -16.224  0.00  0.00           N 0
+ATOM    988   CA PHE A 172       6.795  23.074 -14.882  0.00  0.00           C 0
+ATOM    982    O LEU A 171       4.541  21.531 -15.041  0.55  9.64           O 0
+ATOM    517  NH1 ARG A 104       2.092  19.927 -20.857  0.00  0.00           N 0
+ATOM    550  OD2 ASP A 108       4.043  17.922 -17.986  0.56  4.29           O 0
+ATOM   1046    O GLU A 181       7.211  17.295 -21.099  0.61  4.29           O 0
+ATOM    989    C PHE A 172       8.096  22.777 -15.619  0.00  0.00           C 0
+ATOM    516   CZ ARG A 104       2.650  19.849 -22.059  0.00  0.00           C 0
+ATOM    518  NH2 ARG A 104       2.417  20.795 -22.961  0.00  0.00           N 0
+TER
+END

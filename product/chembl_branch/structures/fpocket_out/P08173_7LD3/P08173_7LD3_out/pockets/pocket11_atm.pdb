@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : 0.0106
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9386
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6606
+HEADER 5  - Mean B-factor of pocket residues  : 0.1141
+HEADER 6  - Hydrophobicity Score              : -5.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 280.5347
+HEADER 10 - Pocket volume (convex hull)       : 12.1096
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2500
+ATOM   3285   NE ARG R 208     120.644 100.715 127.435  0.70  3.28           N 0
+ATOM   3290   CA LYS R 209     121.843  95.869 124.566  0.00  0.00           C 0
+ATOM   3281    O ARG R 208     123.063  98.301 124.722  0.51  1.07           O 0
+ATOM   3288  NH2 ARG R 208     119.400  99.866 129.171  0.61  7.66           N 0
+ATOM   3289    N LYS R 209     121.242  97.125 124.140  0.00  0.00           N 0
+ATOM   3258  CE1 TYR R 205     117.802  95.897 128.546  0.00  0.00           C 0
+ATOM   3294   CG LYS R 209     121.255  93.615 125.621  0.00  0.00           C 0
+ATOM   3292    O LYS R 209     123.775  94.691 123.782  0.48  1.07           O 0
+ATOM   3319   CB ASN R 212     126.367  97.448 125.617  0.00  0.00           C 0
+ATOM   3318    O ASN R 212     127.840  95.113 125.428  0.00  0.00           O 0
+ATOM   3331   NZ LYS R 213     124.208  90.606 123.611  0.74  9.84           N 0
+ATOM   3293   CB LYS R 209     120.752  94.870 124.945  0.00  0.00           C 0
+ATOM   3322  ND2 ASN R 212     125.184  99.301 126.631  0.00  0.00           N 0
+ATOM   3287  NH1 ARG R 208     120.062 102.063 129.200  0.58  6.56           N 0
+ATOM   3286   CZ ARG R 208     120.035 100.881 128.602  0.00  0.00           C 0
+ATOM   3284   CD ARG R 208     121.366 101.768 126.731  0.00  0.00           C 0
+TER
+END

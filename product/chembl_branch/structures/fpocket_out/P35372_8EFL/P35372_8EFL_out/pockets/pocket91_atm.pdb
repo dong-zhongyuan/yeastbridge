@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    91:
+HEADER 0  - Pocket Score                      : -0.1146
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.8912
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4555
+HEADER 5  - Mean B-factor of pocket residues  : 0.6857
+HEADER 6  - Hydrophobicity Score              : 21.5000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.8750
+HEADER 9  - Pocket volume (Monte Carlo)       : 205.0951
+HEADER 10 - Pocket volume (convex hull)       : 2.9997
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1579
+ATOM   6831  CD1 ILE C  25     127.816 106.860  38.422  0.00  0.00           C 0
+ATOM   5781  NH2 ARG B 219     124.048 110.070  38.831  0.33  6.56           N 0
+ATOM   5790  NE2 GLN B 220     128.292 107.934  41.626  0.56  5.47           N 0
+ATOM   6060   CG ARG B 256     130.097 113.778  40.079  0.00  0.00           C 0
+ATOM   6838  OD1 ASP C  26     128.001 109.524  34.257  0.65  6.43           O 0
+ATOM   6058    O ARG B 256     132.793 110.139  39.365  0.48  2.14           O 0
+ATOM   6835    O ASP C  26     130.853 110.171  34.707  0.40  8.57           O 0
+ATOM   6829  CG1 ILE C  25     128.226 106.790  36.973  0.00  0.00           C 0
+ATOM   6049    C LEU B 255     130.554 110.525  42.604  0.00  0.00           C 0
+ATOM   6050    O LEU B 255     130.454 109.447  42.006  0.00  0.00           O 0
+ATOM   6056   CA ARG B 256     131.364 111.626  40.593  0.00  0.00           C 0
+ATOM   5935  OD1 ASN B 239     127.781 116.461  43.181  0.00  0.00           O 0
+ATOM   6051   CB LEU B 255     128.799 111.348  44.195  0.00  0.00           C 0
+ATOM   5778   NE ARG B 219     123.749 109.012  40.852  0.59  1.09           N 0
+ATOM   6053  CD1 LEU B 255     126.914 112.193  45.623  0.00  0.00           C 0
+ATOM   5623  CD2 LEU B 198     121.868 111.547  43.844  0.00  0.00           C 0
+TER
+END

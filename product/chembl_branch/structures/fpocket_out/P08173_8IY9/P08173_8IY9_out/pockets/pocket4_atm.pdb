@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     4:
+HEADER 0  - Pocket Score                      : 0.0926
+HEADER 1  - Drug Score                        : 0.0037
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.6494
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4236
+HEADER 5  - Mean B-factor of pocket residues  : 0.1006
+HEADER 6  - Hydrophobicity Score              : 76.1111
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 113.8052
+HEADER 10 - Pocket volume (convex hull)       : 2.3945
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 16.0000
+HEADER 13 - Number of apolar alpha sphere     :    17
+HEADER 14 - Proportion of apolar alpha sphere : 0.9444
+ATOM   3569   CB LEU B 286     144.114 165.578 135.296  0.00  0.00           C 0
+ATOM   3848   CB VAL B 327     140.657 163.767 139.501  0.00  0.00           C 0
+ATOM   4260  CD1 LEU G  50     137.036 165.701 137.164  0.00  0.00           C 0
+ATOM   3803  CG2 VAL B 320     139.687 162.392 135.905  0.00  0.00           C 0
+ATOM   3850  CG2 VAL B 327     141.896 163.195 138.840  0.00  0.00           C 0
+ATOM   3732  CD2 LEU B 308     144.341 167.288 140.351  0.00  0.00           C 0
+ATOM   3849  CG1 VAL B 327     141.012 165.002 140.290  0.00  0.00           C 0
+ATOM   3640  CG2 VAL B 296     144.291 169.719 137.083  0.00  0.00           C 0
+ATOM   3517   CB SER B 279     137.579 166.227 133.233  0.00  0.00           C 0
+ATOM   3555  CD1 LEU B 284     139.042 170.262 134.698  0.00  0.00           C 0
+ATOM   3553   CB LEU B 284     139.994 169.243 132.660  0.00  0.00           C 0
+ATOM   3639  CG1 VAL B 296     142.994 170.533 135.127  0.00  0.00           C 0
+ATOM   1829   CE MET B  45     139.507 169.199 139.497  0.00  0.00           C 0
+ATOM   1828   SD MET B  45     141.003 169.620 140.342  0.00  0.00           S 0
+ATOM   3513    N SER B 279     138.948 164.660 131.958  0.44  1.09           N 0
+ATOM   3552    O LEU B 284     140.548 166.787 130.835  0.00  0.00           O 0
+TER
+END

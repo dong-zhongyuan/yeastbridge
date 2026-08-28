@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    37:
+HEADER 0  - Pocket Score                      : -0.0116
+HEADER 1  - Drug Score                        : 0.0052
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.0674
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7258
+HEADER 5  - Mean B-factor of pocket residues  : 0.7616
+HEADER 6  - Hydrophobicity Score              : 89.0000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 5.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 258.8886
+HEADER 10 - Pocket volume (convex hull)       : 2.7022
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 15.0000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 0.9412
+ATOM  10414  CH2 TRP B 410     131.160 151.488 164.874  0.00  0.00           C 0
+ATOM  10695   CG MET B 462     132.216 152.710 160.097  0.00  0.00           C 0
+ATOM  10723  CG2 VAL B 465     126.249 152.489 162.031  0.00  0.00           C 0
+ATOM  10722  CG1 VAL B 465     127.436 152.193 164.197  0.00  0.00           C 0
+ATOM  10721   CB VAL B 465     127.286 153.077 162.971  0.00  0.00           C 0
+ATOM  10696   SD MET B 462     133.266 151.283 159.762  0.00  0.00           S 0
+ATOM  10664  CG1 ILE B 458     130.207 149.927 152.257  0.00  0.00           C 0
+ATOM  10665  CG2 ILE B 458     131.481 150.340 154.373  0.00  0.00           C 0
+ATOM  10689  CD1 ILE B 461     125.232 152.052 154.521  0.00  0.00           C 0
+ATOM  10688  CG2 ILE B 461     125.930 152.006 157.646  0.00  0.00           C 0
+ATOM  10691   CA MET B 462     129.879 153.512 159.427  0.00  0.00           C 0
+ATOM  10660   CA ILE B 458     129.861 152.072 153.535  0.00  0.00           C 0
+ATOM  10686   CB ILE B 461     126.449 152.949 156.571  0.00  0.00           C 0
+ATOM  10662    O ILE B 458     130.210 152.972 155.745  0.45  2.14           O 0
+ATOM  10694   CB MET B 462     131.247 153.007 158.964  0.00  0.00           C 0
+ATOM  10690    N MET B 462     129.018 153.751 158.274  0.00  0.00           N 0
+TER
+END

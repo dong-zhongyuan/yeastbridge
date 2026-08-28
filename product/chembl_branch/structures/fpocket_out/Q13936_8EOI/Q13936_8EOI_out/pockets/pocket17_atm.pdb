@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    17:
+HEADER 0  - Pocket Score                      : 0.0446
+HEADER 1  - Drug Score                        : 0.0013
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.5445
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3771
+HEADER 5  - Mean B-factor of pocket residues  : 0.0618
+HEADER 6  - Hydrophobicity Score              : 46.8889
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.8889
+HEADER 9  - Pocket volume (Monte Carlo)       : 87.5273
+HEADER 10 - Pocket volume (convex hull)       : 1.2061
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.7222
+ATOM  10744  OG1 THR C 138     182.989 160.430 162.867  0.00  0.00           O 0
+ATOM  11010  CH2 TRP C 171     179.985 160.986 168.135  0.00  0.00           C 0
+ATOM  13140    O PHE F 102     185.353 161.492 167.756  0.39  2.14           O 0
+ATOM  10743   CB THR C 138     181.804 161.177 162.566  0.00  0.00           C 0
+ATOM   9965  CG1 VAL C  17     181.040 165.703 166.922  0.00  0.00           C 0
+ATOM  10745  CG2 THR C 138     180.612 160.516 163.236  0.00  0.00           C 0
+ATOM  13170    C GLY F 105     186.633 162.651 164.393  0.00  0.00           C 0
+ATOM   9966  CG2 VAL C  17     180.959 166.840 164.693  0.00  0.00           C 0
+ATOM  13169   CA GLY F 105     186.108 161.276 164.031  0.00  0.00           C 0
+ATOM  13172    N MET F 106     186.858 162.890 165.686  0.00  0.00           N 0
+ATOM  13179   CE MET F 106     184.632 165.958 168.213  0.00  0.00           C 0
+ATOM  13213  CE2 TYR F 110     185.096 165.640 161.703  0.00  0.00           C 0
+ATOM   9925   CG ARG C  13     185.357 168.410 164.268  0.00  0.00           C 0
+ATOM  13171    O GLY F 105     186.836 163.500 163.522  0.00  0.00           O 0
+ATOM  13215   OH TYR F 110     182.807 165.826 161.090  0.00  0.00           O 0
+ATOM  10735    O THR C 137     181.237 163.975 161.057  0.77  1.07           O 0
+TER
+END

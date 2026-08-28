@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : 0.0525
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.7729
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4919
+HEADER 5  - Mean B-factor of pocket residues  : 0.3240
+HEADER 6  - Hydrophobicity Score              : 8.8889
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 5.2222
+HEADER 9  - Pocket volume (Monte Carlo)       : 176.7378
+HEADER 10 - Pocket volume (convex hull)       : 5.1774
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.5500
+ATOM   1087   CZ PHE B 210     144.445 143.655 105.791  0.00  0.00           C 0
+ATOM   1117   CE LYS B 214     139.632 143.956 109.020  0.00  0.00           C 0
+ATOM   2060   CB LEU A 132     144.310 139.954 108.729  0.00  0.00           C 0
+ATOM   2072   CZ ARG A 133     145.352 146.595 110.417  0.00  0.00           C 0
+ATOM   2064    N ARG A 133     145.536 141.075 111.497  0.86  1.09           N 0
+ATOM   2074  NH2 ARG A 133     144.260 147.191 110.871  0.62  7.66           N 0
+ATOM   1086  CE2 PHE B 210     143.275 144.154 105.259  0.00  0.00           C 0
+ATOM   1057  NH2 ARG B 207     143.036 146.981 103.426  0.00  0.00           N 0
+ATOM   2073  NH1 ARG A 133     145.668 146.689 109.134  0.80  4.37           N 0
+ATOM    222  OD2 ASP B  59     145.154 147.381 104.715  0.00  0.00           O 0
+ATOM   1116   CD LYS B 214     139.643 143.150 107.738  0.00  0.00           C 0
+ATOM   1094  OD1 ASN B 211     138.560 145.008 103.510  0.14  6.43           O 0
+ATOM   2038   CA TYR A 130     141.857 143.041 113.839  0.00  0.00           C 0
+ATOM   2056    N LEU A 132     143.155 139.780 110.883  0.87  1.09           N 0
+ATOM   2055   CD PRO A 131     140.186 141.426 111.967  0.00  0.00           C 0
+ATOM   2068   CB ARG A 133     146.605 143.197 112.065  0.00  0.00           C 0
+ATOM   2069   CG ARG A 133     147.159 143.722 110.764  0.00  0.00           C 0
+TER
+END

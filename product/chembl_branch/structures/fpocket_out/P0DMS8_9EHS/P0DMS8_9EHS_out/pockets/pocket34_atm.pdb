@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    34:
+HEADER 0  - Pocket Score                      : -0.0997
+HEADER 1  - Drug Score                        : 0.0013
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.0033
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6830
+HEADER 5  - Mean B-factor of pocket residues  : 0.6404
+HEADER 6  - Hydrophobicity Score              : 76.5000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 250.7202
+HEADER 10 - Pocket volume (convex hull)       : 3.7534
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.7647
+ATOM   5248   CB LEU R 140     160.606 154.631 169.666  0.00  0.00           C 0
+ATOM   5221   CA VAL R 137     158.601 150.840 167.832  0.00  0.00           C 0
+ATOM   5225  CG1 VAL R 137     156.702 151.408 166.262  0.00  0.00           C 0
+ATOM   5250  CD1 LEU R 140     162.464 154.129 168.057  0.00  0.00           C 0
+ATOM   5258  CG2 VAL R 141     155.730 154.980 168.248  0.00  0.00           C 0
+ATOM   5622  CZ2 TRP R 185     154.656 156.109 164.985  0.00  0.00           C 0
+ATOM   5624  CH2 TRP R 185     154.694 154.938 164.278  0.00  0.00           C 0
+ATOM   5226  CG2 VAL R 137     158.717 150.305 165.386  0.00  0.00           C 0
+ATOM   5223    O VAL R 137     157.467 152.429 169.234  0.00  0.00           O 0
+ATOM   5276  OG1 THR R 144     157.693 159.038 171.282  0.00  0.00           O 0
+ATOM   5578   CZ PHE R 180     154.880 160.242 167.116  0.00  0.00           C 0
+ATOM   5577  CE2 PHE R 180     154.511 159.940 168.414  0.00  0.00           C 0
+ATOM   5253   CA VAL R 141     156.381 155.769 170.527  0.00  0.00           C 0
+ATOM   5247    O LEU R 140     158.797 156.691 171.526  0.55  1.07           O 0
+ATOM   5246    C LEU R 140     158.749 155.531 171.099  0.00  0.00           C 0
+ATOM   5252    N VAL R 141     157.628 155.001 170.595  0.00  0.00           N 0
+TER
+END

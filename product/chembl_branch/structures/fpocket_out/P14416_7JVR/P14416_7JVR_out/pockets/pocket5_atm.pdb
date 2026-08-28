@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     5:
+HEADER 0  - Pocket Score                      : 0.0310
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.1555
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6354
+HEADER 5  - Mean B-factor of pocket residues  : 0.2857
+HEADER 6  - Hydrophobicity Score              : -13.1667
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 5.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 280.4966
+HEADER 10 - Pocket volume (convex hull)       : 11.0030
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1667
+ATOM   5972  OE1 GLU B 260      80.458  76.726  79.516  0.00  0.00           O 0
+ATOM   5963  OE1 GLN B 259      78.409  70.183  76.104  0.60  4.29           O 0
+ATOM   5969   CB GLU B 260      81.394  74.218  79.839  0.00  0.00           C 0
+ATOM   5968    O GLU B 260      79.866  71.499  80.557  0.00  0.00           O 0
+ATOM   5965    N GLU B 260      81.968  72.097  78.798  0.79  3.28           N 0
+ATOM   5960   CB GLN B 259      81.067  70.296  76.700  0.00  0.00           C 0
+ATOM   5689    O THR B 223      83.889  76.438  75.362  0.32  7.50           O 0
+ATOM   4144   CB ARG B  22      79.018  69.180  73.025  0.00  0.00           C 0
+ATOM   4146   CD ARG B  22      81.242  70.276  72.711  0.00  0.00           C 0
+ATOM   4120   CB ARG B  19      78.447  72.663  68.735  0.00  0.00           C 0
+ATOM   4149  NH1 ARG B  22      83.136  72.345  72.480  0.70  6.56           N 0
+ATOM   4119    O ARG B  19      76.776  70.449  70.268  0.00  0.00           O 0
+ATOM   4156   CG LYS B  23      74.201  71.390  72.167  0.00  0.00           C 0
+ATOM   4117   CA ARG B  19      78.679  71.172  69.011  0.00  0.00           C 0
+ATOM   5957   CA GLN B 259      82.511  70.377  77.202  0.00  0.00           C 0
+TER
+END

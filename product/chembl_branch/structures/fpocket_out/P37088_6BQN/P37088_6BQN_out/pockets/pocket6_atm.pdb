@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : 0.0572
+HEADER 1  - Drug Score                        : 0.0012
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.5665
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3678
+HEADER 5  - Mean B-factor of pocket residues  : 0.1449
+HEADER 6  - Hydrophobicity Score              : 38.4545
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.3636
+HEADER 9  - Pocket volume (Monte Carlo)       : 123.9707
+HEADER 10 - Pocket volume (convex hull)       : 4.2887
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM  11757   CB UNK F  30     265.689 245.594 213.173  0.00  0.00           C 0
+ATOM  11756    O UNK F  30     266.273 247.850 211.620  0.58  4.29           O 0
+ATOM   4109  OD2 ASP B 154     262.058 251.264 213.351  0.58  6.43           O 0
+ATOM  11751    O UNK F  29     267.450 247.327 215.272  0.00  0.00           O 0
+ATOM   4128  NH1 ARG B 156     265.586 251.886 215.365  0.59  2.19           N 0
+ATOM   4267   CB CYS B 184     264.230 249.275 218.457  0.00  0.00           C 0
+ATOM   4263    N CYS B 184     265.478 247.128 218.283  0.63  1.09           N 0
+ATOM  11872   CB UNK F  54     263.352 247.124 208.167  0.00  0.00           C 0
+ATOM   4178   SD MET B 162     263.633 252.209 209.023  0.00  0.00           S 0
+ATOM   4191   CB LEU B 164     259.582 246.536 211.564  0.00  0.00           C 0
+ATOM   4177   CG MET B 162     262.106 252.721 209.830  0.00  0.00           C 0
+ATOM   4183    O VAL B 163     258.323 249.061 209.488  0.81  2.14           O 0
+ATOM   4093  CD2 LEU B 152     260.319 248.030 215.719  0.00  0.00           C 0
+ATOM   4261  CG2 ILE B 183     262.168 245.429 217.696  0.00  0.00           C 0
+ATOM   4194  CD2 LEU B 164     261.284 244.700 211.632  0.00  0.00           C 0
+ATOM   4108  OD1 ASP B 154     261.957 251.678 215.504  0.00  0.00           O 0
+TER
+END

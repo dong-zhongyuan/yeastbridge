@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    31:
+HEADER 0  - Pocket Score                      : -0.0317
+HEADER 1  - Drug Score                        : 0.0033
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.7893
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7013
+HEADER 5  - Mean B-factor of pocket residues  : 0.6957
+HEADER 6  - Hydrophobicity Score              : -0.8000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.2000
+HEADER 9  - Pocket volume (Monte Carlo)       : 222.9304
+HEADER 10 - Pocket volume (convex hull)       : 10.6779
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.5625
+ATOM   4411   CG GLU C  17     149.835 112.152 111.750  0.00  0.00           C 0
+ATOM   4376    C ARG C  13     147.653 111.032 115.241  0.00  0.00           C 0
+ATOM   4378   CB ARG C  13     145.789 109.607 114.359  0.00  0.00           C 0
+ATOM   4377    O ARG C  13     148.699 111.156 114.591  0.78  1.07           O 0
+ATOM   4408    C GLU C  17     152.924 113.569 113.625  0.00  0.00           C 0
+ATOM   4422  OE1 GLN C  18     152.948 118.402 115.442  0.36  7.50           O 0
+ATOM   4409    O GLU C  17     153.920 113.861 112.951  0.00  0.00           O 0
+ATOM   4445   CE MET C  21     154.286 118.181 109.689  0.00  0.00           C 0
+ATOM   4390   CG LYS C  14     145.519 114.687 115.773  0.00  0.00           C 0
+ATOM   4386   CA LYS C  14     147.715 113.376 115.870  0.00  0.00           C 0
+ATOM   4388    O LYS C  14     150.040 113.939 116.067  0.46  3.21           O 0
+ATOM   4389   CB LYS C  14     146.801 114.403 116.538  0.00  0.00           C 0
+ATOM   4410   CB GLU C  17     150.723 113.132 112.500  0.00  0.00           C 0
+ATOM   4413  OE1 GLU C  17     151.426 112.222 109.976  0.64  7.50           O 0
+ATOM   4415    N GLN C  18     152.653 114.165 114.790  0.82  1.09           N 0
+ATOM   4385    N LYS C  14     147.085 112.059 115.879  0.88  1.09           N 0
+TER
+END

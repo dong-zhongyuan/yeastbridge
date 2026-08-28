@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     3:
+HEADER 0  - Pocket Score                      : -0.0016
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.8294
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5906
+HEADER 5  - Mean B-factor of pocket residues  : 0.3047
+HEADER 6  - Hydrophobicity Score              : 1.3333
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 254.4200
+HEADER 10 - Pocket volume (convex hull)       : 9.3420
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.4706
+ATOM   2631   CG ARG C  90     -24.113  -7.919 -78.281  0.00  0.00           C 0
+ATOM   2673   CA GLY C  96     -19.639  -6.180 -72.703  0.00  0.00           C 0
+ATOM   2632   CD ARG C  90     -25.588  -7.991 -77.915  0.00  0.00           C 0
+ATOM   2630   CB ARG C  90     -23.371  -9.268 -78.173  0.00  0.00           C 0
+ATOM   2675    O GLY C  96     -19.904  -3.825 -72.434  0.00  0.00           O 0
+ATOM   2657  OD1 ASP C  93     -17.962  -5.196 -75.922  0.00  0.00           O 0
+ATOM   2624  CE2 PHE C  89     -19.216  -4.489 -79.039  0.00  0.00           C 0
+ATOM   2685   CA GLY C  98     -17.609  -2.155 -75.954  0.00  0.00           C 0
+ATOM   2622  CD2 PHE C  89     -20.085  -5.269 -79.801  0.00  0.00           C 0
+ATOM   2684    N GLY C  98     -17.623  -2.893 -74.683  0.00  0.00           N 0
+ATOM   2627   CA ARG C  90     -21.859  -9.201 -78.503  0.00  0.00           C 0
+ATOM   2655   CB ASP C  93     -17.768  -7.352 -76.943  0.00  0.00           C 0
+ATOM   2654    O ASP C  93     -18.698  -9.003 -74.971  0.52  2.14           O 0
+ATOM   2672    N GLY C  96     -18.668  -7.232 -72.439  0.00  0.00           N 0
+ATOM   2662    O LYS C  94     -18.670 -10.661 -71.821  0.24  9.64           O 0
+ATOM   2629    O ARG C  90     -20.748 -10.762 -77.104  0.26  4.29           O 0
+TER
+END

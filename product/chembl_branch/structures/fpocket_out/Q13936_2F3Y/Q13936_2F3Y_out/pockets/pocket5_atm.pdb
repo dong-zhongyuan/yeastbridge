@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     5:
+HEADER 0  - Pocket Score                      : 0.1182
+HEADER 1  - Drug Score                        : 0.0093
+HEADER 2  - Number of alpha spheres           :    29
+HEADER 3  - Mean alpha-sphere radius          : 3.8026
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4471
+HEADER 5  - Mean B-factor of pocket residues  : 0.2389
+HEADER 6  - Hydrophobicity Score              : 20.2500
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.1250
+HEADER 9  - Pocket volume (Monte Carlo)       : 286.3071
+HEADER 10 - Pocket volume (convex hull)       : 16.3219
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 13.5294
+HEADER 13 - Number of apolar alpha sphere     :    17
+HEADER 14 - Proportion of apolar alpha sphere : 0.5862
+ATOM   1263  CD2 PHE B1676      14.187  -4.420  14.753  0.00  0.00           C 0
+ATOM   1229    O GLN B1673      14.155  -0.578  11.393  0.00  0.00           O 0
+ATOM    101  OE1 GLU A  14       8.184  -2.648   9.931  0.00  0.00           O 0
+ATOM    879  OE2 GLU A 114      10.242  -4.901  16.147  0.00  0.00           O 0
+ATOM    876   CG GLU A 114      11.733  -4.037  17.787  0.00  0.00           C 0
+ATOM   1227   CA GLN B1673      13.135   1.135  12.743  0.00  0.00           C 0
+ATOM   1260   CB PHE B1676      15.471  -2.313  14.267  0.00  0.00           C 0
+ATOM    843   CE MET A 109      14.568  -1.529  17.993  0.00  0.00           C 0
+ATOM   1231   CG GLN B1673      10.730   1.779  13.380  0.00  0.00           C 0
+ATOM    865  CD1 LEU A 112      11.941   2.134  17.841  0.00  0.00           C 0
+ATOM   1234  NE2 GLN B1673       8.329   1.520  13.594  0.50  4.37           N 0
+ATOM    862    O LEU A 112       8.236  -1.420  18.210  0.84  4.29           O 0
+ATOM   1303   CG LYS B1680      16.259  -7.247  12.816  0.00  0.00           C 0
+ATOM   1272   CG ARG B1677      13.652  -3.227   9.035  0.00  0.00           C 0
+ATOM   1268   CA ARG B1677      15.921  -3.826  10.078  0.00  0.00           C 0
+ATOM   1302   CB LYS B1680      16.965  -8.003  11.701  0.00  0.00           C 0
+ATOM   1277  NH2 ARG B1677      11.218  -0.935   9.004  0.00  0.00           N 0
+ATOM    863   CB LEU A 112      10.206   0.641  18.804  0.00  0.00           C 0
+ATOM   1230   CB GLN B1673      11.688   1.344  12.282  0.00  0.00           C 0
+ATOM   1270    O ARG B1677      17.569  -5.380   9.283  0.00  0.00           O 0
+TER
+END

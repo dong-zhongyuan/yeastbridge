@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : 0.0465
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 3.8208
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4598
+HEADER 5  - Mean B-factor of pocket residues  : 0.2745
+HEADER 6  - Hydrophobicity Score              : 14.7778
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 3.5556
+HEADER 9  - Pocket volume (Monte Carlo)       : 137.4259
+HEADER 10 - Pocket volume (convex hull)       : 4.2223
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   2366    O ALA A  11     108.576 156.426 148.423  0.57  3.21           O 0
+ATOM   7914    O TYR E 101     109.304 158.928 152.018  0.00  0.00           O 0
+ATOM   7911    N TYR E 101     111.149 161.260 151.428  0.68  3.28           N 0
+ATOM   7915   CB TYR E 101     109.354 160.809 149.808  0.00  0.00           C 0
+ATOM   7364    N GLY E  33     116.354 161.153 147.970  0.00  0.00           N 0
+ATOM   7918  CD2 TYR E 101     110.813 161.885 148.051  0.00  0.00           C 0
+ATOM   7900    O SER E  99     113.957 162.942 148.982  0.00  0.00           O 0
+ATOM   7350    O SER E  31     116.442 158.709 151.302  0.42  2.14           O 0
+ATOM   2367   CB ALA A  11     108.133 159.094 146.709  0.00  0.00           C 0
+ATOM   7515   OH TYR E  50     112.704 160.561 145.031  0.41  3.21           O 0
+ATOM   2393   CB ARG A  15     110.347 154.983 151.366  0.00  0.00           C 0
+ATOM   2395   CD ARG A  15     111.025 156.369 153.354  0.00  0.00           C 0
+ATOM   2398  NH1 ARG A  15     113.723 157.130 153.654  0.67  4.37           N 0
+ATOM   7529   OG SER E  52     113.442 156.641 144.745  0.50  2.14           O 0
+ATOM   7535   OG SER E  53     115.410 155.871 148.181  0.59  5.36           O 0
+ATOM   2389    N ARG A  15     109.743 153.784 149.316  0.59  1.09           N 0
+ATOM   7530    N SER E  53     115.969 157.232 145.641  0.00  0.00           N 0
+TER
+END

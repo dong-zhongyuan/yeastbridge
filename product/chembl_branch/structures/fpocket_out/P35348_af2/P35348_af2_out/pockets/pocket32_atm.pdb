@@ -1,0 +1,47 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    32:
+HEADER 0  - Pocket Score                      : -0.1469
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    38
+HEADER 3  - Mean alpha-sphere radius          : 4.1447
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5477
+HEADER 5  - Mean B-factor of pocket residues  : 0.7939
+HEADER 6  - Hydrophobicity Score              : 12.7143
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 459.9481
+HEADER 10 - Pocket volume (convex hull)       : 34.0711
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 15.0000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 0.4211
+ATOM   1000   NE ARG A 133     -25.554 -17.055  11.361  0.00  0.00           N 0
+ATOM    991  CD1 LEU A 132     -26.051 -12.346  17.090  0.00  0.00           C 0
+ATOM   1953  CE1 HIS A 256     -28.914 -13.476  18.782  0.00  0.00           C 0
+ATOM   1954  NE2 HIS A 256     -27.790 -13.927  19.363  0.00  0.00           N 0
+ATOM   1002  NH2 ARG A 133     -27.628 -17.920  10.953  0.00  0.00           N 0
+ATOM    964    O SER A 129     -24.750  -9.179   9.260  0.44  5.36           O 0
+ATOM    972  CD1 TYR A 130     -24.383 -12.400   8.107  0.00  0.00           C 0
+ATOM   1988  NH2 ARG A 260     -29.088  -8.897  12.374  0.00  0.00           N 0
+ATOM    974  CE1 TYR A 130     -25.005 -12.474   6.847  0.00  0.00           C 0
+ATOM    999   CD ARG A 133     -24.204 -16.564  11.008  0.00  0.00           C 0
+ATOM    998   CG ARG A 133     -23.406 -16.114  12.242  0.00  0.00           C 0
+ATOM   1003   CZ ARG A 133     -26.479 -17.487  10.516  0.00  0.00           C 0
+ATOM   1001  NH1 ARG A 133     -26.288 -17.504   9.225  0.42  6.56           N 0
+ATOM   1987  NH1 ARG A 260     -30.058  -9.958  14.089  0.00  8.75           N 0
+ATOM   1989   CZ ARG A 260     -29.099  -9.188  13.646  0.00  0.00           C 0
+ATOM    967   CA TYR A 130     -22.735 -10.780  10.397  0.00  0.00           C 0
+ATOM    969   CB TYR A 130     -22.334 -11.997   9.548  0.00  0.00           C 0
+ATOM    984   CD PRO A 131     -23.319  -8.761  12.520  0.00  0.00           C 0
+ATOM   1986   NE ARG A 260     -28.172  -8.679  14.446  0.68  1.09           N 0
+ATOM    990   CG LEU A 132     -24.601 -11.935  16.884  0.00  0.00           C 0
+ATOM    983   CG PRO A 131     -23.505  -8.238  13.939  0.00  0.00           C 0
+ATOM    985    N LEU A 132     -22.397 -11.537  14.829  0.00  0.00           N 0
+ATOM    968    C TYR A 130     -21.975 -10.716  11.736  0.00  0.00           C 0
+ATOM    993    N ARG A 133     -21.753 -14.057  13.743  0.77  1.09           N 0
+ATOM    988   CB LEU A 132     -23.891 -13.036  16.073  0.00  0.00           C 0
+TER
+END

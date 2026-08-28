@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     4:
+HEADER 0  - Pocket Score                      : 0.1145
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.5164
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3754
+HEADER 5  - Mean B-factor of pocket residues  : 0.6659
+HEADER 6  - Hydrophobicity Score              : 26.6000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 111.3080
+HEADER 10 - Pocket volume (convex hull)       : 3.5163
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2000
+ATOM   2017  CD1 PHE R 447     105.228 120.597 115.830  0.00  0.00           C 0
+ATOM   1973   CA ALA R 441     105.075 125.648 115.498  0.00  0.00           C 0
+ATOM    296  CD2 LEU R  62     108.565 125.902 116.874  0.00  0.00           C 0
+ATOM    264  OD1 ASN R  59     110.690 121.985 114.701  0.53  3.21           O 0
+ATOM   1975    O ALA R 441     104.233 124.398 113.642  0.00  0.00           O 0
+ATOM   3739    O CYS A 351     111.109 127.082 110.553  0.53  5.36           O 0
+ATOM   1963    O TYR R 440     106.962 127.318 114.356  0.64  2.14           O 0
+ATOM   1998  ND2 ASN R 444     107.798 121.837 111.146  0.47  2.19           N 0
+ATOM   2015   CB PHE R 447     104.580 121.145 113.497  0.00  0.00           C 0
+ATOM   2016   CG PHE R 447     104.367 121.244 114.968  0.00  0.00           C 0
+ATOM    295  CD1 LEU R  62     110.882 126.738 116.603  0.00  0.00           C 0
+ATOM    254   CB ASN R  58     114.639 124.474 113.443  0.00  0.00           C 0
+ATOM   1995   CB ASN R 444     106.130 123.577 111.046  0.00  0.00           C 0
+ATOM   3743   CA GLY A 352     108.870 126.266 109.163  0.00  0.00           C 0
+ATOM   3735    O GLY A 350     111.962 122.900 109.465  0.63  1.07           O 0
+ATOM   3738    C CYS A 351     111.237 126.230 109.670  0.00  0.00           C 0
+TER
+END

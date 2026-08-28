@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     3:
+HEADER 0  - Pocket Score                      : 0.0174
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.4919
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3591
+HEADER 5  - Mean B-factor of pocket residues  : 0.0910
+HEADER 6  - Hydrophobicity Score              : 28.4286
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 74.4736
+HEADER 10 - Pocket volume (convex hull)       : 0.3900
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.3889
+ATOM   6029   CA VAL D 630     158.378 143.799 184.554  0.00  0.00           C 0
+ATOM   6034  CG2 VAL D 630     156.679 141.952 184.500  0.00  0.00           C 0
+ATOM   5723    O TRP D 585     159.990 138.659 188.642  0.58  3.21           O 0
+ATOM   6023    O ASN D 629     157.374 144.978 186.891  0.69  3.21           O 0
+ATOM   6033  CG1 VAL D 630     159.047 141.493 183.838  0.00  0.00           C 0
+ATOM   6035    N SER D 631     160.677 144.578 184.464  0.71  2.19           N 0
+ATOM   5759  ND2 ASN D 588     162.345 142.723 189.749  0.66  4.37           N 0
+ATOM   5724   CB TRP D 585     161.796 139.053 186.097  0.00  0.00           C 0
+ATOM   5756   CB ASN D 588     160.267 141.976 190.729  0.00  0.00           C 0
+ATOM   5761   CA LEU D 589     156.817 139.060 190.458  0.00  0.00           C 0
+ATOM   5760    N LEU D 589     158.156 139.584 190.703  0.71  1.09           N 0
+ATOM   5787  OE1 GLN D 592     155.081 143.120 189.272  0.73  1.07           O 0
+ATOM   5721   CA TRP D 585     162.078 139.140 187.598  0.00  0.00           C 0
+ATOM   5764   CB LEU D 589     156.871 137.948 189.414  0.00  0.00           C 0
+TER
+END

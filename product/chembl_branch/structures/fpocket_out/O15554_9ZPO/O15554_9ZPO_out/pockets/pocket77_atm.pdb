@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    77:
+HEADER 0  - Pocket Score                      : -0.0976
+HEADER 1  - Drug Score                        : 0.0011
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9836
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5115
+HEADER 5  - Mean B-factor of pocket residues  : 0.2153
+HEADER 6  - Hydrophobicity Score              : 50.2857
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 3.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 260.4432
+HEADER 10 - Pocket volume (convex hull)       : 9.3234
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.7333
+ATOM    180  CD2 LEU A  30     218.279 181.352 214.936  0.00  0.00           C 0
+ATOM   1037  NH1 ARG A 170     214.959 181.906 207.389  0.65  9.84           N 0
+ATOM    179  CD1 LEU A  30     220.034 182.597 213.695  0.00  0.00           C 0
+ATOM   1004   CB ALA A 166     220.637 182.297 210.145  0.00  0.00           C 0
+ATOM    177   CB LEU A  30     220.504 180.269 214.482  0.00  0.00           C 0
+ATOM    151   CA GLY A  27     220.319 176.872 211.274  0.00  0.00           C 0
+ATOM    186  CG1 VAL A  31     216.811 177.115 215.086  0.00  0.00           C 0
+ATOM    153    O GLY A  27     219.714 176.721 213.594  0.37  1.07           O 0
+ATOM   1011  CG2 VAL A 167     218.251 186.778 208.566  0.00  0.00           C 0
+ATOM    978    O VAL A 163     220.999 186.077 210.272  0.00  0.00           O 0
+ATOM    980  CG1 VAL A 163     219.349 187.818 212.447  0.00  0.00           C 0
+ATOM   1035   NE ARG A 170     215.370 179.634 207.285  0.00  0.00           N 0
+ATOM   1036   CZ ARG A 170     214.536 180.663 207.228  0.00  0.00           C 0
+ATOM   1034   CD ARG A 170     216.806 179.749 207.510  0.00  0.00           C 0
+ATOM   1005    N VAL A 167     220.253 184.542 207.909  0.00  0.00           N 0
+ATOM   1002    C ALA A 166     220.442 183.224 207.826  0.00  0.00           C 0
+TER
+END

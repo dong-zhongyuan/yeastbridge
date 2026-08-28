@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    75:
+HEADER 0  - Pocket Score                      : -0.2132
+HEADER 1  - Drug Score                        : 0.0013
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.2388
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5855
+HEADER 5  - Mean B-factor of pocket residues  : 0.3416
+HEADER 6  - Hydrophobicity Score              : 30.2000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.2000
+HEADER 9  - Pocket volume (Monte Carlo)       : 225.5241
+HEADER 10 - Pocket volume (convex hull)       : 2.1845
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.7059
+ATOM   6569  CG1 VAL B 307     113.259 110.984  75.876  0.00  0.00           C 0
+ATOM   4546   CG GLN B  44     117.305 112.972  82.804  0.00  0.00           C 0
+ATOM   4528   CD ARG B  42     121.424 111.617  78.506  0.00  0.00           C 0
+ATOM   4527   CG ARG B  42     121.020 112.950  77.898  0.00  0.00           C 0
+ATOM   4547   CD GLN B  44     117.982 111.829  83.535  0.00  0.00           C 0
+ATOM   4548  OE1 GLN B  44     119.206 111.702  83.517  0.70  8.57           O 0
+ATOM   4531  NH1 ARG B  42     122.788 109.551  79.848  0.00  0.00           N 0
+ATOM   4545   CB GLN B  44     118.291 113.850  82.049  0.00  0.00           C 0
+ATOM   4536    O ILE B  43     117.210 116.169  78.805  0.49  1.07           O 0
+ATOM   4542   CA GLN B  44     117.636 114.969  81.242  0.00  0.00           C 0
+ATOM   6561   CA GLY B 306     116.171 114.789  75.504  0.00  0.00           C 0
+ATOM   6564    N VAL B 307     114.042 113.837  76.044  0.40  1.09           N 0
+ATOM   6567    O VAL B 307     112.425 113.010  78.206  0.16  7.50           O 0
+TER
+END

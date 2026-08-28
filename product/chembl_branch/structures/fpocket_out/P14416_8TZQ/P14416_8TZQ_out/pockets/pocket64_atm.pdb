@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    64:
+HEADER 0  - Pocket Score                      : -0.1602
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.3788
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6913
+HEADER 5  - Mean B-factor of pocket residues  : 0.1827
+HEADER 6  - Hydrophobicity Score              : -3.2857
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 2.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 226.4936
+HEADER 10 - Pocket volume (convex hull)       : 1.9512
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3529
+ATOM   6994   CB ALA B  18     148.456 166.398 136.292  0.00  0.00           C 0
+ATOM   6958    O GLU B  14     151.799 167.796 135.913  0.60  5.36           O 0
+ATOM    378   OG SER E  53     148.279 170.456 132.376  0.57  9.64           O 0
+ATOM    379    N GLY E  54     146.342 172.686 133.288  0.50  1.09           N 0
+ATOM    380   CA GLY E  54     145.371 173.023 134.309  0.00  0.00           C 0
+ATOM    372   OG SER E  52     149.164 175.354 133.364  0.41  2.14           O 0
+ATOM    390   CA GLY E  56     149.211 176.597 136.630  0.00  0.00           C 0
+ATOM    389    N GLY E  56     147.910 176.339 136.050  0.55  1.09           N 0
+ATOM   6962  OE1 GLU B  14     152.862 173.072 133.802  0.65  1.07           O 0
+ATOM   6961   CD GLU B  14     153.497 173.099 134.877  0.00  0.00           C 0
+ATOM   6960   CG GLU B  14     153.970 171.787 135.469  0.00  0.00           C 0
+ATOM   6963  OE2 GLU B  14     153.755 174.158 135.488  0.54  9.64           O 0
+ATOM   6956   CA GLU B  14     153.667 169.246 135.470  0.00  0.00           C 0
+ATOM   6985   CB LYS B  17     152.972 166.979 139.221  0.00  0.00           C 0
+ATOM   6987   CD LYS B  17     154.742 168.509 140.116  0.00  0.00           C 0
+ATOM   6959   CB GLU B  14     153.224 170.593 134.903  0.00  0.00           C 0
+TER
+END

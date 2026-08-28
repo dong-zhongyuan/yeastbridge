@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    69:
+HEADER 0  - Pocket Score                      : -0.1234
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.7933
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5482
+HEADER 5  - Mean B-factor of pocket residues  : 0.8520
+HEADER 6  - Hydrophobicity Score              : 2.2000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 229.5239
+HEADER 10 - Pocket volume (convex hull)       : 8.8317
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.4667
+ATOM   4225    N GLU B   3     140.509  89.574 159.400  0.55  7.66           N 0
+ATOM   4226   CA GLU B   3     139.233  88.872 159.346  0.00  0.00           C 0
+ATOM   4257  OE1 GLN B   6     143.300  84.793 159.812  0.00  0.00           O 0
+ATOM   4233  OE2 GLU B   3     138.646  88.385 163.306  0.38  6.43           O 0
+ATOM   4255   CG GLN B   6     143.278  84.088 157.524  0.00  0.00           C 0
+ATOM   4264   CG LEU B   7     137.471  84.554 156.679  0.00  0.00           C 0
+ATOM   4256   CD GLN B   6     143.519  83.887 159.007  0.00  0.00           C 0
+ATOM   4254   CB GLN B   6     142.803  85.494 157.195  0.00  0.00           C 0
+ATOM   4232  OE1 GLU B   3     137.198  87.765 161.779  0.21  8.57           O 0
+ATOM   4231   CD GLU B   3     138.018  88.584 162.246  0.00  0.00           C 0
+ATOM   4228    O GLU B   3     138.963  87.356 157.515  0.00  0.00           O 0
+ATOM   4266  CD2 LEU B   7     137.230  83.058 156.820  0.00  0.00           C 0
+ATOM   4265  CD1 LEU B   7     136.275  85.347 157.171  0.00  0.00           C 0
+ATOM   6881   CD ARG G  13     133.362  83.040 159.761  0.00  0.00           C 0
+ATOM   4294  OE1 GLU B  10     140.255  79.769 155.972  0.63  8.57           O 0
+ATOM   4258  NE2 GLN B   6     143.969  82.694 159.378  0.00  0.00           N 0
+TER
+END

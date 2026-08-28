@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    48:
+HEADER 0  - Pocket Score                      : -0.0556
+HEADER 1  - Drug Score                        : 0.0031
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.7314
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4600
+HEADER 5  - Mean B-factor of pocket residues  : 0.0822
+HEADER 6  - Hydrophobicity Score              : 13.1250
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 223.4487
+HEADER 10 - Pocket volume (convex hull)       : 7.4701
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5263
+ATOM   2255   CB LYS D 318     179.826 185.581 144.031  0.00  0.00           C 0
+ATOM   3995   CB VAL D 536     183.613 187.165 141.227  0.00  0.00           C 0
+ATOM   2257   CD LYS D 318     181.040 186.819 145.861  0.00  0.00           C 0
+ATOM   3997  CG2 VAL D 536     183.694 185.854 140.455  0.00  0.00           C 0
+ATOM   4063  OE2 GLU D 557     184.172 179.773 144.412  0.73  4.29           O 0
+ATOM   2283   NZ LYS D 321     181.711 180.376 147.705  0.76  9.84           N 0
+ATOM   2219    O VAL D 314     180.045 183.150 141.742  0.59  1.07           O 0
+ATOM   2251    N LYS D 318     178.507 183.525 144.184  0.74  1.09           N 0
+ATOM   2246   CB LYS D 317     178.385 180.326 143.903  0.00  0.00           C 0
+ATOM   2220   CB VAL D 314     182.352 181.869 139.675  0.00  0.00           C 0
+ATOM   2252   CA LYS D 318     178.894 184.738 144.899  0.00  0.00           C 0
+ATOM   2281   CD LYS D 321     180.026 182.009 148.530  0.00  0.00           C 0
+ATOM   4067    O PRO D 558     187.296 178.948 137.949  0.76  1.07           O 0
+ATOM   2221  CG1 VAL D 314     183.286 180.678 139.809  0.00  0.00           C 0
+ATOM   4059   CB GLU D 557     187.101 179.284 142.233  0.00  0.00           C 0
+ATOM   3982    O ILE D 534     187.513 184.900 139.361  0.26  8.57           O 0
+ATOM   4061   CD GLU D 557     184.910 179.302 143.520  0.00  0.00           C 0
+ATOM   4060   CG GLU D 557     186.370 179.724 143.496  0.00  0.00           C 0
+TER
+END

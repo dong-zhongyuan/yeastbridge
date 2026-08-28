@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    24:
+HEADER 0  - Pocket Score                      : -0.0027
+HEADER 1  - Drug Score                        : 0.0052
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.5665
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3319
+HEADER 5  - Mean B-factor of pocket residues  : 0.3192
+HEADER 6  - Hydrophobicity Score              : 54.1000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 119.1793
+HEADER 10 - Pocket volume (convex hull)       : 3.2839
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 17.0000
+HEADER 13 - Number of apolar alpha sphere     :    18
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM   9354   CE MET Q  36      11.363  -2.006   2.208  0.00  0.00           C 0
+ATOM   9386   CG GLN Q  41      11.451  -5.529   4.885  0.00  0.00           C 0
+ATOM   9699  CG1 VAL Q  91      12.323  -3.579   8.844  0.00  0.00           C 0
+ATOM   9700  CG2 VAL Q  91      10.034  -2.775   8.223  0.00  0.00           C 0
+ATOM  10163  CG2 THR R1621      17.013   1.074   5.885  0.00  0.00           C 0
+ATOM   9353   SD MET Q  36      13.080  -1.497   2.177  0.00  0.00           S 0
+ATOM   9343    O VAL Q  35      17.655  -4.002   3.065  0.00  0.00           O 0
+ATOM   9376   CB LEU Q  39      15.492  -4.546   6.619  0.00  0.00           C 0
+ATOM  10128   CB LYS R1617      10.646   1.094   4.090  0.00  0.00           C 0
+ATOM   9709  CE1 PHE Q  92      14.970  -1.944  11.428  0.00  0.00           C 0
+ATOM  10156   CB ALA R1620      13.186   1.068   9.130  0.00  0.00           C 0
+ATOM  10125   CA LYS R1617      10.971   1.809   5.401  0.00  0.00           C 0
+ATOM   9844  CD1 LEU Q 112      19.223  -0.927   8.951  0.00  0.00           C 0
+ATOM  10127    O LYS R1617      13.325   2.131   5.742  0.96  3.21           O 0
+TER
+END

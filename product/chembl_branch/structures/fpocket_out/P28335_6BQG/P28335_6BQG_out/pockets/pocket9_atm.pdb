@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : 0.0560
+HEADER 1  - Drug Score                        : 0.0045
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.7688
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6594
+HEADER 5  - Mean B-factor of pocket residues  : 0.3152
+HEADER 6  - Hydrophobicity Score              : 69.1667
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 234.0517
+HEADER 10 - Pocket volume (convex hull)       : 4.2340
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.8125
+ATOM    275   CB SER A  79      36.738  25.637  28.073  0.00  0.00           C 0
+ATOM    256   CG MET A  76      34.815  20.547  31.243  0.00  0.00           C 0
+ATOM    252   CA MET A  76      34.108  22.590  29.862  0.00  0.00           C 0
+ATOM    283   SD MET A  80      38.295  20.957  26.204  0.00  0.00           S 0
+ATOM    276   OG SER A  79      36.560  26.484  29.195  0.63  7.50           O 0
+ATOM    282   CG MET A  80      36.514  21.271  26.264  0.00  0.00           C 0
+ATOM    246    O ILE A  75      34.398  25.284  30.264  0.00  0.00           O 0
+ATOM    249  CG2 ILE A  75      35.114  26.030  33.183  0.00  0.00           C 0
+ATOM    223    O ILE A  72      32.802  22.108  33.306  0.00  0.00           O 0
+ATOM    226  CG2 ILE A  72      34.270  20.308  35.499  0.00  0.00           C 0
+ATOM    251    N MET A  76      33.522  23.337  30.970  0.00  0.00           N 0
+ATOM    250  CD1 ILE A  75      33.644  26.454  35.830  0.00  0.00           C 0
+ATOM    225  CG1 ILE A  72      33.748  21.373  37.710  0.00  0.00           C 0
+ATOM    443   SD MET A 100      34.039  24.543  39.658  0.00  0.00           S 0
+ATOM    247   CB ILE A  75      33.716  25.476  33.452  0.00  0.00           C 0
+ATOM    221   CA ILE A  72      32.407  21.994  35.678  0.00  0.00           C 0
+TER
+END

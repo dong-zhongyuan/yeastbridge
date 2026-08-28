@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    17:
+HEADER 0  - Pocket Score                      : -0.0638
+HEADER 1  - Drug Score                        : 0.0015
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.7372
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6116
+HEADER 5  - Mean B-factor of pocket residues  : 0.7867
+HEADER 6  - Hydrophobicity Score              : 21.0000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 6.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 120.2115
+HEADER 10 - Pocket volume (convex hull)       : 0.4522
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.8750
+ATOM   3658   CD LYS A 470     -40.069 -10.636  27.628  0.00  0.00           C 0
+ATOM   3636  CE1 PHE A 467     -43.417  -6.993  29.943  0.00  0.00           C 0
+ATOM   3637  CE2 PHE A 467     -44.412  -7.887  31.974  0.00  0.00           C 0
+ATOM   3634  CD1 PHE A 467     -42.185  -6.854  30.608  0.00  0.00           C 0
+ATOM   3638   CZ PHE A 467     -44.532  -7.510  30.626  0.00  0.00           C 0
+ATOM   3660   NZ LYS A 470     -42.118 -10.974  26.243  0.63  8.75           N 0
+ATOM   3628    N PHE A 467     -39.960  -9.278  33.403  0.00  0.00           N 0
+ATOM   3621    O ARG A 466     -38.701 -10.770  32.299  0.84  2.14           O 0
+ATOM   3619    C ARG A 466     -39.396 -10.481  33.274  0.00  0.00           C 0
+ATOM   3635  CD2 PHE A 467     -43.182  -7.740  32.639  0.00  0.00           C 0
+ATOM   3633   CG PHE A 467     -42.062  -7.225  31.962  0.00  0.00           C 0
+ATOM   3629   CA PHE A 467     -39.744  -8.198  32.432  0.00  0.00           C 0
+ATOM   3620   CB ARG A 466     -40.935 -12.220  34.279  0.00  0.00           C 0
+TER
+END

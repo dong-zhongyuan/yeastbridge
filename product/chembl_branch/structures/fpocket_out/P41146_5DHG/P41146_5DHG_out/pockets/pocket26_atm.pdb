@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    26:
+HEADER 0  - Pocket Score                      : 0.0106
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 4.0917
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5612
+HEADER 5  - Mean B-factor of pocket residues  : 0.1248
+HEADER 6  - Hydrophobicity Score              : 46.2857
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 3.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 193.2928
+HEADER 10 - Pocket volume (convex hull)       : 2.3165
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.3182
+ATOM     39  CG1 VAL A  52     -21.378  31.707 -20.491  0.00  0.00           C 0
+ATOM     42   CA THR A  53     -22.148  33.488 -16.315  0.00  0.00           C 0
+ATOM     37    O VAL A  52     -20.010  33.088 -17.994  0.52  1.07           O 0
+ATOM   2982   CB ALA B1124     -22.646  35.290 -23.878  0.00  0.00           C 0
+ATOM     46  OG1 THR A  53     -24.542  33.236 -16.503  0.52  9.64           O 0
+ATOM   2949    O GLY B1120     -22.833  38.828 -23.089  0.00  0.00           O 0
+ATOM   2978    N ALA B1124     -20.710  36.736 -23.480  0.00  0.00           N 0
+ATOM   2974   CB LEU B1123     -19.493  38.975 -21.590  0.00  0.00           C 0
+ATOM   2976  CD1 LEU B1123     -19.704  40.790 -19.881  0.00  0.00           C 0
+ATOM     44    O THR A  53     -20.553  35.019 -15.374  0.52  4.29           O 0
+ATOM   2972    C LEU B1123     -19.444  37.017 -23.161  0.00  0.00           C 0
+ATOM   2973    O LEU B1123     -18.588  36.136 -23.027  0.00  0.00           O 0
+ATOM     64   CA GLY A  56     -18.117  36.306 -18.024  0.00  0.00           C 0
+ATOM   2979   CA ALA B1124     -21.128  35.358 -23.715  0.00  0.00           C 0
+ATOM     65    C GLY A  56     -18.064  37.395 -16.970  0.00  0.00           C 0
+ATOM     67    N LEU A  57     -18.628  37.119 -15.794  0.00  0.00           N 0
+TER
+END

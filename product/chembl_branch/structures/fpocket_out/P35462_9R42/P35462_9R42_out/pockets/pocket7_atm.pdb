@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : 0.0096
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.5375
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4485
+HEADER 5  - Mean B-factor of pocket residues  : 0.6792
+HEADER 6  - Hydrophobicity Score              : 29.3333
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 59.7454
+HEADER 10 - Pocket volume (convex hull)       : 0.1176
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.4667
+ATOM   6469    N PRO R 380     189.854 181.844 165.514  0.00  0.00           N 0
+ATOM   4940  OD2 ASP R  75     186.359 180.349 163.097  0.46  1.07           O 0
+ATOM   6474   CG PRO R 380     189.524 179.567 165.481  0.00  0.00           C 0
+ATOM   6470   CA PRO R 380     190.054 181.450 166.917  0.00  0.00           C 0
+ATOM   4893  CG1 VAL R  68     185.843 182.166 170.894  0.00  0.00           C 0
+ATOM   6473   CB PRO R 380     189.920 179.919 166.885  0.00  0.00           C 0
+ATOM   4891    O VAL R  68     183.637 180.561 169.006  0.60  1.07           O 0
+ATOM   4915  CD2 LEU R  71     184.491 184.022 165.506  0.00  0.00           C 0
+ATOM   4916    N ALA R  72     183.357 179.383 166.381  0.58  1.09           N 0
+ATOM   4920   CB ALA R  72     184.927 177.810 167.410  0.00  0.00           C 0
+ATOM   6498  CD2 TYR R 383     187.305 185.804 166.708  0.00  0.00           C 0
+ATOM   6495   CB TYR R 383     188.568 185.249 168.809  0.00  0.00           C 0
+ATOM   4917   CA ALA R  72     184.238 178.249 166.119  0.00  0.00           C 0
+TER
+END

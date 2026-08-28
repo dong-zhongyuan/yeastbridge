@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    65:
+HEADER 0  - Pocket Score                      : -0.1621
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.1546
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6204
+HEADER 5  - Mean B-factor of pocket residues  : 0.1549
+HEADER 6  - Hydrophobicity Score              : 29.1667
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 209.1403
+HEADER 10 - Pocket volume (convex hull)       : 2.7484
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.4375
+ATOM   5731   NE ARG B 214     147.299  87.736 125.037  0.00  0.00           N 0
+ATOM   5729   CG ARG B 214     149.359  86.557 124.251  0.00  0.00           C 0
+ATOM   5730   CD ARG B 214     147.831  86.626 124.257  0.00  0.00           C 0
+ATOM   5305  OE1 GLN B 156     145.598  92.234 121.148  0.42  5.36           O 0
+ATOM   5385  CD2 LEU B 168     147.141  89.239 117.680  0.00  0.00           C 0
+ATOM   5459  OG1 THR B 177     148.737  91.323 115.561  0.86  3.21           O 0
+ATOM   5306  NE2 GLN B 156     147.330  93.647 120.940  0.00  0.00           N 0
+ATOM   5458   CB THR B 177     149.998  91.889 115.190  0.00  0.00           C 0
+ATOM   5460  CG2 THR B 177     149.960  93.388 115.346  0.00  0.00           C 0
+ATOM   5466  OG1 THR B 178     150.021  87.908 115.989  0.33  5.36           O 0
+ATOM   5725   CA ARG B 214     149.752  85.449 121.944  0.00  0.00           C 0
+ATOM   5722  CG1 VAL B 213     145.669  87.014 120.237  0.00  0.00           C 0
+ATOM   5720    O VAL B 213     148.624  85.774 119.435  0.71  2.14           O 0
+ATOM   5727    O ARG B 214     151.821  85.343 120.722  0.74  6.43           O 0
+TER
+END

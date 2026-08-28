@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    32:
+HEADER 0  - Pocket Score                      : 0.0178
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9714
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7352
+HEADER 5  - Mean B-factor of pocket residues  : 0.5158
+HEADER 6  - Hydrophobicity Score              : -7.6667
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 214.0058
+HEADER 10 - Pocket volume (convex hull)       : 1.9229
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2353
+ATOM  11252   CG GLU F  89       0.460 -71.060 127.528  0.00  0.00           C 0
+ATOM  11246   OG SER F  88       1.307 -66.500 132.157  0.00  0.00           O 0
+ATOM  11253   CD GLU F  89      -0.936 -71.648 127.600  0.00  0.00           C 0
+ATOM  11255  OE2 GLU F  89      -1.105 -72.701 128.252  0.74  6.43           O 0
+ATOM  11251   CB GLU F  89       0.449 -69.557 127.285  0.00  0.00           C 0
+ATOM  11245   CB SER F  88       0.568 -65.837 131.147  0.00  0.00           C 0
+ATOM  11254  OE1 GLU F  89      -1.866 -71.054 127.014  0.43  6.43           O 0
+ATOM  11247    N GLU F  89       1.250 -67.538 128.409  0.00  0.00           N 0
+ATOM  11248   CA GLU F  89       1.663 -68.823 127.861  0.00  0.00           C 0
+ATOM  11241    N SER F  88       0.653 -64.892 128.890  0.00  0.00           N 0
+ATOM  11238   CB THR F  87      -0.596 -64.461 126.321  0.00  0.00           C 0
+ATOM  11239  OG1 THR F  87       0.113 -65.654 125.964  0.75  4.29           O 0
+ATOM  11244    O SER F  88       2.979 -67.420 129.845  0.35  5.36           O 0
+TER
+END

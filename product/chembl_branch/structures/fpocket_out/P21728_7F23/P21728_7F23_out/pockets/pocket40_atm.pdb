@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    40:
+HEADER 0  - Pocket Score                      : -0.0972
+HEADER 1  - Drug Score                        : 0.0068
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.9205
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5160
+HEADER 5  - Mean B-factor of pocket residues  : 0.1962
+HEADER 6  - Hydrophobicity Score              : 48.5556
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.8889
+HEADER 9  - Pocket volume (Monte Carlo)       : 238.7211
+HEADER 10 - Pocket volume (convex hull)       : 12.5260
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 15.0000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 0.8000
+ATOM   2163  CE2 PHE F 341     106.747 103.296  98.471  0.00  0.00           C 0
+ATOM   2161  CD2 PHE F 341     107.824 103.835  97.833  0.00  0.00           C 0
+ATOM    182  CD2 LEU F  43     108.903 106.669 101.130  0.00  0.00           C 0
+ATOM   2096   CZ PHE F 333     110.445  99.927  98.837  0.00  0.00           C 0
+ATOM   2094  CE1 PHE F 333     109.335 100.382  98.178  0.00  0.00           C 0
+ATOM    155  CD2 LEU F  39     111.614 106.306 106.058  0.00  0.00           C 0
+ATOM    153   CG LEU F  39     110.215 106.886 105.923  0.00  0.00           C 0
+ATOM    157   CA GLY F  40     106.847 104.203 105.396  0.00  0.00           C 0
+ATOM   2059  CG2 ILE F 329     109.663  98.361 103.218  0.00  0.00           C 0
+ATOM    132   OG SER F  36     110.876 101.868 109.507  0.10  9.64           O 0
+ATOM   2027    O SER F 325     106.785  99.373 107.826  0.50  2.14           O 0
+ATOM   2050   CB PRO F 328     105.439 100.761 103.537  0.00  0.00           C 0
+ATOM    130    O SER F  36     108.456 103.881 108.849  0.45  1.07           O 0
+ATOM    159    O GLY F  40     105.000 104.644 103.926  0.61  1.07           O 0
+ATOM    156    N GLY F  40     107.424 105.077 106.407  0.00  0.00           N 0
+ATOM   2053    N ILE F 329     106.888  98.170 102.651  0.00  0.00           N 0
+ATOM   2048    C PRO F 328     105.752  98.673 102.167  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : -0.0285
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.7889
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5677
+HEADER 5  - Mean B-factor of pocket residues  : 0.1987
+HEADER 6  - Hydrophobicity Score              : -5.5000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 188.5477
+HEADER 10 - Pocket volume (convex hull)       : 2.7705
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3125
+ATOM   2090  NH2 ARG A1068      -1.588   2.374  18.335  0.00  0.00           N 0
+ATOM   2057    O GLN A1065      -4.893   1.955  20.137  0.00  0.00           O 0
+ATOM   1782  OD2 ASP A1030       1.323   4.857  20.462  0.00  0.00           O 0
+ATOM   2089  NH1 ARG A1068      -3.662   3.299  18.046  0.68  1.09           N 0
+ATOM   2087   NE ARG A1068      -1.954   3.834  16.593  0.00  0.00           N 0
+ATOM   2270   CA ASN A1092      -4.220   8.294  17.995  0.00  0.00           C 0
+ATOM   2088   CZ ARG A1068      -2.400   3.171  17.656  0.00  0.00           C 0
+ATOM   2268    O GLY A1091      -1.828   9.776  18.521  0.69  5.36           O 0
+ATOM   2273   CB ASN A1092      -4.978   7.030  18.439  0.00  0.00           C 0
+ATOM   2058   CB GLN A1065      -6.160   2.155  22.999  0.00  0.00           C 0
+ATOM   2055   CA GLN A1065      -6.654   2.639  21.620  0.00  0.00           C 0
+ATOM   2275  OD1 ASN A1092      -6.451   8.208  19.932  0.00  0.00           O 0
+ATOM   1772   CG MET A1029      -0.479   7.692  15.797  0.00  0.00           C 0
+ATOM   2274   CG ASN A1092      -6.296   7.274  19.141  0.00  0.00           C 0
+ATOM   2269    N ASN A1092      -3.927   9.158  19.139  0.00  0.00           N 0
+ATOM   2267    C GLY A1091      -2.773   9.838  19.317  0.00  0.00           C 0
+ATOM   2266   CA GLY A1091      -2.665  10.703  20.565  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : -0.0058
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.7475
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5174
+HEADER 5  - Mean B-factor of pocket residues  : 0.1278
+HEADER 6  - Hydrophobicity Score              : 11.1429
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 209.3911
+HEADER 10 - Pocket volume (convex hull)       : 13.2887
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1579
+ATOM   4298    N SER L  75     124.726 152.045 100.739  0.00  0.00           N 0
+ATOM   4269   CB THR L  73     125.988 152.205 106.044  0.00  0.00           C 0
+ATOM   4282    O ILE L  74     124.261 150.125 101.834  0.00  0.00           O 0
+ATOM   4281    C ILE L  74     125.077 150.967 101.439  0.00  0.00           C 0
+ATOM   4271  CG2 THR L  73     125.888 152.008 107.547  0.00  0.00           C 0
+ATOM   3469   CE LYS L  18     120.233 150.069 105.081  0.00  0.00           C 0
+ATOM   3505  OG1 THR L  20     124.019 148.948 107.296  0.54  3.21           O 0
+ATOM   3470   NZ LYS L  18     119.390 151.044 105.824  0.00  0.00           N 1
+ATOM   4303   OG SER L  75     121.783 154.029  99.709  0.00  0.00           O 0
+ATOM   3468   CD LYS L  18     119.446 149.334 104.003  0.00  0.00           C 0
+ATOM   4301    O SER L  75     121.655 150.778  99.585  0.77  2.14           O 0
+ATOM   4299   CA SER L  75     123.322 152.291 100.424  0.00  0.00           C 0
+ATOM   4302   CB SER L  75     123.153 153.702  99.861  0.00  0.00           C 0
+ATOM   4270  OG1 THR L  73     126.207 153.592 105.762  0.00  0.00           O 0
+ATOM   4094    O ARG L  60     126.434 154.227 100.084  0.26  1.07           O 0
+ATOM   4139   CB SER L  62     127.321 156.543 104.292  0.00  0.00           C 0
+TER
+END

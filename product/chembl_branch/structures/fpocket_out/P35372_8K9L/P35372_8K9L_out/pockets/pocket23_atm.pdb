@@ -1,0 +1,43 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    23:
+HEADER 0  - Pocket Score                      : 0.0174
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 4.0805
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7779
+HEADER 5  - Mean B-factor of pocket residues  : 0.3345
+HEADER 6  - Hydrophobicity Score              : -19.1429
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 4.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 337.8652
+HEADER 10 - Pocket volume (convex hull)       : 11.5868
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0526
+ATOM   2229    O ASN R 344     109.896 127.287 124.243  0.00  0.00           O 0
+ATOM   2259   CG ARG R 347     108.413 128.912 127.512  0.00  0.00           C 0
+ATOM   2260   CD ARG R 347     107.719 128.833 126.162  0.00  0.00           C 0
+ATOM   2263  NH1 ARG R 347     105.484 127.092 125.932  0.79  7.66           N 0
+ATOM   4018  OD1 ASN A 346      98.734 118.695 128.142  0.55  9.64           O 0
+ATOM   4015    O ASN A 346     101.533 118.623 124.226  0.71  2.14           O 0
+ATOM   4013   CA ASN A 346      99.499 118.380 125.474  0.00  0.00           C 0
+ATOM   4040   CB LYS A 349     101.577 121.956 124.840  0.00  0.00           C 0
+ATOM   4016   CB ASN A 346      99.524 117.204 126.448  0.00  0.00           C 0
+ATOM   4049   CB GLU A 350     104.772 118.063 123.371  0.00  0.00           C 0
+ATOM   4046   CA GLU A 350     104.846 119.550 123.031  0.00  0.00           C 0
+ATOM    290   NZ LYS R 102     110.609 117.797 127.512  0.56  6.56           N 0
+ATOM    297  CG2 THR R 103     109.716 117.528 124.684  0.00  0.00           C 0
+ATOM   4045    N GLU A 350     103.527 120.157 123.167  0.00  0.00           N 0
+ATOM   2233  ND2 ASN R 344     107.296 122.671 123.774  0.00  0.00           N 0
+ATOM   4042   CD LYS A 349     100.909 123.838 126.351  0.00  0.00           C 0
+ATOM   2232  OD1 ASN R 344     105.952 124.464 123.636  0.67  3.21           O 0
+ATOM   4039    O LYS A 349     104.333 122.253 123.010  0.70  1.07           O 0
+ATOM   2231   CG ASN R 344     107.064 123.952 123.514  0.00  0.00           C 0
+ATOM   2230   CB ASN R 344     108.252 124.773 123.050  0.00  0.00           C 0
+ATOM   4038    C LYS A 349     103.378 121.483 123.163  0.00  0.00           C 0
+TER
+END

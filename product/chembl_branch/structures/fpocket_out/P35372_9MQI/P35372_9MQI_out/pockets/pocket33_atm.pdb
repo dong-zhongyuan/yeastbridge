@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    33:
+HEADER 0  - Pocket Score                      : -0.0049
+HEADER 1  - Drug Score                        : 0.0075
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 3.9998
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6619
+HEADER 5  - Mean B-factor of pocket residues  : 0.3257
+HEADER 6  - Hydrophobicity Score              : 36.4000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.2000
+HEADER 9  - Pocket volume (Monte Carlo)       : 280.1167
+HEADER 10 - Pocket volume (convex hull)       : 7.3993
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 15.0000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 0.6957
+ATOM   2130  CG1 VAL C   7     135.656 160.769 128.518  0.00  0.00           C 0
+ATOM   2131  CG2 VAL C   7     135.809 159.178 130.445  0.00  0.00           C 0
+ATOM   2863   CG LYS C 115     140.108 154.560 126.208  0.00  0.00           C 0
+ATOM   2120    O LEU C   6     139.400 157.743 129.761  0.49  5.36           O 0
+ATOM   2864   CD LYS C 115     139.248 153.731 125.266  0.00  0.00           C 0
+ATOM   2865   CE LYS C 115     138.840 152.411 125.900  0.00  0.00           C 0
+ATOM   3601   CG TYR H 104     138.280 155.184 120.923  0.00  0.00           C 0
+ATOM   2866   NZ LYS C 115     138.112 151.539 124.939  0.63  8.75           N 0
+ATOM   3602  CD1 TYR H 104     137.376 156.219 120.684  0.00  0.00           C 0
+ATOM   2126   CA VAL C   7     137.905 160.091 129.408  0.00  0.00           C 0
+ATOM   3600   CB TYR H 104     138.144 153.827 120.237  0.00  0.00           C 0
+ATOM   3603  CD2 TYR H 104     139.243 155.385 121.901  0.00  0.00           C 0
+ATOM   3604  CE1 TYR H 104     137.492 157.440 121.329  0.00  0.00           C 0
+ATOM   3606   CZ TYR H 104     138.485 157.622 122.266  0.00  0.00           C 0
+ATOM   3605  CE2 TYR H 104     139.365 156.602 122.548  0.00  0.00           C 0
+ATOM   2862   CB LYS C 115     140.689 155.764 125.490  0.00  0.00           C 0
+ATOM   2135    O GLU C   8     137.608 162.015 125.140  0.42  2.14           O 0
+ATOM   3607   OH TYR H 104     138.604 158.827 122.922  0.78  4.29           O 0
+ATOM   2132    N GLU C   8     138.818 161.229 127.470  0.75  6.56           N 0
+TER
+END

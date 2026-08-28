@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    46:
+HEADER 0  - Pocket Score                      : -0.0661
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.8025
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5447
+HEADER 5  - Mean B-factor of pocket residues  : 0.5012
+HEADER 6  - Hydrophobicity Score              : 25.8571
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 246.5946
+HEADER 10 - Pocket volume (convex hull)       : 7.3363
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2500
+ATOM   6643  OE1 GLU D 297     116.488 138.464  87.061  0.00  0.00           O 0
+ATOM   6864  CE1 PHE D 323     117.083 133.821  92.525  0.00  0.00           C 0
+ATOM   6866   CZ PHE D 323     116.114 133.135  91.823  0.00  0.00           C 0
+ATOM   6635   OH TYR D 296     118.154 133.008  87.190  0.69  2.14           O 0
+ATOM   6665   CA ALA D 301     111.665 135.875  91.810  0.00  0.00           C 0
+ATOM   6696  OE1 GLN D 304     115.276 134.579  95.089  0.55  6.43           O 0
+ATOM   6668   CB ALA D 301     111.556 137.376  91.544  0.00  0.00           C 0
+ATOM   6639    O GLU D 297     112.601 136.863  88.257  0.57  2.14           O 0
+ATOM   6633  CE2 TYR D 296     117.292 134.633  85.675  0.00  0.00           C 0
+ATOM   6644  OE2 GLU D 297     117.633 138.450  85.189  0.66  5.36           O 0
+ATOM   6431   NZ LYS D 271     123.490 132.788  87.326  0.22  9.84           N 0
+ATOM   6664    N ALA D 301     111.964 135.167  90.570  0.00  0.00           N 0
+ATOM   6663   CB ALA D 300     113.921 133.378  88.821  0.00  0.00           C 0
+ATOM   6862  CD1 PHE D 323     118.412 133.472  92.385  0.00  0.00           C 0
+ATOM   6860   CB PHE D 323     120.234 132.057  91.396  0.00  0.00           C 0
+ATOM   6861   CG PHE D 323     118.788 132.433  91.550  0.00  0.00           C 0
+TER
+END

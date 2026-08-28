@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    24:
+HEADER 0  - Pocket Score                      : -0.0983
+HEADER 1  - Drug Score                        : 0.0013
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.7521
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6603
+HEADER 5  - Mean B-factor of pocket residues  : 0.9710
+HEADER 6  - Hydrophobicity Score              : 47.5000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 211.2648
+HEADER 10 - Pocket volume (convex hull)       : 6.9729
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 15.0000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 0.9412
+ATOM   1593  CG2 THR A 206     -18.197  17.293   0.814  0.00  0.00           C 0
+ATOM   1591   CB THR A 206     -16.825  16.630   0.652  0.00  0.00           C 0
+ATOM   1573  CG2 VAL A 203     -16.041  13.591  -4.759  0.00  0.00           C 0
+ATOM   1594  OG1 THR A 206     -16.009  17.570   0.006  0.71  7.50           O 0
+ATOM   1572  CG1 VAL A 203     -16.753  11.931  -3.075  0.00  0.00           C 0
+ATOM   1602  CD2 LEU A 207     -19.993  11.833   0.882  0.00  0.00           C 0
+ATOM    906  CE1 PHE A 121     -20.862   9.649  -2.522  0.00  0.00           C 0
+ATOM    908   CZ PHE A 121     -19.789   9.725  -3.427  0.00  0.00           C 0
+ATOM   1639   CZ ARG A 210     -22.904  17.389   1.611  0.00  0.00           C 0
+ATOM   1637  NH1 ARG A 210     -23.877  16.538   1.425  0.36  3.28           N 0
+ATOM   1636   NE ARG A 210     -21.939  17.185   2.493  0.51  2.19           N 0
+ATOM   1568   CA VAL A 203     -15.158  13.810  -2.398  0.00  0.00           C 0
+ATOM   1565  CG2 THR A 202     -13.267  18.237  -3.380  0.00  0.00           C 0
+ATOM   1567    N VAL A 203     -13.933  14.528  -2.772  0.00  0.00           N 0
+ATOM   1564    O THR A 202     -14.001  15.975  -1.049  0.50  1.07           O 0
+ATOM   1571    O VAL A 203     -15.824  13.287  -0.167  0.00  0.00           O 0
+ATOM   1600   CG LEU A 207     -18.478  11.631   0.798  0.00  0.00           C 0
+TER
+END

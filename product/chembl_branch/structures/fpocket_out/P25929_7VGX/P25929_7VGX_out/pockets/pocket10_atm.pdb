@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : 0.0479
+HEADER 1  - Drug Score                        : 0.0218
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.9652
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7227
+HEADER 5  - Mean B-factor of pocket residues  : 0.5737
+HEADER 6  - Hydrophobicity Score              : 51.5000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 324.5764
+HEADER 10 - Pocket volume (convex hull)       : 12.0907
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 16.2222
+HEADER 13 - Number of apolar alpha sphere     :    18
+HEADER 14 - Proportion of apolar alpha sphere : 0.9000
+ATOM   2076   CG LEU R 307     162.980 178.078 207.641  0.00  0.00           C 0
+ATOM   2106  CD1 ILE R 311     164.078 179.883 203.863  0.00  0.00           C 0
+ATOM   2078  CD2 LEU R 307     162.354 178.997 208.676  0.00  0.00           C 0
+ATOM   2104  CG1 ILE R 311     165.520 179.537 204.159  0.00  0.00           C 0
+ATOM   2080   CA THR R 308     167.513 177.541 207.090  0.00  0.00           C 0
+ATOM   2060   SG CYS R 305     169.668 173.595 213.194  0.00  0.00           S 0
+ATOM   2051   CB LEU R 304     165.462 176.922 213.662  0.00  0.00           C 0
+ATOM   2049    C LEU R 304     166.075 175.683 211.569  0.00  0.00           C 0
+ATOM   2055    N CYS R 305     166.805 174.626 211.943  0.88  1.09           N 0
+ATOM   2085  CG2 THR R 308     169.139 176.876 208.880  0.00  0.00           C 0
+ATOM   1833   CB PRO R 278     172.303 175.145 210.957  0.00  0.00           C 0
+ATOM   1834   CG PRO R 278     172.789 176.340 210.238  0.00  0.00           C 0
+ATOM   2083   CB THR R 308     168.410 178.032 208.229  0.00  0.00           C 0
+ATOM   2084  OG1 THR R 308     169.380 178.948 207.707  0.40  9.64           O 0
+ATOM   2079    N THR R 308     166.363 176.812 207.610  0.00  0.00           N 0
+ATOM   2056   CA CYS R 305     167.894 174.153 211.095  0.00  0.00           C 0
+ATOM   2050    O LEU R 304     166.304 176.305 210.522  0.66  2.14           O 0
+ATOM   2054  CD2 LEU R 304     163.595 178.596 213.751  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   143:
+HEADER 0  - Pocket Score                      : -0.1618
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.6389
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3015
+HEADER 5  - Mean B-factor of pocket residues  : 0.3609
+HEADER 6  - Hydrophobicity Score              : 36.9231
+HEADER 7  - Polarity Score                    :    10
+HEADER 8  - Amino Acid based volume Score     : 5.6923
+HEADER 9  - Pocket volume (Monte Carlo)       : 298.5148
+HEADER 10 - Pocket volume (convex hull)       : 45.3671
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2000
+ATOM   7075  ND2 ASN B 235     188.253 225.703 223.809  0.32  9.84           N 0
+ATOM  15759  NH1 ARG C 643     191.591 230.384 221.844  0.40  5.47           N 0
+ATOM  13180  NH2 ARG C 323     186.043 229.258 224.761  0.71  6.56           N 0
+ATOM   7084  OE2 GLU B 236     189.104 230.002 227.171  0.46  1.07           O 0
+ATOM  13121   OH TYR C 316     185.743 230.497 220.195  0.00  0.00           O 0
+ATOM  14603   OG SER C 501     191.371 226.223 219.250  0.48  5.36           O 0
+ATOM  13247   NZ LYS C 330     183.812 224.199 219.653  0.00  0.00           N 0
+ATOM  13177   NE ARG C 323     184.925 227.260 224.875  0.70  3.28           N 0
+ATOM  15798  CH2 TRP C 647     189.195 233.764 222.910  0.00  0.00           C 0
+ATOM  14588    O ALA C 499     191.066 230.735 216.573  0.29  7.50           O 0
+ATOM  13514  CE1 PHE C 364     183.952 232.826 215.322  0.00  0.00           C 0
+ATOM  14589   CB ALA C 499     191.194 233.259 214.948  0.00  0.00           C 0
+ATOM  13543  CE2 PHE C 367     187.528 234.408 212.758  0.00  0.00           C 0
+ATOM  13162  CD1 TRP C 322     181.997 228.192 219.421  0.00  0.00           C 0
+ATOM  13159    O TRP C 322     181.198 226.205 221.515  0.63  1.07           O 0
+ATOM  15796  CZ2 TRP C 647     189.149 233.744 221.546  0.00  0.00           C 0
+ATOM  15793  NE1 TRP C 647     189.368 235.225 219.540  0.76  3.28           N 0
+ATOM  13104  NE1 TRP C 315     185.766 234.602 218.667  0.67  5.47           N 0
+ATOM  13107  CZ2 TRP C 315     186.693 236.283 217.066  0.00  0.00           C 0
+TER
+END

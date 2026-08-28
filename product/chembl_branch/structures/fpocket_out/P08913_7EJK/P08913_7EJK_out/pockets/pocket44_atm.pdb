@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    44:
+HEADER 0  - Pocket Score                      : -0.1206
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0230
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4996
+HEADER 5  - Mean B-factor of pocket residues  : 0.1026
+HEADER 6  - Hydrophobicity Score              : 18.1429
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 199.7047
+HEADER 10 - Pocket volume (convex hull)       : 4.7092
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1333
+ATOM    400   CB GLU A 187      88.891  95.304  89.392  0.00  0.00           C 0
+ATOM    506  NH1 ARG A 198      91.939  98.845  91.906  0.41  9.84           N 1
+ATOM    403  OE1 GLU A 187      87.416  97.625  89.861  0.57  5.36           O 0
+ATOM    401   CG GLU A 187      88.930  96.006  90.740  0.00  0.00           C 0
+ATOM   2415    O ARG B  96      91.694 101.866  85.201  0.00  0.00           O 0
+ATOM   2429    N SER B  98      94.954 100.058  87.066  0.58  3.28           N 0
+ATOM   2424   CA SER B  97      93.826 100.082  84.920  0.00  0.00           C 0
+ATOM    387  CG2 ILE A 185      93.140  93.047  85.375  0.00  0.00           C 0
+ATOM    396    N GLU A 187      88.059  93.408  88.060  0.62  5.47           N 0
+ATOM    384    O ILE A 185      90.288  92.318  84.343  0.00  0.00           O 0
+ATOM   2443  NE1 TRP B  99      94.498  95.424  89.278  0.64  2.19           N 0
+ATOM   2441  CD1 TRP B  99      94.991  95.627  88.013  0.00  0.00           C 0
+ATOM   2428   OG SER B  97      94.341  97.716  84.767  0.74  4.29           O 0
+ATOM   2427   CB SER B  97      93.979  98.860  84.014  0.00  0.00           C 0
+TER
+END

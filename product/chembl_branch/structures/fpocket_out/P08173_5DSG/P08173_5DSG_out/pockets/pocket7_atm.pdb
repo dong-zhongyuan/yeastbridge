@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : 0.0504
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.7944
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6275
+HEADER 5  - Mean B-factor of pocket residues  : 0.7839
+HEADER 6  - Hydrophobicity Score              : -3.8333
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 204.5438
+HEADER 10 - Pocket volume (convex hull)       : 4.9018
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3158
+ATOM   2211  OE1 GLU A1085      45.550 -55.780  47.628  0.86  1.07           O 0
+ATOM   2160  OE1 GLN A1080      45.292 -51.747  41.494  0.00  0.00           O 0
+ATOM   2212  OE2 GLU A1085      46.893 -57.281  46.756  0.00  0.00           O 0
+ATOM   2180  NH1 ARG A1082      42.089 -55.663  45.461  0.00  0.00           N 0
+ATOM   2177   CD ARG A1082      42.972 -53.626  47.197  0.00  0.00           C 0
+ATOM   2157   CB GLN A1080      43.636 -50.588  44.044  0.00  0.00           C 0
+ATOM   2096   CA ASN A1073      53.286 -54.713  42.887  0.00  0.00           C 0
+ATOM   2099   CB ASN A1073      53.659 -56.036  43.556  0.00  0.00           C 0
+ATOM   2135   CE MET A1077      50.138 -56.695  46.227  0.00  0.00           C 0
+ATOM   2101  OD1 ASN A1073      53.598 -57.178  41.452  0.00  0.00           O 0
+ATOM   2129   CA MET A1077      48.424 -51.794  45.133  0.00  0.00           C 0
+ATOM   2120    O ARG A1076      47.677 -50.795  42.653  0.00  0.00           O 0
+ATOM   2128    N MET A1077      49.290 -51.653  43.967  0.00  0.00           N 0
+ATOM   2133   CG MET A1077      49.147 -54.137  45.847  0.00  0.00           C 0
+ATOM   2121   CB ARG A1076      50.000 -52.153  40.852  0.00  0.00           C 0
+ATOM   2123   CD ARG A1076      50.746 -53.148  38.666  0.00  0.00           C 0
+ATOM   2119    C ARG A1076      48.851 -51.118  42.832  0.00  0.00           C 0
+ATOM   2098    O ASN A1073      51.560 -53.467  43.992  0.44  1.07           O 0
+TER
+END

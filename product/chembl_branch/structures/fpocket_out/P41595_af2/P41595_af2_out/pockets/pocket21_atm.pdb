@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    21:
+HEADER 0  - Pocket Score                      : -0.1004
+HEADER 1  - Drug Score                        : 0.0099
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0523
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6217
+HEADER 5  - Mean B-factor of pocket residues  : 0.8002
+HEADER 6  - Hydrophobicity Score              : 50.2000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.2000
+HEADER 9  - Pocket volume (Monte Carlo)       : 263.5737
+HEADER 10 - Pocket volume (convex hull)       : 4.4155
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM   1341    O THR A 171     -15.293  14.468   8.630  0.00  0.00           O 0
+ATOM   1342  CG2 THR A 171     -17.464  16.576  11.856  0.00  0.00           C 0
+ATOM   1373   CG LYS A 175     -12.199  13.459   9.226  0.00  0.00           C 0
+ATOM   1366  CG2 ILE A 174     -13.122  18.645   7.557  0.00  0.00           C 0
+ATOM   1340   CB THR A 171     -17.184  15.327  11.025  0.00  0.00           C 0
+ATOM   1338   CA THR A 171     -17.187  15.604   9.518  0.00  0.00           C 0
+ATOM   1375   CE LYS A 175     -12.842  12.318  11.494  0.00  0.00           C 0
+ATOM   1299    O TYR A 166     -17.245  13.137  13.444  0.59  1.07           O 0
+ATOM   1300   CG TYR A 166     -16.246  14.937  17.278  0.00  0.00           C 0
+ATOM   1298   CB TYR A 166     -16.488  13.879  16.218  0.00  0.00           C 0
+ATOM   1301  CD1 TYR A 166     -16.365  16.305  16.959  0.00  0.00           C 0
+ATOM   1376   NZ LYS A 175     -13.498  11.099  12.055  0.60  7.66           N 0
+ATOM   1217  CD1 ILE A 155      -9.516  10.054  16.218  0.00  0.00           C 0
+ATOM   1216  CG2 ILE A 155     -12.086   9.443  17.892  0.00  0.00           C 0
+ATOM   1302  CD2 TYR A 166     -15.861  14.554  18.576  0.00  0.00           C 0
+TER
+END

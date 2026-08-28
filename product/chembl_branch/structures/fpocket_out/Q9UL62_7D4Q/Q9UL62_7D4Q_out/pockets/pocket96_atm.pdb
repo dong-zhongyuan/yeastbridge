@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    96:
+HEADER 0  - Pocket Score                      : -0.0869
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.8539
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4611
+HEADER 5  - Mean B-factor of pocket residues  : 0.5874
+HEADER 6  - Hydrophobicity Score              : 17.5714
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 200.2710
+HEADER 10 - Pocket volume (convex hull)       : 2.5220
+HEADER 11 - Charge Score                      :    -3
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.2857
+ATOM  21729   CA GLU D 756     138.964 148.633 213.051  0.00  0.00           C 0
+ATOM  21756   CB ASP D 759     137.176 151.016 216.575  0.00  0.00           C 0
+ATOM  16568   CB ALA D  46     132.446 151.559 214.657  0.00  0.00           C 0
+ATOM  21759  OD2 ASP D 759     135.919 149.452 217.855  0.54  8.57           O 0
+ATOM  16559  CD2 TYR D  45     131.170 146.828 212.529  0.00  0.00           C 0
+ATOM  16564    N ALA D  46     131.889 150.593 212.478  0.61  1.09           N 0
+ATOM  21719    O TYR D 755     138.629 151.308 213.488  0.52  1.07           O 0
+ATOM  16550  OD1 ASP D  44     134.286 152.881 211.411  0.56  1.07           O 0
+ATOM  21733   CG GLU D 756     137.738 146.788 211.771  0.00  0.00           C 0
+ATOM  21736  OE2 GLU D 756     136.767 144.705 211.150  0.79  3.21           O 0
+ATOM  16556   CB TYR D  45     132.395 148.009 210.661  0.00  0.00           C 0
+ATOM  21767  CD2 LEU D 760     138.876 146.594 217.447  0.00  0.00           C 0
+ATOM  21728    N GLU D 756     138.993 149.651 212.004  0.00  0.00           N 0
+ATOM  21718    C TYR D 755     138.837 150.940 212.325  0.00  0.00           C 0
+ATOM  16552    N TYR D  45     132.872 150.268 209.861  0.62  2.19           N 0
+ATOM  21720   CB TYR D 755     137.602 152.086 210.461  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    20:
+HEADER 0  - Pocket Score                      : -0.0172
+HEADER 1  - Drug Score                        : 0.0020
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.6506
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3797
+HEADER 5  - Mean B-factor of pocket residues  : 0.4697
+HEADER 6  - Hydrophobicity Score              : 51.3750
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.1250
+HEADER 9  - Pocket volume (Monte Carlo)       : 135.5802
+HEADER 10 - Pocket volume (convex hull)       : 3.3492
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 16.0000
+HEADER 13 - Number of apolar alpha sphere     :    17
+HEADER 14 - Proportion of apolar alpha sphere : 0.8500
+ATOM   1514   CA CYS A1004     -24.030 -10.680   6.771  0.00  0.00           C 0
+ATOM   1516    O CYS A1004     -24.261  -9.831   4.553  0.54  6.43           O 0
+ATOM   2956   CG MET A1193     -30.702 -12.080   4.051  0.00  0.00           C 0
+ATOM   1517   CB CYS A1004     -25.039 -10.147   7.786  0.00  0.00           C 0
+ATOM   2987  CG1 VAL A 372     -30.782 -10.921  10.072  0.00  0.00           C 0
+ATOM   1518   SG CYS A1004     -25.610 -11.385   8.987  0.00  0.00           S 0
+ATOM   1557  ND2 ASN A1008     -26.935  -7.928   1.042  0.18  7.66           N 0
+ATOM   1539    O TRP A1007     -24.537 -12.130   1.888  0.42  2.14           O 0
+ATOM   2958   CE MET A1193     -30.789 -11.437   1.380  0.00  0.00           C 0
+ATOM   2528   SG CYS A1133     -26.965 -15.079   3.151  0.00  0.00           S 0
+ATOM   1503  CG2 ILE A1002     -24.584 -14.813   8.516  0.00  0.00           C 0
+ATOM   2981   OG SER A1196     -27.625 -15.955   8.370  1.00  1.07           O 0
+ATOM   1504  CD1 ILE A1002     -24.250 -16.036   5.791  0.00  0.00           C 0
+ATOM   2980   CB SER A1196     -28.114 -14.931   9.215  0.00  0.00           C 0
+ATOM   2955   CB MET A1193     -31.563 -12.481   5.216  0.00  0.00           C 0
+ATOM   2952   CA MET A1193     -31.010 -13.671   6.015  0.00  0.00           C 0
+ATOM   2954    O MET A1193     -31.301 -13.589   8.354  0.00  0.00           O 0
+TER
+END

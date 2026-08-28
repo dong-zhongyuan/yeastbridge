@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     5:
+HEADER 0  - Pocket Score                      : 0.1367
+HEADER 1  - Drug Score                        : 0.0019
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.5828
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3612
+HEADER 5  - Mean B-factor of pocket residues  : 0.5393
+HEADER 6  - Hydrophobicity Score              : 52.0909
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.0909
+HEADER 9  - Pocket volume (Monte Carlo)       : 139.8839
+HEADER 10 - Pocket volume (convex hull)       : 3.5133
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.3182
+ATOM   1728   CE MET R 264     174.370 187.787 188.844  0.00  0.00           C 0
+ATOM   4234   CA LEU A 353     178.052 185.514 183.532  0.00  0.00           C 0
+ATOM   4236    O LEU A 353     178.636 187.750 184.104  0.00  0.00           O 0
+ATOM   4239  CD1 LEU A 353     179.464 184.432 186.172  0.00  0.00           C 0
+ATOM   1726   CG MET R 264     176.096 186.558 190.596  0.00  0.00           C 0
+ATOM    789  NH1 ARG R 138     177.134 180.996 187.470  0.00  0.00           N 0
+ATOM    790  NH2 ARG R 138     175.587 181.121 185.788  0.51  2.19           N 0
+ATOM   1758  CD1 ILE R 268     176.558 182.195 191.613  0.00  0.00           C 0
+ATOM   2159    O PHE R 319     172.221 183.599 189.588  0.67  3.21           O 0
+ATOM   2208  OD1 ASN R 324     172.718 183.841 182.666  0.00  0.00           O 0
+ATOM   2170    O TYR R 320     170.274 181.946 186.111  0.41  2.14           O 0
+ATOM   1703  CG2 ILE R 261     181.227 188.117 186.863  0.00  0.00           C 0
+ATOM   1725   CB MET R 264     177.277 187.489 190.767  0.00  0.00           C 0
+ATOM   1698   CA ILE R 261     180.278 189.825 188.436  0.00  0.00           C 0
+ATOM   1696  NH2 ARG R 260     176.770 190.062 185.371  0.54  1.09           N 0
+ATOM   2203   CA ASN R 324     171.208 185.796 183.958  0.00  0.00           C 0
+ATOM   4232    O GLY A 352     175.326 185.383 183.326  0.41  2.14           O 0
+ATOM   2197    O LEU R 323     172.026 187.571 185.901  0.56  2.14           O 0
+TER
+END

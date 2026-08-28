@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    65:
+HEADER 0  - Pocket Score                      : -0.0686
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.8178
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5176
+HEADER 5  - Mean B-factor of pocket residues  : 0.1969
+HEADER 6  - Hydrophobicity Score              : 2.6667
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 280.6014
+HEADER 10 - Pocket volume (convex hull)       : 9.3906
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.3182
+ATOM  20719   CG ASN B 719     113.648 159.332 168.621  0.00  0.00           C 0
+ATOM  20756  NH2 ARG B 723     113.881 155.151 167.971  0.65  9.84           N 0
+ATOM  20720  OD1 ASN B 719     114.093 160.115 169.460  0.64  9.64           O 0
+ATOM  20721  ND2 ASN B 719     112.371 158.973 168.585  0.60  6.56           N 0
+ATOM  17377  NH1 ARG B 260     115.851 151.784 170.266  0.39  3.28           N 0
+ATOM  20753   NE ARG B 723     116.138 154.824 167.763  0.76  1.09           N 0
+ATOM  11095  CD1 PHE C 136     118.920 156.141 172.355  0.00  0.00           C 0
+ATOM  20718   CB ASN B 719     114.550 158.727 167.567  0.00  0.00           C 0
+ATOM  20717    O ASN B 719     117.713 158.027 166.970  0.00  0.00           O 0
+ATOM  11090   CA PHE C 136     117.237 155.622 175.013  0.00  0.00           C 0
+ATOM  11100    N SER C 137     118.020 153.465 174.222  0.44  2.19           N 0
+ATOM  20715   CA ASN B 719     115.864 159.490 167.412  0.00  0.00           C 0
+ATOM  20741   CB LYS B 722     120.057 159.635 169.352  0.00  0.00           C 0
+ATOM  20743   CD LYS B 722     119.703 160.214 171.761  0.00  0.00           C 0
+ATOM  11089    N PHE C 136     116.413 156.013 176.150  0.41  7.66           N 0
+ATOM  11093   CB PHE C 136     118.286 156.698 174.716  0.00  0.00           C 0
+ATOM  20745   NZ LYS B 722     119.417 160.781 174.169  0.23  7.66           N 0
+TER
+END

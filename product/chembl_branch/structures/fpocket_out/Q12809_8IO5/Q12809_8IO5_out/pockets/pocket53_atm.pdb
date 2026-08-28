@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    53:
+HEADER 0  - Pocket Score                      : -0.0983
+HEADER 1  - Drug Score                        : 0.0013
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.6733
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5958
+HEADER 5  - Mean B-factor of pocket residues  : 0.8496
+HEADER 6  - Hydrophobicity Score              : 71.3333
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 113.3236
+HEADER 10 - Pocket volume (convex hull)       : 0.3291
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.7500
+ATOM     95  CG2 VAL A 409     182.925 130.970 171.434  0.00  0.00           C 0
+ATOM     90   CA VAL A 409     180.758 131.745 170.432  0.00  0.00           C 0
+ATOM     89    N VAL A 409     180.237 131.873 171.792  0.00  0.00           N 0
+ATOM    126  NE1 TRP A 412     180.348 137.232 171.354  0.48  5.47           N 0
+ATOM    124  CD1 TRP A 412     179.758 136.321 170.513  0.00  0.00           C 0
+ATOM    123   CG TRP A 412     180.340 136.370 169.281  0.00  0.00           C 0
+ATOM    122   CB TRP A 412     179.995 135.539 168.078  0.00  0.00           C 0
+ATOM     94  CG1 VAL A 409     182.517 130.674 169.000  0.00  0.00           C 0
+ATOM     88   CB ALA A 408     179.794 133.544 174.452  0.00  0.00           C 0
+ATOM     86    C ALA A 408     179.348 132.828 172.084  0.00  0.00           C 0
+ATOM    125  CD2 TRP A 412     181.356 137.378 169.360  0.00  0.00           C 0
+ATOM    128  CE3 TRP A 412     182.283 137.894 168.450  0.00  0.00           C 0
+ATOM    127  CE2 TRP A 412     181.332 137.895 170.670  0.00  0.00           C 0
+TER
+END

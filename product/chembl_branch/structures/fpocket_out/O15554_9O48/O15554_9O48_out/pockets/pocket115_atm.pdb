@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   115:
+HEADER 0  - Pocket Score                      : -0.1267
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9244
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6283
+HEADER 5  - Mean B-factor of pocket residues  : 0.4601
+HEADER 6  - Hydrophobicity Score              : -16.5714
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 310.4665
+HEADER 10 - Pocket volume (convex hull)       : 16.8020
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2778
+ATOM   4249  ND1 HIS B 276     147.912 188.187 134.953  0.00  0.00           N 0
+ATOM   4246    O HIS B 276     148.250 185.048 132.010  0.42  3.21           O 0
+ATOM   4266   CE LYS B 278     151.892 185.143 129.734  0.00  0.00           C 0
+ATOM   4267   NZ LYS B 278     152.342 184.569 131.032  0.54  7.66           N 1
+ATOM   4293  CG2 THR B 281     144.255 187.135 126.522  0.00  0.00           C 0
+ATOM   4300  OD1 ASP B 282     147.464 186.497 121.304  0.51  5.36           O 0
+ATOM   4295   CA ASP B 282     145.299 185.470 122.582  0.00  0.00           C 0
+ATOM  15103  OE1 GLU H  12     145.536 190.208 121.545  0.00  0.00           O 0
+ATOM   4256    O SER B 277     145.979 184.078 129.233  0.67  3.21           O 0
+ATOM   3099   NZ LYS B 132     145.742 189.801 131.231  0.00  0.00           N 1
+ATOM   4260   CA LYS B 278     148.121 183.863 127.497  0.00  0.00           C 0
+ATOM   4264   CG LYS B 278     150.511 184.756 127.675  0.00  0.00           C 0
+ATOM   4262    O LYS B 278     146.503 183.997 125.736  0.56  2.14           O 0
+ATOM   4263   CB LYS B 278     149.560 183.789 126.986  0.00  0.00           C 0
+ATOM   4299   CG ASP B 282     147.688 185.354 121.754  0.00  0.00           C 0
+ATOM   4301  OD2 ASP B 282     148.779 184.764 121.602  0.51  5.36           O 1
+ATOM   4298   CB ASP B 282     146.586 184.649 122.517  0.00  0.00           C 0
+TER
+END

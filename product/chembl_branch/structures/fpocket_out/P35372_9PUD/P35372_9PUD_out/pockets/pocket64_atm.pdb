@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    64:
+HEADER 0  - Pocket Score                      : -0.0705
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.0308
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6112
+HEADER 5  - Mean B-factor of pocket residues  : 0.3164
+HEADER 6  - Hydrophobicity Score              : 15.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 226.2742
+HEADER 10 - Pocket volume (convex hull)       : 4.4686
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.5000
+ATOM   7152  NH1 ARG C  15     118.196 105.655 111.310  0.00  0.00           N 0
+ATOM   7121   CB ALA C  11     121.506 110.241 105.664  0.00  0.00           C 0
+ATOM   7141  OE1 GLU C  14     120.364 112.316 111.119  0.70  4.29           O 0
+ATOM   7149   CD ARG C  15     119.734 107.688 112.567  0.00  0.00           C 0
+ATOM   7126   CB ALA C  12     125.072 107.216 108.057  0.00  0.00           C 0
+ATOM   7148   CG ARG C  15     121.144 107.328 112.118  0.00  0.00           C 0
+ATOM   9533  CG1 VAL D  90     121.959 101.523 110.890  0.00  0.00           C 0
+ATOM   9531    O VAL D  90     120.600 103.580 113.044  0.00  0.00           O 0
+ATOM   7122    N ALA C  12     123.701 109.173 107.494  0.73  2.19           N 0
+ATOM   7147   CB ARG C  15     121.838 108.494 111.424  0.00  0.00           C 0
+ATOM   9529   CA VAL D  90     122.892 102.982 112.699  0.00  0.00           C 0
+ATOM   9534  CG2 VAL D  90     124.399 101.954 110.981  0.00  0.00           C 0
+ATOM   9522    O LYS D  89     124.437 105.258 113.030  0.83  1.07           O 0
+ATOM   7120    O ALA C  11     122.598 110.559 108.889  0.00  0.00           O 0
+ATOM   7119    C ALA C  11     122.924 110.231 107.741  0.00  0.00           C 0
+ATOM   7123   CA ALA C  12     124.237 108.381 108.596  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     3:
+HEADER 0  - Pocket Score                      : 0.0546
+HEADER 1  - Drug Score                        : 0.0010
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.8255
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6244
+HEADER 5  - Mean B-factor of pocket residues  : 0.6477
+HEADER 6  - Hydrophobicity Score              : 22.1667
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 265.4674
+HEADER 10 - Pocket volume (convex hull)       : 7.0663
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 5.4286
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM   2615   CA ARG A  61     122.350  79.734 118.145  0.00  0.00           C 0
+ATOM   2617    O ARG A  61     121.874  82.082 118.034  0.00  0.00           O 0
+ATOM   2624  NH2 ARG A  61     123.286  77.735 122.831  0.75  3.28           N 0
+ATOM   2622   CZ ARG A  61     124.078  77.619 121.769  0.00  0.00           C 0
+ATOM   2616    C ARG A  61     122.540  81.144 117.598  0.00  0.00           C 0
+ATOM   2620   CD ARG A  61     124.294  77.351 119.331  0.00  0.00           C 0
+ATOM   2623  NH1 ARG A  61     125.390  77.628 121.936  0.00  0.00           N 0
+ATOM   2618   CB ARG A  61     123.354  78.776 117.492  0.00  0.00           C 0
+ATOM   2621   NE ARG A  61     123.534  77.495 120.566  0.72  1.09           N 0
+ATOM   2584    O VAL A  57     119.009  79.638 120.143  0.47  1.07           O 0
+ATOM   2563    O SER A  54     116.621  78.471 124.343  0.69  2.14           O 0
+ATOM   2626   CA GLY A 206     117.064  83.852 127.707  0.00  0.00           C 0
+ATOM   2625    N GLY A 206     116.013  83.375 126.828  0.41  1.09           N 0
+ATOM   2596   NZ LYS A  58     118.501  77.566 127.306  0.72  4.37           N 0
+ATOM   2593   CG LYS A  58     119.822  77.650 124.614  0.00  0.00           C 0
+ATOM   2564   CB SER A  54     115.451  79.270 127.229  0.00  0.00           C 0
+ATOM   2586  CG1 VAL A  57     117.800  82.143 121.595  0.00  0.00           C 0
+ATOM   2589   CA LYS A  58     119.580  77.784 122.077  0.00  0.00           C 0
+ATOM   2629    N ILE A 207     117.778  85.512 126.105  0.44  3.28           N 0
+TER
+END

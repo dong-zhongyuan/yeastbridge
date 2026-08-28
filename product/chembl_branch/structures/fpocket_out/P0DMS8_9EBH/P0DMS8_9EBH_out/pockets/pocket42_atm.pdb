@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    42:
+HEADER 0  - Pocket Score                      : -0.0763
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 3.9170
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4644
+HEADER 5  - Mean B-factor of pocket residues  : 0.3124
+HEADER 6  - Hydrophobicity Score              : 0.1429
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 245.6929
+HEADER 10 - Pocket volume (convex hull)       : 8.5785
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.1739
+ATOM    112   CE MET A  18     135.669 138.074 135.073  0.00  0.00           C 0
+ATOM   4692   CA GLY E  54     136.044 141.685 133.095  0.00  0.00           C 0
+ATOM   4694    O GLY E  54     135.955 142.302 130.809  0.75  4.29           O 0
+ATOM    135   CD ARG A  21     133.867 134.708 130.350  0.00  0.00           C 0
+ATOM    110   CG MET A  18     133.146 137.159 134.393  0.00  0.00           C 0
+ATOM   4688    O SER E  53     133.504 142.181 134.050  0.63  2.14           O 0
+ATOM   4702   CA GLY E  56     132.419 144.536 130.093  0.00  0.00           C 0
+ATOM    139  NH2 ARG A  21     131.683 136.981 128.484  0.52  9.84           N 0
+ATOM    109   CB MET A  18     131.633 137.162 134.542  0.00  0.00           C 0
+ATOM    136   NE ARG A  21     132.920 135.747 129.965  0.81  3.28           N 0
+ATOM    137   CZ ARG A  21     132.564 136.013 128.716  0.00  0.00           C 0
+ATOM     73    O GLU A  14     128.548 139.202 134.379  0.46  1.07           O 0
+ATOM     78  OE2 GLU A  14     130.266 143.787 132.506  0.00  0.00           O 0
+ATOM    106   CA MET A  18     130.916 136.040 133.789  0.00  0.00           C 0
+ATOM    105    N MET A  18     129.490 136.337 133.696  0.82  1.09           N 0
+ATOM     75   CG GLU A  14     128.785 142.333 133.661  0.00  0.00           C 0
+ATOM    100   CB LYS A  17     126.952 137.111 131.806  0.00  0.00           C 0
+TER
+END

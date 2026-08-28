@@ -1,0 +1,43 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    51:
+HEADER 0  - Pocket Score                      : -0.1362
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    31
+HEADER 3  - Mean alpha-sphere radius          : 4.2143
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5309
+HEADER 5  - Mean B-factor of pocket residues  : 0.2594
+HEADER 6  - Hydrophobicity Score              : 2.6667
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Amino Acid based volume Score     : 5.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 300.2667
+HEADER 10 - Pocket volume (convex hull)       : 19.7654
+HEADER 11 - Charge Score                      :     4
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.0645
+ATOM   5065   CD LYS F  89     105.972 113.519 115.503  0.00  0.00           C 0
+ATOM   2208  NH2 ARG C  52     105.064 115.039 121.489  0.35  9.84           N 0
+ATOM   5067   NZ LYS F  89     105.241 115.588 116.686  0.61  6.56           N 0
+ATOM   5066   CE LYS F  89     104.885 114.570 115.660  0.00  0.00           C 0
+ATOM   2207  NH1 ARG C  52     106.482 113.317 122.019  0.75  7.66           N 1
+ATOM   5032    O ARG F  86      99.592 111.908 112.761  0.00  0.00           O 0
+ATOM   5042    C TYR F  87     101.726 109.287 112.404  0.00  0.00           C 0
+ATOM   5052    N THR F  88     102.130 108.117 112.902  0.63  1.09           N 0
+ATOM   5041   CA TYR F  87     100.335 109.408 111.780  0.00  0.00           C 0
+ATOM   5053   CA THR F  88     103.385 107.966 113.633  0.00  0.00           C 0
+ATOM   4190  OD2 ASP C 312     101.456 107.626 120.172  0.58  7.50           O 0
+ATOM   5058  CG2 THR F  88     102.750 105.710 114.531  0.00  0.00           C 0
+ATOM   5043    O TYR F  87     102.439 110.295 112.447  0.76  2.14           O 0
+ATOM   4189  OD1 ASP C 312     101.499 108.807 122.021  0.30  6.43           O 0
+ATOM   5084   NZ LYS F  91     105.067 107.160 118.705  0.62  8.75           N 0
+ATOM   5083   CE LYS F  91     106.262 107.733 118.026  0.00  0.00           C 0
+ATOM   5059    N LYS F  89     105.261 109.498 113.783  0.00  0.00           N 0
+ATOM   5064   CG LYS F  89     105.585 112.472 114.473  0.00  0.00           C 0
+ATOM   4352  CD2 PHE C 335     105.440 110.156 123.669  0.00  0.00           C 0
+ATOM   4372   NZ LYS C 337     100.982 114.242 124.248  0.64  9.84           N 1
+ATOM   4354  CE2 PHE C 335     106.301 109.826 122.639  0.00  0.00           C 0
+TER
+END

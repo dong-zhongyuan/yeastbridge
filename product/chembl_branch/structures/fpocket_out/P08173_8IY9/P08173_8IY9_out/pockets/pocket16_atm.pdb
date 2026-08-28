@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    16:
+HEADER 0  - Pocket Score                      : 0.0030
+HEADER 1  - Drug Score                        : 0.0010
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 4.0022
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5573
+HEADER 5  - Mean B-factor of pocket residues  : 0.5988
+HEADER 6  - Hydrophobicity Score              : 5.1429
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 218.4522
+HEADER 10 - Pocket volume (convex hull)       : 4.1983
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.5833
+ATOM   1626   CB LEU B  14     154.983 153.207 102.510  0.00  0.00           C 0
+ATOM   1597    O GLU B  10     157.773 152.194 100.630  0.47  1.07           O 0
+ATOM   1599   CG GLU B  10     157.375 149.747  98.494  0.00  0.00           C 0
+ATOM   1618   CG GLN B  13     156.996 155.554  97.857  0.00  0.00           C 0
+ATOM   1623   CA LEU B  14     155.203 154.621 101.972  0.00  0.00           C 0
+ATOM   1601  OE1 GLU B  10     155.695 148.319  97.594  0.56  8.57           O 0
+ATOM   4047   CG LYS G  20     152.708 149.418 100.979  0.00  0.00           C 0
+ATOM   1651  OE1 GLN B  17     151.740 156.777  98.155  0.68  9.64           O 0
+ATOM   1622    N LEU B  14     156.491 154.702 101.293  0.00  0.00           N 0
+ATOM   4043   CA LYS G  20     150.773 150.247 102.457  0.00  0.00           C 0
+ATOM   1650   CD GLN B  17     150.852 157.237  98.873  0.00  0.00           C 0
+ATOM   4069   CB ALA G  23     149.396 154.450 103.144  0.00  0.00           C 0
+ATOM   1648   CB GLN B  17     152.663 158.051 100.507  0.00  0.00           C 0
+ATOM   1652  NE2 GLN B  17     149.564 156.935  98.702  0.43  5.47           N 0
+ATOM   4076  OD1 ASN G  24     146.586 152.365 100.650  0.53  4.29           O 0
+ATOM   4045    O LYS G  20     148.432 150.758 102.392  0.00  0.00           O 0
+ATOM   4046   CB LYS G  20     151.207 149.382 101.271  0.00  0.00           C 0
+TER
+END

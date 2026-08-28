@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : -0.0461
+HEADER 1  - Drug Score                        : 0.0017
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.9186
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5389
+HEADER 5  - Mean B-factor of pocket residues  : 0.1470
+HEADER 6  - Hydrophobicity Score              : 94.0000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 5.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 219.0604
+HEADER 10 - Pocket volume (convex hull)       : 3.6925
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.7000
+ATOM    429  CE1 PHE A  75      26.232   1.518  -2.789  0.00  0.00           C 0
+ATOM    592  CG2 VAL A  95      25.894  -0.894 -10.300  0.00  0.00           C 0
+ATOM    611   CB LEU A  98      23.437  -4.798  -7.444  0.00  0.00           C 0
+ATOM    427  CD1 PHE A  75      25.055   2.057  -3.275  0.00  0.00           C 0
+ATOM    613  CD1 LEU A  98      25.726  -5.813  -7.480  0.00  0.00           C 0
+ATOM    649  CD2 LEU A 102      21.999  -0.890  -2.150  0.00  0.00           C 0
+ATOM    461  CD2 LEU A  79      23.430   2.673  -8.441  0.00  0.00           C 0
+ATOM    616   CA TRP A  99      20.623  -1.331  -7.451  0.00  0.00           C 0
+ATOM    621  CD1 TRP A  99      20.420   1.769  -6.983  0.00  0.00           C 0
+ATOM    619   CB TRP A  99      20.854  -0.243  -8.501  0.00  0.00           C 0
+ATOM    589    O VAL A  95      23.066  -2.012 -10.175  0.00  0.00           O 0
+ATOM    609    C LEU A  98      21.240  -3.653  -7.072  0.00  0.00           C 0
+ATOM    610    O LEU A  98      20.736  -3.655  -5.948  0.52  1.07           O 0
+ATOM    615    N TRP A  99      21.225  -2.591  -7.870  0.81  1.09           N 0
+TER
+END

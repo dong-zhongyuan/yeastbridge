@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    91:
+HEADER 0  - Pocket Score                      : -0.1133
+HEADER 1  - Drug Score                        : 0.0008
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.7840
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5067
+HEADER 5  - Mean B-factor of pocket residues  : 0.1413
+HEADER 6  - Hydrophobicity Score              : 10.6000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 192.0464
+HEADER 10 - Pocket volume (convex hull)       : 3.9894
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.5333
+ATOM   6022  CG2 THR R 220     113.781 130.777 134.104  0.00  0.00           C 0
+ATOM   6007   CG ASP R 218     108.542 130.194 133.651  0.00  0.00           C 0
+ATOM   6006   CB ASP R 218     109.840 130.575 132.983  0.00  0.00           C 0
+ATOM   6009  OD2 ASP R 218     108.229 128.988 133.701  0.72  3.21           O 1
+ATOM   6008  OD1 ASP R 218     107.820 131.105 134.117  0.68  9.64           O 0
+ATOM   5296  OD1 ASN R 129     107.775 136.633 135.068  0.43  9.64           O 0
+HETATM 7062   C1 MEA S   4     112.025 136.951 137.132  0.00  0.00           C 0
+HETATM 7064   CA MEA S   4     113.522 135.241 136.290  0.00  0.00           C 0
+ATOM   6013    O CYS R 219     113.963 133.984 132.699  0.00  0.00           O 0
+ATOM   6010    N CYS R 219     111.424 132.956 131.222  0.62  2.19           N 0
+HETATM 7065    C MEA S   4     113.980 133.943 136.938  0.00  0.00           C 0
+ATOM   5297  ND2 ASN R 129     109.259 136.998 133.434  0.53  5.47           N 0
+ATOM   6003   CA ASP R 218     109.627 131.435 131.743  0.00  0.00           C 0
+TER
+END

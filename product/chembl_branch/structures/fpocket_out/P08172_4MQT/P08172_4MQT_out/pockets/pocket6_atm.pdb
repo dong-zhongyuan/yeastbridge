@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : -0.0260
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9413
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4514
+HEADER 5  - Mean B-factor of pocket residues  : 0.2692
+HEADER 6  - Hydrophobicity Score              : 39.4286
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 287.3885
+HEADER 10 - Pocket volume (convex hull)       : 9.0134
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.5000
+ATOM   1597   CB ALA A 391       6.805 -16.131  14.197  0.00  0.00           C 0
+ATOM   1576  CG2 THR A 388       4.468 -13.185  18.442  0.00  0.00           C 0
+ATOM   2009   CB CYS A 443       1.445 -17.513  18.412  0.00  0.00           C 0
+ATOM   1571   CA THR A 388       6.853 -13.790  17.908  0.00  0.00           C 0
+ATOM   1575  OG1 THR A 388       5.804 -14.440  20.003  0.63  5.36           O 0
+ATOM   1566   NE ARG A 387       9.341 -19.081  19.598  0.00  0.00           N 0
+ATOM   2008    O CYS A 443       1.794 -18.774  21.343  0.00  0.00           O 0
+ATOM   1564   CG ARG A 387       9.773 -16.723  19.016  0.00  0.00           C 0
+ATOM   2006   CA CYS A 443       1.004 -18.818  19.076  0.00  0.00           C 0
+ATOM   2000    O LEU A 442      -0.091 -21.313  19.482  0.44  5.36           O 0
+ATOM   1569  NH2 ARG A 387       9.146 -21.373  19.591  0.00  0.00           N 0
+ATOM   1975   CA CYS A 439       0.963 -16.860  14.268  0.00  0.00           C 0
+ATOM   1972    O ALA A 438       0.710 -19.287  15.584  0.00  0.00           O 0
+ATOM   1979   SG CYS A 439       2.415 -17.239  11.895  0.00  0.00           S 0
+ATOM   1977    O CYS A 439       0.855 -14.925  15.684  0.00  0.00           O 0
+TER
+END

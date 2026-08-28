@@ -1,0 +1,43 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   128:
+HEADER 0  - Pocket Score                      : -0.0768
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of alpha spheres           :    35
+HEADER 3  - Mean alpha-sphere radius          : 3.7751
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5311
+HEADER 5  - Mean B-factor of pocket residues  : 0.0343
+HEADER 6  - Hydrophobicity Score              : -12.8333
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 226.5336
+HEADER 10 - Pocket volume (convex hull)       : 13.8896
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 19.0000
+HEADER 13 - Number of apolar alpha sphere     :    20
+HEADER 14 - Proportion of apolar alpha sphere : 0.5714
+ATOM   8323  OE1 GLU E  65     208.205 117.008 107.561  0.00  0.00           O 0
+ATOM   8275  OD1 ASP E  59     212.333 116.004 112.226  0.79  6.43           O 0
+ATOM   8324  OE2 GLU E  65     206.349 117.486 108.656  0.00  0.00           O 0
+ATOM   8276  OD2 ASP E  59     212.158 114.083 111.165  0.50  8.57           O 0
+ATOM   8280    O GLY E  60     211.461 117.298 108.580  0.57  3.21           O 0
+ATOM   8232   CE LYS E  54     207.261 122.887 113.454  0.00  0.00           C 0
+ATOM   8231   CD LYS E  54     208.680 122.423 113.211  0.00  0.00           C 0
+ATOM   8233   NZ LYS E  54     206.615 122.113 114.538  0.14  3.28           N 0
+ATOM   8267  OE1 GLU E  58     210.728 118.914 115.748  0.41  5.36           O 0
+ATOM   8279    C GLY E  60     211.859 118.474 108.532  0.00  0.00           C 0
+ATOM   8278   CA GLY E  60     212.795 118.962 109.611  0.00  0.00           C 0
+ATOM   8281    N TYR E  61     211.524 119.350 107.584  0.00  0.00           N 0
+ATOM   8229   CB LYS E  54     210.784 122.698 111.825  0.00  0.00           C 0
+ATOM   8277    N GLY E  60     213.270 117.947 110.574  0.00  0.00           N 0
+ATOM   8286   CG TYR E  61     209.573 121.350 106.456  0.00  0.00           C 0
+ATOM   8288  CD2 TYR E  61     210.360 122.202 107.211  0.00  0.00           C 0
+ATOM   8230   CG LYS E  54     209.382 123.207 112.126  0.00  0.00           C 0
+ATOM   8290  CE2 TYR E  61     209.811 123.269 107.904  0.00  0.00           C 0
+ATOM   8291   CZ TYR E  61     208.446 123.490 107.852  0.00  0.00           C 0
+ATOM   8287  CD1 TYR E  61     208.210 121.583 106.423  0.00  0.00           C 0
+ATOM   8289  CE1 TYR E  61     207.643 122.644 107.108  0.00  0.00           C 0
+TER
+END

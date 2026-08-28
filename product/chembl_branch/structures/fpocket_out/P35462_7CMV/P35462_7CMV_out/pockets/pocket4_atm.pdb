@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     4:
+HEADER 0  - Pocket Score                      : 0.1231
+HEADER 1  - Drug Score                        : 0.0012
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.5898
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3289
+HEADER 5  - Mean B-factor of pocket residues  : 0.4007
+HEADER 6  - Hydrophobicity Score              : 33.8182
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.4545
+HEADER 9  - Pocket volume (Monte Carlo)       : 176.5359
+HEADER 10 - Pocket volume (convex hull)       : 9.8806
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2632
+ATOM   6879  CG2 THR R  64      98.042 106.041  94.383  0.00  0.00           C 0
+ATOM   6914  CG2 VAL R  68      94.123 107.870  98.993  0.00  0.00           C 0
+ATOM   6876    O THR R  64      97.647 105.603  97.596  0.55  1.07           O 0
+ATOM   7334  CG2 ILE R 124      97.500 111.994  97.909  0.00  0.00           C 0
+ATOM   7357  OD2 ASP R 127     101.542 107.521  95.479  0.76  1.07           O 1
+ATOM   6906  CD1 LEU R  67     100.861 108.068  99.381  0.00  0.00           C 0
+ATOM   7363   CG ARG R 128      99.137 112.381  93.379  0.00  0.00           C 0
+ATOM   7331    O ILE R 124     100.440 112.399  96.712  0.61  1.07           O 0
+ATOM   7368  NH2 ARG R 128      94.540 112.761  94.518  0.59  4.37           N 0
+ATOM   8610    O TYR R 383      90.402 109.539  96.465  0.59  6.43           O 0
+ATOM   8613  CD1 TYR R 383      93.063 112.782  98.243  0.00  0.00           C 0
+ATOM   8678  CE2 PHE R 390      90.528 104.605  96.317  0.00  0.00           C 0
+ATOM   8651  ND2 ASN R 387      91.080 106.106  92.130  0.22  3.28           N 0
+ATOM   6886  OD1 ASN R  65      94.289 103.926  95.685  0.46  2.14           O 0
+ATOM   1787    O CYS A 351      94.825 109.453  92.477  0.38  6.43           O 0
+ATOM   7365   NE ARG R 128      96.790 112.763  94.047  0.62  1.09           N 0
+ATOM   1788   CB CYS A 351      97.600 109.279  91.159  0.00  0.00           C 0
+TER
+END

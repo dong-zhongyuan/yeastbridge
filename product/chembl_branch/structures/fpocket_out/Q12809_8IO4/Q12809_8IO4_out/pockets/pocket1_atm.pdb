@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     1:
+HEADER 0  - Pocket Score                      : 0.1303
+HEADER 1  - Drug Score                        : 0.0017
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.4952
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3494
+HEADER 5  - Mean B-factor of pocket residues  : 0.8121
+HEADER 6  - Hydrophobicity Score              : 27.6667
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.8889
+HEADER 9  - Pocket volume (Monte Carlo)       : 109.3306
+HEADER 10 - Pocket volume (convex hull)       : 2.3452
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.4737
+ATOM  13497  NH2 ARG B 835     176.527 149.332 221.237  0.55  3.28           N 0
+ATOM  13032   CB LEU B 776     179.258 146.920 216.934  0.00  0.00           C 0
+ATOM  13339    N GLY B 816     181.073 147.623 221.634  0.65  1.09           N 0
+ATOM  13034  CD1 LEU B 776     180.679 145.237 218.125  0.00  0.00           C 0
+ATOM  13031    O LEU B 776     176.882 148.352 217.047  0.52  3.21           O 0
+ATOM  13268   CB GLU B 807     175.625 143.099 219.104  0.00  0.00           C 0
+ATOM  13269   CG GLU B 807     176.928 142.703 218.432  0.00  0.00           C 0
+ATOM  13276    O PRO B 808     173.442 144.905 221.824  0.65  4.29           O 0
+ATOM  13054  CD1 LEU B 779     171.790 147.352 216.482  0.00  0.00           C 0
+ATOM  13494   NE ARG B 835     174.646 150.333 220.396  0.66  2.19           N 0
+ATOM  13492   CG ARG B 835     172.415 150.973 219.543  0.00  0.00           C 0
+ATOM  13311  CD2 TYR B 812     176.260 144.978 223.170  0.00  0.00           C 0
+ATOM  13324    O ARG B 814     178.717 148.952 222.751  0.00  0.00           O 0
+ATOM  13313  CE2 TYR B 812     176.645 143.679 222.917  0.00  0.00           C 0
+ATOM  13281   CA LEU B 809     171.116 146.237 222.556  0.00  0.00           C 0
+ATOM  13285   CG LEU B 809     169.633 146.056 220.379  0.00  0.00           C 0
+TER
+END

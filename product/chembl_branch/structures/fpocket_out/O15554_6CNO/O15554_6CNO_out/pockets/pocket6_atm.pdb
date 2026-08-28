@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : 0.0117
+HEADER 1  - Drug Score                        : 0.0036
+HEADER 2  - Number of alpha spheres           :    27
+HEADER 3  - Mean alpha-sphere radius          : 3.6427
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3773
+HEADER 5  - Mean B-factor of pocket residues  : 0.2025
+HEADER 6  - Hydrophobicity Score              : 72.7778
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 162.5269
+HEADER 10 - Pocket volume (convex hull)       : 7.7934
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 20.0000
+HEADER 13 - Number of apolar alpha sphere     :    21
+HEADER 14 - Proportion of apolar alpha sphere : 0.7778
+ATOM    146   CA ALA A  26     159.440 192.587 156.857  0.00  0.00           C 0
+ATOM    149   CB ALA A  26     159.451 191.573 158.004  0.00  0.00           C 0
+ATOM    148    O ALA A  26     157.995 191.703 155.186  0.49  2.14           O 0
+ATOM   1063   CD ARG A 165     163.727 188.283 157.155  0.00  0.00           C 0
+ATOM    523   CA ILE A  76     167.309 193.747 152.727  0.00  0.00           C 0
+ATOM    527  CG1 ILE A  76     166.583 191.973 151.144  0.00  0.00           C 0
+ATOM   1067  NH2 ARG A 165     166.008 188.839 155.604  0.98  1.09           N 0
+ATOM    546   CB PHE A  79     166.063 193.681 156.818  0.00  0.00           C 0
+ATOM   1038    O LEU A 162     160.320 186.033 154.613  0.57  3.21           O 0
+ATOM    173    N LEU A  30     157.881 191.488 152.094  0.77  1.09           N 0
+ATOM   1039   CB LEU A 162     161.933 186.805 152.215  0.00  0.00           C 0
+ATOM   1062   CG ARG A 165     162.650 187.625 157.989  0.00  0.00           C 0
+ATOM    172   CB ALA A  29     160.735 192.749 152.696  0.00  0.00           C 0
+ATOM   1042  CD2 LEU A 162     164.253 187.432 152.877  0.00  0.00           C 0
+ATOM   1041  CD1 LEU A 162     163.154 188.525 150.922  0.00  0.00           C 0
+ATOM    140    O LEU A  25     160.303 194.696 155.336  0.62  5.36           O 0
+ATOM    517    O LEU A  75     165.721 195.631 153.908  0.62  2.14           O 0
+ATOM    548  CD1 PHE A  79     164.944 192.450 158.671  0.00  0.00           C 0
+ATOM    547   CG PHE A  79     165.943 192.503 157.724  0.00  0.00           C 0
+TER
+END

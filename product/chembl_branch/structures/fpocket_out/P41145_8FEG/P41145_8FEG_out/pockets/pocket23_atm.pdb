@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    23:
+HEADER 0  - Pocket Score                      : 0.0104
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.5538
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4272
+HEADER 5  - Mean B-factor of pocket residues  : 0.3475
+HEADER 6  - Hydrophobicity Score              : 47.7500
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 64.3827
+HEADER 10 - Pocket volume (convex hull)       : 0.2784
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   1495  CD1 LEU C 353     130.084 111.754 115.144  0.00  0.00           C 0
+ATOM   8397    O LEU B 333     124.426 110.671 116.572  0.78  1.07           O 0
+ATOM   1488    O GLY C 352     127.219 112.325 119.132  0.23  1.07           O 0
+ATOM   7088  NH2 ARG B 156     128.871 115.743 114.646  0.45  6.56           N 0
+ATOM   7961  CD1 LEU B 275     126.583 110.470 112.961  0.00  0.00           C 0
+ATOM   8367    O LEU B 329     124.320 114.893 112.425  0.54  1.07           O 0
+ATOM   8402    N ASP B 334     123.115 112.342 117.311  0.00  0.00           N 0
+ATOM   8396    C LEU B 333     123.388 111.335 116.485  0.00  0.00           C 0
+ATOM   7962  CD2 LEU B 275     127.988 112.235 111.938  0.00  0.00           C 0
+ATOM   8403   CA ASP B 334     123.996 112.665 118.425  0.00  0.00           C 0
+ATOM   8408  OD1 ASP B 334     125.766 114.918 119.677  0.64  3.21           O 0
+ATOM   8375    O TYR B 330     123.362 116.638 116.772  0.57  2.14           O 0
+ATOM   8373   CA TYR B 330     123.398 116.545 114.400  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    12:
+HEADER 0  - Pocket Score                      : 0.0459
+HEADER 1  - Drug Score                        : 0.0020
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.7119
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4181
+HEADER 5  - Mean B-factor of pocket residues  : 0.7048
+HEADER 6  - Hydrophobicity Score              : 84.1111
+HEADER 7  - Polarity Score                    :     0
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 130.7251
+HEADER 10 - Pocket volume (convex hull)       : 3.5915
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 18.0000
+HEADER 13 - Number of apolar alpha sphere     :    19
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM  16042  CD1 PHE H 142     115.338 175.787 111.639  0.00  0.00           C 0
+ATOM  15996  CG1 VAL H 137     112.413 176.243 107.644  0.00  0.00           C 0
+ATOM  15825  CD1 LEU H 106     110.725 171.618 111.583  0.00  0.00           C 0
+ATOM  11346  CD1 LEU D 427     112.756 175.381 115.151  0.00  0.00           C 0
+ATOM  15793  CD1 ILE H 101     114.051 172.971 108.583  0.00  0.00           C 0
+ATOM  11347  CD2 LEU D 427     112.457 172.993 114.488  0.00  0.00           C 0
+ATOM  15941   CB ALA H 129     109.115 178.711 110.083  0.00  0.00           C 0
+ATOM  16037   CA PHE H 142     115.450 178.699 110.350  0.00  0.00           C 0
+ATOM  16067   CB MET H 145     112.190 180.346 113.221  0.00  0.00           C 0
+ATOM  15914   CE MET H 125     108.946 174.093 115.252  0.00  0.00           C 0
+ATOM  15910    O MET H 125     106.568 177.381 111.291  0.70  2.14           O 0
+ATOM  15911   CB MET H 125     106.420 175.182 113.774  0.00  0.00           C 0
+ATOM  15997  CG2 VAL H 137     110.130 175.415 107.086  0.00  0.00           C 0
+ATOM  15922  CD1 ILE H 126     107.450 173.309 108.491  0.00  0.00           C 0
+ATOM  15824   CG LEU H 106     110.009 171.328 110.277  0.00  0.00           C 0
+ATOM  15909    C MET H 125     105.875 176.435 111.684  0.00  0.00           C 0
+TER
+END

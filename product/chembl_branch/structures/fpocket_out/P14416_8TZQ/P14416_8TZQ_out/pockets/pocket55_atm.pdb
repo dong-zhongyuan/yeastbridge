@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    55:
+HEADER 0  - Pocket Score                      : -0.0886
+HEADER 1  - Drug Score                        : 0.0022
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9766
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6660
+HEADER 5  - Mean B-factor of pocket residues  : 0.0851
+HEADER 6  - Hydrophobicity Score              : 31.1429
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 261.8477
+HEADER 10 - Pocket volume (convex hull)       : 8.3123
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.6000
+ATOM   8457    O VAL B 334     128.659 137.608 158.599  0.00  0.00           O 0
+ATOM   8459  CG1 VAL B 334     126.927 134.853 158.645  0.00  0.00           C 0
+ATOM   8352  CD2 TYR B 320     133.357 133.808 162.140  0.00  0.00           C 0
+ATOM   8483   CB ASP B 337     128.498 139.853 161.700  0.00  0.00           C 0
+ATOM   8360    O CYS B 321     128.303 129.874 160.601  0.04  6.43           O 0
+ATOM   8349   CB TYR B 320     132.574 132.565 160.091  0.00  0.00           C 0
+ATOM   8357    N CYS B 321     130.982 129.554 160.215  0.09  7.66           N 0
+ATOM   8455   CA VAL B 334     126.280 137.269 158.476  0.00  0.00           C 0
+ATOM   8486  OD2 ASP B 337     126.276 140.121 162.511  0.43  7.50           O 0
+ATOM   8460  CG2 VAL B 334     124.528 135.518 158.849  0.00  0.00           C 0
+ATOM   8346   CA TYR B 320     132.863 131.076 160.283  0.00  0.00           C 0
+ATOM   8340    O ILE B 319     134.691 129.482 161.661  0.00  0.00           O 0
+ATOM   8487    N ALA B 338     130.946 138.825 159.933  0.74  1.09           N 0
+ATOM   8491   CB ALA B 338     132.002 136.893 158.865  0.00  0.00           C 0
+ATOM   8488   CA ALA B 338     132.190 138.075 159.814  0.00  0.00           C 0
+ATOM   8513  OD2 ASP B 341     132.433 138.371 164.145  0.72  7.50           O 0
+TER
+END

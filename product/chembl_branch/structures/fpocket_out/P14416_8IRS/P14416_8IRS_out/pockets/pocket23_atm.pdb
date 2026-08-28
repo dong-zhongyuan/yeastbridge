@@ -1,0 +1,48 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    23:
+HEADER 0  - Pocket Score                      : -0.0433
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 3.8177
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5331
+HEADER 5  - Mean B-factor of pocket residues  : 0.1827
+HEADER 6  - Hydrophobicity Score              : 0.9000
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 408.2227
+HEADER 10 - Pocket volume (convex hull)       : 56.0210
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.0800
+ATOM   1982    C ASN A 255      93.157 102.023  72.536  0.00  0.00           C 0
+ATOM   1930    O ASP A 251      94.958 102.355  68.385  0.21  1.07           O 0
+ATOM   1983    O ASN A 255      91.974 101.902  72.842  0.29  5.36           O 0
+ATOM   1984   CB ASN A 255      92.794 103.948  70.830  0.00  0.00           C 0
+ATOM   1235   CZ ARG A 208      98.195  94.726  66.183  0.00  0.00           C 0
+ATOM   1227    N ARG A 208      97.044  89.936  68.282  0.67  5.47           N 0
+ATOM   1236  NH1 ARG A 208      97.260  95.430  65.627  0.00  0.00           N 1
+ATOM   1237  NH2 ARG A 208      98.978  94.052  65.395  0.35  9.84           N 0
+ATOM   1204    O SER A 206      98.658  88.667  65.913  0.38  3.21           O 0
+ATOM   1213   CA GLU A 207      96.304  87.884  67.095  0.00  0.00           C 0
+ATOM   1231   CB ARG A 208      97.686  92.214  69.064  0.00  0.00           C 0
+ATOM   1234   NE ARG A 208      98.331  94.706  67.496  0.65  2.19           N 0
+ATOM   1944   OG SER A 252      95.495  97.411  66.855  0.00  0.00           O 0
+ATOM   2001  ND2 ASN A 256      94.074  96.449  73.049  0.00  0.00           N 0
+ATOM   1942    O SER A 252      95.369  99.157  69.544  0.47  7.50           O 0
+ATOM   1957  CD1 ILE A 253      99.912  97.440  71.271  0.00  0.00           C 0
+ATOM   1258   CE LYS A 209      90.400  92.755  68.562  0.00  0.00           C 0
+ATOM   1995   CA ASN A 256      93.735  99.748  73.328  0.00  0.00           C 0
+ATOM   1994    N ASN A 256      94.034 101.032  72.708  0.00  0.00           N 0
+ATOM   1998   CB ASN A 256      94.801  98.751  72.861  0.00  0.00           C 0
+ATOM   1256   CG LYS A 209      92.292  91.608  69.768  0.00  0.00           C 0
+ATOM   1251    N LYS A 209      95.147  90.612  70.285  0.00  0.00           N 0
+ATOM   1220  OE2 GLU A 207      91.419  87.939  67.492  0.18  7.50           O 1
+ATOM   1217   CG GLU A 207      93.810  87.862  67.662  0.00  0.00           C 0
+ATOM   1257   CD LYS A 209      90.838  91.486  69.298  0.00  0.00           C 0
+ATOM   1325  CG2 ILE A 212      97.351  93.458  73.397  0.00  0.00           C 0
+TER
+END

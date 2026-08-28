@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    35:
+HEADER 0  - Pocket Score                      : -0.0808
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    30
+HEADER 3  - Mean alpha-sphere radius          : 4.0477
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5047
+HEADER 5  - Mean B-factor of pocket residues  : 0.1774
+HEADER 6  - Hydrophobicity Score              : 18.0000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.8750
+HEADER 9  - Pocket volume (Monte Carlo)       : 287.9055
+HEADER 10 - Pocket volume (convex hull)       : 16.4598
+HEADER 11 - Charge Score                      :     4
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.3000
+ATOM   4444  CE1 PHE B 335     -10.817   7.189  12.397  0.00  0.00           C 0
+ATOM   6153   CG ARG R  52     -10.794   5.676   8.280  0.00  0.00           C 0
+ATOM   2309   CD ARG B  52     -13.448   7.946   9.901  0.00  0.00           C 0
+ATOM   2307   CB ARG B  52     -13.101   9.917  11.391  0.00  0.00           C 0
+ATOM   6187   OG SER R  56      -5.874   6.204   9.471  0.67  5.36           O 0
+ATOM   4446   CZ PHE B 335     -10.217   6.038  11.927  0.00  0.00           C 0
+ATOM   4435   OG SER B 334      -7.877   8.045  15.408  0.70  6.43           O 0
+ATOM   2321    O HIS B  54      -8.217  11.755  15.135  0.51  6.43           O 0
+ATOM   2306    O ARG B  52     -12.744  12.695  11.559  0.44  4.29           O 0
+ATOM   2305    C ARG B  52     -12.881  12.099  12.630  0.00  0.00           C 0
+ATOM    192   NZ LYS A  34      -5.472  13.337   8.998  0.00  0.00           N 0
+ATOM   6186   CB SER R  56      -6.725   6.925   8.597  0.00  0.00           C 0
+ATOM   6157  NH1 ARG R  52     -13.291   7.507   6.533  0.00  0.00           N 0
+ATOM   6154   CD ARG R  52     -11.007   5.875   6.785  0.00  0.00           C 0
+ATOM    190   CD LYS A  34      -4.522  13.787  11.254  0.00  0.00           C 0
+ATOM    226  NH1 ARG A  38      -2.461  11.253  10.802  0.79  2.19           N 0
+ATOM   6185    O SER R  56      -4.126   8.125   7.415  0.63  2.14           O 0
+ATOM   2331    O LEU B  55      -4.613  10.688  16.431  0.21  4.29           O 0
+ATOM    227  NH2 ARG A  38      -2.447   8.994  11.199  0.21  7.66           N 0
+TER
+END

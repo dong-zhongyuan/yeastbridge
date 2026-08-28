@@ -1,0 +1,45 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    25:
+HEADER 0  - Pocket Score                      : -0.0509
+HEADER 1  - Drug Score                        : 0.0016
+HEADER 2  - Number of alpha spheres           :    35
+HEADER 3  - Mean alpha-sphere radius          : 3.8342
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4251
+HEADER 5  - Mean B-factor of pocket residues  : 0.2136
+HEADER 6  - Hydrophobicity Score              : 11.1111
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.5556
+HEADER 9  - Pocket volume (Monte Carlo)       : 343.0455
+HEADER 10 - Pocket volume (convex hull)       : 24.3928
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 11.8462
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.3714
+ATOM   5330  NH1 ARG B  32     147.800 167.360 166.397  0.00  0.00           N 0
+ATOM   5584  OD1 ASP B 193     141.266 171.385 166.745  0.52  3.21           O 0
+ATOM   5331  NH2 ARG B  32     147.813 166.727 168.597  0.00  0.00           N 0
+ATOM   5603  NE2 HIS B 195     142.209 171.183 170.215  0.00  0.00           N 0
+ATOM    846  OD2 ASP A 168     145.482 169.164 163.151  0.42  8.57           O 0
+ATOM   5326   CG ARG B  32     148.572 170.647 166.766  0.00  0.00           C 0
+ATOM    845  OD1 ASP A 168     147.385 168.790 164.178  0.00  0.00           O 0
+ATOM   5585  OD2 ASP B 193     140.745 170.288 164.917  0.00  0.00           O 0
+ATOM   5601  CD2 HIS B 195     143.380 171.840 170.505  0.00  0.00           C 0
+ATOM   5329   CZ ARG B  32     148.223 167.550 167.636  0.00  0.00           C 0
+ATOM   5309   CE LYS B  29     148.053 166.208 173.616  0.00  0.00           C 0
+ATOM    813    O VAL A 164     145.803 173.205 161.653  0.41  2.14           O 0
+ATOM   5581    O ASP B 193     142.433 174.010 165.102  0.59  4.29           O 0
+ATOM    837  CD1 LEU A 167     148.940 174.790 164.172  0.00  0.00           C 0
+ATOM   5589    O LEU B 194     144.962 175.958 168.611  0.79  1.07           O 0
+ATOM   5324    O ARG B  32     147.574 174.498 168.746  0.67  2.14           O 0
+ATOM   5588    C LEU B 194     143.736 175.898 168.443  0.00  0.00           C 0
+ATOM   5308   CD LYS B  29     148.286 167.646 174.059  0.00  0.00           C 0
+ATOM   5306   CB LYS B  29     149.359 168.102 171.830  0.00  0.00           C 0
+ATOM   5592  CD1 LEU B 194     145.402 176.902 165.297  0.00  0.00           C 0
+ATOM   5325   CB ARG B  32     148.319 171.418 168.049  0.00  0.00           C 0
+ATOM   5305    O LYS B  29     149.720 171.025 171.481  0.00  0.00           O 0
+ATOM   5339  OE1 GLU B  33     145.905 172.734 173.330  0.68  4.29           O 0
+TER
+END

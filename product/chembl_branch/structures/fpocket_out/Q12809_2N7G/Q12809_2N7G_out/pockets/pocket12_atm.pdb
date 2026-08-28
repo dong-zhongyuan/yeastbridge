@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    12:
+HEADER 0  - Pocket Score                      : 0.0200
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9322
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5886
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : -25.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.2000
+HEADER 9  - Pocket volume (Monte Carlo)       : 211.7750
+HEADER 10 - Pocket volume (convex hull)       : 2.7334
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   2049   CZ ARG A 153     -25.766  25.633 -11.842  0.00  0.00           C 0
+ATOM   2050  NH1 ARG A 153     -26.016  25.674 -13.143  0.43  3.28           N 0
+ATOM   2051  NH2 ARG A 153     -26.464  26.400 -11.013  0.00  0.00           N 0
+ATOM   1332  OD1 ASN A 109     -20.080  30.542 -13.134  0.00  0.00           O 0
+ATOM   1297   CB LYS A 107     -24.682  27.318 -18.363  0.00  0.00           C 0
+ATOM   1296    O LYS A 107     -22.168  26.013 -16.500  0.41  1.07           O 0
+ATOM   1318    O SER A 108     -21.011  29.349 -17.759  0.39  4.29           O 0
+ATOM   2043    C ARG A 153     -20.884  24.905 -10.689  0.00  0.00           C 0
+ATOM   2048   NE ARG A 153     -24.823  24.828 -11.367  0.00  0.00           N 0
+ATOM   2044    O ARG A 153     -21.888  24.337 -10.261  0.00  0.00           O 0
+ATOM   2069   CB ASP A 154     -21.275  25.936  -7.925  0.00  0.00           C 0
+ATOM   1333  ND2 ASN A 109     -19.911  28.306 -13.012  0.50  4.37           N 0
+ATOM   2046   CG ARG A 153     -23.041  24.737 -13.078  0.00  0.00           C 0
+TER
+END

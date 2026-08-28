@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    44:
+HEADER 0  - Pocket Score                      : -0.1892
+HEADER 1  - Drug Score                        : 0.0030
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 4.1704
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5746
+HEADER 5  - Mean B-factor of pocket residues  : 0.8085
+HEADER 6  - Hydrophobicity Score              : 47.6667
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.8889
+HEADER 9  - Pocket volume (Monte Carlo)       : 254.4041
+HEADER 10 - Pocket volume (convex hull)       : 3.5943
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 19.0000
+HEADER 13 - Number of apolar alpha sphere     :    20
+HEADER 14 - Proportion of apolar alpha sphere : 0.8333
+ATOM   6598  CE2 PHE R 394     193.336 178.376 172.401  0.00  0.00           C 0
+ATOM   6514   CB THR R 385     196.325 183.660 171.664  0.00  0.00           C 0
+ATOM   6596  CD2 PHE R 394     194.373 177.943 173.203  0.00  0.00           C 0
+ATOM   6481  CG1 VAL R 381     196.132 182.759 166.376  0.00  0.00           C 0
+ATOM   6482  CG2 VAL R 381     194.910 180.727 165.572  0.00  0.00           C 0
+ATOM   4753  CG2 VAL R  50     189.812 177.804 169.974  0.00  0.00           C 0
+ATOM   6508  OG1 THR R 384     192.327 181.553 170.675  0.71  2.14           O 0
+ATOM   4726    O GLY R  46     190.761 175.441 167.860  0.00  0.00           O 0
+ATOM   4724   CA GLY R  46     192.357 175.152 166.094  0.00  0.00           C 0
+ATOM   4746  CD2 LEU R  49     193.263 174.656 171.902  0.00  0.00           C 0
+ATOM   4745  CD1 LEU R  49     194.730 172.974 170.823  0.00  0.00           C 0
+ATOM   4721  CE2 PHE R  45     196.664 172.983 166.778  0.00  0.00           C 0
+ATOM   6476    N VAL R 381     192.430 181.935 166.619  0.00  0.00           N 0
+ATOM   6477   CA VAL R 381     193.747 182.373 167.071  0.00  0.00           C 0
+ATOM   6473   CB PRO R 380     189.920 179.919 166.885  0.00  0.00           C 0
+ATOM   6471    C PRO R 380     191.399 181.879 167.465  0.00  0.00           C 0
+TER
+END

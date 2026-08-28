@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    50:
+HEADER 0  - Pocket Score                      : -0.1246
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0378
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6027
+HEADER 5  - Mean B-factor of pocket residues  : 0.1042
+HEADER 6  - Hydrophobicity Score              : 2.1429
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 5.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 155.6560
+HEADER 10 - Pocket volume (convex hull)       : 1.6033
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.4000
+ATOM   5721   CB THR N 104     121.480 111.756 133.716  0.00  0.00           C 0
+ATOM   5709    O PHE N 103     124.825 110.940 131.906  0.00  0.00           O 0
+ATOM   5718   CA THR N 104     122.936 112.197 133.511  0.00  0.00           C 0
+ATOM   5723  CG2 THR N 104     121.303 110.292 133.344  0.00  0.00           C 0
+ATOM    956   CB ARG A 280     117.739 110.743 129.439  0.00  0.00           C 0
+ATOM    952    N ARG A 280     117.352 113.156 129.567  0.68  3.28           N 0
+ATOM    939    O ASN A 278     119.953 116.057 130.368  0.62  5.36           O 0
+ATOM   5724    N ARG N 105     122.988 114.614 133.652  0.50  1.09           N 0
+ATOM   5729   CG ARG N 105     125.131 116.534 132.605  0.00  0.00           C 0
+ATOM    958   CD ARG A 280     119.005 109.517 127.646  0.00  0.00           C 0
+ATOM    994  NH1 ARG A 283     119.236 112.847 125.418  0.73  6.56           N 1
+ATOM    953   CA ARG A 280     117.503 112.031 128.650  0.00  0.00           C 0
+ATOM    947    O ASN A 279     117.710 114.689 127.950  0.00  0.00           O 0
+TER
+END

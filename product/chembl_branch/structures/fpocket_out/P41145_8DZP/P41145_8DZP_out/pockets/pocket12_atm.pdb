@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    12:
+HEADER 0  - Pocket Score                      : -0.0010
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.8544
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5118
+HEADER 5  - Mean B-factor of pocket residues  : 0.1094
+HEADER 6  - Hydrophobicity Score              : 18.5000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 178.5397
+HEADER 10 - Pocket volume (convex hull)       : 2.1942
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1000
+ATOM   2281  OD1 ASP B  20     127.389 120.014 141.659  0.00  0.00           O 0
+ATOM   2315   CG ARG B  24     123.298 122.428 136.431  0.00  0.00           C 0
+ATOM   4254   CA GLY C  53     127.966 124.723 142.136  0.00  0.00           C 0
+ATOM   2319  NH1 ARG B  24     125.560 119.783 136.454  0.00  0.00           N 0
+ATOM   4253    N GLY C  53     129.327 125.137 141.866  0.66  1.09           N 0
+ATOM   4246   CB ARG C  52     132.095 124.566 140.373  0.00  0.00           C 0
+ATOM   2278    O ASP B  20     123.129 120.163 139.627  0.60  1.07           O 0
+ATOM   2306   CB LEU B  23     122.529 122.724 142.158  0.00  0.00           C 0
+ATOM   4256    O GLY C  53     125.832 125.750 142.451  0.00  0.00           O 0
+ATOM   4274  CD2 LEU C  55     125.176 127.661 138.846  0.00  0.00           C 0
+ATOM   4244    C ARG C  52     130.356 124.347 142.151  0.00  0.00           C 0
+ATOM   2310    N ARG B  24     121.362 122.445 139.226  0.00  0.00           N 0
+ATOM   4273  CD1 LEU C  55     122.716 127.312 139.037  0.00  0.00           C 0
+ATOM   4245    O ARG C  52     130.228 123.225 142.644  0.42  2.14           O 0
+TER
+END

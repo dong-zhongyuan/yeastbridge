@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    50:
+HEADER 0  - Pocket Score                      : -0.0438
+HEADER 1  - Drug Score                        : 0.0022
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9379
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5860
+HEADER 5  - Mean B-factor of pocket residues  : 0.2752
+HEADER 6  - Hydrophobicity Score              : 42.1111
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.8889
+HEADER 9  - Pocket volume (Monte Carlo)       : 266.4551
+HEADER 10 - Pocket volume (convex hull)       : 13.5764
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.7778
+ATOM   9442  CD1 LEU M 131      82.475 104.561 123.128  0.00  0.00           C 0
+ATOM   8996   CE MET M  74      80.721 104.260 126.638  0.00  0.00           C 0
+ATOM   9407   CB SER M 127      86.791 106.540 125.333  0.00  0.00           C 0
+ATOM   9415  CG2 VAL M 128      84.424 109.839 122.330  0.00  0.00           C 0
+ATOM   9380   CB PRO M 124      86.961 111.218 127.029  0.00  0.00           C 0
+ATOM   9408   OG SER M 127      87.582 106.238 126.468  0.54  3.21           O 0
+ATOM   9377   CA PRO M 124      87.887 110.164 126.407  0.00  0.00           C 0
+ATOM   9381   CG PRO M 124      87.511 111.462 128.342  0.00  0.00           C 0
+ATOM   9379    O PRO M 124      87.125 109.735 124.196  0.42  1.07           O 0
+ATOM   9027   OG SER M  78      84.134 105.030 130.247  0.53  5.36           O 0
+ATOM   8994   CG MET M  74      82.975 102.671 126.896  0.00  0.00           C 0
+ATOM   9055  CG2 VAL M  82      84.842 108.755 135.385  0.00  0.00           C 0
+ATOM   9048   SG CYS M  81      88.640 110.650 131.744  0.00  0.00           S 0
+ATOM   9023   CA SER M  78      86.026 105.314 131.744  0.00  0.00           C 0
+ATOM   9025    O SER M  78      86.497 106.439 133.807  0.00  0.00           O 0
+ATOM   9026   CB SER M  78      84.564 104.894 131.590  0.00  0.00           C 0
+ATOM   9047   CB CYS M  81      88.872 108.899 132.093  0.00  0.00           C 0
+ATOM   9013    O TYR M  77      88.730 105.680 131.305  0.59  1.07           O 0
+TER
+END

@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : 0.0331
+HEADER 1  - Drug Score                        : 0.0041
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9323
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6444
+HEADER 5  - Mean B-factor of pocket residues  : 0.3840
+HEADER 6  - Hydrophobicity Score              : 7.0000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 226.6643
+HEADER 10 - Pocket volume (convex hull)       : 4.9825
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.6111
+ATOM   2321   CD LYS B  25     106.416 150.987 123.208  0.00  0.00           C 0
+ATOM   2319   CB LYS B  25     108.568 151.227 124.484  0.00  0.00           C 0
+ATOM   2289   CG GLU B  21     107.966 157.213 126.380  0.00  0.00           C 0
+ATOM   2292  OE2 GLU B  21     105.640 157.636 126.646  0.00  0.00           O 0
+ATOM   2322   CE LYS B  25     106.846 152.078 122.237  0.00  0.00           C 0
+ATOM   2290   CD GLU B  21     106.758 158.126 126.383  0.00  0.00           C 0
+ATOM   2287    O GLU B  21     110.064 154.819 125.471  0.70  1.07           O 0
+ATOM   2297   CB ALA B  22     110.799 155.844 121.440  0.00  0.00           C 0
+ATOM   2293    N ALA B  22     110.722 156.241 123.855  0.00  0.00           N 0
+ATOM   2294   CA ALA B  22     110.658 155.211 122.822  0.00  0.00           C 0
+ATOM   2262    O ALA B  18     110.755 159.404 122.979  0.00  0.00           O 0
+ATOM   2291  OE1 GLU B  21     106.926 159.335 126.122  0.43  5.36           O 0
+ATOM   2288   CB GLU B  21     109.255 157.956 126.085  0.00  0.00           C 0
+ATOM   2260   CA ALA B  18     110.422 161.733 123.455  0.00  0.00           C 0
+ATOM   2263   CB ALA B  18     109.931 162.498 122.228  0.00  0.00           C 0
+TER
+END

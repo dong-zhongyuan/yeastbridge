@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : 0.0544
+HEADER 1  - Drug Score                        : 0.0090
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.8672
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7079
+HEADER 5  - Mean B-factor of pocket residues  : 0.1856
+HEADER 6  - Hydrophobicity Score              : 75.8333
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 283.7482
+HEADER 10 - Pocket volume (convex hull)       : 12.8698
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 11.2000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.7143
+ATOM   3179  CD2 PHE B  59     132.263 112.896 179.548  0.00  0.00           C 0
+ATOM   3188   CG LEU B  60     127.754 116.558 176.487  0.00  0.00           C 0
+ATOM   3181  CE2 PHE B  59     132.481 111.622 179.077  0.00  0.00           C 0
+ATOM   3189  CD1 LEU B  60     126.549 116.233 177.344  0.00  0.00           C 0
+ATOM   3184   CA LEU B  60     130.379 116.354 176.990  0.00  0.00           C 0
+ATOM   3187   CB LEU B  60     128.965 116.774 177.393  0.00  0.00           C 0
+ATOM   3147    O LEU B  56     129.973 116.984 180.719  0.00  0.00           O 0
+ATOM   3150  CD1 LEU B  56     127.952 114.606 182.607  0.00  0.00           C 0
+ATOM   3211   CB CYS B  63     132.710 113.296 174.245  0.00  0.00           C 0
+ATOM   3186    O LEU B  60     130.874 116.652 174.657  0.55  1.07           O 0
+ATOM   3209    C CYS B  63     132.949 114.673 172.155  0.00  0.00           C 0
+ATOM   3239  CG1 ILE B  67     131.764 112.111 168.884  0.00  0.00           C 0
+ATOM   3210    O CYS B  63     133.149 114.020 171.122  0.00  0.00           O 0
+ATOM   3218  OG1 THR B  64     129.633 116.812 172.132  0.81  3.21           O 0
+ATOM   3214   CA THR B  64     131.627 116.265 170.909  0.00  0.00           C 0
+ATOM   3213    N THR B  64     132.201 115.779 172.160  0.00  0.00           N 0
+ATOM   3238   CB ILE B  67     131.868 113.090 167.718  0.00  0.00           C 0
+ATOM   3219  CG2 THR B  64     129.813 117.680 169.944  0.00  0.00           C 0
+ATOM   3240  CG2 ILE B  67     130.969 112.651 166.589  0.00  0.00           C 0
+TER
+END

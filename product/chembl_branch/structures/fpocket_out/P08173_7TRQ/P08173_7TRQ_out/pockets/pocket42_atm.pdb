@@ -1,0 +1,45 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    42:
+HEADER 0  - Pocket Score                      : -0.0875
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    26
+HEADER 3  - Mean alpha-sphere radius          : 4.0001
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5476
+HEADER 5  - Mean B-factor of pocket residues  : 0.2338
+HEADER 6  - Hydrophobicity Score              : 23.8000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.3000
+HEADER 9  - Pocket volume (Monte Carlo)       : 412.1165
+HEADER 10 - Pocket volume (convex hull)       : 33.0433
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1154
+ATOM   4455   CA GLY B 306      75.506 110.891 117.246  0.00  0.00           C 0
+ATOM   4464  CG2 VAL B 307      78.481 107.437 117.031  0.00  0.00           C 0
+ATOM   4444   CD ARG B 304      76.170 106.398 120.156  0.00  0.00           C 0
+ATOM   4441    O ARG B 304      72.122 108.501 119.274  0.54  3.21           O 0
+ATOM   2422   CD ARG B  42      72.016 110.344 111.836  0.00  0.00           C 0
+ATOM   2423   NE ARG B  42      73.316 109.739 111.577  0.62  4.37           N 0
+ATOM   2421   CG ARG B  42      72.048 111.259 113.041  0.00  0.00           C 0
+ATOM   4458    N VAL B 307      77.768 110.359 116.662  0.61  3.28           N 0
+ATOM   4452    O ALA B 305      72.891 111.419 116.987  0.68  2.14           O 0
+ATOM   2420   CB ARG B  42      70.704 111.920 113.248  0.00  0.00           C 0
+ATOM   2415    O GLY B  41      68.975 112.341 116.659  0.44  7.50           O 0
+ATOM   2426  NH2 ARG B  42      74.790 108.400 110.446  0.00  0.00           N 0
+ATOM   4461    O VAL B 307      79.862 111.211 114.982  0.00  0.00           O 0
+ATOM   4462   CB VAL B 307      79.313 108.450 116.266  0.00  0.00           C 0
+ATOM   2430    O ILE B  43      75.597 113.745 114.681  0.53  4.29           O 0
+ATOM   2440   CG GLN B  44      74.503 113.735 110.782  0.00  0.00           C 0
+ATOM   2436   CA GLN B  44      76.122 115.030 112.257  0.00  0.00           C 0
+ATOM   2447    O MET B  45      80.942 115.670 112.388  0.41  8.57           O 0
+ATOM   2444    N MET B  45      78.190 116.081 112.941  0.56  1.09           N 0
+ATOM   2439   CB GLN B  44      75.630 114.743 110.843  0.00  0.00           C 0
+ATOM   2442  OE1 GLN B  44      75.116 113.423 108.497  0.48  8.57           O 0
+ATOM   2441   CD GLN B  44      74.416 113.052 109.438  0.00  0.00           C 0
+ATOM   2457   CG ARG B  46      80.394 117.379 108.552  0.00  0.00           C 0
+TER
+END

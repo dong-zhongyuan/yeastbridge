@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     3:
+HEADER 0  - Pocket Score                      : 0.0129
+HEADER 1  - Drug Score                        : 0.0025
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.8679
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6126
+HEADER 5  - Mean B-factor of pocket residues  : 0.2118
+HEADER 6  - Hydrophobicity Score              : 90.3750
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 197.8588
+HEADER 10 - Pocket volume (convex hull)       : 5.2058
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.7778
+ATOM    463  CD1 LEU A  81       1.672  -6.428  35.647  0.00  0.00           C 0
+ATOM    566  CD1 LEU A  93       4.574  -4.521  30.960  0.00  0.00           C 0
+ATOM    591   CB ALA A  97       5.323  -9.184  29.844  0.00  0.00           C 0
+ATOM    590    O ALA A  97       2.774 -10.572  31.350  0.73  3.21           O 0
+ATOM    464  CD2 LEU A  81       2.399  -4.453  34.294  0.00  0.00           C 0
+ATOM    552  CZ2 TRP A  91       1.578  -7.331  30.097  0.00  0.00           C 0
+ATOM    610   CB LEU A 100       4.283 -13.401  33.457  0.00  0.00           C 0
+ATOM    614    N TRP A 101       1.460 -11.909  33.585  0.00  0.00           N 0
+ATOM    430  CD1 PHE A  77       4.357  -7.142  39.732  0.00  0.00           C 0
+ATOM    648  CD2 LEU A 104       2.691 -11.477  39.497  0.00  0.00           C 0
+ATOM    428   CB PHE A  77       1.848  -7.281  39.714  0.00  0.00           C 0
+ATOM    588   CA ALA A  97       4.798 -10.604  30.055  0.00  0.00           C 0
+ATOM    612  CD1 LEU A 100       6.769 -13.756  33.308  0.00  0.00           C 0
+ATOM    609    O LEU A 100       1.567 -13.377  35.288  0.71  1.07           O 0
+ATOM    608    C LEU A 100       1.901 -13.037  34.147  0.00  0.00           C 0
+ATOM    618   CB TRP A 101       0.303  -9.743  33.538  0.00  0.00           C 0
+ATOM    615   CA TRP A 101       0.546 -11.036  34.314  0.00  0.00           C 0
+TER
+END

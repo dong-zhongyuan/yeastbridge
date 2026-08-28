@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : -0.0485
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.6159
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5358
+HEADER 5  - Mean B-factor of pocket residues  : 0.8661
+HEADER 6  - Hydrophobicity Score              : 1.8000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 157.7700
+HEADER 10 - Pocket volume (convex hull)       : 1.5703
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0667
+ATOM   1222    O LEU A 162      12.768 -11.821 -16.799  0.00  0.00           O 0
+ATOM   1263  NH1 ARG A 166      14.868  -5.848 -18.621  0.71  1.09           N 0
+ATOM    752  ND2 ASN A 100      16.513  -5.421 -16.115  0.55  6.56           N 0
+ATOM   1264  NH2 ARG A 166      15.825  -6.842 -20.374  0.24  9.84           N 0
+ATOM   1219   CA LEU A 162      11.570 -10.143 -15.589  0.00  0.00           C 0
+ATOM   1215    O PRO A 161      11.140  -8.419 -17.770  0.53  1.07           O 0
+ATOM   1238   CA GLY A 164      10.790 -10.401 -21.086  0.00  0.00           C 0
+ATOM   1237    N GLY A 164      10.688 -11.009 -19.759  0.76  2.19           N 0
+ATOM   1265   CZ ARG A 166      14.760  -6.330 -19.824  0.00  0.00           C 0
+ATOM   1262   NE ARG A 166      13.615  -6.305 -20.474  0.35  5.47           N 0
+ATOM    749   CB ASN A 100      14.970  -5.457 -14.242  0.00  0.00           C 0
+ATOM   1225  CD2 LEU A 162      12.752  -8.606 -13.136  0.00  0.00           C 0
+ATOM    751   CG ASN A 100      15.389  -4.970 -15.610  0.00  0.00           C 0
+TER
+END

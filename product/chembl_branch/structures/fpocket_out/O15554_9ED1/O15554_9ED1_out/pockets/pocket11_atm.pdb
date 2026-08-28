@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : -0.0240
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.7878
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5658
+HEADER 5  - Mean B-factor of pocket residues  : 0.7789
+HEADER 6  - Hydrophobicity Score              : 13.4000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 250.8493
+HEADER 10 - Pocket volume (convex hull)       : 8.1488
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.4737
+ATOM   1384   CG PRO A 204     201.017 204.626 201.490  0.00  0.00           C 0
+ATOM   1383   CB PRO A 204     201.483 204.561 202.913  0.00  0.00           C 0
+ATOM   1353   CE MET A 200     205.384 203.627 202.930  0.00  0.00           C 0
+ATOM   1967  CG1 VAL A 284     204.345 208.881 203.832  0.00  0.00           C 0
+ATOM   1987   CD ARG A 287     208.406 209.382 197.925  0.00  0.00           C 0
+ATOM   1985   CB ARG A 287     206.922 211.160 198.859  0.00  0.00           C 0
+ATOM   1984    O ARG A 287     204.817 213.327 197.700  0.00  0.00           O 0
+ATOM   1990  NH1 ARG A 287     207.769 206.767 197.015  0.77  3.28           N 0
+ATOM   1988   NE ARG A 287     207.714 208.354 198.694  0.00  0.00           N 0
+ATOM   1997   CG LYS A 288     202.246 211.228 201.490  0.00  0.00           C 0
+ATOM   1998   CD LYS A 288     201.280 210.463 200.602  0.00  0.00           C 0
+ATOM   1965    O VAL A 284     205.266 211.510 202.264  0.00  0.00           O 0
+ATOM   1989   CZ ARG A 287     207.431 207.142 198.237  0.00  0.00           C 0
+ATOM   1991  NH2 ARG A 287     206.789 206.285 199.027  0.73  7.66           N 0
+ATOM   1993   CA LYS A 288     202.986 212.940 199.736  0.00  0.00           C 0
+ATOM   1995    O LYS A 288     201.722 214.184 198.115  0.00  5.36           O 0
+ATOM   1983    C ARG A 287     205.239 213.013 198.819  0.00  0.00           C 0
+TER
+END

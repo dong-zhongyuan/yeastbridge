@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    55:
+HEADER 0  - Pocket Score                      : -0.1901
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.0498
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6272
+HEADER 5  - Mean B-factor of pocket residues  : 0.5120
+HEADER 6  - Hydrophobicity Score              : 8.8000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 429.8913
+HEADER 10 - Pocket volume (convex hull)       : 15.8169
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5556
+ATOM    241  NH1 ARG R  52     129.240 142.204 120.892  0.48  4.37           N 0
+ATOM    269   CZ ARG R  55     130.010 140.719 128.004  0.00  0.00           C 0
+ATOM    270  NH1 ARG R  55     130.829 141.698 127.656  0.36  6.56           N 0
+ATOM    271  NH2 ARG R  55     128.873 141.013 128.627  0.00  0.00           N 0
+ATOM    268   NE ARG R  55     130.297 139.451 127.743  0.73  4.37           N 0
+ATOM    239   NE ARG R  52     131.262 141.491 121.753  0.47  3.28           N 0
+ATOM    240   CZ ARG R  52     130.455 142.461 121.347  0.00  0.00           C 0
+ATOM    242  NH2 ARG R  52     130.875 143.722 121.403  0.42  6.56           N 0
+ATOM    238   CD ARG R  52     130.914 140.075 121.743  0.00  0.00           C 0
+ATOM   4798   CZ PHE B 335     130.342 138.855 115.708  0.00  0.00           C 0
+ATOM    276   CB SER R  56     131.677 133.226 122.548  0.00  0.00           C 0
+ATOM   5510   NZ LYS A  34     124.800 133.640 119.846  0.00  0.00           N 0
+ATOM    237   CG ARG R  52     131.967 139.208 122.424  0.00  0.00           C 0
+ATOM    267   CD ARG R  55     131.509 139.007 127.065  0.00  0.00           C 0
+ATOM    266   CG ARG R  55     131.709 137.501 127.129  0.00  0.00           C 0
+ATOM    263    C ARG R  55     132.262 134.763 125.862  0.00  0.00           C 0
+ATOM    272    N SER R  56     132.418 134.243 124.643  0.00  0.00           N 0
+ATOM    273   CA SER R  56     131.358 133.453 124.025  0.00  0.00           C 0
+ATOM    235    O ARG R  52     133.348 136.414 122.150  0.27  4.29           O 0
+ATOM    264    O ARG R  55     131.262 134.544 126.555  0.52  1.07           O 0
+TER
+END

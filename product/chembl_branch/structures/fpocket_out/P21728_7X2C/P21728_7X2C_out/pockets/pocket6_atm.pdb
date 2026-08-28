@@ -1,0 +1,47 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : 0.0475
+HEADER 1  - Drug Score                        : 0.0646
+HEADER 2  - Number of alpha spheres           :    29
+HEADER 3  - Mean alpha-sphere radius          : 3.8043
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6858
+HEADER 5  - Mean B-factor of pocket residues  : 0.3158
+HEADER 6  - Hydrophobicity Score              : 61.1250
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 3.3750
+HEADER 9  - Pocket volume (Monte Carlo)       : 329.7577
+HEADER 10 - Pocket volume (convex hull)       : 26.3976
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 18.0909
+HEADER 13 - Number of apolar alpha sphere     :    22
+HEADER 14 - Proportion of apolar alpha sphere : 0.7586
+ATOM    477  CG1 VAL F  83      89.392 111.558  66.778  0.00  0.00           C 0
+ATOM    478  CG2 VAL F  83      88.936 111.293  69.214  0.00  0.00           C 0
+ATOM    499  CG2 ILE F  86      83.138 108.604  66.080  0.00  0.00           C 0
+ATOM    497   CB ILE F  86      84.462 107.909  66.339  0.00  0.00           C 0
+ATOM    505   CB ALA F  87      87.036 110.399  62.443  0.00  0.00           C 0
+ATOM    501    N ALA F  87      85.907 108.544  63.577  0.00  0.00           N 0
+ATOM    502   CA ALA F  87      85.986 109.294  62.330  0.00  0.00           C 0
+ATOM    473   CA VAL F  83      88.704 109.315  67.690  0.00  0.00           C 0
+ATOM    498  CG1 ILE F  86      84.393 107.076  67.617  0.00  0.00           C 0
+ATOM     84   CA SER F  31      83.401 105.995  76.148  0.00  0.00           C 0
+ATOM     83    N SER F  31      83.510 104.967  75.121  0.77  1.09           N 0
+ATOM    471   CB ALA F  82      88.409 106.437  71.107  0.00  0.00           C 0
+ATOM    111  CG2 ILE F  34      86.796 106.682  77.406  0.00  0.00           C 0
+ATOM     87   CB SER F  31      82.194 106.890  75.867  0.00  0.00           C 0
+ATOM    469    C ALA F  82      88.432 107.119  68.695  0.00  0.00           C 0
+ATOM    470    O ALA F  82      87.490 106.858  67.936  0.00  0.00           O 0
+ATOM     88   OG SER F  31      82.048 107.881  76.869  0.56  9.64           O 0
+ATOM     56    O ALA F  27      81.753 105.415  72.880  0.63  2.14           O 0
+ATOM     79   CB LEU F  30      85.158 103.620  72.724  0.00  0.00           C 0
+ATOM    475    O VAL F  83      88.132 109.019  65.373  0.50  1.07           O 0
+ATOM    472    N VAL F  83      89.067 108.291  68.665  0.00  0.00           N 0
+ATOM     54   CA ALA F  27      81.305 105.156  70.538  0.00  0.00           C 0
+ATOM     57   CB ALA F  27      80.657 106.383  69.899  0.00  0.00           C 0
+ATOM     77    C LEU F  30      84.558 104.138  75.105  0.00  0.00           C 0
+ATOM     78    O LEU F  30      85.484 104.229  75.920  0.56  1.07           O 0
+TER
+END

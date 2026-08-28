@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   132:
+HEADER 0  - Pocket Score                      : -0.1479
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.8908
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4721
+HEADER 5  - Mean B-factor of pocket residues  : 0.5150
+HEADER 6  - Hydrophobicity Score              : 23.2500
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.1250
+HEADER 9  - Pocket volume (Monte Carlo)       : 228.1209
+HEADER 10 - Pocket volume (convex hull)       : 10.4299
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3158
+ATOM   3377   CB GLU A 857     140.249 148.748 113.923  0.00  0.00           C 0
+ATOM   2464    N LYS A 741     143.849 144.702 117.628  0.00  0.00           N 0
+ATOM   2469   CG LYS A 741     141.384 143.444 116.552  0.00  0.00           C 0
+ATOM   3380  OE1 GLU A 857     142.356 147.190 113.235  0.55  1.07           O 0
+ATOM   2451    O HIS A 739     141.919 145.500 120.500  0.61  4.29           O 0
+ATOM   2459   CA CYS A 740     144.384 146.189 119.469  0.00  0.00           C 0
+ATOM   3376    O GLU A 857     141.551 151.299 115.065  0.32  6.43           O 0
+ATOM   2463   SG CYS A 740     145.912 147.757 117.720  0.00  0.00           S 0
+ATOM   3390    N THR A 859     137.895 153.322 116.769  0.68  2.19           N 0
+ATOM   3375    C GLU A 857     140.671 151.200 114.204  0.00  0.00           C 0
+ATOM   3396  CG2 THR A 859     137.425 152.174 119.384  0.00  0.00           C 0
+ATOM   2941  CG1 ILE A 804     142.032 152.262 119.417  0.00  0.00           C 0
+ATOM   2923    O ASN A 802     139.860 150.532 123.578  0.68  6.43           O 0
+ATOM   3391   CA THR A 859     136.550 153.323 117.335  0.00  0.00           C 0
+ATOM   3385    O ILE A 858     137.138 153.064 114.653  0.29  6.43           O 0
+ATOM   3384    C ILE A 858     138.074 153.202 115.451  0.00  0.00           C 0
+TER
+END

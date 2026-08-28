@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : 0.1023
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.6605
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4435
+HEADER 5  - Mean B-factor of pocket residues  : 0.1923
+HEADER 6  - Hydrophobicity Score              : 2.3333
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 214.6225
+HEADER 10 - Pocket volume (convex hull)       : 15.5264
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1250
+ATOM   2316   CB ASP B 439      37.906   8.003 143.314  0.00  0.00           C 0
+ATOM   2347  OG1 THR B 442      39.631  11.413 145.582  0.50  3.21           O 0
+ATOM   2318  OD1 ASP B 439      39.883   7.276 144.406  0.68  6.43           O 0
+ATOM   2357  NE2 GLN B 443      40.800  13.278 141.385  0.00  0.00           N 0
+ATOM   2317   CG ASP B 439      39.047   7.046 143.496  0.00  0.00           C 0
+ATOM   2319  OD2 ASP B 439      39.124   6.079 142.705  0.00  0.00           O 0
+ATOM   2049  OE2 GLU A 444      36.239   9.127 137.198  0.75  7.50           O 0
+ATOM   2032  NE2 GLN A 442      36.140   4.533 137.467  0.54  7.66           N 0
+ATOM   2291    O GLY B 436      34.430   7.362 143.101  0.00  0.00           O 0
+ATOM   2029   CG GLN A 442      33.825   5.029 137.930  0.00  0.00           C 0
+ATOM   2354   CG GLN B 443      38.521  13.961 141.876  0.00  0.00           C 0
+ATOM   2289   CA GLY B 436      34.290   5.000 142.747  0.00  0.00           C 0
+ATOM   2315    O ASP B 439      37.539  11.167 144.007  0.00  0.00           O 0
+ATOM   2314    C ASP B 439      36.898  10.112 144.140  0.00  0.00           C 0
+ATOM   2320    N TRP B 440      35.596  10.011 143.873  0.83  1.09           N 0
+ATOM   2033    N LEU A 443      33.058   9.531 138.821  0.56  1.09           N 0
+ATOM   2037   CB LEU A 443      33.855  11.776 139.381  0.00  0.00           C 0
+ATOM   2040  CD2 LEU A 443      35.004  13.881 139.996  0.00  0.00           C 0
+ATOM   2025   CA GLN A 442      32.634   7.145 138.666  0.00  0.00           C 0
+ATOM   2028   CB GLN A 442      33.384   6.434 137.545  0.00  0.00           C 0
+TER
+END

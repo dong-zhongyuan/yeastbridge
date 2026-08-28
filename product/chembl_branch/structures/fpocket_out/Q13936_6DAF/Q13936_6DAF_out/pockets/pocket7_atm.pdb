@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : 0.1691
+HEADER 1  - Drug Score                        : 0.0032
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.8902
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6052
+HEADER 5  - Mean B-factor of pocket residues  : 0.7153
+HEADER 6  - Hydrophobicity Score              : 1.4286
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 227.0599
+HEADER 10 - Pocket volume (convex hull)       : 7.3941
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.7222
+ATOM   1490    O ASN B  42      23.728   6.273   6.302  0.00  0.00           O 0
+ATOM   1487    N ASN B  42      23.038   9.078   4.698  0.00  0.00           N 0
+ATOM   1482   CB GLN B  41      20.580   9.726   2.892  0.00  0.00           C 0
+ATOM   1483   CG GLN B  41      19.223  10.338   3.158  0.00  0.00           C 0
+ATOM   1447   SD MET B  36      20.063   6.955  -1.923  0.00  0.00           S 0
+ATOM   1497   CG PRO B  43      22.914   5.650   1.901  0.00  0.00           C 0
+ATOM   1486  NE2 GLN B  41      17.392   9.137   2.167  0.22  7.66           N 0
+ATOM   1496   CB PRO B  43      22.862   4.381   2.670  0.00  0.00           C 0
+ATOM   1493   CA PRO B  43      23.201   4.744   4.126  0.00  0.00           C 0
+ATOM   1492    N PRO B  43      23.544   6.165   4.073  0.00  0.00           N 0
+ATOM   1489    C ASN B  42      23.804   6.831   5.194  0.00  0.00           C 0
+ATOM   1546   CE MET B  51      18.517   1.957   1.551  0.00  0.00           C 0
+ATOM   1520   CB GLU B  47      20.916   0.341   4.358  0.00  0.00           C 0
+ATOM   2300   CD LYS D1617      15.372   6.339  -0.140  0.00  0.00           C 0
+ATOM   2299   CG LYS D1617      16.223   6.948  -1.250  0.00  0.00           C 0
+ATOM   2301   CE LYS D1617      15.272   7.262   1.072  0.00  0.00           C 0
+TER
+END

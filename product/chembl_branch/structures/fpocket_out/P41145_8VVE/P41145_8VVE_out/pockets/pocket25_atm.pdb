@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    25:
+HEADER 0  - Pocket Score                      : -0.0580
+HEADER 1  - Drug Score                        : 0.0021
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.8134
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5157
+HEADER 5  - Mean B-factor of pocket residues  : 0.1076
+HEADER 6  - Hydrophobicity Score              : 59.2857
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 181.5928
+HEADER 10 - Pocket volume (convex hull)       : 4.0219
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.8750
+ATOM    722  CG2 VAL A 154     151.504 168.749 146.297  0.00  0.00           C 0
+ATOM    700   SD MET A 151     153.534 164.474 148.164  0.00  0.00           S 0
+ATOM    701   CE MET A 151     152.736 163.034 147.458  0.00  0.00           C 0
+ATOM    692  OG1 THR A 150     155.706 165.741 143.088  0.85  4.29           O 0
+ATOM    667  CD1 PHE A 147     155.424 161.641 142.335  0.00  0.00           C 0
+ATOM    669  CE1 PHE A 147     154.552 161.129 141.394  0.00  0.00           C 0
+ATOM    690    O THR A 150     154.682 168.666 145.488  0.00  0.00           O 0
+ATOM   1354    O ILE A 237     150.998 167.409 138.164  0.00  0.00           O 0
+ATOM   1357  CG2 ILE A 237     150.149 164.321 138.534  0.00  0.00           C 0
+ATOM   1360   CA PRO A 238     153.669 167.082 138.214  0.00  0.00           C 0
+ATOM   1386  CG1 ILE A 241     149.299 167.821 140.771  0.00  0.00           C 0
+ATOM   1364   CG PRO A 238     154.722 165.069 137.636  0.00  0.00           C 0
+ATOM   1387  CG2 ILE A 241     150.306 168.981 142.746  0.00  0.00           C 0
+ATOM    689    C THR A 150     155.582 167.908 145.107  0.00  0.00           C 0
+ATOM    691   CB THR A 150     155.387 167.099 142.762  0.00  0.00           C 0
+ATOM   1385   CB ILE A 241     150.338 168.844 141.228  0.00  0.00           C 0
+TER
+END

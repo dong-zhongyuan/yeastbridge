@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    20:
+HEADER 0  - Pocket Score                      : 0.0213
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.0426
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7350
+HEADER 5  - Mean B-factor of pocket residues  : 0.5900
+HEADER 6  - Hydrophobicity Score              : 36.1667
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 256.5401
+HEADER 10 - Pocket volume (convex hull)       : 5.9961
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2353
+ATOM   1335   CA VAL R 118     114.488 107.872 154.705  0.00  0.00           C 0
+ATOM   1337    O VAL R 118     116.581 108.552 155.674  0.74  8.57           O 0
+ATOM   1323    O TRP R 117     111.953 108.900 154.332  0.72  4.29           O 0
+ATOM   1340  CG2 VAL R 118     114.777 106.221 156.599  0.00  0.00           C 0
+ATOM   1336    C VAL R 118     115.892 108.466 154.652  0.00  0.00           C 0
+ATOM   1983   CB THR R 201     109.176 111.613 155.655  0.00  0.00           C 0
+ATOM   1984  OG1 THR R 201     109.497 110.232 155.454  0.77  2.14           O 0
+ATOM   1985  CG2 THR R 201     108.875 111.837 157.123  0.00  0.00           C 0
+ATOM   1317   CD GLN R 116     108.064 107.400 155.771  0.00  0.00           C 0
+ATOM   1319  NE2 GLN R 116     107.740 108.565 156.319  0.60  5.47           N 0
+ATOM   1318  OE1 GLN R 116     108.066 106.345 156.405  0.56  7.50           O 0
+ATOM   1909   CB ALA R 192     113.374 115.217 154.097  0.00  0.00           C 0
+ATOM   1326  CD1 TRP R 117     113.756 111.340 152.356  0.00  0.00           C 0
+ATOM   1353   CA GLY R 120     117.396 112.811 154.669  0.00  0.00           C 0
+ATOM   1908    O ALA R 192     111.651 116.062 156.024  0.04  8.57           O 0
+ATOM   1352    N GLY R 120     117.194 111.589 153.924  0.00  0.00           N 0
+TER
+END

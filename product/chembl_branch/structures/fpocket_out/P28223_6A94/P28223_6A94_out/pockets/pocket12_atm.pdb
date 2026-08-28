@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    12:
+HEADER 0  - Pocket Score                      : -0.0188
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.1128
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7584
+HEADER 5  - Mean B-factor of pocket residues  : 0.1251
+HEADER 6  - Hydrophobicity Score              : 60.6000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 232.2869
+HEADER 10 - Pocket volume (convex hull)       : 4.9707
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.8824
+ATOM   1618  CE3 TRP A1007      64.779 -15.296  53.185  0.00  0.00           C 0
+ATOM   1588   CG GLU A1004      60.165 -16.031  51.438  0.00  0.00           C 0
+ATOM   1590  OE1 GLU A1004      58.715 -17.202  52.951  0.00  0.00           O 0
+ATOM   1584   CA GLU A1004      60.097 -13.458  51.314  0.00  0.00           C 0
+ATOM   1560    O ALA A 265      56.254 -12.673  51.571  0.42  2.14           O 0
+ATOM   1587   CB GLU A1004      59.303 -14.765  51.399  0.00  0.00           C 0
+ATOM   1582  CD2 LEU A1003      58.082  -9.194  54.697  0.00  0.00           C 0
+ATOM   1583    N GLU A1004      59.191 -12.319  51.189  0.00  0.00           N 0
+ATOM   1580   CG LEU A1003      58.885  -9.282  53.424  0.00  0.00           C 0
+ATOM   2167  CG2 ILE A1102      62.593  -9.856  56.092  0.00  0.00           C 0
+ATOM   1578    O LEU A1003      60.899 -10.850  51.259  0.00  0.00           O 0
+ATOM   1615  CD2 TRP A1007      65.216 -14.180  53.910  0.00  0.00           C 0
+ATOM   1612   CB TRP A1007      63.989 -12.096  52.897  0.00  0.00           C 0
+ATOM   1613   CG TRP A1007      64.915 -12.780  53.857  0.00  0.00           C 0
+ATOM   1614  CD1 TRP A1007      65.677 -12.189  54.820  0.00  0.00           C 0
+ATOM   1616  NE1 TRP A1007      66.412 -13.135  55.490  0.69  2.19           N 0
+ATOM   1617  CE2 TRP A1007      66.151 -14.367  54.948  0.00  0.00           C 0
+TER
+END

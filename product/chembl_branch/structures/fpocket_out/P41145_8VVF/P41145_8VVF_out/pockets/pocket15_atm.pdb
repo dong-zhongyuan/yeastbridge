@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : -0.0254
+HEADER 1  - Drug Score                        : 0.0029
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9429
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6183
+HEADER 5  - Mean B-factor of pocket residues  : 0.4099
+HEADER 6  - Hydrophobicity Score              : 55.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.3000
+HEADER 9  - Pocket volume (Monte Carlo)       : 366.9438
+HEADER 10 - Pocket volume (convex hull)       : 31.2996
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 8.6154
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.7647
+ATOM    233   SD MET A  90     167.398 164.180 157.699  0.00  0.00           S 0
+ATOM    912   CE LYS A 176     163.052 161.484 158.248  0.00  0.00           C 0
+ATOM    304  CE2 PHE A  99     168.749 161.273 153.888  0.00  0.00           C 0
+ATOM    913   NZ LYS A 176     163.437 160.998 159.601  0.67  6.56           N 0
+ATOM    302  CD2 PHE A  99     168.013 162.418 153.650  0.00  0.00           C 0
+ATOM    271   CB ILE A  96     163.266 164.688 155.308  0.00  0.00           C 0
+ATOM    968  NE1 TRP A 183     163.768 158.634 150.126  0.65  6.56           N 0
+ATOM    313  ND2 ASN A 100     164.688 161.518 150.704  0.50  2.19           N 0
+ATOM    333  CD1 LEU A 103     169.747 159.061 150.247  0.00  0.00           C 0
+ATOM    971  CZ2 TRP A 183     165.484 159.071 148.358  0.00  0.00           C 0
+ATOM    625   OH TYR A 140     165.795 154.528 146.384  0.00  0.00           O 0
+ATOM    334  CD2 LEU A 103     169.397 158.592 147.839  0.00  0.00           C 0
+ATOM    973  CH2 TRP A 183     165.861 158.689 147.103  0.00  0.00           C 0
+ATOM    937  ND2 ASN A 179     162.558 160.934 152.813  0.00  0.00           N 0
+ATOM    911   CD LYS A 176     161.897 160.693 157.652  0.00  0.00           C 0
+ATOM    966  CD1 TRP A 183     162.686 157.797 150.219  0.00  0.00           C 0
+ATOM    945  CD1 ILE A 180     161.284 155.602 153.912  0.00  0.00           C 0
+ATOM    969  CE2 TRP A 183     164.364 158.454 148.907  0.00  0.00           C 0
+ATOM    967  CD2 TRP A 183     163.627 157.472 148.216  0.00  0.00           C 0
+ATOM    965   CG TRP A 183     162.552 157.065 149.077  0.00  0.00           C 0
+TER
+END

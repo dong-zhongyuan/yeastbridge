@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : -0.0536
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.5669
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4114
+HEADER 5  - Mean B-factor of pocket residues  : 0.4058
+HEADER 6  - Hydrophobicity Score              : 58.1667
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 80.4319
+HEADER 10 - Pocket volume (convex hull)       : 0.1622
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.5000
+ATOM    757   CB LYS A 158     145.624 135.167 157.494  0.00  0.00           C 0
+ATOM    726  CD1 TYR A 154     143.499 134.180 154.065  0.00  0.00           C 0
+ATOM    728  CE1 TYR A 154     143.731 133.078 154.866  0.00  0.00           C 0
+ATOM   1250    O LEU A 239     138.895 135.391 155.558  0.32  6.43           O 0
+ATOM    751  CG2 ILE A 157     142.506 139.836 157.482  0.00  0.00           C 0
+ATOM    723    O TYR A 154     145.224 136.655 154.594  0.00  0.00           O 0
+ATOM   1282  CD2 PHE A 243     140.692 136.654 160.881  0.00  0.00           C 0
+ATOM    754   CA LYS A 158     145.644 136.494 158.253  0.00  0.00           C 0
+ATOM   1280   CG PHE A 243     140.459 137.821 160.171  0.00  0.00           C 0
+ATOM    753    N LYS A 158     145.432 137.602 157.328  0.00  0.00           N 0
+ATOM   1279   CB PHE A 243     139.513 137.831 158.998  0.00  0.00           C 0
+ATOM   1256   CA THR A 240     139.447 137.711 154.044  0.00  0.00           C 0
+ATOM    749   CB ILE A 157     143.451 139.874 156.291  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    84:
+HEADER 0  - Pocket Score                      : -0.1589
+HEADER 1  - Drug Score                        : 0.0012
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 3.9623
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3917
+HEADER 5  - Mean B-factor of pocket residues  : 0.1405
+HEADER 6  - Hydrophobicity Score              : 3.2857
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 316.2616
+HEADER 10 - Pocket volume (convex hull)       : 16.6051
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.2800
+ATOM   2945  CD2 TYR B  85     136.963 127.801 103.912  0.00  0.00           C 0
+ATOM   5301    O PRO G  60     132.792 127.012 107.052  0.57  5.36           O 0
+ATOM   5302   CB PRO G  60     132.526 128.050 104.095  0.00  0.00           C 0
+ATOM   5299   CA PRO G  60     131.583 127.297 105.032  0.00  0.00           C 0
+ATOM   8358    O ASN C 169     136.761 120.994 101.323  0.00  0.00           O 0
+ATOM   2947  CE2 TYR B  85     136.222 128.277 102.870  0.00  0.00           C 0
+ATOM   8356   CA ASN C 169     136.330 119.436 103.075  0.00  0.00           C 0
+ATOM   8359   CB ASN C 169     137.424 120.058 103.957  0.00  0.00           C 0
+ATOM   2814  NH1 ARG B  68     139.319 126.468 102.304  0.48  8.75           N 1
+ATOM   8374  ND2 ASN C 171     141.686 120.423 101.711  0.56  5.47           N 0
+ATOM   8373  OD1 ASN C 171     141.261 121.164  99.638  0.06  8.57           O 0
+ATOM   8361  OD1 ASN C 169     139.094 119.609 102.268  0.69  1.07           O 0
+ATOM   8360   CG ASN C 169     138.839 119.796 103.456  0.00  0.00           C 0
+ATOM   8362  ND2 ASN C 169     139.780 119.790 104.389  0.48  6.56           N 0
+ATOM   2815  NH2 ARG B  68     140.305 125.853 104.277  0.00  0.00           N 0
+ATOM   2956  CG2 THR B  86     140.031 125.043 108.441  0.00  0.00           C 0
+ATOM   7977  CE1 TYR C 103     142.666 126.740 100.523  0.00  0.00           C 0
+ATOM   2942   CB TYR B  85     137.842 127.944 106.247  0.00  0.00           C 0
+ATOM   2941    O TYR B  85     137.412 127.439 109.362  0.44  4.29           O 0
+TER
+END

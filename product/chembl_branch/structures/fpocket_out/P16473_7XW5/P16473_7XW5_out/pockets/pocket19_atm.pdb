@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    19:
+HEADER 0  - Pocket Score                      : -0.0284
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.7723
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5771
+HEADER 5  - Mean B-factor of pocket residues  : 0.2531
+HEADER 6  - Hydrophobicity Score              : 50.1429
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 218.3589
+HEADER 10 - Pocket volume (convex hull)       : 10.4234
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1053
+ATOM   2702   CD PRO B  94     184.446 145.983 116.239  0.00  0.00           C 0
+ATOM   2701   CG PRO B  94     185.323 147.229 116.203  0.00  0.00           C 0
+ATOM   2992    O VAL B 133     187.133 141.388 113.336  0.00  0.00           O 0
+ATOM   2699    O PRO B  94     183.766 147.838 113.584  0.57  7.50           O 0
+ATOM   2720  NH1 ARG B  96     187.450 149.145 107.213  0.61  3.28           N 1
+ATOM   3013  CG2 VAL B 135     185.538 145.066 107.964  0.00  0.00           C 0
+ATOM   2924   OH TYR B 124     182.389 146.422 109.840  0.60  3.21           O 0
+ATOM   2922  CE2 TYR B 124     183.349 144.321 110.444  0.00  0.00           C 0
+ATOM   3007    N VAL B 135     186.744 142.416 108.685  0.58  4.37           N 0
+ATOM   2694  CG2 ILE B  93     182.176 144.069 113.567  0.00  0.00           C 0
+ATOM   2719   CZ ARG B  96     187.181 150.384 107.476  0.00  0.00           C 0
+ATOM   2721  NH2 ARG B  96     187.980 151.030 108.273  0.00  0.00           N 0
+ATOM   2711    N ARG B  96     182.898 150.880 111.009  0.66  2.19           N 0
+ATOM   2712   CA ARG B  96     183.576 152.057 110.432  0.00  0.00           C 0
+ATOM   2706    O LEU B  95     182.660 151.681 113.097  0.69  5.36           O 0
+ATOM   2705    C LEU B  95     182.498 150.777 112.280  0.00  0.00           C 0
+ATOM   2715   CB ARG B  96     184.085 151.666 109.033  0.00  0.00           C 0
+TER
+END

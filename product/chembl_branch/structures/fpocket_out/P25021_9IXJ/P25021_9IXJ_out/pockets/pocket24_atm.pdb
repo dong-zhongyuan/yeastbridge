@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    24:
+HEADER 0  - Pocket Score                      : -0.0252
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.7142
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6233
+HEADER 5  - Mean B-factor of pocket residues  : 0.4219
+HEADER 6  - Hydrophobicity Score              : -5.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 123.6685
+HEADER 10 - Pocket volume (convex hull)       : 0.6610
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   8013    N THR R 297     132.071 143.576 140.331  0.00  0.00           N 0
+ATOM   8018  OG1 THR R 297     132.819 145.134 137.895  0.00  0.00           O 0
+ATOM   8014   CA THR R 297     132.000 143.115 138.947  0.00  0.00           C 0
+ATOM   8005    O ARG R 296     130.086 142.651 140.854  0.00  0.00           O 0
+ATOM   7977   CG ARG R 293     134.466 149.772 141.200  0.00  0.00           C 0
+ATOM   8012  NH2 ARG R 296     131.395 150.107 142.876  0.80  2.19           N 0
+ATOM   7981  NH1 ARG R 293     132.248 151.355 139.105  0.67  7.66           N 0
+ATOM   8010   CZ ARG R 296     130.417 149.263 143.170  0.00  0.00           C 0
+ATOM   8011  NH1 ARG R 296     129.156 149.634 143.005  0.29  7.66           N 0
+ATOM   8006   CB ARG R 296     130.890 145.258 142.726  0.00  0.00           C 0
+ATOM   7975    O ARG R 293     134.247 145.430 140.855  0.70  1.07           O 0
+ATOM   8009   NE ARG R 296     130.699 148.050 143.629  0.00  0.00           N 0
+ATOM   8004    C ARG R 296     131.092 143.286 141.191  0.00  0.00           C 0
+TER
+END

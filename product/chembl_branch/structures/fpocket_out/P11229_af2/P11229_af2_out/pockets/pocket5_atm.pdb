@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     5:
+HEADER 0  - Pocket Score                      : -0.0063
+HEADER 1  - Drug Score                        : 0.0008
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.8145
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4480
+HEADER 5  - Mean B-factor of pocket residues  : 0.5838
+HEADER 6  - Hydrophobicity Score              : 53.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 6.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 189.2800
+HEADER 10 - Pocket volume (convex hull)       : 2.5020
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.8750
+ATOM   3490  CG1 ILE A 445     -11.851 -16.756  24.113  0.00  0.00           C 0
+ATOM   3492  CD1 ILE A 445     -11.054 -16.025  23.026  0.00  0.00           C 0
+ATOM   3447   NE ARG A 441      -6.872 -20.878  24.967  0.00  0.00           N 0
+ATOM   3445   CG ARG A 441      -8.874 -21.092  23.514  0.00  0.00           C 0
+ATOM   3446   CD ARG A 441      -7.345 -21.014  23.576  0.00  0.00           C 0
+ATOM   3355  CD1 LEU A 431      -6.978 -15.220  19.214  0.00  0.00           C 0
+ATOM   3356  CD2 LEU A 431      -4.890 -15.933  20.241  0.00  0.00           C 0
+ATOM   3448  NH1 ARG A 441      -4.647 -20.568  24.501  0.41  4.37           N 0
+ATOM   3391    O ARG A 436      -4.975 -19.855  18.960  0.45  2.14           O 0
+ATOM   3457  CD1 TRP A 442     -10.064 -17.706  18.214  0.00  0.00           C 0
+ATOM   3443   CB ARG A 441      -9.331 -21.611  22.144  0.00  0.00           C 0
+ATOM   3450   CZ ARG A 441      -5.620 -20.716  25.357  0.00  0.00           C 0
+ATOM   3451    N TRP A 442     -11.738 -20.000  20.716  0.00  0.00           N 0
+TER
+END

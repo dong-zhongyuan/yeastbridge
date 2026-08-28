@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    16:
+HEADER 0  - Pocket Score                      : -0.0667
+HEADER 1  - Drug Score                        : 0.0014
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.1568
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6644
+HEADER 5  - Mean B-factor of pocket residues  : 0.4443
+HEADER 6  - Hydrophobicity Score              : 23.6667
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 309.6388
+HEADER 10 - Pocket volume (convex hull)       : 10.3610
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.6667
+ATOM   6749   CB LYS C1027      -3.493 -39.005  -9.736  0.00  0.00           C 0
+ATOM   6750   CG LYS C1027      -3.723 -37.672  -9.059  0.00  0.00           C 0
+ATOM   6725   CA ALA C1024      -5.784 -41.532 -12.193  0.00  0.00           C 0
+ATOM   6728   CB ALA C1024      -7.298 -41.754 -12.236  0.00  0.00           C 0
+ATOM   6727    O ALA C1024      -4.831 -41.962 -10.030  0.71  3.21           O 0
+ATOM   6724    N ALA C1024      -5.189 -41.756 -13.505  0.00  0.00           N 0
+ATOM   6995    O ALA C1075      -2.639 -37.067 -13.999  0.77  4.29           O 0
+ATOM   7000    O LEU C1076      -4.604 -34.909 -15.676  0.00  0.00           O 0
+ATOM   6751    N ASP C1028      -3.291 -41.265  -7.561  0.00  0.00           N 0
+ATOM   6752   CA ASP C1028      -3.681 -41.643  -6.202  0.00  0.00           C 0
+ATOM   6998   CA LEU C1076      -3.564 -34.506 -13.549  0.00  0.00           C 0
+ATOM   6723   CB ALA C1023      -3.270 -40.579 -15.946  0.00  0.00           C 0
+ATOM   7004  CD2 LEU C1076      -4.078 -34.411 -10.569  0.00  0.00           C 0
+ATOM   7001   CB LEU C1076      -3.876 -33.207 -12.798  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : -0.0110
+HEADER 1  - Drug Score                        : 0.0037
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.6806
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4362
+HEADER 5  - Mean B-factor of pocket residues  : 0.3172
+HEADER 6  - Hydrophobicity Score              : 46.7143
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 103.9213
+HEADER 10 - Pocket volume (convex hull)       : 2.3516
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 15.0000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 0.8421
+ATOM    290  CD1 LEU A  39      -6.370  -6.355 -21.051  0.00  0.00           C 0
+ATOM   1155   CD LYS C1617       0.425  -9.545 -19.511  0.00  0.00           C 0
+ATOM   1153   CB LYS C1617       0.732  -8.315 -21.697  0.00  0.00           C 0
+ATOM    303  OE1 GLN A  41      -1.953  -8.832 -16.895  0.85  1.07           O 0
+ATOM    676  CG2 VAL A  91      -5.336 -11.213 -20.820  0.00  0.00           C 0
+ATOM   1152    O LYS C1617      -1.393  -8.833 -24.189  0.71  2.14           O 0
+ATOM    144   CZ PHE A  19      -2.787  -4.411 -24.424  0.00  0.00           C 0
+ATOM   1192  CG2 THR C1621      -4.823  -7.848 -24.668  0.00  0.00           C 0
+ATOM    266   CE MET A  36      -0.291  -5.791 -17.784  0.00  0.00           C 0
+ATOM    264   CG MET A  36      -1.856  -3.774 -18.843  0.00  0.00           C 0
+ATOM    142  CE1 PHE A  19      -2.692  -3.386 -23.501  0.00  0.00           C 0
+ATOM    304  NE2 GLN A  41      -3.544 -10.382 -17.239  0.00  0.00           N 0
+ATOM    302   CD GLN A  41      -3.083  -9.270 -16.678  0.00  0.00           C 0
+ATOM    260   CA MET A  36      -4.181  -3.711 -17.884  0.00  0.00           C 0
+TER
+END

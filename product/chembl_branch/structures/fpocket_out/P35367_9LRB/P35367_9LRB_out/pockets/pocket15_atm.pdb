@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : -0.0359
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.8656
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4788
+HEADER 5  - Mean B-factor of pocket residues  : 0.1904
+HEADER 6  - Hydrophobicity Score              : 7.5714
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 162.3689
+HEADER 10 - Pocket volume (convex hull)       : 3.8932
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0526
+ATOM   1330  OD1 ASP A 313     108.792 149.215  98.106  0.57  4.29           O 0
+ATOM   1331  OD2 ASP A 313     106.659 149.597  98.455  0.00  0.00           O 1
+ATOM   1494  OD2 ASP A 333     104.703 147.048  91.241  0.00  0.00           O 1
+ATOM   1521  CD1 LEU A 336     108.492 143.226  93.275  0.00  0.00           C 0
+ATOM   1448    O TYR A 329     108.644 148.632  89.197  0.42  1.07           O 0
+ATOM   1313   CG PRO A 311     107.142 151.063  93.773  0.00  0.00           C 0
+ATOM   1293   OH TYR A 308     106.030 150.045  90.546  0.38  1.07           O 0
+ATOM   1312   CB PRO A 311     106.832 151.434  95.169  0.00  0.00           C 0
+ATOM   1487    N ASP A 333     108.359 145.888  88.960  0.00  0.00           N 0
+ATOM   1481   CG ARG A 332     111.102 145.546  91.227  0.00  0.00           C 0
+ATOM   1451  CD1 TYR A 329     110.708 150.127  93.037  0.00  0.00           C 0
+ATOM   1488   CA ASP A 333     107.012 145.431  89.283  0.00  0.00           C 0
+ATOM   1483   NE ARG A 332     111.761 145.986  93.567  0.62  1.09           N 0
+ATOM   1486  NH2 ARG A 332     112.008 146.311  95.820  0.50  5.47           N 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    67:
+HEADER 0  - Pocket Score                      : -0.1358
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.0560
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6241
+HEADER 5  - Mean B-factor of pocket residues  : 0.2063
+HEADER 6  - Hydrophobicity Score              : 11.0000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 247.0526
+HEADER 10 - Pocket volume (convex hull)       : 5.7544
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.6471
+ATOM   6039   CB GLU A 757     -69.606 -11.588   6.955  0.00  0.00           C 0
+ATOM   6042   CD GLU A 757     -70.555 -13.268   5.296  0.00  0.00           C 0
+ATOM   6040    O GLU A 757     -67.171 -10.094   7.649  0.48  8.57           O 0
+ATOM   6043  OE1 GLU A 757     -70.186 -14.281   4.661  0.00  0.00           O 0
+ATOM   6082  OE1 GLN A 761     -64.149  -7.457   3.056  0.00  0.00           O 0
+ATOM   6044  OE2 GLU A 757     -71.411 -12.445   4.901  0.00  0.00           O 0
+ATOM   6041   CG GLU A 757     -69.966 -13.056   6.698  0.00  0.00           C 0
+ATOM   6080   CD GLN A 761     -63.217  -8.192   2.785  0.00  0.00           C 0
+ATOM   6077   CB GLN A 761     -62.531  -8.221   5.250  0.00  0.00           C 0
+ATOM   6079   CG GLN A 761     -62.184  -8.641   3.812  0.00  0.00           C 0
+ATOM   6081  NE2 GLN A 761     -63.091  -8.618   1.548  0.00  0.00           N 0
+ATOM   6073   CE MET A 760     -62.481 -15.183   5.261  0.00  0.00           C 0
+ATOM   6070    O MET A 760     -61.561 -11.568   6.376  0.68  3.21           O 0
+ATOM   6069   CB MET A 760     -63.715 -12.951   7.723  0.00  0.00           C 0
+ATOM   6072   SD MET A 760     -63.316 -15.611   6.814  0.00  0.00           S 0
+ATOM   6068    C MET A 760     -62.193 -10.947   7.225  0.00  0.00           C 0
+TER
+END

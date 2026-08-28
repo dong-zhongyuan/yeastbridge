@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : 0.0370
+HEADER 1  - Drug Score                        : 0.0010
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.6553
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3955
+HEADER 5  - Mean B-factor of pocket residues  : 0.1610
+HEADER 6  - Hydrophobicity Score              : 61.3333
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 97.7007
+HEADER 10 - Pocket volume (convex hull)       : 0.7979
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.5789
+ATOM    750  CD1 LEU R 160     139.388 139.227 135.474  0.00  0.00           C 0
+ATOM   1779   CB PHE R 291     138.200 139.778 140.886  0.00  0.00           C 0
+ATOM   1754  CG1 VAL R 287     143.805 138.571 140.831  0.00  0.00           C 0
+ATOM   1752    O VAL R 287     141.582 140.276 142.386  0.53  1.07           O 0
+ATOM   2152  CD2 LEU R 337     144.653 143.743 140.462  0.00  0.00           C 0
+ATOM   2129  OD1 ASN R 334     142.077 142.665 135.669  0.67  3.21           O 0
+ATOM   1773  CG1 VAL R 290     140.891 144.443 140.927  0.00  0.00           C 0
+ATOM   2162  CE2 TYR R 338     144.723 139.663 136.747  0.00  0.00           C 0
+ATOM    751  CD2 LEU R 160     141.776 138.855 134.983  0.00  0.00           C 0
+ATOM   2164   OH TYR R 338     144.174 137.559 137.707  0.92  4.29           O 0
+ATOM   1782  CD2 PHE R 291     137.256 139.175 138.642  0.00  0.00           C 0
+ATOM   1475  CD1 ILE R 250     138.782 135.285 139.014  0.00  0.00           C 0
+ATOM   2102  ND2 ASN R 330     139.340 143.673 137.382  0.77  4.37           N 0
+ATOM   1775    N PHE R 291     139.010 141.817 142.000  0.00  0.00           N 0
+TER
+END

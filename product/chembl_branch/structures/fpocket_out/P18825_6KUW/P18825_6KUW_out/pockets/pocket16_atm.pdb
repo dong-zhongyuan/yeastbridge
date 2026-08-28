@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    16:
+HEADER 0  - Pocket Score                      : 0.0039
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.1111
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7126
+HEADER 5  - Mean B-factor of pocket residues  : 0.5629
+HEADER 6  - Hydrophobicity Score              : -1.6667
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 301.7098
+HEADER 10 - Pocket volume (convex hull)       : 8.5398
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.3889
+ATOM   5684   CG GLU B1066     -11.434  11.792 -23.270  0.00  0.00           C 0
+ATOM   5676   CD GLN B1065     -14.357  14.609 -27.687  0.00  0.00           C 0
+ATOM   5677  OE1 GLN B1065     -13.217  15.065 -27.838  0.69  4.29           O 0
+ATOM   5678  NE2 GLN B1065     -14.882  13.746 -28.550  0.00  0.00           N 0
+ATOM   5674   CB GLN B1065     -14.834  14.080 -25.346  0.00  0.00           C 0
+ATOM   5673    O GLN B1065     -16.312  12.121 -23.065  0.52  3.21           O 0
+ATOM   5672    C GLN B1065     -15.415  12.947 -23.247  0.00  0.00           C 0
+ATOM   5706  NH2 ARG B1068     -17.376   8.979 -23.040  0.00  0.00           N 1
+ATOM   5680   CA GLU B1066     -13.634  11.694 -21.999  0.00  0.00           C 0
+ATOM   5422    O GLU B1031     -16.041   6.121 -21.796  0.40  5.36           O 0
+ATOM   5679    N GLU B1066     -14.165  12.809 -22.774  0.00  0.00           N 0
+ATOM   5683   CB GLU B1066     -12.106  11.819 -21.901  0.00  0.00           C 0
+ATOM   5686  OE1 GLU B1066      -9.199  11.134 -22.769  0.20  6.43           O 0
+ATOM   5682    O GLU B1066     -14.659  10.428 -20.260  0.00  0.00           O 0
+ATOM   5429   CA GLY B1032     -15.175   7.300 -19.340  0.00  0.00           C 0
+ATOM   5438  CG2 VAL B1033     -11.272   9.102 -17.165  0.00  0.00           C 0
+TER
+END

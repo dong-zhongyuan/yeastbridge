@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : 0.0829
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.6707
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4325
+HEADER 5  - Mean B-factor of pocket residues  : 0.4579
+HEADER 6  - Hydrophobicity Score              : 36.3333
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.5556
+HEADER 9  - Pocket volume (Monte Carlo)       : 130.7767
+HEADER 10 - Pocket volume (convex hull)       : 4.3140
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2083
+ATOM   5436  CG2 VAL E 996     178.732 138.101 146.131  0.00  0.00           C 0
+ATOM   5443  CG2 VAL E 997     178.686 133.772 142.633  0.00  0.00           C 0
+ATOM   5438   CA VAL E 997     180.721 135.241 142.749  0.00  0.00           C 0
+ATOM   5651  NH2 ARG E1024     181.452 134.659 149.454  0.70  5.47           N 0
+ATOM   5462   OG SER E1000     183.587 134.151 145.072  0.76  1.07           O 0
+ATOM   5145   CA THR E 941     182.072 129.901 146.755  0.00  0.00           C 0
+ATOM   5677  NH2 ARG E1027     175.813 134.893 148.677  0.98  4.37           N 0
+ATOM   5136    O PHE E 940     179.508 129.104 147.272  0.00  0.00           O 0
+ATOM   5137   CB PHE E 940     179.622 129.697 150.517  0.00  0.00           C 0
+ATOM   5172  CD1 PHE E 964     175.758 130.122 146.875  0.00  0.00           C 0
+ATOM   4917   CB SER E 913     176.728 132.891 152.446  0.00  0.00           C 0
+ATOM   5648   NE ARG E1024     179.844 135.745 150.672  0.64  2.19           N 0
+ATOM   5433    O VAL E 996     181.394 137.347 144.360  0.00  0.00           O 0
+ATOM   5676  NH1 ARG E1027     176.115 136.535 147.117  0.94  1.09           N 0
+ATOM   5675   CZ ARG E1027     175.467 135.458 147.524  0.00  0.00           C 0
+ATOM   5649   CZ ARG E1024     180.764 135.766 149.716  0.00  0.00           C 0
+ATOM   5171   CG PHE E 964     176.040 130.830 145.721  0.00  0.00           C 0
+ATOM   5650  NH1 ARG E1024     181.011 136.862 149.017  0.00  0.00           N 0
+ATOM   5170   CB PHE E 964     177.281 130.539 144.942  0.00  0.00           C 0
+TER
+END

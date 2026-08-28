@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    17:
+HEADER 0  - Pocket Score                      : -0.0738
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9332
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4623
+HEADER 5  - Mean B-factor of pocket residues  : 0.1117
+HEADER 6  - Hydrophobicity Score              : 18.2857
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 162.6671
+HEADER 10 - Pocket volume (convex hull)       : 2.0286
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.3889
+ATOM    306    O PRO P  43     141.526 166.783 107.659  0.00  0.00           O 0
+ATOM    314   CB LYS P  44     138.746 169.177 108.480  0.00  0.00           C 0
+ATOM    302   OG SER P  42     144.546 168.669 105.064  0.00  5.36           O 0
+ATOM    300    O SER P  42     141.403 168.083 104.705  0.53  1.07           O 0
+ATOM   1658    O TRP Q 117     146.511 168.927 108.211  0.41  5.36           O 0
+ATOM   1651  CE1 TYR Q 116     145.823 172.426 110.961  0.00  0.00           C 0
+ATOM   1655    N TRP Q 117     145.482 167.785 110.639  0.62  1.09           N 0
+ATOM    311   CA LYS P  44     139.136 167.729 108.777  0.00  0.00           C 0
+ATOM   1661  CD1 TRP Q 117     143.652 165.254 110.502  0.00  0.00           C 0
+ATOM   1649  CD1 TYR Q 116     145.386 171.528 111.909  0.00  0.00           C 0
+ATOM   1644   CA TYR Q 116     144.926 168.458 112.900  0.00  0.00           C 0
+ATOM   1638    O ASP Q 115     142.698 168.920 114.528  0.59  8.57           O 0
+ATOM    315    N LEU P  45     138.308 167.105 110.968  0.56  2.19           N 0
+TER
+END

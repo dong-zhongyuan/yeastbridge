@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   167:
+HEADER 0  - Pocket Score                      : -0.1863
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9660
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5730
+HEADER 5  - Mean B-factor of pocket residues  : 0.3085
+HEADER 6  - Hydrophobicity Score              : 0.8333
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 180.0616
+HEADER 10 - Pocket volume (convex hull)       : 1.1365
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.5625
+ATOM   1099    O SER A 184     207.702 173.540 164.136  0.24  1.07           O 0
+ATOM   1127    O ASP A 188     205.171 170.088 165.086  0.46  1.07           O 0
+ATOM   1122  CG1 VAL A 187     209.802 171.719 165.775  0.00  0.00           C 0
+ATOM   1151   CG ARG A 191     203.522 170.467 169.578  0.00  0.00           C 0
+ATOM   1128   CB ASP A 188     206.929 168.416 166.668  0.00  0.00           C 0
+ATOM   1152   CD ARG A 191     204.538 170.089 170.631  0.00  0.00           C 0
+ATOM   1188   CB SER A 195     200.223 174.694 169.448  0.00  0.00           C 0
+ATOM   1158   CA HIS A 192     202.321 172.680 165.937  0.00  0.00           C 0
+ATOM   1164  CD2 HIS A 192     204.076 175.429 164.862  0.00  0.00           C 0
+ATOM   1189   OG SER A 195     200.788 173.685 170.264  0.87  4.29           O 0
+ATOM   1101   OG SER A 184     207.415 175.876 165.439  0.78  7.50           O 0
+ATOM   1161   CB HIS A 192     203.349 172.936 164.836  0.00  0.00           C 0
+ATOM   1157    N HIS A 192     202.432 171.304 166.410  0.00  0.00           N 0
+TER
+END

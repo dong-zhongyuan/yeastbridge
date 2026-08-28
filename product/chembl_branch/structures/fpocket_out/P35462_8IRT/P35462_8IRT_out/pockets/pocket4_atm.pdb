@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     4:
+HEADER 0  - Pocket Score                      : 0.1101
+HEADER 1  - Drug Score                        : 0.0097
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9904
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5648
+HEADER 5  - Mean B-factor of pocket residues  : 0.7705
+HEADER 6  - Hydrophobicity Score              : 77.5714
+HEADER 7  - Polarity Score                    :     0
+HEADER 8  - Amino Acid based volume Score     : 4.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 306.0544
+HEADER 10 - Pocket volume (convex hull)       : 9.9145
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.7222
+ATOM  13354  CD2 LEU R  49      91.943 108.286 112.260  0.00  0.00           C 0
+ATOM  13307  CE1 PHE R  45      89.457 111.083 115.033  0.00  0.00           C 0
+ATOM  17378  CD1 LEU R 398      85.442 108.845 111.543  0.00  0.00           C 0
+ATOM  17373   CA LEU R 398      86.462 105.914 110.866  0.00  0.00           C 0
+ATOM  13309   CZ PHE R  45      89.057 111.829 113.914  0.00  0.00           C 0
+ATOM  17356    O ILE R 397      87.966 103.970 112.280  0.57  5.36           O 0
+ATOM  17375    O LEU R 398      84.324 105.225 111.729  0.48  5.36           O 0
+ATOM  13305  CD1 PHE R  45      90.397 111.615 115.931  0.00  0.00           C 0
+ATOM  13400   CE MET R  52      93.448 104.943 114.975  0.00  0.00           C 0
+ATOM  17359  CG2 ILE R 397      91.017 104.903 112.013  0.00  0.00           C 0
+ATOM  13352   CG LEU R  49      92.560 109.665 112.447  0.00  0.00           C 0
+ATOM  13302    O PHE R  45      94.102 111.703 114.683  0.00  0.00           O 0
+ATOM  13347    N LEU R  49      95.590 109.529 113.578  0.67  1.09           N 0
+ATOM  13300   CA PHE R  45      93.314 112.812 116.653  0.00  0.00           C 0
+ATOM  13286    O VAL R  44      95.910 112.079 117.316  0.00  0.00           O 0
+ATOM  13341   CA GLY R  48      97.198 109.800 115.429  0.00  0.00           C 0
+ATOM  13342    C GLY R  48      96.584 108.985 114.292  0.00  0.00           C 0
+TER
+END

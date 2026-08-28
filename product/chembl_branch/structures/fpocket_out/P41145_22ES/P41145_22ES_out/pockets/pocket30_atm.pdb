@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    30:
+HEADER 0  - Pocket Score                      : 0.0004
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.7269
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5217
+HEADER 5  - Mean B-factor of pocket residues  : 0.8054
+HEADER 6  - Hydrophobicity Score              : 4.6000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 220.7472
+HEADER 10 - Pocket volume (convex hull)       : 11.8224
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.4667
+ATOM     66   CG GLN B  13      87.115  83.333 105.797  0.00  0.00           C 0
+ATOM     99   CB GLN B  17      89.370  82.351 110.889  0.00  0.00           C 0
+ATOM     77  CD2 LEU B  14      92.910  81.543 106.441  0.00  0.00           C 0
+ATOM     64    O GLN B  13      89.023  84.560 108.180  0.53  3.21           O 0
+ATOM    100   CG GLN B  17      89.498  81.000 111.578  0.00  0.00           C 0
+ATOM     69  NE2 GLN B  13      85.904  81.294 105.319  0.00  0.00           N 0
+ATOM     45  OE1 GLU B  10      89.579  81.769 100.993  0.41  7.50           O 0
+ATOM     75   CG LEU B  14      93.008  82.888 105.737  0.00  0.00           C 0
+ATOM   2673   CE LYS C  20      94.858  79.389 102.222  0.00  0.00           C 0
+ATOM     67   CD GLN B  13      86.532  82.345 104.806  0.00  0.00           C 0
+ATOM     68  OE1 GLN B  13      86.644  82.525 103.593  0.54  3.21           O 0
+ATOM    102  OE1 GLN B  17      87.109  80.992 111.787  0.00  0.00           O 0
+ATOM     41    O GLU B  10      91.231  84.775 103.779  0.00  0.00           O 0
+ATOM    101   CD GLN B  17      88.179  80.488 112.129  0.00  0.00           C 0
+TER
+END

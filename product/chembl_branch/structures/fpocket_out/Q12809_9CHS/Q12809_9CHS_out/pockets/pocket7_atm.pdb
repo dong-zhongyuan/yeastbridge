@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : 0.0398
+HEADER 1  - Drug Score                        : 0.0432
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.9860
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6033
+HEADER 5  - Mean B-factor of pocket residues  : 0.2191
+HEADER 6  - Hydrophobicity Score              : 94.5714
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 5.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 299.2448
+HEADER 10 - Pocket volume (convex hull)       : 15.1379
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 16.0000
+HEADER 13 - Number of apolar alpha sphere     :    19
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM   7240  CD2 LEU B 564     143.521 145.789 189.504  0.00  0.00           C 0
+ATOM   8500  CD1 ILE B 647     146.092 143.498 186.351  0.00  0.00           C 0
+ATOM   7169  CG2 ILE B 560     142.891 148.925 184.893  0.00  0.00           C 0
+ATOM   8499  CG2 ILE B 647     146.459 146.151 184.734  0.00  0.00           C 0
+ATOM   7168  CG1 ILE B 560     141.264 148.850 182.996  0.00  0.00           C 0
+ATOM   7238   CG LEU B 564     143.048 147.185 189.117  0.00  0.00           C 0
+ATOM   7219  CE3 TRP B 563     137.690 146.403 184.591  0.00  0.00           C 0
+ATOM   7166    O ILE B 560     141.017 149.305 187.525  0.70  1.07           O 0
+ATOM   7170  CD1 ILE B 560     142.219 149.062 181.820  0.00  0.00           C 0
+ATOM   7213   CB TRP B 563     137.831 146.894 187.914  0.00  0.00           C 0
+ATOM   7280  CD1 ILE B 567     140.259 143.124 190.525  0.00  0.00           C 0
+ATOM   8555   SD MET B 651     145.760 146.451 179.458  0.00  0.00           S 0
+ATOM   8494   CA ILE B 647     148.883 145.373 184.373  0.00  0.00           C 0
+ATOM   8536  CD1 LEU B 650     150.803 143.061 179.969  0.00  0.00           C 0
+ATOM   8498  CG1 ILE B 647     147.134 143.782 185.265  0.00  0.00           C 0
+ATOM   8554   CG MET B 651     146.248 147.240 181.020  0.00  0.00           C 0
+ATOM   8556   CE MET B 651     144.305 147.436 179.006  0.00  0.00           C 0
+ATOM   8534   CB LEU B 650     150.494 145.522 179.801  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    21:
+HEADER 0  - Pocket Score                      : -0.0191
+HEADER 1  - Drug Score                        : 0.0030
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.8371
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6047
+HEADER 5  - Mean B-factor of pocket residues  : 0.6207
+HEADER 6  - Hydrophobicity Score              : 52.0000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 252.6491
+HEADER 10 - Pocket volume (convex hull)       : 4.6777
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.8750
+ATOM   2436    O ALA B  80     186.780 172.203 258.332  0.63  4.29           O 0
+ATOM   1577  OG1 THR B  25     185.497 171.507 261.485  0.57  4.29           O 0
+ATOM   2422  CG1 VAL B  79     182.573 171.218 259.636  0.00  0.00           C 0
+ATOM   2449  CD1 LEU B  81     187.264 168.278 254.849  0.00  0.00           C 0
+ATOM   2127   CD ARG B  60     177.874 169.797 261.267  0.00  0.00           C 0
+ATOM   2423  CG2 VAL B  79     180.160 171.816 259.654  0.00  0.00           C 0
+ATOM   2125   CB ARG B  60     176.516 169.718 259.189  0.00  0.00           C 0
+ATOM   2088  CD1 ILE B  58     182.796 169.697 253.168  0.00  0.00           C 0
+ATOM   2447   CB LEU B  81     186.563 170.658 254.449  0.00  0.00           C 0
+ATOM   2087  CG2 ILE B  58     178.997 169.477 253.616  0.00  0.00           C 0
+ATOM   2084    O ILE B  58     179.441 172.699 255.806  0.54  1.07           O 0
+ATOM   2085   CB ILE B  58     180.337 170.232 253.765  0.00  0.00           C 0
+ATOM   2444   CA LEU B  81     187.062 171.267 255.756  0.00  0.00           C 0
+ATOM   2421   CB VAL B  79     181.459 171.902 258.865  0.00  0.00           C 0
+ATOM   2420    O VAL B  79     183.041 173.129 256.515  0.00  0.00           O 0
+ATOM   2443    N LEU B  81     186.187 172.357 256.163  0.00  0.00           N 0
+TER
+END

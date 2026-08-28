@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   127:
+HEADER 0  - Pocket Score                      : -0.1806
+HEADER 1  - Drug Score                        : 0.0059
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.1553
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5422
+HEADER 5  - Mean B-factor of pocket residues  : 0.6108
+HEADER 6  - Hydrophobicity Score              : 76.1429
+HEADER 7  - Polarity Score                    :     0
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 328.3334
+HEADER 10 - Pocket volume (convex hull)       : 8.4338
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 14.8750
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 0.9412
+ATOM   9998  CG1 VAL D 285     210.948 223.589 227.286  0.00  0.00           C 0
+ATOM   9969    O LEU D 281     213.504 224.760 225.785  0.55  1.07           O 0
+ATOM   1858   CB ALA A 279     210.910 221.061 221.558  0.00  0.00           C 0
+ATOM   9997   CB VAL D 285     210.188 224.904 227.392  0.00  0.00           C 0
+ATOM   9991  CG1 VAL D 284     213.280 229.055 226.190  0.00  0.00           C 0
+ATOM   9972  CD1 LEU D 281     213.928 227.780 222.772  0.00  0.00           C 0
+ATOM   9970   CB LEU D 281     214.263 225.291 222.911  0.00  0.00           C 0
+ATOM   1840   SG CYS A 276     210.099 226.570 219.251  0.00  0.00           S 0
+ATOM   1863   CB LEU A 280     207.717 219.837 224.950  0.00  0.00           C 0
+ATOM   1866  CD2 LEU A 280     206.883 221.018 227.003  0.00  0.00           C 0
+ATOM   9999  CG2 VAL D 285     208.730 224.659 227.761  0.00  0.00           C 0
+ATOM   1857    O ALA A 279     207.780 220.035 221.904  0.56  2.14           O 0
+ATOM   1838    O CYS A 276     209.372 223.220 219.503  0.63  1.07           O 0
+ATOM   1874  CD2 LEU A 281     203.573 219.227 222.279  0.00  0.00           C 0
+ATOM   1367  CD2 LEU A 208     200.271 220.093 225.476  0.00  0.00           C 0
+ATOM   1364   CB LEU A 208     199.385 221.641 223.715  0.00  0.00           C 0
+TER
+END

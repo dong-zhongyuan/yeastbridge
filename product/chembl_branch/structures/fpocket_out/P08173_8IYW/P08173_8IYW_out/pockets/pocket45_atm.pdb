@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    45:
+HEADER 0  - Pocket Score                      : -0.1035
+HEADER 1  - Drug Score                        : 0.0167
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.9404
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4368
+HEADER 5  - Mean B-factor of pocket residues  : 0.1741
+HEADER 6  - Hydrophobicity Score              : 9.2857
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 231.9241
+HEADER 10 - Pocket volume (convex hull)       : 9.5728
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 13.8667
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.7895
+ATOM   2122   CB ARG C  96     142.378 160.680 182.240  0.00  0.00           C 0
+ATOM   2407  CG1 VAL C 135     144.572 157.226 186.854  0.00  0.00           C 0
+ATOM   2127  NH1 ARG C  96     139.124 158.574 184.191  0.00  0.00           N 0
+ATOM   2126   CZ ARG C  96     139.983 158.082 183.312  0.00  0.00           C 0
+ATOM   2430   CB GLU C 138     142.467 162.500 189.800  0.00  0.00           C 0
+ATOM   2408  CG2 VAL C 135     142.621 156.380 188.131  0.00  0.00           C 0
+ATOM   2311   OG SER C 122     145.833 161.706 186.417  0.54  7.50           O 0
+ATOM   2282  OD1 ASP C 118     145.086 165.363 181.728  0.45  5.36           O 0
+ATOM   2298  CG2 ILE C 120     144.248 165.499 187.835  0.00  0.00           C 0
+ATOM   2406   CB VAL C 135     144.076 156.823 188.216  0.00  0.00           C 0
+ATOM   2123   CG ARG C  96     140.947 161.194 182.345  0.00  0.00           C 0
+ATOM   2281   CG ASP C 118     144.837 166.579 181.593  0.00  0.00           C 0
+ATOM   2133   CB SER C  97     143.628 164.469 179.127  0.00  0.00           C 0
+ATOM   2299  CD1 ILE C 120     141.736 167.046 187.329  0.00  0.00           C 0
+ATOM   2296   CB ILE C 120     144.266 166.829 187.101  0.00  0.00           C 0
+ATOM   2280   CB ASP C 118     144.743 167.428 182.833  0.00  0.00           C 0
+TER
+END

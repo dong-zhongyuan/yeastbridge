@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    42:
+HEADER 0  - Pocket Score                      : -0.0342
+HEADER 1  - Drug Score                        : 0.0023
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.8835
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5090
+HEADER 5  - Mean B-factor of pocket residues  : 0.4262
+HEADER 6  - Hydrophobicity Score              : 11.4444
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 300.7742
+HEADER 10 - Pocket volume (convex hull)       : 23.5363
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.5833
+ATOM   7006   CE LYS M  13      30.024  48.843   2.320  0.00  0.00           C 0
+ATOM   7076   CA GLY M  23      34.600  50.783  -4.438  0.00  0.00           C 0
+ATOM   7061  OD2 ASP M  20      31.169  51.049  -4.115  0.00  0.00           O 0
+ATOM   7078    O GLY M  23      34.943  52.667  -3.022  0.00  0.00           O 0
+ATOM   7007   NZ LYS M  13      31.030  49.240   3.343  0.59  7.66           N 0
+ATOM   7033   CB SER M  17      31.283  43.908  -1.754  0.00  0.00           C 0
+ATOM   7004   CG LYS M  13      29.764  46.534   3.276  0.00  0.00           C 0
+ATOM   7002    O LYS M  13      29.132  44.690   0.610  0.38  1.07           O 0
+ATOM   7024  CD1 PHE M  16      27.978  48.645  -1.440  0.00  0.00           C 0
+ATOM   7026  CE1 PHE M  16      28.121  49.943  -1.898  0.00  0.00           C 0
+ATOM   7030   CA SER M  17      30.417  44.861  -2.581  0.00  0.00           C 0
+ATOM   7058   CB ASP M  20      30.107  49.152  -5.079  0.00  0.00           C 0
+ATOM   7057    O ASP M  20      32.414  47.758  -5.900  0.51  4.29           O 0
+ATOM   7088   CA GLY M  25      30.464  53.623  -2.198  0.00  0.00           C 0
+ATOM   6605    O ARG K 126      32.161  52.744   3.930  0.48  2.14           O 0
+ATOM   7032    O SER M  17      31.210  45.176  -4.830  0.53  1.07           O 0
+ATOM   6618   CA GLY K 129      28.499  53.914   3.424  0.00  0.00           C 0
+ATOM   7361   CB PHE M  65      26.139  51.059   1.932  0.00  0.00           C 0
+ATOM   7090    O GLY M  25      28.114  53.923  -2.078  0.70  2.14           O 0
+ATOM   7087    N GLY M  25      31.565  53.534  -3.130  0.65  1.09           N 0
+TER
+END

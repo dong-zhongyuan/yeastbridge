@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   189:
+HEADER 0  - Pocket Score                      : -0.1926
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.8429
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5019
+HEADER 5  - Mean B-factor of pocket residues  : 0.2783
+HEADER 6  - Hydrophobicity Score              : 27.6000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 271.3664
+HEADER 10 - Pocket volume (convex hull)       : 3.7491
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2000
+ATOM  18446   CG ARG D 263     205.566 148.582 189.159  0.00  0.00           C 0
+ATOM  18485  CD1 ILE D 267     203.327 144.921 189.598  0.00  0.00           C 0
+ATOM  21789  CD2 HIS D 712     206.273 141.001 190.880  0.00  0.00           C 0
+ATOM  18447   CD ARG D 263     206.010 148.487 190.611  0.00  0.00           C 0
+ATOM  21788  ND1 HIS D 712     205.505 140.732 192.905  0.78  3.28           N 0
+ATOM  18451  NH2 ARG D 263     203.291 147.689 192.934  0.20  8.75           N 0
+ATOM  21817   CB GLU D 715     200.754 142.432 196.015  0.00  0.00           C 0
+ATOM  21818   CG GLU D 715     201.123 143.347 197.172  0.00  0.00           C 0
+ATOM  21786   CB HIS D 712     203.700 141.140 191.191  0.00  0.00           C 0
+ATOM  21787   CG HIS D 712     205.128 140.969 191.601  0.00  0.00           C 0
+ATOM  21783   CA HIS D 712     202.695 140.663 192.239  0.00  0.00           C 0
+ATOM  21785    O HIS D 712     200.776 142.100 192.304  0.74  1.07           O 0
+ATOM  21828  CG2 VAL D 716     200.090 145.348 191.915  0.00  0.00           C 0
+ATOM  18448   NE ARG D 263     205.028 147.803 191.445  0.74  6.56           N 0
+ATOM  21790  CE1 HIS D 712     206.819 140.624 192.969  0.00  0.00           C 0
+ATOM  21791  NE2 HIS D 712     207.309 140.783 191.754  0.93  9.84           N 0
+TER
+END

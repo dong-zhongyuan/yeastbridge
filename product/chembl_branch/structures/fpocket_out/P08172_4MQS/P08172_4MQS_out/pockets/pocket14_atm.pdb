@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    14:
+HEADER 0  - Pocket Score                      : -0.0422
+HEADER 1  - Drug Score                        : 0.0105
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.9784
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6541
+HEADER 5  - Mean B-factor of pocket residues  : 0.4840
+HEADER 6  - Hydrophobicity Score              : 67.6250
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.3750
+HEADER 9  - Pocket volume (Monte Carlo)       : 368.2023
+HEADER 10 - Pocket volume (convex hull)       : 16.2962
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    18
+HEADER 14 - Proportion of apolar alpha sphere : 0.8571
+ATOM    181  CD1 LEU A  43     -14.084 -26.606  14.958  0.00  0.00           C 0
+ATOM    153  CG2 ILE A  39     -14.899 -27.481  10.565  0.00  0.00           C 0
+ATOM   2120   CA LEU A 455     -16.090 -32.739  17.826  0.00  0.00           C 0
+ATOM   2114    O LEU A 454     -18.260 -31.060  17.415  0.00  0.00           O 0
+ATOM    182  CD2 LEU A  43     -16.444 -25.857  15.295  0.00  0.00           C 0
+ATOM   2115   CB LEU A 454     -17.207 -28.212  18.096  0.00  0.00           C 0
+ATOM   2113    C LEU A 454     -17.380 -30.713  18.202  0.00  0.00           C 0
+ATOM   2119    N LEU A 455     -16.276 -31.422  18.417  0.00  0.00           N 0
+ATOM   2123   CB LEU A 455     -14.662 -33.235  18.058  0.00  0.00           C 0
+ATOM   2084    O PHE A 451     -14.115 -27.991  19.399  0.77  2.14           O 0
+ATOM   2093   CA LYS A 452     -12.432 -29.735  20.751  0.00  0.00           C 0
+ATOM   2085   CB PHE A 451     -11.586 -25.858  19.059  0.00  0.00           C 0
+ATOM   2092    N LYS A 452     -12.349 -28.272  20.770  0.00  0.00           N 0
+ATOM   2083    C PHE A 451     -13.154 -27.528  20.016  0.00  0.00           C 0
+ATOM   2097   CG LYS A 452      -9.923 -30.154  20.906  0.00  0.00           C 0
+ATOM   2029  CD2 LEU A 442      -6.600 -24.494  16.273  0.00  0.00           C 0
+ATOM   2088  CD2 PHE A 451     -11.289 -24.758  16.823  0.00  0.00           C 0
+ATOM   2068   CB LYS A 448      -6.941 -25.387  21.116  0.00  0.00           C 0
+ATOM   2065   CA LYS A 448      -8.395 -24.916  21.204  0.00  0.00           C 0
+ATOM   2067    O LYS A 448      -9.942 -26.740  21.560  0.00  0.00           O 0
+TER
+END

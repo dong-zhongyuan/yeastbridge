@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    32:
+HEADER 0  - Pocket Score                      : -0.0498
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.8184
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5506
+HEADER 5  - Mean B-factor of pocket residues  : 0.1246
+HEADER 6  - Hydrophobicity Score              : 22.5714
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 141.7446
+HEADER 10 - Pocket volume (convex hull)       : 2.4871
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.3889
+ATOM   3835   CD ARG C  22     174.459 175.207 196.013  0.00  0.00           C 0
+ATOM   3838  NH1 ARG C  22     171.940 174.493 194.908  0.00  0.00           N 0
+ATOM   5543    N GLU C 260     176.352 171.891 191.082  0.77  4.37           N 0
+ATOM   5535   CA GLN C 259     175.924 171.706 193.447  0.00  0.00           C 0
+ATOM   5272    C THR C 223     169.279 175.741 189.057  0.00  0.00           C 0
+ATOM   5270    N THR C 223     168.726 174.235 190.922  0.00  0.00           N 0
+ATOM   5277    N GLY C 224     169.863 174.770 188.360  0.76  1.09           N 0
+ATOM   5275  OG1 THR C 223     168.872 176.914 191.773  0.50  5.36           O 0
+ATOM   5278   CA GLY C 224     170.958 175.053 187.450  0.00  0.00           C 0
+ATOM   5273    O THR C 223     169.575 176.925 188.886  0.00  0.00           O 0
+ATOM   5538   CB GLN C 259     177.015 172.626 194.004  0.00  0.00           C 0
+ATOM   5265  CD1 PHE C 222     170.905 170.035 193.212  0.00  0.00           C 0
+ATOM   5492  CD1 PHE C 253     173.009 170.068 189.538  0.00  0.00           C 0
+ATOM   5494  CE1 PHE C 253     172.489 171.052 188.721  0.00  0.00           C 0
+ATOM   5547   CB GLU C 260     176.275 172.425 188.690  0.00  0.00           C 0
+ATOM   5263   CB PHE C 222     169.312 171.008 191.536  0.00  0.00           C 0
+TER
+END

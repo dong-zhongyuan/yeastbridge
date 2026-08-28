@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    31:
+HEADER 0  - Pocket Score                      : -0.1161
+HEADER 1  - Drug Score                        : 0.0037
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 3.9473
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5682
+HEADER 5  - Mean B-factor of pocket residues  : 0.0599
+HEADER 6  - Hydrophobicity Score              : 84.8333
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 154.4589
+HEADER 10 - Pocket volume (convex hull)       : 1.6865
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 21.0000
+HEADER 13 - Number of apolar alpha sphere     :    22
+HEADER 14 - Proportion of apolar alpha sphere : 0.9565
+ATOM   2828  CG1 ILE A 431     170.377  26.811 528.938  0.00  0.00           C 0
+ATOM   2787   CB TRP A 427     171.403  27.512 524.021  0.00  0.00           C 0
+ATOM    138  CD1 LEU A  33     166.666  29.668 527.711  0.00  0.00           C 0
+ATOM   2830  CD1 ILE A 431     169.576  28.072 529.136  0.00  0.00           C 0
+ATOM    117    N ALA A  30     164.274  32.683 525.025  0.68  1.09           N 0
+ATOM    118   CA ALA A  30     165.608  33.238 525.241  0.00  0.00           C 0
+ATOM    115  CG1 VAL A  29     163.252  29.302 525.895  0.00  0.00           C 0
+ATOM    121   CB ALA A  30     166.259  33.590 523.904  0.00  0.00           C 0
+ATOM     93  CG2 ILE A  26     164.835  31.543 519.615  0.00  0.00           C 0
+ATOM     90    O ILE A  26     163.621  32.689 522.289  0.59  1.07           O 0
+ATOM     94  CD1 ILE A  26     163.779  28.685 520.018  0.00  0.00           C 0
+ATOM   2793  CE3 TRP A 427     170.527  30.249 525.633  0.00  0.00           C 0
+ATOM   2790  CD2 TRP A 427     170.573  29.974 524.262  0.00  0.00           C 0
+ATOM   2788   CG TRP A 427     170.933  28.822 523.492  0.00  0.00           C 0
+ATOM   2792  CE2 TRP A 427     170.198  30.982 523.354  0.00  0.00           C 0
+ATOM   2791  NE1 TRP A 427     170.329  30.465 522.091  0.50  2.19           N 0
+ATOM   2789  CD1 TRP A 427     170.774  29.169 522.184  0.00  0.00           C 0
+TER
+END

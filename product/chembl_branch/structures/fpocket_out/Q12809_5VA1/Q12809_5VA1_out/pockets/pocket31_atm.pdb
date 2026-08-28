@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    31:
+HEADER 0  - Pocket Score                      : -0.0472
+HEADER 1  - Drug Score                        : 0.0087
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.7778
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4160
+HEADER 5  - Mean B-factor of pocket residues  : 0.7059
+HEADER 6  - Hydrophobicity Score              : 32.2000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.1000
+HEADER 9  - Pocket volume (Monte Carlo)       : 333.1461
+HEADER 10 - Pocket volume (convex hull)       : 19.5299
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 11.5714
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.6364
+ATOM     23   CB ARG A   5     100.261  54.925  53.773  0.00  0.00           C 0
+ATOM   1020  CE1 TYR A 403     102.773  50.500  54.037  0.00  0.00           C 0
+ATOM   1524  CG2 VAL A 482     105.650  55.333  50.932  0.00  0.00           C 0
+ATOM   1010  CE1 HIS A 402     103.136  54.778  56.079  0.00  0.00           C 0
+ATOM     33    O GLY A   6     102.647  55.566  50.031  0.56  4.29           O 0
+ATOM   1001  CD2 LEU A 401     105.177  48.115  55.043  0.00  0.00           C 0
+ATOM   1466  OG1 THR A 474     107.078  52.921  57.672  0.64  1.07           O 0
+ATOM   1523  CG1 VAL A 482     107.453  54.444  52.426  0.00  0.00           C 0
+ATOM   1023   OH TYR A 403     102.679  48.692  52.471  0.00  0.00           O 0
+ATOM   1467  CG2 THR A 474     109.316  52.560  56.859  0.00  0.00           C 0
+ATOM    999   CG LEU A 401     106.040  48.103  56.300  0.00  0.00           C 0
+ATOM   1537   OG SER A 484     111.213  52.445  53.848  0.59  7.50           O 0
+ATOM     49  CG1 VAL A   8     105.790  51.957  47.999  0.00  0.00           C 0
+ATOM     44    N VAL A   8     104.514  54.444  46.919  0.76  1.09           N 0
+ATOM     29  NH2 ARG A   5      99.456  51.743  50.900  0.00  0.00           N 0
+ATOM     41  CD2 HIS A   7     101.101  54.009  44.652  0.00  0.00           C 0
+ATOM     43  NE2 HIS A   7     101.647  53.232  43.659  0.00  0.00           N 0
+ATOM     35   CA HIS A   7     102.529  55.812  47.251  0.00  0.00           C 0
+ATOM     50  CG2 VAL A   8     105.722  51.982  45.476  0.00  0.00           C 0
+ATOM   1008  ND1 HIS A 402     104.010  54.243  56.914  0.64  1.09           N 0
+TER
+END

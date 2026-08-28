@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    60:
+HEADER 0  - Pocket Score                      : -0.1281
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.5676
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3947
+HEADER 5  - Mean B-factor of pocket residues  : 0.1089
+HEADER 6  - Hydrophobicity Score              : -26.5000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 92.1152
+HEADER 10 - Pocket volume (convex hull)       : 0.5447
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.6667
+ATOM   1446   CG PRO A 379     142.233 109.974 115.629  0.00  0.00           C 0
+ATOM   1516  NH2 ARG A 387     138.835 113.907 111.304  0.00  0.00           N 0
+ATOM   1481   CE LYS A 383     143.767 111.737 111.223  0.00  0.00           C 0
+ATOM   1482   NZ LYS A 383     143.746 110.268 110.981  0.00  0.00           N 0
+ATOM   1515  NH1 ARG A 387     138.108 114.902 113.240  0.59  6.56           N 0
+ATOM   1445   CB PRO A 379     143.435 110.877 115.595  0.00  0.00           C 0
+ATOM   1491   NZ LYS A 384     139.653 114.788 117.508  0.73  7.66           N 0
+ATOM   1514   CZ ARG A 387     138.728 114.984 112.071  0.00  0.00           C 0
+ATOM   1479   CG LYS A 383     144.719 113.608 112.591  0.00  0.00           C 0
+ATOM   1480   CD LYS A 383     144.657 112.105 112.397  0.00  0.00           C 0
+ATOM   1488   CG LYS A 384     142.587 115.351 117.336  0.00  0.00           C 0
+ATOM   1484   CA LYS A 384     143.183 117.112 115.602  0.00  0.00           C 0
+ATOM   1483    N LYS A 384     144.350 116.307 115.267  0.00  0.00           N 0
+TER
+END

@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   209:
+HEADER 0  - Pocket Score                      : -0.2603
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0147
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4613
+HEADER 5  - Mean B-factor of pocket residues  : 0.5066
+HEADER 6  - Hydrophobicity Score              : 29.2222
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.8889
+HEADER 9  - Pocket volume (Monte Carlo)       : 253.6323
+HEADER 10 - Pocket volume (convex hull)       : 7.8639
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3125
+ATOM   6572   CD PRO B 171     179.845 215.875 240.587  0.00  0.00           C 0
+ATOM   6562   NE ARG B 170     175.326 212.240 241.217  0.75  3.28           N 0
+ATOM   6565  NH2 ARG B 170     175.298 210.569 239.650  0.42  8.75           N 0
+ATOM     19  CD1 ILE A  18     179.661 212.085 243.640  0.00  0.00           C 0
+ATOM   6571   CG PRO B 171     180.527 215.967 239.256  0.00  0.00           C 0
+ATOM   7001  OE1 GLU B 226     182.369 211.735 235.346  0.67  9.64           O 0
+ATOM   7002  OE2 GLU B 226     180.572 211.740 234.086  0.41  9.64           O 0
+ATOM   6806   OH TYR B 200     182.049 215.917 235.786  0.74  2.14           O 0
+ATOM   6827  CD1 LEU B 203     183.098 213.571 241.637  0.00  0.00           C 0
+ATOM   6974  CD1 LEU B 223     185.062 210.730 238.255  0.00  0.00           C 0
+ATOM   6803  CE1 TYR B 200     183.657 215.404 237.455  0.00  0.00           C 0
+ATOM   6569    O PRO B 171     177.349 216.181 238.174  0.53  5.36           O 0
+ATOM   6590  OE1 GLN B 173     175.183 213.786 233.578  0.00  0.00           O 0
+ATOM   6576    O HIS B 172     178.118 216.998 235.227  0.56  3.21           O 0
+TER
+END

@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    48:
+HEADER 0  - Pocket Score                      : -0.1092
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0691
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6333
+HEADER 5  - Mean B-factor of pocket residues  : 0.0239
+HEADER 6  - Hydrophobicity Score              : 8.5000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 343.3022
+HEADER 10 - Pocket volume (convex hull)       : 13.1961
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM   7154   CD ARG A 882     -55.481   4.037   0.760  0.00  0.00           C 0
+ATOM   7172   CA SER A 884     -53.455  10.144   1.923  0.00  0.00           C 0
+ATOM   7156  NH1 ARG A 882     -57.963   3.689  -0.686  0.54  8.75           N 0
+ATOM   7174   CB SER A 884     -54.524  10.480   2.967  0.00  0.00           C 0
+ATOM   7185  OE1 GLN A 885     -55.790  11.275  -3.807  0.00  0.00           O 0
+ATOM   7182   CG GLN A 885     -53.525  11.586  -3.004  0.00  0.00           C 0
+ATOM   7163    O TYR A 883     -51.612   8.504   0.580  0.00  0.00           O 0
+ATOM   7183   CD GLN A 885     -54.596  11.219  -4.034  0.00  0.00           C 0
+ATOM   7184  NE2 GLN A 885     -54.213  10.784  -5.214  0.00  0.00           N 0
+ATOM   7177    N GLN A 885     -53.101  11.541   0.014  0.64  1.09           N 0
+ATOM   7181    O GLN A 885     -54.813  13.851   0.548  0.62  1.07           O 0
+ATOM   7180   CB GLN A 885     -54.032  12.578  -1.945  0.00  0.00           C 0
+ATOM   7151   CB ARG A 882     -53.632   5.057   2.122  0.00  0.00           C 0
+ATOM   7153   CG ARG A 882     -54.170   3.761   1.504  0.00  0.00           C 0
+ATOM   7149   CA ARG A 882     -52.320   4.868   2.904  0.00  0.00           C 0
+TER
+END

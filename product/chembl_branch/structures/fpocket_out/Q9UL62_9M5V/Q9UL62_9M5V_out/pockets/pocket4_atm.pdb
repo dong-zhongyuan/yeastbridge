@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     4:
+HEADER 0  - Pocket Score                      : 0.0842
+HEADER 1  - Drug Score                        : 0.0020
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.7692
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5325
+HEADER 5  - Mean B-factor of pocket residues  : 0.6025
+HEADER 6  - Hydrophobicity Score              : 99.5000
+HEADER 7  - Polarity Score                    :     0
+HEADER 8  - Amino Acid based volume Score     : 5.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 145.3303
+HEADER 10 - Pocket volume (convex hull)       : 2.0454
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 15.0000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM   5550   CA ILE A 750     163.525 170.711 109.835  0.00  0.00           C 0
+ATOM   5576  CD2 PHE A 753     166.974 169.674 105.332  0.00  0.00           C 0
+ATOM   5554  CG1 ILE A 750     164.361 169.058 111.546  0.00  0.00           C 0
+ATOM   5555  CG2 ILE A 750     162.522 168.406 109.968  0.00  0.00           C 0
+ATOM  22508  CG2 ILE D 750     168.406 170.678 109.968  0.00  0.00           C 0
+ATOM  22507  CG1 ILE D 750     169.058 168.839 111.546  0.00  0.00           C 0
+ATOM  22529  CD2 PHE D 753     169.674 166.226 105.332  0.00  0.00           C 0
+ATOM  16856  CG1 ILE C 750     168.839 164.142 111.546  0.00  0.00           C 0
+ATOM  16857  CG2 ILE C 750     170.678 164.794 109.968  0.00  0.00           C 0
+ATOM  22503   CA ILE D 750     170.711 169.675 109.835  0.00  0.00           C 0
+ATOM  16878  CD2 PHE C 753     166.226 163.526 105.332  0.00  0.00           C 0
+ATOM  11206  CG2 ILE B 750     164.794 162.522 109.968  0.00  0.00           C 0
+ATOM  11205  CG1 ILE B 750     164.142 164.361 111.546  0.00  0.00           C 0
+ATOM  16852   CA ILE C 750     169.675 162.489 109.835  0.00  0.00           C 0
+ATOM  11227  CD2 PHE B 753     163.526 166.974 105.332  0.00  0.00           C 0
+ATOM  11201   CA ILE B 750     162.489 163.525 109.835  0.00  0.00           C 0
+TER
+END

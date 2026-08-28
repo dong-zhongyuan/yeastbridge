@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    66:
+HEADER 0  - Pocket Score                      : -0.1168
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9670
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5745
+HEADER 5  - Mean B-factor of pocket residues  : 0.4678
+HEADER 6  - Hydrophobicity Score              : 15.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 213.0273
+HEADER 10 - Pocket volume (convex hull)       : 2.6509
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2941
+ATOM  10687    O CYS X  31     160.792 176.345 230.628  0.00  0.00           O 0
+ATOM  10522   CB GLU X   9     159.343 178.325 234.815  0.00  0.00           C 0
+ATOM  10518    N GLU X   9     159.292 180.009 233.016  0.00  0.00           N 0
+ATOM  10519   CA GLU X   9     158.925 178.632 233.360  0.00  0.00           C 0
+ATOM  10508    O CYS X   7     162.204 181.718 230.947  0.44  6.43           O 0
+ATOM  10525  OE1 GLU X   9     159.709 181.086 235.552  0.78  5.36           O 0
+ATOM  11407  CE2 TYR Y  50     165.234 175.230 231.761  0.00  0.00           C 0
+ATOM  11409   OH TYR Y  50     167.156 175.047 233.189  0.00  0.00           O 0
+ATOM  11406  CE1 TYR Y  50     167.404 176.090 231.053  0.00  0.00           C 0
+ATOM  11408   CZ TYR Y  50     166.603 175.447 232.018  0.00  0.00           C 0
+ATOM  10504  OD2 ASP X   6     166.511 183.703 232.415  0.74  8.57           O 1
+ATOM  10503  OD1 ASP X   6     165.907 182.595 230.633  0.73  6.43           O 0
+ATOM  11404  CD1 TYR Y  50     166.841 176.503 229.833  0.00  0.00           C 0
+ATOM  11403   CG TYR Y  50     165.485 176.243 229.552  0.00  0.00           C 0
+ATOM  10689   SG CYS X  31     161.968 178.917 229.095  0.00  0.00           S 0
+ATOM  11405  CD2 TYR Y  50     164.680 175.631 230.531  0.00  0.00           C 0
+TER
+END

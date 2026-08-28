@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    45:
+HEADER 0  - Pocket Score                      : -0.1126
+HEADER 1  - Drug Score                        : 0.0031
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 4.0353
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6847
+HEADER 5  - Mean B-factor of pocket residues  : 0.9196
+HEADER 6  - Hydrophobicity Score              : 18.3333
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 283.5766
+HEADER 10 - Pocket volume (convex hull)       : 12.3321
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.7895
+ATOM   3745  CG2 VAL A 491       7.105  28.619  -7.278  0.00  0.00           C 0
+ATOM   3744  CG1 VAL A 491       8.216  26.925  -5.871  0.00  0.00           C 0
+ATOM   3720   CG ARG A 488       1.457  27.570  -4.011  0.00  0.00           C 0
+ATOM   3742   CB VAL A 491       7.121  27.124  -6.929  0.00  0.00           C 0
+ATOM   3716   CA ARG A 488       2.541  26.726  -6.203  0.00  0.00           C 0
+ATOM   3714    O GLY A 487       3.857  28.260  -8.130  0.67  3.21           O 0
+ATOM   3719    O ARG A 488       3.943  24.901  -6.837  0.00  0.00           O 0
+ATOM   3718   CB ARG A 488       1.635  26.400  -4.999  0.00  0.00           C 0
+ATOM   3626   OH TYR A 475       3.206  22.068  -3.937  0.00  0.00           O 0
+ATOM   3721   CD ARG A 488       0.683  27.111  -2.761  0.00  0.00           C 0
+ATOM   3746    N HIS A 492       6.758  23.973  -7.557  0.00  0.00           N 0
+ATOM   3749   CB HIS A 492       5.710  21.922  -6.783  0.00  0.00           C 0
+ATOM   3752  CD2 HIS A 492       6.503  19.917  -5.387  0.00  0.00           C 0
+ATOM   3747   CA HIS A 492       7.011  22.555  -7.295  0.00  0.00           C 0
+ATOM   3785   CD LYS A 495      12.433  22.791  -4.487  0.00  0.00           C 0
+ATOM   3743    O VAL A 491       8.910  24.498  -7.920  0.00  0.00           O 0
+TER
+END

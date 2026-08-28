@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : 0.0754
+HEADER 1  - Drug Score                        : 0.0094
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.1054
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6115
+HEADER 5  - Mean B-factor of pocket residues  : 0.1560
+HEADER 6  - Hydrophobicity Score              : -1.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 351.2125
+HEADER 10 - Pocket volume (convex hull)       : 11.1679
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 9.6667
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.8000
+ATOM   1972   CB ASP B   9     122.077 131.734  87.072  0.00  0.00           C 0
+ATOM   4214  CG2 THR C  86     124.739 125.855  88.822  0.00  0.00           C 0
+ATOM   4228  OD1 ASN C  88     120.677 126.504  89.830  0.61  5.36           O 0
+ATOM   1973   CG ASP B   9     122.946 131.026  86.052  0.00  0.00           C 0
+ATOM   1946  CG1 VAL B   5     125.812 133.744  89.860  0.00  0.00           C 0
+ATOM   1971    O ASP B   9     119.312 131.180  88.695  0.64  3.21           O 0
+ATOM   1947  CG2 VAL B   5     123.638 134.976  89.777  0.00  0.00           C 0
+ATOM   1975  OD2 ASP B   9     124.096 131.465  85.838  0.50  6.43           O 0
+ATOM   1999   CB ALA B  13     118.084 130.513  91.923  0.00  0.00           C 0
+ATOM   1977   CA LYS B  10     118.562 133.769  89.167  0.00  0.00           C 0
+ATOM   1981   CG LYS B  10     119.952 135.886  89.480  0.00  0.00           C 0
+ATOM   2005   CG GLU B  14     113.692 133.502  91.506  0.00  0.00           C 0
+ATOM   1979    O LYS B  10     116.478 132.814  89.890  0.50  1.07           O 0
+ATOM   2008  OE2 GLU B  14     113.661 135.839  91.037  0.72  2.14           O 0
+ATOM   1983   CE LYS B  10     119.013 137.860  90.698  0.00  0.00           C 0
+ATOM   1980   CB LYS B  10     118.569 135.292  89.282  0.00  0.00           C 0
+ATOM   1974  OD1 ASP B   9     122.480 130.030  85.459  0.74  2.14           O 0
+TER
+END

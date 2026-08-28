@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    27:
+HEADER 0  - Pocket Score                      : -0.0013
+HEADER 1  - Drug Score                        : 0.0059
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0390
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6880
+HEADER 5  - Mean B-factor of pocket residues  : 0.0360
+HEADER 6  - Hydrophobicity Score              : 66.7143
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 3.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 266.6116
+HEADER 10 - Pocket volume (convex hull)       : 8.6056
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 12.7143
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.9333
+ATOM   3822  CG2 VAL B1234      -3.045  25.690 -49.764  0.00  0.00           C 0
+ATOM   3821  CG1 VAL B1234      -4.547  27.389 -48.732  0.00  0.00           C 0
+ATOM   3817   CA VAL B1234      -2.119  27.305 -48.092  0.00  0.00           C 0
+ATOM   3842   CB ALA B1237      -0.617  31.272 -49.531  0.00  0.00           C 0
+ATOM   3840    C ALA B1237      -1.624  32.881 -47.882  0.00  0.00           C 0
+ATOM   3843    N ILE B1238      -2.582  32.292 -47.165  0.00  0.00           N 0
+ATOM   3876  CD1 LEU B1241      -4.386  35.489 -51.312  0.00  0.00           C 0
+ATOM   3610  CG2 THR B1206     -11.632  30.219 -52.570  0.00  0.00           C 0
+ATOM   3612   CA ALA B1207      -9.544  26.928 -49.906  0.00  0.00           C 0
+ATOM   3615   CB ALA B1207      -8.348  27.197 -48.991  0.00  0.00           C 0
+ATOM   3611    N ALA B1207     -10.497  28.030 -49.819  0.00  0.00           N 0
+ATOM   3582   CB PHE B1203      -8.649  33.617 -47.984  0.00  0.00           C 0
+ATOM   3581    O PHE B1203      -9.801  30.555 -48.514  0.64  3.21           O 0
+ATOM   3848  CG1 ILE B1238      -5.407  31.125 -47.245  0.00  0.00           C 0
+ATOM   3819    O VAL B1234      -2.634  29.504 -47.259  0.61  1.07           O 0
+ATOM   3584  CD1 PHE B1203      -9.583  35.346 -49.568  0.00  0.00           C 0
+ATOM   3579   CA PHE B1203     -10.004  32.914 -48.099  0.00  0.00           C 0
+ATOM   3608   CB THR B1206     -11.952  30.489 -51.105  0.00  0.00           C 0
+ATOM   3583   CG PHE B1203      -8.595  34.960 -48.670  0.00  0.00           C 0
+TER
+END

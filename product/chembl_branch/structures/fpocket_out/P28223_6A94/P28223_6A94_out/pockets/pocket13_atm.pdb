@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : -0.0233
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.6797
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5596
+HEADER 5  - Mean B-factor of pocket residues  : 0.6568
+HEADER 6  - Hydrophobicity Score              : 39.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 225.2893
+HEADER 10 - Pocket volume (convex hull)       : 5.6553
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.6875
+ATOM   2912   CG GLN B  72       6.966 -20.003  30.814  0.00  0.00           C 0
+ATOM   2950  NE1 TRP B  76      12.101 -21.322  28.575  0.72  1.09           N 0
+ATOM   2953  CZ2 TRP B  76      13.415 -21.750  30.664  0.00  0.00           C 0
+ATOM   2915  NE2 GLN B  72       7.007 -22.242  31.732  0.00  0.00           N 0
+ATOM   2910    O GLN B  72       8.945 -18.007  28.907  0.62  1.07           O 0
+ATOM   2941  ND2 ASN B  75       8.832 -16.016  32.085  0.00  0.00           N 0
+ATOM   2938   CB ASN B  75      10.687 -15.921  30.528  0.00  0.00           C 0
+ATOM   2955  CH2 TRP B  76      14.501 -21.309  31.366  0.00  0.00           C 0
+ATOM   2951  CE2 TRP B  76      13.113 -21.098  29.471  0.00  0.00           C 0
+ATOM   2954  CZ3 TRP B  76      15.285 -20.243  30.907  0.00  0.00           C 0
+ATOM   2949  CD2 TRP B  76      13.882 -20.022  28.981  0.00  0.00           C 0
+ATOM   2952  CE3 TRP B  76      14.989 -19.594  29.722  0.00  0.00           C 0
+ATOM   2937    O ASN B  75      13.568 -15.130  29.349  0.00  0.00           O 0
+ATOM   2971   CB LEU B  79      17.134 -15.758  29.788  0.00  0.00           C 0
+ATOM   2974  CD2 LEU B  79      18.121 -18.014  30.283  0.00  0.00           C 0
+ATOM   2973  CD1 LEU B  79      18.998 -15.982  31.478  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : -0.1271
+HEADER 1  - Drug Score                        : 0.0010
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 4.1554
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6332
+HEADER 5  - Mean B-factor of pocket residues  : 0.5682
+HEADER 6  - Hydrophobicity Score              : 14.8571
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 178.2828
+HEADER 10 - Pocket volume (convex hull)       : 3.3604
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5000
+ATOM     65  CG1 ILE A   9     155.963 160.857 188.727  0.00  0.00           C 0
+ATOM     61   CA ILE A   9     155.551 159.265 190.639  0.00  0.00           C 0
+ATOM   1621  CH2 TRP B 165     161.743 158.564 186.063  0.00  0.00           C 0
+ATOM     63    O ILE A   9     156.433 161.182 191.775  0.44  9.64           O 0
+ATOM   1758    N GLY B 183     157.297 157.333 186.715  0.93  1.09           N 0
+ATOM   1746   CB GLU B 181     160.465 154.677 187.773  0.00  0.00           C 0
+ATOM     56    O THR A   8     156.280 157.614 192.697  0.62  4.29           O 0
+ATOM   1757   CD PRO B 182     156.806 154.598 189.209  0.00  0.00           C 0
+ATOM   1759   CA GLY B 183     157.690 158.517 185.973  0.00  0.00           C 0
+ATOM   1619  CZ2 TRP B 165     162.858 158.237 186.783  0.00  0.00           C 0
+ATOM   1748   CD GLU B 181     161.817 153.648 189.722  0.00  0.00           C 0
+ATOM   1747   CG GLU B 181     161.797 154.080 188.255  0.00  0.00           C 0
+ATOM   1749  OE1 GLU B 181     162.909 153.700 190.326  0.33  9.64           O 0
+ATOM     52  ND2 ASN A   7     158.603 153.504 191.958  0.69  5.47           N 0
+ATOM   1750  OE2 GLU B 181     160.772 153.251 190.277  0.80  3.21           O 0
+ATOM     51  OD1 ASN A   7     158.488 154.679 193.866  0.66  4.29           O 0
+TER
+END

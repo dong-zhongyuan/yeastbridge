@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    49:
+HEADER 0  - Pocket Score                      : -0.0511
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0475
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6205
+HEADER 5  - Mean B-factor of pocket residues  : 0.4244
+HEADER 6  - Hydrophobicity Score              : 19.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 253.5584
+HEADER 10 - Pocket volume (convex hull)       : 3.4043
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2667
+ATOM  19828   CD GLU D 470     249.190 225.047 172.868  0.00  0.00           C 0
+ATOM  19830  OE2 GLU D 470     248.519 224.538 173.792  0.63  3.21           O 0
+ATOM  19811    O TRP D 469     244.599 227.646 172.042  0.19  9.64           O 0
+ATOM  19829  OE1 GLU D 470     249.809 224.355 172.033  0.00  0.00           O 0
+ATOM  19835   CB MET D 471     244.853 223.921 176.181  0.00  0.00           C 0
+ATOM  19831    N MET D 471     246.040 225.770 175.113  0.60  2.19           N 0
+ATOM  15356  NH2 ARG C 593     241.329 218.636 171.634  0.54  4.37           N 0
+ATOM  19838   CE MET D 471     245.410 220.969 178.206  0.00  0.00           C 0
+ATOM  15373   CD GLU C 595     240.713 219.276 177.011  0.00  0.00           C 0
+ATOM  15374  OE1 GLU C 595     241.507 218.744 177.814  0.57  5.36           O 0
+ATOM  15375  OE2 GLU C 595     240.273 218.689 176.000  0.70  5.36           O 0
+ATOM  15353   NE ARG C 593     240.279 220.647 171.311  0.65  2.19           N 0
+ATOM  15354   CZ ARG C 593     240.957 219.619 170.819  0.00  0.00           C 0
+ATOM  19836   CG MET D 471     244.164 223.291 177.395  0.00  0.00           C 0
+ATOM  15349    O ARG C 593     241.277 224.167 174.697  0.45  3.21           O 0
+ATOM  15372   CG GLU C 595     240.263 220.703 177.270  0.00  0.00           C 0
+TER
+END

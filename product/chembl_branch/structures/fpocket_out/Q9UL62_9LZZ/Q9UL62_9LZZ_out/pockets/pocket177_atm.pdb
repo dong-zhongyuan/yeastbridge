@@ -1,0 +1,44 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   177:
+HEADER 0  - Pocket Score                      : -0.1420
+HEADER 1  - Drug Score                        : 0.2386
+HEADER 2  - Number of alpha spheres           :    38
+HEADER 3  - Mean alpha-sphere radius          : 4.0018
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4683
+HEADER 5  - Mean B-factor of pocket residues  : 0.1371
+HEADER 6  - Hydrophobicity Score              : 88.4000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 5.2000
+HEADER 9  - Pocket volume (Monte Carlo)       : 312.0561
+HEADER 10 - Pocket volume (convex hull)       : 19.4881
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 36.9474
+HEADER 13 - Number of apolar alpha sphere     :    38
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM  15681  CG2 VAL C 614     148.769 160.714 122.803  0.00  0.00           C 0
+ATOM  15652  CG2 VAL C 610     146.436 164.893 119.611  0.00  0.00           C 0
+ATOM  15651  CG1 VAL C 610     145.418 165.061 121.885  0.00  0.00           C 0
+ATOM  15680  CG1 VAL C 614     148.504 161.902 124.987  0.00  0.00           C 0
+ATOM  20927  CG1 VAL B 579     152.835 161.213 119.179  0.00  0.00           C 0
+ATOM  20939   CZ PHE B 580     148.106 161.792 118.092  0.00  0.00           C 0
+ATOM  20478   OH TYR B 524     153.051 166.773 119.160  0.70  1.07           O 0
+ATOM  20899  CE1 PHE B 576     148.844 165.848 117.168  0.00  0.00           C 0
+ATOM  20926   CB VAL B 579     153.060 161.826 117.806  0.00  0.00           C 0
+ATOM  21230  CD2 LEU B 617     152.949 161.125 124.490  0.00  0.00           C 0
+ATOM  20475  CE1 TYR B 524     154.295 166.259 121.128  0.00  0.00           C 0
+ATOM  20437  CE1 PHE B 520     152.192 165.512 126.382  0.00  0.00           C 0
+ATOM  20409  CG1 ILE B 517     147.357 166.225 128.051  0.00  0.00           C 0
+ATOM  20446  CD1 LEU B 521     149.988 169.413 124.357  0.00  0.00           C 0
+ATOM  20447  CD2 LEU B 521     148.472 171.262 125.059  0.00  0.00           C 0
+ATOM  20473  CD1 TYR B 524     154.658 166.574 122.424  0.00  0.00           C 0
+ATOM  20474  CD2 TYR B 524     153.269 168.507 122.350  0.00  0.00           C 0
+ATOM  20472   CG TYR B 524     154.149 167.701 123.056  0.00  0.00           C 0
+ATOM  20476  CE2 TYR B 524     152.902 168.201 121.055  0.00  0.00           C 0
+ATOM  20411  CD1 ILE B 517     148.396 165.210 127.636  0.00  0.00           C 0
+ATOM  20477   CZ TYR B 524     153.417 167.078 120.450  0.00  0.00           C 0
+ATOM  20439   CZ PHE B 520     153.379 164.849 126.174  0.00  0.00           C 0
+TER
+END

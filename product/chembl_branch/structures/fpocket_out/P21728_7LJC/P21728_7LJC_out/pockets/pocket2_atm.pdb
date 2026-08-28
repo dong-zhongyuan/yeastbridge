@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     2:
+HEADER 0  - Pocket Score                      : 0.1001
+HEADER 1  - Drug Score                        : 0.0053
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9348
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7686
+HEADER 5  - Mean B-factor of pocket residues  : 0.3351
+HEADER 6  - Hydrophobicity Score              : 79.2000
+HEADER 7  - Polarity Score                    :     0
+HEADER 8  - Amino Acid based volume Score     : 4.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 272.1449
+HEADER 10 - Pocket volume (convex hull)       : 8.0328
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.8000
+ATOM   1883    C PHE R 297      83.829  63.937 111.446  0.00  0.00           C 0
+ATOM   1884    O PHE R 297      83.440  63.069 112.236  0.00  0.00           O 0
+ATOM   1885   CB PHE R 297      82.177  65.490 110.348  0.00  0.00           C 0
+ATOM   1892    N CYS R 298      84.782  63.699 110.547  0.75  1.09           N 0
+ATOM   1258  CD1 ILE R 196      80.936  72.236 108.171  0.00  0.00           C 0
+ATOM   1890  CE2 PHE R 297      80.775  68.980 109.892  0.00  0.00           C 0
+ATOM   1856   CB CYS R 293      83.238  71.186 105.271  0.00  0.00           C 0
+ATOM   1855    O CYS R 293      83.762  69.148 107.855  0.00  0.00           O 0
+ATOM   1863  CG1 ILE R 294      83.878  66.483 103.846  0.00  0.00           C 0
+ATOM   1854    C CYS R 293      84.251  69.434 106.758  0.00  0.00           C 0
+ATOM   1858    N ILE R 294      84.719  68.504 105.914  0.00  0.00           N 0
+ATOM   1859   CA ILE R 294      84.588  67.070 106.192  0.00  0.00           C 0
+ATOM   1864  CG2 ILE R 294      85.080  64.770 105.201  0.00  0.00           C 0
+ATOM   1861    O ILE R 294      84.957  65.839 108.229  0.64  1.07           O 0
+ATOM   1896   CB CYS R 298      86.339  62.305 109.233  0.00  0.00           C 0
+ATOM   1888  CD2 PHE R 297      81.572  67.855 109.762  0.00  0.00           C 0
+TER
+END

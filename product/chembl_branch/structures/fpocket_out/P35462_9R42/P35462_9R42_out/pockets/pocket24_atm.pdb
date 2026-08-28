@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    24:
+HEADER 0  - Pocket Score                      : -0.0796
+HEADER 1  - Drug Score                        : 0.0132
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 4.1107
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7095
+HEADER 5  - Mean B-factor of pocket residues  : 0.6133
+HEADER 6  - Hydrophobicity Score              : 11.2000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 391.0260
+HEADER 10 - Pocket volume (convex hull)       : 19.2426
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 17.0526
+HEADER 13 - Number of apolar alpha sphere     :    19
+HEADER 14 - Proportion of apolar alpha sphere : 0.9048
+ATOM    308   CG LYS A  51     172.432 206.389 210.987  0.00  0.00           C 0
+ATOM    334   CG LYS A  54     168.617 202.863 205.724  0.00  0.00           C 0
+ATOM    345  CD1 ILE A  55     165.697 208.025 207.206  0.00  0.00           C 0
+ATOM    306    O LYS A  51     170.977 207.329 206.823  0.66  2.14           O 0
+ATOM    305    C LYS A  51     172.127 207.356 207.275  0.00  0.00           C 0
+ATOM    307   CB LYS A  51     172.602 207.238 209.737  0.00  0.00           C 0
+ATOM    344  CG2 ILE A  55     168.943 209.739 205.985  0.00  0.00           C 0
+ATOM    342   CB ILE A  55     167.985 208.580 206.230  0.00  0.00           C 0
+ATOM    309   CD LYS A  51     172.556 207.232 212.245  0.00  0.00           C 0
+ATOM    312    N GLN A  52     173.071 208.156 206.768  0.00  0.00           N 0
+ATOM    343  CG1 ILE A  55     166.630 209.107 206.706  0.00  0.00           C 0
+ATOM    333   CB LYS A  54     169.842 203.757 205.597  0.00  0.00           C 0
+ATOM    338    N ILE A  55     168.923 206.769 204.845  0.00  0.00           N 0
+ATOM    304   CA LYS A  51     172.529 206.449 208.430  0.00  0.00           C 0
+ATOM    284    O THR A  48     175.649 208.663 208.042  0.58  1.07           O 0
+ATOM    316   CB GLN A  52     173.882 210.073 205.468  0.00  0.00           C 0
+ATOM    282   CA THR A  48     176.793 208.652 210.154  0.00  0.00           C 0
+ATOM    287  CG2 THR A  48     177.589 210.352 211.815  0.00  0.00           C 0
+ATOM    285   CB THR A  48     177.636 209.911 210.359  0.00  0.00           C 0
+TER
+END

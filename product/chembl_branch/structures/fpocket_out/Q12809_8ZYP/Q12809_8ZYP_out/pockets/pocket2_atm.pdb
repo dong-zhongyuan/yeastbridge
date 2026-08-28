@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     2:
+HEADER 0  - Pocket Score                      : 0.0722
+HEADER 1  - Drug Score                        : 0.0011
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.4696
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4103
+HEADER 5  - Mean B-factor of pocket residues  : 0.1180
+HEADER 6  - Hydrophobicity Score              : 28.4286
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 74.1841
+HEADER 10 - Pocket volume (convex hull)       : 0.3248
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.4500
+ATOM   4413    O TRP C 585     140.527 141.496 111.324  0.54  1.07           O 0
+ATOM   4723  CG1 VAL C 630     141.390 144.071 116.352  0.00  0.00           C 0
+ATOM   4411   CA TRP C 585     138.461 142.082 112.348  0.00  0.00           C 0
+ATOM   4414   CB TRP C 585     138.720 141.901 113.843  0.00  0.00           C 0
+ATOM   4719   CA VAL C 630     142.119 146.344 115.596  0.00  0.00           C 0
+ATOM   4449  ND2 ASN C 588     138.333 145.923 110.173  0.64  3.28           N 0
+ATOM   4446   CB ASN C 588     140.339 144.889 109.323  0.00  0.00           C 0
+ATOM   4713    O ASN C 629     142.916 147.672 113.177  0.68  2.14           O 0
+ATOM   4724  CG2 VAL C 630     143.795 144.482 115.772  0.00  0.00           C 0
+ATOM   4725    N SER C 631     139.870 147.223 115.801  0.52  2.19           N 0
+ATOM   4454   CB LEU C 589     143.607 140.867 110.686  0.00  0.00           C 0
+ATOM   4477  OE1 GLN C 592     145.682 145.417 110.984  0.67  3.21           O 0
+ATOM   4451   CA LEU C 589     143.715 141.952 109.619  0.00  0.00           C 0
+ATOM   4450    N LEU C 589     142.392 142.490 109.321  0.00  0.00           N 0
+ATOM   4478  NE2 GLN C 592     144.157 147.029 110.676  0.32  7.66           N 0
+TER
+END

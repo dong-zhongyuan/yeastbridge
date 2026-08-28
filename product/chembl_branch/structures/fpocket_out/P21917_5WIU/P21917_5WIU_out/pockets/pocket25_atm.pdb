@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    25:
+HEADER 0  - Pocket Score                      : -0.1343
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.1102
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5679
+HEADER 5  - Mean B-factor of pocket residues  : 0.6844
+HEADER 6  - Hydrophobicity Score              : 16.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 244.4980
+HEADER 10 - Pocket volume (convex hull)       : 4.9343
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.6250
+ATOM   1740  CD2 LEU A1048      -2.826 -28.115  -1.377  0.00  0.00           C 0
+ATOM   1791   CD GLU A1057      -4.535 -26.821   2.649  0.00  0.00           C 0
+ATOM   1764   CD LYS A1051       1.032 -28.069   1.321  0.00  0.00           C 0
+ATOM   1730    O LYS A1047       0.561 -26.472  -2.434  0.47  4.29           O 0
+ATOM   1732   CG LYS A1047      -1.564 -24.136  -3.791  0.00  0.00           C 0
+ATOM   1792  OE1 GLU A1057      -5.249 -27.002   1.639  0.73  5.36           O 0
+ATOM   1343  CZ2 TRP A 222      -5.398 -24.051  -3.933  0.00  0.00           C 0
+ATOM   1793  OE2 GLU A1057      -4.679 -25.848   3.415  0.00  0.00           O 0
+ATOM    745   CD PRO A 140      -9.041 -21.158  -0.992  0.00  0.00           C 0
+ATOM    730    O ALA A 138      -7.097 -18.595  -0.476  0.00  0.00           O 0
+ATOM    744   CG PRO A 140      -9.056 -22.441  -1.765  0.00  0.00           C 0
+ATOM   1790   CG GLU A1057      -3.443 -27.823   2.961  0.00  0.00           C 0
+ATOM   1345  CH2 TRP A 222      -5.664 -25.378  -3.753  0.00  0.00           C 0
+TER
+END

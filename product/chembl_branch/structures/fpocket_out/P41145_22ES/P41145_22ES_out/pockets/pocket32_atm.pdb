@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    32:
+HEADER 0  - Pocket Score                      : -0.0042
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.7593
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4606
+HEADER 5  - Mean B-factor of pocket residues  : 0.4331
+HEADER 6  - Hydrophobicity Score              : 44.1111
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.5556
+HEADER 9  - Pocket volume (Monte Carlo)       : 267.7765
+HEADER 10 - Pocket volume (convex hull)       : 5.9963
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.3889
+ATOM   5765   CB PHE D 191     135.867 127.259 102.756  0.00  0.00           C 0
+ATOM   5750  CD2 PHE D 189     133.910 122.922 102.101  0.00  0.00           C 0
+ATOM   5669    O MET D  53     134.195 122.618  97.854  0.00  0.00           O 0
+ATOM   5757    O THR D 190     138.576 124.859 102.702  0.39  6.43           O 0
+ATOM   6930  CG1 VAL D 332     133.146 127.485  99.626  0.00  0.00           C 0
+ATOM   5686    O ILE D  55     136.280 123.850  95.408  0.42  6.43           O 0
+ATOM   5677    O LYS D  54     136.999 120.721  96.963  0.00  0.00           O 0
+ATOM   5685    C ILE D  55     137.150 123.300  94.733  0.00  0.00           C 0
+ATOM   6899  OD1 ASP D 328     135.586 127.435  93.608  0.49  2.14           O 0
+ATOM   6907  CG2 THR D 329     136.516 130.550  94.747  0.00  0.00           C 0
+ATOM   6900  OD2 ASP D 328     137.475 127.537  92.496  0.57  5.36           O 0
+ATOM   5769  CE1 PHE D 191     136.253 129.654  99.854  0.00  0.00           C 0
+ATOM   5747   CB PHE D 189     135.544 121.029 101.898  0.00  0.00           C 0
+ATOM   5767  CD1 PHE D 191     136.385 128.543 100.665  0.00  0.00           C 0
+ATOM   6931  CG2 VAL D 332     132.319 126.597  97.438  0.00  0.00           C 0
+ATOM   6929   CB VAL D 332     132.387 127.810  98.349  0.00  0.00           C 0
+ATOM   6902   CA THR D 329     134.017 130.414  95.155  0.00  0.00           C 0
+TER
+END

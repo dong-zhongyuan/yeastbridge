@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    38:
+HEADER 0  - Pocket Score                      : -0.0383
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 4.0563
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5306
+HEADER 5  - Mean B-factor of pocket residues  : 0.2450
+HEADER 6  - Hydrophobicity Score              : -1.0000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.6250
+HEADER 9  - Pocket volume (Monte Carlo)       : 265.2169
+HEADER 10 - Pocket volume (convex hull)       : 8.8306
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1429
+ATOM   1504  NE2 GLN A 218     127.494 111.235 129.214  0.57  2.19           N 0
+ATOM   1501   CG GLN A 218     129.175 109.924 130.333  0.00  0.00           C 0
+ATOM   1470  CG1 VAL A 214     126.282 111.385 135.287  0.00  0.00           C 0
+ATOM   1529  NH2 ARG A 221     126.571 106.270 129.363  0.56  7.66           N 0
+ATOM   3875  NH1 ARG B 366     120.016 112.685 130.889  0.42  8.75           N 0
+ATOM    825    O MET A 127     119.782 115.919 135.219  0.44  6.43           O 0
+ATOM    829   CE MET A 127     121.454 112.911 138.447  0.00  0.00           C 0
+ATOM    823   CA MET A 127     122.072 116.260 135.826  0.00  0.00           C 0
+ATOM   1495  OD2 ASP A 217     126.823 105.282 133.008  0.43  7.50           O 0
+ATOM   1468    O VAL A 214     128.853 110.339 134.470  0.00  0.00           O 0
+ATOM   1492   CB ASP A 217     128.768 106.367 133.853  0.00  0.00           C 0
+ATOM    827   CG MET A 127     123.097 115.020 137.792  0.00  0.00           C 0
+ATOM   3908  OE1 GLN B 370     124.089 113.698 131.060  0.63  6.43           O 0
+ATOM   3909  NE2 GLN B 370     125.769 113.142 132.428  0.74  6.56           N 0
+ATOM   3876  NH2 ARG B 366     119.547 110.747 129.765  0.00  0.00           N 0
+ATOM   3883  OD1 ASP B 367     123.842 111.609 127.147  0.35  2.14           O 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    25:
+HEADER 0  - Pocket Score                      : -0.1268
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.1269
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5863
+HEADER 5  - Mean B-factor of pocket residues  : 0.3237
+HEADER 6  - Hydrophobicity Score              : 20.5000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.6250
+HEADER 9  - Pocket volume (Monte Carlo)       : 278.4349
+HEADER 10 - Pocket volume (convex hull)       : 4.1243
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1667
+ATOM   3235   CB SER L  29     165.464 189.698 177.628  0.00  0.00           C 0
+ATOM   3821   CB VAL V 308     165.425 192.807 185.972  0.00  0.00           C 0
+ATOM   3236   OG SER L  29     165.817 191.025 177.284  0.55  9.64           O 0
+ATOM   3822  CG1 VAL V 308     163.909 192.775 185.835  0.00  0.00           C 0
+HETATM 3832  O2P SEP V 309     168.537 188.685 182.702  0.43  9.64           O 0
+HETATM 3831  O1P SEP V 309     169.520 190.026 180.661  0.58  3.21           O 0
+HETATM 3829    O SEP V 309     169.166 193.481 183.951  0.49  4.29           O 0
+HETATM 3840  O1P TPO V 310     169.078 197.059 183.285  0.00  0.00           O 0
+ATOM     22  NH2 ARG A   7     170.761 192.578 181.811  0.28  6.56           N 0
+HETATM 3824    N SEP V 309     168.077 191.526 185.488  0.70  1.09           N 0
+HETATM 3827   OG SEP V 309     169.941 190.847 183.110  0.00  0.00           O 0
+ATOM   3818   CA VAL V 308     165.940 191.505 186.601  0.00  0.00           C 0
+HETATM 3816    O TPO V 307     164.497 189.299 187.373  0.44  8.57           O 0
+ATOM   3504  NH2 ARG L  67     170.120 190.147 178.231  0.00  0.00           N 0
+ATOM   3511   CA GLY L  69     170.667 193.734 175.592  0.00  0.00           C 0
+ATOM   3513    O GLY L  69     169.643 191.570 175.624  0.00  0.00           O 0
+TER
+END

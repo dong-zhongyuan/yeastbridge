@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : 0.0269
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 4.1828
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6702
+HEADER 5  - Mean B-factor of pocket residues  : 0.2485
+HEADER 6  - Hydrophobicity Score              : 38.1667
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 6.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 281.6598
+HEADER 10 - Pocket volume (convex hull)       : 4.7066
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2000
+ATOM   1499   CB ARG A 278     147.206 145.012 155.312  0.00  0.00           C 0
+ATOM   1533   NE ARG A 282     153.038 145.419 157.724  0.00  0.00           N 0
+ATOM   1498    O ARG A 278     148.327 146.622 157.942  0.00  0.00           O 0
+ATOM   1536  NH2 ARG A 282     152.321 143.658 156.450  0.65  7.66           N 0
+ATOM   1506    N ARG A 279     147.118 147.942 156.577  0.74  1.09           N 0
+ATOM   1507   CA ARG A 279     147.836 149.141 156.999  0.00  0.00           C 0
+ATOM   1497    C ARG A 278     147.432 146.754 157.099  0.00  0.00           C 0
+ATOM   1530   CB ARG A 282     151.455 147.735 159.161  0.00  0.00           C 0
+ATOM   1531   CG ARG A 282     152.944 147.573 158.940  0.00  0.00           C 0
+ATOM   1510   CB ARG A 279     147.393 150.338 156.159  0.00  0.00           C 0
+ATOM   1509    O ARG A 279     148.569 149.749 159.209  0.60  1.07           O 0
+ATOM   1537    N MET A 283     150.350 149.514 161.557  0.79  1.09           N 0
+ATOM   1984  CD2 LEU A 341     154.383 153.606 159.719  0.00  0.00           C 0
+ATOM   1981   CB LEU A 341     152.195 154.547 160.468  0.00  0.00           C 0
+ATOM   1980    O LEU A 341     149.933 154.562 158.235  0.46  9.64           O 0
+ATOM   1978   CA LEU A 341     151.925 155.426 159.248  0.00  0.00           C 0
+ATOM   1969    O PHE A 340     154.125 156.446 157.995  0.00  0.00           O 0
+TER
+END

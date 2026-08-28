@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : 0.1523
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.4709
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3496
+HEADER 5  - Mean B-factor of pocket residues  : 0.0227
+HEADER 6  - Hydrophobicity Score              : -5.5714
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 3.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 85.3194
+HEADER 10 - Pocket volume (convex hull)       : 0.8516
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM    683  ND2 ASN A  97       4.338  25.281  11.145  0.00  0.00           N 0
+ATOM   1916   OH TYR B  99       6.614  24.943   9.380  0.53  2.14           O 0
+ATOM    712   CB SER A 101       5.574  18.510   9.964  0.00  0.00           C 0
+ATOM    956  OE1 GLN A 135       2.272  21.169   8.389  0.64  6.43           O 0
+ATOM    691    O TYR A  99       3.422  21.547  13.937  0.71  1.07           O 0
+ATOM    713   OG SER A 101       6.831  18.411  10.606  0.48  3.21           O 0
+ATOM   1913  CE1 TYR B  99       8.757  24.053   8.826  0.00  0.00           C 0
+ATOM    732  OE2 GLU A 104       7.456  21.507  14.125  0.79  1.07           O 0
+ATOM    692   CB TYR A  99       1.386  22.364  11.790  0.00  0.00           C 0
+ATOM   1904    O GLY B  98       8.408  20.598   6.266  0.70  2.14           O 0
+ATOM   1915   CZ TYR B  99       7.546  24.593   8.415  0.00  0.00           C 0
+ATOM   1914  CE2 TYR B  99       7.286  24.783   7.064  0.00  0.00           C 0
+ATOM    682  OD1 ASN A  97       4.169  24.403  13.200  0.00  0.00           O 0
+ATOM    731  OE1 GLU A 104       5.846  20.001  13.854  0.00  0.00           O 0
+ATOM   2201   CB ASN B 137       5.295  22.288   4.211  0.00  0.00           C 0
+TER
+END

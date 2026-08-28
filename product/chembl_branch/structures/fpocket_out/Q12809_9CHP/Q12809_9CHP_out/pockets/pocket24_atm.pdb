@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    24:
+HEADER 0  - Pocket Score                      : 0.0378
+HEADER 1  - Drug Score                        : 0.0032
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.9948
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6267
+HEADER 5  - Mean B-factor of pocket residues  : 0.2227
+HEADER 6  - Hydrophobicity Score              : 2.7500
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 3.8750
+HEADER 9  - Pocket volume (Monte Carlo)       : 200.4220
+HEADER 10 - Pocket volume (convex hull)       : 5.2799
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.5238
+ATOM   7690   CB ILE B 593     141.660 159.610 208.547  0.00  0.00           C 0
+ATOM   7719   CE LYS B 595     136.298 160.029 210.036  0.00  0.00           C 0
+ATOM   7917  OD1 ASP B 609     136.668 159.554 205.327  0.21  5.36           O 0
+ATOM   7693  CD1 ILE B 593     139.738 158.014 207.951  0.00  0.00           C 0
+ATOM  13083  ND2 ASN C 635     136.883 161.621 203.489  0.43  5.47           N 0
+ATOM   7720   NZ LYS B 595     135.314 159.982 208.925  0.61  6.56           N 0
+ATOM   7692  CG2 ILE B 593     142.303 159.434 207.168  0.00  0.00           C 0
+ATOM  13076    N ASN C 635     140.049 163.588 202.666  0.49  1.09           N 0
+ATOM  13082  OD1 ASN C 635     138.558 160.618 202.482  0.62  3.21           O 0
+ATOM  13063   CA THR C 634     141.992 164.206 204.064  0.00  0.00           C 0
+ATOM  13068  CG2 THR C 634     142.079 166.041 205.825  0.00  0.00           C 0
+ATOM  13066   CB THR C 634     141.562 165.625 204.453  0.00  0.00           C 0
+ATOM  12314  CG2 ILE C 583     143.502 164.091 208.460  0.00  0.00           C 0
+ATOM   7689    O ILE B 593     141.168 161.054 211.041  0.47  6.43           O 0
+ATOM  12313  CG1 ILE C 583     142.821 164.690 210.785  0.00  0.00           C 0
+ATOM  12264    O ASP C 580     140.420 166.836 211.771  0.43  5.36           O 0
+ATOM  12312   CB ILE C 583     143.456 165.230 209.487  0.00  0.00           C 0
+ATOM  12265   CB ASP C 580     140.832 168.483 209.206  0.00  0.00           C 0
+ATOM  13051    O ASN C 633     143.455 161.920 204.559  0.66  1.07           O 0
+TER
+END

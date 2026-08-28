@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    16:
+HEADER 0  - Pocket Score                      : -0.0069
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.8821
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5188
+HEADER 5  - Mean B-factor of pocket residues  : 0.1265
+HEADER 6  - Hydrophobicity Score              : -8.3750
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 209.6199
+HEADER 10 - Pocket volume (convex hull)       : 3.9769
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.1905
+ATOM   4221    C GLY B  41      73.188  75.487  95.686  0.00  0.00           C 0
+ATOM   4220   CA GLY B  41      71.948  74.591  95.636  0.00  0.00           C 0
+ATOM   4226    N ARG B  42      73.329  76.315  96.726  0.68  1.09           N 0
+ATOM   4231   CG ARG B  42      73.200  79.352  97.366  0.00  0.00           C 0
+ATOM   4222    O GLY B  41      74.017  75.459  94.778  0.00  0.00           O 0
+ATOM   8195    O ARG B 304      73.784  79.489  90.699  0.50  7.50           O 0
+ATOM   4207   CB VAL B  40      74.209  72.201  92.538  0.00  0.00           C 0
+ATOM   8111   CB ASP B 298      74.058  73.270  88.369  0.00  0.00           C 0
+ATOM   4203    N VAL B  40      71.826  71.661  92.482  0.71  2.19           N 0
+ATOM   8220   CB ALA B 305      75.833  75.966  91.580  0.00  0.00           C 0
+ATOM   4219    N GLY B  41      72.023  73.592  94.563  0.64  2.19           N 0
+ATOM   8217   CA ALA B 305      75.410  77.426  91.732  0.00  0.00           C 0
+ATOM   8187  OD2 ASP B 303      68.851  76.308  88.305  0.00  0.00           O 1
+ATOM   4193   CB PRO B  39      68.786  72.464  91.820  0.00  0.00           C 0
+ATOM   8219    O ALA B 305      76.020  78.042  93.958  0.84  3.21           O 0
+ATOM   8184   CB ASP B 303      71.115  76.989  87.920  0.00  0.00           C 0
+ATOM   8114  OD2 ASP B 298      72.364  71.696  88.969  0.00  0.00           O 1
+TER
+END

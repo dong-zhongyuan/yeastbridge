@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : 0.0052
+HEADER 1  - Drug Score                        : 0.0012
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.7368
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4896
+HEADER 5  - Mean B-factor of pocket residues  : 0.3959
+HEADER 6  - Hydrophobicity Score              : 26.8750
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 352.1261
+HEADER 10 - Pocket volume (convex hull)       : 30.9617
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.3182
+ATOM   4850  OXT GLY B 341     138.026 159.248 103.895  0.31  2.14           O 0
+ATOM   2569    N GLN B  44     142.407 156.737 105.293  0.50  4.37           N 0
+ATOM   2553    O ARG B  42     145.073 158.664 102.902  0.33  4.29           O 0
+ATOM   5215   CG PRO G  53     139.420 162.704 103.147  0.00  0.00           C 0
+ATOM   2573   CB GLN B  44     142.133 157.619 107.575  0.00  0.00           C 0
+ATOM   2572    O GLN B  44     139.620 156.950 106.171  0.62  1.07           O 0
+ATOM   2543   CB VAL B  40     145.675 158.691  96.563  0.00  0.00           C 0
+ATOM   5198    O LEU G  51     140.114 160.785  99.447  0.59  5.36           O 0
+ATOM   2542    O VAL B  40     146.712 160.964  98.748  0.00  0.00           O 0
+ATOM   5201  CD1 LEU G  51     141.500 158.324  96.324  0.00  0.00           C 0
+ATOM   5216   CD PRO G  53     139.371 163.128 101.710  0.00  0.00           C 0
+ATOM   2568  CD1 ILE B  43     142.405 157.157 100.438  0.00  0.00           C 0
+ATOM   2540   CA VAL B  40     146.724 159.818  96.632  0.00  0.00           C 0
+ATOM   2544  CG1 VAL B  40     144.933 158.747  95.240  0.00  0.00           C 0
+ATOM   5200   CG LEU G  51     140.685 159.531  95.915  0.00  0.00           C 0
+ATOM   5209  CG2 THR G  52     138.705 163.893  96.698  0.00  0.00           C 0
+ATOM   5204   CA THR G  52     138.346 162.834  98.928  0.00  0.00           C 0
+ATOM   5207   CB THR G  52     137.876 163.916  97.971  0.00  0.00           C 0
+TER
+END

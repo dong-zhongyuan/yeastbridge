@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    59:
+HEADER 0  - Pocket Score                      : -0.1363
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9958
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5809
+HEADER 5  - Mean B-factor of pocket residues  : 0.8269
+HEADER 6  - Hydrophobicity Score              : 12.3333
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 199.2583
+HEADER 10 - Pocket volume (convex hull)       : 3.1197
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.4667
+ATOM  12348  CG1 VAL G  16      76.612  61.065  67.203  0.00  0.00           C 0
+ATOM  12367  OE2 GLU G  17      79.814  57.061  66.890  0.00  0.00           O 1
+ATOM  12418   NZ LYS G  20      77.574  55.809  67.976  0.52  8.75           N 1
+ATOM   3704  OE1 GLU B  10      73.703  60.477  64.876  0.00  0.00           O 0
+ATOM   3705  OE2 GLU B  10      72.978  59.055  66.365  0.52  7.50           O 1
+ATOM  12288  NH2 ARG G  13      78.594  60.154  59.952  0.65  9.84           N 0
+ATOM  12282   CB ARG G  13      81.178  62.462  63.017  0.00  0.00           C 0
+ATOM  12365   CD GLU G  17      80.983  57.413  67.160  0.00  0.00           C 0
+ATOM  12284   CD ARG G  13      80.893  61.818  60.564  0.00  0.00           C 0
+ATOM   3644  CD2 LEU B   7      76.563  62.972  62.475  0.00  0.00           C 0
+ATOM  12279   CA ARG G  13      80.511  63.155  64.218  0.00  0.00           C 0
+ATOM  12281    O ARG G  13      80.746  62.054  66.322  0.76  1.07           O 0
+ATOM  12283   CG ARG G  13      80.292  62.539  61.773  0.00  0.00           C 0
+ATOM  12364   CG GLU G  17      81.328  58.909  67.191  0.00  0.00           C 0
+TER
+END

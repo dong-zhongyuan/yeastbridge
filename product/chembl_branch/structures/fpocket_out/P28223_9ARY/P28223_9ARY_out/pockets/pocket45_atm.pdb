@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    45:
+HEADER 0  - Pocket Score                      : -0.0625
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.7327
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3953
+HEADER 5  - Mean B-factor of pocket residues  : 0.3085
+HEADER 6  - Hydrophobicity Score              : 18.6250
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.2500
+HEADER 9  - Pocket volume (Monte Carlo)       : 235.5047
+HEADER 10 - Pocket volume (convex hull)       : 5.0314
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1579
+ATOM   5141   CB THR C 196     141.964 128.980  92.203  0.00  0.00           C 0
+ATOM   5140    O THR C 196     140.976 127.189  90.316  0.43  5.36           O 0
+ATOM   4828  OD1 ASP C 153     137.873 132.586  91.433  0.64  9.64           O 0
+ATOM   5132    O ASP C 195     144.176 128.564  90.211  0.00  0.00           O 0
+ATOM   5265  CG2 VAL C 213     138.398 123.640  89.844  0.00  0.00           C 0
+ATOM   4820  CD1 LEU C 152     135.392 126.910  93.052  0.00  0.00           C 0
+ATOM   4821  CD2 LEU C 152     137.773 127.370  93.608  0.00  0.00           C 0
+ATOM   5143  CG2 THR C 196     140.520 129.042  92.669  0.00  0.00           C 0
+ATOM   5275  NH1 ARG C 214     137.883 126.734  86.392  0.00  0.00           N 0
+ATOM   5263   CB VAL C 213     137.195 122.973  90.505  0.00  0.00           C 0
+ATOM   4829  OD2 ASP C 153     136.030 131.823  90.513  0.61  5.36           O 0
+ATOM   5276  NH2 ARG C 214     140.130 127.078  86.123  0.50  7.66           N 0
+ATOM   4932  CD1 LEU C 168     133.481 123.975  91.315  0.00  0.00           C 0
+ATOM   4854  NE2 GLN C 156     132.753 128.583  89.028  0.71  7.66           N 0
+ATOM   5262    O VAL C 213     135.158 122.085  88.422  0.00  0.00           O 0
+ATOM   4853  OE1 GLN C 156     134.335 129.846  90.000  0.76  1.07           O 0
+TER
+END

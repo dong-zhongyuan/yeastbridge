@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    22:
+HEADER 0  - Pocket Score                      : -0.1227
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 4.0094
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4892
+HEADER 5  - Mean B-factor of pocket residues  : 0.0873
+HEADER 6  - Hydrophobicity Score              : 22.3750
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 5.1250
+HEADER 9  - Pocket volume (Monte Carlo)       : 318.6826
+HEADER 10 - Pocket volume (convex hull)       : 15.9260
+HEADER 11 - Charge Score                      :     4
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.1905
+ATOM   2784  NH1 ARG C 165     113.614 127.635 117.100  0.00  0.00           N 0
+HETATM 1596  O2P TPO R 491     108.867 123.481 118.753  0.36  4.29           O 0
+ATOM   2799  CG1 VAL C 167     114.950 121.966 116.129  0.00  0.00           C 0
+ATOM   3717    O LEU C 293     115.375 120.352 120.428  0.63  9.64           O 0
+ATOM   3730   NZ LYS C 294     109.955 121.597 121.706  0.67  6.56           N 0
+ATOM   2778    O ARG C 165     110.303 125.072 114.707  0.31  1.07           O 0
+ATOM   1715   NZ LYS C  11     108.546 125.378 117.368  0.36  1.09           N 0
+ATOM   2800  CG2 VAL C 167     113.770 119.833 116.579  0.00  0.00           C 0
+ATOM   2794    N VAL C 167     112.716 121.485 114.349  0.00  0.00           N 0
+ATOM   3727   CG LYS C 294     112.383 120.196 122.908  0.00  0.00           C 0
+ATOM   3728   CD LYS C 294     111.147 120.615 123.684  0.00  0.00           C 0
+ATOM   3726   CB LYS C 294     113.530 119.832 123.832  0.00  0.00           C 0
+ATOM   3739  CE1 HIS C 295     116.744 123.213 126.862  0.00  0.00           C 0
+ATOM   3740  NE2 HIS C 295     117.724 123.144 125.979  0.47  7.66           N 0
+HETATM 1595  O1P TPO R 491     109.064 120.971 118.658  0.44  1.07           O 0
+ATOM   3723   CA LYS C 294     114.848 119.609 123.095  0.00  0.00           C 0
+HETATM 1571  O3P SEP R 488     110.955 128.169 120.937  0.55  9.64           O 0
+ATOM   3737  ND1 HIS C 295     116.552 122.008 127.365  0.00  0.00           N 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : 0.0271
+HEADER 1  - Drug Score                        : 0.0008
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.6727
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4549
+HEADER 5  - Mean B-factor of pocket residues  : 0.8201
+HEADER 6  - Hydrophobicity Score              : 31.8571
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 143.0376
+HEADER 10 - Pocket volume (convex hull)       : 2.7882
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.6667
+ATOM    524  NE2 HIS R  79     109.588  97.550  65.905  0.88  2.19           N 0
+ATOM    542  CD1 TYR R  81     110.997 102.197  67.607  0.00  0.00           C 0
+ATOM    529   CB PHE R  80     114.128  98.410  67.285  0.00  0.00           C 0
+ATOM   1183    O ARG R 159     114.562 100.609  60.906  0.48  6.43           O 0
+ATOM   1206    N THR R 162     113.586  95.840  62.662  0.70  2.19           N 0
+ATOM   1211  OG1 THR R 162     111.153  96.483  61.320  0.25  6.43           O 0
+ATOM   1184   CB ARG R 159     116.237 103.059  61.565  0.00  0.00           C 0
+ATOM   1181   CA ARG R 159     116.440 101.607  62.029  0.00  0.00           C 0
+ATOM    544  CE1 TYR R  81     111.624 103.312  67.090  0.00  0.00           C 0
+ATOM   1207   CA THR R 162     112.287  95.392  63.162  0.00  0.00           C 0
+ATOM    532  CD2 PHE R  80     114.408 100.873  67.690  0.00  0.00           C 0
+ATOM   1205  CG2 VAL R 161     116.537  98.208  64.436  0.00  0.00           C 0
+ATOM   1201    C VAL R 161     114.651  95.924  63.467  0.00  0.00           C 0
+ATOM    534  CE2 PHE R  80     115.186 101.982  67.965  0.00  0.00           C 0
+ATOM   1125   CD LYS R 152     115.797 106.227  63.657  0.00  0.00           C 0
+ATOM    547   OH TYR R  81     112.872 105.312  67.444  0.62  3.21           O 0
+TER
+END

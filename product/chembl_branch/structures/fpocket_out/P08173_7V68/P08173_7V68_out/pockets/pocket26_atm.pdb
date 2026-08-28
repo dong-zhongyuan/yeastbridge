@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    26:
+HEADER 0  - Pocket Score                      : -0.0150
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9045
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5649
+HEADER 5  - Mean B-factor of pocket residues  : 0.2707
+HEADER 6  - Hydrophobicity Score              : 31.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 285.4202
+HEADER 10 - Pocket volume (convex hull)       : 12.7471
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3125
+ATOM   3587   CB GLN B 259     112.607 157.315  93.592  0.00  0.00           C 0
+ATOM   3591  NE2 GLN B 259     110.903 159.114  92.358  0.00  0.00           N 0
+ATOM   3592    N GLU B 260     113.321 156.373  96.486  0.57  5.47           N 0
+ATOM   3596   CB GLU B 260     113.289 157.001  98.845  0.00  0.00           C 0
+ATOM   1840   CA THR B  29     103.992 157.162  98.204  0.00  0.00           C 0
+ATOM   3595    O GLU B 260     110.626 156.244  97.168  0.55  6.43           O 0
+ATOM   1825   CB ALA B  26     106.776 160.231  93.006  0.00  0.00           C 0
+ATOM   1845  CG2 THR B  29     104.441 159.513  99.005  0.00  0.00           C 0
+ATOM   4389  CG1 VAL C  30     106.220 154.954  94.564  0.00  0.00           C 0
+ATOM   1843   CB THR B  29     104.409 158.036  99.389  0.00  0.00           C 0
+ATOM   3604    O LEU B 261     108.240 155.239 100.550  0.56  7.50           O 0
+ATOM   4390  CG2 VAL C  30     107.505 156.116  92.772  0.00  0.00           C 0
+ATOM   3598   CD GLU B 260     112.871 158.064 101.093  0.00  0.00           C 0
+ATOM   3597   CG GLU B 260     112.628 156.856 100.210  0.00  0.00           C 0
+ATOM   3599  OE1 GLU B 260     113.755 158.880 100.756  0.00  0.00           O 0
+ATOM   3600  OE2 GLU B 260     112.176 158.202 102.121  0.00  0.00           O 0
+TER
+END

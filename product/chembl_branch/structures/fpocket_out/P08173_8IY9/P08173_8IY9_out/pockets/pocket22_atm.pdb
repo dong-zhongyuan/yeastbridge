@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    22:
+HEADER 0  - Pocket Score                      : -0.0176
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.6933
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4374
+HEADER 5  - Mean B-factor of pocket residues  : 0.1105
+HEADER 6  - Hydrophobicity Score              : 19.5714
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 93.7899
+HEADER 10 - Pocket volume (convex hull)       : 0.5758
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.5625
+ATOM     46   CB ALA A  12     131.142 148.265 156.942  0.00  0.00           C 0
+ATOM   5052   CB TYR H 102     132.451 144.973 153.122  0.00  0.00           C 0
+ATOM   2165  CG2 VAL B  90     135.204 148.429 150.700  0.00  0.00           C 0
+ATOM     45    O ALA A  12     134.164 147.865 158.147  0.57  4.29           O 0
+ATOM   2153    O LYS B  89     137.846 147.533 154.243  0.63  2.14           O 0
+ATOM   2146   CB ASN B  88     135.710 151.701 154.936  0.00  0.00           C 0
+ATOM   2106   CB ASP B  83     134.282 152.261 150.763  0.00  0.00           C 0
+ATOM   2109  OD2 ASP B  83     132.290 153.126 151.726  0.59  4.29           O 0
+ATOM   2149  ND2 ASN B  88     134.003 152.704 156.300  0.44  2.19           N 0
+ATOM   5049   CA TYR H 102     131.149 145.610 153.610  0.00  0.00           C 0
+ATOM   2160   CA VAL B  90     136.754 146.786 151.781  0.00  0.00           C 0
+ATOM   5060    N TYR H 103     130.771 147.180 151.802  0.77  1.09           N 0
+ATOM   5064   CB TYR H 103     130.669 148.956 150.098  0.00  0.00           C 0
+TER
+END

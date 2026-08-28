@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : -0.0063
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.7420
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4641
+HEADER 5  - Mean B-factor of pocket residues  : 0.4862
+HEADER 6  - Hydrophobicity Score              : -6.5556
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 4.2222
+HEADER 9  - Pocket volume (Monte Carlo)       : 179.3159
+HEADER 10 - Pocket volume (convex hull)       : 9.5533
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3529
+ATOM   2470    O ALA A  12     113.566 135.144 108.345  0.55  2.14           O 0
+ATOM   2471   CB ALA A  12     110.776 133.885 107.030  0.00  0.00           C 0
+ATOM   4683  CG1 VAL B  90     108.506 139.378 110.078  0.00  0.00           C 0
+ATOM   2490   CD ARG A  15     113.573 139.519 105.692  0.00  0.00           C 0
+ATOM   2456  OD2 ASP A   9     107.354 130.460 108.379  0.72  4.29           O 0
+ATOM   4653  CG2 THR B  86     106.234 132.581 111.757  0.00  0.00           C 0
+ATOM   4514  NH1 ARG B  68     103.483 133.988 110.309  0.55  6.56           N 0
+ATOM   4515  NH2 ARG B  68     103.392 136.258 109.988  0.00  0.00           N 0
+ATOM   2468   CA ALA A  12     112.214 134.186 106.608  0.00  0.00           C 0
+ATOM   4652  OG1 THR B  86     107.986 134.085 112.464  0.58  2.14           O 0
+ATOM   4665   CB ASN B  88     111.319 135.188 112.611  0.00  0.00           C 0
+ATOM   4672    O LYS B  89     112.503 139.312 111.118  0.62  1.07           O 0
+ATOM   4679   CA VAL B  90     110.538 140.852 109.918  0.00  0.00           C 0
+ATOM   4682   CB VAL B  90     109.051 140.691 109.539  0.00  0.00           C 0
+ATOM   4626   CG ASP B  83     105.379 136.527 112.903  0.00  0.00           C 0
+ATOM   4627  OD1 ASP B  83     104.534 137.139 112.218  0.00  0.00           O 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : 0.0565
+HEADER 1  - Drug Score                        : 0.0052
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.5729
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4254
+HEADER 5  - Mean B-factor of pocket residues  : 0.2506
+HEADER 6  - Hydrophobicity Score              : 53.1429
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 184.3119
+HEADER 10 - Pocket volume (convex hull)       : 9.4551
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 11.8462
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.8667
+ATOM   1183  CD1 PHE A 188     128.789 130.640 122.369  0.00  0.00           C 0
+ATOM   1203   CB ALA A 191     131.976 131.313 127.266  0.00  0.00           C 0
+ATOM   1242  CE2 TYR A 196     128.664 136.084 126.193  0.00  0.00           C 0
+ATOM   1180    O PHE A 188     128.443 129.852 126.814  0.68  2.14           O 0
+ATOM   1658   CA LEU A 408     132.812 132.838 120.939  0.00  0.00           C 0
+ATOM   1661   CB LEU A 408     131.853 133.986 121.276  0.00  0.00           C 0
+ATOM   1244   OH TYR A 196     130.553 136.755 124.918  0.71  3.21           O 0
+ATOM   1185  CE1 PHE A 188     129.229 131.201 121.190  0.00  0.00           C 0
+ATOM   1208   CB ILE A 192     126.923 132.496 128.079  0.00  0.00           C 0
+ATOM   1211  CD1 ILE A 192     124.812 133.557 127.137  0.00  0.00           C 0
+ATOM   1181   CB PHE A 188     128.139 128.674 123.768  0.00  0.00           C 0
+ATOM   1630    O ASN A 404     134.407 135.258 123.468  0.41  1.07           O 0
+ATOM   1204    N ILE A 192     129.271 131.903 128.610  0.00  0.00           N 0
+ATOM   1210  CG2 ILE A 192     126.278 131.204 128.543  0.00  0.00           C 0
+ATOM   1179    C PHE A 188     128.508 128.767 126.233  0.00  0.00           C 0
+ATOM   1188    N GLY A 189     127.986 127.653 126.747  0.74  3.28           N 0
+TER
+END

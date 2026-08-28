@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    39:
+HEADER 0  - Pocket Score                      : -0.1005
+HEADER 1  - Drug Score                        : 0.0014
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.8718
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5291
+HEADER 5  - Mean B-factor of pocket residues  : 0.1903
+HEADER 6  - Hydrophobicity Score              : 16.8333
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 6.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 305.9952
+HEADER 10 - Pocket volume (convex hull)       : 12.3451
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.8125
+ATOM   7854  NE2 GLN R 236      90.627  92.711 132.717  0.57  9.84           N 0
+ATOM   7852   CD GLN R 236      91.035  93.349 131.627  0.00  0.00           C 0
+ATOM   7882   CG ARG R 240      89.783  88.485 126.844  0.00  0.00           C 0
+ATOM   7883   CD ARG R 240      88.318  88.876 126.739  0.00  0.00           C 0
+ATOM   7853  OE1 GLN R 236      90.444  94.326 131.169  0.58  3.21           O 0
+ATOM   7850   CB GLN R 236      92.231  92.927 129.444  0.00  0.00           C 0
+ATOM   7825  NH2 ARG R 233      87.844  96.013 129.360  0.42  6.56           N 0
+ATOM   7862  CD1 ILE R 237      89.664  93.462 124.405  0.00  0.00           C 0
+ATOM   7851   CG GLN R 236      92.285  92.810 130.957  0.00  0.00           C 0
+ATOM   7849    O GLN R 236      92.573  90.512 127.203  0.45  1.07           O 0
+ATOM   7872   CB LYS R 239      94.960  88.106 128.221  0.00  0.00           C 0
+ATOM   7842  CE1 TYR R 235      97.012  90.867 131.578  0.00  0.00           C 0
+ATOM   7873   CG LYS R 239      95.346  86.912 129.079  0.00  0.00           C 0
+ATOM   7876   NZ LYS R 239      96.780  86.326 131.760  0.69  7.66           N 1
+ATOM   7848    C GLN R 236      92.887  91.698 127.361  0.00  0.00           C 0
+ATOM   7847   CA GLN R 236      93.362  92.200 128.719  0.00  0.00           C 0
+TER
+END

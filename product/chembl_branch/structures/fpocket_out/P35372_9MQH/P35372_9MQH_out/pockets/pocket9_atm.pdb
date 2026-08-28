@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : 0.0015
+HEADER 1  - Drug Score                        : 0.0045
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.8341
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6483
+HEADER 5  - Mean B-factor of pocket residues  : 0.6071
+HEADER 6  - Hydrophobicity Score              : 55.8000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 245.4993
+HEADER 10 - Pocket volume (convex hull)       : 10.8263
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 16.0000
+HEADER 13 - Number of apolar alpha sphere     :    17
+HEADER 14 - Proportion of apolar alpha sphere : 0.7727
+ATOM   1008   CG MET A 207     151.404 152.163 201.862  0.00  0.00           C 0
+ATOM   1109    N SER A 224     154.726 148.072 205.960  0.00  0.00           N 0
+ATOM   1113   CB SER A 224     153.432 146.445 207.267  0.00  0.00           C 0
+ATOM   1147  CZ2 TRP A 230     150.723 145.184 202.440  0.00  0.00           C 0
+ATOM   1149  CH2 TRP A 230     150.308 146.043 201.460  0.00  0.00           C 0
+ATOM   1099   CA PHE A 223     155.266 149.747 204.304  0.00  0.00           C 0
+ATOM   1145  CE2 TRP A 230     152.095 145.009 202.600  0.00  0.00           C 0
+ATOM   1148  CZ3 TRP A 230     151.222 146.721 200.646  0.00  0.00           C 0
+ATOM   1009   SD MET A 207     150.164 151.276 200.916  0.00  0.00           S 0
+ATOM   1146  CE3 TRP A 230     152.582 146.549 200.803  0.00  0.00           C 0
+ATOM   1101    O PHE A 223     155.114 150.173 206.670  0.00  0.00           O 0
+ATOM   1110   CA SER A 224     154.496 147.543 207.299  0.00  0.00           C 0
+ATOM   1143  CD2 TRP A 230     153.038 145.678 201.797  0.00  0.00           C 0
+ATOM   1100    C PHE A 223     155.031 149.349 205.754  0.00  0.00           C 0
+ATOM   1096    O THR A 222     154.499 151.873 202.661  0.92  1.07           O 0
+ATOM   1097   CB THR A 222     155.843 154.187 204.606  0.00  0.00           C 0
+ATOM   1095    C THR A 222     155.464 152.013 203.416  0.00  0.00           C 0
+ATOM   1006    O MET A 207     152.730 156.328 201.814  0.16  8.57           O 0
+ATOM   1007   CB MET A 207     151.990 153.434 201.251  0.00  0.00           C 0
+ATOM   1004   CA MET A 207     151.082 154.666 201.305  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : 0.0853
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.5928
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3637
+HEADER 5  - Mean B-factor of pocket residues  : 0.8603
+HEADER 6  - Hydrophobicity Score              : 26.4000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.3000
+HEADER 9  - Pocket volume (Monte Carlo)       : 130.3291
+HEADER 10 - Pocket volume (convex hull)       : 4.9929
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1875
+ATOM   1120  CG2 THR R 194     158.245 145.496 110.698  0.00  0.00           C 0
+ATOM   1204  CE1 TYR R 205     152.710 147.550 107.625  0.00  0.00           C 0
+ATOM   6654  CD2 PHE P   7     155.157 149.186 111.329  0.00  0.00           C 0
+ATOM   6651   CB PHE P   7     156.587 150.608 109.843  0.00  0.00           C 0
+ATOM   1207   OH TYR R 205     153.480 146.148 105.859  0.35  3.21           O 0
+ATOM   6619    N LYS P   4     157.347 148.662 104.120  0.44  2.19           N 0
+ATOM   1063  NH1 ARG R 184     157.956 143.965 104.816  0.42  1.09           N 0
+ATOM   6612    O GLY P   2     155.116 145.854 103.922  0.00  0.00           O 0
+ATOM   6622    O LYS P   4     158.985 149.661 106.218  0.12  3.21           O 0
+ATOM   6623   CB LYS P   4     156.271 150.593 105.227  0.00  0.00           C 0
+ATOM   6704  OG1 THR P  12     161.561 146.296 108.430  0.54  1.07           O 0
+ATOM   1124    O ILE R 195     154.042 143.843 110.460  0.65  3.21           O 0
+ATOM   1060   CD ARG R 184     158.287 141.489 106.201  0.00  0.00           C 0
+ATOM   6604    N ALA P   1     154.796 141.200 104.525  0.52  6.56           N 0
+ATOM   1130   CA ASN R 196     153.811 141.187 109.745  0.00  0.00           C 0
+TER
+END

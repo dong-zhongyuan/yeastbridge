@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     4:
+HEADER 0  - Pocket Score                      : 0.1001
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.0595
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6239
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 4.5000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 248.8024
+HEADER 10 - Pocket volume (convex hull)       : 3.1238
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1765
+ATOM   1339   CB ASP B  57       1.370   1.489  -9.999  0.00  0.00           C 0
+ATOM   1340   CG ASP B  57       0.472   0.292 -10.320  0.00  0.00           C 0
+ATOM   1338    O ASP B  57       4.684   1.763  -9.653  0.45  3.21           O 0
+ATOM   1341  OD1 ASP B  57       0.781  -0.800  -9.872  0.53  5.36           O 0
+ATOM   1398  OE1 GLN B  61       7.037   2.142 -13.661  0.00  0.00           O 0
+ATOM   1377  NH2 ARG B  60       2.185  -3.185  -9.540  0.00  0.00           N 0
+ATOM   1446  CD1 LEU B  64       9.515  -2.038 -12.222  0.00  0.00           C 0
+ATOM   1371   CB ARG B  60       6.578  -1.279  -8.236  0.00  0.00           C 0
+ATOM   1376  NH1 ARG B  60       3.663  -4.873  -9.248  0.00  0.00           N 0
+ATOM   1373   CD ARG B  60       5.276  -3.313  -7.647  0.00  0.00           C 0
+ATOM   1342  OD2 ASP B  57      -0.520   0.489 -11.004  0.58  9.64           O 0
+ATOM   1375   CZ ARG B  60       3.296  -3.638  -9.023  0.00  0.00           C 0
+ATOM   1374   NE ARG B  60       4.054  -2.836  -8.282  0.00  0.00           N 0
+ATOM   1391    N GLN B  61       7.646   1.445  -9.483  0.00  0.00           N 0
+TER
+END

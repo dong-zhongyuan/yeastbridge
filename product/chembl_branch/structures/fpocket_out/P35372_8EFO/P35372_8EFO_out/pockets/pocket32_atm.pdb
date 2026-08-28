@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    32:
+HEADER 0  - Pocket Score                      : -0.0440
+HEADER 1  - Drug Score                        : 0.0033
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.8827
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6535
+HEADER 5  - Mean B-factor of pocket residues  : 0.6833
+HEADER 6  - Hydrophobicity Score              : 5.5000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 253.6808
+HEADER 10 - Pocket volume (convex hull)       : 11.4573
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.6000
+ATOM   8685  NH1 ARG E 219     140.222 177.512  90.422  0.00  0.00           N 0
+ATOM   8699   CB GLU E 221     139.231 175.622  96.053  0.00  0.00           C 0
+ATOM   8700   CG GLU E 221     138.334 174.410  95.792  0.00  0.00           C 0
+ATOM   8681   CG ARG E 219     143.393 176.471  90.973  0.00  0.00           C 0
+ATOM   8704    N ALA E 222     136.406 177.003  96.181  0.73  2.19           N 0
+ATOM   8172   CB PRO E 152     136.698 179.978  91.868  0.00  0.00           C 0
+ATOM   8708   CB ALA E 222     133.968 176.846  96.391  0.00  0.00           C 0
+ATOM   8173   CG PRO E 152     135.493 180.574  92.515  0.00  0.00           C 0
+ATOM   8696   CA GLU E 221     138.752 176.987  95.517  0.00  0.00           C 0
+ATOM   8690    O LEU E 220     139.942 178.311  93.323  0.70  1.07           O 0
+ATOM   8574  NH1 ARG E 203     144.334 172.385  95.262  0.00  0.00           N 0
+ATOM   8703  OE2 GLU E 221     138.287 172.060  96.179  0.67  5.36           O 0
+ATOM   8702  OE1 GLU E 221     140.009 173.180  96.954  0.36  4.29           O 0
+ATOM   8701   CD GLU E 221     138.918 173.125  96.347  0.00  0.00           C 0
+ATOM   8575  NH2 ARG E 203     142.926 173.152  96.905  0.00  0.00           N 0
+ATOM   8679    O ARG E 219     143.026 177.146  94.186  0.00  0.00           O 0
+ATOM   8573   CZ ARG E 203     143.861 173.385  95.994  0.00  0.00           C 0
+TER
+END

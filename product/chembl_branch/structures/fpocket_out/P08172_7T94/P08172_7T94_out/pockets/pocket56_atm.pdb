@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    56:
+HEADER 0  - Pocket Score                      : -0.1133
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 4.0032
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5913
+HEADER 5  - Mean B-factor of pocket residues  : 0.2752
+HEADER 6  - Hydrophobicity Score              : 7.8889
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 271.8434
+HEADER 10 - Pocket volume (convex hull)       : 9.3259
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1000
+ATOM    199  CG2 THR A  56     135.435 128.389 129.268  0.00  0.00           C 0
+ATOM    197   CB THR A  56     135.865 129.850 129.173  0.00  0.00           C 0
+ATOM   3628    O GLY B 350     140.008 127.224 125.541  0.37  2.14           O 0
+ATOM    198  OG1 THR A  56     136.175 130.179 127.813  0.64  4.29           O 0
+ATOM   3626   CA GLY B 350     141.437 125.520 126.427  0.00  0.00           C 0
+ATOM    206  CG2 VAL A  57     139.128 133.015 130.878  0.00  0.00           C 0
+ATOM   3604  OD1 ASN B 347     146.928 127.667 128.796  0.33  4.29           O 0
+ATOM   3627    C GLY B 350     141.108 126.670 125.496  0.00  0.00           C 0
+ATOM    730   SG CYS A 124     145.642 132.230 126.418  0.00  0.00           S 0
+ATOM   3629    N CYS B 351     142.057 127.048 124.645  0.00  0.00           N 0
+ATOM    792   CB PRO A 132     145.333 131.740 132.210  0.00  0.00           C 0
+ATOM    214  ND2 ASN A  58     141.214 132.312 124.493  0.00  0.00           N 0
+ATOM   3633   CB CYS B 351     143.188 128.769 123.340  0.00  0.00           C 0
+ATOM   3630   CA CYS B 351     141.853 128.110 123.666  0.00  0.00           C 0
+ATOM    821  NH2 ARG A 135     143.313 134.120 127.666  0.71  2.19           N 0
+ATOM   3601    O ASN B 347     144.993 126.214 125.168  0.51  2.14           O 0
+ATOM    211   CB ASN A  58     139.371 132.533 126.051  0.00  0.00           C 0
+TER
+END

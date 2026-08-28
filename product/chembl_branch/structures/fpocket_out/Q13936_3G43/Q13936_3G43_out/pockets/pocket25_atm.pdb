@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    25:
+HEADER 0  - Pocket Score                      : 0.0092
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.6475
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4399
+HEADER 5  - Mean B-factor of pocket residues  : 0.3884
+HEADER 6  - Hydrophobicity Score              : 30.4444
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.4444
+HEADER 9  - Pocket volume (Monte Carlo)       : 166.7666
+HEADER 10 - Pocket volume (convex hull)       : 3.3299
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1053
+ATOM   2161    O GLU C  54      46.277  44.060   9.375  0.65  6.43           O 0
+ATOM   4637    N GLY F1607      48.465  42.241  14.081  0.56  6.56           N 0
+ATOM   2172  CG1 VAL C  55      43.607  45.827  10.958  0.00  0.00           C 0
+ATOM   2318  NH2 ARG C  74      42.772  40.738  11.482  0.00  0.00           N 0
+ATOM   2162   CB GLU C  54      47.753  45.716  11.654  0.00  0.00           C 0
+ATOM   4641    N SER F1608      47.067  42.858  16.292  0.51  2.19           N 0
+ATOM   4646   OG SER F1608      45.575  40.786  17.585  0.33  6.43           O 0
+ATOM   2292   CG MET C  71      41.322  44.109  13.110  0.00  0.00           C 0
+ATOM   2166  OE2 GLU C  54      47.499  46.359  14.274  0.57  1.07           O 0
+ATOM   4658   CB LEU F1610      44.597  48.391  15.121  0.00  0.00           C 0
+ATOM   4662    N PHE F1611      43.500  46.587  17.359  0.00  0.00           N 0
+ATOM   4642   CA SER F1608      46.086  43.140  17.332  0.00  0.00           C 0
+ATOM   2314   CD ARG C  74      41.279  38.440  12.123  0.00  0.00           C 0
+ATOM   2326   CE LYS C  75      42.310  39.423  17.320  0.00  0.00           C 0
+ATOM   2325   CD LYS C  75      42.334  40.808  16.700  0.00  0.00           C 0
+ATOM   2327   NZ LYS C  75      43.547  39.158  18.107  0.00  0.00           N 0
+TER
+END

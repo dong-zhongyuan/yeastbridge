@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : 0.0564
+HEADER 1  - Drug Score                        : 0.0010
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.5799
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3463
+HEADER 5  - Mean B-factor of pocket residues  : 0.2472
+HEADER 6  - Hydrophobicity Score              : -6.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 124.7523
+HEADER 10 - Pocket volume (convex hull)       : 1.8327
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.3500
+ATOM   1691   CB ASN A 239     140.320 171.975 118.493  0.00  0.00           C 0
+ATOM   6168  CD2 LEU G  37     137.010 171.783 122.357  0.00  0.00           C 0
+ATOM   6166   CG LEU G  37     135.934 172.832 122.566  0.00  0.00           C 0
+ATOM   6141    O ALA G  33     134.159 174.678 120.529  0.50  1.07           O 0
+ATOM   1682   CB ASN A 237     138.836 167.675 120.172  0.00  0.00           C 0
+ATOM   1694  ND2 ASN A 239     139.422 170.770 116.600  0.00  0.00           N 0
+ATOM   6156    O ASP G  36     132.932 169.908 119.977  0.59  3.21           O 0
+ATOM   6157   CB ASP G  36     133.347 172.279 117.772  0.00  0.00           C 0
+ATOM   6155    C ASP G  36     132.921 171.144 119.969  0.00  0.00           C 0
+ATOM   1811  NH2 ARG A 256     136.133 173.720 115.790  0.43  4.37           N 0
+ATOM   6142   CB ALA G  33     135.737 177.351 119.372  0.00  0.00           C 0
+ATOM   1808   NE ARG A 256     138.246 174.501 115.375  0.84  1.09           N 0
+ATOM   1690    O ASN A 239     141.187 173.960 120.367  0.00  0.00           O 0
+ATOM   1805   CB ARG A 256     139.800 177.227 115.832  0.00  0.00           C 0
+ATOM   1801    N ARG A 256     141.505 177.439 117.578  0.00  0.00           N 0
+ATOM   6167  CD1 LEU G  37     136.406 173.900 123.529  0.00  0.00           C 0
+ATOM   1792   CB ASP A 254     139.478 177.855 121.715  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    30:
+HEADER 0  - Pocket Score                      : -0.0022
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.8617
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6614
+HEADER 5  - Mean B-factor of pocket residues  : 0.4685
+HEADER 6  - Hydrophobicity Score              : 11.2857
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 3.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 235.1210
+HEADER 10 - Pocket volume (convex hull)       : 10.6386
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.3889
+ATOM   8954   CB THR M  69     156.292 125.743 137.057  0.00  0.00           C 0
+ATOM   8956  CG2 THR M  69     154.885 125.169 137.036  0.00  0.00           C 0
+ATOM   8929   CA SER M  66     157.984 128.925 139.360  0.00  0.00           C 0
+ATOM   8931    O SER M  66     157.177 129.159 137.113  0.00  0.00           O 0
+ATOM  10894    O GLU M 312     150.716 124.619 145.680  0.32  5.36           O 0
+ATOM  10907    N THR M 314     153.494 122.658 143.546  0.56  1.09           N 0
+ATOM  10908   CA THR M 314     154.026 122.983 142.223  0.00  0.00           C 0
+ATOM  10912  OG1 THR M 314     155.788 124.267 143.276  0.35  9.64           O 0
+ATOM  10913  CG2 THR M 314     156.111 123.660 140.975  0.00  0.00           C 0
+ATOM   8955  OG1 THR M  69     157.103 124.960 137.942  0.71  5.36           O 0
+ATOM   9431   OH TYR M 130     151.927 127.554 136.439  0.71  7.50           O 0
+ATOM   8932   CB SER M  66     158.042 130.143 140.284  0.00  0.00           C 0
+ATOM  10939  OG1 THR M 317     150.170 124.667 140.680  0.61  5.36           O 0
+ATOM  10903    O THR M 313     151.336 122.689 142.866  0.00  0.00           O 0
+ATOM  10938   CB THR M 317     150.439 124.185 139.358  0.00  0.00           C 0
+ATOM  10940  CG2 THR M 317     150.067 125.272 138.357  0.00  0.00           C 0
+ATOM  10896   CG GLU M 312     148.188 125.880 144.099  0.00  0.00           C 0
+ATOM  10897   CD GLU M 312     147.722 127.318 144.011  0.00  0.00           C 0
+ATOM  10899  OE2 GLU M 312     147.818 127.911 142.916  0.00  0.00           O 0
+TER
+END

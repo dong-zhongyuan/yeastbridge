@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    30:
+HEADER 0  - Pocket Score                      : -0.1211
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9564
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6700
+HEADER 5  - Mean B-factor of pocket residues  : 0.6096
+HEADER 6  - Hydrophobicity Score              : 47.5000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 3.6250
+HEADER 9  - Pocket volume (Monte Carlo)       : 209.5183
+HEADER 10 - Pocket volume (convex hull)       : 7.5712
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.6667
+ATOM    127  CE1 PHE A  50     -94.623 -38.206 232.636  0.00  0.00           C 0
+ATOM    156  CD2 LEU A  54     -93.704 -35.387 235.734  0.00  0.00           C 0
+ATOM    131   CA GLY A  51     -94.052 -33.499 231.048  0.00  0.00           C 0
+ATOM    125  CD1 PHE A  50     -94.801 -37.568 231.422  0.00  0.00           C 0
+ATOM   2433  CG1 ILE A 424     -86.367 -33.716 231.214  0.00  0.00           C 0
+ATOM   2425   CB PRO A 423     -90.742 -31.538 232.675  0.00  0.00           C 0
+ATOM   2461  OG1 THR A 427     -88.318 -33.642 236.949  0.50  2.14           O 0
+ATOM    100    O VAL A  47     -93.621 -34.874 227.548  0.48  5.36           O 0
+ATOM    102  CG1 VAL A  47     -90.875 -36.028 226.388  0.00  0.00           C 0
+ATOM   2404    O ALA A 420     -88.712 -31.852 228.547  0.65  1.07           O 0
+ATOM   2435  CD1 ILE A 424     -85.673 -34.222 229.969  0.00  0.00           C 0
+ATOM   2429   CA ILE A 424     -86.305 -32.275 233.280  0.00  0.00           C 0
+ATOM   2428    N ILE A 424     -87.542 -31.628 232.852  0.00  0.00           N 0
+ATOM   2423    C PRO A 423     -88.471 -31.288 233.748  0.00  0.00           C 0
+ATOM   2424    O PRO A 423     -88.342 -31.530 234.955  0.63  1.07           O 0
+TER
+END

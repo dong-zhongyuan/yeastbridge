@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    63:
+HEADER 0  - Pocket Score                      : -0.1197
+HEADER 1  - Drug Score                        : 0.0008
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.1052
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6835
+HEADER 5  - Mean B-factor of pocket residues  : 0.7237
+HEADER 6  - Hydrophobicity Score              : -25.5000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 161.2078
+HEADER 10 - Pocket volume (convex hull)       : 0.8996
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.7500
+ATOM   1622   CB ASP R 246     193.089 198.738 180.434  0.00  0.00           C 0
+ATOM   1620    C ASP R 246     191.472 198.391 178.547  0.00  0.00           C 0
+ATOM   1619   CA ASP R 246     192.184 197.717 179.720  0.00  0.00           C 0
+ATOM   1621    O ASP R 246     190.336 198.047 178.221  0.42  6.43           O 0
+ATOM   1642   CB ARG R 254     185.450 197.785 181.558  0.00  0.00           C 0
+ATOM   1644   CD ARG R 254     187.205 196.205 180.699  0.00  0.00           C 0
+ATOM   1589    O ASN R 242     192.905 197.233 183.309  0.61  7.50           O 0
+ATOM   1590   CB ASN R 242     190.399 195.547 184.231  0.00  0.00           C 0
+ATOM   1587   CA ASN R 242     191.402 195.384 183.090  0.00  0.00           C 0
+ATOM   1593  ND2 ASN R 242     188.027 195.380 184.662  0.62  7.66           N 0
+ATOM   1591   CG ASN R 242     189.032 194.995 183.887  0.00  0.00           C 0
+ATOM   1649    N SER R 255     184.801 198.594 184.594  0.38  4.37           N 0
+ATOM   1653   CB SER R 255     185.628 199.544 186.694  0.00  0.00           C 0
+TER
+END

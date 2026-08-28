@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    20:
+HEADER 0  - Pocket Score                      : -0.2025
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9923
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5792
+HEADER 5  - Mean B-factor of pocket residues  : 0.4584
+HEADER 6  - Hydrophobicity Score              : 25.8333
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 329.6454
+HEADER 10 - Pocket volume (convex hull)       : 17.1245
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.6000
+ATOM    319   CB TYR A  87     -20.097 -10.061 -23.924  0.00  0.00           C 0
+ATOM   1849    O LEU A1048     -23.526  -9.906 -31.544  0.22  7.50           O 0
+ATOM   1856    C GLU A1049     -24.624 -11.382 -29.296  0.00  0.00           C 0
+ATOM   1852  CD1 LEU A1048     -25.763  -7.440 -29.261  0.00  0.00           C 0
+ATOM   1857    O GLU A1049     -23.938 -12.382 -29.082  0.27  6.43           O 0
+ATOM    320   CG TYR A  87     -20.775 -11.406 -23.786  0.00  0.00           C 0
+ATOM    322  CD2 TYR A  87     -20.319 -12.511 -24.495  0.00  0.00           C 0
+ATOM    323  CE1 TYR A  87     -22.510 -12.795 -22.841  0.00  0.00           C 0
+ATOM    326   OH TYR A  87     -22.657 -15.103 -23.431  0.00  0.00           O 0
+ATOM    325   CZ TYR A  87     -22.035 -13.879 -23.551  0.00  0.00           C 0
+ATOM    321  CD1 TYR A  87     -21.883 -11.568 -22.964  0.00  0.00           C 0
+ATOM    332    N THR A  89     -22.395  -9.644 -19.796  0.70  1.09           N 0
+ATOM    331   CB ALA A  88     -21.828  -6.675 -20.566  0.00  0.00           C 0
+ATOM    337  OG1 THR A  89     -25.208 -10.729 -20.222  0.60  4.29           O 0
+ATOM    327    N ALA A  88     -20.427  -8.432 -21.509  0.71  3.28           N 0
+ATOM    925    O ASN A 167     -24.259  -4.031 -22.058  0.68  4.29           O 0
+TER
+END

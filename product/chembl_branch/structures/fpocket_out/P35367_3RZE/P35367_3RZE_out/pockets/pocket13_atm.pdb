@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : -0.0348
+HEADER 1  - Drug Score                        : 0.0033
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0165
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6756
+HEADER 5  - Mean B-factor of pocket residues  : 0.1264
+HEADER 6  - Hydrophobicity Score              : 45.3333
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.4167
+HEADER 9  - Pocket volume (Monte Carlo)       : 353.3693
+HEADER 10 - Pocket volume (convex hull)       : 19.8500
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 10.3333
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.7500
+ATOM   1545   CB ILE A1003      36.482  18.971  62.172  0.00  0.00           C 0
+ATOM   2780  CZ2 TRP A1158      32.312  19.412  58.870  0.00  0.00           C 0
+ATOM   1541    N ILE A1003      35.819  20.987  60.817  0.00  0.00           N 0
+ATOM   1547  CG2 ILE A1003      37.930  18.955  61.695  0.00  0.00           C 0
+ATOM   1537   CB ASN A1002      36.412  22.472  58.499  0.00  0.00           C 0
+ATOM   1534   CA ASN A1002      34.985  22.236  59.008  0.00  0.00           C 0
+ATOM   1530    O CYS A 221      33.809  23.472  56.764  0.44  6.43           O 0
+ATOM   1548  CD1 ILE A1003      36.471  16.871  63.478  0.00  0.00           C 0
+ATOM   2251    O ALA A1093      33.062  14.230  58.539  0.54  5.36           O 0
+ATOM   2307  CD1 ILE A1100      36.614  12.929  63.477  0.00  0.00           C 0
+ATOM   2275   CB ARG A1096      33.797  11.252  60.672  0.00  0.00           C 0
+ATOM   2217   OH TYR A1088      38.278   9.529  60.962  0.58  9.64           O 0
+ATOM   2084  CG1 VAL A1071      40.780  15.532  63.996  0.00  0.00           C 0
+ATOM   2277   CD ARG A1096      34.655   9.772  58.853  0.00  0.00           C 0
+ATOM   2286   CB ALA A1097      33.033  16.435  62.001  0.00  0.00           C 0
+ATOM   2282    N ALA A1097      32.921  13.985  62.074  0.83  1.09           N 0
+ATOM   2283   CA ALA A1097      33.242  15.193  62.840  0.00  0.00           C 0
+ATOM   2109  CG1 VAL A1075      39.874  10.898  63.632  0.00  0.00           C 0
+ATOM   2110  CG2 VAL A1075      42.213  10.103  63.341  0.00  0.00           C 0
+ATOM   2092  OD1 ASP A1072      45.292  13.938  62.119  0.00  0.00           O 0
+TER
+END

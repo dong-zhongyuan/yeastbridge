@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : -0.0127
+HEADER 1  - Drug Score                        : 0.0119
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.8917
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6794
+HEADER 5  - Mean B-factor of pocket residues  : 0.2183
+HEADER 6  - Hydrophobicity Score              : 44.8333
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 307.3042
+HEADER 10 - Pocket volume (convex hull)       : 14.8492
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 12.5333
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.8333
+ATOM   1278  CG2 VAL F 200      87.963  83.332 117.077  0.00  0.00           C 0
+ATOM   1252  CG2 ILE F 196      88.508  83.418 122.922  0.00  0.00           C 0
+ATOM   1276   CB VAL F 200      88.037  84.598 117.903  0.00  0.00           C 0
+ATOM   1277  CG1 VAL F 200      86.695  85.286 117.909  0.00  0.00           C 0
+ATOM   1227  OG1 THR F 193      83.803  86.043 126.822  0.00  0.00           O 0
+ATOM   1864   CZ PHE F 297      89.277  81.839 128.332  0.00  0.00           C 0
+ATOM   1250   CB ILE F 196      88.930  84.446 123.946  0.00  0.00           C 0
+ATOM   1862  CE1 PHE F 297      89.587  82.754 129.306  0.00  0.00           C 0
+ATOM   1221  NH2 ARG F 192      89.472  82.500 132.664  0.45  7.66           N 0
+ATOM   1217   CD ARG F 192      87.632  84.609 132.435  0.00  0.00           C 0
+ATOM   1223   CA THR F 193      86.063  86.682 127.387  0.00  0.00           C 0
+ATOM   1214    O ARG F 192      88.695  86.020 127.416  0.00  0.00           O 0
+ATOM   1216   CG ARG F 192      87.705  85.771 131.451  0.00  0.00           C 0
+ATOM   1222    N THR F 193      86.960  86.934 128.511  0.00  0.00           N 0
+ATOM   1226   CB THR F 193      84.604  86.639 127.848  0.00  0.00           C 0
+ATOM   1225    O THR F 193      86.205  87.354 125.088  0.00  0.00           O 0
+ATOM   1258   CB SER F 197      85.147  87.781 122.010  0.00  0.00           C 0
+ATOM   1254    N SER F 197      87.374  86.865 122.444  0.00  0.00           N 0
+ATOM   1255   CA SER F 197      86.418  87.208 121.395  0.00  0.00           C 0
+ATOM   1259   OG SER F 197      84.078  87.694 121.092  0.28  7.50           O 0
+TER
+END

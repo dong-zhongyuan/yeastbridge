@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    25:
+HEADER 0  - Pocket Score                      : -0.0699
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 4.0683
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5172
+HEADER 5  - Mean B-factor of pocket residues  : 0.3910
+HEADER 6  - Hydrophobicity Score              : -4.1429
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 352.3465
+HEADER 10 - Pocket volume (convex hull)       : 19.6424
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1579
+ATOM   2622   CE LYS B 454     144.938 147.555 147.350  0.00  0.00           C 0
+ATOM   2583   CB ARG B 450     141.022 150.074 150.015  0.00  0.00           C 0
+ATOM   2585   CD ARG B 450     139.852 152.128 149.188  0.00  0.00           C 0
+ATOM   2621   CD LYS B 454     143.974 146.581 146.689  0.00  0.00           C 0
+ATOM   2590    N ALA B 451     143.458 148.739 151.542  0.77  1.09           N 0
+ATOM   2552    O ASP B 447     143.498 151.547 152.247  0.53  1.07           O 0
+ATOM    740   OG SER B  76     147.763 152.355 148.303  0.27  9.64           O 0
+ATOM    751  NH2 ARG B  77     146.591 152.140 143.190  0.00  0.00           N 0
+ATOM   2588  NH1 ARG B 450     140.044 154.926 148.741  0.00  0.00           N 0
+ATOM    756   CB ALA B  78     146.405 156.609 149.350  0.00  0.00           C 0
+ATOM   2553   CB ASP B 447     143.187 154.662 151.513  0.00  0.00           C 0
+ATOM   2623   NZ LYS B 454     146.121 147.839 146.493  0.18  3.28           N 0
+ATOM    752    N ALA B  78     148.425 155.773 148.247  0.75  2.19           N 0
+ATOM    745   CB ARG B  77     149.714 155.148 145.372  0.00  0.00           C 0
+ATOM    748   NE ARG B  77     148.644 153.083 143.569  0.42  2.19           N 0
+TER
+END

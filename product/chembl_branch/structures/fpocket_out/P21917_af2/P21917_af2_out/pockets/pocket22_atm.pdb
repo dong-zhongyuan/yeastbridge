@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    22:
+HEADER 0  - Pocket Score                      : -0.1314
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 4.2843
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6241
+HEADER 5  - Mean B-factor of pocket residues  : 0.2409
+HEADER 6  - Hydrophobicity Score              : -24.8333
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 366.7047
+HEADER 10 - Pocket volume (convex hull)       : 9.4006
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.1905
+ATOM   2324    O THR A 325     -31.222  -5.294  36.199  0.64  2.14           O 0
+ATOM   2319  OE1 GLN A 324     -30.094  -4.072  42.163  0.00  0.00           O 0
+ATOM   2312   CA GLN A 324     -33.281  -3.092  39.461  0.00  0.00           C 0
+ATOM   2314   CB GLN A 324     -32.508  -3.724  40.632  0.00  0.00           C 0
+ATOM   2365  NH1 ARG A 330     -26.432  -0.715  34.678  0.00  0.00           N 0
+ATOM   2316   CG GLN A 324     -32.028  -2.715  41.693  0.00  0.00           C 0
+ATOM   2366  NH2 ARG A 330     -28.105   0.686  34.258  0.00  0.00           N 0
+ATOM   2302   CG PRO A 322     -34.243   3.514  40.393  0.00  0.00           C 0
+ATOM   2301    O PRO A 322     -34.950   0.236  40.938  0.57  4.29           O 0
+ATOM   2308    O PRO A 323     -34.979  -1.444  37.971  0.46  5.36           O 0
+ATOM   2326  OG1 THR A 325     -32.475  -2.578  34.794  0.00  0.00           O 0
+ATOM   2320    N THR A 325     -33.433  -3.640  37.080  0.71  1.09           N 0
+ATOM   2337   CB PRO A 327     -27.025  -8.483  35.949  0.00  0.00           C 0
+ATOM   2340   CD PRO A 327     -29.118  -8.733  37.076  0.00  0.00           C 0
+ATOM   2339   CG PRO A 327     -27.726  -9.346  37.000  0.00  0.00           C 0
+ATOM   2363   CD ARG A 330     -27.655  -2.752  33.004  0.00  0.00           C 0
+ATOM   2335   CA PRO A 327     -28.142  -8.023  34.996  0.00  0.00           C 0
+ATOM   2364   NE ARG A 330     -28.166  -1.398  33.316  0.57  4.37           N 0
+ATOM   2367   CZ ARG A 330     -27.567  -0.487  34.076  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   102:
+HEADER 0  - Pocket Score                      : -0.1128
+HEADER 1  - Drug Score                        : 0.0012
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 3.7632
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3965
+HEADER 5  - Mean B-factor of pocket residues  : 0.3225
+HEADER 6  - Hydrophobicity Score              : 46.0000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 193.9367
+HEADER 10 - Pocket volume (convex hull)       : 5.2359
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.3913
+ATOM  14057    O LEU F 341      98.680 111.076 138.875  0.37  8.57           O 0
+ATOM  14059   CG LEU F 341     100.344 107.723 140.396  0.00  0.00           C 0
+ATOM  14061  CD2 LEU F 341     101.042 108.002 141.715  0.00  0.00           C 0
+ATOM  13567   CD ARG F 279      95.947 112.678 145.195  0.00  0.00           C 0
+ATOM  14078  OE2 GLU F 343      94.258 112.427 141.086  0.57  4.29           O 1
+ATOM  13568   NE ARG F 279      95.531 113.961 144.642  0.80  1.09           N 0
+ATOM   8834    O LEU B 353      96.363 116.581 141.930  0.56  5.36           O 0
+ATOM  13603   CG MET F 283     102.454 113.045 142.755  0.00  0.00           C 0
+ATOM  13604   SD MET F 283     102.265 111.262 142.888  0.00  0.00           S 0
+ATOM   8838  CD2 LEU B 353     100.603 117.230 141.340  0.00  0.00           C 0
+ATOM  13566   CG ARG F 279      97.196 112.791 146.058  0.00  0.00           C 0
+ATOM  13564    O ARG F 279     100.158 114.163 146.731  0.51  2.14           O 0
+ATOM   8830    O GLY B 352      97.139 115.563 138.388  0.38  2.14           O 0
+ATOM  13573   CA ILE F 280      99.868 116.850 146.301  0.00  0.00           C 0
+ATOM  13602   CB MET F 283     102.366 113.739 144.094  0.00  0.00           C 0
+TER
+END

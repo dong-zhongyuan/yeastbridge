@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    80:
+HEADER 0  - Pocket Score                      : -0.1246
+HEADER 1  - Drug Score                        : 0.0013
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.1727
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5910
+HEADER 5  - Mean B-factor of pocket residues  : 0.4538
+HEADER 6  - Hydrophobicity Score              : 3.2857
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 312.6783
+HEADER 10 - Pocket volume (convex hull)       : 7.2982
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.7333
+ATOM   8109    O SER A  47     178.241 137.582 194.554  0.00  0.00           O 0
+ATOM   8107   CA SER A  47     177.075 137.401 196.635  0.00  0.00           C 0
+ATOM   8110   CB SER A  47     177.870 138.008 197.790  0.00  0.00           C 0
+ATOM   8139   CG LYS A  51     180.155 139.811 193.357  0.00  0.00           C 0
+ATOM   8132  CG1 VAL A  50     174.726 139.953 192.243  0.00  0.00           C 0
+ATOM   8201  CG1 VAL A 185     171.112 143.440 196.132  0.00  0.00           C 0
+ATOM   8168   NZ LYS A  54     176.013 144.160 191.879  0.52  6.56           N 0
+ATOM   8133  CG2 VAL A  50     173.713 137.951 193.293  0.00  0.00           C 0
+ATOM   8339  OD2 ASP A 200     170.622 138.481 197.790  0.76  2.14           O 0
+ATOM   8106    N SER A  47     176.200 136.344 197.129  0.39  3.28           N 0
+ATOM   8099    C LYS A  46     175.343 135.734 196.306  0.00  0.00           C 0
+ATOM   8131   CB VAL A  50     175.010 138.572 192.808  0.00  0.00           C 0
+ATOM   8101   CB LYS A  46     173.276 135.307 197.650  0.00  0.00           C 0
+TER
+END

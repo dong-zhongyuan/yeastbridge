@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : 0.0025
+HEADER 1  - Drug Score                        : 0.0011
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.6981
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4907
+HEADER 5  - Mean B-factor of pocket residues  : 0.5444
+HEADER 6  - Hydrophobicity Score              : 48.8889
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 117.1008
+HEADER 10 - Pocket volume (convex hull)       : 3.1421
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.4583
+ATOM   8200   CE MET R 330      87.996 112.677  92.004  0.00  0.00           C 0
+ATOM   8199   SD MET R 330      88.899 113.693  93.166  0.00  0.00           S 0
+ATOM   7368  NH2 ARG R 128      93.501 111.030  95.060  0.48  7.66           N 0
+ATOM   8198   CG MET R 330      90.361 114.072  92.188  0.00  0.00           C 0
+ATOM   8610    O TYR R 383      89.130 107.930  97.044  0.43  4.29           O 0
+ATOM   8602    O ILE R 382      87.229 111.601  96.562  0.66  1.07           O 0
+ATOM   8648   CB ASN R 387      87.751 105.775  92.847  0.00  0.00           C 0
+ATOM   8636    O PHE R 386      85.725 108.750  90.926  0.32  6.43           O 0
+ATOM   8635    C PHE R 386      85.423 108.439  92.082  0.00  0.00           C 0
+ATOM   1792    C GLY A 352      91.877 108.961  89.506  0.00  0.00           C 0
+ATOM   8644    N ASN R 387      85.836 107.306  92.644  0.00  0.00           N 0
+ATOM   1793    O GLY A 352      90.725 109.277  89.181  0.30  5.36           O 0
+ATOM   1791   CA GLY A 352      92.088 107.729  90.359  0.00  0.00           C 0
+ATOM   8651  ND2 ASN R 387      89.998 104.894  92.676  0.36  7.66           N 0
+ATOM   1787    O CYS A 351      94.006 108.115  92.339  0.47  4.29           O 0
+ATOM   1800  CD1 LEU A 353      94.393 111.821  90.872  0.00  0.00           C 0
+ATOM   8637   CB PHE R 386      85.163 110.781  92.906  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    31:
+HEADER 0  - Pocket Score                      : -0.0792
+HEADER 1  - Drug Score                        : 0.0085
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.5381
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3748
+HEADER 5  - Mean B-factor of pocket residues  : 0.5920
+HEADER 6  - Hydrophobicity Score              : 77.2857
+HEADER 7  - Polarity Score                    :     0
+HEADER 8  - Amino Acid based volume Score     : 4.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 132.3797
+HEADER 10 - Pocket volume (convex hull)       : 4.1243
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 16.0000
+HEADER 13 - Number of apolar alpha sphere     :    17
+HEADER 14 - Proportion of apolar alpha sphere : 0.8947
+ATOM   1840   CA LEU F 295     100.843 107.805  66.608  0.00  0.00           C 0
+ATOM   1887   CA CYS F 307     106.604 108.794  63.187  0.00  0.00           C 0
+ATOM   1891   SG CYS F 307     104.087 109.090  61.957  0.00  0.00           S 0
+ATOM   1837  CG2 ILE F 294     102.861 111.549  67.482  0.00  0.00           C 0
+ATOM   1878    O PHE F 306     107.552 110.679  65.013  0.31  6.43           O 0
+ATOM   1897  CG1 ILE F 308     107.822 106.828  66.719  0.00  0.00           C 0
+ATOM   1816  CD2 LEU F 291     105.606 107.827  70.793  0.00  0.00           C 0
+ATOM   1892    N ILE F 308     107.073 106.586  64.087  0.68  3.28           N 0
+ATOM   1899  CD1 ILE F 308     108.094 106.856  68.202  0.00  0.00           C 0
+ATOM   1895    O ILE F 308     106.606 104.131  63.152  0.57  6.43           O 0
+ATOM   1890   CB CYS F 307     105.732 108.341  62.009  0.00  0.00           C 0
+ATOM   1872   CA GLY F 299     100.577 107.015  61.469  0.00  0.00           C 0
+ATOM   1844   CG LEU F 295     101.411 105.230  66.347  0.00  0.00           C 0
+ATOM   1843   CB LEU F 295     101.261 106.467  67.224  0.00  0.00           C 0
+ATOM   1839    N LEU F 295     100.691 108.789  67.676  0.79  1.09           N 0
+ATOM   1845  CD1 LEU F 295     102.531 104.377  66.884  0.00  0.00           C 0
+TER
+END

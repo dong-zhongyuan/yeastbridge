@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    24:
+HEADER 0  - Pocket Score                      : -0.2480
+HEADER 1  - Drug Score                        : 0.0021
+HEADER 2  - Number of alpha spheres           :    26
+HEADER 3  - Mean alpha-sphere radius          : 3.7127
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4409
+HEADER 5  - Mean B-factor of pocket residues  : 0.2558
+HEADER 6  - Hydrophobicity Score              : 63.1250
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.1250
+HEADER 9  - Pocket volume (Monte Carlo)       : 307.4116
+HEADER 10 - Pocket volume (convex hull)       : 35.4623
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.4231
+ATOM    513   OG SER B  91     132.187 113.642 178.476  0.36  4.29           O 0
+ATOM    487    O LEU B  88     130.960 115.917 173.191  0.61  6.43           O 0
+ATOM     29  CD1 LEU B  27     125.866 116.332 174.066  0.00  0.00           C 0
+ATOM    512   CB SER B  91     132.530 114.958 178.079  0.00  0.00           C 0
+ATOM      1    N SER B  24     127.345 110.037 175.409  0.00  0.00           N 0
+ATOM     30  CD2 LEU B  27     127.098 115.857 171.980  0.00  0.00           C 0
+ATOM    495    O LEU B  89     132.039 112.180 172.554  0.00  0.00           O 0
+ATOM    508    N SER B  91     133.749 113.957 176.205  0.38  1.09           N 0
+ATOM    493   CA LEU B  89     131.840 114.184 171.284  0.00  0.00           C 0
+ATOM     37   SD MET B  28     127.816 110.063 168.588  0.00  0.00           S 0
+ATOM     60  CG2 VAL B  31     128.756 115.755 168.831  0.00  0.00           C 0
+ATOM    496   CB LEU B  89     132.094 113.639 169.872  0.00  0.00           C 0
+ATOM     25    C LEU B  27     124.832 113.745 170.246  0.00  0.00           C 0
+ATOM    506   SD MET B  90     134.541 110.130 174.898  0.00  0.00           S 0
+ATOM    507   CE MET B  90     135.286 109.045 176.112  0.00  0.00           C 0
+ATOM     27   CB LEU B  27     125.171 114.403 172.656  0.00  0.00           C 0
+ATOM      5   CB SER B  24     125.196 110.142 176.589  0.00  0.00           C 0
+ATOM     31    N MET B  28     124.831 112.538 169.679  0.00  0.00           N 0
+ATOM      4    O SER B  24     125.391 110.314 173.439  0.20  2.14           O 0
+ATOM     38   CE MET B  28     128.396 108.712 169.608  0.00  0.00           C 0
+TER
+END

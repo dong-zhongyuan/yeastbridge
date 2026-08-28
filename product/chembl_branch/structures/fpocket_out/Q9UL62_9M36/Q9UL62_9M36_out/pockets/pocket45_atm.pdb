@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    45:
+HEADER 0  - Pocket Score                      : -0.0442
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.8153
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5010
+HEADER 5  - Mean B-factor of pocket residues  : 0.2355
+HEADER 6  - Hydrophobicity Score              : 4.4286
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 183.3507
+HEADER 10 - Pocket volume (convex hull)       : 4.3838
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM   6284   CE LYS B 159     196.664 159.300 123.609  0.00  0.00           C 0
+ATOM     80   CG GLU A  26     198.259 154.190 123.012  0.00  0.00           C 0
+ATOM     99  OE2 GLU A  28     200.251 158.822 119.101  0.33  2.14           O 1
+ATOM     78    O GLU A  26     201.079 154.189 121.387  0.79  2.14           O 0
+ATOM   6285   NZ LYS B 159     196.004 157.975 123.455  0.61  1.09           N 1
+ATOM   6314   CG GLN B 163     200.043 162.984 122.087  0.00  0.00           C 0
+ATOM   6336  NH1 ARG B 165     205.669 164.038 125.371  0.48  9.84           N 1
+ATOM   6312    O GLN B 163     203.571 165.665 122.033  0.26  8.57           O 0
+ATOM     49  CG1 ILE A  22     201.254 161.176 125.693  0.00  0.00           C 0
+ATOM     75    N GLU A  26     200.997 154.171 124.127  0.00  0.00           N 0
+ATOM     74   CB ALA A  25     203.649 155.950 124.861  0.00  0.00           C 0
+ATOM   6317  NE2 GLN B 163     199.121 161.205 120.727  0.73  5.47           N 0
+ATOM     50  CG2 ILE A  22     200.928 158.877 126.615  0.00  0.00           C 0
+ATOM     71   CA ALA A  25     202.431 155.419 125.615  0.00  0.00           C 0
+ATOM     48   CB ILE A  22     201.908 160.026 126.457  0.00  0.00           C 0
+ATOM   6310   CA GLN B 163     201.428 164.975 122.863  0.00  0.00           C 0
+TER
+END

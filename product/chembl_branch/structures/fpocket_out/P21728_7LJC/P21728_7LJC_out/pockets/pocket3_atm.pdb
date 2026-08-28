@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     3:
+HEADER 0  - Pocket Score                      : 0.0898
+HEADER 1  - Drug Score                        : 0.0235
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.8721
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7017
+HEADER 5  - Mean B-factor of pocket residues  : 0.1431
+HEADER 6  - Hydrophobicity Score              : 62.8333
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 246.6808
+HEADER 10 - Pocket volume (convex hull)       : 10.2666
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 14.9412
+HEADER 13 - Number of apolar alpha sphere     :    17
+HEADER 14 - Proportion of apolar alpha sphere : 0.8500
+ATOM    983   CA VAL R 146      83.648  95.470 105.641  0.00  0.00           C 0
+ATOM   1014  CG2 THR R 149      84.834  94.770 110.931  0.00  0.00           C 0
+ATOM    988  CG2 VAL R 146      81.466  96.671 105.339  0.00  0.00           C 0
+ATOM    987  CG1 VAL R 146      81.557  94.240 104.917  0.00  0.00           C 0
+ATOM   1012   CB THR R 149      85.463  94.832 109.544  0.00  0.00           C 0
+ATOM   1013  OG1 THR R 149      86.017  96.139 109.351  0.64  4.29           O 0
+ATOM   1019   CB LEU R 150      83.947  90.224 107.381  0.00  0.00           C 0
+ATOM   1015    N LEU R 150      85.424  91.822 108.507  0.68  1.09           N 0
+ATOM   1016   CA LEU R 150      84.825  90.500 108.601  0.00  0.00           C 0
+ATOM   1021  CD1 LEU R 150      82.186  88.869 108.544  0.00  0.00           C 0
+ATOM   1022  CD2 LEU R 150      82.438  88.719 106.059  0.00  0.00           C 0
+ATOM   1043  CD2 LEU R 153      82.212  89.626 112.809  0.00  0.00           C 0
+ATOM    980   CB SER R 145      85.788  99.373 106.080  0.00  0.00           C 0
+ATOM    953   CA ILE R 142      83.427 101.075 103.139  0.00  0.00           C 0
+ATOM    958  CG2 ILE R 142      80.938 100.815 103.608  0.00  0.00           C 0
+ATOM    957  CG1 ILE R 142      81.975 103.077 103.655  0.00  0.00           C 0
+ATOM    985    O VAL R 146      84.327  93.248 106.263  0.00  0.00           O 0
+ATOM    978    C SER R 145      85.625  96.870 106.012  0.00  0.00           C 0
+ATOM    955    O ILE R 142      83.407  98.742 103.725  0.00  0.00           O 0
+ATOM    982    N VAL R 146      84.509  96.610 105.321  0.00  0.00           N 0
+TER
+END

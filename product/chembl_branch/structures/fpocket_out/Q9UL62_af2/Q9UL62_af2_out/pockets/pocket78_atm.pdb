@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    78:
+HEADER 0  - Pocket Score                      : -0.2225
+HEADER 1  - Drug Score                        : 0.0026
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.9151
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3928
+HEADER 5  - Mean B-factor of pocket residues  : 0.6969
+HEADER 6  - Hydrophobicity Score              : 55.5714
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 234.1855
+HEADER 10 - Pocket volume (convex hull)       : 9.5778
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 16.0000
+HEADER 13 - Number of apolar alpha sphere     :    17
+HEADER 14 - Proportion of apolar alpha sphere : 0.8947
+ATOM   7571  CD2 LEU A 940       8.530   0.005   6.743  0.00  0.00           C 0
+ATOM   5071   CE MET A 623      13.590   1.228   4.818  0.00  0.00           C 0
+ATOM   7560    O LEU A 939       7.572   4.274   7.014  0.00  0.00           O 0
+ATOM   7559   CB LEU A 939       9.341   5.051   9.283  0.00  0.00           C 0
+ATOM   7562  CD1 LEU A 939      11.268   6.596   9.744  0.00  0.00           C 0
+ATOM   7563  CD2 LEU A 939       9.484   7.359   8.209  0.00  0.00           C 0
+ATOM   4218    C LYS A 519      13.745   6.370   0.169  0.00  0.00           C 0
+ATOM   4225    N PHE A 520      14.131   5.126  -0.106  0.68  1.09           N 0
+ATOM   4219   CB LYS A 519      11.355   6.206   0.893  0.00  0.00           C 0
+ATOM   4222   CD LYS A 519       9.020   5.977   1.791  0.00  0.00           C 0
+ATOM   5070   SD MET A 623      12.621   0.845   3.336  0.00  0.00           S 0
+ATOM   4198  OD1 ASP A 516       7.486   2.152   1.118  0.62  4.29           O 0
+ATOM   4262  CD1 ILE A 523      16.988   6.514   4.259  0.00  0.00           C 0
+ATOM   4232  CD2 PHE A 520      16.831   2.303   1.999  0.00  0.00           C 0
+ATOM   4226   CA PHE A 520      15.483   4.640   0.153  0.00  0.00           C 0
+ATOM   4220    O LYS A 519      14.512   7.200   0.656  0.59  1.07           O 0
+TER
+END

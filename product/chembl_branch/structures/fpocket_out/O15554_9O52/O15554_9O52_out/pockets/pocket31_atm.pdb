@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    31:
+HEADER 0  - Pocket Score                      : 0.0006
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.6973
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4076
+HEADER 5  - Mean B-factor of pocket residues  : 0.2018
+HEADER 6  - Hydrophobicity Score              : 40.5000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 5.3000
+HEADER 9  - Pocket volume (Monte Carlo)       : 111.7003
+HEADER 10 - Pocket volume (convex hull)       : 1.1248
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3529
+ATOM   4766    O VAL B 341     154.249 167.938 168.898  0.34  3.21           O 0
+ATOM   7955   OH TYR C 369     160.985 168.823 168.328  0.59  6.43           O 0
+ATOM   4790  ND2 ASN B 344     157.990 171.886 168.485  0.56  9.84           N 0
+ATOM   6934  NH1 ARG C 240     158.620 169.012 172.477  0.38  3.28           N 0
+ATOM   4811   CA GLY B 347     155.797 168.204 165.665  0.00  0.00           C 0
+ATOM   6974  CE1 TYR C 245     157.886 164.512 171.468  0.00  0.00           C 0
+ATOM   6977   OH TYR C 245     157.191 163.537 169.414  0.41  2.14           O 0
+ATOM   7952  CE1 TYR C 369     162.155 167.090 167.188  0.00  0.00           C 0
+ATOM   4831   CB TRP B 350     157.420 165.027 162.630  0.00  0.00           C 0
+ATOM   4833  CD1 TRP B 350     157.071 162.820 163.885  0.00  0.00           C 0
+ATOM   7972   CD LYS C 372     161.404 163.166 165.125  0.00  0.00           C 0
+ATOM   7973   CE LYS C 372     161.092 162.638 166.512  0.00  0.00           C 0
+ATOM   4945   SD MET B 364     154.808 163.986 167.398  0.00  0.00           S 0
+ATOM   4805    O LEU B 346     157.967 168.434 163.988  0.61  3.21           O 0
+TER
+END

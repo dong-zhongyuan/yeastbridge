@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    49:
+HEADER 0  - Pocket Score                      : -0.2144
+HEADER 1  - Drug Score                        : 0.0008
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.2095
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5427
+HEADER 5  - Mean B-factor of pocket residues  : 0.1621
+HEADER 6  - Hydrophobicity Score              : 9.6250
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.6250
+HEADER 9  - Pocket volume (Monte Carlo)       : 262.0194
+HEADER 10 - Pocket volume (convex hull)       : 3.6065
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.5333
+ATOM   5673   CA GLY D 594     167.007 136.343 103.940  0.00  0.00           C 0
+ATOM   3945  CG1 ILE C 583     170.281 138.874 106.626  0.00  0.00           C 0
+ATOM   5672    N GLY D 594     166.841 136.771 105.314  0.97  4.37           N 0
+ATOM   5675    O GLY D 594     166.999 134.080 103.171  0.72  5.36           O 0
+ATOM   5684   NZ LYS D 595     166.879 130.801 108.350  0.00  0.00           N 0
+ATOM   4301  OD1 ASN C 635     167.178 133.691 114.223  0.58  3.21           O 0
+ATOM   5671  CD1 ILE D 593     164.356 134.379 108.585  0.00  0.00           C 0
+ATOM   5746   CB ASP D 609     164.032 131.693 112.369  0.00  0.00           C 0
+ATOM   5668   CB ILE D 593     165.593 136.554 108.122  0.00  0.00           C 0
+ATOM   5670  CG2 ILE D 593     165.225 136.990 109.528  0.00  0.00           C 0
+ATOM   4294  CG2 THR C 634     171.409 136.265 113.198  0.00  0.00           C 0
+ATOM   4302  ND2 ASN C 635     168.285 131.742 114.166  0.00  0.00           N 0
+ATOM   3946  CG2 ILE C 583     170.379 138.768 109.129  0.00  0.00           C 0
+ATOM   4283    O ASN C 633     167.704 138.746 111.958  0.69  2.14           O 0
+ATOM   5682   CD LYS D 595     166.359 131.932 106.190  0.00  0.00           C 0
+ATOM   4289   CA THR C 634     169.362 137.575 113.861  0.00  0.00           C 0
+TER
+END

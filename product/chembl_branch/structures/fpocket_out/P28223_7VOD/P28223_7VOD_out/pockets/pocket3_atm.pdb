@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     3:
+HEADER 0  - Pocket Score                      : -0.0452
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.8150
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6436
+HEADER 5  - Mean B-factor of pocket residues  : 0.6271
+HEADER 6  - Hydrophobicity Score              : 11.6667
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 248.8100
+HEADER 10 - Pocket volume (convex hull)       : 10.1458
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.4000
+ATOM   1569  CG1 VAL A1016     -48.951  -5.816  80.653  0.00  0.00           C 0
+ATOM   1634   CD GLN A1025     -51.758  -4.460  75.480  0.00  0.00           C 0
+ATOM   1633   CG GLN A1025     -51.332  -3.152  76.098  0.00  0.00           C 0
+ATOM   1635  OE1 GLN A1025     -51.104  -5.480  75.674  0.62  6.43           O 0
+ATOM   1660  OD2 ASP A1028     -51.845   0.789  82.574  0.00  0.00           O 1
+ATOM   1689   NZ LYS A1032     -51.199  -2.414  85.623  0.64  9.84           N 0
+ATOM   1665   CB ALA A1029     -47.105  -2.751  81.924  0.00  0.00           C 0
+ATOM   1626    O ALA A1024     -49.405   1.034  77.913  0.58  3.21           O 0
+ATOM   1625    C ALA A1024     -49.762   0.602  76.792  0.00  0.00           C 0
+ATOM   1627   CB ALA A1024     -51.724   1.421  75.431  0.00  0.00           C 0
+ATOM   1657   CB ASP A1028     -49.931   1.425  81.284  0.00  0.00           C 0
+ATOM   1661    N ALA A1029     -47.395  -0.338  81.755  0.00  0.00           N 0
+ATOM   1688   CE LYS A1032     -50.006  -1.554  85.528  0.00  0.00           C 0
+ATOM   1628    N GLN A1025     -49.688  -0.678  76.408  0.00  0.00           N 0
+ATOM   1629   CA GLN A1025     -49.531  -1.829  77.333  0.00  0.00           C 0
+ATOM   1632   CB GLN A1025     -49.907  -3.150  76.649  0.00  0.00           C 0
+ATOM   1631    O GLN A1025     -47.847  -2.555  78.802  0.76  2.14           O 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    20:
+HEADER 0  - Pocket Score                      : 0.0029
+HEADER 1  - Drug Score                        : 0.0010
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0471
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6689
+HEADER 5  - Mean B-factor of pocket residues  : 0.2072
+HEADER 6  - Hydrophobicity Score              : 22.8571
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 250.2980
+HEADER 10 - Pocket volume (convex hull)       : 3.4647
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.5333
+ATOM   2302    C PHE B  74     158.990 118.474 142.193  0.00  0.00           C 0
+ATOM   2303    O PHE B  74     157.803 118.775 142.051  0.76  1.07           O 0
+ATOM   2300    N PHE B  74     158.385 117.403 144.279  0.00  0.00           N 0
+ATOM   2350  OD1 ASN B  80     157.237 123.135 142.513  0.00  0.00           O 0
+ATOM   2301   CA PHE B  74     159.436 117.501 143.276  0.00  0.00           C 0
+ATOM   2311    N GLN B  75     159.959 118.977 141.430  0.62  1.09           N 0
+ATOM   2315   CB GLN B  75     160.093 121.386 140.929  0.00  0.00           C 0
+ATOM   2299   CB LYS B  73     157.342 118.415 147.171  0.00  0.00           C 0
+ATOM   2348   CB ASN B  80     154.952 122.519 142.227  0.00  0.00           C 0
+ATOM   2349   CG ASN B  80     156.072 123.513 142.420  0.00  0.00           C 0
+ATOM   2355    O PHE B  81     154.810 117.959 144.097  0.84  2.14           O 0
+ATOM   2297    C LYS B  73     158.633 117.034 145.534  0.00  0.00           C 0
+ATOM   2135  OG1 THR B  33     151.579 123.130 144.105  0.55  7.50           O 0
+ATOM   2369  ND1 HIS B  82     151.832 118.750 148.228  0.58  9.84           N 0
+ATOM   2298    O LYS B  73     159.749 116.689 145.929  0.23  3.21           O 0
+ATOM   2136  CG2 THR B  33     150.842 120.844 144.095  0.00  0.00           C 0
+TER
+END

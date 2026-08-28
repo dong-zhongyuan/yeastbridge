@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    80:
+HEADER 0  - Pocket Score                      : -0.0882
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8488
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5146
+HEADER 5  - Mean B-factor of pocket residues  : 0.1873
+HEADER 6  - Hydrophobicity Score              : 46.4000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 197.0191
+HEADER 10 - Pocket volume (convex hull)       : 3.3915
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.6000
+ATOM   7146  ND2 ASN B 270     124.343 175.855 160.291  0.00  0.00           N 0
+ATOM   7112   CD GLU B 266     123.919 170.875 162.175  0.00  0.00           C 0
+ATOM   7114  OE2 GLU B 266     123.903 169.884 161.415  0.00  0.00           O 0
+ATOM   7111   CG GLU B 266     125.098 171.822 162.099  0.00  0.00           C 0
+ATOM   7378  CD1 LEU B 310     126.827 169.842 158.416  0.00  0.00           C 0
+ATOM   7379  CD2 LEU B 310     128.354 171.609 159.289  0.00  0.00           C 0
+ATOM   7407  CD2 LEU B 314     123.631 171.375 153.936  0.00  0.00           C 0
+ATOM   7145  OD1 ASN B 270     125.050 177.197 158.642  0.56  4.29           O 0
+ATOM   7406  CD1 LEU B 314     126.041 171.842 154.391  0.00  0.00           C 0
+ATOM   7189   CG LEU B 287     127.385 176.085 155.820  0.00  0.00           C 0
+ATOM   7184    N LEU B 287     125.817 178.748 156.166  0.48  7.66           N 0
+ATOM   7190  CD1 LEU B 287     127.570 175.339 154.511  0.00  0.00           C 0
+ATOM   7191  CD2 LEU B 287     128.100 175.378 156.956  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,43 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : 0.0064
+HEADER 1  - Drug Score                        : 0.0015
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 3.8575
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6261
+HEADER 5  - Mean B-factor of pocket residues  : 0.9180
+HEADER 6  - Hydrophobicity Score              : 52.1250
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 217.9042
+HEADER 10 - Pocket volume (convex hull)       : 9.3877
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.4400
+ATOM   3203  CE2 TRP A 413      -0.595   5.305 -16.698  0.00  0.00           C 0
+ATOM   3202  CD2 TRP A 413      -1.672   4.714 -15.972  0.00  0.00           C 0
+ATOM    137  CD1 ILE A  19      -4.883   7.174 -16.882  0.00  0.00           C 0
+ATOM   3205  NE1 TRP A 413      -0.084   4.275 -17.456  0.94  2.19           N 0
+ATOM   3162    N PHE A 410      -0.045  -1.203 -18.256  0.74  1.09           N 0
+ATOM   3163   CA PHE A 410      -1.480  -1.388 -18.062  0.00  0.00           C 0
+ATOM   3133    O GLY A 406       0.772  -2.062 -20.930  0.00  0.00           O 0
+ATOM   3165   CB PHE A 410      -2.001  -2.307 -19.167  0.00  0.00           C 0
+ATOM   3201  CD1 TRP A 413      -0.786   3.103 -17.242  0.00  0.00           C 0
+ATOM   3169  CD2 PHE A 410      -4.432  -1.678 -19.376  0.00  0.00           C 0
+ATOM   3200   CG TRP A 413      -1.752   3.303 -16.317  0.00  0.00           C 0
+ATOM    113  CG2 ILE A  15      -2.549   8.094 -21.543  0.00  0.00           C 0
+ATOM    114  CD1 ILE A  15      -2.093   6.647 -24.312  0.00  0.00           C 0
+ATOM    112  CG1 ILE A  15      -3.421   7.103 -23.689  0.00  0.00           C 0
+ATOM   3156   CB GLN A 409       2.460   0.581 -18.933  0.00  0.00           C 0
+ATOM    545  OE1 GLU A  73       2.854   4.607 -21.670  0.54  3.21           O 0
+ATOM     61   OH TYR A   7       1.602   3.876 -23.836  0.26  7.50           O 0
+ATOM   3161  OE1 GLN A 409       3.946   1.158 -21.445  0.62  1.07           O 0
+ATOM    543   CG GLU A  73       2.019   6.565 -20.562  0.00  0.00           C 0
+ATOM    544   CD GLU A  73       2.732   5.215 -20.582  0.00  0.00           C 0
+ATOM    135  CG1 ILE A  19      -4.217   8.353 -17.605  0.00  0.00           C 0
+TER
+END

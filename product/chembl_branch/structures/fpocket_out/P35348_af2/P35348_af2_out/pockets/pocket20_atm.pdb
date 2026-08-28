@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    20:
+HEADER 0  - Pocket Score                      : -0.0977
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.7388
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4614
+HEADER 5  - Mean B-factor of pocket residues  : 0.1950
+HEADER 6  - Hydrophobicity Score              : 22.7143
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 154.5519
+HEADER 10 - Pocket volume (convex hull)       : 2.1119
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.4000
+ATOM   3072   SG CYS A 395     -20.674 -18.307  43.963  0.00  0.00           S 0
+ATOM   3057   CA GLY A 393     -25.104 -20.675  47.797  0.00  0.00           C 0
+ATOM   3058    C GLY A 393     -25.032 -19.362  47.000  0.00  0.00           C 0
+ATOM   3059    O GLY A 393     -25.121 -19.374  45.771  0.59  6.43           O 0
+ATOM   3062    C VAL A 394     -23.196 -16.588  46.879  0.00  0.00           C 0
+ATOM   3064    O VAL A 394     -22.475 -16.422  47.859  0.77  3.21           O 0
+ATOM   3031   OG SER A 389     -18.174 -20.903  49.896  0.00  0.00           O 0
+ATOM   3016  NH2 ARG A 387     -18.052 -21.295  43.957  0.15  5.47           N 0
+ATOM   3036    O LYS A 390     -21.989 -19.460  50.781  0.30  5.36           O 0
+ATOM   3027   CA SER A 389     -17.724 -18.544  49.731  0.00  0.00           C 0
+ATOM   3365  CG1 VAL A 432     -21.285 -22.245  41.851  0.00  0.00           C 0
+ATOM   3366  CG2 VAL A 432     -23.706 -22.228  41.305  0.00  0.00           C 0
+ATOM   3014   NE ARG A 387     -16.645 -19.560  44.466  0.19  2.19           N 0
+TER
+END

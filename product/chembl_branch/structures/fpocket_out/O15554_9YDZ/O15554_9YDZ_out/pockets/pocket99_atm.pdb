@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    99:
+HEADER 0  - Pocket Score                      : -0.1853
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.7830
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5877
+HEADER 5  - Mean B-factor of pocket residues  : 0.2397
+HEADER 6  - Hydrophobicity Score              : 63.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 152.2608
+HEADER 10 - Pocket volume (convex hull)       : 1.9273
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.7500
+ATOM   8300   CB LEU D  56     231.366 259.925 238.311  0.00  0.00           C 0
+ATOM   8278   CA TRP D  54     230.375 254.338 240.559  0.00  0.00           C 0
+ATOM   8304    N TYR D  57     231.068 257.318 236.603  0.79  1.09           N 0
+ATOM   8309   CG TYR D  57     233.602 255.737 236.476  0.00  0.00           C 0
+ATOM   8274    O SER D  53     231.974 254.731 242.807  0.00  0.00           O 0
+ATOM   8296    N LEU D  56     229.514 258.388 238.749  0.52  3.28           N 0
+ATOM   8311  CD2 TYR D  57     234.329 254.836 237.242  0.00  0.00           C 0
+ATOM   8313  CE2 TYR D  57     235.532 255.199 237.817  0.00  0.00           C 0
+ATOM   8310  CD1 TYR D  57     234.124 257.011 236.290  0.00  0.00           C 0
+ATOM   8314   CZ TYR D  57     236.025 256.471 237.625  0.00  0.00           C 0
+ATOM   8312  CE1 TYR D  57     235.324 257.382 236.863  0.00  0.00           C 0
+ATOM   8315   OH TYR D  57     237.223 256.837 238.195  0.00  0.00           O 0
+ATOM   8303  CD2 LEU D  56     233.518 261.181 237.948  0.00  0.00           C 0
+TER
+END

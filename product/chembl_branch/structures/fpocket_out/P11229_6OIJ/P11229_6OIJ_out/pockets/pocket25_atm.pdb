@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    25:
+HEADER 0  - Pocket Score                      : 0.0025
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.7579
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4794
+HEADER 5  - Mean B-factor of pocket residues  : 0.3885
+HEADER 6  - Hydrophobicity Score              : 6.0000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 5.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 233.0934
+HEADER 10 - Pocket volume (convex hull)       : 9.8062
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 5.4286
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.3182
+ATOM    366  CG2 ILE A  56     123.897 104.984  85.106  0.00  0.00           C 0
+ATOM    467  CE1 TYR A 192     125.514 102.599  87.356  0.00  0.00           C 0
+ATOM    375   CE LYS A  57     129.069 103.670  80.560  0.00  0.00           C 0
+ATOM    376   NZ LYS A  57     130.129 103.666  81.606  0.20  8.75           N 0
+ATOM    470   OH TYR A 192     123.996 101.078  86.329  0.00  0.00           O 0
+ATOM    398   CB ARG A  60     128.377 107.748  84.640  0.00  0.00           C 0
+ATOM    369   CA LYS A  57     126.163 106.054  80.928  0.00  0.00           C 0
+ATOM    368    N LYS A  57     124.828 105.911  81.499  0.81  1.09           N 0
+ATOM    363    O ILE A  56     125.314 107.228  83.264  0.00  0.00           O 0
+ATOM    339    O SER A  53     123.395 103.732  80.164  0.00  0.00           O 0
+ATOM    372   CB LYS A  57     126.339 105.064  79.772  0.00  0.00           C 0
+ATOM    337   CA SER A  53     121.651 102.082  80.122  0.00  0.00           C 0
+ATOM    340   CB SER A  53     121.938 100.793  79.357  0.00  0.00           C 0
+ATOM    341   OG SER A  53     120.995  99.791  79.691  0.00  0.00           O 0
+ATOM    577  OD1 ASP A 205     119.848 100.357  86.577  0.67  9.64           O 0
+ATOM    336    N SER A  53     120.219 102.359  80.102  0.77  1.09           N 0
+ATOM    333   CD LYS A  52     117.447 101.674  84.044  0.00  0.00           C 0
+ATOM    367  CD1 ILE A  56     121.132 103.584  84.988  0.00  0.00           C 0
+ATOM    364   CB ILE A  56     122.912 105.049  83.966  0.00  0.00           C 0
+TER
+END

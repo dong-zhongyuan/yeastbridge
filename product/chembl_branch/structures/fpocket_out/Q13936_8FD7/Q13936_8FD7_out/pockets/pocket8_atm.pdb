@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : 0.0550
+HEADER 1  - Drug Score                        : 0.0012
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.5404
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3703
+HEADER 5  - Mean B-factor of pocket residues  : 0.6591
+HEADER 6  - Hydrophobicity Score              : 48.8750
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.1250
+HEADER 9  - Pocket volume (Monte Carlo)       : 95.3204
+HEADER 10 - Pocket volume (convex hull)       : 1.2914
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.8667
+ATOM  12653    N THR K 945     221.970 184.748 219.383  0.00  0.00           N 0
+ATOM  12902  CD2 LEU K 975     217.798 181.311 217.154  0.00  0.00           C 0
+ATOM  12646   CB PHE K 944     220.428 187.404 218.526  0.00  0.00           C 0
+ATOM  12659  CG2 THR K 945     221.285 182.183 217.967  0.00  0.00           C 0
+ATOM  12624    O THR K 941     222.181 184.873 216.484  0.00  0.00           O 0
+ATOM  12627  CG2 THR K 941     220.391 183.954 213.921  0.00  0.00           C 0
+ATOM  13098  NH2 ARG K1001     216.714 186.312 213.994  0.91  1.09           N 0
+ATOM  12402  CD2 LEU K 912     216.447 188.070 218.185  0.00  0.00           C 0
+ATOM  12401  CD1 LEU K 912     214.788 187.196 216.531  0.00  0.00           C 0
+ATOM  13121   NE ARG K1004     213.977 181.999 219.769  0.97  2.19           N 0
+ATOM  13120   CD ARG K1004     213.376 183.133 220.461  0.00  0.00           C 0
+ATOM  13095   NE ARG K1001     215.136 184.690 214.353  0.97  1.09           N 0
+ATOM  12684  CD1 ILE K 948     217.861 184.551 221.787  0.00  0.00           C 0
+TER
+END

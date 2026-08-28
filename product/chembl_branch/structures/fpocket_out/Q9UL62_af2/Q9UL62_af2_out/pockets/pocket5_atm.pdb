@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     5:
+HEADER 0  - Pocket Score                      : -0.0088
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9338
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7573
+HEADER 5  - Mean B-factor of pocket residues  : 0.1446
+HEADER 6  - Hydrophobicity Score              : 3.8000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 284.0424
+HEADER 10 - Pocket volume (convex hull)       : 9.0956
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1111
+ATOM   7750    N ASP A 963      -6.888  32.293  -6.909  0.76  1.09           N 0
+ATOM   7753   CB ASP A 963      -6.927  33.568  -4.761  0.00  0.00           C 0
+ATOM   7727    O LYS A 960      -1.411  32.413  -6.839  0.48  6.43           O 0
+ATOM   7754    O ASP A 963      -7.819  35.407  -6.816  0.00  0.00           O 0
+ATOM   7738  CD1 TRP A 961       0.315  31.825 -10.055  0.00  0.00           C 0
+ATOM   7733   CA TRP A 961      -2.617  31.135  -9.094  0.00  0.00           C 0
+ATOM   7736    O TRP A 961      -4.431  31.599 -10.585  0.53  6.43           O 0
+ATOM   7749    O GLY A 962      -8.613  31.410  -8.040  0.49  4.29           O 0
+ATOM   7761    O GLY A 964     -11.808  34.875  -9.906  0.00  0.00           O 0
+ATOM   7759   CA GLY A 964     -10.227  35.005  -8.174  0.00  0.00           C 0
+ATOM   7734    C TRP A 961      -4.112  31.195  -9.469  0.00  0.00           C 0
+ATOM   7737   CG TRP A 961      -0.651  31.166 -10.735  0.00  0.00           C 0
+ATOM   7748    C GLY A 962      -7.400  31.512  -7.869  0.00  0.00           C 0
+ATOM   7747   CA GLY A 962      -6.466  30.735  -8.808  0.00  0.00           C 0
+ATOM   7752    C ASP A 963      -8.349  34.296  -6.759  0.00  0.00           C 0
+ATOM   7758    N GLY A 964      -9.491  34.026  -7.389  0.66  1.09           N 0
+ATOM   7739  CD2 TRP A 961      -0.396  31.433 -12.148  0.00  0.00           C 0
+ATOM   7742  NE1 TRP A 961       1.145  32.481 -10.943  0.82  4.37           N 0
+ATOM   7740  CE2 TRP A 961       0.752  32.276 -12.249  0.00  0.00           C 0
+TER
+END

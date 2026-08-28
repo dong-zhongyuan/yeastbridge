@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   157:
+HEADER 0  - Pocket Score                      : -0.2213
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 4.1089
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4510
+HEADER 5  - Mean B-factor of pocket residues  : 0.3003
+HEADER 6  - Hydrophobicity Score              : 44.4286
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 281.8775
+HEADER 10 - Pocket volume (convex hull)       : 12.7455
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.4000
+ATOM  12136  NH2 ARG D 665     156.728 172.743 157.422  0.88  6.56           N 0
+ATOM   1904  CD2 HIS A 674     154.176 172.280 155.527  0.00  0.00           C 0
+ATOM   1938  CD2 LEU A 678     155.819 178.348 152.169  0.00  0.00           C 0
+ATOM   1901   CB HIS A 674     156.203 172.589 153.935  0.00  0.00           C 0
+ATOM  11296   OH TYR D 545     154.325 176.787 160.156  0.69  4.29           O 0
+ATOM   1937  CD1 LEU A 678     158.099 177.313 152.195  0.00  0.00           C 0
+ATOM   1936   CG LEU A 678     156.732 177.316 151.527  0.00  0.00           C 0
+ATOM  11293  CE1 TYR D 545     152.479 175.444 159.473  0.00  0.00           C 0
+ATOM  12144  CD2 LEU D 666     158.449 178.276 160.540  0.00  0.00           C 0
+ATOM  12140    O LEU D 666     162.140 179.811 157.834  0.00  0.00           O 0
+ATOM  12129    O ARG D 665     161.678 176.475 157.202  0.49  8.57           O 0
+ATOM  12135  NH1 ARG D 665     157.419 173.190 159.557  0.70  2.19           N 0
+ATOM  12134   CZ ARG D 665     157.610 172.575 158.401  0.00  0.00           C 0
+ATOM   1930   CE MET A 677     152.216 175.832 152.548  0.00  0.00           C 0
+ATOM   1967  NH2 ARG A 681     151.918 180.076 153.365  0.87  6.56           N 0
+ATOM  12138   CA LEU D 666     161.266 178.141 159.322  0.00  0.00           C 0
+TER
+END

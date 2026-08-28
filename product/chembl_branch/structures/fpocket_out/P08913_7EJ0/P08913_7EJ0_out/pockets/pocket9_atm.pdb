@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : 0.0625
+HEADER 1  - Drug Score                        : 0.0025
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.5312
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3067
+HEADER 5  - Mean B-factor of pocket residues  : 0.0958
+HEADER 6  - Hydrophobicity Score              : 50.1111
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.7778
+HEADER 9  - Pocket volume (Monte Carlo)       : 119.1793
+HEADER 10 - Pocket volume (convex hull)       : 3.6179
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.8750
+ATOM   3828   CB SER B 279     131.289 101.930  80.044  0.00  0.00           C 0
+ATOM   4606  CD2 LEU G  50     131.544 106.155  82.904  0.00  0.00           C 0
+ATOM   4124  CG2 VAL B 320     125.881 102.612  82.229  0.00  0.00           C 0
+ATOM   4604   CG LEU G  50     132.277 105.147  83.776  0.00  0.00           C 0
+ATOM   4163    O ALA B 326     125.633 107.442  83.362  0.00  0.00           O 0
+ATOM   4169   CB VAL B 327     125.718 104.836  85.956  0.00  0.00           C 0
+ATOM   4605  CD1 LEU G  50     131.933 105.347  85.243  0.00  0.00           C 0
+ATOM   3882  CD1 LEU B 286     129.016 100.265  84.984  0.00  0.00           C 0
+ATOM   4162    C ALA B 326     125.813 107.922  84.484  0.00  0.00           C 0
+ATOM   4161   CA ALA B 326     126.430 109.299  84.666  0.00  0.00           C 0
+ATOM   4261    O TRP B 339     127.017 108.139  87.956  0.00  0.00           O 0
+ATOM   4278  OD1 ASN B 340     130.492 110.822  86.403  0.59  1.07           O 0
+ATOM   4151    O GLY B 324     129.475 108.436  81.926  0.00  0.00           O 0
+ATOM   3883  CD2 LEU B 286     127.308 100.941  86.691  0.00  0.00           C 0
+ATOM   4170  CG1 VAL B 327     126.309 104.982  87.349  0.00  0.00           C 0
+ATOM   4123  CG1 VAL B 320     126.459 104.239  80.420  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    66:
+HEADER 0  - Pocket Score                      : -0.0891
+HEADER 1  - Drug Score                        : 0.0011
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8962
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6558
+HEADER 5  - Mean B-factor of pocket residues  : 0.2107
+HEADER 6  - Hydrophobicity Score              : 32.7143
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 177.3312
+HEADER 10 - Pocket volume (convex hull)       : 2.6374
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.7333
+ATOM   9810  OE1 GLU K 407     168.896 185.590 155.000  0.00  0.00           O 0
+ATOM  12098   CG LEU K 749     169.472 183.848 158.909  0.00  0.00           C 0
+ATOM  12125  CG2 VAL K 753     167.660 188.810 156.189  0.00  0.00           C 0
+ATOM   9836   CE LYS K 410     165.534 186.152 154.246  0.00  0.00           C 0
+ATOM  12095    C LEU K 749     170.001 187.091 159.420  0.00  0.00           C 0
+ATOM  12101    N ALA K 750     169.279 187.792 160.299  0.64  1.09           N 0
+ATOM  12096    O LEU K 749     170.136 187.446 158.242  0.00  0.00           O 0
+ATOM  12073  OD1 ASN K 746     167.043 183.509 164.003  0.73  8.57           O 0
+ATOM  12070    O ASN K 746     169.370 185.575 163.271  0.00  0.00           O 0
+ATOM  12097   CB LEU K 749     169.745 184.700 160.144  0.00  0.00           C 0
+ATOM  12105   CB ALA K 750     167.792 189.586 161.050  0.00  0.00           C 0
+ATOM  11329  CD1 LEU K 654     165.287 188.315 164.934  0.00  0.00           C 0
+ATOM  12100  CD2 LEU K 749     168.508 182.721 159.236  0.00  0.00           C 0
+ATOM  12102   CA ALA K 750     168.560 188.987 159.873  0.00  0.00           C 0
+ATOM   9834   CG LYS K 410     164.628 183.807 154.395  0.00  0.00           C 0
+ATOM   9835   CD LYS K 410     165.798 184.687 153.973  0.00  0.00           C 0
+TER
+END

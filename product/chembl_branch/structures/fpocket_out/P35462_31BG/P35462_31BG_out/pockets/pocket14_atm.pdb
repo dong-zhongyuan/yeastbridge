@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    14:
+HEADER 0  - Pocket Score                      : -0.0159
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.8659
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6417
+HEADER 5  - Mean B-factor of pocket residues  : 0.3125
+HEADER 6  - Hydrophobicity Score              : -14.6250
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 356.9762
+HEADER 10 - Pocket volume (convex hull)       : 31.1769
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1176
+ATOM   5151   NE ARG R 100     109.156 152.449 152.522  0.69  6.56           N 0
+ATOM   5154  NH2 ARG R 100     109.189 151.377 150.499  0.44  7.66           N 0
+ATOM   5182  OD2 ASP R 104     114.572 153.178 150.746  0.20  5.36           O 1
+ATOM   5181  OD1 ASP R 104     113.325 151.399 150.419  0.62  3.21           O 0
+ATOM   5714  OG1 THR R 175     106.565 151.630 148.511  0.00  0.00           O 0
+ATOM   5712    O THR R 175     104.913 154.088 147.771  0.00  0.00           O 0
+ATOM   5697    O ASN R 173     110.639 153.703 145.848  0.00  0.00           O 0
+ATOM   5709    N THR R 175     106.514 152.791 145.960  0.45  3.28           N 0
+ATOM   5703   CA THR R 174     108.293 153.274 144.385  0.00  0.00           C 0
+ATOM   5708  CG2 THR R 174     109.041 154.839 142.568  0.00  0.00           C 0
+ATOM   5706   CB THR R 174     107.944 153.897 143.030  0.00  0.00           C 0
+ATOM   5152   CZ ARG R 100     108.679 151.507 151.721  0.00  0.00           C 0
+ATOM   5680   CA GLY R 171     115.693 155.471 146.653  0.00  0.00           C 0
+ATOM   5682    O GLY R 171     113.985 156.296 145.198  0.29  7.50           O 0
+ATOM   5729   CA PRO R 178     104.190 152.102 153.141  0.00  0.00           C 0
+ATOM   5732   CB PRO R 178     104.389 153.266 154.122  0.00  0.00           C 0
+ATOM   5719    O GLY R 176     102.309 154.489 149.862  0.13  8.57           O 0
+ATOM   5149   CG ARG R 100     109.444 153.821 154.537  0.00  0.00           C 0
+ATOM   5150   CD ARG R 100     108.689 152.684 153.882  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    37:
+HEADER 0  - Pocket Score                      : -0.1060
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.9579
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6375
+HEADER 5  - Mean B-factor of pocket residues  : 0.0324
+HEADER 6  - Hydrophobicity Score              : 5.1429
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 3.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 197.3580
+HEADER 10 - Pocket volume (convex hull)       : 3.6963
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1364
+ATOM    101   CA LYS A  17     129.285 143.373 125.457  0.00  0.00           C 0
+ATOM    127   CG GLU A  20     130.037 139.793 126.440  0.00  0.00           C 0
+ATOM    104   CB LYS A  17     129.625 144.605 126.299  0.00  0.00           C 0
+ATOM    105   CG LYS A  17     129.537 144.389 127.795  0.00  0.00           C 0
+ATOM     99   OG SER A  16     132.652 141.592 122.491  0.00  0.00           O 0
+ATOM     97    O SER A  16     129.955 141.305 123.738  0.00  0.00           O 0
+ATOM    100    N LYS A  17     129.840 143.516 124.121  0.00  0.00           N 0
+ATOM     69    O LEU A  13     131.277 145.971 123.670  0.47  1.07           O 0
+ATOM   2270  OD1 ASN B  88     135.295 143.333 122.591  0.60  3.21           O 0
+ATOM    108   NZ LYS A  17     131.977 145.913 128.285  0.00  0.00           N 0
+ATOM    130  OE2 GLU A  20     131.821 138.372 125.818  0.35  6.43           O 0
+ATOM     71   CG LEU A  13     134.308 146.992 124.620  0.00  0.00           C 0
+ATOM     72  CD1 LEU A  13     135.780 147.131 124.955  0.00  0.00           C 0
+ATOM   2260    O THR B  87     136.962 140.386 123.697  0.52  7.50           O 0
+ATOM   2262  OG1 THR B  87     139.150 140.674 124.989  0.00  0.00           O 0
+ATOM   2253    O THR B  86     139.365 142.492 123.152  0.47  3.21           O 0
+TER
+END

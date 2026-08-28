@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    75:
+HEADER 0  - Pocket Score                      : -0.1357
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0640
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6659
+HEADER 5  - Mean B-factor of pocket residues  : 0.2377
+HEADER 6  - Hydrophobicity Score              : 13.2857
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 236.9967
+HEADER 10 - Pocket volume (convex hull)       : 2.2868
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1333
+ATOM  18952   CG ARG Y  96     158.253 150.538 149.492  0.00  0.00           C 0
+ATOM  18975   CB SER Y  97     161.058 155.037 148.202  0.00  0.00           C 0
+ATOM  18950    O ARG Y  96     160.522 152.399 151.145  0.67  2.14           O 0
+ATOM  14835  OE2 GLU X 209     165.046 152.059 149.799  0.56  4.29           O 0
+ATOM  18976   OG SER Y  97     162.412 155.204 147.821  0.72  2.14           O 0
+ATOM  18953   CD ARG Y  96     157.621 149.824 148.306  0.00  0.00           C 0
+ATOM  19257   CB ASP Y 118     161.161 155.269 144.067  0.00  0.00           C 0
+ATOM  19256    O ASP Y 118     161.275 154.702 141.148  0.29  3.21           O 0
+ATOM  19254   CA ASP Y 118     162.275 155.655 143.090  0.00  0.00           C 0
+ATOM  14781    N GLY X 206     165.007 153.741 141.383  0.00  0.00           N 0
+ATOM  14782   CA GLY X 206     165.443 152.367 141.222  0.00  0.00           C 0
+ATOM  19286  CD1 ILE Y 120     158.227 152.910 141.365  0.00  0.00           C 0
+ATOM  14788    N ILE X 207     166.496 152.248 143.395  0.00  0.00           N 0
+ATOM  14795  CD1 ILE X 207     165.889 154.822 145.013  0.00  0.00           C 0
+ATOM  14791    O ILE X 207     166.768 149.798 144.601  0.28  8.57           O 0
+ATOM  14792   CB ILE X 207     167.363 152.818 145.629  0.00  0.00           C 0
+TER
+END

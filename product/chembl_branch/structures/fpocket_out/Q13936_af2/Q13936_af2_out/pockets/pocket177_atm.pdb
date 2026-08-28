@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   177:
+HEADER 0  - Pocket Score                      : -0.1876
+HEADER 1  - Drug Score                        : 0.0011
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 4.2100
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5473
+HEADER 5  - Mean B-factor of pocket residues  : 0.1219
+HEADER 6  - Hydrophobicity Score              : 26.8333
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 412.2511
+HEADER 10 - Pocket volume (convex hull)       : 25.0791
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 14.8750
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 0.7619
+ATOM  17353  CG1 VAL A2200     -63.121  11.887 -42.804  0.00  0.00           C 0
+ATOM  17361   CD ARG A2201     -65.214   7.753 -43.728  0.00  0.00           C 0
+ATOM  17354  CG2 VAL A2200     -65.188  12.908 -43.664  0.00  0.00           C 0
+ATOM  17363  NH1 ARG A2201     -65.500   7.125 -46.523  0.52  7.66           N 0
+ATOM  17369   CB ALA A2202     -62.570   5.940 -41.136  0.00  0.00           C 0
+ATOM    178   OG SER A  22     -59.773   8.958 -49.467  0.00  0.00           O 0
+ATOM  17359    O ARG A2201     -61.939   9.977 -39.689  0.46  5.36           O 0
+ATOM  17358   CB ARG A2201     -64.212   8.780 -41.731  0.00  0.00           C 0
+ATOM    165  CE1 TYR A  20     -58.633   9.071 -39.974  0.00  0.00           C 0
+ATOM  17357    C ARG A2201     -62.531   8.922 -39.813  0.00  0.00           C 0
+ATOM    176   CB SER A  22     -59.043   9.934 -48.753  0.00  0.00           C 0
+ATOM    163  CD1 TYR A  20     -57.625   9.578 -40.813  0.00  0.00           C 0
+ATOM    160   CB TYR A  20     -55.208   9.730 -41.536  0.00  0.00           C 0
+ATOM    159    C TYR A  20     -54.654   9.960 -44.005  0.00  0.00           C 0
+ATOM    161    O TYR A  20     -53.914  10.920 -43.815  0.46  4.29           O 0
+ATOM  17370    O ALA A2202     -60.112   5.282 -39.845  0.28  6.43           O 0
+ATOM    173    N SER A  22     -56.811  10.167 -47.841  0.57  2.19           N 0
+ATOM    169    N GLY A  21     -55.187   9.704 -45.205  0.59  2.19           N 0
+ATOM  17366    N ALA A2202     -61.841   7.777 -39.666  0.00  0.00           N 0
+TER
+END

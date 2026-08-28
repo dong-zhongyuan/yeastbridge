@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    25:
+HEADER 0  - Pocket Score                      : -0.0076
+HEADER 1  - Drug Score                        : 0.0010
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 4.0142
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4600
+HEADER 5  - Mean B-factor of pocket residues  : 0.0160
+HEADER 6  - Hydrophobicity Score              : 54.3000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.1000
+HEADER 9  - Pocket volume (Monte Carlo)       : 149.8734
+HEADER 10 - Pocket volume (convex hull)       : 2.4641
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.4167
+ATOM    970   CG LYS B 127      71.249 119.510 123.874  0.00  0.00           C 0
+ATOM    705  CE1 HIS B  91      77.011 119.056 119.666  0.00  0.00           C 0
+ATOM    961   CB LEU B 126      75.978 119.219 124.526  0.00  0.00           C 0
+ATOM    973   NZ LYS B 127      69.943 117.174 122.528  0.11  8.75           N 1
+ATOM    960    O LEU B 126      74.994 121.803 122.780  0.00  0.00           O 0
+ATOM    838    O GLY B 109      73.482 116.197 126.060  0.48  1.07           O 0
+ATOM    816   OH TYR B 105      75.632 113.178 124.230  0.60  1.07           O 0
+ATOM    617  CG2 ILE B  81      79.157 113.358 121.218  0.00  0.00           C 0
+ATOM    695  CG1 VAL B  90      77.221 115.731 117.872  0.00  0.00           C 0
+ATOM    703  ND1 HIS B  91      78.065 118.370 120.071  0.00  0.00           N 0
+ATOM    963  CD1 LEU B 126      77.010 116.977 124.947  0.00  0.00           C 0
+ATOM   5993   OH TYR H 102      73.193 120.444 118.291  0.51  5.36           O 0
+ATOM    531  CD1 LEU B  69      75.184 111.962 120.747  0.00  0.00           C 0
+ATOM   5990  CE1 TYR H 102      73.715 118.241 117.546  0.00  0.00           C 0
+ATOM   5997    O TYR H 103      72.814 114.627 117.369  0.72  6.43           O 0
+TER
+END

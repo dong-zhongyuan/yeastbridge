@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     1:
+HEADER 0  - Pocket Score                      : 0.0582
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9342
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7044
+HEADER 5  - Mean B-factor of pocket residues  : 0.3139
+HEADER 6  - Hydrophobicity Score              : -24.1667
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 5.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 292.0764
+HEADER 10 - Pocket volume (convex hull)       : 15.6837
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0556
+ATOM   1335   CG GLU C1636     -22.786 -13.177 -38.071  0.00  0.00           C 0
+ATOM   1295    O LYS C1632     -19.811 -14.113 -37.458  0.57  1.07           O 0
+ATOM   1337  OE1 GLU C1636     -23.715 -11.029 -38.646  0.00  0.00           O 0
+ATOM   1336   CD GLU C1636     -23.549 -11.889 -37.756  0.00  0.00           C 0
+ATOM   1299   CE LYS C1632     -21.038 -11.277 -33.833  0.00  0.00           C 0
+ATOM   1300   NZ LYS C1632     -22.039 -10.242 -33.441  0.50  5.47           N 0
+ATOM    852  OE1 GLU A 114     -16.447  -8.840 -35.133  0.00  0.00           O 0
+ATOM   1334   CB GLU C1636     -22.635 -13.452 -39.567  0.00  0.00           C 0
+ATOM    857    O LYS A 115     -20.203  -8.794 -30.878  0.58  1.07           O 0
+ATOM    850   CG GLU A 114     -16.089  -7.466 -33.225  0.00  0.00           C 0
+ATOM   1264    O ARG C1629     -14.956 -13.254 -36.413  0.00  0.00           O 0
+ATOM   1301    N LYS C1633     -17.566 -14.021 -37.545  0.67  1.09           N 0
+ATOM   1305   CB LYS C1633     -16.135 -13.994 -39.526  0.00  0.00           C 0
+ATOM   1266   CG ARG C1629     -12.644 -10.962 -36.788  0.00  0.00           C 0
+ATOM   1296   CB LYS C1632     -18.525 -12.441 -34.989  0.00  0.00           C 0
+ATOM   1294    C LYS C1632     -18.724 -14.032 -36.883  0.00  0.00           C 0
+ATOM   1302   CA LYS C1633     -17.561 -14.146 -38.999  0.00  0.00           C 0
+ATOM   1298   CD LYS C1632     -19.633 -10.954 -33.337  0.00  0.00           C 0
+TER
+END

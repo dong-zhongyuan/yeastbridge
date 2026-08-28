@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : 0.0807
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.6496
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3733
+HEADER 5  - Mean B-factor of pocket residues  : 0.5091
+HEADER 6  - Hydrophobicity Score              : 16.6667
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 149.2771
+HEADER 10 - Pocket volume (convex hull)       : 2.7882
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2632
+ATOM   1293   CB ASN B 330     125.689 176.318 156.343  0.00  0.00           C 0
+ATOM   1263   CB THR B 324     128.134 181.684 160.818  0.00  0.00           C 0
+ATOM   1283   CB ASP B 328     122.588 178.273 159.151  0.00  0.00           C 0
+ATOM   1303  OD1 ASN B 331     128.523 178.020 160.786  0.62  3.21           O 0
+ATOM   1269    N ALA B 326     124.680 182.245 163.086  0.74  2.19           N 0
+ATOM   1264    N CYS B 325     125.350 183.384 160.714  0.76  1.09           N 0
+ATOM   1279    N ASP B 328     122.116 178.434 161.569  0.72  1.09           N 0
+ATOM   1304  ND2 ASN B 331     127.269 177.109 162.410  0.39  2.19           N 0
+ATOM   1282    O ASP B 328     123.975 176.435 161.506  0.25  6.43           O 0
+ATOM   1260   CA THR B 324     127.575 182.811 159.942  0.00  0.00           C 0
+ATOM   1325  CG2 VAL B 334     130.498 176.906 155.135  0.00  0.00           C 0
+ATOM   1247  ND1 HIS B 322     130.896 181.063 155.415  0.65  1.09           N 0
+ATOM   1296  ND2 ASN B 330     127.127 177.434 154.744  0.70  4.37           N 0
+ATOM   1254    O MET B 323     128.585 182.685 157.324  0.00  0.00           O 0
+TER
+END

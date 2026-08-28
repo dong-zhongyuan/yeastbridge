@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : 0.0210
+HEADER 1  - Drug Score                        : 0.0008
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.7815
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4819
+HEADER 5  - Mean B-factor of pocket residues  : 0.1803
+HEADER 6  - Hydrophobicity Score              : 5.7273
+HEADER 7  - Polarity Score                    :     9
+HEADER 8  - Amino Acid based volume Score     : 4.4545
+HEADER 9  - Pocket volume (Monte Carlo)       : 117.4254
+HEADER 10 - Pocket volume (convex hull)       : 3.5262
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.3750
+ATOM   6834  CD1 PHE R 134     159.155 154.545 219.605  0.00  0.00           C 0
+ATOM   6836  CE1 PHE R 134     158.238 155.597 219.663  0.00  0.00           C 0
+ATOM   6633  NH2 ARG R 109     162.125 156.223 222.354  0.58  4.37           N 0
+ATOM  11158   CE LYS X  91     158.805 160.161 219.662  0.00  0.00           C 0
+ATOM   7247   OH TYR R 185     157.168 158.983 215.409  0.67  3.21           O 0
+ATOM   7244  CE1 TYR R 185     158.239 157.476 213.889  0.00  0.00           C 0
+ATOM   7041  OG1 THR R 159     158.604 154.115 216.560  0.61  1.07           O 0
+ATOM  11883  CG2 THR Y 110     161.535 160.420 215.463  0.00  0.00           C 0
+ATOM  11157   CD LYS X  91     158.782 160.735 218.242  0.00  0.00           C 0
+ATOM   7050  OD2 ASP R 160     162.448 154.304 215.970  0.59  4.29           O 1
+ATOM  10851   CE LYS X  51     165.202 155.516 215.934  0.00  0.00           C 0
+ATOM  11907    O SER Y 113     165.556 159.441 217.476  0.81  1.07           O 0
+ATOM  11918    N CYS Y 115     164.199 159.911 220.691  0.56  1.09           N 0
+ATOM  11923   SG CYS Y 115     163.022 162.062 218.882  0.00  0.00           S 0
+ATOM  11921    O CYS Y 115     161.941 159.454 222.536  0.55  1.07           O 0
+ATOM  11916  OD1 ASP Y 114     164.767 156.281 221.443  0.25  4.29           O 0
+ATOM  11911   CA ASP Y 114     166.046 158.391 220.073  0.00  0.00           C 0
+TER
+END

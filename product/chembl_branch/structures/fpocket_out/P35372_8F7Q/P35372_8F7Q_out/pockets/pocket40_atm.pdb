@@ -1,0 +1,34 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    40:
+HEADER 0  - Pocket Score                      : -0.0128
+HEADER 1  - Drug Score                        : 0.0017
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.7738
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7122
+HEADER 5  - Mean B-factor of pocket residues  : 0.2075
+HEADER 6  - Hydrophobicity Score              : 61.5000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 3.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 148.8222
+HEADER 10 - Pocket volume (convex hull)       : 1.2765
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.8667
+ATOM   9220  CG1 VAL M  82      84.840 105.416 150.430  0.00  0.00           C 0
+ATOM   9199  CG1 ILE M  79      86.274  98.886 148.179  0.00  0.00           C 0
+ATOM   9221  CG2 VAL M  82      84.522 105.387 147.978  0.00  0.00           C 0
+ATOM   9219   CB VAL M  82      85.532 105.180 149.096  0.00  0.00           C 0
+ATOM   9192   CB SER M  78      84.835 101.630 144.072  0.00  0.00           C 0
+ATOM   9194    N ILE M  79      87.030 101.146 146.296  0.00  0.00           N 0
+ATOM   9190    C SER M  78      86.589 102.285 145.745  0.00  0.00           C 0
+ATOM   9191    O SER M  78      86.498 103.340 146.385  0.00  0.00           O 0
+ATOM   9195   CA ILE M  79      87.414 101.087 147.706  0.00  0.00           C 0
+ATOM   9200  CG2 ILE M  79      88.293  99.523 149.506  0.00  0.00           C 0
+ATOM   9197    O ILE M  79      88.700 102.693 148.953  0.68  1.07           O 0
+ATOM   9228  CG2 VAL M  83      88.999 102.876 152.202  0.00  0.00           C 0
+TER
+END

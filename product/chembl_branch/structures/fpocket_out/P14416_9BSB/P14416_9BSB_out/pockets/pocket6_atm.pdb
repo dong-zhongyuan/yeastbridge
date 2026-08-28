@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : 0.0783
+HEADER 1  - Drug Score                        : 0.0039
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 4.1663
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6993
+HEADER 5  - Mean B-factor of pocket residues  : 0.5212
+HEADER 6  - Hydrophobicity Score              : 16.1429
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 476.3573
+HEADER 10 - Pocket volume (convex hull)       : 25.2131
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5000
+ATOM   6065   CD PRO E 181     118.234  99.918 182.637  0.00  0.00           C 0
+ATOM   6371  CG1 VAL E 224     121.766 100.071 186.060  0.00  0.00           C 0
+ATOM   6370   CB VAL E 224     121.945 101.589 186.049  0.00  0.00           C 0
+ATOM   6064   CG PRO E 181     117.981  98.686 183.439  0.00  0.00           C 0
+ATOM   6351    O ALA E 221     120.429 104.821 187.399  0.00  0.00           O 0
+ATOM   6369    O VAL E 224     121.068 101.727 183.140  0.77  1.07           O 0
+ATOM   6551  CD1 LEU E 247     121.832 101.563 191.814  0.00  0.00           C 0
+ATOM   6552  CD2 LEU E 247     121.863  99.172 191.099  0.00  0.00           C 0
+ATOM   6054   CD ARG E 180     118.663 104.984 181.183  0.00  0.00           C 0
+ATOM   6078  NE2 GLN E 183     114.354 103.596 180.970  0.57  4.37           N 0
+ATOM   6077  OE1 GLN E 183     115.210 105.063 179.502  0.71  6.43           O 0
+ATOM   6357   CB GLU E 222     119.695 108.170 184.985  0.00  0.00           C 0
+ATOM   6354   CA GLU E 222     120.265 106.834 185.465  0.00  0.00           C 0
+ATOM   6058  NH2 ARG E 180     120.413 108.107 180.336  0.25  9.84           N 0
+ATOM   6057  NH1 ARG E 180     118.585 107.193 179.310  0.53  8.75           N 0
+ATOM   6056   CZ ARG E 180     119.516 107.129 180.252  0.00  0.00           C 0
+ATOM   6055   NE ARG E 180     119.587 106.115 181.108  0.00  0.00           N 0
+ATOM   6052   CB ARG E 180     118.266 102.580 180.559  0.00  0.00           C 0
+ATOM   6356    O GLU E 222     120.980 106.069 183.321  0.00  0.00           O 0
+ATOM   6372  CG2 VAL E 224     122.619 102.072 187.336  0.00  0.00           C 0
+TER
+END

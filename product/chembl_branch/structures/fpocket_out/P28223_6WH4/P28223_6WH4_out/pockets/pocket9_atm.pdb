@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : -0.0279
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8271
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7688
+HEADER 5  - Mean B-factor of pocket residues  : 0.6025
+HEADER 6  - Hydrophobicity Score              : -25.2500
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.2500
+HEADER 9  - Pocket volume (Monte Carlo)       : 178.6961
+HEADER 10 - Pocket volume (convex hull)       : 2.6697
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1333
+ATOM   4083   CB ASP B1012     -12.237   4.501  -0.620  0.00  0.00           C 0
+ATOM   4091  ND2 ASN B1013     -13.877  10.213  -3.185  0.18  6.56           N 0
+ATOM   4081    C ASP B1012     -11.844   5.668  -2.797  0.00  0.00           C 0
+ATOM   4082    O ASP B1012     -12.569   5.296  -3.727  0.54  4.29           O 0
+ATOM   4089   CG ASN B1013     -12.815   9.999  -2.416  0.00  0.00           C 0
+ATOM   4090  OD1 ASN B1013     -12.784  10.302  -1.230  0.00  0.00           O 0
+ATOM   4084    N ASN B1013     -11.501   6.953  -2.632  0.00  0.00           N 0
+ATOM   4060   CA THR B1009     -10.824   7.721   2.100  0.00  0.00           C 0
+ATOM   4065  CG2 THR B1009     -12.045   9.901   1.963  0.00  0.00           C 0
+ATOM   4064  OG1 THR B1009     -12.030   8.587   4.001  0.43  4.29           O 0
+ATOM   4057    O GLU B1008     -10.133   5.100   1.514  0.00  0.00           O 0
+ATOM   4058   CB GLU B1008     -10.176   4.186   4.704  0.00  0.00           C 0
+ATOM   4062    O THR B1009     -10.582   8.170  -0.238  0.00  0.00           O 0
+ATOM   4056    C GLU B1008      -9.853   5.543   2.631  0.00  0.00           C 0
+ATOM   4059    N THR B1009     -10.093   6.813   2.985  0.00  0.00           N 0
+TER
+END

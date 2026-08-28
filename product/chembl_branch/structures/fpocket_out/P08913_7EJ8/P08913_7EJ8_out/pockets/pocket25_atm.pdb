@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    25:
+HEADER 0  - Pocket Score                      : -0.0233
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.1367
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6135
+HEADER 5  - Mean B-factor of pocket residues  : 0.1176
+HEADER 6  - Hydrophobicity Score              : 39.5714
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 256.6260
+HEADER 10 - Pocket volume (convex hull)       : 9.0864
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.2000
+ATOM   2033   CB THR B  47     124.517 109.857  95.440  0.00  0.00           C 0
+ATOM   2034  OG1 THR B  47     124.625 108.448  95.664  0.00  0.00           O 0
+ATOM   2029    N THR B  47     126.763 109.804  94.480  0.00  0.00           N 0
+ATOM   2023   CG ARG B  46     129.686 111.412  95.703  0.00  0.00           C 0
+ATOM   2032    O THR B  47     125.969 112.501  94.866  0.61  7.50           O 0
+ATOM   4043   CB ALA B 309     127.074 103.301  98.654  0.00  0.00           C 0
+ATOM   4269  CH2 TRP B 339     125.490 105.370  94.910  0.00  0.00           C 0
+ATOM   4268  CZ3 TRP B 339     126.613 106.035  94.421  0.00  0.00           C 0
+ATOM   2013    O MET B  45     130.663 107.373  94.248  0.56  5.36           O 0
+ATOM   2008  OE1 GLN B  44     133.289 105.924  95.285  0.24  8.57           O 0
+ATOM   2028  NH2 ARG B  46     132.304 110.134  97.006  0.50  8.75           N 0
+ATOM   4039    N ALA B 309     127.339 102.354  96.408  0.71  3.28           N 0
+ATOM   4027    O VAL B 307     130.784 101.716  93.766  0.27  7.50           O 0
+ATOM   2019   CA ARG B  46     129.113 109.642  93.954  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : -0.0220
+HEADER 1  - Drug Score                        : 0.0012
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.8825
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6783
+HEADER 5  - Mean B-factor of pocket residues  : 0.1359
+HEADER 6  - Hydrophobicity Score              : 2.1667
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 221.7847
+HEADER 10 - Pocket volume (convex hull)       : 3.4429
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.6111
+ATOM   2538   CE LYS A1134     -33.375 -18.491 101.957  0.00  0.00           C 0
+ATOM   2516  OD1 ASN A1131     -34.943 -18.688  99.048  0.55  3.21           O 0
+ATOM   2539   NZ LYS A1134     -34.841 -18.758 101.974  0.00  0.00           N 0
+ATOM   2508  CG1 VAL A1130     -30.980 -14.392  99.435  0.00  0.00           C 0
+ATOM   2489   CG GLU A1127     -35.764 -11.417  95.707  0.00  0.00           C 0
+ATOM   2507   CB VAL A1130     -30.694 -14.126  97.964  0.00  0.00           C 0
+ATOM   2509  CG2 VAL A1130     -29.844 -12.876  97.806  0.00  0.00           C 0
+ATOM   2485   CA GLU A1127     -33.945 -13.072  95.011  0.00  0.00           C 0
+ATOM   2488   CB GLU A1127     -35.440 -12.772  95.103  0.00  0.00           C 0
+ATOM   2491  OE1 GLU A1127     -37.834 -11.622  96.856  0.46  9.64           O 0
+ATOM   2484    N GLU A1127     -33.333 -12.240  93.980  0.00  0.00           N 0
+ATOM   2487    O GLU A1127     -33.528 -15.341  95.675  0.00  0.00           O 0
+ATOM   2414   SD MET A1119     -37.086 -15.935  94.933  0.00  0.00           S 0
+ATOM   2478    C ASP A1126     -32.005 -12.202  93.840  0.00  0.00           C 0
+ATOM   2480   CB ASP A1126     -31.438  -9.858  93.124  0.00  0.00           C 0
+ATOM   2479    O ASP A1126     -31.243 -12.847  94.576  0.55  2.14           O 0
+TER
+END

@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    80:
+HEADER 0  - Pocket Score                      : -0.0695
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.0387
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6872
+HEADER 5  - Mean B-factor of pocket residues  : 0.5152
+HEADER 6  - Hydrophobicity Score              : 5.5000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 171.3425
+HEADER 10 - Pocket volume (convex hull)       : 1.5800
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.6111
+ATOM  15325  OE1 GLN H  42     139.511 170.164 112.817  0.56  4.29           O 0
+ATOM  15404   CE MET H  52     136.688 173.285 107.668  0.00  0.00           C 0
+ATOM  15288   CE MET H  37     139.928 171.953 109.127  0.00  0.00           C 0
+ATOM  15370  OE1 GLU H  48     136.047 167.569 105.499  0.48  2.14           O 0
+ATOM  15336   CA PRO H  44     139.956 168.293 105.663  0.00  0.00           C 0
+ATOM  15322   CB GLN H  42     142.047 168.521 110.919  0.00  0.00           C 0
+ATOM  15324   CD GLN H  42     140.649 170.017 112.374  0.00  0.00           C 0
+ATOM  15339   CB PRO H  44     140.014 169.777 106.035  0.00  0.00           C 0
+ATOM  15323   CG GLN H  42     141.243 168.638 112.197  0.00  0.00           C 0
+ATOM  15329    C ASN H  43     141.197 166.442 106.617  0.00  0.00           C 0
+ATOM  15335    N PRO H  44     141.141 167.740 106.328  0.00  0.00           N 0
+ATOM  15327    N ASN H  43     142.312 166.326 108.760  0.62  2.19           N 0
+ATOM  15330    O ASN H  43     140.283 165.670 106.298  0.00  0.00           O 0
+TER
+END

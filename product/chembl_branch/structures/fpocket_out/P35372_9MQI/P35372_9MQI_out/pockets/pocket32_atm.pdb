@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    32:
+HEADER 0  - Pocket Score                      : -0.0017
+HEADER 1  - Drug Score                        : 0.0123
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.8891
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6528
+HEADER 5  - Mean B-factor of pocket residues  : 0.6018
+HEADER 6  - Hydrophobicity Score              : 57.4286
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 167.8439
+HEADER 10 - Pocket volume (convex hull)       : 3.9455
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 17.0000
+HEADER 13 - Number of apolar alpha sphere     :    18
+HEADER 14 - Proportion of apolar alpha sphere : 0.9474
+ATOM    305  CD2 PHE A 110     159.221 139.688 171.518  0.00  0.00           C 0
+ATOM    306  CE1 PHE A 110     158.942 137.207 170.355  0.00  0.00           C 0
+ATOM    209   CB VAL A  96     162.102 135.359 167.959  0.00  0.00           C 0
+ATOM    307  CE2 PHE A 110     159.815 138.584 172.098  0.00  0.00           C 0
+ATOM    308   CZ PHE A 110     159.674 137.342 171.516  0.00  0.00           C 0
+ATOM    203  CG2 ILE A  95     159.066 139.368 166.424  0.00  0.00           C 0
+ATOM    206   CA VAL A  96     162.034 135.997 166.562  0.00  0.00           C 0
+ATOM    303   CG PHE A 110     158.478 139.566 170.355  0.00  0.00           C 0
+ATOM    276  CG2 ILE A 107     160.973 145.060 169.973  0.00  0.00           C 0
+ATOM    271   CA ILE A 107     159.242 144.438 168.259  0.00  0.00           C 0
+ATOM    304  CD1 PHE A 110     158.347 138.314 169.779  0.00  0.00           C 0
+ATOM    890   CE LYS A 187     166.190 144.196 170.071  0.00  0.00           C 0
+ATOM    242   CB LYS A 102     164.548 142.346 163.733  0.00  0.00           C 0
+ATOM    277  CD1 ILE A 107     162.671 146.193 167.742  0.00  0.00           C 0
+ATOM    891   NZ LYS A 187     167.244 144.278 169.022  0.86  8.75           N 0
+ATOM    233    O MET A 101     160.942 140.917 163.325  0.72  1.07           O 0
+ATOM    200    O ILE A  95     161.224 137.793 164.672  0.50  3.21           O 0
+ATOM    275  CG1 ILE A 107     161.503 145.264 167.531  0.00  0.00           C 0
+ATOM    239   CA LYS A 102     163.095 142.693 163.410  0.00  0.00           C 0
+ATOM    302   CB PHE A 110     157.840 140.775 169.731  0.00  0.00           C 0
+TER
+END

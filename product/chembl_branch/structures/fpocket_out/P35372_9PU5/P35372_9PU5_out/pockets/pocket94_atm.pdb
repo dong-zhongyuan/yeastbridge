@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    94:
+HEADER 0  - Pocket Score                      : -0.0966
+HEADER 1  - Drug Score                        : 0.0065
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.7636
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7061
+HEADER 5  - Mean B-factor of pocket residues  : 0.0380
+HEADER 6  - Hydrophobicity Score              : 37.4000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 176.2584
+HEADER 10 - Pocket volume (convex hull)       : 2.5055
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 11.8462
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.8667
+ATOM   5743   CG ARG R 184     149.566 123.790 119.835  0.00  0.00           C 0
+ATOM   5766   CB LYS R 187     147.344 129.062 120.626  0.00  0.00           C 0
+ATOM   5776  CG1 ILE R 188     144.805 124.387 120.724  0.00  0.00           C 0
+ATOM   5741    O ARG R 184     147.789 125.764 121.891  0.00  0.00           O 0
+ATOM   5801  CG2 VAL R 191     142.176 130.026 119.054  0.00  0.00           C 0
+ATOM   5764    C LYS R 187     145.189 128.508 121.780  0.00  0.00           C 0
+ATOM   5765    O LYS R 187     144.157 129.131 121.500  0.00  0.00           O 0
+ATOM   5771    N ILE R 188     145.189 127.192 121.999  0.00  0.00           N 0
+ATOM   5769   CE LYS R 187     150.425 128.923 119.491  0.00  0.00           C 0
+ATOM   5768   CD LYS R 187     149.256 129.843 119.216  0.00  0.00           C 0
+ATOM   5772   CA ILE R 188     143.946 126.429 121.907  0.00  0.00           C 0
+ATOM   5777  CG2 ILE R 188     142.966 124.177 122.396  0.00  0.00           C 0
+ATOM   5800  CG1 VAL R 191     140.016 128.798 118.908  0.00  0.00           C 0
+ATOM   5799   CB VAL R 191     141.115 129.278 119.831  0.00  0.00           C 0
+ATOM   5774    O ILE R 188     141.757 127.078 122.676  0.60  1.07           O 0
+ATOM   5807   SG CYS R 192     138.822 125.431 123.100  0.00  0.00           S 0
+TER
+END

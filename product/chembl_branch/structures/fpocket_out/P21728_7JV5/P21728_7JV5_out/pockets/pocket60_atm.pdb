@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    60:
+HEADER 0  - Pocket Score                      : -0.0937
+HEADER 1  - Drug Score                        : 0.0008
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.9233
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5960
+HEADER 5  - Mean B-factor of pocket residues  : 0.6287
+HEADER 6  - Hydrophobicity Score              : 20.6667
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 6.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 248.7806
+HEADER 10 - Pocket volume (convex hull)       : 5.2841
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM   2676  NH1 ARG A  61      94.226 104.957 144.245  0.00  0.00           N 0
+ATOM   2675   CZ ARG A  61      95.440 105.325 143.860  0.00  0.00           C 0
+ATOM   2685  CD1 ILE A  62      94.448 112.686 143.985  0.00  0.00           C 0
+ATOM   2677  NH2 ARG A  61      96.453 105.249 144.713  0.62  8.75           N 0
+ATOM   2674   NE ARG A  61      95.642 105.768 142.624  0.76  4.37           N 0
+ATOM   2683  CG1 ILE A  62      94.089 112.084 142.645  0.00  0.00           C 0
+ATOM   2671   CB ARG A  61      96.063 108.152 140.793  0.00  0.00           C 0
+ATOM   2670    O ARG A  61      93.748 109.760 139.022  0.60  7.50           O 0
+ATOM   2673   CD ARG A  61      96.939 106.196 142.108  0.00  0.00           C 0
+ATOM   2647   CD LYS A  58     100.980 110.406 146.581  0.00  0.00           C 0
+ATOM   2645   CB LYS A  58     100.251 110.760 144.202  0.00  0.00           C 0
+ATOM   2646   CG LYS A  58     100.480 109.742 145.310  0.00  0.00           C 0
+ATOM   2644    O LYS A  58      97.891 111.393 141.999  0.69  1.07           O 0
+ATOM   2642   CA LYS A  58      99.738 110.145 142.899  0.00  0.00           C 0
+TER
+END

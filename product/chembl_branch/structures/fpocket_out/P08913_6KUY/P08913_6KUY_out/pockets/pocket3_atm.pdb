@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     3:
+HEADER 0  - Pocket Score                      : 0.0586
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0471
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6788
+HEADER 5  - Mean B-factor of pocket residues  : 0.2346
+HEADER 6  - Hydrophobicity Score              : -10.8000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 323.9685
+HEADER 10 - Pocket volume (convex hull)       : 11.8848
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.2000
+ATOM   2013   CG GLN A1088     -13.569   8.711   0.632  0.00  0.00           C 0
+ATOM   2021   CB ALA A1089     -11.820   4.698  -1.931  0.00  0.00           C 0
+ATOM   1988    O LYS A1085     -14.199   7.115  -2.108  0.00  0.00           O 0
+ATOM   2017    N ALA A1089     -11.326   6.808  -0.793  0.00  0.00           N 0
+ATOM   2039  OE1 GLU A1092      -6.731   4.384   4.942  0.68  4.29           O 0
+ATOM   1492   CD GLU A1018     -11.849   6.947   5.819  0.00  0.00           C 0
+ATOM   1493  OE1 GLU A1018     -12.975   6.410   5.784  0.00  0.00           O 0
+ATOM   2040  OE2 GLU A1092      -6.288   2.253   5.141  0.00  0.00           O 0
+ATOM   2014   CD GLN A1088     -14.764   9.452   1.199  0.00  0.00           C 0
+ATOM   2015  OE1 GLN A1088     -15.918   9.133   0.896  0.60  7.50           O 0
+ATOM   2038   CD GLU A1092      -6.594   3.246   4.452  0.00  0.00           C 0
+ATOM   2018   CA ALA A1089     -10.871   5.434  -0.982  0.00  0.00           C 0
+ATOM   1494  OE2 GLU A1018     -11.079   6.965   4.835  0.65  2.14           O 0
+ATOM   2036   CB GLU A1092      -7.300   4.322   2.253  0.00  0.00           C 0
+ATOM   2011    O GLN A1088      -9.712   7.285   0.702  0.00  0.00           O 0
+ATOM   2037   CG GLU A1092      -6.816   3.054   2.958  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   110:
+HEADER 0  - Pocket Score                      : -0.1379
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.8692
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5115
+HEADER 5  - Mean B-factor of pocket residues  : 0.9236
+HEADER 6  - Hydrophobicity Score              : -0.3333
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 154.7718
+HEADER 10 - Pocket volume (convex hull)       : 2.4512
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0588
+ATOM    956  CD1 ILE A 253     182.769 121.900 137.429  0.00  0.00           C 0
+ATOM    978  ND2 ASN A 256     182.191 125.625 134.782  0.85  3.28           N 0
+ATOM    601   NE ARG A 208     186.265 120.373 136.397  0.58  1.09           N 0
+ATOM    598   CB ARG A 208     186.393 120.668 133.639  0.00  0.00           C 0
+ATOM    604  NH2 ARG A 208     187.801 121.505 137.665  0.00  0.00           N 0
+ATOM    947   CB SER A 252     186.178 124.836 139.827  0.00  0.00           C 0
+ATOM    593  OE2 GLU A 207     189.573 123.112 132.483  0.62  8.57           O 1
+ATOM    612   CE LYS A 209     184.959 127.547 133.176  0.00  0.00           C 0
+ATOM    609   CB LYS A 209     186.745 125.529 131.438  0.00  0.00           C 0
+ATOM    948   OG SER A 252     185.884 123.450 139.868  0.00  0.00           O 0
+ATOM    605    N LYS A 209     186.509 123.097 131.552  0.72  2.19           N 0
+ATOM    606   CA LYS A 209     185.840 124.332 131.154  0.00  0.00           C 0
+ATOM    946    O SER A 252     183.287 126.230 138.970  0.00  0.00           O 0
+TER
+END

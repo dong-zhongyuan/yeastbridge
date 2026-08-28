@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : 0.0469
+HEADER 1  - Drug Score                        : 0.0042
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.7384
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4005
+HEADER 5  - Mean B-factor of pocket residues  : 0.3269
+HEADER 6  - Hydrophobicity Score              : 55.0909
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.6364
+HEADER 9  - Pocket volume (Monte Carlo)       : 124.6619
+HEADER 10 - Pocket volume (convex hull)       : 2.0444
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 20.0000
+HEADER 13 - Number of apolar alpha sphere     :    21
+HEADER 14 - Proportion of apolar alpha sphere : 0.9545
+ATOM  15136   CZ PHE F 679     238.728 171.695 210.705  0.00  0.00           C 0
+ATOM  14988  CG2 ILE F 661     239.717 171.361 215.076  0.00  0.00           C 0
+ATOM  15006   CB ARG F 664     237.911 177.157 212.444  0.00  0.00           C 0
+ATOM  14993    O ALA F 662     237.062 173.174 213.860  0.49  1.07           O 0
+ATOM  15008   CD ARG F 664     237.958 177.445 214.935  0.00  0.00           C 0
+ATOM  15264  CD2 LEU F 701     241.257 178.628 213.211  0.00  0.00           C 0
+ATOM  15170  CE2 PHE F 683     244.665 172.873 212.034  0.00  0.00           C 0
+ATOM  15168  CD2 PHE F 683     244.138 171.796 211.361  0.00  0.00           C 0
+ATOM  15005    O ARG F 664     238.561 175.910 209.646  0.30  3.21           O 0
+ATOM  15025   CB TYR F 666     242.557 176.465 207.764  0.00  0.00           C 0
+ATOM  15054  OD2 ASP F 669     242.047 171.576 207.334  0.73  2.14           O 0
+ATOM  15298  CG2 VAL F 705     242.107 174.968 217.678  0.00  0.00           C 0
+ATOM  15562    O GLY F 738     238.109 175.806 217.332  0.00  0.00           O 0
+ATOM  15297  CG1 VAL F 705     243.917 175.760 216.178  0.00  0.00           C 0
+ATOM  15272  CD1 ILE F 702     244.152 176.406 211.859  0.00  0.00           C 0
+ATOM  15171   CZ PHE F 683     244.876 172.797 213.391  0.00  0.00           C 0
+TER
+END

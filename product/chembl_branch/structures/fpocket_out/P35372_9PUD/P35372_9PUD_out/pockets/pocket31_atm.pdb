@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    31:
+HEADER 0  - Pocket Score                      : -0.0033
+HEADER 1  - Drug Score                        : 0.0008
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.6193
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3672
+HEADER 5  - Mean B-factor of pocket residues  : 0.8228
+HEADER 6  - Hydrophobicity Score              : 19.1250
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.3750
+HEADER 9  - Pocket volume (Monte Carlo)       : 86.5901
+HEADER 10 - Pocket volume (convex hull)       : 0.4905
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.5625
+ATOM   7971   CB SER C 246     119.669  81.236 154.970  0.00  0.00           C 0
+ATOM   7821    O ALA C 226     115.803  83.712 160.328  0.58  3.21           O 0
+ATOM   7822   CB ALA C 226     113.999  84.072 158.032  0.00  0.00           C 0
+ATOM   7841   CB ASP C 229     113.956  80.690 159.459  0.00  0.00           C 0
+ATOM   7844  OD2 ASP C 229     112.843  80.931 157.351  0.00  0.00           O 1
+ATOM   7818    N ALA C 226     116.031  85.454 157.915  0.88  1.09           N 0
+ATOM   7972   OG SER C 246     119.717  82.579 154.510  0.00  0.00           O 0
+ATOM   7816  CG1 VAL C 225     119.141  85.548 159.054  0.00  0.00           C 0
+ATOM   7936    O ARG C 242     118.403  78.063 156.212  0.70  1.07           O 0
+ATOM   7352   CB ALA C  41     116.530  81.131 152.674  0.00  0.00           C 0
+ATOM   7370   CB SER C  44     114.387  84.798 154.176  0.00  0.00           C 0
+ATOM   7945   CA MET C 243     119.117  79.066 158.635  0.00  0.00           C 0
+ATOM   7948   CB MET C 243     119.045  79.596 160.074  0.00  0.00           C 0
+TER
+END

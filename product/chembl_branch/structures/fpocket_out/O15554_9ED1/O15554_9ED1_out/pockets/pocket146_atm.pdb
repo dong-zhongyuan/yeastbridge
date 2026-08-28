@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   146:
+HEADER 0  - Pocket Score                      : -0.2514
+HEADER 1  - Drug Score                        : 0.0016
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.1483
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5434
+HEADER 5  - Mean B-factor of pocket residues  : 0.7822
+HEADER 6  - Hydrophobicity Score              : 37.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 6.2500
+HEADER 9  - Pocket volume (Monte Carlo)       : 253.2459
+HEADER 10 - Pocket volume (convex hull)       : 1.5474
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.8333
+ATOM   7569   CB LEU C 289     228.302 212.085 200.525  0.00  0.00           C 0
+ATOM   7566   CA LEU C 289     228.140 213.042 199.340  0.00  0.00           C 0
+ATOM   7558    C LYS C 288     227.936 215.473 199.275  0.00  0.00           C 0
+ATOM   7559    O LYS C 288     228.732 215.547 198.333  0.68  7.50           O 0
+ATOM   9638  CZ3 TRP D 193     234.373 212.474 202.567  0.00  0.00           C 0
+ATOM   7560   CB LYS C 288     227.981 216.962 201.293  0.00  0.00           C 0
+ATOM   7572  CD2 LEU C 289     227.626 211.291 202.805  0.00  0.00           C 0
+ATOM   9639  CH2 TRP D 193     234.838 213.438 203.471  0.00  0.00           C 0
+ATOM   9671   NZ LYS D 197     231.071 211.610 198.337  0.75  1.09           N 0
+ATOM   7563   CE LYS C 288     230.131 219.184 201.164  0.00  0.00           C 0
+ATOM   7565    N LEU C 289     227.544 214.303 199.773  0.00  0.00           N 0
+ATOM   9670   CE LYS D 197     232.356 211.437 197.607  0.00  0.00           C 0
+ATOM   9636  CE3 TRP D 193     235.131 212.094 201.474  0.00  0.00           C 0
+ATOM   9635  CE2 TRP D 193     236.821 213.657 202.210  0.00  0.00           C 0
+ATOM   9637  CZ2 TRP D 193     236.056 214.039 203.311  0.00  0.00           C 0
+ATOM   7564   NZ LYS C 288     230.915 220.188 200.395  0.00  0.00           N 0
+TER
+END

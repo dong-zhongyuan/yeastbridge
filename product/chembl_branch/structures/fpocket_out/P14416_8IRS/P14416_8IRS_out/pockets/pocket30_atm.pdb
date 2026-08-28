@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    30:
+HEADER 0  - Pocket Score                      : -0.0614
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.9612
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5490
+HEADER 5  - Mean B-factor of pocket residues  : 0.1177
+HEADER 6  - Hydrophobicity Score              : 34.2857
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 264.7040
+HEADER 10 - Pocket volume (convex hull)       : 11.5207
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1053
+ATOM   5095    O PRO B  94     114.441  79.479  85.047  0.47  6.43           O 0
+ATOM   5130   CG ARG B  96     115.826  79.576  79.760  0.00  0.00           C 0
+ATOM   5135  NH2 ARG B  96     118.649  77.742  80.235  0.00  0.00           N 0
+ATOM   5528   OH TYR B 124     112.619  77.096  82.112  0.91  1.07           O 0
+ATOM   5713  CG2 VAL B 135     115.361  74.347  81.067  0.00  0.00           C 0
+ATOM   5670    O VAL B 133     116.488  73.406  87.692  0.00  0.00           O 0
+ATOM   5684   CA ARG B 134     116.715  71.982  85.278  0.00  0.00           C 0
+ATOM   5687   CB ARG B 134     118.196  71.590  85.246  0.00  0.00           C 0
+ATOM   5525  CE1 TYR B 124     113.210  75.229  83.475  0.00  0.00           C 0
+ATOM   5707    N VAL B 135     116.221  72.155  82.915  0.75  1.09           N 0
+ATOM   5134  NH1 ARG B  96     118.264  75.879  79.065  0.44  9.84           N 1
+ATOM   5079  CG2 ILE B  93     111.878  76.398  86.639  0.00  0.00           C 0
+ATOM   5710    O VAL B 135     117.207  70.279  80.935  0.37  5.36           O 0
+ATOM   5098   CD PRO B  94     114.794  78.965  88.483  0.00  0.00           C 0
+ATOM   5097   CG PRO B  94     115.910  79.801  87.869  0.00  0.00           C 0
+ATOM   5711   CB VAL B 135     115.872  72.983  80.619  0.00  0.00           C 0
+TER
+END

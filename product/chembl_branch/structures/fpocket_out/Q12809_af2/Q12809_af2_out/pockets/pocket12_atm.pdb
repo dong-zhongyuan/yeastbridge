@@ -1,0 +1,45 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    12:
+HEADER 0  - Pocket Score                      : -0.0448
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    30
+HEADER 3  - Mean alpha-sphere radius          : 3.9922
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6758
+HEADER 5  - Mean B-factor of pocket residues  : 0.0992
+HEADER 6  - Hydrophobicity Score              : 6.8333
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 429.0023
+HEADER 10 - Pocket volume (convex hull)       : 41.7123
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 2.4000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.1667
+ATOM   1083    N VAL A 138       4.468  65.023  32.257  0.66  3.28           N 0
+ATOM   1086   CB VAL A 138       6.927  65.355  32.651  0.00  0.00           C 0
+ATOM   1073  OD1 ASP A 136       4.042  63.451  26.053  0.00  0.00           O 0
+ATOM   1087    O VAL A 138       5.618  67.701  31.485  0.75  3.21           O 0
+ATOM   1091   CA GLY A 139       4.335  69.474  33.187  0.00  0.00           C 0
+ATOM   1071    O ASP A 136       0.851  63.283  29.833  0.26  4.29           O 0
+ATOM   1085    C VAL A 138       5.288  67.295  32.596  0.00  0.00           C 0
+ATOM   1076   CA MET A 137       2.513  63.543  32.047  0.00  0.00           C 0
+ATOM   1093    O GLY A 139       2.488  70.605  34.213  0.00  0.00           O 0
+ATOM   1070   CB ASP A 136       1.916  63.437  27.194  0.00  0.00           C 0
+ATOM   1072   CG ASP A 136       2.806  63.664  25.954  0.00  0.00           C 0
+ATOM   1075    N MET A 137       2.874  62.972  30.731  0.58  7.66           N 0
+ATOM   1089  CG2 VAL A 138       7.157  63.893  33.059  0.00  0.00           C 0
+ATOM   1090    N GLY A 139       4.717  68.093  33.504  0.00  0.00           N 0
+ATOM   1077    C MET A 137       3.730  64.070  32.838  0.00  0.00           C 0
+ATOM   1080   CG MET A 137       0.986  63.271  34.074  0.00  0.00           C 0
+ATOM   1069    C ASP A 136       2.027  62.966  29.687  0.00  0.00           C 0
+ATOM   1081   SD MET A 137      -0.823  63.169  34.187  0.00  0.00           S 0
+ATOM   1068   CA ASP A 136       2.572  62.562  28.296  0.00  0.00           C 0
+ATOM   1063   CG LYS A 135       5.039  59.309  25.552  0.00  0.00           C 0
+ATOM   1067    N ASP A 136       2.383  61.112  28.083  0.66  2.19           N 0
+ATOM   1053    O GLU A 134       2.855  56.901  28.993  0.35  5.36           O 0
+ATOM   1059   CA LYS A 135       3.042  58.994  27.101  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    71:
+HEADER 0  - Pocket Score                      : -0.0876
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.6387
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3015
+HEADER 5  - Mean B-factor of pocket residues  : 0.3651
+HEADER 6  - Hydrophobicity Score              : 36.9231
+HEADER 7  - Polarity Score                    :    10
+HEADER 8  - Amino Acid based volume Score     : 5.6923
+HEADER 9  - Pocket volume (Monte Carlo)       : 293.5146
+HEADER 10 - Pocket volume (convex hull)       : 45.3682
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2000
+ATOM   2578  CE1 PHE A 364     250.448 201.557 215.318  0.00  0.00           C 0
+ATOM   3652    O ALA A 499     243.334 203.647 216.570  0.44  8.57           O 0
+ATOM   2607  CE2 PHE A 367     246.872 199.976 212.754  0.00  0.00           C 0
+ATOM   3653   CB ALA A 499     243.206 201.125 214.944  0.00  0.00           C 0
+ATOM   4860  CZ2 TRP A 647     245.251 200.636 221.542  0.00  0.00           C 0
+ATOM   2185   OH TYR A 316     248.657 203.885 220.192  0.00  0.00           O 0
+ATOM   4857  NE1 TRP A 647     245.031 199.156 219.535  0.79  3.28           N 0
+ATOM   2168  NE1 TRP A 315     248.634 199.780 218.662  0.61  2.19           N 0
+ATOM   2171  CZ2 TRP A 315     247.707 198.100 217.061  0.00  0.00           C 0
+ATOM   4823  NH1 ARG A 643     242.809 203.997 221.842  0.41  5.47           N 0
+ATOM   3667   OG SER A 501     243.029 208.159 219.248  0.29  9.64           O 0
+ATOM   4862  CH2 TRP A 647     245.205 200.617 222.906  0.00  0.00           C 0
+ATOM   2244  NH2 ARG A 323     248.357 205.122 224.759  0.61  4.37           N 0
+ATOM  18011  ND2 ASN D 235     246.145 208.677 223.807  0.40  7.66           N 0
+ATOM   2311   NZ LYS A 330     250.588 210.182 219.652  0.00  0.00           N 0
+ATOM   2226  CD1 TRP A 322     252.403 206.190 219.419  0.00  0.00           C 0
+ATOM   2241   NE ARG A 323     249.475 207.119 224.873  0.61  1.09           N 0
+ATOM   2223    O TRP A 322     253.202 208.176 221.514  0.00  0.00           O 0
+ATOM  18020  OE2 GLU D 236     245.295 204.377 227.167  0.61  3.21           O 0
+TER
+END

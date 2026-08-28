@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    20:
+HEADER 0  - Pocket Score                      : -0.0166
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9044
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5689
+HEADER 5  - Mean B-factor of pocket residues  : 0.3612
+HEADER 6  - Hydrophobicity Score              : 37.8571
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 244.8041
+HEADER 10 - Pocket volume (convex hull)       : 11.8650
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.6000
+ATOM  12045  CD1 LEU D 203     106.331 155.391 149.568  0.00  0.00           C 0
+ATOM  12219  OE1 GLU D 226     105.137 155.947 142.504  0.64  4.29           O 0
+ATOM  12192  CD1 LEU D 223     106.618 151.564 145.617  0.00  0.00           C 0
+ATOM  12220  OE2 GLU D 226     104.055 154.068 142.157  0.14  5.36           O 0
+ATOM  12046  CD2 LEU D 203     106.092 153.977 151.620  0.00  0.00           C 0
+ATOM     17  CG1 ILE A  18     101.728 156.959 152.561  0.00  0.00           C 0
+ATOM     19  CD1 ILE A  18     103.040 157.537 152.147  0.00  0.00           C 0
+ATOM  12024   OH TYR D 200     107.056 157.687 143.525  0.24  1.07           O 0
+ATOM  11789   CG PRO D 171     106.715 159.560 146.637  0.00  0.00           C 0
+ATOM  11787    O PRO D 171     104.332 161.367 145.585  0.66  4.29           O 0
+ATOM  11790   CD PRO D 171     105.831 159.839 147.832  0.00  0.00           C 0
+ATOM  11778   CG ARG D 170     101.598 160.431 148.544  0.00  0.00           C 0
+ATOM  11779   CD ARG D 170     100.813 159.590 149.545  0.00  0.00           C 0
+ATOM  12021  CE1 TYR D 200     108.226 155.940 144.645  0.00  0.00           C 0
+TER
+END

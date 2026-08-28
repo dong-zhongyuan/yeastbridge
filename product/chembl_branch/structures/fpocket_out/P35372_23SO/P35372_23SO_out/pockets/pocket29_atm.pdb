@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    29:
+HEADER 0  - Pocket Score                      : -0.0207
+HEADER 1  - Drug Score                        : 0.0018
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.6239
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3879
+HEADER 5  - Mean B-factor of pocket residues  : 0.1296
+HEADER 6  - Hydrophobicity Score              : 65.1429
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 148.6920
+HEADER 10 - Pocket volume (convex hull)       : 2.8793
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.6471
+ATOM   5549  CD2 LEU R  76     127.017 119.288 150.351  0.00  0.00           C 0
+ATOM   7526   CB PHE R 322     130.103 118.129 146.621  0.00  0.00           C 0
+ATOM   7528  CD1 PHE R 322     130.008 117.118 148.915  0.00  0.00           C 0
+ATOM   7490  CG1 VAL R 318     126.549 115.709 143.798  0.00  0.00           C 0
+ATOM   5526  CG1 ILE R  73     123.316 120.133 145.061  0.00  0.00           C 0
+ATOM   7488    O VAL R 318     128.276 118.431 143.845  0.63  1.07           O 0
+ATOM   7522    N PHE R 322     129.351 120.305 145.784  0.00  0.00           N 0
+ATOM   5520  CG2 THR R  72     122.227 115.861 148.577  0.00  0.00           C 0
+ATOM   5522   CA ILE R  73     122.301 120.539 147.334  0.00  0.00           C 0
+ATOM   7516   CB HIS R 321     126.930 122.150 144.598  0.00  0.00           C 0
+ATOM   5524    O ILE R  73     122.617 122.228 149.021  0.00  0.00           O 0
+ATOM   5527  CG2 ILE R  73     122.941 122.480 145.855  0.00  0.00           C 0
+ATOM   5517    O THR R  72     121.881 118.963 149.554  0.00  0.00           O 0
+ATOM   7515    O HIS R 321     129.155 122.229 146.936  0.90  1.07           O 0
+ATOM   5559  CE2 TYR R  77     125.265 124.971 147.124  0.00  0.00           C 0
+ATOM   5557  CD2 TYR R  77     124.372 124.790 148.163  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    12:
+HEADER 0  - Pocket Score                      : 0.0687
+HEADER 1  - Drug Score                        : 0.0010
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.6968
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4041
+HEADER 5  - Mean B-factor of pocket residues  : 0.5895
+HEADER 6  - Hydrophobicity Score              : 54.6667
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 122.4669
+HEADER 10 - Pocket volume (convex hull)       : 3.0764
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.4762
+ATOM   1614    N PHE R 396     104.809 139.676 117.465  0.74  1.09           N 0
+ATOM   1911  OD1 ASN R 432     104.831 136.269 122.213  0.47  1.07           O 0
+ATOM   1613   CB ALA R 395     102.398 137.965 116.403  0.00  0.00           C 0
+ATOM   1940  OD1 ASN R 436     105.650 133.362 120.993  0.58  3.21           O 0
+ATOM   1588    O ILE R 392     106.002 138.336 115.134  0.62  3.21           O 0
+ATOM   1959   SG CYS R 439     103.492 134.110 114.549  0.00  0.00           S 0
+ATOM   1932  CG2 ILE R 435     101.420 135.398 120.352  0.00  0.00           C 0
+ATOM   1618   CB PHE R 396     107.174 139.541 118.048  0.00  0.00           C 0
+ATOM   1615   CA PHE R 396     105.787 139.959 118.505  0.00  0.00           C 0
+ATOM   1591  CG2 ILE R 392     108.117 136.151 113.913  0.00  0.00           C 0
+ATOM    684  CD2 LEU R 114     111.194 136.047 118.256  0.00  0.00           C 0
+ATOM    683  CD1 LEU R 114     109.707 135.120 119.971  0.00  0.00           C 0
+ATOM   1969  CE2 TYR R 440     108.785 132.795 117.154  0.00  0.00           C 0
+ATOM   1929    O ILE R 435     101.605 132.542 118.720  0.00  0.00           O 0
+ATOM   1958   CB CYS R 439     103.097 132.786 115.700  0.00  0.00           C 0
+ATOM   1967  CD2 TYR R 440     107.997 131.698 117.349  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    23:
+HEADER 0  - Pocket Score                      : -0.0343
+HEADER 1  - Drug Score                        : 0.0010
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.8846
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5609
+HEADER 5  - Mean B-factor of pocket residues  : 0.2892
+HEADER 6  - Hydrophobicity Score              : 40.6667
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.8889
+HEADER 9  - Pocket volume (Monte Carlo)       : 208.0548
+HEADER 10 - Pocket volume (convex hull)       : 4.8792
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.4444
+ATOM   2763   CA TYR F 130     129.940  93.547 129.633  0.00  0.00           C 0
+ATOM   4301  CE1 HIS F 321     129.033  96.526 133.957  0.00  0.00           C 0
+ATOM   2766   CB TYR F 130     129.054  93.939 130.811  0.00  0.00           C 0
+ATOM   2768  CD1 TYR F 130     130.388  93.185 132.810  0.00  0.00           C 0
+ATOM   2759   CG ASN F 129     131.139  96.627 125.908  0.00  0.00           C 0
+ATOM   2761  ND2 ASN F 129     131.312  97.942 125.927  0.35  8.75           N 0
+ATOM   2760  OD1 ASN F 129     132.079  95.838 125.862  0.26  4.29           O 0
+HETATM 4526   C1 MEA H   4     130.669 101.046 128.967  0.00  0.00           C 0
+ATOM   2762    N TYR F 130     129.464  94.162 128.399  0.74  1.09           N 0
+ATOM   2757    O ASN F 129     131.344  93.595 127.308  0.57  1.07           O 0
+ATOM   2736   CB GLN F 126     125.757  98.961 128.361  0.00  0.00           C 0
+ATOM   2739  OE1 GLN F 126     125.823 101.234 129.986  0.71  1.07           O 0
+ATOM   2359   OH TYR F  77     125.730  98.589 133.367  0.50  1.07           O 0
+ATOM   2735    O GLN F 126     127.181  96.013 128.449  0.51  3.21           O 0
+ATOM   4327  CD1 ILE F 324     127.787 101.417 134.845  0.00  0.00           C 0
+ATOM   4523   CA GLY H   3     129.415 102.845 130.751  0.00  0.00           C 0
+ATOM   4287  NE1 TRP F 320     131.105 100.918 135.253  0.50  6.56           N 0
+TER
+END

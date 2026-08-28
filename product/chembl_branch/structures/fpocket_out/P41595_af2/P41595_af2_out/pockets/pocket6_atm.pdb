@@ -1,0 +1,43 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : 0.0026
+HEADER 1  - Drug Score                        : 0.0054
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.9592
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6911
+HEADER 5  - Mean B-factor of pocket residues  : 0.2542
+HEADER 6  - Hydrophobicity Score              : 54.4000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 299.0153
+HEADER 10 - Pocket volume (convex hull)       : 15.3462
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 12.8571
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.7000
+ATOM   2050    O TRP A 261     -31.418  -1.842  46.745  0.00  0.00           O 0
+ATOM   2055  CE3 TRP A 261     -32.077   1.649  45.513  0.00  0.00           C 0
+ATOM   2060    N LEU A 262     -31.384  -3.376  45.100  0.77  1.09           N 0
+ATOM   2087   OG SER A 265     -33.901  -0.481  48.139  0.65  4.29           O 0
+ATOM   2061   CA LEU A 262     -32.428  -4.234  45.674  0.00  0.00           C 0
+ATOM   2065   CG LEU A 262     -33.875  -4.855  43.660  0.00  0.00           C 0
+ATOM   2067  CD2 LEU A 262     -35.259  -5.341  44.087  0.00  0.00           C 0
+ATOM   2048    C TRP A 261     -30.943  -2.261  45.698  0.00  0.00           C 0
+ATOM   2049   CB TRP A 261     -30.140  -0.636  43.904  0.00  0.00           C 0
+ATOM   2066  CD1 LEU A 262     -33.597  -5.368  42.246  0.00  0.00           C 0
+ATOM   2024    O ARG A 258     -30.145  -3.758  41.998  0.75  1.07           O 0
+ATOM   2027   NE ARG A 258     -31.485  -0.179  37.019  0.00  0.00           N 0
+ATOM   2053  CD2 TRP A 261     -30.821   1.757  44.874  0.00  0.00           C 0
+ATOM   2051   CG TRP A 261     -29.940   0.826  44.167  0.00  0.00           C 0
+ATOM   2025   CG ARG A 258     -30.027  -1.555  38.473  0.00  0.00           C 0
+ATOM   2052  CD1 TRP A 261     -28.837   1.538  43.840  0.00  0.00           C 0
+ATOM   2026   CD ARG A 258     -31.206  -1.544  37.498  0.00  0.00           C 0
+ATOM   2023   CB ARG A 258     -29.835  -2.964  39.041  0.00  0.00           C 0
+ATOM   2028  NH1 ARG A 258     -33.525  -0.609  36.059  0.41  8.75           N 0
+ATOM   2359  CD2 LEU A 301     -35.629  -5.753  38.576  0.00  0.00           C 0
+ATOM   2030   CZ ARG A 258     -32.573   0.221  36.385  0.00  0.00           C 0
+TER
+END

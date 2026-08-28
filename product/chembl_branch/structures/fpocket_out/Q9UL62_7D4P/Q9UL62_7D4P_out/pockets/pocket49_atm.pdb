@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    49:
+HEADER 0  - Pocket Score                      : -0.0287
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.0119
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5737
+HEADER 5  - Mean B-factor of pocket residues  : 0.7032
+HEADER 6  - Hydrophobicity Score              : -5.8333
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 290.3179
+HEADER 10 - Pocket volume (convex hull)       : 8.7319
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1176
+ATOM  12039   CG ASN C 177     104.368 130.584 133.463  0.00  0.00           C 0
+ATOM  12075  CG1 VAL C 182     105.591 126.058 130.026  0.00  0.00           C 0
+ATOM  12038   CB ASN C 177     103.277 130.164 132.496  0.00  0.00           C 0
+ATOM  12040  OD1 ASN C 177     105.552 130.350 133.222  0.64  1.07           O 0
+ATOM  18572    O ARG D 324     109.340 131.743 138.074  0.00  0.00           O 0
+ATOM  18543    O GLY D 321     110.042 128.401 138.185  0.00  0.00           O 0
+ATOM  12041  ND2 ASN C 177     103.971 131.208 134.566  0.00  0.00           N 0
+ATOM  18587   CE LYS D 325     108.637 127.898 141.170  0.00  0.00           C 0
+ATOM  18538   CG PRO D 320     107.252 122.629 136.638  0.00  0.00           C 0
+ATOM  18579  NH2 ARG D 324     108.402 128.017 132.211  0.59  5.47           N 0
+ATOM  18537   CB PRO D 320     108.291 122.399 135.588  0.00  0.00           C 0
+ATOM  18574   CG ARG D 324     109.927 131.004 135.104  0.00  0.00           C 0
+ATOM  18576   NE ARG D 324     108.504 130.012 133.353  0.65  1.09           N 0
+ATOM  18541   CA GLY D 321     109.583 126.579 136.710  0.00  0.00           C 0
+ATOM  18540    N GLY D 321     109.411 125.152 136.897  0.47  1.09           N 0
+ATOM  18535    C PRO D 320     109.918 124.276 136.032  0.00  0.00           C 0
+TER
+END

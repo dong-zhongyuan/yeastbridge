@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    53:
+HEADER 0  - Pocket Score                      : -0.1470
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9743
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6256
+HEADER 5  - Mean B-factor of pocket residues  : 0.9307
+HEADER 6  - Hydrophobicity Score              : 33.6667
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.4444
+HEADER 9  - Pocket volume (Monte Carlo)       : 271.5622
+HEADER 10 - Pocket volume (convex hull)       : 14.1976
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1111
+ATOM   1160  CG1 ILE A 285      89.444  83.342  88.389  0.00  0.00           C 0
+ATOM    763    O TYR A 230      88.292  87.840  87.181  0.35  6.43           O 0
+ATOM   1161  CG2 ILE A 285      91.722  84.051  87.611  0.00  0.00           C 0
+ATOM   1162  CD1 ILE A 285      89.461  82.048  87.607  0.00  0.00           C 0
+ATOM    774    C ASP A 231      86.839  89.288  84.333  0.00  0.00           C 0
+ATOM    779    C LEU A 232      90.078  90.248  83.183  0.00  0.00           C 0
+ATOM    775    O ASP A 231      86.309  88.863  83.301  0.48  9.64           O 0
+ATOM    821   CB MET A 240      97.945  86.338  84.946  0.00  0.00           C 0
+ATOM    828  OD1 ASN A 241      94.927  87.078  87.775  0.55  3.21           O 0
+ATOM   1158    O ILE A 285      93.870  82.734  90.015  0.52  7.50           O 0
+ATOM    851  CE1 HIS A 244      98.920  84.619  89.892  0.00  0.00           C 0
+ATOM    818   CA MET A 240      96.732  86.653  84.070  0.00  0.00           C 0
+ATOM    782    N VAL A 233      90.717  90.046  82.032  0.70  4.37           N 0
+ATOM    780    O LEU A 232      90.646  90.266  84.278  0.54  2.14           O 0
+ATOM    815    O GLU A 239      94.965  86.507  81.962  0.68  7.50           O 0
+ATOM    783   CA VAL A 233      92.165  89.876  81.973  0.00  0.00           C 0
+ATOM    786   CB VAL A 233      92.589  89.120  80.701  0.00  0.00           C 0
+ATOM    777    N LEU A 232      87.930  90.049  84.311  0.00  0.00           N 0
+ATOM    822    N ASN A 241      95.362  88.002  85.532  0.60  3.28           N 0
+ATOM    826   CB ASN A 241      93.594  88.896  86.973  0.00  0.00           C 0
+TER
+END

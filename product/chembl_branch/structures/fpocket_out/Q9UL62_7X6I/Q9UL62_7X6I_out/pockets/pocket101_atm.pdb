@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   101:
+HEADER 0  - Pocket Score                      : -0.0786
+HEADER 1  - Drug Score                        : 0.0014
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9997
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7156
+HEADER 5  - Mean B-factor of pocket residues  : 0.1801
+HEADER 6  - Hydrophobicity Score              : 24.4000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 238.4545
+HEADER 10 - Pocket volume (convex hull)       : 4.3319
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.8125
+ATOM  24146  CD1 ILE D 631     188.864 178.631 184.604  0.00  0.00           C 0
+ATOM  24139    N ILE D 631     184.767 177.349 184.217  0.00  0.00           N 0
+ATOM  24143   CB ILE D 631     186.806 177.506 185.590  0.00  0.00           C 0
+ATOM  24135   CB LEU D 630     182.633 179.606 183.097  0.00  0.00           C 0
+ATOM  24107    O SER D 627     183.761 178.474 186.688  0.52  2.14           O 0
+ATOM  24105   CA SER D 627     182.188 179.913 187.780  0.00  0.00           C 0
+ATOM  24108   CB SER D 627     182.936 180.764 188.798  0.00  0.00           C 0
+ATOM  24138  CD2 LEU D 630     181.695 181.787 182.306  0.00  0.00           C 0
+ATOM  24133    C LEU D 630     184.185 177.632 183.052  0.00  0.00           C 0
+ATOM  24134    O LEU D 630     184.803 177.546 181.985  0.55  7.50           O 0
+ATOM  24140   CA ILE D 631     186.200 177.063 184.241  0.00  0.00           C 0
+ATOM  23169   CB ARG D 512     188.654 180.564 189.232  0.00  0.00           C 0
+ATOM  23171   CD ARG D 512     190.118 181.759 187.603  0.00  0.00           C 0
+ATOM  23207  OD2 ASP D 516     183.007 183.101 190.976  0.36  3.21           O 0
+ATOM  23168    O ARG D 512     187.611 182.555 191.731  0.64  7.50           O 0
+ATOM  23170   CG ARG D 512     189.688 180.406 188.139  0.00  0.00           C 0
+TER
+END

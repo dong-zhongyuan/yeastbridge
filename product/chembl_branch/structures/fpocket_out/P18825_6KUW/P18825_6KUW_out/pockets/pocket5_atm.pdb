@@ -1,0 +1,45 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     5:
+HEADER 0  - Pocket Score                      : 0.0760
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    29
+HEADER 3  - Mean alpha-sphere radius          : 3.8727
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5611
+HEADER 5  - Mean B-factor of pocket residues  : 0.6260
+HEADER 6  - Hydrophobicity Score              : -12.6250
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.3750
+HEADER 9  - Pocket volume (Monte Carlo)       : 319.6110
+HEADER 10 - Pocket volume (convex hull)       : 33.8782
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.2069
+ATOM   1995   CG GLU A1066     -27.947 -31.083 -20.578  0.00  0.00           C 0
+ATOM   1727    O GLU A1031     -24.407 -24.417 -21.227  0.00  0.00           O 0
+ATOM   1991   CA GLU A1066     -25.593 -30.681 -19.582  0.00  0.00           C 0
+ATOM   2017  NH2 ARG A1068     -22.814 -27.626 -21.025  0.00  0.00           N 0
+ATOM   1993    O GLU A1066     -25.309 -28.950 -17.952  0.78  2.14           O 0
+ATOM   1621  OD2 ASP A1017     -29.310 -17.594 -17.534  0.00  0.00           O 0
+ATOM   1731  OE1 GLU A1031     -24.836 -19.412 -23.293  0.42  6.43           O 1
+ATOM   1730   CD GLU A1031     -25.052 -20.645 -23.258  0.00  0.00           C 0
+ATOM   1732  OE2 GLU A1031     -26.113 -21.169 -23.666  0.00  0.00           O 0
+ATOM   1726    C GLU A1031     -23.847 -23.811 -20.307  0.00  0.00           C 0
+ATOM   1728   CB GLU A1031     -23.705 -21.425 -21.218  0.00  0.00           C 0
+ATOM   1649   CE LYS A1020     -25.797 -20.957 -15.993  0.00  0.00           C 0
+ATOM   1743  CG2 VAL A1033     -28.404 -27.203 -15.940  0.00  0.00           C 0
+ATOM   1994   CB GLU A1066     -27.056 -31.089 -19.351  0.00  0.00           C 0
+ATOM   1733    N GLY A1032     -23.952 -24.160 -19.025  0.00  0.00           N 0
+ATOM   1617    O ASP A1017     -24.637 -15.944 -17.619  0.58  3.21           O 0
+ATOM   1655   CB LYS A1021     -21.916 -16.651 -19.716  0.00  0.00           C 0
+ATOM   1618   CB ASP A1017     -27.868 -15.699 -17.597  0.00  0.00           C 0
+ATOM   1734   CA GLY A1032     -24.760 -25.277 -18.543  0.00  0.00           C 0
+ATOM   1737    N VAL A1033     -25.741 -26.253 -16.548  0.00  0.00           N 0
+ATOM   1735    C GLY A1032     -25.080 -25.202 -17.066  0.00  0.00           C 0
+ATOM   1651    N LYS A1021     -21.902 -17.290 -17.304  0.00  0.00           N 0
+ATOM   1650   NZ LYS A1020     -27.047 -21.710 -15.699  0.38  6.56           N 1
+TER
+END

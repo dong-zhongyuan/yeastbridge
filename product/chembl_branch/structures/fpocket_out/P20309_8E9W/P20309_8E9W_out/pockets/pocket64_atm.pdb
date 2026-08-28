@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    64:
+HEADER 0  - Pocket Score                      : -0.1642
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 4.0784
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6205
+HEADER 5  - Mean B-factor of pocket residues  : 0.0615
+HEADER 6  - Hydrophobicity Score              : 4.1429
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 291.7334
+HEADER 10 - Pocket volume (convex hull)       : 11.6172
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1579
+ATOM   5115  CG2 ILE C 171     129.226 138.940  82.368  0.00  0.00           C 0
+ATOM   5117    N GLU C 172     129.466 140.218  78.901  0.75  1.09           N 0
+ATOM   5118   CA GLU C 172     130.689 140.708  78.272  0.00  0.00           C 0
+ATOM   5121   CB GLU C 172     130.984 139.908  77.003  0.00  0.00           C 0
+ATOM   4666   OH TYR C 111     133.868 133.992  82.660  0.65  9.64           O 0
+ATOM   5112    O ILE C 171     129.690 141.608  80.653  0.00  0.00           O 0
+ATOM   4862  NH2 ARG C 137     133.041 143.132  81.090  0.00  0.00           N 0
+ATOM   4989    O ASP C 154     128.814 134.565  81.075  0.69  4.29           O 0
+ATOM   5000  OD1 ASN C 155     128.379 137.568  77.711  0.57  2.14           O 0
+ATOM   5001  ND2 ASN C 155     129.144 136.172  76.129  0.00  0.00           N 0
+ATOM   4999   CG ASN C 155     128.347 136.476  77.145  0.00  0.00           C 0
+ATOM   4665   CZ TYR C 111     132.954 133.763  83.661  0.00  0.00           C 0
+ATOM   4990   CB ASP C 154     129.349 131.649  80.647  0.00  0.00           C 0
+ATOM   4988    C ASP C 154     128.015 133.759  80.586  0.00  0.00           C 0
+ATOM   4663  CE1 TYR C 111     132.952 134.561  84.783  0.00  0.00           C 0
+ATOM   4859   NE ARG C 137     131.260 143.005  82.524  0.00  0.00           N 0
+ATOM   4849    O SER C 136     133.928 141.606  84.809  0.54  9.64           O 0
+ATOM   4850   CB SER C 136     134.418 138.760  85.919  0.00  0.00           C 0
+ATOM   4851   OG SER C 136     133.074 138.317  85.921  0.00  0.00           O 0
+TER
+END

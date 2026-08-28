@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : 0.1422
+HEADER 1  - Drug Score                        : 0.0201
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.9525
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7341
+HEADER 5  - Mean B-factor of pocket residues  : 0.2932
+HEADER 6  - Hydrophobicity Score              : 66.5000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 283.1334
+HEADER 10 - Pocket volume (convex hull)       : 5.9618
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 14.8421
+HEADER 13 - Number of apolar alpha sphere     :    19
+HEADER 14 - Proportion of apolar alpha sphere : 0.9048
+ATOM   4709   CB THR B 296      34.532 -33.896  34.527  0.00  0.00           C 0
+ATOM   4706   CA THR B 296      33.180 -33.946  33.787  0.00  0.00           C 0
+ATOM   4728   CB ALA B 299      30.736 -36.657  31.532  0.00  0.00           C 0
+ATOM   4736  CD1 ILE B 300      33.143 -39.147  36.555  0.00  0.00           C 0
+ATOM   4711  CG2 THR B 296      35.663 -33.563  33.561  0.00  0.00           C 0
+ATOM   4734  CG1 ILE B 300      32.133 -38.080  36.191  0.00  0.00           C 0
+ATOM   4708    O THR B 296      31.639 -35.506  34.759  0.00  0.00           O 0
+ATOM   4730   CA ILE B 300      29.913 -38.841  35.262  0.00  0.00           C 0
+ATOM   4760   CB PHE B 303      28.485 -42.536  32.718  0.00  0.00           C 0
+ATOM   4763  CD2 PHE B 303      29.652 -41.255  30.902  0.00  0.00           C 0
+ATOM   4735  CG2 ILE B 300      30.620 -39.561  37.561  0.00  0.00           C 0
+ATOM   4729    N ILE B 300      29.940 -37.786  34.257  0.70  1.09           N 0
+ATOM   4732    O ILE B 300      28.088 -40.313  35.784  0.00  0.00           O 0
+ATOM   4772   SG CYS B 304      28.067 -42.643  38.110  0.00  0.00           S 0
+ATOM   4759    O PHE B 303      26.095 -44.418  33.851  0.49  1.07           O 0
+ATOM   4792  CD2 LEU B 307      27.247 -48.036  37.418  0.00  0.00           C 0
+ATOM   4758    C PHE B 303      26.471 -43.259  34.024  0.00  0.00           C 0
+ATOM   4768   CA CYS B 304      25.970 -43.377  36.395  0.00  0.00           C 0
+ATOM   4767    N CYS B 304      26.470 -42.676  35.218  0.00  0.00           N 0
+TER
+END

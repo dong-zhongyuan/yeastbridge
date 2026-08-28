@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     5:
+HEADER 0  - Pocket Score                      : 0.0170
+HEADER 1  - Drug Score                        : 0.0200
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 4.0192
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6636
+HEADER 5  - Mean B-factor of pocket residues  : 0.1460
+HEADER 6  - Hydrophobicity Score              : 52.8333
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 246.4613
+HEADER 10 - Pocket volume (convex hull)       : 2.7062
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 15.0000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 0.8421
+ATOM   2631  CE1 PHE R 173     142.981 154.880 170.781  0.00  0.00           C 0
+ATOM   1993  CE1 TYR R  91     144.799 149.094 172.429  0.00  0.00           C 0
+ATOM   1995   CZ TYR R  91     144.481 149.962 173.444  0.00  0.00           C 0
+ATOM   2633   CZ PHE R 173     142.110 155.020 171.837  0.00  0.00           C 0
+ATOM   1991  CD1 TYR R  91     145.558 149.534 171.372  0.00  0.00           C 0
+ATOM   2023   CE MET R  94     143.825 147.843 168.037  0.00  0.00           C 0
+ATOM   1992  CD2 TYR R  91     145.678 151.697 172.346  0.00  0.00           C 0
+ATOM   1994  CE2 TYR R  91     144.917 151.264 173.408  0.00  0.00           C 0
+ATOM   2604  NH1 ARG R 169     140.775 153.486 175.208  0.54  5.47           N 1
+ATOM   1990   CG TYR R  91     146.014 150.840 171.312  0.00  0.00           C 0
+ATOM   2025   CA SER R  95     147.917 150.356 163.258  0.00  0.00           C 0
+ATOM   2024    N SER R  95     148.061 149.524 164.451  0.65  1.09           N 0
+ATOM   2028   CB SER R  95     148.114 151.824 163.623  0.00  0.00           C 0
+ATOM   2021   CG MET R  94     145.552 147.129 166.005  0.00  0.00           C 0
+ATOM   2658  CD1 ILE R 176     146.625 154.386 166.776  0.00  0.00           C 0
+ATOM   1988    O TYR R  91     147.989 150.592 167.192  0.55  1.07           O 0
+ATOM   1989   CB TYR R  91     146.847 151.316 170.146  0.00  0.00           C 0
+TER
+END

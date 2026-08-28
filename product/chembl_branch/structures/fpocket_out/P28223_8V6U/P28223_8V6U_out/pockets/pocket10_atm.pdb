@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : 0.0049
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.6855
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4654
+HEADER 5  - Mean B-factor of pocket residues  : 0.3435
+HEADER 6  - Hydrophobicity Score              : 22.1667
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 150.0594
+HEADER 10 - Pocket volume (convex hull)       : 5.1398
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0667
+ATOM   2150   CD ARG B  24     182.535 179.765 182.777  0.00  0.00           C 0
+ATOM   4008  CD2 LEU C  55     181.429 174.116 184.877  0.00  0.00           C 0
+ATOM   2148   CB ARG B  24     183.629 179.041 184.946  0.00  0.00           C 0
+ATOM   2154  NH2 ARG B  24     180.462 181.453 183.963  0.58  5.47           N 0
+ATOM   2114    O ASP B  20     182.566 180.716 187.611  0.67  2.14           O 0
+ATOM   3988   CA GLY C  53     176.804 176.604 188.138  0.00  0.00           C 0
+ATOM   2117  OD1 ASP B  20     178.188 181.410 189.436  0.69  2.14           O 0
+ATOM   2115   CB ASP B  20     179.987 182.624 188.416  0.00  0.00           C 0
+ATOM   3994    O HIS C  54     177.260 172.765 186.171  0.26  7.50           O 0
+ATOM   3990    O GLY C  53     178.810 175.340 188.338  0.64  3.21           O 0
+ATOM   3989    C GLY C  53     177.583 175.313 188.374  0.00  0.00           C 0
+ATOM   2144    N ARG B  24     184.227 178.124 187.104  0.00  0.00           N 0
+ATOM   2140   CB LEU B  23     182.659 177.480 189.673  0.00  0.00           C 0
+ATOM   2142  CD1 LEU B  23     180.629 177.629 191.118  0.00  0.00           C 0
+TER
+END

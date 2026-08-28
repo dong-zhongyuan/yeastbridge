@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : 0.0720
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.5285
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4033
+HEADER 5  - Mean B-factor of pocket residues  : 0.0565
+HEADER 6  - Hydrophobicity Score              : 30.5000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.9000
+HEADER 9  - Pocket volume (Monte Carlo)       : 88.3172
+HEADER 10 - Pocket volume (convex hull)       : 1.0721
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1333
+ATOM   4952    N SER B  97      95.678 137.205  89.947  0.00  0.00           N 0
+ATOM   4957   OG SER B  97      97.205 136.812  87.454  0.44  2.14           O 0
+ATOM   5106  OD2 ASP B 118      96.465 139.455  86.083  0.26  4.29           O 0
+ATOM   5134   OG SER B 122      99.352 142.808  88.925  0.34  4.29           O 0
+ATOM   4941    N ARG B  96      96.688 138.312  92.311  0.74  1.09           N 0
+ATOM   5154   OH TYR B 124     100.479 140.789  92.436  0.81  1.07           O 0
+ATOM   5082   SG CYS B 114     102.903 139.191  89.464  0.00  0.00           S 0
+ATOM   4945   CB ARG B  96      95.025 139.915  91.490  0.00  0.00           C 0
+ATOM   5118    O ILE B 120      99.417 141.381  84.773  0.55  2.14           O 0
+ATOM   5080    O CYS B 114     102.774 140.717  86.586  0.00  0.00           O 0
+ATOM   5087    N GLY B 116     100.830 137.596  83.664  0.00  0.00           N 0
+ATOM   4937   CB LEU B  95      99.353 136.270  92.236  0.00  0.00           C 0
+ATOM   4940  CD2 LEU B  95     101.471 137.623  92.444  0.00  0.00           C 0
+ATOM   4984  CG2 VAL B 100     100.902 135.608  88.102  0.00  0.00           C 0
+TER
+END

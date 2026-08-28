@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   116:
+HEADER 0  - Pocket Score                      : -0.1182
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.8707
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5467
+HEADER 5  - Mean B-factor of pocket residues  : 0.3244
+HEADER 6  - Hydrophobicity Score              : 29.8333
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 188.9390
+HEADER 10 - Pocket volume (convex hull)       : 5.1666
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2500
+ATOM  13017  NE2 GLN C 386     123.568  97.306 110.370  0.00  0.00           N 0
+ATOM  13024  ND1 HIS C 387     120.094  98.757 104.702  0.25  8.75           N 0
+ATOM  13015   CD GLN C 386     122.266  97.558 110.416  0.00  0.00           C 0
+ATOM  13016  OE1 GLN C 386     121.808  98.695 110.310  0.65  1.07           O 0
+ATOM   9172    N LEU D 568     124.114 103.823 108.247  0.69  4.37           N 0
+ATOM   9169   CB THR D 567     124.291 103.415 105.169  0.00  0.00           C 0
+ATOM   9176   CB LEU D 568     124.784 103.159 110.504  0.00  0.00           C 0
+ATOM  13026  CE1 HIS C 387     120.207 100.073 104.743  0.00  0.00           C 0
+ATOM   8911  ND2 ASN D 536     121.047 103.207 110.201  0.45  1.09           N 0
+ATOM   9166   CA THR D 567     123.180 104.044 106.027  0.00  0.00           C 0
+ATOM  13013   CB GLN C 386     120.554  95.981 109.365  0.00  0.00           C 0
+ATOM  13033  CG1 ILE C 388     121.638  93.280 106.065  0.00  0.00           C 0
+ATOM  13035  CD1 ILE C 388     122.939  93.009 106.787  0.00  0.00           C 0
+ATOM  13010   CA GLN C 386     119.647  97.082 108.818  0.00  0.00           C 0
+ATOM  13018    N HIS C 387     118.927  96.781 106.517  0.00  0.00           N 0
+ATOM   9171  CG2 THR D 567     123.749 102.975 103.818  0.00  0.00           C 0
+TER
+END

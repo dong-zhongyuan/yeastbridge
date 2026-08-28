@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    25:
+HEADER 0  - Pocket Score                      : -0.1030
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9065
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5219
+HEADER 5  - Mean B-factor of pocket residues  : 0.9076
+HEADER 6  - Hydrophobicity Score              : 12.1667
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 6.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 280.4364
+HEADER 10 - Pocket volume (convex hull)       : 12.5622
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.6000
+ATOM   1729  NH2 ARG A 220     -20.641  21.118  18.201  0.00  0.00           N 0
+ATOM   1703  OD1 ASN A 217     -24.333  18.711  14.847  0.00  0.00           O 0
+ATOM   1665   CG ARG A 213     -21.635  18.825  11.151  0.00  0.00           C 0
+ATOM   1690   CB GLU A 216     -20.109  16.306  16.377  0.00  0.00           C 0
+ATOM   1728  NH1 ARG A 220     -22.796  21.618  17.878  0.00  0.00           N 0
+ATOM   1666   CD ARG A 213     -21.938  19.791  10.002  0.00  0.00           C 0
+ATOM   1626  CH2 TRP A 209     -15.811  21.174  10.244  0.00  0.00           C 0
+ATOM   1663   CB ARG A 213     -20.746  17.664  10.680  0.00  0.00           C 0
+ATOM   1627  CZ2 TRP A 209     -16.873  21.388   9.349  0.00  0.00           C 0
+ATOM   1656  CE1 TYR A 212     -15.713  17.336  13.956  0.00  0.00           C 0
+ATOM   1661   CA ARG A 213     -20.452  16.684  11.823  0.00  0.00           C 0
+ATOM   1664    O ARG A 213     -22.277  16.299  13.320  0.44  1.07           O 0
+ATOM   1654  CD1 TYR A 212     -16.141  16.717  12.767  0.00  0.00           C 0
+ATOM   1692   CG GLU A 216     -18.630  15.918  16.561  0.00  0.00           C 0
+ATOM   1658   OH TYR A 212     -14.718  17.178  16.124  0.09  7.50           O 0
+ATOM   1695  OE2 GLU A 216     -18.717  16.286  18.922  0.35  7.50           O 0
+TER
+END

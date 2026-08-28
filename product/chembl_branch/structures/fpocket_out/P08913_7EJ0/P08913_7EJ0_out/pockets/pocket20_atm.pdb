@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    20:
+HEADER 0  - Pocket Score                      : -0.0106
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    27
+HEADER 3  - Mean alpha-sphere radius          : 3.7406
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4652
+HEADER 5  - Mean B-factor of pocket residues  : 0.1042
+HEADER 6  - Hydrophobicity Score              : 22.6667
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 3.9167
+HEADER 9  - Pocket volume (Monte Carlo)       : 143.2389
+HEADER 10 - Pocket volume (convex hull)       : 3.4612
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0370
+ATOM   2436  CD2 LEU B  95     101.879 102.562  83.332  0.00  0.00           C 0
+ATOM   2602  OD2 ASP B 118      98.149  96.964  81.074  0.50  4.29           O 0
+ATOM   2650   OH TYR B 124      98.843 104.838  80.367  0.59  2.14           O 0
+ATOM   2630   OG SER B 122      98.833 100.459  76.585  0.35  3.21           O 0
+ATOM   2441   CB ARG B  96      94.871 101.946  82.267  0.00  0.00           C 0
+ATOM   2765  OE2 GLU B 138      96.378 100.570  76.798  0.72  7.50           O 0
+ATOM   2764  OE1 GLU B 138      95.388 102.514  77.053  0.88  4.29           O 0
+ATOM   2437    N ARG B  96      96.679 103.091  83.452  0.66  1.09           N 0
+ATOM   2433   CB LEU B  95      99.710 103.424  84.230  0.00  0.00           C 0
+ATOM   2480  CG2 VAL B 100     103.026  99.649  84.957  0.00  0.00           C 0
+ATOM   2451    O SER B  97      99.227 100.007  85.684  0.00  0.00           O 0
+ATOM   2463    O TRP B  99     101.350  96.756  85.255  0.00  0.00           O 0
+ATOM   2576    O CYS B 114     103.085 100.190  78.719  0.46  1.07           O 0
+ATOM   2629   CB SER B 122      99.737 101.511  76.304  0.00  0.00           C 0
+ATOM   2578   SG CYS B 114     103.219 102.983  80.083  0.00  0.00           S 0
+ATOM   2448    N SER B  97      96.755 100.407  84.307  0.68  1.09           N 0
+ATOM   2452   CB SER B  97      97.480  98.063  84.113  0.00  0.00           C 0
+ATOM   2583    N GLY B 116     103.187  96.009  81.476  0.00  0.00           N 0
+ATOM   2580   CA GLY B 115     103.703  97.863  80.058  0.00  0.00           C 0
+TER
+END

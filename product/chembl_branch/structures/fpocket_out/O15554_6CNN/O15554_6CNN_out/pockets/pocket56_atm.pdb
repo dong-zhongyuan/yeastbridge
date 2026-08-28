@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    56:
+HEADER 0  - Pocket Score                      : -0.0816
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.9814
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5993
+HEADER 5  - Mean B-factor of pocket residues  : 0.2165
+HEADER 6  - Hydrophobicity Score              : 38.4000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 214.1926
+HEADER 10 - Pocket volume (convex hull)       : 3.6847
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.7368
+ATOM   6455    N GLY C 143     127.028 168.360 187.415  0.84  1.09           N 0
+ATOM   6468  CE2 PHE C 144     130.750 163.954 186.865  0.00  0.00           C 0
+ATOM   7149   CB ALA C 230     133.320 165.732 188.755  0.00  0.00           C 0
+ATOM   6454   CD PRO C 142     127.469 167.549 190.682  0.00  0.00           C 0
+ATOM   6456   CA GLY C 143     127.397 168.983 186.164  0.00  0.00           C 0
+ATOM   5866    O TRP C  48     130.352 172.670 185.095  0.00  0.00           O 0
+ATOM   5871  NE1 TRP C  48     134.049 170.474 183.425  0.69  5.47           N 0
+ATOM   7148    O ALA C 230     135.934 167.638 189.256  0.36  8.57           O 0
+ATOM   5872  CE2 TRP C  48     133.429 169.309 183.783  0.00  0.00           C 0
+ATOM   5874  CZ2 TRP C  48     133.920 168.209 184.459  0.00  0.00           C 0
+ATOM   7146   CA ALA C 230     134.668 165.997 188.086  0.00  0.00           C 0
+ATOM   6466  CD2 PHE C 144     129.476 164.197 186.408  0.00  0.00           C 0
+ATOM   5876  CH2 TRP C  48     133.061 167.176 184.679  0.00  0.00           C 0
+ATOM   5875  CZ3 TRP C  48     131.742 167.220 184.246  0.00  0.00           C 0
+ATOM   5870  CD2 TRP C  48     132.104 169.384 183.334  0.00  0.00           C 0
+ATOM   5873  CE3 TRP C  48     131.253 168.309 183.574  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    20:
+HEADER 0  - Pocket Score                      : 0.0366
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.6352
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5805
+HEADER 5  - Mean B-factor of pocket residues  : 0.7686
+HEADER 6  - Hydrophobicity Score              : 6.5000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 171.1088
+HEADER 10 - Pocket volume (convex hull)       : 3.2361
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2632
+ATOM   9883   CA ARG C 137      72.657 150.487 110.638  0.00  0.00           C 0
+ATOM   9891  NH1 ARG C 137      70.801 154.682 109.060  0.60  6.56           N 0
+ATOM   9893    N GLU C 138      72.038 150.315 112.963  0.61  1.09           N 0
+ATOM   9900  OE1 GLU C 138      73.801 153.230 115.596  0.00  0.00           O 0
+ATOM   9888   CD ARG C 137      70.109 152.119 110.072  0.00  0.00           C 0
+ATOM   9896    O GLU C 138      69.780 150.528 115.114  0.04  9.64           O 0
+ATOM  10169    O GLY C 174      64.886 151.708 112.845  0.00  9.64           O 0
+ATOM  10162    O THR C 173      65.480 154.675 110.206  0.62  5.36           O 0
+ATOM  10167   CA GLY C 174      65.732 151.981 110.639  0.00  0.00           C 0
+ATOM   9875  CG2 VAL C 135      77.090 150.003 112.335  0.00  0.00           C 0
+ATOM   9899   CD GLU C 138      74.447 152.174 115.758  0.00  0.00           C 0
+ATOM   9898   CG GLU C 138      74.004 150.933 115.009  0.00  0.00           C 0
+ATOM   9879    O SER C 136      73.712 152.321 108.940  0.53  4.29           O 0
+ATOM   9878    C SER C 136      74.331 151.261 109.093  0.00  0.00           C 0
+ATOM   9882    N ARG C 137      73.912 150.309 109.921  0.00  0.00           N 0
+ATOM   9874  CG1 VAL C 135      78.613 151.977 112.261  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : 0.0924
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.4581
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3499
+HEADER 5  - Mean B-factor of pocket residues  : 0.5934
+HEADER 6  - Hydrophobicity Score              : 17.8571
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 81.7119
+HEADER 10 - Pocket volume (convex hull)       : 0.9694
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3529
+ATOM   6268   CZ ARG B 283     132.737 131.681  61.479  0.00  0.00           C 0
+ATOM   4380  CD1 ILE B  37     136.076 130.352  58.086  0.00  0.00           C 0
+ATOM   6269  NH1 ARG B 283     133.072 132.577  62.398  0.81  5.47           N 0
+ATOM   4384    O ASP B  38     139.525 131.280  61.295  0.51  1.07           O 0
+ATOM   6405  CD1 LEU B 300     134.819 126.828  57.793  0.00  0.00           C 0
+ATOM   6392  OD1 ASP B 298     135.244 126.340  63.747  0.00  0.00           O 0
+ATOM   6403   CB LEU B 300     136.448 125.402  59.083  0.00  0.00           C 0
+ATOM   4387  OD1 ASP B  38     138.817 133.743  59.984  0.79  7.50           O 0
+ATOM   6267   NE ARG B 283     132.709 130.389  61.786  0.97  2.19           N 0
+ATOM   4401  CG1 VAL B  40     136.237 130.561  64.846  0.00  0.00           C 0
+ATOM   6266   CD ARG B 283     133.033 129.855  63.104  0.00  0.00           C 0
+ATOM   6265   CG ARG B 283     132.727 128.375  63.221  0.00  0.00           C 0
+ATOM   6393  OD2 ASP B 298     137.168 127.337  64.027  0.69  1.07           O 0
+ATOM   6412   CG LYS B 301     139.780 127.462  62.066  0.00  0.00           C 0
+TER
+END

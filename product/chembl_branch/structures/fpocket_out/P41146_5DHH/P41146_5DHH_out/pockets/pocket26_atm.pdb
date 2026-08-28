@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    26:
+HEADER 0  - Pocket Score                      : -0.0420
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.7757
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5045
+HEADER 5  - Mean B-factor of pocket residues  : 0.7127
+HEADER 6  - Hydrophobicity Score              : -2.3333
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 6.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 230.2957
+HEADER 10 - Pocket volume (convex hull)       : 7.4105
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2273
+ATOM   1512  NH1 ARG A 252     -16.378  70.960   7.963  0.51  5.47           N 0
+ATOM   1478    N LEU A 247     -16.173  70.370  14.666  0.48  7.66           N 0
+ATOM   1479   CA LEU A 247     -15.097  71.161  14.065  0.00  0.00           C 0
+ATOM   1511   CZ ARG A 252     -17.235  71.750   8.593  0.00  0.00           C 0
+ATOM   1510   NE ARG A 252     -16.800  72.613   9.505  0.51  2.19           N 0
+ATOM   1509   CD ARG A 252     -15.400  72.772   9.888  0.00  0.00           C 0
+ATOM   1513  NH2 ARG A 252     -18.528  71.681   8.310  0.00  0.00           N 0
+ATOM   1477   CB ARG A 246     -19.076  70.467  16.515  0.00  0.00           C 0
+ATOM   1482   CB LEU A 247     -15.535  72.607  13.821  0.00  0.00           C 0
+ATOM   1576  NH1 ARG A 259     -16.647  64.954  12.184  0.23  8.75           N 0
+ATOM   1577  NH2 ARG A 259     -14.859  65.371  13.558  0.67  2.19           N 0
+ATOM   1575   CZ ARG A 259     -15.355  64.826  12.456  0.00  0.00           C 0
+ATOM   1536   CB ASP A 255     -11.850  68.839  10.162  0.00  0.00           C 0
+ATOM   1572   CG ARG A 259     -14.607  64.331   9.158  0.00  0.00           C 0
+ATOM   1540    N ARG A 256     -12.683  68.064   7.281  0.00  0.00           N 0
+ATOM   1541   CA ARG A 256     -13.543  67.436   6.285  0.00  0.00           C 0
+ATOM   1534    C ASP A 255     -12.017  67.329   8.176  0.00  0.00           C 0
+TER
+END

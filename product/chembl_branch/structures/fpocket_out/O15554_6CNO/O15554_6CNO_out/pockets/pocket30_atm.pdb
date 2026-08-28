@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    30:
+HEADER 0  - Pocket Score                      : -0.0635
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.7536
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4956
+HEADER 5  - Mean B-factor of pocket residues  : 0.1168
+HEADER 6  - Hydrophobicity Score              : 42.0000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 3.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 117.6155
+HEADER 10 - Pocket volume (convex hull)       : 0.9877
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.3684
+ATOM   3836   CB PRO B 164     127.907 160.285 157.324  0.00  0.00           C 0
+ATOM   4055    O HIS B 192     131.157 160.394 163.976  0.00  0.00           O 0
+ATOM   3860  CG1 VAL B 167     126.900 155.632 160.137  0.00  0.00           C 0
+ATOM   4098   CB ALA B 196     133.331 158.273 162.632  0.00  0.00           C 0
+ATOM   4091   CB VAL B 195     128.560 157.683 165.245  0.00  0.00           C 0
+ATOM   4092  CG1 VAL B 195     127.856 156.497 164.606  0.00  0.00           C 0
+ATOM   3835    O PRO B 164     125.468 159.661 159.256  0.59  1.07           O 0
+ATOM   4058  ND1 HIS B 192     127.228 163.028 161.990  0.84  1.09           N 0
+ATOM   4056   CB HIS B 192     129.569 163.077 162.923  0.00  0.00           C 0
+ATOM   4053   CA HIS B 192     129.579 162.191 164.162  0.00  0.00           C 0
+ATOM   3862    N LEU B 168     124.251 157.931 161.179  0.00  0.00           N 0
+ATOM   3866   CB LEU B 168     124.113 160.017 162.434  0.00  0.00           C 0
+ATOM   3863   CA LEU B 168     124.001 158.499 162.495  0.00  0.00           C 0
+ATOM   4094    N ALA B 196     131.657 157.540 164.245  0.71  1.09           N 0
+ATOM   4095   CA ALA B 196     132.679 157.077 163.319  0.00  0.00           C 0
+TER
+END

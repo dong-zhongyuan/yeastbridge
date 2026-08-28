@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   111:
+HEADER 0  - Pocket Score                      : -0.1202
+HEADER 1  - Drug Score                        : 0.0008
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.7602
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4363
+HEADER 5  - Mean B-factor of pocket residues  : 0.2824
+HEADER 6  - Hydrophobicity Score              : 18.5714
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 147.4299
+HEADER 10 - Pocket volume (convex hull)       : 2.3182
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.6875
+ATOM   5261   CG ARG B 665     179.456 166.379 157.562  0.00  0.00           C 0
+ATOM   5291   CB SER B 668     174.797 163.317 155.080  0.00  0.00           C 0
+ATOM   5254  OE1 GLN B 664     173.922 167.475 158.203  0.00  0.00           O 0
+ATOM   8743   CB ALA C 671     178.797 169.964 155.429  0.00  0.00           C 0
+ATOM   5255  NE2 GLN B 664     175.945 168.059 158.980  0.47  1.09           N 0
+ATOM   5292   OG SER B 668     175.992 162.937 154.421  0.72  4.29           O 0
+ATOM   5265  NH1 ARG B 665     182.299 165.411 157.840  0.62  6.56           N 0
+ATOM   5259    O ARG B 665     177.979 163.213 157.202  0.19  4.29           O 0
+ATOM   8807  CD1 LEU C 678     181.399 162.364 152.116  0.00  0.00           C 0
+ATOM   8783  CG2 THR C 675     178.730 166.528 150.812  0.00  0.00           C 0
+ATOM   8742    O ALA C 671     180.379 168.646 152.853  0.66  1.07           O 0
+ATOM   5257   CA ARG B 665     177.462 165.131 158.555  0.00  0.00           C 0
+ATOM   8771   CB HIS C 674     183.035 166.829 153.926  0.00  0.00           C 0
+TER
+END

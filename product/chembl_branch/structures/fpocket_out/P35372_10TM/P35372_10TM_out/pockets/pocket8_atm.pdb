@@ -1,0 +1,34 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : -0.0378
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.5461
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4177
+HEADER 5  - Mean B-factor of pocket residues  : 0.1641
+HEADER 6  - Hydrophobicity Score              : 57.6667
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 71.8926
+HEADER 10 - Pocket volume (convex hull)       : 0.5165
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.6667
+ATOM    627  CG2 ILE R 146     119.355 136.867 131.835  0.00  0.00           C 0
+ATOM   1223   CG LEU R 221     120.451 132.646 133.386  0.00  0.00           C 0
+ATOM    659  CE1 TYR R 150     121.280 137.012 135.386  0.00  0.00           C 0
+ATOM    628  CD1 ILE R 146     116.563 137.086 132.379  0.00  0.00           C 0
+HETATM 2262   CB MEA S   4     114.543 135.640 135.214  0.00  0.00           C 0
+ATOM    662   OH TYR R 150     121.579 135.272 136.978  0.71  5.36           O 0
+ATOM   1224  CD1 LEU R 221     121.364 132.979 134.534  0.00  0.00           C 0
+ATOM   1212   CA THR R 220     115.548 131.762 132.617  0.00  0.00           C 0
+ATOM   1218    N LEU R 221     117.856 131.040 132.805  0.67  2.19           N 0
+ATOM   2256    O GLY S   3     115.474 136.583 137.846  0.28  7.50           O 0
+HETATM 2268  CD2 MEA S   4     114.989 138.117 135.157  0.00  0.00           C 0
+HETATM 2261    O MEA S   4     115.128 133.497 136.830  0.45  7.50           O 0
+TER
+END

@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    70:
+HEADER 0  - Pocket Score                      : -0.0693
+HEADER 1  - Drug Score                        : 0.0195
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.9565
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5545
+HEADER 5  - Mean B-factor of pocket residues  : 0.2208
+HEADER 6  - Hydrophobicity Score              : 66.6250
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.2500
+HEADER 9  - Pocket volume (Monte Carlo)       : 300.9293
+HEADER 10 - Pocket volume (convex hull)       : 11.5181
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 16.0000
+HEADER 13 - Number of apolar alpha sphere     :    17
+HEADER 14 - Proportion of apolar alpha sphere : 0.8095
+ATOM    104  CD1 ILE R  79      88.397  98.048 141.125  0.00  0.00           C 0
+ATOM     46    O THR R  72      89.344  95.505 134.673  0.63  1.07           O 0
+ATOM     70   CB ALA R  75      86.603  96.922 136.669  0.00  0.00           C 0
+ATOM     71    N LEU R  76      89.542  98.116 136.312  0.00  0.00           N 0
+ATOM     49  CG2 THR R  72      89.547  92.248 134.907  0.00  0.00           C 0
+ATOM   2019  CG1 VAL R 318      94.453  91.061 132.380  0.00  0.00           C 0
+ATOM     51   CA ILE R  73      90.257  96.172 132.136  0.00  0.00           C 0
+ATOM     55  CG1 ILE R  73      91.450  94.771 130.423  0.00  0.00           C 0
+ATOM   2045   CB HIS R 321      95.310  97.330 130.317  0.00  0.00           C 0
+ATOM     78  CD2 LEU R  76      94.234  96.728 135.908  0.00  0.00           C 0
+ATOM   2017    O VAL R 318      96.471  93.521 131.639  0.74  1.07           O 0
+ATOM     72   CA LEU R  76      90.852  98.404 136.894  0.00  0.00           C 0
+ATOM     75   CB LEU R  76      91.914  97.548 136.208  0.00  0.00           C 0
+ATOM     77  CD1 LEU R  76      93.365  97.162 138.201  0.00  0.00           C 0
+ATOM   2057  CD1 PHE R 322      97.035  94.571 136.837  0.00  0.00           C 0
+ATOM   2059  CE1 PHE R 322      97.293  94.345 138.177  0.00  0.00           C 0
+ATOM   2055   CB PHE R 322      97.722  94.586 134.426  0.00  0.00           C 0
+TER
+END

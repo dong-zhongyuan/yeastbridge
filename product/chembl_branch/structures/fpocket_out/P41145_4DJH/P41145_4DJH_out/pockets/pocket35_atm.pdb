@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    35:
+HEADER 0  - Pocket Score                      : -0.0990
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 4.0086
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6310
+HEADER 5  - Mean B-factor of pocket residues  : 0.1236
+HEADER 6  - Hydrophobicity Score              : 44.2222
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.4444
+HEADER 9  - Pocket volume (Monte Carlo)       : 272.2858
+HEADER 10 - Pocket volume (convex hull)       : 11.6237
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.5000
+ATOM   5765    O ALA B1093      31.319 -74.578  13.781  0.38  4.29           O 0
+ATOM   5789   CB ARG B1096      34.072 -75.501  12.248  0.00  0.00           C 0
+ATOM   5731   OH TYR B1088      34.139 -76.919   7.810  0.34  8.57           O 0
+ATOM   5821  CD1 ILE B1100      33.863 -72.720   8.097  0.00  0.00           C 0
+ATOM   5796    N ALA B1097      33.318 -72.544  12.556  0.76  1.09           N 0
+ATOM   5093   CB ILE B1003      30.028 -70.004   8.932  0.00  0.00           C 0
+ATOM   5095  CG2 ILE B1003      29.244 -70.497   7.712  0.00  0.00           C 0
+ATOM   5791   CD ARG B1096      34.012 -77.890  11.518  0.00  0.00           C 0
+ATOM   5763   CA ALA B1093      30.671 -76.808  14.390  0.00  0.00           C 0
+ATOM   5794  NH1 ARG B1096      33.147 -80.242  10.201  0.00  0.00           N 1
+ATOM   5766   CB ALA B1093      29.186 -77.082  14.310  0.00  0.00           C 0
+ATOM   5089    N ILE B1003      28.049 -70.060  10.412  0.00  0.00           N 0
+ATOM   5800   CB ALA B1097      31.485 -70.916  12.597  0.00  0.00           C 0
+ATOM   5797   CA ALA B1097      32.889 -71.236  12.068  0.00  0.00           C 0
+ATOM   6280  CH2 TRP B1158      28.496 -70.600  14.617  0.00  0.00           C 0
+ATOM   5082   CA ASN B1002      26.163 -70.573  11.835  0.00  0.00           C 0
+ATOM   5080    O GLY B 261      24.638 -71.926  13.720  0.16  5.36           O 0
+ATOM   5085   CB ASN B1002      25.157 -70.941  10.747  0.00  0.00           C 0
+ATOM   6278  CZ2 TRP B1158      27.550 -71.342  15.269  0.00  0.00           C 0
+TER
+END

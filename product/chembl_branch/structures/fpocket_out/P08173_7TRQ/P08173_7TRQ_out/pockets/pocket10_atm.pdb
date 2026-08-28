@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : 0.0054
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.7460
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4241
+HEADER 5  - Mean B-factor of pocket residues  : 0.0104
+HEADER 6  - Hydrophobicity Score              : 60.3333
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.5556
+HEADER 9  - Pocket volume (Monte Carlo)       : 122.5157
+HEADER 10 - Pocket volume (convex hull)       : 3.2055
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.5294
+ATOM   3082    O LEU B 126     101.982 137.158 126.847  0.00  0.00           O 0
+ATOM   3094   CE LYS B 127      97.110 138.611 126.306  0.00  0.00           C 0
+ATOM   3093   CD LYS B 127      98.319 139.404 126.745  0.00  0.00           C 0
+ATOM   5922   OH TYR H 102     101.715 139.054 122.238  0.76  5.36           O 0
+ATOM   2827  CE1 HIS B  91     101.204 134.532 122.973  0.00  0.00           C 0
+ATOM   2653  CD1 LEU B  69      93.776 134.057 122.129  0.00  0.00           C 0
+ATOM   2817  CG1 VAL B  90      98.960 133.796 119.979  0.00  0.00           C 0
+ATOM   5926    O TYR H 103      96.485 137.532 119.524  0.78  3.21           O 0
+ATOM   5919  CE1 TYR H 102     100.120 137.993 120.833  0.00  0.00           C 0
+ATOM   2938   OH TYR B 105      95.026 132.762 125.204  0.78  2.14           O 0
+ATOM   3085  CD1 LEU B 126      98.058 133.215 127.480  0.00  0.00           C 0
+ATOM   2825  ND1 HIS B  91     100.908 133.248 122.887  0.67  1.09           N 0
+ATOM   2739  CG2 ILE B  81      97.214 130.314 122.770  0.00  0.00           C 0
+ATOM   3095   NZ LYS B 127      96.862 137.461 127.204  0.67  6.56           N 0
+ATOM   3083   CB LEU B 126      99.767 135.010 127.746  0.00  0.00           C 0
+TER
+END

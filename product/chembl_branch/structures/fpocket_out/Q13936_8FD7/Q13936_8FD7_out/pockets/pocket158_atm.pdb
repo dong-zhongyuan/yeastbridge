@@ -1,0 +1,51 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   158:
+HEADER 0  - Pocket Score                      : -0.1900
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    33
+HEADER 3  - Mean alpha-sphere radius          : 4.1159
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6414
+HEADER 5  - Mean B-factor of pocket residues  : 0.5140
+HEADER 6  - Hydrophobicity Score              : 51.4167
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 562.2930
+HEADER 10 - Pocket volume (convex hull)       : 77.6432
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 6.8333
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.3636
+ATOM  11199  CD1 LEU K 637     176.247 167.306 219.532  0.00  0.00           C 0
+ATOM  13340  CD1 ILE K1032     178.785 172.297 217.549  0.00  0.00           C 0
+ATOM  13338  CG1 ILE K1032     179.150 170.874 217.183  0.00  0.00           C 0
+ATOM  11221  CD1 LEU K 640     174.473 170.492 219.881  0.00  0.00           C 0
+ATOM  11191   CB SER K 636     178.451 164.064 223.986  0.00  0.00           C 0
+ATOM  11192   OG SER K 636     178.983 163.815 222.696  0.00  0.00           O 0
+ATOM  11190    O SER K 636     176.375 165.953 223.256  0.59  9.64           O 0
+ATOM  13329   CB ASN K1031     180.634 166.194 219.050  0.00  0.00           C 0
+ATOM  13325    N ASN K1031     182.692 167.489 218.809  0.59  6.56           N 0
+ATOM  13355  CD1 ILE K1034     183.174 163.331 216.964  0.00  0.00           C 0
+ATOM  13354  CG2 ILE K1034     185.280 165.188 215.912  0.00  0.00           C 0
+ATOM  13322   CA GLY K1030     184.714 168.754 219.123  0.00  0.00           C 0
+ATOM  13316    O ILE K1029     182.452 170.294 219.471  0.38  3.21           O 0
+ATOM  13326   CA ASN K1031     181.754 166.623 218.103  0.00  0.00           C 0
+ATOM  13303   CZ ARG K1027     189.024 167.172 224.146  0.00  0.00           C 0
+ATOM  13305  NH2 ARG K1027     188.579 166.113 224.817  0.00  0.00           N 0
+ATOM  13302   NE ARG K1027     188.782 168.386 224.620  0.89  7.66           N 0
+ATOM  13298    O ARG K1027     186.476 170.856 222.539  0.48  1.07           O 0
+ATOM  13304  NH1 ARG K1027     189.696 166.990 223.022  0.67  9.84           N 0
+ATOM  13309    O THR K1028     182.731 172.193 222.206  0.00  0.00           O 0
+ATOM  13323    C GLY K1030     183.754 168.026 218.201  0.00  0.00           C 0
+ATOM  11170   CG TRP K 634     180.081 159.756 221.076  0.00  0.00           C 0
+ATOM  11171  CD1 TRP K 634     181.217 159.351 220.442  0.00  0.00           C 0
+ATOM  11169   CB TRP K 634     179.687 159.455 222.491  0.00  0.00           C 0
+ATOM  11172  CD2 TRP K 634     179.340 160.525 220.119  0.00  0.00           C 0
+ATOM  13330   CG ASN K1031     179.752 165.113 218.460  0.00  0.00           C 0
+ATOM  11174  CE2 TRP K 634     180.092 160.542 218.927  0.00  0.00           C 0
+ATOM  11173  NE1 TRP K 634     181.233 159.818 219.151  0.56  3.28           N 0
+ATOM  11164   OH TYR K 633     184.432 157.834 219.840  0.00  0.00           O 0
+TER
+END

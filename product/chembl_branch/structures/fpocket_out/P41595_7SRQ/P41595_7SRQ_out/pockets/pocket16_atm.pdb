@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    16:
+HEADER 0  - Pocket Score                      : -0.0907
+HEADER 1  - Drug Score                        : 0.0023
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.0522
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5177
+HEADER 5  - Mean B-factor of pocket residues  : 0.5412
+HEADER 6  - Hydrophobicity Score              : 70.4000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 190.8217
+HEADER 10 - Pocket volume (convex hull)       : 1.7989
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.8333
+ATOM      8  CD2 TRP R  56     149.471 134.104 159.931  0.00  0.00           C 0
+ATOM    436   CE MET R 116     153.544 138.908 159.456  0.00  0.00           C 0
+ATOM     13  CZ3 TRP R  56     149.902 134.857 162.161  0.00  0.00           C 0
+ATOM     11  CE3 TRP R  56     150.383 134.388 160.952  0.00  0.00           C 0
+ATOM     10  CE2 TRP R  56     148.097 134.306 160.172  0.00  0.00           C 0
+ATOM     19   CB ALA R  57     148.969 137.103 155.510  0.00  0.00           C 0
+ATOM     14  CH2 TRP R  56     148.531 135.047 162.370  0.00  0.00           C 0
+ATOM     12  CZ2 TRP R  56     147.614 134.778 161.391  0.00  0.00           C 0
+ATOM    435   SD MET R 116     154.903 137.932 160.097  0.00  0.00           S 0
+ATOM    432    O MET R 116     154.639 139.736 164.730  0.36  7.50           O 0
+ATOM    424    O ILE R 115     152.824 141.742 162.868  0.21  5.36           O 0
+ATOM     20    N ALA R  58     152.258 136.396 155.499  0.00  0.00           N 0
+ATOM     15    N ALA R  57     150.006 134.910 155.848  0.00  0.00           N 0
+ATOM    430   CA MET R 116     155.081 140.245 162.423  0.00  0.00           C 0
+ATOM    427  CG2 ILE R 115     151.634 142.160 159.914  0.00  0.00           C 0
+TER
+END

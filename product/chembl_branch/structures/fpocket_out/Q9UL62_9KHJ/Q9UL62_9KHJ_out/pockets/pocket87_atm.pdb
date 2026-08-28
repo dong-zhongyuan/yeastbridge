@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    87:
+HEADER 0  - Pocket Score                      : -0.0974
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.9886
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5871
+HEADER 5  - Mean B-factor of pocket residues  : 0.8655
+HEADER 6  - Hydrophobicity Score              : 27.4286
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 273.4766
+HEADER 10 - Pocket volume (convex hull)       : 8.0513
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 8.8000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5000
+ATOM    309   CB GLU A  56     101.257 124.441 189.295  0.00  0.00           C 0
+ATOM    306   CA GLU A  56     100.259 125.378 188.615  0.00  0.00           C 0
+ATOM    310   CG GLU A  56     102.083 123.598 188.341  0.00  0.00           C 0
+ATOM    308    O GLU A  56      98.052 125.193 189.539  0.53  4.29           O 0
+ATOM    342  CE1 TYR A  59      95.588 125.321 185.929  0.00  0.00           C 0
+ATOM    345   OH TYR A  59      94.833 123.636 187.436  0.00  0.00           O 0
+ATOM    340  CD1 TYR A  59      95.788 126.657 185.637  0.00  0.00           C 0
+ATOM    376  CD1 ILE A  63     101.804 124.209 183.258  0.00  0.00           C 0
+ATOM    367  OD1 ASN A  62      97.533 128.785 179.465  0.24  6.43           O 0
+ATOM    303    O ALA A  55      99.150 127.258 186.949  0.53  1.07           O 0
+ATOM    357    O VAL A  61     100.021 129.591 183.237  0.52  4.29           O 0
+ATOM    374  CG1 ILE A  63     102.251 125.459 182.533  0.00  0.00           C 0
+ATOM    373   CB ILE A  63     102.299 125.305 181.012  0.00  0.00           C 0
+ATOM    383  OD1 ASN A  64     100.792 124.226 177.889  0.52  5.36           O 0
+ATOM    369    N ILE A  63     101.325 127.522 180.557  0.53  3.28           N 0
+TER
+END

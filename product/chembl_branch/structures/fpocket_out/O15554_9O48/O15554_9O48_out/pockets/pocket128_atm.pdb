@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   128:
+HEADER 0  - Pocket Score                      : -0.1497
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9776
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4830
+HEADER 5  - Mean B-factor of pocket residues  : 0.4258
+HEADER 6  - Hydrophobicity Score              : 18.1250
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 198.4964
+HEADER 10 - Pocket volume (convex hull)       : 3.5166
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2941
+ATOM  10220  CE1 PHE D 280     164.949 122.752 129.578  0.00  0.00           C 0
+ATOM  10333    O PHE D 296     165.788 125.978 128.011  0.56  5.36           O 0
+ATOM  13510   CB ASP F  79     171.381 124.048 125.508  0.00  0.00           C 0
+ATOM  10264  NH1 ARG D 286     165.356 122.319 124.789  0.59  3.28           N 1
+ATOM  10222   CZ PHE D 280     165.425 121.555 130.076  0.00  0.00           C 0
+ATOM  13511   CG ASP F  79     170.956 125.435 125.948  0.00  0.00           C 0
+ATOM  13513  OD2 ASP F  79     171.528 125.949 126.932  0.00  0.00           O 1
+ATOM   8962  NH2 ARG D 124     167.659 118.863 125.176  0.46  5.47           N 0
+ATOM   9026  NH2 ARG D 131     167.066 117.850 131.660  0.79  4.37           N 0
+ATOM   9530  CD2 LEU D 195     170.292 116.195 129.763  0.00  0.00           C 0
+ATOM   9564  OD2 ASP D 199     172.452 118.636 125.867  0.00  0.00           O 1
+ATOM  13506    N ASP F  79     171.198 122.363 123.740  0.29  1.09           N 0
+ATOM  10265  NH2 ARG D 286     167.178 122.891 123.525  0.45  2.19           N 0
+ATOM  13512  OD1 ASP F  79     170.050 126.011 125.311  0.50  1.07           O 0
+TER
+END

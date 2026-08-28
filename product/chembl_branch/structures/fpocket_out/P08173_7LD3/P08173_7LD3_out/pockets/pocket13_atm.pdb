@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : -0.0052
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.9415
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5361
+HEADER 5  - Mean B-factor of pocket residues  : 0.2708
+HEADER 6  - Hydrophobicity Score              : 16.8750
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 358.2341
+HEADER 10 - Pocket volume (convex hull)       : 24.0061
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.4000
+ATOM   4384   CB LEU B  55     114.949  86.515  93.152  0.00  0.00           C 0
+ATOM    159   CB ALA A  31     116.076  85.284 100.343  0.00  0.00           C 0
+ATOM   4383    O LEU B  55     117.250  88.050  93.644  0.00  0.00           O 0
+ATOM   4387  CD2 LEU B  55     112.637  87.464  93.216  0.00  0.00           C 0
+ATOM    131    O GLY A  27     114.873  83.739  97.676  0.51  3.21           O 0
+ATOM    100    N ARG A  24     109.442  81.892  93.544  0.55  1.09           N 0
+ATOM     73  OD1 ASP A  20     106.977  83.978  89.609  0.16  7.50           O 0
+ATOM   4369    O GLY B  53     112.294  85.379  89.430  0.51  1.07           O 0
+ATOM     96   CB LEU A  23     110.607  81.636  90.684  0.00  0.00           C 0
+ATOM   4367   CA GLY B  53     110.836  86.594  87.993  0.00  0.00           C 0
+ATOM    139  OE1 GLU A  28     111.101  86.095 100.407  0.45  7.50           O 0
+ATOM   4386  CD1 LEU B  55     113.030  85.123  93.946  0.00  0.00           C 0
+ATOM    132    N GLU A  28     112.967  82.645  98.157  0.00  0.00           N 0
+ATOM    103    O ARG A  24     110.032  82.195  97.018  0.53  1.07           O 0
+ATOM    101   CA ARG A  24     109.244  82.622  94.792  0.00  0.00           C 0
+ATOM    105   CG ARG A  24     107.487  84.013  96.070  0.00  0.00           C 0
+ATOM    104   CB ARG A  24     107.832  83.206  94.828  0.00  0.00           C 0
+ATOM    106   CD ARG A  24     106.046  84.489  96.009  0.00  0.00           C 0
+ATOM    130    C GLY A  27     113.992  82.936  97.360  0.00  0.00           C 0
+TER
+END

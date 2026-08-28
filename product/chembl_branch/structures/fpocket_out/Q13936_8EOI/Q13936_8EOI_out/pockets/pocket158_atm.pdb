@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   158:
+HEADER 0  - Pocket Score                      : -0.1013
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9854
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7148
+HEADER 5  - Mean B-factor of pocket residues  : 0.4556
+HEADER 6  - Hydrophobicity Score              : -10.2000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 254.0326
+HEADER 10 - Pocket volume (convex hull)       : 7.7230
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.4375
+ATOM  20875  NH1 ARG K 686     199.485 216.410 169.074  0.00  0.00           N 0
+ATOM  22107  CE2 TYR K1142     197.996 217.115 175.063  0.00  0.00           C 0
+ATOM  20871   CG ARG K 686     197.563 215.728 171.916  0.00  0.00           C 0
+ATOM  20872   CD ARG K 686     198.858 215.051 171.488  0.00  0.00           C 0
+ATOM  22105  CD2 TYR K1142     199.187 216.540 175.459  0.00  0.00           C 0
+ATOM  22110    N ARG K1143     203.018 213.611 175.043  0.00  0.00           N 0
+ATOM  22100    C TYR K1142     201.712 213.451 174.826  0.00  0.00           C 0
+ATOM  22101    O TYR K1142     201.235 213.396 173.687  0.00  0.00           O 0
+ATOM  22114   CB ARG K1143     205.281 214.291 174.397  0.00  0.00           C 0
+ATOM  22078   CG GLU K1139     204.481 217.530 178.863  0.00  0.00           C 0
+ATOM  22081  OE2 GLU K1139     206.500 217.376 177.607  0.00  0.00           O 0
+ATOM  22076    O GLU K1139     203.831 214.628 177.636  0.62  1.07           O 0
+ATOM  22102   CB TYR K1142     200.513 214.736 176.618  0.00  0.00           C 0
+ATOM  22111   CA ARG K1143     203.955 213.694 173.928  0.00  0.00           C 0
+ATOM  22142  OD2 ASP K1146     202.529 213.651 169.206  0.57  6.43           O 0
+ATOM  22115   CG ARG K1143     206.287 214.517 173.279  0.00  0.00           C 0
+TER
+END

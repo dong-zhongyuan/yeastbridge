@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    27:
+HEADER 0  - Pocket Score                      : -0.0358
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.7616
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5828
+HEADER 5  - Mean B-factor of pocket residues  : 0.2317
+HEADER 6  - Hydrophobicity Score              : 28.6667
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 114.0164
+HEADER 10 - Pocket volume (convex hull)       : 0.5243
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.5000
+ATOM   4830   CE LYS H  19      85.091 140.203  87.503  0.00  0.00           C 0
+ATOM   5301   CB PHE H  80      88.475 137.366  86.251  0.00  0.00           C 0
+ATOM   5320   CB GLN H  82      89.747 143.968  88.465  0.00  0.00           C 0
+ATOM   5230   OG SER H  71      90.065 136.501  89.182  0.00  0.00           O 0
+ATOM   5216  CG2 THR H  69      91.638 142.396  90.916  0.00  0.00           C 0
+ATOM   5310    C LEU H  81      90.298 142.124  85.502  0.00  0.00           C 0
+ATOM   5299    C PHE H  80      90.483 138.561  85.388  0.00  0.00           C 0
+ATOM   5308    N LEU H  81      90.275 139.784  84.906  0.00  0.00           N 0
+ATOM   5316    N GLN H  82      90.737 142.925  86.471  0.00  0.00           N 0
+ATOM   5324  NE2 GLN H  82      86.850 144.049  88.116  0.86  2.19           N 0
+ATOM   5321   CG GLN H  82      88.846 145.037  89.066  0.00  0.00           C 0
+ATOM   5300    O PHE H  80      91.464 138.259  86.078  0.00  0.00           O 0
+ATOM   5213    O THR H  69      92.855 141.692  88.094  0.00  0.00           O 0
+TER
+END

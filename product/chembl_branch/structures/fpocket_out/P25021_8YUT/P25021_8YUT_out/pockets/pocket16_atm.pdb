@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    16:
+HEADER 0  - Pocket Score                      : -0.0326
+HEADER 1  - Drug Score                        : 0.0019
+HEADER 2  - Number of alpha spheres           :    30
+HEADER 3  - Mean alpha-sphere radius          : 3.9690
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5314
+HEADER 5  - Mean B-factor of pocket residues  : 0.1397
+HEADER 6  - Hydrophobicity Score              : 8.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 347.8831
+HEADER 10 - Pocket volume (convex hull)       : 18.7182
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.3667
+ATOM   5729   CZ ARG N 105      82.759  85.218  71.673  0.00  0.00           C 0
+ATOM   1522    O ALA A 351      82.373  92.600  69.912  0.35  8.57           O 0
+ATOM   5728   NE ARG N 105      82.479  84.840  70.429  0.00  0.00           N 0
+ATOM   5731  NH2 ARG N 105      81.839  85.117  72.621  0.48  9.84           N 0
+ATOM   1528   CB SER A 352      84.923  91.087  71.283  0.00  0.00           C 0
+ATOM   5730  NH1 ARG N 105      83.960  85.698  71.968  0.61  3.28           N 0
+ATOM   5727   CD ARG N 105      83.424  84.911  69.318  0.00  0.00           C 0
+ATOM    936  OD1 ASN A 278      86.176  87.165  69.864  0.57  1.07           O 0
+ATOM   1523   CB ALA A 351      83.044  92.631  67.016  0.00  0.00           C 0
+ATOM   1529   OG SER A 352      84.955  90.477  72.558  0.44  5.36           O 0
+ATOM    901   NZ LYS A 274      84.171  85.129  63.261  0.62  5.47           N 0
+ATOM   1490    O ARG A 347      84.567  93.959  63.799  0.25  3.21           O 0
+ATOM   1503  CG1 ILE A 348      87.424  90.876  62.095  0.00  0.00           C 0
+ATOM   1499   CA ILE A 348      86.880  92.456  63.994  0.00  0.00           C 0
+ATOM    900   CE LYS A 274      85.292  85.484  64.172  0.00  0.00           C 0
+ATOM    937  ND2 ASN A 278      87.398  86.963  67.997  0.88  2.19           N 0
+ATOM   1504  CG2 ILE A 348      88.198  90.356  64.425  0.00  0.00           C 0
+ATOM    898   CG LYS A 274      87.667  86.221  64.382  0.00  0.00           C 0
+ATOM    899   CD LYS A 274      86.517  85.985  63.426  0.00  0.00           C 0
+ATOM   1501    O ILE A 348      86.853  92.567  66.388  0.73  1.07           O 0
+TER
+END

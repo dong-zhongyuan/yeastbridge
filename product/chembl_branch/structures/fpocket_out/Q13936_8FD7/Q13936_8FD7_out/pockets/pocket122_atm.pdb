@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   122:
+HEADER 0  - Pocket Score                      : -0.1379
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.9655
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5548
+HEADER 5  - Mean B-factor of pocket residues  : 0.1188
+HEADER 6  - Hydrophobicity Score              : -10.6667
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 255.9779
+HEADER 10 - Pocket volume (convex hull)       : 16.4894
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.4000
+ATOM  14212  CG2 VAL K1140     170.069 169.521 182.064  0.00  0.00           C 0
+ATOM   2876   CB ASN D 395     168.307 172.537 175.744  0.00  0.00           C 0
+ATOM  14179   CB ASN K1137     172.060 170.509 178.742  0.00  0.00           C 0
+ATOM  14178    O ASN K1137     171.371 167.999 179.590  0.00  0.00           O 0
+ATOM  14182  ND2 ASN K1137     171.422 172.643 179.687  0.57  4.37           N 0
+ATOM  11628   CG ASN K 691     165.943 176.084 179.861  0.00  0.00           C 0
+ATOM  11629  OD1 ASN K 691     165.247 175.741 178.905  0.88  5.36           O 0
+ATOM  11647   CG PRO K 693     165.353 173.809 184.453  0.00  0.00           C 0
+ATOM  11627   CB ASN K 691     165.321 176.397 181.202  0.00  0.00           C 0
+ATOM  11648   CD PRO K 693     164.208 174.762 184.534  0.00  0.00           C 0
+ATOM   2878  OD1 ASN D 395     166.249 173.694 176.127  0.64  5.36           O 0
+ATOM  14210   CB VAL K1140     169.693 169.398 183.531  0.00  0.00           C 0
+ATOM  14211  CG1 VAL K1140     169.668 170.768 184.193  0.00  0.00           C 0
+ATOM  11630  ND2 ASN K 691     167.263 176.199 179.780  0.61  6.56           N 0
+ATOM  11657  NE2 GLN K 694     171.095 175.842 182.634  0.20  3.28           N 0
+ATOM  11649    N GLN K 694     167.397 176.513 184.896  0.00  0.00           N 0
+ATOM   2877   CG ASN D 395     167.454 173.781 175.896  0.00  0.00           C 0
+TER
+END

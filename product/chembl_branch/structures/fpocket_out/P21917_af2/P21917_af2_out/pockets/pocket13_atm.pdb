@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : -0.0672
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0227
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5520
+HEADER 5  - Mean B-factor of pocket residues  : 0.6111
+HEADER 6  - Hydrophobicity Score              : 24.1667
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 403.3225
+HEADER 10 - Pocket volume (convex hull)       : 31.6973
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2500
+ATOM   1651  NH2 ARG A 226     -33.381  -3.730  11.810  0.00  0.00           N 0
+ATOM   1652   CZ ARG A 226     -32.985  -4.324  12.899  0.00  0.00           C 0
+ATOM   1650  NH1 ARG A 226     -31.813  -4.006  13.376  0.48  1.09           N 0
+ATOM   2425   NZ LYS A 336     -32.988  -2.140  18.769  0.00  0.00           N 0
+ATOM   1684  CD1 LEU A 230     -38.219  -5.445  14.802  0.00  0.00           C 0
+ATOM   1648   CD ARG A 226     -33.454  -5.984  14.711  0.00  0.00           C 0
+ATOM   1649   NE ARG A 226     -33.756  -5.226  13.482  0.11  1.09           N 0
+ATOM   2424   CE LYS A 336     -31.858  -2.886  18.151  0.00  0.00           C 0
+ATOM   1647   CG ARG A 226     -34.395  -7.180  14.885  0.00  0.00           C 0
+ATOM   2472   NE ARG A 342     -29.193  -2.678   9.982  0.50  5.47           N 0
+ATOM   2442   CA GLY A 339     -28.057   1.760  13.350  0.00  0.00           C 0
+ATOM   2473  NH1 ARG A 342     -31.272  -3.358   9.342  0.38  7.66           N 0
+ATOM   2471   CD ARG A 342     -29.007  -1.678   8.920  0.00  0.00           C 0
+ATOM   1685  CD2 LEU A 230     -39.244  -5.369  17.055  0.00  0.00           C 0
+ATOM   2441    N GLY A 339     -27.632   1.172  14.625  0.00  0.00           N 0
+ATOM   2430    O ILE A 337     -27.475  -2.553  15.543  0.61  2.14           O 0
+TER
+END

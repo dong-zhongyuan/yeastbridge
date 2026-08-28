@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    25:
+HEADER 0  - Pocket Score                      : -0.0323
+HEADER 1  - Drug Score                        : 0.0020
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.7568
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4300
+HEADER 5  - Mean B-factor of pocket residues  : 0.1736
+HEADER 6  - Hydrophobicity Score              : 17.5000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 204.5976
+HEADER 10 - Pocket volume (convex hull)       : 5.0157
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.7222
+ATOM   4307  CD1 TRP C  99     103.058 100.628  95.634  0.00  0.00           C 0
+ATOM   4436    N ASP C 118     103.823  97.791  89.566  0.53  2.19           N 0
+ATOM   4293   CB SER C  97     102.263 103.269  91.155  0.00  0.00           C 0
+ATOM   4305   CB TRP C  99     105.378 100.386  94.567  0.00  0.00           C 0
+ATOM   4440   CB ASP C 118     102.193  99.332  88.574  0.00  0.00           C 0
+ATOM   2273  CD1 ILE B  69     102.154  97.142  94.869  0.00  0.00           C 0
+ATOM   4437   CA ASP C 118     102.577  97.868  88.816  0.00  0.00           C 0
+ATOM   2285   CD GLU B  71      96.979 101.385  96.082  0.00  0.00           C 0
+ATOM   2286  OE1 GLU B  71      96.152 102.257  95.743  0.46  5.36           O 0
+ATOM   2287  OE2 GLU B  71      98.213 101.531  95.953  0.38  6.43           O 0
+ATOM   2269    O ILE B  69      96.837  97.161  93.351  0.00  0.00           O 0
+ATOM   2266    N ILE B  69      98.925  95.489  92.416  0.28  3.28           N 0
+ATOM   2262    N GLY B  68      98.354  94.792  89.668  0.21  6.56           N 0
+ATOM   2270   CB ILE B  69      99.684  96.729  94.427  0.00  0.00           C 0
+ATOM   2271  CG1 ILE B  69     101.109  96.180  94.357  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    80:
+HEADER 0  - Pocket Score                      : -0.2474
+HEADER 1  - Drug Score                        : 0.0024
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 4.1639
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4382
+HEADER 5  - Mean B-factor of pocket residues  : 0.6275
+HEADER 6  - Hydrophobicity Score              : 62.4000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 6.2000
+HEADER 9  - Pocket volume (Monte Carlo)       : 204.8215
+HEADER 10 - Pocket volume (convex hull)       : 1.6958
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.7500
+ATOM   5208   CG GLN R 126     110.704 112.729 151.741  0.00  0.00           C 0
+ATOM   6706  CZ3 TRP R 320     113.902 115.348 159.211  0.00  0.00           C 0
+ATOM   5207   CB GLN R 126     110.438 111.567 152.677  0.00  0.00           C 0
+ATOM   5209   CD GLN R 126     112.149 112.783 151.283  0.00  0.00           C 0
+ATOM   6735  CG1 ILE R 324     114.657 118.284 155.041  0.00  0.00           C 0
+ATOM   6707  CH2 TRP R 320     115.189 114.943 158.841  0.00  0.00           C 0
+ATOM   5210  OE1 GLN R 126     112.884 111.802 151.394  0.29  7.50           O 0
+ATOM   5237   CB TYR R 130     106.728 112.835 157.720  0.00  0.00           C 0
+ATOM   4862   OH TYR R  77     109.938 118.003 156.168  0.60  7.50           O 0
+ATOM   5206    O GLN R 126     107.825 111.720 154.494  0.48  2.14           O 0
+ATOM   4860  CE2 TYR R  77     108.546 117.109 154.454  0.00  0.00           C 0
+ATOM   5211  NE2 GLN R 126     112.564 113.932 150.764  0.52  3.28           N 0
+ATOM   6736  CG2 ILE R 324     112.996 118.350 153.178  0.00  0.00           C 0
+TER
+END

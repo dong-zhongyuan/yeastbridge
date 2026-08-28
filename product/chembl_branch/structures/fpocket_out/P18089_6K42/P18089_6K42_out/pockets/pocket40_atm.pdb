@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    40:
+HEADER 0  - Pocket Score                      : -0.0175
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.6618
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5149
+HEADER 5  - Mean B-factor of pocket residues  : 0.7637
+HEADER 6  - Hydrophobicity Score              : 11.2857
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 122.6429
+HEADER 10 - Pocket volume (convex hull)       : 0.6431
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.6000
+ATOM   8614  CG1 VAL H 214     132.362 204.667 141.546  0.00  0.00           C 0
+ATOM   8761   CD LYS H 232     128.245 208.445 138.869  0.00  0.00           C 0
+ATOM   8759   CB LYS H 232     130.647 207.969 138.327  0.00  0.00           C 0
+ATOM   8615  CG2 VAL H 214     130.534 204.283 139.877  0.00  0.00           C 0
+ATOM   8760   CG LYS H 232     129.631 209.040 138.689  0.00  0.00           C 0
+ATOM   7316   CG LYS H  43     128.814 204.788 144.149  0.00  0.00           C 0
+ATOM   8763   NZ LYS H 232     127.466 210.123 140.540  0.59  8.75           N 0
+ATOM   8742    O ALA H 229     131.222 207.605 146.629  0.47  2.14           O 0
+ATOM   8005   OG SER H 133     129.985 211.901 142.104  0.55  7.50           O 0
+ATOM   8755    N LYS H 232     132.596 208.987 139.443  0.00  0.00           N 0
+ATOM   8748    N THR H 231     133.855 208.260 142.409  0.00  0.00           N 0
+ATOM   8746    C GLY H 230     133.369 208.668 143.582  0.00  0.00           C 0
+ATOM   8004   CB SER H 133     131.241 211.516 141.573  0.00  0.00           C 0
+ATOM   8745   CA GLY H 230     133.120 207.603 144.629  0.00  0.00           C 0
+ATOM   8747    O GLY H 230     133.129 209.854 143.826  0.78  1.07           O 0
+ATOM   7315   CB LYS H  43     127.747 204.734 145.244  0.00  0.00           C 0
+TER
+END

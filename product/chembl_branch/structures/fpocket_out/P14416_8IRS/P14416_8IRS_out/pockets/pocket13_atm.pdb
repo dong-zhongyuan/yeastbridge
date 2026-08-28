@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : 0.0018
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0255
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7550
+HEADER 5  - Mean B-factor of pocket residues  : 0.0639
+HEADER 6  - Hydrophobicity Score              : 33.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 309.5074
+HEADER 10 - Pocket volume (convex hull)       : 15.5367
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.5625
+ATOM   8279   CA GLY B 310      88.276  86.270  96.379  0.00  0.00           C 0
+ATOM   8270    C ALA B 309      86.160  86.600  95.180  0.00  0.00           C 0
+ATOM   8272   CB ALA B 309      83.678  86.549  95.679  0.00  0.00           C 0
+ATOM   8271    O ALA B 309      86.301  87.816  95.163  0.39  8.57           O 0
+ATOM   8278    N GLY B 310      87.152  85.808  95.561  0.00  0.00           N 0
+ATOM   8702  CH2 TRP B 339      87.045  82.807  97.059  0.00  0.00           C 0
+ATOM   4333  CG2 THR B  47      89.579  82.213  99.183  0.00  0.00           C 0
+ATOM   4332  OG1 THR B  47      89.845  82.350 101.482  0.00  0.00           O 0
+ATOM   8656   NZ LYS B 337      92.446  86.738  98.196  0.28  9.84           N 1
+ATOM   4327    N THR B  47      88.112  80.153 100.794  0.66  2.19           N 0
+ATOM   4307   CB ARG B  46      85.518  79.254 102.527  0.00  0.00           C 0
+ATOM   4308   CG ARG B  46      84.073  79.663 102.871  0.00  0.00           C 0
+ATOM   4304   CA ARG B  46      85.841  79.297 101.027  0.00  0.00           C 0
+ATOM   4310   NE ARG B  46      84.672  80.387 105.180  0.62  5.47           N 0
+ATOM   4312  NH1 ARG B  46      86.682  80.851 106.144  0.63  5.47           N 1
+ATOM   8701  CZ3 TRP B 339      86.301  81.779  97.655  0.00  0.00           C 0
+ATOM   4289    O MET B  45      83.621  79.699  99.292  0.26  9.64           O 0
+ATOM   8268    N ALA B 309      84.709  84.511  94.934  0.00  0.00           N 0
+ATOM   8236    O VAL B 307      82.060  81.900  95.182  0.20  8.57           O 0
+TER
+END

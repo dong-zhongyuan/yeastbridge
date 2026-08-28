@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    31:
+HEADER 0  - Pocket Score                      : -0.0851
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 4.0726
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6150
+HEADER 5  - Mean B-factor of pocket residues  : 0.3958
+HEADER 6  - Hydrophobicity Score              : 9.5714
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 175.9185
+HEADER 10 - Pocket volume (convex hull)       : 2.7571
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3158
+ATOM   8334   CB GLU R  34      92.067 179.622 191.370  0.00  0.00           C 0
+ATOM   8351   CD GLU R  35      93.538 180.277 186.010  0.00  0.00           C 0
+ATOM   8333    O GLU R  34      90.512 179.517 188.435  0.68  5.36           O 0
+ATOM   4147   CE LYS H  64      95.436 182.369 192.140  0.00  0.00           C 0
+ATOM   8350   CG GLU R  35      94.001 179.391 187.148  0.00  0.00           C 0
+ATOM   8353  OE2 GLU R  35      94.334 181.121 185.548  0.74  1.07           O 0
+ATOM   4208  CG2 THR H  68      93.566 185.631 183.521  0.00  0.00           C 0
+ATOM   8352  OE1 GLU R  35      92.376 180.130 185.577  0.67  5.36           O 0
+ATOM   4207  OG1 THR H  68      93.252 187.480 185.027  0.00  0.00           O 0
+ATOM   4162    N GLY H  65      95.432 187.280 190.748  0.65  1.09           N 0
+ATOM   4146   CD LYS H  64      96.089 183.706 191.843  0.00  0.00           C 0
+ATOM   4163   CA GLY H  65      94.211 188.040 190.554  0.00  0.00           C 0
+ATOM   4074   OH TYR H  59      96.649 183.992 185.406  0.00  0.00           O 0
+ATOM   4189    O VAL H  67      96.957 187.513 186.737  0.00  0.00           O 0
+ATOM   4073   CZ TYR H  59      97.352 183.876 186.580  0.00  0.00           C 0
+ATOM   4072  CE2 TYR H  59      97.180 182.764 187.364  0.00  0.00           C 0
+TER
+END

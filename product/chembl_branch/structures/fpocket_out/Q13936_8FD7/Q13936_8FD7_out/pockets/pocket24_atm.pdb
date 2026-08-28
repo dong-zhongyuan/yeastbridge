@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    24:
+HEADER 0  - Pocket Score                      : -0.0070
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.5813
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3691
+HEADER 5  - Mean B-factor of pocket residues  : 0.2140
+HEADER 6  - Hydrophobicity Score              : 66.4286
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 83.6733
+HEADER 10 - Pocket volume (convex hull)       : 0.5279
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5556
+ATOM   8370  CD1 ILE K 201     148.175 190.093 183.277  0.00  0.00           C 0
+ATOM   8524   NE ARG K 243     148.270 187.275 187.671  0.78  3.28           N 0
+ATOM   8492   CA ARG K 240     152.543 188.565 186.804  0.00  0.00           C 0
+ATOM   8367   CB ILE K 201     146.616 191.409 184.810  0.00  0.00           C 0
+ATOM   8491    N ARG K 240     153.113 189.870 186.482  0.00  0.00           N 0
+ATOM   8484   CB PHE K 239     153.003 193.194 186.825  0.00  0.00           C 0
+ATOM   8358  CD1 PHE K 200     150.544 195.288 185.204  0.00  0.00           C 0
+ATOM   8459    O LEU K 236     153.640 193.018 183.497  0.58  1.07           O 0
+ATOM   8496   CG ARG K 240     151.516 188.311 184.470  0.00  0.00           C 0
+ATOM   8331    O LEU K 197     146.820 193.003 187.925  0.57  3.21           O 0
+ATOM   8483    O PHE K 239     152.908 190.613 188.604  0.00  0.00           O 0
+ATOM   8333   CG LEU K 197     149.358 191.687 191.195  0.00  0.00           C 0
+ATOM   8482    C PHE K 239     153.292 190.785 187.441  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    44:
+HEADER 0  - Pocket Score                      : -0.1111
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.8192
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4969
+HEADER 5  - Mean B-factor of pocket residues  : 0.5557
+HEADER 6  - Hydrophobicity Score              : 15.8750
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.8750
+HEADER 9  - Pocket volume (Monte Carlo)       : 233.3353
+HEADER 10 - Pocket volume (convex hull)       : 6.1760
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1000
+ATOM   5567   CB LYS B 397      70.007  28.840  92.808  0.00  0.00           C 0
+ATOM   5539   CA ARG B 394      67.789  32.497  93.763  0.00  0.00           C 0
+ATOM   6046  ND2 ASN B 457      69.160  27.338  99.404  0.00  0.00           N 0
+ATOM   6045  OD1 ASN B 457      71.075  28.302 100.069  0.00  0.00           O 0
+ATOM   5541    O ARG B 394      66.990  30.251  93.476  0.68  1.07           O 0
+ATOM   5574  CG2 VAL B 398      64.965  28.110  94.746  0.00  0.00           C 0
+ATOM   5542   CB ARG B 394      67.247  33.169  95.026  0.00  0.00           C 0
+ATOM   6057  OG1 THR B 459      70.785  31.019 102.166  0.56  9.64           O 0
+ATOM   6044   CG ASN B 457      70.482  27.371  99.524  0.00  0.00           C 0
+ATOM   5565    C LYS B 397      68.236  27.133  92.323  0.00  0.00           C 0
+ATOM   5566    O LYS B 397      68.653  26.014  92.622  0.00  0.00           O 0
+ATOM   6036    O CYS B 456      72.059  26.468  95.485  0.52  5.36           O 0
+ATOM   6047    N ALA B 458      73.729  28.308  99.441  0.68  2.19           N 0
+ATOM   6040   CA ASN B 457      72.514  26.607  98.207  0.00  0.00           C 0
+ATOM   5568    N VAL B 398      66.972  27.506  92.512  0.00  0.00           N 0
+ATOM   5598  OG1 THR B 401      68.884  24.082  94.368  0.65  5.36           O 0
+TER
+END

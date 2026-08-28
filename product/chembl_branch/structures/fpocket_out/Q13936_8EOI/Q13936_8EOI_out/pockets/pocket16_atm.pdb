@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    16:
+HEADER 0  - Pocket Score                      : 0.0450
+HEADER 1  - Drug Score                        : 0.0012
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.5737
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4039
+HEADER 5  - Mean B-factor of pocket residues  : 0.0560
+HEADER 6  - Hydrophobicity Score              : 56.8750
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.6250
+HEADER 9  - Pocket volume (Monte Carlo)       : 83.0811
+HEADER 10 - Pocket volume (convex hull)       : 0.5664
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.8667
+ATOM  14235   CG MET H  14     177.242 154.827 246.665  0.00  0.00           C 0
+ATOM  14244  CG2 VAL H  15     178.526 160.064 246.506  0.00  0.00           C 0
+ATOM  14988  CG1 VAL H 127     172.120 157.467 245.781  0.00  0.00           C 0
+ATOM  14236   SD MET H  14     176.458 154.903 248.287  0.00  0.00           S 0
+ATOM  15084    O THR H 140     172.283 159.071 249.655  0.00  0.00           O 0
+ATOM  15087  CG2 THR H 140     173.592 161.755 248.861  0.00  0.00           C 0
+ATOM  14211  CE1 TYR H  11     177.637 159.798 251.262  0.00  0.00           C 0
+ATOM  15093  CG1 ILE H 141     174.315 157.243 251.373  0.00  0.00           C 0
+ATOM  14213   CZ TYR H  11     177.804 160.960 250.543  0.00  0.00           C 0
+ATOM  15077    O PRO H 139     174.508 160.494 251.548  0.00  0.00           O 0
+ATOM  15031  CE2 PHE H 132     173.992 160.091 243.699  0.00  0.00           C 0
+ATOM  14239   CA VAL H  15     178.737 158.758 244.371  0.00  0.00           C 0
+ATOM  14233    O MET H  14     178.071 156.180 243.704  0.00  0.00           O 0
+TER
+END

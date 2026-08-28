@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    35:
+HEADER 0  - Pocket Score                      : -0.0697
+HEADER 1  - Drug Score                        : 0.0015
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.8829
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6302
+HEADER 5  - Mean B-factor of pocket residues  : 0.7236
+HEADER 6  - Hydrophobicity Score              : 51.4000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 257.7343
+HEADER 10 - Pocket volume (convex hull)       : 6.6906
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.5625
+ATOM   6108   CD ARG B 465      81.587  27.575 108.423  0.00  0.00           C 0
+ATOM   6107   CG ARG B 465      80.699  26.857 109.430  0.00  0.00           C 0
+ATOM   6109   NE ARG B 465      82.067  26.677 107.375  0.59  7.66           N 0
+ATOM   6145  CD1 LEU B 469      82.131  26.854 113.842  0.00  0.00           C 0
+ATOM   6146  CD2 LEU B 469      82.691  24.639 114.864  0.00  0.00           C 0
+ATOM   6144   CG LEU B 469      81.575  25.528 114.337  0.00  0.00           C 0
+ATOM   6135   CB LEU B 468      79.271  21.730 112.298  0.00  0.00           C 0
+ATOM   6137  CD1 LEU B 468      79.798  20.432 110.212  0.00  0.00           C 0
+ATOM   6105    O ARG B 465      79.011  25.754 111.952  0.67  1.07           O 0
+ATOM   6103   CA ARG B 465      78.622  25.368 109.614  0.00  0.00           C 0
+ATOM   6112  NH2 ARG B 465      82.045  25.747 105.270  0.00  0.00           N 0
+ATOM   6106   CB ARG B 465      79.389  26.414 108.801  0.00  0.00           C 0
+ATOM   6102    N ARG B 465      77.439  24.930 108.883  0.00  0.00           N 0
+ATOM   6095   CB PHE B 464      75.921  22.902 107.211  0.00  0.00           C 0
+ATOM   6073    O LYS B 461      76.978  25.887 106.156  0.52  2.14           O 0
+ATOM   6075   CG LYS B 461      78.372  25.857 103.034  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    32:
+HEADER 0  - Pocket Score                      : 0.0012
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.5443
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3277
+HEADER 5  - Mean B-factor of pocket residues  : 0.2516
+HEADER 6  - Hydrophobicity Score              : 31.1429
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 93.1967
+HEADER 10 - Pocket volume (convex hull)       : 0.8188
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3529
+ATOM  11498   CB ARG C  24     194.337 143.185 129.138  0.00  0.00           C 0
+ATOM  11494    N ARG C  24     196.441 144.385 128.748  0.50  2.19           N 0
+ATOM  18499  CD2 LEU D 211     193.292 149.757 127.189  0.00  0.00           C 0
+ATOM  18493   CA LEU D 211     194.169 149.677 130.614  0.00  0.00           C 0
+ATOM  18490    O ALA D 210     192.746 147.784 132.049  0.58  2.14           O 0
+ATOM  11501   NE ARG C  24     193.615 144.314 131.926  0.54  1.09           N 0
+ATOM  22267  CG1 VAL D 721     189.228 146.244 131.150  0.00  0.00           C 0
+ATOM  18057   OH TYR D 155     190.239 148.630 127.935  0.66  4.29           O 0
+ATOM  11497    O ARG C  24     194.070 143.972 126.458  0.48  2.14           O 0
+ATOM  22238    O ARG D 718     188.384 141.767 130.592  0.61  2.14           O 0
+ATOM  11500   CD ARG C  24     193.547 142.918 131.511  0.00  0.00           C 0
+ATOM  22240   CG ARG D 718     190.903 140.298 128.902  0.00  0.00           C 0
+ATOM  11518  OE2 GLU C  26     189.800 143.664 125.420  0.22  9.64           O 0
+TER
+END

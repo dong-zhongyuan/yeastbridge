@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : -0.1245
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9222
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5420
+HEADER 5  - Mean B-factor of pocket residues  : 0.3770
+HEADER 6  - Hydrophobicity Score              : 1.8750
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.8750
+HEADER 9  - Pocket volume (Monte Carlo)       : 303.2222
+HEADER 10 - Pocket volume (convex hull)       : 10.9930
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1667
+ATOM   2171  OE2 GLU A 318     -28.738  -8.250 108.843  0.00  0.00           O 1
+ATOM    857    O ALA A 176     -31.435  -0.964 108.601  0.57  8.57           O 0
+ATOM    864  CG1 ILE A 177     -33.520  -4.529 109.773  0.00  0.00           C 0
+ATOM    858   CB ALA A 176     -29.781  -2.108 111.112  0.00  0.00           C 0
+ATOM   2170  OE1 GLU A 318     -30.705  -8.481 109.856  0.00  0.00           O 0
+ATOM    882   CA PRO A 180     -31.048   1.316 105.779  0.00  0.00           C 0
+ATOM    885   CB PRO A 180     -31.694   0.810 104.484  0.00  0.00           C 0
+ATOM    884    O PRO A 180     -28.786   1.953 105.574  0.62  9.64           O 0
+ATOM   2169   CD GLU A 318     -29.973  -8.540 108.842  0.00  0.00           C 0
+ATOM   2168   CG GLU A 318     -30.620  -8.965 107.531  0.00  0.00           C 0
+ATOM    829   CG ARG A 173     -31.265  -6.942 114.074  0.00  0.00           C 0
+ATOM    907   CB HIS A 183     -27.649   0.426 108.545  0.00  0.00           C 0
+ATOM    827    O ARG A 173     -32.109  -3.881 112.738  0.67  2.14           O 0
+ATOM    825   CA ARG A 173     -30.679  -4.483 114.573  0.00  0.00           C 0
+ATOM    314  OG1 THR A 109     -25.869  -6.630 115.049  0.53  5.36           O 0
+ATOM    823  OD2 ASP A 172     -26.394  -2.802 115.774  0.57  2.14           O 1
+ATOM    833  NH1 ARG A 173     -29.584  -9.604 113.052  0.67  4.37           N 0
+TER
+END

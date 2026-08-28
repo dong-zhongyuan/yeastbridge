@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    16:
+HEADER 0  - Pocket Score                      : 0.0223
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.7287
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6658
+HEADER 5  - Mean B-factor of pocket residues  : 0.6950
+HEADER 6  - Hydrophobicity Score              : 9.5000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 165.2767
+HEADER 10 - Pocket volume (convex hull)       : 3.5899
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0625
+ATOM  10681  NH1 ARG D 338     198.686 160.784 192.287  0.74  9.84           N 0
+ATOM  10680   CZ ARG D 338     199.435 159.790 192.735  0.00  0.00           C 0
+ATOM  10682  NH2 ARG D 338     199.057 158.536 192.504  0.73  3.28           N 0
+ATOM  10649    O SER D 334     203.066 157.793 190.266  0.56  1.07           O 0
+ATOM  10651   OG SER D 334     200.389 156.195 190.981  0.57  6.43           O 0
+ATOM  10671   CB ALA D 337     203.750 158.943 187.032  0.00  0.00           C 0
+ATOM  10647   CA SER D 334     202.394 155.556 189.758  0.00  0.00           C 0
+ATOM  10644    O GLU D 333     202.876 154.646 187.177  0.53  7.50           O 0
+ATOM  10650   CB SER D 334     201.161 155.089 190.547  0.00  0.00           C 0
+ATOM  10711  OE1 GLN D 341     200.510 164.213 186.795  0.56  8.57           O 0
+ATOM  10672    N ARG D 338     203.861 160.550 189.757  0.00  0.00           N 0
+ATOM  10676   CB ARG D 338     202.710 161.045 191.858  0.00  0.00           C 0
+ATOM  10669    C ALA D 337     204.387 160.824 188.562  0.00  0.00           C 0
+ATOM  10673   CA ARG D 338     203.384 161.627 190.616  0.00  0.00           C 0
+ATOM   3470  CG2 VAL B  98     198.980 164.521 191.482  0.00  0.00           C 0
+ATOM  10677   CG ARG D 338     201.735 161.992 192.531  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    12:
+HEADER 0  - Pocket Score                      : 0.0215
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9969
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6968
+HEADER 5  - Mean B-factor of pocket residues  : 0.9196
+HEADER 6  - Hydrophobicity Score              : 3.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 228.5445
+HEADER 10 - Pocket volume (convex hull)       : 6.9973
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2500
+ATOM    268  NE2 GLN A  50     198.829 200.639 285.027  0.00  0.00           N 0
+ATOM    288   CD GLN A  53     202.719 197.233 285.381  0.00  0.00           C 0
+ATOM    290  NE2 GLN A  53     202.910 198.528 285.598  0.00  0.00           N 0
+ATOM    289  OE1 GLN A  53     203.028 196.370 286.202  0.00  0.00           O 0
+ATOM    287   CG GLN A  53     202.098 196.856 284.055  0.00  0.00           C 0
+ATOM    291    N GLU A  54     199.038 195.984 282.723  0.00  0.00           N 0
+ATOM    285    O GLN A  53     199.310 194.074 283.885  0.61  1.07           O 0
+ATOM    296   CG GLU A  54     195.642 197.654 283.233  0.00  0.00           C 0
+ATOM    295   CB GLU A  54     197.090 197.457 282.824  0.00  0.00           C 0
+ATOM    330  CE1 TYR A  58     193.925 195.562 286.184  0.00  0.00           C 0
+ATOM    297   CD GLU A  54     195.210 199.103 283.152  0.00  0.00           C 0
+ATOM    333   OH TYR A  58     192.934 196.259 288.235  0.64  7.50           O 0
+ATOM    299  OE2 GLU A  54     194.015 199.382 283.386  0.67  4.29           O 0
+ATOM    298  OE1 GLU A  54     196.065 199.963 282.854  0.52  9.64           O 0
+ATOM    292   CA GLU A  54     197.607 196.027 282.991  0.00  0.00           C 0
+TER
+END

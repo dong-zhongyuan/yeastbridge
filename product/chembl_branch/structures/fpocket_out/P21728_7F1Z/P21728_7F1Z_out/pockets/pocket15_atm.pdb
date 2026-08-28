@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : -0.0035
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 4.1928
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5350
+HEADER 5  - Mean B-factor of pocket residues  : 0.2592
+HEADER 6  - Hydrophobicity Score              : 15.2222
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 5.5556
+HEADER 9  - Pocket volume (Monte Carlo)       : 348.5180
+HEADER 10 - Pocket volume (convex hull)       : 7.2895
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0500
+ATOM   4019   NE ARG A 380      94.703 117.762 111.665  0.00  0.00           N 0
+ATOM   3987  CE1 PHE A 376      91.666 118.518 116.065  0.00  0.00           C 0
+ATOM   4018   CD ARG A 380      94.526 117.158 112.977  0.00  0.00           C 0
+ATOM   3996  OD1 ASN A 377      94.738 121.535 117.276  0.64  2.14           O 0
+ATOM   4020   CZ ARG A 380      93.730 117.924 110.782  0.00  0.00           C 0
+ATOM    866   NE ARG F 130      89.171 116.866 107.761  0.00  0.00           N 0
+ATOM    865   CD ARG F 130      88.493 115.588 107.621  0.00  0.00           C 0
+ATOM    864   CG ARG F 130      88.832 114.593 108.708  0.00  0.00           C 0
+ATOM    900  NH1 ARG F 133      86.237 113.260 111.892  0.56  4.37           N 0
+ATOM   4021  NH1 ARG A 380      92.500 117.511 111.054  0.00  0.00           N 0
+ATOM    852   CB PHE F 129      90.691 113.031 113.026  0.00  0.00           C 0
+ATOM   3958  NH1 ARG A 373      90.063 122.769 116.823  0.00  0.00           N 0
+ATOM   3989   CZ PHE A 376      90.754 117.526 115.903  0.00  0.00           C 0
+ATOM   2735  OD2 ASP A 215      87.715 120.734 116.056  0.00  0.00           O 0
+ATOM   2732   CB ASP A 215      86.445 118.729 115.975  0.00  0.00           C 0
+ATOM   2731    O ASP A 215      85.626 116.236 115.257  0.68  3.21           O 0
+ATOM   2751  CG2 VAL A 217      88.049 114.090 115.833  0.00  0.00           C 0
+TER
+END

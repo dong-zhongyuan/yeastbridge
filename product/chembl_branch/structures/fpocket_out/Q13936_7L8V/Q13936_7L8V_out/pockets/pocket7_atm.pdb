@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : 0.0013
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.6573
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4422
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : -30.6667
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 146.6492
+HEADER 10 - Pocket volume (convex hull)       : 3.5981
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1765
+ATOM   1105  NH2 ARG A  75     -29.235 -26.104  15.150  0.00  0.00           N 0
+ATOM   1164   CD LYS A  78     -27.156 -31.758  18.923  0.00  0.00           C 0
+ATOM   1183    O ASP A  79     -27.398 -28.580  21.622  0.00  0.00           O 0
+ATOM   1166   NZ LYS A  78     -29.148 -32.361  17.569  0.00  0.00           N 0
+ATOM   1165   CE LYS A  78     -28.544 -32.401  18.932  0.00  0.00           C 0
+ATOM   1100   CG ARG A  75     -25.559 -26.644  14.744  0.00  0.00           C 0
+ATOM   1103   CZ ARG A  75     -28.345 -25.177  14.930  0.00  0.00           C 0
+ATOM   1104  NH1 ARG A  75     -28.280 -24.092  15.653  0.00  0.00           N 0
+ATOM   1098    O ARG A  75     -23.558 -30.297  15.717  0.59  3.21           O 0
+ATOM   1159   CA LYS A  78     -24.360 -31.020  18.613  0.00  0.00           C 0
+ATOM   1163   CG LYS A  78     -26.182 -32.675  18.180  0.00  0.00           C 0
+ATOM   1101   CD ARG A  75     -26.778 -26.643  13.819  0.00  0.00           C 0
+ATOM   1180    N ASP A  79     -24.988 -29.239  20.100  0.58  3.28           N 0
+ATOM   1184   CB ASP A  79     -24.932 -27.019  21.132  0.00  0.00           C 0
+ATOM   1099   CB ARG A  75     -24.527 -27.642  14.209  0.00  0.00           C 0
+TER
+END

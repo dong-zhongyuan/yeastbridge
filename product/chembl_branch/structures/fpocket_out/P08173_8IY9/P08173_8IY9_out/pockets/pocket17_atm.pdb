@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    17:
+HEADER 0  - Pocket Score                      : 0.0028
+HEADER 1  - Drug Score                        : 0.0024
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.7533
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4909
+HEADER 5  - Mean B-factor of pocket residues  : 0.7757
+HEADER 6  - Hydrophobicity Score              : 78.8000
+HEADER 7  - Polarity Score                    :     0
+HEADER 8  - Amino Acid based volume Score     : 4.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 111.7955
+HEADER 10 - Pocket volume (convex hull)       : 0.2310
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM   6619   CB LEU R 102     155.613 182.268 184.971  0.00  0.00           C 0
+ATOM   6617    C LEU R 102     158.026 181.708 185.321  0.00  0.00           C 0
+ATOM   6618    O LEU R 102     158.448 180.736 184.683  0.66  2.14           O 0
+ATOM   6653   SD MET R 106     159.081 180.089 179.655  0.00  0.00           S 0
+ATOM   6621   CA MET R 103     160.113 182.891 184.952  0.00  0.00           C 0
+ATOM   6625   CG MET R 103     162.102 184.542 184.717  0.00  0.00           C 0
+ATOM   6468  CD2 PHE R  82     160.622 187.497 181.852  0.00  0.00           C 0
+ATOM   6470  CE2 PHE R  82     159.492 187.284 181.081  0.00  0.00           C 0
+ATOM   6624   CB MET R 103     160.630 184.328 185.078  0.00  0.00           C 0
+ATOM   6620    N MET R 103     158.773 182.798 185.521  0.00  0.00           N 0
+ATOM   6654   CE MET R 106     160.305 181.211 178.983  0.00  0.00           C 0
+ATOM   6448   CB CYS R  79     164.365 182.585 180.315  0.00  0.00           C 0
+ATOM   6445   CA CYS R  79     163.830 183.682 179.407  0.00  0.00           C 0
+TER
+END

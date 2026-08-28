@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : -0.0550
+HEADER 1  - Drug Score                        : 0.0043
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.8654
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7112
+HEADER 5  - Mean B-factor of pocket residues  : 0.2278
+HEADER 6  - Hydrophobicity Score              : 73.0000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 292.4709
+HEADER 10 - Pocket volume (convex hull)       : 7.4175
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 15.0000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 0.8421
+ATOM    212  CG2 ILE A  96     -12.051 -10.948 122.928  0.00  0.00           C 0
+ATOM    213  CD1 ILE A  96     -13.236 -12.376 125.550  0.00  0.00           C 0
+ATOM    405   SD MET A 121     -11.965 -13.462 128.782  0.00  0.00           S 0
+ATOM    406   CE MET A 121     -12.041 -11.758 129.322  0.00  0.00           C 0
+ATOM    210   CB ILE A  96     -12.773 -12.262 123.036  0.00  0.00           C 0
+ATOM    188  CG1 ILE A  93     -10.704 -16.304 126.947  0.00  0.00           C 0
+ATOM    184   CA ILE A  93     -12.207 -16.337 124.888  0.00  0.00           C 0
+ATOM    189  CG2 ILE A  93      -9.768 -17.163 124.796  0.00  0.00           C 0
+ATOM    214    N MET A  97     -11.631 -13.887 120.543  0.00  0.00           N 0
+ATOM    219   CG MET A  97      -8.905 -15.701 120.804  0.00  0.00           C 0
+ATOM    186    O ILE A  93     -11.815 -15.690 122.578  0.61  1.07           O 0
+ATOM    239   OG SER A 100     -10.721  -9.433 119.033  0.78  4.29           O 0
+ATOM    215   CA MET A  97     -10.587 -14.201 119.520  0.00  0.00           C 0
+ATOM    238   CB SER A 100      -9.961  -9.730 117.866  0.00  0.00           C 0
+ATOM    245   CG LEU A 101      -7.571 -13.072 115.622  0.00  0.00           C 0
+ATOM    246  CD1 LEU A 101      -7.097 -14.443 116.091  0.00  0.00           C 0
+ATOM    209    O ILE A  96     -12.147 -11.771 119.816  0.00  0.00           O 0
+TER
+END

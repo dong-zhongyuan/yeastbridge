@@ -1,0 +1,34 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    93:
+HEADER 0  - Pocket Score                      : -0.1043
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.7398
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4429
+HEADER 5  - Mean B-factor of pocket residues  : 0.1424
+HEADER 6  - Hydrophobicity Score              : 0.4000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 154.8409
+HEADER 10 - Pocket volume (convex hull)       : 1.3600
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.4000
+ATOM   6624   CG LYS B 201     190.660 174.097 139.934  0.00  0.00           C 0
+ATOM   6966   CG LEU B 244     190.433 171.564 143.151  0.00  0.00           C 0
+ATOM   6625   CD LYS B 201     189.782 175.224 139.407  0.00  0.00           C 0
+ATOM   6968  CD2 LEU B 244     190.073 170.993 141.791  0.00  0.00           C 0
+ATOM   6991  OE1 GLN B 247     187.728 167.774 140.152  0.66  7.50           O 0
+ATOM   6958   CD GLU B 243     184.158 171.301 143.360  0.00  0.00           C 0
+ATOM   6960  OE2 GLU B 243     183.441 170.863 142.435  0.67  7.50           O 1
+ATOM   6627   NZ LYS B 201     188.381 173.619 138.095  0.62  9.84           N 1
+ATOM   6959  OE1 GLU B 243     184.219 172.514 143.662  0.44  9.64           O 0
+ATOM   6927   CG GLU B 240     186.897 177.114 144.763  0.00  0.00           C 0
+ATOM   6926   CB GLU B 240     187.961 176.160 145.284  0.00  0.00           C 0
+ATOM   6925    O GLU B 240     188.579 172.908 145.596  0.68  2.14           O 0
+TER
+END

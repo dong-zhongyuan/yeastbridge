@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    16:
+HEADER 0  - Pocket Score                      : -0.0080
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.8023
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4602
+HEADER 5  - Mean B-factor of pocket residues  : 0.6928
+HEADER 6  - Hydrophobicity Score              : 17.7778
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.5556
+HEADER 9  - Pocket volume (Monte Carlo)       : 245.9409
+HEADER 10 - Pocket volume (convex hull)       : 12.9938
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM   4845  OE1 GLU R  30     179.177 194.907 280.238  0.70  2.14           O 0
+ATOM   5031   NZ LYS R  42     179.444 191.555 276.207  0.60  7.66           N 0
+ATOM   4842   CB GLU R  30     181.775 196.099 280.721  0.00  0.00           C 0
+ATOM   4843   CG GLU R  30     181.148 195.006 281.572  0.00  0.00           C 0
+ATOM   5003   CB THR R  40     181.775 197.106 275.827  0.00  0.00           C 0
+ATOM   5030   CE LYS R  42     178.806 192.780 275.651  0.00  0.00           C 0
+ATOM   4872  NE2 HIS R  32     185.440 195.452 277.650  0.63  4.37           N 0
+ATOM   5330  CG2 ILE R  60     177.974 193.647 271.065  0.00  0.00           C 0
+ATOM   2720    N LYS B 101     180.874 189.196 271.957  0.57  2.19           N 0
+ATOM   5329  CG1 ILE R  60     179.380 195.683 271.573  0.00  0.00           C 0
+ATOM   2694    O ALA B  99     183.891 191.916 270.328  0.38  9.64           O 0
+ATOM   5004  OG1 THR R  40     183.060 197.138 275.192  0.74  3.21           O 0
+ATOM   2724   CB LYS B 101     180.879 188.473 274.291  0.00  0.00           C 0
+ATOM   5005  CG2 THR R  40     180.801 196.333 274.945  0.00  0.00           C 0
+ATOM   5289   CD LYS R  58     184.188 197.696 271.670  0.00  0.00           C 0
+ATOM   5290   CE LYS R  58     184.032 197.028 270.312  0.00  0.00           C 0
+ATOM   2702   CA ILE B 100     181.621 190.305 269.931  0.00  0.00           C 0
+TER
+END

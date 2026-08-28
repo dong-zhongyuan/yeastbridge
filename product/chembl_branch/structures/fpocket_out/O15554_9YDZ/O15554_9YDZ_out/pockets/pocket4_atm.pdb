@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     4:
+HEADER 0  - Pocket Score                      : 0.0422
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8350
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5372
+HEADER 5  - Mean B-factor of pocket residues  : 0.7260
+HEADER 6  - Hydrophobicity Score              : 9.2500
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 5.1250
+HEADER 9  - Pocket volume (Monte Carlo)       : 215.6952
+HEADER 10 - Pocket volume (convex hull)       : 3.8411
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 3.6000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM   5037   CD ARG B 338     201.189 267.292 195.557  0.00  0.00           C 0
+ATOM   5036   CG ARG B 338     200.519 266.698 194.329  0.00  0.00           C 0
+ATOM   5015   CB HIS B 335     198.444 271.181 194.316  0.00  0.00           C 0
+ATOM   8633   CG ARG D  97     205.184 268.550 194.656  0.00  0.00           C 0
+ATOM   8635   NE ARG D  97     205.472 270.448 196.203  0.50  9.84           N 0
+ATOM   8634   CD ARG D  97     205.137 269.033 196.095  0.00  0.00           C 0
+ATOM   8612    O ASP D  95     207.920 268.360 192.640  0.25  4.29           O 0
+ATOM   8601    O ARG D  94     208.959 267.656 189.841  0.52  5.36           O 0
+ATOM   8597  CD2 LEU D  93     208.758 264.521 190.559  0.00  0.00           C 0
+ATOM   8645  CG2 VAL D  98     204.011 263.355 191.877  0.00  0.00           C 0
+ATOM   5071  NE2 GLN B 341     202.736 263.903 188.393  0.58  7.66           N 0
+ATOM   8595   CG LEU D  93     208.359 263.701 189.343  0.00  0.00           C 0
+ATOM   8632   CB ARG D  97     204.720 267.106 194.535  0.00  0.00           C 0
+ATOM   5070  OE1 GLN B 341     201.528 265.040 189.906  0.56  9.64           O 0
+ATOM   5017  ND1 HIS B 335     199.247 270.571 196.629  0.69  5.47           N 0
+TER
+END

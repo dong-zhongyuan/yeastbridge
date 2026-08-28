@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    21:
+HEADER 0  - Pocket Score                      : -0.1320
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9606
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7316
+HEADER 5  - Mean B-factor of pocket residues  : 0.0656
+HEADER 6  - Hydrophobicity Score              : 14.4000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 230.5496
+HEADER 10 - Pocket volume (convex hull)       : 6.1776
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2778
+ATOM    216  CD2 TYR A  28      12.542  -4.249 -40.938  0.00  0.00           C 0
+ATOM    205    O LEU A  27      15.130  -2.299 -41.449  0.00  0.00           O 0
+ATOM    218  CE2 TYR A  28      12.262  -5.552 -41.391  0.00  0.00           C 0
+ATOM    220   CZ TYR A  28      11.129  -5.786 -42.199  0.00  0.00           C 0
+ATOM    217  CE1 TYR A  28      10.282  -4.713 -42.549  0.00  0.00           C 0
+ATOM    215  CD1 TYR A  28      10.566  -3.409 -42.090  0.00  0.00           C 0
+ATOM    225    O SER A  29      12.622   0.791 -46.365  0.45  8.57           O 0
+ATOM    204   CB LEU A  27      17.180  -0.562 -42.877  0.00  0.00           C 0
+ATOM    208  CD2 LEU A  27      17.788   0.310 -45.162  0.00  0.00           C 0
+ATOM    228   CA ASN A  30      10.249   0.526 -47.888  0.00  0.00           C 0
+ATOM    239    O ASP A  31      11.815  -1.363 -51.877  0.00  0.00           O 0
+ATOM    235    N ASP A  31      11.627   0.546 -49.895  0.17  5.47           N 0
+ATOM    234  OD1 ASN A  30       7.878  -0.886 -46.645  0.46  9.64           O 0
+ATOM    221    N SER A  29      12.245   0.738 -43.631  0.00  0.00           N 0
+ATOM    210   CA TYR A  28      12.698  -0.925 -41.933  0.00  0.00           C 0
+ATOM    214   CG TYR A  28      11.695  -3.176 -41.279  0.00  0.00           C 0
+ATOM    223    C SER A  29      11.548   1.161 -45.898  0.00  0.00           C 0
+ATOM    227    N ASN A  30      10.395   1.109 -46.559  0.00  0.00           N 0
+ATOM    203    C LEU A  27      15.127  -1.075 -41.491  0.00  0.00           C 0
+TER
+END

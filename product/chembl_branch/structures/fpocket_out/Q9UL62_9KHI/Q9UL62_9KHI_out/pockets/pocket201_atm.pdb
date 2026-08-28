@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   201:
+HEADER 0  - Pocket Score                      : -0.2096
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.0605
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6108
+HEADER 5  - Mean B-factor of pocket residues  : 0.5343
+HEADER 6  - Hydrophobicity Score              : 10.1111
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 5.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 318.7624
+HEADER 10 - Pocket volume (convex hull)       : 13.1925
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0556
+ATOM  15812   CG GLU B  41     160.993 163.525 173.087  0.00  0.00           C 0
+ATOM  15815  OE2 GLU B  41     162.246 163.464 171.066  0.41  9.64           O 0
+ATOM  16075  OE2 GLU B  79     155.021 161.525 171.366  0.00  0.00           O 0
+ATOM  16053  CD1 ILE B  76     158.988 166.034 171.485  0.00  0.00           C 0
+ATOM  16017  NH1 ARG B  71     156.513 166.210 168.073  0.60  7.66           N 0
+ATOM  16072   CG GLU B  79     153.345 162.978 170.500  0.00  0.00           C 0
+ATOM  16073   CD GLU B  79     154.608 162.701 171.294  0.00  0.00           C 0
+ATOM  16074  OE1 GLU B  79     155.187 163.661 171.845  0.77  2.14           O 0
+ATOM  16016   CZ ARG B  71     155.331 166.483 167.545  0.00  0.00           C 0
+ATOM  16261   OH TYR B 102     152.566 165.617 165.544  0.81  3.21           O 0
+ATOM  16018  NH2 ARG B  71     154.242 166.385 168.302  0.00  0.00           N 0
+ATOM  16002  CD1 LEU B  69     159.574 164.201 164.382  0.00  0.00           C 0
+ATOM   4853   CD ARG A 747     155.310 160.315 161.451  0.00  0.00           C 0
+ATOM  16014   CD ARG B  71     156.320 166.987 165.348  0.00  0.00           C 0
+ATOM  16015   NE ARG B  71     155.206 166.850 166.278  0.62  1.09           N 0
+ATOM   4856  NH1 ARG A 747     155.696 163.126 161.532  0.75  4.37           N 0
+ATOM  15988  OD2 ASP B  67     160.090 166.890 166.710  0.66  4.29           O 0
+ATOM  16293   CE LYS B 106     149.123 162.848 166.531  0.00  0.00           C 0
+ATOM  16294   NZ LYS B 106     149.344 161.941 165.371  0.53  9.84           N 0
+TER
+END

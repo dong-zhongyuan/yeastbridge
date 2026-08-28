@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    33:
+HEADER 0  - Pocket Score                      : -0.0521
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 3.7301
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4468
+HEADER 5  - Mean B-factor of pocket residues  : 0.2226
+HEADER 6  - Hydrophobicity Score              : 13.2857
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 238.3363
+HEADER 10 - Pocket volume (convex hull)       : 14.2074
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1304
+ATOM   3202   NE ARG B 197     108.189  43.721 124.123  0.41  5.47           N 0
+ATOM   3191    O THR B 196     108.283  46.542 119.393  0.00  0.00           O 0
+ATOM   3200   CG ARG B 197     107.180  44.310 121.958  0.00  0.00           C 0
+ATOM   3193  OG1 THR B 196     109.413  48.559 121.020  0.00  0.00           O 0
+ATOM   3330   NE ARG B 214     111.359  40.589 119.151  0.71  8.75           N 0
+ATOM   3196   CA ARG B 197     106.023  44.979 119.781  0.00  0.00           C 0
+ATOM   3333  NH2 ARG B 214     112.512  41.254 121.026  0.37  8.75           N 0
+ATOM   3328   CG ARG B 214     109.224  39.484 118.646  0.00  0.00           C 0
+ATOM   3320   CB VAL B 213     107.424  43.317 115.895  0.00  0.00           C 0
+ATOM   2877   CB ASP B 153     115.471  51.145 118.114  0.00  0.00           C 0
+ATOM   2868    O LEU B 152     112.204  52.053 118.233  0.50  5.36           O 0
+ATOM   2880  OD2 ASP B 153     116.437  48.981 117.897  0.00  0.00           O 0
+ATOM   3321  CG1 VAL B 213     108.828  43.423 115.344  0.00  0.00           C 0
+ATOM   2878   CG ASP B 153     115.825  49.900 117.311  0.00  0.00           C 0
+ATOM   2869   CB LEU B 152     111.484  49.673 115.949  0.00  0.00           C 0
+ATOM   2871  CD1 LEU B 152     110.817  47.485 115.012  0.00  0.00           C 0
+ATOM   2872  CD2 LEU B 152     109.205  48.762 116.317  0.00  0.00           C 0
+ATOM   2905  NE2 GLN B 156     113.778  45.636 115.902  0.66  8.75           N 0
+TER
+END

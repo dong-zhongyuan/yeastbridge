@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : -0.0041
+HEADER 1  - Drug Score                        : 0.0028
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.9985
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6857
+HEADER 5  - Mean B-factor of pocket residues  : 0.7180
+HEADER 6  - Hydrophobicity Score              : 26.6000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.2000
+HEADER 9  - Pocket volume (Monte Carlo)       : 299.1612
+HEADER 10 - Pocket volume (convex hull)       : 7.6354
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.4737
+ATOM     19   CB ILE R  68      95.918 143.236 148.993  0.00  0.00           C 0
+ATOM     17    C ILE R  68      97.858 142.875 147.399  0.00  0.00           C 0
+ATOM     18    O ILE R  68      98.650 143.817 147.290  0.73  1.07           O 0
+ATOM     22  CD1 ILE R  68      95.567 141.856 151.127  0.00  0.00           C 0
+ATOM     20  CG1 ILE R  68      95.755 141.844 149.615  0.00  0.00           C 0
+ATOM     23    N THR R  69      98.269 141.604 147.394  0.00  0.00           N 0
+ATOM     27   CB THR R  69      99.985 139.860 147.652  0.00  0.00           C 0
+ATOM   1968  OG1 THR R 314     100.770 136.576 150.026  0.72  2.14           O 0
+ATOM     29  CG2 THR R  69      99.215 138.842 146.811  0.00  0.00           C 0
+ATOM      4    O SER R  66      96.025 138.876 146.636  0.00  0.00           O 0
+ATOM      2   CA SER R  66      93.836 138.249 147.432  0.00  0.00           C 0
+ATOM     49  CG2 THR R  72     100.451 146.345 148.315  0.00  0.00           C 0
+ATOM     48  OG1 THR R  72     101.427 144.276 147.528  0.72  2.14           O 0
+ATOM     24   CA THR R  69      99.681 141.294 147.206  0.00  0.00           C 0
+ATOM      6   OG SER R  66      94.986 136.286 146.537  0.00  0.00           O 0
+ATOM   1967   CB THR R 314     100.987 135.293 150.636  0.00  0.00           C 0
+ATOM   1969  CG2 THR R 314     100.735 135.382 152.144  0.00  0.00           C 0
+TER
+END

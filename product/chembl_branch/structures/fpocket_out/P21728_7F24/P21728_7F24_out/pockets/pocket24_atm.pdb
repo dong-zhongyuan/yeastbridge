@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    24:
+HEADER 0  - Pocket Score                      : -0.0020
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.4998
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4123
+HEADER 5  - Mean B-factor of pocket residues  : 0.5156
+HEADER 6  - Hydrophobicity Score              : 37.8333
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 76.3740
+HEADER 10 - Pocket volume (convex hull)       : 0.2338
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.4706
+ATOM   6300   CB ASP B 291      82.804 107.908 122.701  0.00  0.00           C 0
+ATOM   6149  CG1 ILE B 270      78.022 103.131 123.715  0.00  0.00           C 0
+ATOM   6144    N ILE B 270      76.985 105.384 125.040  0.54  1.09           N 0
+ATOM   6131    O ASN B 268      75.853 106.719 121.550  0.55  6.43           O 0
+ATOM   6157   SG CYS B 271      82.167 104.837 124.800  0.00  0.00           S 0
+ATOM   6152    N CYS B 271      79.375 104.874 126.380  0.63  1.09           N 0
+ATOM   6137   CA ILE B 269      75.946 107.410 124.234  0.00  0.00           C 0
+ATOM   6140   CB ILE B 269      76.025 108.770 124.941  0.00  0.00           C 0
+ATOM   6303  OD2 ASP B 291      81.290 109.532 121.877  0.33  5.36           O 0
+ATOM   6301   CG ASP B 291      82.156 109.269 122.737  0.00  0.00           C 0
+ATOM   6283  CD2 TYR B 289      79.465 109.688 127.709  0.00  0.00           C 0
+ATOM   6156   CB CYS B 271      81.734 105.522 126.405  0.00  0.00           C 0
+ATOM   6142  CG2 ILE B 269      76.377 109.847 123.936  0.00  0.00           C 0
+TER
+END

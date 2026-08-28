@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    32:
+HEADER 0  - Pocket Score                      : -0.0468
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 4.0083
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6741
+HEADER 5  - Mean B-factor of pocket residues  : 0.0654
+HEADER 6  - Hydrophobicity Score              : 25.8000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 201.6335
+HEADER 10 - Pocket volume (convex hull)       : 2.6807
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.4500
+ATOM   7300   CB ARG R 216      -7.228  17.298   8.762  0.00  0.00           C 0
+ATOM   7306  NH2 ARG R 216      -8.734  20.774   5.319  0.00  0.00           N 0
+ATOM   7304   CZ ARG R 216      -7.956  20.727   6.392  0.00  0.00           C 0
+ATOM   7303   NE ARG R 216      -7.270  19.623   6.669  0.00  0.00           N 0
+ATOM   6703  CE1 TYR R 122      -7.179  16.547   5.191  0.00  0.00           C 0
+ATOM   6706   OH TYR R 122      -7.707  18.615   4.129  0.59  3.21           O 0
+ATOM   7333   CD ARG R 219     -10.236  18.622  13.028  0.00  0.00           C 0
+ATOM   7301   CG ARG R 216      -7.087  18.795   8.991  0.00  0.00           C 0
+ATOM   7297   CA ARG R 216      -7.553  16.505  10.031  0.00  0.00           C 0
+ATOM   7331   CB ARG R 219     -11.152  16.377  12.366  0.00  0.00           C 0
+ATOM   7336  NH1 ARG R 219      -9.171  21.215  12.753  0.00  0.00           N 0
+ATOM   7305  NH1 ARG R 216      -7.866  21.783   7.187  0.62  5.47           N 0
+ATOM   7345  CD1 ILE R 220     -11.547  14.320   6.622  0.00  0.00           C 0
+ATOM   7299    O ARG R 216      -9.315  15.006   9.435  0.63  2.14           O 0
+ATOM   6738   CB SER R 126     -10.071  14.852   3.060  0.00  0.00           C 0
+ATOM   7343  CG1 ILE R 220     -12.108  14.172   8.017  0.00  0.00           C 0
+TER
+END

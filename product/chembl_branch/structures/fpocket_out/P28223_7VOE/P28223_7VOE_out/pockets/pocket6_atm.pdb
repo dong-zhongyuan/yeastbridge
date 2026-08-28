@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : -0.0571
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.7661
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4817
+HEADER 5  - Mean B-factor of pocket residues  : 0.4104
+HEADER 6  - Hydrophobicity Score              : 44.4286
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 233.2030
+HEADER 10 - Pocket volume (convex hull)       : 5.8918
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM   1951   CE LYS A1095     -38.404 -13.004  82.170  0.00  0.00           C 0
+ATOM   1950   CD LYS A1095     -36.908 -12.952  82.374  0.00  0.00           C 0
+ATOM   1982  ND2 ASN A1099     -34.816 -13.621  86.621  0.00  0.00           N 0
+ATOM   1952   NZ LYS A1095     -38.831 -14.383  81.847  0.00  0.00           N 0
+ATOM   1949   CG LYS A1095     -36.453 -11.881  83.346  0.00  0.00           C 0
+ATOM   1973  CG2 ILE A1098     -36.930  -8.675  88.713  0.00  0.00           C 0
+ATOM   1981  OD1 ASN A1099     -35.596 -13.632  88.710  0.49  8.57           O 0
+ATOM   1553  CD1 LEU A1014     -39.796 -10.087  83.929  0.00  0.00           C 0
+ATOM   1947    O LYS A1095     -34.408 -10.404  85.626  0.62  1.07           O 0
+ATOM   1527   CB ASN A1011     -43.366 -11.705  87.682  0.00  0.00           C 0
+ATOM   1524   CA ASN A1011     -43.395 -10.407  86.884  0.00  0.00           C 0
+ATOM   1523    N ASN A1011     -43.218  -9.209  87.741  0.00  0.00           N 0
+ATOM   1488    O TRP A1007     -42.826 -10.123  90.610  0.55  1.07           O 0
+ATOM   1519   CB LEU A1010     -41.382  -6.950  88.794  0.00  0.00           C 0
+ATOM   1529  OD1 ASN A1011     -42.419 -12.768  85.766  0.54  6.43           O 0
+ATOM   1493  NE1 TRP A1007     -39.779 -13.500  91.458  0.66  5.47           N 0
+ATOM   1491  CD1 TRP A1007     -39.795 -12.334  92.172  0.00  0.00           C 0
+ATOM   1528   CG ASN A1011     -42.993 -12.909  86.848  0.00  0.00           C 0
+TER
+END

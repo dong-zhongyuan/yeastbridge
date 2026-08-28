@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : -0.0812
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8888
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5335
+HEADER 5  - Mean B-factor of pocket residues  : 0.6077
+HEADER 6  - Hydrophobicity Score              : 51.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 170.2539
+HEADER 10 - Pocket volume (convex hull)       : 2.4011
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.2000
+ATOM   1539  CZ3 TRP A1007      45.674  15.324 -39.058  0.00  0.00           C 0
+ATOM   2077  CG2 ILE A1102      42.582  14.506 -37.056  0.00  0.00           C 0
+ATOM   2116  CD2 LEU A1106      41.940  18.696 -34.259  0.00  0.00           C 0
+ATOM   2086  OE1 GLN A1103      38.932  19.873 -37.968  0.64  9.64           O 0
+ATOM   2080   CA GLN A1103      38.408  16.573 -37.560  0.00  0.00           C 0
+ATOM   2079    N GLN A1103      39.159  15.380 -37.940  0.78  2.19           N 0
+ATOM   2052  OD1 ASN A1099      43.364  15.828 -42.715  0.92  5.36           O 0
+ATOM   2049    O ASN A1099      38.772  15.697 -41.346  0.54  4.29           O 0
+ATOM   2050   CB ASN A1099      41.062  15.955 -43.365  0.00  0.00           C 0
+ATOM   2083   CB GLN A1103      37.966  17.336 -38.810  0.00  0.00           C 0
+ATOM   1540  CH2 TRP A1007      46.479  16.344 -39.579  0.00  0.00           C 0
+ATOM   2051   CG ASN A1099      42.554  16.120 -43.595  0.00  0.00           C 0
+ATOM   2047   CA ASN A1099      40.741  14.832 -42.377  0.00  0.00           C 0
+TER
+END

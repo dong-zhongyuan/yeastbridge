@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    59:
+HEADER 0  - Pocket Score                      : -0.2080
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 3.8538
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3735
+HEADER 5  - Mean B-factor of pocket residues  : 0.2368
+HEADER 6  - Hydrophobicity Score              : -8.8750
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.6250
+HEADER 9  - Pocket volume (Monte Carlo)       : 282.9739
+HEADER 10 - Pocket volume (convex hull)       : 14.4237
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   4828  NH1 ARG R  58     145.963 123.362 154.144  0.48  9.84           N 1
+ATOM   4827   CZ ARG R  58     146.864 124.180 153.626  0.00  0.00           C 0
+ATOM   4829  NH2 ARG R  58     147.351 125.168 154.370  0.00  0.00           N 0
+ATOM   3962    O GLY B 310     150.566 118.434 155.552  0.30  6.43           O 0
+ATOM   4826   NE ARG R  58     147.291 124.040 152.380  0.52  6.56           N 0
+ATOM   4145   CZ PHE B 335     153.400 124.149 150.671  0.00  0.00           C 0
+ATOM   2031  NH2 ARG B  52     153.479 127.896 154.117  0.00  0.00           N 0
+ATOM   4144  CE2 PHE B 335     152.983 122.840 150.774  0.00  0.00           C 0
+ATOM   4824   CG ARG R  58     147.449 123.164 150.078  0.00  0.00           C 0
+ATOM   4850  OE1 GLN R  61     145.595 126.933 148.615  0.00  0.00           O 0
+ATOM   3979  OD1 ASP B 312     148.673 118.639 152.779  0.56  9.64           O 0
+ATOM   4142  CD2 PHE B 335     153.861 121.871 151.205  0.00  0.00           C 0
+ATOM   4128  OD2 ASP B 333     152.986 118.772 151.110  0.00  0.00           O 1
+ATOM   3980  OD2 ASP B 312     148.498 120.003 151.068  0.70  1.07           O 1
+ATOM   3978   CG ASP B 312     148.852 118.920 151.576  0.00  0.00           C 0
+ATOM   4162   NZ LYS B 337     153.814 122.061 155.769  0.52  6.56           N 1
+ATOM   2028   NE ARG B  52     154.019 127.988 151.892  0.58  4.37           N 0
+TER
+END

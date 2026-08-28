@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    14:
+HEADER 0  - Pocket Score                      : 0.0068
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.7040
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4068
+HEADER 5  - Mean B-factor of pocket residues  : 0.5739
+HEADER 6  - Hydrophobicity Score              : 26.3333
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.7778
+HEADER 9  - Pocket volume (Monte Carlo)       : 88.7390
+HEADER 10 - Pocket volume (convex hull)       : 0.8441
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.6471
+ATOM   8589   CB PRO R 380      85.932 108.144 103.661  0.00  0.00           C 0
+ATOM   8586   CA PRO R 380      86.518 109.084 102.602  0.00  0.00           C 0
+ATOM   6935  CD2 LEU R  71      92.479 109.890 104.144  0.00  0.00           C 0
+ATOM   6911    O VAL R  68      92.704 104.780 103.778  0.47  1.07           O 0
+ATOM   6960  OD2 ASP R  75      89.574 108.974 107.544  0.42  1.07           O 1
+ATOM   8585    N PRO R 380      86.771 110.319 103.362  0.54  1.09           N 0
+ATOM   6913  CG1 VAL R  68      91.537 105.248 100.879  0.00  0.00           C 0
+ATOM   8611   CB TYR R 383      89.719 109.763  99.340  0.00  0.00           C 0
+ATOM   8625  CG2 THR R 384      87.647 105.784  99.303  0.00  0.00           C 0
+ATOM   6772  CG1 VAL R  50      87.735 103.150 102.196  0.00  0.00           C 0
+ATOM   6940   CB ALA R  72      90.195 104.010 106.116  0.00  0.00           C 0
+ATOM   6936    N ALA R  72      92.029 105.593 106.465  0.00  0.00           N 0
+ATOM   6937   CA ALA R  72      90.790 105.076 107.036  0.00  0.00           C 0
+ATOM   6754  ND2 ASN R  47      87.409 106.757 107.416  0.31  2.19           N 0
+TER
+END

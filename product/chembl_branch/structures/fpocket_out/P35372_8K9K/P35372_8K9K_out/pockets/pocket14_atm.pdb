@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    14:
+HEADER 0  - Pocket Score                      : 0.0237
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.7214
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4205
+HEADER 5  - Mean B-factor of pocket residues  : 0.2363
+HEADER 6  - Hydrophobicity Score              : 56.6250
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.6250
+HEADER 9  - Pocket volume (Monte Carlo)       : 82.6771
+HEADER 10 - Pocket volume (convex hull)       : 0.4064
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.2000
+ATOM   1774  CG1 VAL R 287     106.349 122.846 106.828  0.00  0.00           C 0
+ATOM   2171  CD1 LEU R 337     109.729 127.567 106.596  0.00  0.00           C 0
+ATOM   2181  CE1 TYR R 338     109.494 122.562 109.185  0.00  0.00           C 0
+ATOM   1772    O VAL R 287     106.404 124.077 103.843  0.00  0.00           O 0
+ATOM   1799   CB PHE R 291     108.151 121.952 101.540  0.00  0.00           C 0
+ATOM   2121  OD1 ASN R 330     112.570 122.691 102.540  0.83  1.07           O 0
+ATOM    750  CD1 LEU R 160     111.168 119.828 105.123  0.00  0.00           C 0
+ATOM   1795    N PHE R 291     108.145 124.399 101.395  0.00  0.00           N 0
+ATOM   1793  CG1 VAL R 290     109.941 126.955 102.946  0.00  0.00           C 0
+ATOM   2144   CA ASN R 334     113.850 125.302 107.630  0.00  0.00           C 0
+ATOM   2150  ND2 ASN R 334     112.657 122.727 108.059  0.65  1.09           N 0
+ATOM   2118    O ASN R 330     115.040 125.066 104.240  0.41  1.07           O 0
+ATOM   2143    N ASN R 334     114.273 126.364 106.718  0.75  1.09           N 0
+TER
+END

@@ -1,0 +1,48 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    26:
+HEADER 0  - Pocket Score                      : -0.1691
+HEADER 1  - Drug Score                        : 0.0648
+HEADER 2  - Number of alpha spheres           :    38
+HEADER 3  - Mean alpha-sphere radius          : 4.1357
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4517
+HEADER 5  - Mean B-factor of pocket residues  : 0.2633
+HEADER 6  - Hydrophobicity Score              : 76.3333
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 317.7591
+HEADER 10 - Pocket volume (convex hull)       : 21.0931
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 37.0000
+HEADER 13 - Number of apolar alpha sphere     :    38
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM     75  CZ3 TRP A  56      19.691  37.831   7.921  0.00  0.00           C 0
+ATOM     72  CE2 TRP A  56      18.594  37.501  10.411  0.00  0.00           C 0
+ATOM   2513  CD1 ILE A 364      23.808  31.898  11.403  0.00  0.00           C 0
+ATOM     76  CH2 TRP A  56      20.209  38.518   9.026  0.00  0.00           C 0
+ATOM   2511  CG1 ILE A 364      22.987  30.737  10.890  0.00  0.00           C 0
+ATOM   2502   CG GLU A 363      19.535  28.205  12.960  0.00  0.00           C 0
+ATOM    514  CG2 ILE A 115      14.733  31.762  11.297  0.00  0.00           C 0
+ATOM    515  CD1 ILE A 115      15.383  29.504   9.391  0.00  0.00           C 0
+ATOM   2512  CG2 ILE A 364      24.022  30.742   8.601  0.00  0.00           C 0
+ATOM    102  CD2 LEU A  60      17.546  31.552   4.196  0.00  0.00           C 0
+ATOM     73  CE3 TRP A  56      18.618  36.972   8.053  0.00  0.00           C 0
+ATOM   2500    O GLU A 363      20.439  27.417  10.051  0.55  3.21           O 0
+ATOM     67   CB TRP A  56      16.079  35.099   9.032  0.00  0.00           C 0
+ATOM     66    O TRP A  56      14.813  34.383   6.067  0.00  0.00           O 0
+ATOM     74  CZ2 TRP A  56      19.676  38.367  10.276  0.00  0.00           C 0
+ATOM    101  CD1 LEU A  60      15.989  30.779   6.004  0.00  0.00           C 0
+ATOM    100   CG LEU A  60      16.167  31.717   4.821  0.00  0.00           C 0
+ATOM   2538  CD1 TRP A 367      18.751  27.713   7.481  0.00  0.00           C 0
+ATOM   2507   CA ILE A 364      22.829  28.687   9.431  0.00  0.00           C 0
+ATOM   2536   CB TRP A 367      20.067  27.968   5.297  0.00  0.00           C 0
+ATOM   2537   CG TRP A 367      18.836  27.737   6.120  0.00  0.00           C 0
+ATOM     69  CD1 TRP A  56      16.892  36.266  11.157  0.00  0.00           C 0
+ATOM   2509    O ILE A 364      23.092  28.011   7.150  0.46  2.14           O 0
+ATOM     70  CD2 TRP A  56      18.051  36.796   9.319  0.00  0.00           C 0
+ATOM     71  NE1 TRP A  56      17.870  37.159  11.522  0.50  7.66           N 0
+ATOM     68   CG TRP A  56      16.964  36.009   9.820  0.00  0.00           C 0
+TER
+END

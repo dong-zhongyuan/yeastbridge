@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    21:
+HEADER 0  - Pocket Score                      : 0.0150
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 3.9255
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4286
+HEADER 5  - Mean B-factor of pocket residues  : 0.7129
+HEADER 6  - Hydrophobicity Score              : 16.6364
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.4545
+HEADER 9  - Pocket volume (Monte Carlo)       : 275.0703
+HEADER 10 - Pocket volume (convex hull)       : 9.2791
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0435
+ATOM    310    O GLN B  44     123.790 152.844 196.432  0.00  0.00           O 0
+ATOM   2926   CD PRO C  53     119.755 159.013 199.750  0.00  0.00           C 0
+ATOM   2924   CB PRO C  53     120.626 159.483 197.581  0.00  0.00           C 0
+ATOM   2925   CG PRO C  53     119.355 159.214 198.321  0.00  0.00           C 0
+ATOM   2900    O LEU C  50     124.151 156.610 201.627  0.39  5.36           O 0
+ATOM   2908    O LEU C  51     120.925 157.160 202.718  0.59  5.36           O 0
+ATOM    306  CD1 ILE B  43     121.736 152.339 202.666  0.00  0.00           C 0
+ATOM    307    N GLN B  44     122.717 150.767 198.076  0.64  2.19           N 0
+ATOM    305  CG2 ILE B  43     124.214 151.922 200.963  0.00  0.00           C 0
+ATOM   2930    O VAL C  54     122.049 163.167 195.171  0.14  6.43           O 0
+ATOM    351  NH1 ARG B  48     125.403 159.669 192.266  0.09  9.84           N 0
+ATOM   2927    N VAL C  54     122.529 162.255 197.725  0.54  2.19           N 0
+ATOM   2968  ND2 ASN C  59     126.321 162.351 193.491  0.00  0.00           N 0
+ATOM   2577  ND2 ASN B 340     127.717 160.314 194.814  0.43  1.09           N 0
+ATOM   2893    O PRO C  49     125.010 160.018 200.920  0.25  2.14           O 0
+ATOM   2921   CA PRO C  53     121.511 160.239 198.579  0.00  0.00           C 0
+ATOM   2576  OD1 ASN B 340     128.262 159.300 196.739  0.52  3.21           O 0
+ATOM    291    O ARG B  42     119.573 150.313 201.003  0.00  0.00           O 0
+ATOM    300   CA ILE B  43     122.321 150.361 200.435  0.00  0.00           C 0
+ATOM   2578  OXT ASN B 340     126.591 156.505 196.452  0.29  8.57           O 0
+TER
+END

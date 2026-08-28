@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : 0.0051
+HEADER 1  - Drug Score                        : 0.0120
+HEADER 2  - Number of alpha spheres           :    26
+HEADER 3  - Mean alpha-sphere radius          : 3.8122
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4387
+HEADER 5  - Mean B-factor of pocket residues  : 0.3747
+HEADER 6  - Hydrophobicity Score              : 21.3333
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 199.6150
+HEADER 10 - Pocket volume (convex hull)       : 5.0370
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 22.0000
+HEADER 13 - Number of apolar alpha sphere     :    23
+HEADER 14 - Proportion of apolar alpha sphere : 0.8846
+ATOM   5235   CE LYS B1060     -17.614   6.983  35.962  0.00  0.00           C 0
+ATOM   4880   CB LEU B1013     -13.636   7.114  40.932  0.00  0.00           C 0
+ATOM   4842   CD ARG B1008     -16.247  13.023  37.649  0.00  0.00           C 0
+ATOM   4883  CD2 LEU B1013     -15.110   5.655  39.499  0.00  0.00           C 0
+ATOM   4839    O ARG B1008     -11.361  12.990  40.334  0.00  0.00           O 0
+ATOM   4874    C GLY B1012     -11.782   9.544  42.558  0.00  0.00           C 0
+ATOM   4876    N LEU B1013     -11.794   8.346  41.976  0.67  1.09           N 0
+ATOM   4841   CG ARG B1008     -15.538  13.259  38.985  0.00  0.00           C 0
+ATOM   4840   CB ARG B1008     -14.151  13.862  38.811  0.00  0.00           C 0
+ATOM   4882  CD1 LEU B1013     -15.825   6.244  41.843  0.00  0.00           C 0
+ATOM   5233   CG LYS B1060     -19.028   5.737  37.667  0.00  0.00           C 0
+ATOM   5019  CD1 ILE B1029     -18.078   9.588  43.221  0.00  0.00           C 0
+ATOM   5017  CG1 ILE B1029     -16.807  10.389  43.008  0.00  0.00           C 0
+ATOM   4875    O GLY B1012     -12.641   9.911  43.368  0.00  0.00           O 0
+ATOM   5231    O LYS B1060     -21.223   6.447  39.925  0.00  0.00           O 0
+ATOM   5264   CG GLU B1064     -22.162  10.452  38.955  0.00  0.00           C 0
+ATOM   5263   CB GLU B1064     -22.390   9.307  39.925  0.00  0.00           C 0
+ATOM   4843   NE ARG B1008     -17.668  12.705  37.843  0.62  2.19           N 0
+ATOM   5236   NZ LYS B1060     -18.619   8.005  35.535  0.36  3.28           N 0
+TER
+END

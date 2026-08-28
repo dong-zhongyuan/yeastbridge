@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    65:
+HEADER 0  - Pocket Score                      : -0.0650
+HEADER 1  - Drug Score                        : 0.0025
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.5868
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4127
+HEADER 5  - Mean B-factor of pocket residues  : 0.5437
+HEADER 6  - Hydrophobicity Score              : 69.1667
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 141.6818
+HEADER 10 - Pocket volume (convex hull)       : 2.1996
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 15.0000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 0.8889
+ATOM   6415   CG LEU B 809     180.125 149.360 110.662  0.00  0.00           C 0
+ATOM   6785  CZ2 TRP B 853     185.205 150.812 109.030  0.00  0.00           C 0
+ATOM   6787  CH2 TRP B 853     184.678 149.674 109.575  0.00  0.00           C 0
+ATOM   6414   CB LEU B 809     180.993 149.182 109.413  0.00  0.00           C 0
+ATOM   6656   CB LEU B 839     181.687 155.833 110.124  0.00  0.00           C 0
+ATOM   6652    N LEU B 839     182.486 155.772 112.447  0.80  1.09           N 0
+ATOM   6620    O ARG B 835     179.334 154.683 112.717  0.48  2.14           O 0
+ATOM   6653   CA LEU B 839     182.860 156.096 111.075  0.00  0.00           C 0
+ATOM   6659  CD2 LEU B 839     179.246 155.668 109.627  0.00  0.00           C 0
+ATOM   6413    O LEU B 809     180.325 149.843 106.518  0.39  9.64           O 0
+ATOM   6416  CD1 LEU B 809     178.802 150.016 110.298  0.00  0.00           C 0
+ATOM   6450   CB ALA B 813     176.737 149.777 106.722  0.00  0.00           C 0
+ATOM   6623   CD ARG B 835     175.654 152.075 111.136  0.00  0.00           C 0
+ATOM   6622   CG ARG B 835     176.805 152.790 111.824  0.00  0.00           C 0
+ATOM   6649   CG LEU B 838     184.055 153.058 114.556  0.00  0.00           C 0
+ATOM   6651  CD2 LEU B 838     183.780 151.564 114.461  0.00  0.00           C 0
+TER
+END

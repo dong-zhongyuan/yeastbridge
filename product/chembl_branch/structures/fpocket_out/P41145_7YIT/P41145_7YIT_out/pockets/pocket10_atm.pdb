@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : -0.0420
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.6314
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4313
+HEADER 5  - Mean B-factor of pocket residues  : 0.3069
+HEADER 6  - Hydrophobicity Score              : 31.6667
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 146.8775
+HEADER 10 - Pocket volume (convex hull)       : 2.3833
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5556
+ATOM   1568   CB LEU A 269      29.380  25.707  26.270  0.00  0.00           C 0
+ATOM   1542   CB LYS A 265      28.754  27.423  31.580  0.00  0.00           C 0
+ATOM   1540    C LYS A 265      29.331  25.307  30.356  0.00  0.00           C 0
+ATOM   1549  OD1 ASP A 266      32.486  26.702  31.300  0.00  0.00           O 0
+ATOM   1541    O LYS A 265      28.983  25.017  29.207  0.67  1.07           O 0
+ATOM   1491    O LEU A 253      26.168  30.957  28.583  0.68  1.07           O 0
+ATOM   2441  CH2 TRP D  53      25.039  26.711  31.201  0.00  0.00           C 0
+ATOM   2440  CZ3 TRP D  53      24.652  25.504  30.615  0.00  0.00           C 0
+ATOM   1492   CB LEU A 253      24.636  29.433  25.976  0.00  0.00           C 0
+ATOM   1494  CD1 LEU A 253      23.540  27.186  25.675  0.00  0.00           C 0
+ATOM   1565   CA LEU A 269      28.413  24.581  25.907  0.00  0.00           C 0
+ATOM   1564    N LEU A 269      28.033  23.831  27.100  0.00  0.00           N 0
+ATOM   1490    C LEU A 253      26.009  31.017  27.359  0.00  0.00           C 0
+ATOM   1497   CA LYS A 254      28.323  31.654  27.075  0.00  0.00           C 0
+ATOM   1500   CB LYS A 254      29.340  31.804  25.943  0.00  0.00           C 0
+ATOM   1499    O LYS A 254      29.003  33.068  28.892  0.00  0.00           O 0
+TER
+END

@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    16:
+HEADER 0  - Pocket Score                      : -0.0045
+HEADER 1  - Drug Score                        : 0.0018
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.8990
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6195
+HEADER 5  - Mean B-factor of pocket residues  : 0.4824
+HEADER 6  - Hydrophobicity Score              : 52.7500
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 271.8460
+HEADER 10 - Pocket volume (convex hull)       : 14.4171
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.4500
+ATOM   5839   CB LEU R 202     124.159 142.525 163.331  0.00  0.00           C 0
+ATOM   5836   CA LEU R 202     125.288 142.149 164.300  0.00  0.00           C 0
+ATOM   5817   OG SER R 198     125.353 141.826 159.080  0.40  6.43           O 0
+ATOM   5841  CD1 LEU R 202     124.105 144.987 163.804  0.00  0.00           C 0
+ATOM   5402   OG SER R 147     130.540 143.647 164.380  0.43  7.50           O 0
+ATOM   5437  CD1 TYR R 151     130.325 140.491 159.891  0.00  0.00           C 0
+ATOM   5438  CD2 TYR R 151     132.376 141.584 159.358  0.00  0.00           C 0
+ATOM   5436   CG TYR R 151     131.642 140.776 160.220  0.00  0.00           C 0
+ATOM   5439  CE1 TYR R 151     129.772 140.955 158.716  0.00  0.00           C 0
+ATOM   5863   SD MET R 205     128.194 146.492 165.080  0.00  0.00           S 0
+ATOM   5380  CG2 ILE R 144     134.634 148.665 165.097  0.00  0.00           C 0
+ATOM   5408  CG1 ILE R 148     135.408 145.030 162.781  0.00  0.00           C 0
+ATOM   5864   CE MET R 205     128.743 148.163 165.420  0.00  0.00           C 0
+ATOM   5375   CA ILE R 144     133.371 147.389 166.897  0.00  0.00           C 0
+ATOM   5833    C GLY R 201     127.339 140.852 164.161  0.00  0.00           C 0
+ATOM   5835    N LEU R 202     126.092 141.068 163.724  0.47  1.09           N 0
+ATOM   5441   CZ TYR R 151     130.520 141.735 157.867  0.00  0.00           C 0
+ATOM   5442   OH TYR R 151     129.947 142.192 156.704  0.21  9.64           O 0
+ATOM   5377    O ILE R 144     134.477 145.519 165.863  0.00  0.00           O 0
+ATOM   5440  CE2 TYR R 151     131.825 142.056 158.181  0.00  0.00           C 0
+TER
+END

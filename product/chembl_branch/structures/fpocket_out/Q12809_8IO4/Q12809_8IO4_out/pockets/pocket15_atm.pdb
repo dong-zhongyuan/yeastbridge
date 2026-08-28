@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : 0.0422
+HEADER 1  - Drug Score                        : 0.0063
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.0884
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7226
+HEADER 5  - Mean B-factor of pocket residues  : 0.7624
+HEADER 6  - Hydrophobicity Score              : 89.0000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 5.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 275.1904
+HEADER 10 - Pocket volume (convex hull)       : 3.2612
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 16.0000
+HEADER 13 - Number of apolar alpha sphere     :    17
+HEADER 14 - Proportion of apolar alpha sphere : 0.9444
+ATOM   3851   CB VAL C 465     153.074 212.319 162.991  0.00  0.00           C 0
+ATOM   3821   CA MET C 462     153.500 209.723 159.443  0.00  0.00           C 0
+ATOM   3852  CG1 VAL C 465     152.192 212.166 164.218  0.00  0.00           C 0
+ATOM   3853  CG2 VAL C 465     152.485 213.358 162.055  0.00  0.00           C 0
+ATOM   3820    N MET C 462     153.737 210.589 158.292  0.00  0.00           N 0
+ATOM   3824   CB MET C 462     153.003 208.355 158.975  0.00  0.00           C 0
+ATOM   3818  CG2 ILE C 461     151.984 213.678 157.672  0.00  0.00           C 0
+ATOM   3825   CG MET C 462     152.710 207.381 160.106  0.00  0.00           C 0
+ATOM   3826   SD MET C 462     151.288 206.325 159.770  0.00  0.00           S 0
+ATOM   3544  CH2 TRP C 410     151.537 208.395 164.883  0.00  0.00           C 0
+ATOM   3790   CA ILE C 458     152.046 209.741 153.535  0.00  0.00           C 0
+ATOM   3816   CB ILE C 461     152.929 213.163 156.596  0.00  0.00           C 0
+ATOM   3819  CD1 ILE C 461     152.032 214.387 154.550  0.00  0.00           C 0
+ATOM   3795  CG2 ILE C 458     150.331 208.091 154.352  0.00  0.00           C 0
+ATOM   3794  CG1 ILE C 458     149.923 209.362 152.231  0.00  0.00           C 0
+ATOM   3792    O ILE C 458     152.939 209.415 155.753  0.00  0.00           O 0
+TER
+END

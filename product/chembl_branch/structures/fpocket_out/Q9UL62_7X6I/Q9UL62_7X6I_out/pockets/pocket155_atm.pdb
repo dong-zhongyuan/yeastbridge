@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   155:
+HEADER 0  - Pocket Score                      : -0.1259
+HEADER 1  - Drug Score                        : 0.0043
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.7930
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5210
+HEADER 5  - Mean B-factor of pocket residues  : 0.3519
+HEADER 6  - Hydrophobicity Score              : 72.1429
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 216.7261
+HEADER 10 - Pocket volume (convex hull)       : 9.7089
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM   3318    O ASN A 436     162.059 206.250 199.758  0.00  0.00           O 0
+ATOM   3258  CE2 TYR A 430     159.928 209.736 197.217  0.00  0.00           C 0
+ATOM   3319   CB ASN A 436     162.439 206.931 196.790  0.00  0.00           C 0
+ATOM   3330  CD2 LEU A 437     158.814 203.030 198.144  0.00  0.00           C 0
+ATOM   3351   CB PHE A 440     160.222 207.013 202.368  0.00  0.00           C 0
+ATOM   3190   SD MET A 422     157.429 213.403 198.519  0.00  0.00           S 0
+ATOM   3353  CD1 PHE A 440     158.495 208.533 203.361  0.00  0.00           C 0
+ATOM   3230  CE1 PHE A 427     153.970 210.238 195.904  0.00  0.00           C 0
+ATOM   3352   CG PHE A 440     158.928 207.247 203.090  0.00  0.00           C 0
+ATOM   3354  CD2 PHE A 440     158.146 206.178 203.496  0.00  0.00           C 0
+ATOM   3355  CE1 PHE A 440     157.304 208.751 204.026  0.00  0.00           C 0
+ATOM   3191   CE MET A 422     158.723 213.311 199.755  0.00  0.00           C 0
+ATOM   3262   CA ILE A 431     158.264 206.191 193.249  0.00  0.00           C 0
+ATOM   3267  CG2 ILE A 431     156.113 207.234 194.030  0.00  0.00           C 0
+ATOM   3256  CD2 TYR A 430     159.387 209.849 195.952  0.00  0.00           C 0
+ATOM   3252    O TYR A 430     160.570 207.613 193.786  0.55  1.07           O 0
+TER
+END

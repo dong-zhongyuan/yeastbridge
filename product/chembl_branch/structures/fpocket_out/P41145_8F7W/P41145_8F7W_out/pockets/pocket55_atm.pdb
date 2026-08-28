@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    55:
+HEADER 0  - Pocket Score                      : -0.0572
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9430
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6969
+HEADER 5  - Mean B-factor of pocket residues  : 0.4628
+HEADER 6  - Hydrophobicity Score              : 13.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 157.1535
+HEADER 10 - Pocket volume (convex hull)       : 0.4506
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.2000
+ATOM   8159   CB THR E 142      70.561 145.636  80.879  0.00  0.00           C 0
+ATOM   8287   CG ARG E 161      74.988 147.476  78.698  0.00  0.00           C 0
+ATOM   8160  OG1 THR E 142      70.493 145.628  82.310  0.63  5.36           O 0
+ATOM   8285    O ARG E 161      74.132 143.863  79.497  0.00  0.00           O 0
+ATOM   8143    O VAL E 140      74.122 143.562  83.802  0.44  2.14           O 0
+ATOM   8295    C SER E 162      77.159 144.919  81.662  0.00  0.00           C 0
+ATOM   8296    O SER E 162      77.640 145.985  81.266  0.66  2.14           O 0
+ATOM   8299    N SER E 163      77.030 144.614  82.951  0.00  0.00           N 0
+ATOM   8300   CA SER E 163      77.470 145.509  84.013  0.00  0.00           C 0
+ATOM   8303   CB SER E 163      76.557 145.366  85.235  0.00  0.00           C 0
+ATOM   8145  CG1 VAL E 140      71.338 144.429  85.722  0.00  0.00           C 0
+ATOM   8144   CB VAL E 140      72.679 144.182  86.399  0.00  0.00           C 0
+ATOM   8304   OG SER E 163      76.994 146.195  86.297  0.24  6.43           O 0
+TER
+END

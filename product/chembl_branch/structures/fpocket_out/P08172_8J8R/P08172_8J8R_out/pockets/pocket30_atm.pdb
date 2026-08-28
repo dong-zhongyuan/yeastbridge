@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    30:
+HEADER 0  - Pocket Score                      : -0.0153
+HEADER 1  - Drug Score                        : 0.0027
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.9642
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5336
+HEADER 5  - Mean B-factor of pocket residues  : 0.2210
+HEADER 6  - Hydrophobicity Score              : -7.6000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 261.0020
+HEADER 10 - Pocket volume (convex hull)       : 6.7121
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.6316
+ATOM  11108   CE LYS L  46     118.240 146.968 184.669  0.00  0.00           C 0
+ATOM  11068   NZ LYS L  40     113.897 142.555 182.447  0.00  0.00           N 0
+ATOM  11050  NE2 GLN L  38     116.686 142.633 183.710  0.38  3.28           N 0
+ATOM  11109   NZ LYS L  46     117.320 147.491 185.716  0.00  0.00           N 0
+ATOM  11084   CB LYS L  43     115.990 146.994 175.737  0.00  0.00           C 0
+ATOM  11086   CD LYS L  43     113.671 147.537 176.522  0.00  0.00           C 0
+ATOM  11064   CB LYS L  40     115.069 143.783 178.608  0.00  0.00           C 0
+ATOM  11092    O ALA L  44     119.651 147.499 177.738  0.46  9.64           O 0
+ATOM  11087   CE LYS L  43     114.000 148.995 176.250  0.00  0.00           C 0
+ATOM  11065   CG LYS L  40     114.521 143.639 180.011  0.00  0.00           C 0
+ATOM  11048   CD GLN L  38     117.949 142.967 183.941  0.00  0.00           C 0
+ATOM  11105   CB LYS L  46     120.813 148.652 182.351  0.00  0.00           C 0
+ATOM  11106   CG LYS L  46     119.924 147.552 182.897  0.00  0.00           C 0
+ATOM  11107   CD LYS L  46     119.076 148.072 184.048  0.00  0.00           C 0
+ATOM  11060    N LYS L  40     117.433 143.149 178.621  0.00  0.00           N 0
+ATOM  11045    O GLN L  38     120.701 144.473 180.911  0.00  0.00           O 0
+TER
+END
