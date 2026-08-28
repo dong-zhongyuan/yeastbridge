@@ -36,42 +36,26 @@ def load_ligands(cfg):
     reg = pd.read_csv(ROOT / cfg["inputs_dir"] / "ligands" / "registry.tsv",
                       sep="\t").fillna("")
     reg = reg.drop_duplicates(subset="lid", keep="last")
-    lig = {}
+    lig = []
     for r in reg.to_dict("records"):
         if r["status"] == "ok":
             p = ROOT / cfg["inputs_dir"] / "ligands" / f"{r['lid']}.pdbqt"
             if p.exists():
-                lig[r["lid"]] = str(p)
+                lig.append({"lid": r["lid"], "path": str(p)})
     return lig
 
 
-def pocket_jobs(cfg, lig):
-    """Task-directed jobs: only the significant (compound, task-target)
-    pairs from the execute step, not the whole universe."""
-    import pandas as pd
-
-    pairs = pd.read_csv(ROOT / cfg["pairs_file"], sep="\t")
-    comp_of_gene = {}
-    for r in pairs.itertuples():
-        if r.inchikey in lig:
-            comp_of_gene.setdefault(r.task_target, set()).add(r.inchikey)
-    gene_of = read_gene_map(ROOT / cfg["universe_fasta"])
+def pocket_jobs(cfg):
     base = ROOT / cfg["structures_dir"]
-    n_pockets = int(cfg.get("screen_pockets_per_target", 3))
+    n_screen = int(cfg.get("screen_pockets_per_target", 3))
     jobs = []
     for pj in sorted((base / "pockets").glob("*.json")):
         acc = pj.stem
-        gene = gene_of.get(acc)
-        lids = comp_of_gene.get(gene, set()) if gene else set()
-        if not lids:
-            continue
         rec = base / "receptors" / f"{acc}.pdbqt"
         if not rec.exists():
             continue
-        job_ligs = [{"lid": l, "path": lig[l]} for l in sorted(lids)]
-        for pk in json.loads(pj.read_text())[:n_pockets]:
-            jobs.append({"acc": acc, "receptor": str(rec), "pocket": pk,
-                         "ligs": job_ligs})
+        for pk in json.loads(pj.read_text())[:n_screen]:
+            jobs.append({"acc": acc, "receptor": str(rec), "pocket": pk})
     return jobs
 
 
@@ -135,10 +119,6 @@ def aggregate(cfg):
     df = df[df["affinity"].notna()]
     best = (df.sort_values("affinity")
               .groupby(["lid", "acc"], as_index=False).first())
-    ann = pd.read_csv(ROOT / cfg["pairs_file"], sep="\t")[
-        ["inchikey", "task_target", "rho", "q", "tier"]]
-    best = best.merge(ann, left_on=["lid", "gene"],
-                      right_on=["inchikey", "task_target"], how="left")
     best["label"] = best["lid"].map(lambda x: meta.get(x, {}).get("label", ""))
     best["source"] = best["lid"].map(
         lambda x: meta.get(x, {}).get("source", ""))
@@ -162,17 +142,13 @@ def main():
 
     if not args.aggregate_only:
         lig = load_ligands(cfg)
-        jobs = pocket_jobs(cfg, lig)
-        n_pairs = sum(len(j["ligs"]) for j in jobs)
-        print(f"ligands ready: {len(lig)}, pocket jobs: {len(jobs)}, "
-              f"pair-pockets: {n_pairs}", flush=True)
+        jobs = pocket_jobs(cfg)
+        print(f"ligands: {len(lig)}, pocket jobs: {len(jobs)}", flush=True)
         if not jobs:
-            print("no pocket jobs; check pairs_file and stage 3 outputs",
-                  flush=True)
+            print("no pocket jobs; run stage 3 first", flush=True)
             return
         with ProcessPoolExecutor(max_workers=cfg["max_workers"]) as ex:
-            futs = [ex.submit(run_job, j, j["ligs"], cfg, gene_of)
-                    for j in jobs]
+            futs = [ex.submit(run_job, j, lig, cfg, gene_of) for j in jobs]
             for n, f in enumerate(futs, 1):
                 f.result()
                 if n % 20 == 0:
