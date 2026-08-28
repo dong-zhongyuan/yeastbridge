@@ -29,9 +29,13 @@ def main():
     from rdkit import Chem
     from meeko import PDBQTMolecule, RDKitMolCreate
 
-    df = pd.read_csv(ROOT / cfg["pairs_tsv"], sep="\t")
+    df = pd.read_csv(ROOT / cfg["pairs_calibrated_tsv"], sep="\t")
     df = df[df["final_pass"]].sort_values("docking_affinity").reset_index(
         drop=True)
+    knn = pd.read_csv(
+        ROOT / "product/pd_validation/results/final_pairs_knn.tsv",
+        sep="\t")
+    knn_of = {(r.inchikey, r.target_gene): r for r in knn.itertuples()}
 
     em = pd.read_csv(
         ROOT / "product/execute_hiphop/results/exec_matrix.tsv", sep="\t")
@@ -71,6 +75,7 @@ def main():
         folder.mkdir(exist_ok=True)
         smi = smi_of.get(r.inchikey, "")
         ev = yeast_ev.loc[r.inchikey] if r.inchikey in yeast_ev.index else None
+        kn = knn_of.get((r.inchikey, r.target_gene))
 
         # complex PDB: clean polymer receptor + docked pose as HETATM LIG
         pk = pocket_of.get((r.inchikey, r.acc), 1)
@@ -110,11 +115,11 @@ def main():
             酵母筛选_显著任务数=(None if ev is None else int(ev["yeast_n_tasks"])),
             ChEMBL实测_pChEMBL=r.pchembl_measured,
             对接亲和能_kcal_mol=r.docking_affinity,
-            PD预测_pIC50_均值=round(r.pd_pic50_mean, 2),
-            PD预测_pIC50_MPNN=round(getattr(r, "mpnn_cnn_bindingdb_ic50"), 2),
-            PD预测_pIC50_CNN=round(getattr(r, "cnn_cnn_bindingdb_ic50"), 2),
-            PD预测_pIC50_Morgan=round(
-                getattr(r, "morgan_cnn_bindingdb_ic50"), 2),
+            PD预测_pIC50_DTI集成=round(r.pd_pic50_calibrated, 2),
+            PD预测_pIC50_kNN近邻=(None if kn is None else round(
+                float(getattr(kn, "pd_pic50_knn")), 2)),
+            PD适用域_最近邻Tanimoto=(None if kn is None else round(
+                float(getattr(kn, "nn_tanimoto")), 2)),
             对接门_通过="是", PD门_通过="是")
         rows.append(row)
 
@@ -130,7 +135,7 @@ def main():
 - 分子结构（SMILES）：`{smi}`（另见 {cand}_ligand.smi / _ligand_pose.sdf）
 - 小分子-靶点复合物结构预测文件：{cand}_complex.pdb（蛋白取自 {r.acc} 实验结构的清洁聚合物链；配体为 Vina-GPU 最优口袋 pose）
 - 算法说明：化合物源自酵母 HIP/HOP 化学基因组筛选（Lee et al. 2014, E-MTAB-2391；车辆对照 z 谱与迁移任务排名全谱 Spearman，菌株标签置换检验 BH-FDR）。靶点身份来自 ChEMBL 定量注释（pChEMBL≥6、人源、离子通道/GPCR）。分子对接：Vina-GPU 2.1（thread 8000），口袋由 fpocket 默认参数预测（top-3，Site Score 排序），受体经 gemmi 清洗 + OpenBabel pH7.4 质子化，配体经 dimorphite-dl pH7.4 + meeko 制备。药效学评估：DeepPurpose 预训练模型集成（MPNN/CNN/Morgan × BindingDB IC50），SMILES+蛋白序列输入。
-- 设计逻辑：人功能靶点的任务经 scFoundation 酵母表示迁移（B 路线，ESM2 注入）定义酵母可执行任务；化合物在酵母中显著执行任务后，其人靶点身份由定量药理注释确立，再以对接（结合合理性，{r.docking_affinity:.1f} kcal/mol）与预训练效价模型集成（pIC50 {r.pd_pic50_mean:.2f}；实测 pChEMBL {r.pchembl_measured}）双重确认。
+- 设计逻辑：人功能靶点的任务经 scFoundation 酵母表示迁移（B 路线，ESM2 注入）定义酵母可执行任务；化合物在酵母中显著执行任务后，其人靶点身份由定量药理注释确立，再以对接（结合合理性，{r.docking_affinity:.1f} kcal/mol）与双引擎药效学评估确认——DTI 预训练集成（校准后 pIC50 {r.pd_pic50_calibrated:.2f}）与同靶点分子近邻法（kNN pIC50 {(float(getattr(kn, 'pd_pic50_knn')) if kn is not None else float('nan')):.2f}，最近邻 Tanimoto {(float(getattr(kn, 'nn_tanimoto')) if kn is not None else float('nan')):.2f}，即与该靶点已知配体的结构相似度）。实测 pChEMBL {r.pchembl_measured}。
 
 ## 3-4. 实验验证结果 / 关键实验记录
 未开展湿实验。计划验证：酵母删除菌株 ± 化合物生长曲线（判定标准见项目湿实验接口文档）。
