@@ -28,5 +28,22 @@
     "gpu_id": "auto",
     "box_max": 50.0,
     "run_timeout": 3600
+  },
+  "md": {
+    "mdenv_bin": "/public/home/mengxl/dzy/envs/mdenv/bin",
+    "mdenv_python": "/public/home/mengxl/dzy/envs/mdenv/bin/python",
+    "n_systems": 5,
+    "lipids": "POPC",
+    "ffwat": "tip3p",
+    "dist_wat": 15,
+    "saltcon": 0.15,
+    "temperature_k": 310,
+    "timestep_fs": 2.0,
+    "equil_ns": 1.0,
+    "production_ns": 50.0,
+    "replicas": 3,
+    "seeds": [1, 2, 3],
+    "report_interval_ps": 500,
+    "gpu_id": "auto"
   }
 }

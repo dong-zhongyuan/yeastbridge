@@ -19,3 +19,11 @@
 
 ## 治理
 注册制：本文件 + config 先行提交；各阶段断点续跑；产物入 results/。
+
+## MD 协议（2026-08-28 注册，阶段 5）
+- **体系选取**：`gpu_dock_pairs.tsv` 按"每靶点取亲和能最优对"取前 5 个不同靶点（ADRA2C / DRD3 / CHRM1 / HTR2B / OPRL1，全部为沉积实验结构 2.17–2.80 Å）。
+- **构建**：配体 pose 从 Vina-GPU 输出经 meeko 重建分子（对接坐标系即蛋白坐标系，直接并入蛋白 PDB）；antechamber AM1-BCC + GAFF2 电荷/参数，parmchk2 补缺；packmol-memgen 建膜体系（POPC 双层、ff14SB/lipid21/tip3p、0.15 M KCl、水层 15 Å、PPM3 跨膜定向、二硫键自动检测），产出 Amber parm7/rst7。
+- **运行**：OpenMM 8.6（CUDA，空闲卡规则同支线对接），LangevinMiddle 310 K、MonteCarlo 半各向同性 1 atm、PME、2 fs 步长；能量最小化 → NPT 平衡 1 ns（前 0.5 ns 蛋白/配体重原子位置限制）→ 3 副本 × 50 ns 生产（种子注册于 config，可扩展至 100 ns）。
+- **分析**：蛋白/配体 RMSD、配体接触持久度（4 Å 逐帧）、姿势漂移；逐体系报告。
+- **边界**：MD 评估物理合理性（姿势稳定性/接触持续性），不产出结合自由能排名；湿实验为最终仲裁。
+- **执行环境**：`/public/home/mengxl/dzy/envs/mdenv`（conda-forge ambertools+openmm，pip 无 ambertools），构建用 structscreen env（meeko）+ mdenv 二进制混合调用。
