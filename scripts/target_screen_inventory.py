@@ -90,6 +90,28 @@ def to_pdb(cif_bytes: Path, pdb_out: Path):
     st.write_pdb(str(pdb_out))
 
 
+def detect_state(pdb_id, title, method):
+    """Heuristic conformational state detection from PDB metadata."""
+    t = (title or "").lower()
+    if any(k in t for k in ["goa", "gi1", "gi2", "gs", "g protein",
+                             "gprotein", "mini-g", "nanobody", "active"]):
+        return "active"
+    if any(k in t for k in ["antagonist", "inverse agonist", "inactive"]):
+        return "inactive"
+    if "agonist" in t and "inverse" not in t:
+        return "active"
+    if "blocker" in t or "inhibitor" in t:
+        return "inactive"
+    return "unannotated"
+
+
+def pick_best(entries_with_meta):
+    """Pick best entry; prefer experimental PDB over predicted AF2."""
+    if not entries_with_meta:
+        return None
+    return min(entries_with_meta, key=lambda x: x[1])
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--config", default="configs/target_screen.json")
@@ -114,7 +136,7 @@ def main():
     n_pdb = n_af2 = n_fail = 0
     with inv_path.open("a", newline="") as fh:
         if fresh:
-            fh.write("acc\tgene\tsource\tpdb_id\tresolution\tmethod\tpath\tnote\n")
+            fh.write("acc\tgene\tsource\tpdb_id\tresolution\tmethod\tpath\tnote\tconformational_state\n")
         for acc, gene in universe:
             if acc in done:
                 continue
@@ -171,9 +193,20 @@ def main():
                         to_pdb(cif, pdb_path)
                         cif.unlink()
                         note = "converted_from_mmcif"
+                    # detect conformational state from entry title
+                    st_meta, b_meta = http(f"{cfg['rcsb_entry']}/{best}")
+                    title = ""
+                    if st_meta == 200:
+                        try:
+                            title = json.loads(b_meta).get(
+                                "struct", {}).get("title", "")
+                        except Exception:
+                            pass
+                    state = detect_state(best, title, best_meth)
                     row = [acc, gene, "pdb", best,
                            "" if best_res == 999.0 else f"{best_res:.2f}",
-                           best_meth, str(pdb_path.relative_to(ROOT)), note]
+                           best_meth, str(pdb_path.relative_to(ROOT)),
+                           note, state]
                     n_pdb += 1
             if row is None:
                 st5, b5 = http(cfg["af2_api"].format(acc=acc))
@@ -201,7 +234,8 @@ def main():
                     cif.unlink()
                 row = [acc, gene, "af2", "", "", "predicted",
                        str(pdb_path.relative_to(ROOT)),
-                       f"alphafold_db;{url.rsplit('/', 1)[-1]}"]
+                       f"alphafold_db;{url.rsplit('/', 1)[-1]}",
+                       "af2_inactive_like"]
                 n_af2 += 1
             fh.write("\t".join(row) + "\n")
             fh.flush()
