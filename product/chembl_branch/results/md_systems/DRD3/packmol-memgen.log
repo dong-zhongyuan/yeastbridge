@@ -1,0 +1,98 @@
+08/28/2026 03:37:40 PM:DEBUG:
+Execution line:     /public/home/mengxl/dzy/envs/mdenv/bin/packmol-memgen --pdb /public/home/mengxl/dzy/yeastbridge_re/product/chembl_branch/results/md_systems/DRD3/complex.pdb --ligand_param /public/home/mengxl/dzy/yeastbridge_re/product/chembl_branch/results/md_systems/DRD3/lig.frcmod:/public/home/mengxl/dzy/yeastbridge_re/product/chembl_branch/results/md_systems/DRD3/lig.lib --lipids POPC --ffwat tip3p --ffprot ff14SB --fflip lipid21 --dist_wat 15 --salt --saltcon 0.15 --gaff2
+08/28/2026 03:37:40 PM:DEBUG:
+Configuration saved to packmol-memgen.json
+08/28/2026 03:37:40 PM:WARNING:
+WARNING:AMBER path found, but reduce executable is not available
+08/28/2026 03:37:40 PM:WARNING:
+WARNING: No protonation tool available (neither pdb2pqr nor reduce found). Protonation will be skipped.
+08/28/2026 03:37:40 PM:INFO:
+No ratio provided (--ratio).
+08/28/2026 03:37:40 PM:INFO:
+Preprocessing /public/home/mengxl/dzy/yeastbridge_re/product/chembl_branch/results/md_systems/DRD3/complex.pdb. This might take a minute.
+08/28/2026 03:37:40 PM:DEBUG:
+Orienting the protein using pymemembed...
+08/28/2026 03:38:13 PM:WARNING:
+Protein doesn't look to be protonated! Please consider that this will cause a bad estimation of the volume and of the packing process!
+
+
+08/28/2026 03:38:17 PM:DEBUG:
+Calculated volume using MC based sampling algorithm with z-profile: 1231 slabs, 0.1A thickness.
+08/28/2026 03:38:17 PM:DEBUG:
+
+     Estimated values for input protein:
+
+     Input PDB                = /public/home/mengxl/dzy/yeastbridge_re/product/chembl_branch/results/md_systems/DRD3/complexin_EMBED.pdb
+     Charge                   = 1        
+     Mass                     = 116038.3679999906    Da
+     Density                  = 0.85         Da/A^3
+     Estimated volume         = 95068.8      A^3
+         in upper leaflet     = 10054.49     A^3
+         in lower leaflet     = 12392.36     A^3
+         in upper water box   = 1395         A^3
+         in lower water box   = 71227.2      A^3
+                
+08/28/2026 03:38:17 PM:INFO:
+
+     Information for packing:
+
+     Input PDB(s)                     = ['/public/home/mengxl/dzy/yeastbridge_re/product/chembl_branch/results/md_systems/DRD3/complex.pdb']
+     Output PDB                       = bilayer_complex.pdb
+     Packmol output and log prefix    = packmol  
+     Lipids                           = ['POPC'] 
+     Lipid ratio                      = ['1']    
+     Solvents                         = WAT      
+     Solvent ratio                    = 1        
+     Salt concentration            (M)= 0.15     
+     Distance to boundaries        (A)= 15.0     
+     Minimum water distance        (A)= 15.0     
+     Packmol loops                    = 20       
+     Packmol loops for All-together   = 100      
+08/28/2026 03:38:17 PM:DEBUG:
+
+     Box information:
+     x_min                    = -76.67847607212073
+     x_max                    = 76.67847607212073
+     x_len                    = 153.35695214424146
+
+     y_min                    = -76.67847607212073
+     y_max                    = 76.67847607212073
+     y_len                    = 153.35695214424146
+
+     z_min                    = -102.905 
+     z_max                    = 45.49600000000001
+     z_len                    = 148.401  
+     
+08/28/2026 03:38:17 PM:DEBUG:
+Experimental value for POPC volume not available in parm file. Using estimated 1227 A^3 instead...
+08/28/2026 03:38:17 PM:DEBUG:
+
+    Salt and charge info:
+    Upper positive charges   = 46.5     
+    Lower positive charges   = 162.5    
+    Upper negative charges   = 46.5     
+    Lower negative charges   = 163.5    
+    Charge imbalance         = 0        
+    Upper salt number        = 47       
+    Lower salt number        = 163      
+                
+08/28/2026 03:38:18 PM:DEBUG:
+
+                Lower water box vol    = 1808006.94 A^3
+                Upper water box vol    = 527674.16 A^3
+                Mem. upper leaflet vol = 545068.5  A^3
+                Mem. lower leaflet vol = 542730.64 A^3
+    
+                
+08/28/2026 03:38:18 PM:DEBUG:
+Script for packmol written to packmol.inp
+08/28/2026 03:38:18 PM:INFO:
+
+Running Packmol...
+08/28/2026 03:52:45 PM:DEBUG:
+
+Individual packing processes complete. Initiating all-together packing. This might take a while!
+08/28/2026 04:07:09 PM:DEBUG:
+Deleting temporary files...
+08/28/2026 04:07:09 PM:INFO:
+#Packing process finished. Check your final structure, particularly for lipids inserted in proteins, protein tunnels or piercing rings!#

@@ -1,0 +1,62 @@
+DRD3: ligand extracted, charge 1
+DRD3: ligand parameterized
+
+
+ _____           _                    _
+|  __ \         | |                  | |
+| |__) |_ _  ___| | ___ __ ___   ___ | |
+|  ___/ _` |/ __| |/ / '_ ` _ \ / _ \| |
+| |  | (_| | (__|   <| | | | | | (_) | |
+|_|   \__,_|\___|_|\_\_| |_| |_|\___/|_|
+                                         ___
+                  /\/\   ___ _ __ ___   / _ \___ _ __
+                 /    \ / _ \ '_ ` _ \ / /_\/ _ \ '_ \
+                / /\/\ \  __/ | | | | / /_ \  __/ | | |
+                \/    \/\___|_| |_| |_\____/\___|_| |_| 
+
+
+###############################################################
+Stephan Schott-Verdugo 2016-11-07        VERSION: 2026.3.25
+Generated at CPCLab at Heinrich Heine University Duesseldorf
+      &      CBCLab at Forschungszentrum Juelich
+###############################################################
+
+--verbose for details of the packing process
+WARNING:AMBER path found, but reduce executable is not available
+WARNING: No protonation tool available (neither pdb2pqr nor reduce found). Protonation will be skipped.
+No ratio provided (--ratio).
+Preprocessing /public/home/mengxl/dzy/yeastbridge_re/product/chembl_branch/results/md_systems/DRD3/complex.pdb. This might take a minute.
+Protein doesn't look to be protonated! Please consider that this will cause a bad estimation of the volume and of the packing process!
+
+
+
+     Information for packing:
+
+     Input PDB(s)                     = ['/public/home/mengxl/dzy/yeastbridge_re/product/chembl_branch/results/md_systems/DRD3/complex.pdb']
+     Output PDB                       = bilayer_complex.pdb
+     Packmol output and log prefix    = packmol  
+     Lipids                           = ['POPC'] 
+     Lipid ratio                      = ['1']    
+     Solvents                         = WAT      
+     Solvent ratio                    = 1        
+     Salt concentration            (M)= 0.15     
+     Distance to boundaries        (A)= 15.0     
+     Minimum water distance        (A)= 15.0     
+     Packmol loops                    = 20       
+     Packmol loops for All-together   = 100      
+
+Running Packmol...
+
+Processing segment 2 of 9..
+Processing segment 3 of 9..
+Processing segment 4 of 9
+Processing segment 5 of 9
+Processing segment 6 of 9
+Processing segment 7 of 9
+Processing segment 8 of 9
+Processing segment 9 of 9[F
+All-together Packing#Packing process finished. Check your final structure, particularly for lipids inserted in proteins, protein tunnels or piercing rings!#
+
+########################################################################################################################################
+########################################################################################################################################
+DONE!

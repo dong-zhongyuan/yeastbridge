@@ -1,0 +1,134 @@
+08/28/2026 02:51:38 PM:DEBUG:
+Execution line:     /public/home/mengxl/dzy/envs/mdenv/bin/packmol-memgen --pdb /public/home/mengxl/dzy/yeastbridge_re/product/chembl_branch/results/md_systems/ADRA2C/complex.pdb --ligand_param /public/home/mengxl/dzy/yeastbridge_re/product/chembl_branch/results/md_systems/ADRA2C/lig.frcmod /public/home/mengxl/dzy/yeastbridge_re/product/chembl_branch/results/md_systems/ADRA2C/lig.lib --lipids POPC --ffwat tip3p --ffprot ff14SB --fflip lipid21 --dist_wat 15 --saltcon 0.15 --gaff2
+08/28/2026 02:51:38 PM:DEBUG:
+Configuration saved to packmol-memgen.json
+08/28/2026 02:51:38 PM:ERROR:
+ERROR:
+    You specified a salt concentration, but not the salt flag. Only neutralizing ions will be added
+08/28/2026 02:51:38 PM:WARNING:
+WARNING:AMBER path found, but reduce executable is not available
+08/28/2026 02:51:38 PM:WARNING:
+WARNING: No protonation tool available (neither pdb2pqr nor reduce found). Protonation will be skipped.
+08/28/2026 02:51:38 PM:INFO:
+No ratio provided (--ratio).
+08/28/2026 02:51:38 PM:ERROR:
+ERROR:
+    Specified parameter files do not exist!
+08/28/2026 02:51:38 PM:DEBUG:
+Files: /public/home/mengxl/dzy/yeastbridge_re/product/chembl_branch/results/md_systems/ADRA2C/lig.frcmod /public/home/mengxl/dzy/yeastbridge_re/product/chembl_branch/results/md_systems/ADRA2C/lig.lib
+08/28/2026 02:53:57 PM:DEBUG:
+Execution line:     /public/home/mengxl/dzy/envs/mdenv/bin/packmol-memgen --pdb complex.pdb --ligand_param lig.frcmod lig.lib --lipids POPC --ffwat tip3p --ffprot ff14SB --fflip lipid21 --dist_wat 15 --saltcon 0.15 --gaff2
+08/28/2026 02:53:57 PM:DEBUG:
+Configuration saved to packmol-memgen.json
+08/28/2026 02:53:57 PM:ERROR:
+ERROR:
+    You specified a salt concentration, but not the salt flag. Only neutralizing ions will be added
+08/28/2026 02:53:57 PM:WARNING:
+WARNING:AMBER path found, but reduce executable is not available
+08/28/2026 02:53:57 PM:WARNING:
+WARNING: No protonation tool available (neither pdb2pqr nor reduce found). Protonation will be skipped.
+08/28/2026 02:53:57 PM:INFO:
+No ratio provided (--ratio).
+08/28/2026 02:53:58 PM:ERROR:
+ERROR:
+    Specified parameter files do not exist!
+08/28/2026 02:53:58 PM:DEBUG:
+Files: lig.frcmod lig.lib
+08/28/2026 03:02:25 PM:DEBUG:
+Execution line:     /public/home/mengxl/dzy/envs/mdenv/bin/packmol-memgen --pdb /public/home/mengxl/dzy/yeastbridge_re/product/chembl_branch/results/md_systems/ADRA2C/complex.pdb --ligand_param /public/home/mengxl/dzy/yeastbridge_re/product/chembl_branch/results/md_systems/ADRA2C/lig.frcmod:/public/home/mengxl/dzy/yeastbridge_re/product/chembl_branch/results/md_systems/ADRA2C/lig.lib --lipids POPC --ffwat tip3p --ffprot ff14SB --fflip lipid21 --dist_wat 15 --salt --saltcon 0.15 --gaff2
+08/28/2026 03:02:25 PM:DEBUG:
+Configuration saved to packmol-memgen.json
+08/28/2026 03:02:25 PM:WARNING:
+WARNING:AMBER path found, but reduce executable is not available
+08/28/2026 03:02:25 PM:WARNING:
+WARNING: No protonation tool available (neither pdb2pqr nor reduce found). Protonation will be skipped.
+08/28/2026 03:02:25 PM:INFO:
+No ratio provided (--ratio).
+08/28/2026 03:02:25 PM:INFO:
+Preprocessing /public/home/mengxl/dzy/yeastbridge_re/product/chembl_branch/results/md_systems/ADRA2C/complex.pdb. This might take a minute.
+08/28/2026 03:02:25 PM:DEBUG:
+Orienting the protein using pymemembed...
+08/28/2026 03:03:17 PM:WARNING:
+Protein doesn't look to be protonated! Please consider that this will cause a bad estimation of the volume and of the packing process!
+
+
+08/28/2026 03:03:22 PM:DEBUG:
+Calculated volume using MC based sampling algorithm with z-profile: 1124 slabs, 0.1A thickness.
+08/28/2026 03:03:22 PM:DEBUG:
+
+     Estimated values for input protein:
+
+     Input PDB                = /public/home/mengxl/dzy/yeastbridge_re/product/chembl_branch/results/md_systems/ADRA2C/complexin_EMBED.pdb
+     Charge                   = 20       
+     Mass                     = 96963.39999999294    Da
+     Density                  = 0.85         Da/A^3
+     Estimated volume         = 80649.81     A^3
+         in upper leaflet     = 21245.66     A^3
+         in lower leaflet     = 20527.0      A^3
+         in upper water box   = 37404        A^3
+         in lower water box   = 1473.49      A^3
+                
+08/28/2026 03:03:22 PM:INFO:
+
+     Information for packing:
+
+     Input PDB(s)                     = ['/public/home/mengxl/dzy/yeastbridge_re/product/chembl_branch/results/md_systems/ADRA2C/complex.pdb']
+     Output PDB                       = bilayer_complex.pdb
+     Packmol output and log prefix    = packmol  
+     Lipids                           = ['POPC'] 
+     Lipid ratio                      = ['1']    
+     Solvents                         = WAT      
+     Solvent ratio                    = 1        
+     Salt concentration            (M)= 0.15     
+     Distance to boundaries        (A)= 15.0     
+     Minimum water distance        (A)= 15.0     
+     Packmol loops                    = 20       
+     Packmol loops for All-together   = 100      
+08/28/2026 03:03:22 PM:DEBUG:
+
+     Box information:
+     x_min                    = -55.43970119616543
+     x_max                    = 55.43970119616543
+     x_len                    = 110.87940239233086
+
+     y_min                    = -55.43970119616543
+     y_max                    = 55.43970119616543
+     y_len                    = 110.87940239233086
+
+     z_min                    = -48.608  
+     z_max                    = 89.15199999999999
+     z_len                    = 137.76   
+     
+08/28/2026 03:03:22 PM:DEBUG:
+Experimental value for POPC volume not available in parm file. Using estimated 1227 A^3 instead...
+08/28/2026 03:03:22 PM:DEBUG:
+
+    Salt and charge info:
+    Upper positive charges   = 60.0     
+    Lower positive charges   = 18.0     
+    Upper negative charges   = 74.0     
+    Lower negative charges   = 24.0     
+    Charge imbalance         = 0        
+    Upper salt number        = 70       
+    Lower salt number        = 28       
+                
+08/28/2026 03:03:22 PM:DEBUG:
+
+                Lower water box vol    = 313357.45 A^3
+                Upper water box vol    = 775885.03 A^3
+                Mem. upper leaflet vol = 271814.81 A^3
+                Mem. lower leaflet vol = 272533.47 A^3
+    
+                
+08/28/2026 03:03:22 PM:DEBUG:
+Script for packmol written to packmol.inp
+08/28/2026 03:03:22 PM:INFO:
+
+Running Packmol...
+08/28/2026 03:10:23 PM:DEBUG:
+
+Individual packing processes complete. Initiating all-together packing. This might take a while!
+08/28/2026 04:07:09 PM:DEBUG:
+Deleting temporary files...
+08/28/2026 04:07:09 PM:INFO:
+#Packing process finished. Check your final structure, particularly for lipids inserted in proteins, protein tunnels or piercing rings!#

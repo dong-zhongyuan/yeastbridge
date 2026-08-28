@@ -1,0 +1,74 @@
+tolerance 2.0
+filetype pdb
+output bilayer_complex.pdb
+
+add_amber_ter
+amber_ter_preserve
+nloop 100
+
+structure PROT0.pdb
+  number 1
+  fixed 0. 0. 0 0. 0. 0.
+  radius 1.5
+end structure
+
+structure POPC.pdb
+  nloop 20
+  number 167
+  inside box -55.44 -55.44 -23.0 55.44 55.44 0.0
+  atoms 47 66
+    below plane 0. 0. 1. -18.0
+  end atoms
+  atoms 131 43
+    over plane 0. 0. 1. -4.0
+  end atoms
+end structure
+
+structure POPC.pdb
+  nloop 20
+  number 166
+  inside box -55.44 -55.44 0.0 55.44 55.44 23.0
+  atoms 47 66
+    over plane 0. 0. 1. 18.0
+  end atoms
+  atoms 131 43
+    below plane 0. 0. 1. 4.0
+  end atoms
+end structure
+
+structure WAT.pdb
+  nloop 20
+  number 10452
+  inside box -55.44 -55.44 -48.61 55.44 55.44 -23.0
+end structure
+
+structure WAT.pdb
+  nloop 20
+  number 25880
+  inside box -55.44 -55.44 23.0 55.44 55.44 89.15
+end structure
+
+structure K+.pdb
+  nloop 20
+  number 18
+  inside box -55.44 -55.44 -48.61 55.44 55.44 -23.0
+end structure
+
+structure K+.pdb
+  nloop 20
+  number 60
+  inside box -55.44 -55.44 23.0 55.44 55.44 89.15
+end structure
+
+structure Cl-.pdb
+  nloop 20
+  number 24
+  inside box -55.44 -55.44 -48.61 55.44 55.44 -23.0
+end structure
+
+structure Cl-.pdb
+  nloop 20
+  number 74
+  inside box -55.44 -55.44 23.0 55.44 55.44 89.15
+end structure
+
