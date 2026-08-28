@@ -1,0 +1,24 @@
+{
+  "chembl_targets": "product/drug_annotation/results/chembl_targets.tsv",
+  "ligand_registry": "product/target_screen/inputs/ligands/registry.tsv",
+  "min_pchembl": 5.0,
+  "top_per_compound": 5,
+  "universe_fasta": "product/chembl_branch/inputs/branch_targets.fasta",
+  "inputs_dir": "product/chembl_branch/inputs",
+  "structures_dir": "product/chembl_branch/structures",
+  "results_dir": "product/chembl_branch/results",
+  "ph": 7.4,
+  "fpocket_top_n": 3,
+  "box_padding": 4.0,
+  "box_min_size": 22.0,
+  "plddt_site_min": 70.0,
+  "max_workers": 4,
+  "vina_gpu": {
+    "bin": "/public/home/mengxl/dzy/src/Vina-GPU-2.1-main/AutoDock-Vina-GPU-2.1/AutoDock-Vina-GPU-2-1",
+    "opencl_binary_path": "/public/home/mengxl/dzy/src/Vina-GPU-2.1-main/AutoDock-Vina-GPU-2.1",
+    "thread": 8000,
+    "gpu_id": "auto",
+    "box_max": 50.0,
+    "run_timeout": 3600
+  }
+}
