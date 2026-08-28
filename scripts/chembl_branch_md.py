@@ -125,44 +125,55 @@ def run_one(gene, cfg):
     system = pdb.createSystem(nonbondedMethod=app.PME,
                               constraints=app.HBonds,
                               rigidWater=True)
-    system.setDefaultPeriodicBoxVectors(*crd.boxVectors)
-    integ = openmm.LangevinMiddleIntegrator(
-        md["temperature_k"] * unit.kelvin, 1 / unit.picosecond,
-        md["timestep_fs"] * unit.femtoseconds)
-    baro = openmm.MonteCarloBarostat(1 * unit.atmosphere,
-                                     md["temperature_k"] * unit.kelvin,
-                                     25)
-    system.addForce(baro)
+    # positional restraints on all heavy atoms (protein + ligand);
+    # k switched per the registered equilibration schedule
+    rest = openmm.CustomExternalForce(
+        "0.5*k*((x-x0)^2+(y-y0)^2+(z-z0)^2)")
+    rest.addGlobalParameter(
+        "k", 0.0 * unit.kilojoule_per_mole / unit.nanometer ** 2)
+    for p in ("x0", "y0", "z0"):
+        rest.addPerParticleParameter(p)
+    for atom in pdb.topology.atoms():
+        if atom.element is not None and atom.element.symbol != "H":
+            pos = crd.positions[atom.index]
+            rest.addParticle(atom.index,
+                             (pos[0], pos[1], pos[2]))
+    system.addForce(rest)
+    system.addForce(openmm.MonteCarloBarostat(
+        1 * unit.atmosphere, md["temperature_k"] * unit.kelvin, 25))
     platform = openmm.Platform.getPlatformByName("CUDA")
-
-    def do(sim, steps, label):
-        sim.step(steps)
-        print(f"{gene}: {label} done", flush=True)
+    dt = md["timestep_fs"] * unit.femtoseconds
+    prod_steps = int(md["production_ns"] * 500000)  # 1 ns = 5e5 steps @2fs
 
     for seed in md["seeds"][:md["replicas"]]:
         out = sysdir / f"rep{seed}"
         out.mkdir(exist_ok=True)
         if (out / "final.chk").exists():
             continue
+        integ = openmm.LangevinMiddleIntegrator(
+            md["temperature_k"] * unit.kelvin, 1 / unit.picosecond, dt)
         integ.setRandomNumberSeed(seed)
-        integ.setTemperature(
-            min(100, md["temperature_k"]) * unit.kelvin)
         sim = app.Simulation(pdb.topology, system, integ, platform)
         sim.context.setPositions(crd.positions)
-        if crd.boxVectors is not None:
-            sim.context.setPeriodicBoxVectors(*crd.boxVectors)
+        sim.context.setPeriodicBoxVectors(*crd.boxVectors)
         sim.minimizeEnergy()
         sim.context.setVelocitiesToTemperature(
             md["temperature_k"] * unit.kelvin, seed)
+        sim.context.setParameter(
+            "k", 42.0 * unit.kilojoule_per_mole / unit.nanometer ** 2)
+        sim.step(250000)  # 0.5 ns restrained equilibration
+        sim.context.setParameter(
+            "k", 0.0 * unit.kilojoule_per_mole / unit.nanometer ** 2)
+        sim.step(250000)  # 0.5 ns free equilibration
+        print(f"{gene} rep{seed}: equil done", flush=True)
         sim.reporters.append(app.DCDReporter(
-            str(out / "prod.dcd"), int(md["report_interval_ps"] * 2)))
+            str(out / "prod.dcd"), 100000))  # 0.2 ns
         sim.reporters.append(app.StateDataReporter(
             str(out / "log.txt"), 250000, step=True, time=True,
             speed=True, remainingTime=True))
-        do(sim, 500000, "equil 1 ns")
-        do(sim, int(md["production_ns"] * 1000 / md["timestep_fs"] * 1000
-                    / 1000), "production")
+        sim.step(prod_steps)
         sim.saveState(str(out / "final.chk"))
+        print(f"{gene} rep{seed}: production done", flush=True)
 
 
 def main():
