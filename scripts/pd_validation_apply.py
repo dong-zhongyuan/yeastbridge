@@ -33,7 +33,7 @@ MODELS = [
     ("CNN", "CNN", "cnn_cnn_bindingdb_ic50"),
     ("Morgan", "CNN", "morgan_cnn_bindingdb_ic50"),
     ("MPNN", "CNN", "mpnn_cnn_kiba"),
-    ("Morgan", "AAC", "morgan_aac_kiba"),
+    ("Transformer", "CNN", "transformer_cnn_bindingdb"),
     ("Morgan", "CNN", "morgan_cnn_kiba"),
     ("MPNN", "CNN", "mpnn_cnn_davis"),
     ("CNN", "CNN", "cnn_cnn_davis"),
@@ -71,12 +71,17 @@ def predict_all(smiles, seqs):
 
     out = {}
     for drug_enc, tgt_enc, name_m in MODELS:
-        path = utils.download_pretrained_model(name_m)
-        model = DTI.model_pretrained(path)
-        X = utils.data_process(smiles, seqs, [0] * len(smiles),
-                               drug_enc, tgt_enc, split_method="no_split")
-        out[name_m] = np.array([float(v) for v in model.predict(X)])
-        print(f"  {name_m}: done", flush=True)
+        try:
+            path = utils.download_pretrained_model(name_m)
+            model = DTI.model_pretrained(path)
+            X = utils.data_process(smiles, seqs, [0] * len(smiles),
+                                   drug_enc, tgt_enc,
+                                   split_method="no_split")
+            out[name_m] = np.array([float(v) for v in model.predict(X)])
+            print(f"  {name_m}: done", flush=True)
+        except Exception as e:  # noqa: BLE001
+            print(f"  {name_m}: SKIPPED ({type(e).__name__}: "
+                  f"{str(e)[:60]})", flush=True)
     return out
 
 
