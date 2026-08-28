@@ -53,8 +53,8 @@ def build_one(row, cfg, inv):
     from rdkit import Chem
     from meeko import PDBQTMolecule, RDKitMolCreate
 
-    pm = PDBQTMolecule.from_pdbqt(str(pose), skip_typing=True)
-    mols = [m for m in RDKitMolCreate.from_pdbqt(pm) if m is not None]
+    pm = PDBQTMolecule.from_file(str(pose), skip_typing=True)
+    mols = [m for m in RDKitMolCreate.from_pdbqt_mol(pm) if m is not None]
     mol = mols[0]
     charge = Chem.GetFormalCharge(mol)
     sdf = sysdir / "lig.sdf"
@@ -74,33 +74,38 @@ def build_one(row, cfg, inv):
     complex_pdb.write_text(prot.read_text() + "\n".join(het) + "\nTER\nEND\n")
 
     b = md["mdenv_bin"]
+    tool_env = {"AMBERHOME": str(Path(b).parent),
+                "PATH": b + ":/usr/bin:/bin"}
     lig_mol2 = sysdir / "lig.mol2"
     subprocess.run(
         [f"{b}/antechamber", "-i", str(sdf), "-fi", "sdf",
          "-o", str(lig_mol2), "-fo", "mol2", "-c", "bcc", "-at", "gaff2",
          "-nc", str(charge), "-pf", "y", "-dr", "no"],
-        check=True, capture_output=True, timeout=3600)
+        check=True, capture_output=True, timeout=3600, env=tool_env)
     frcmod = sysdir / "lig.frcmod"
     subprocess.run(
         [f"{b}/parmchk2", "-i", str(lig_mol2), "-f", "mol2",
-         "-o", str(frcmod)], check=True, capture_output=True, timeout=600)
+         "-o", str(frcmod)], check=True, capture_output=True, timeout=600,
+        env=tool_env)
     lib = sysdir / "lig.lib"
     (sysdir / "tleap_lig.in").write_text(
-        "source leap.gaff2\n"
+        "source leaprc.gaff2\n"
         f"LIG = loadmol2 {lig_mol2}\n"
         f"saveoff LIG {lib}\nquit\n")
     subprocess.run([f"{b}/tleap", "-f", str(sysdir / "tleap_lig.in")],
-                   check=True, capture_output=True, cwd=sysdir, timeout=600)
+                   check=True, capture_output=True, cwd=sysdir, timeout=600,
+                   env=tool_env)
     print(f"{gene}: ligand parameterized", flush=True)
 
     subprocess.run(
         [f"{b}/packmol-memgen", "--pdb", str(complex_pdb),
-         "--ligand_param", f"{frcmod} {lib}",
+         "--ligand_param", f"{frcmod}:{lib}",
          "--lipids", md["lipids"], "--ffwat", md["ffwat"],
          "--ffprot", "ff14SB", "--fflip", "lipid21",
-         "--dist_wat", str(md["dist_wat"]), "--saltcon", str(md["saltcon"]),
-         "--gaff2", "--noplots"],
-        check=True, cwd=sysdir, timeout=7200)
+         "--dist_wat", str(md["dist_wat"]),
+         "--salt", "--saltcon", str(md["saltcon"]),
+         "--gaff2"],
+        check=True, cwd=sysdir, timeout=7200, env=tool_env)
     print(f"{gene}: system built", flush=True)
 
 
