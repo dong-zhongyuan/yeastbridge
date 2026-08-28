@@ -1,29 +1,25 @@
-# product/target_screen — 结构驱动的化合物→人靶点注释通道（反向筛选）
+# product/target_screen — 任务定向结构验证通道（docking）
 
-## 定位与范围
-- 化合物中心管线的第二注释通道，与 `product/drug_annotation`（ChEMBL 药理注释）并行；对 ChEMBL 无记录的化合物（含后续接入的 RL 生成分子）是唯一可用通道。
-- 靶点范围 = 迁移步的 1177 膜蛋白 universe（config 指定 fasta/tsv）。
-- 配体输入 = `product/execute_hiphop` q<0.1 命中化合物 + 注册基准药；接口为 SMILES 列表，后续接入 RL 分子不改代码。
-- 对海报版反向筛选方法的缺陷修复：删掉无校准的 AI 粗筛层（1177 规模直接全库对接）；阴性对照与阈值全部经验校准；AF2 结构加口袋级 pLDDT 过滤；结果经回顾性基准门禁。
+## 定位与架构（2026-08-28 用户决策重定）
+化合物中心管线的结构验证通道。**验证对象是 execute 步已指认的显著（化合物 × 任务靶点）对**：对接给出物理合理性，与 pd_validation（DeepPurpose 效价引擎）并联评估——**docking 门与 PD 门双过的对进入最终结果**。
+
+架构变更记录：本模块原设计为"全库反向筛选"（465 配体 × 1177 universe 泛搜索，复刻海报方法并修复其缺陷）。2026-08-28 经用户决策废除该模式：任务靶点分配已由 execute 步给出，全库搜索重复回答同一问题且耗时/CPU 占用不成比例。部分对接产物已删除（git 历史留档）；基础设施（结构盘点、配体制备、受体制备、对接脚本）全部复用，改为 `pairs_file` 驱动的任务定向模式。
 
 ## 流程（参数全部在 configs/target_screen.json）
-1. inventory：按 UniProt accession 查 RCSB 沉积结构（entity 精确匹配，仅实验结构，取分辨率最高者）；无沉积 → AlphaFold DB 预测模型（prediction API 解析文件 URL，优先 PDB 格式直链；B 因子=pLDDT）。产物 `results/inventory.tsv`，结构文件入 `structures/raw/`（gitignore，脚本可再生）。
-2. 配体制备：SMILES 解析链 ChEMBL（InChIKey 查分子）→ CACTUS（按 InChIKey 解析，保留立体化学）→ PubChem（平面结构回退）；基准药按 pref_name 走 ChEMBL。→ dimorphite-dl pH 7.4 质子化（质子化产物无法 sanitize 时回退中性形式并记录）→ RDKit ETKDG 单构象（注册种子，Vina 柔性搜索只需输入种子构象）→ meeko PDBQT。产物 `inputs/ligands/`。
-3. 受体制备：gemmi 只保留聚合物（去水/杂原子/替代构象，首模型）→ fpocket 默认参数 Score top-N 口袋；AF2 来源口袋要求口袋残基平均 pLDDT ≥ 阈值；口袋盒 = 口袋原子包围盒 + padding（各维下限）；OpenBabel `-p 7.4 -xr` 转刚性受体 PDBQT。产物 `structures/receptors|pockets/`（gitignore）。
-4. 反向对接：Vina python API，逐口袋建图后批对接全部配体（exhaustiveness=2、9 poses、单线程进程 × 44 worker 避免超订阅）；配体×靶点得分 = 各口袋最优；多进程按口袋并行，逐口袋 JSONL 断点续跑。口袋分期：生产初筛只跑每靶点 top-1 口袋（`screen_pockets_per_target`），口袋 2/3 留给初筛出现信号靶点的补做轮。产物 `results/target_scores.tsv`（全矩阵）+ `results/raw_pockets/`。
-4b. 计算引擎：CPU Vina 为基线与校验引擎；GPU 引擎（Vina-GPU 2.1，OpenCL，Vina 打分函数系的 GPU 实现）作为生产全矩阵引擎构建中——其搜索参数范式不同（thread/search_depth，无 exhaustiveness），切换前须完成与 CPU 版的抽样一致性校验，且所有校准（基准回收、经验零分布）在最终生产引擎上重新执行。GPU 仅用空闲卡并限制占用，不动既有进程。
-5. 校准（门禁，海报版缺失的核心层）：
-   - 回顾性基准：5 个注册基准药，其已知 universe 靶点须进入该药全 universe 排名 top 5%；≥3 个可评估且 ≥2 达标才放行正式结果。
-   - 每配体经验零分布：同配体 1177 靶点得分主体（median/MAD 高斯）为非结合背景，BH-FDR 定命中。
-   - 次级 decoy 校验（非门禁）：基准药已知靶点得分 vs MW 匹配随机 ChEMBL 分子在家族分层靶点子集上的分位报告。
-   - 产物 `results/screen_hits.tsv`、`results/calibration_report.json`。
-6. 短名单 → CONF-01 制备 / EXP2b 多副本 MD（复用既有协议）。
+1. inventory（已完成，复用）：靶点结构盘点（沉积优先，AF2 兜底，口袋 pLDDT 过滤）。477 沉积 + 698 AF2。
+2. 配体制备（已完成，复用）：SMILES 解析链（exec_matrix/ChEMBL/CACTUS/PubChem）→ 质子化 → PDBQT。465/489。
+3. 受体制备（已完成，复用）：gemmi 清洗 → fpocket top-3 口袋 → obabel PDBQT。1169 可对接。
+4. **任务定向对接**：仅对 `pairs_file`（annotation_pairs.tsv，7,100 显著对）中配体已制备的 (化合物, 任务靶点) 对接；每靶点 top-3 口袋，exhaustiveness=8，逐口袋 JSONL 断点续跑；配体×靶点得分 = 各口袋最优。判定门：`dock_gate_kcal`（默认 −7.0 kcal/mol，Vina 文献常规命中阈值）。
+5. 基准药参考：注册基准药（nifedipine 等 5 个，见 config benchmarks）同流程对接其已知通道靶点，作为打分参考系（不再适用全库经验零分布——该层随全库模式一并废除）。
+6. 与 pd_validation 汇合：双门判定产出最终 (化合物, 靶点) 结果表。
 
-## 注册的结构性限制（如实报告，不构成减分）
-- AF2 单体模型无寡聚组装与脂环境；通道孔腔外侧开口等功能位点几何可能失真。口袋级 pLDDT 过滤缓解但不消除。
-- Vina 真空打分无膜静电项；跨膜深口袋得分存在系统性偏差，以校准层经验阈值兜底。
-- 沉积结构覆盖率在盘点前未知，盘点后如实写入 inventory.tsv。
-- 经验零分布假设每配体的 1177 个得分中绝大多数为非结合背景。
+## 注册的结构性限制（如实报告）
+- AF2 单体模型无寡聚组装与脂环境；通道界面口袋（Kv/Nav/LGIC 中央孔）在单体上不成立——受体制备的 pLDDT 过滤缓解但不消除；超大蛋白（RYR/PIEZO/ADGRV1 等 6 个）受体制备失败，相关对无对接分，如实留空。
+- Vina 真空打分无膜静电；门限为经验阈值并标注基准药参考系。
+- 对接门为物理合理性过滤，不是效价预测——效价归 pd_validation。
+
+## 计算引擎
+CPU Vina 1.2.7（本通道）；GPU Vina-GPU 2.1 保留用于支线（chembl_branch）与精修轮，不与主线任务争用。
 
 ## 治理
-本文件与 configs/target_screen.json 先行提交后执行；五阶段各自断点续跑；网络失败目标不落盘、重跑补齐；执行环境 `/public/home/mengxl/dzy/envs/structscreen`（micromamba 建，fpocket 来自 bioconda，其余 pip）。
+注册制；各阶段断点续跑；结果入 results/；湿实验接口 v1 队列冻结不受本通道任何结果影响（2026-08-28 注册）。

@@ -1,5 +1,6 @@
 {
   "universe_fasta": "product/transfer_route_b/inputs/universe_proteins.fasta",
+  "pairs_file": "product/drug_annotation/results/annotation_pairs.tsv",
   "universe_targets": "product/transfer_route_b/inputs/universe_targets.tsv",
   "exec_matrix": "product/execute_hiphop/results/exec_matrix.tsv",
   "fdr_alpha": 0.1,
@@ -25,8 +26,9 @@
   "box_padding": 4.0,
   "box_min_size": 22.0,
   "plddt_site_min": 70.0,
-  "vina": {"exhaustiveness": 2, "num_modes": 9, "cpu_per_job": 1},
-  "screen_pockets_per_target": 1,
+  "vina": {"exhaustiveness": 8, "num_modes": 9, "cpu_per_job": 1},
+  "screen_pockets_per_target": 3,
+  "dock_gate_kcal": -7.0,
   "max_workers": 44,
   "calibration": {
     "top_frac": 0.05,
