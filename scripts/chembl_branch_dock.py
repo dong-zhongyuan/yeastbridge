@@ -16,12 +16,19 @@ import argparse
 import json
 import os
 import re
+import resource
 import subprocess
 import time
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 REMARK = re.compile(r"REMARK VINA RESULT:\s+([-\d.]+)")
+
+
+def _stack_ok():
+    # Vina-GPU needs >= 8 MB of stack (README requirement)
+    resource.setrlimit(resource.RLIMIT_STACK,
+                       (64 << 20, resource.RLIM_INFINITY))
 
 
 def pick_gpu():
@@ -99,7 +106,8 @@ def main():
             try:
                 subprocess.run([vg["bin"], "--config", str(cfgfile)],
                                env=env, cwd=outdir, timeout=vg["run_timeout"],
-                               check=True, capture_output=True)
+                               check=True, capture_output=True,
+                               preexec_fn=_stack_ok)
             except Exception as e:  # noqa: BLE001
                 print(f"  {acc} p{pocket['pocket']}: {type(e).__name__}",
                       flush=True)
