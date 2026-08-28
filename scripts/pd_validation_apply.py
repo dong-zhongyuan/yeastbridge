@@ -97,35 +97,41 @@ def calibrate(cfg, per_target_limit):
     bp = pd.read_csv(
         ROOT / "product/chembl_branch/results/branch_pairs.tsv", sep="\t")
     acc_of = dict(zip(bp["target_chembl_id"], bp["acc"]))
-    rows = []
-    for j, tc in enumerate(sorted(acc_of), 1):
-        a = get_json(f"{base}/activity.json?target_chembl_id={tc}"
-                     f"&pchembl_value__isnull=false&limit={per_target_limit}")
-        for act in (a or {}).get("activities", []):
-            rows.append(dict(target_chembl_id=tc,
-                             molecule=act.get("molecule_chembl_id"),
-                             pchembl=float(act["pchembl_value"])))
-        time.sleep(0.2)
-        if j % 10 == 0:
-            print(f"  activities {j}/{len(acc_of)} targets", flush=True)
-    ho = (pd.DataFrame(rows).dropna()
-            .sort_values("pchembl", ascending=False)
-            .drop_duplicates(["target_chembl_id", "molecule"]))
-    mols = sorted(ho["molecule"].unique())
-    smi_of = {}
-    for s in range(0, len(mols), 50):
-        q = ",".join(mols[s:s + 50])
-        rec = get_json(f"{base}/molecule.json?molecule_chembl_id__in={q}"
-                       f"&limit=50")
-        for m in (rec or {}).get("molecules", []):
-            ms = m.get("molecule_structures") or {}
-            if ms.get("canonical_smiles"):
-                smi_of[m["molecule_chembl_id"]] = ms["canonical_smiles"]
-        time.sleep(0.2)
-    ho = ho[ho["molecule"].isin(smi_of)].reset_index(drop=True)
-    ho["smiles"] = ho["molecule"].map(smi_of)
-    ho["acc"] = ho["target_chembl_id"].map(acc_of)
-    ho.to_csv(inp / "calibration_holdout.tsv", sep="\t", index=False)
+    holdout_path = inp / "calibration_holdout.tsv"
+    if holdout_path.exists():
+        ho = pd.read_csv(holdout_path, sep="\t")
+        print(f"holdout cached: {len(ho)} pairs", flush=True)
+    else:
+        rows = []
+        for j, tc in enumerate(sorted(acc_of), 1):
+            a = get_json(f"{base}/activity.json?target_chembl_id={tc}"
+                         f"&pchembl_value__isnull=false&limit="
+                         f"{per_target_limit}")
+            for act in (a or {}).get("activities", []):
+                rows.append(dict(target_chembl_id=tc,
+                                 molecule=act.get("molecule_chembl_id"),
+                                 pchembl=float(act["pchembl_value"])))
+            time.sleep(0.2)
+            if j % 10 == 0:
+                print(f"  activities {j}/{len(acc_of)} targets", flush=True)
+        ho = (pd.DataFrame(rows).dropna()
+                .sort_values("pchembl", ascending=False)
+                .drop_duplicates(["target_chembl_id", "molecule"]))
+        mols = sorted(ho["molecule"].unique())
+        smi_of = {}
+        for s in range(0, len(mols), 50):
+            q = ",".join(mols[s:s + 50])
+            rec = get_json(f"{base}/molecule.json?"
+                           f"molecule_chembl_id__in={q}&limit=50")
+            for m in (rec or {}).get("molecules", []):
+                ms = m.get("molecule_structures") or {}
+                if ms.get("canonical_smiles"):
+                    smi_of[m["molecule_chembl_id"]] = ms["canonical_smiles"]
+            time.sleep(0.2)
+        ho = ho[ho["molecule"].isin(smi_of)].reset_index(drop=True)
+        ho["smiles"] = ho["molecule"].map(smi_of)
+        ho["acc"] = ho["target_chembl_id"].map(acc_of)
+        ho.to_csv(holdout_path, sep="\t", index=False)
 
     seq_of = seq_map(cfg)
     P = predict_all(ho["smiles"].tolist(),
@@ -138,11 +144,13 @@ def calibrate(cfg, per_target_limit):
         caveat="holdout shares source DBs with DeepPurpose pretrained data; "
                "metrics may be mildly optimistic; used for rescaling")
     calib = {}
+    rs_of = {}
     ens = None
     for name_m, p in P.items():
         a1, b1 = np.polyfit(p, y, 1)
         calib[name_m] = [round(float(a1), 4), round(float(b1), 4)]
         rs = a1 * p + b1
+        rs_of[name_m] = rs
         ens = rs if ens is None else ens + rs
         report["per_model"][name_m] = dict(
             r=round(float(np.corrcoef(p, y)[0, 1]), 3),
@@ -154,6 +162,19 @@ def calibrate(cfg, per_target_limit):
         r=round(float(np.corrcoef(ens, y)[0, 1]), 3),
         rmse=round(float(np.sqrt(np.mean((ens - y) ** 2))), 2),
         mae=round(float(np.mean(np.abs(ens - y))), 2))
+    # non-negative least-squares weight optimization on the holdout
+    from scipy.optimize import nnls
+
+    names = sorted(rs_of)
+    Xw = np.column_stack([rs_of[n] for n in names])
+    w, _ = nnls(Xw, y)
+    ens_w = Xw @ w
+    report["weights"] = {n: round(float(wi), 4)
+                         for n, wi in zip(names, w) if wi > 1e-6}
+    report["ensemble_weighted"] = dict(
+        r=round(float(np.corrcoef(ens_w, y)[0, 1]), 3),
+        rmse=round(float(np.sqrt(np.mean((ens_w - y) ** 2))), 2),
+        mae=round(float(np.mean(np.abs(ens_w - y))), 2))
     report["rescale"] = calib
     (res / "calibration.json").write_text(json.dumps(report, indent=2))
     print(json.dumps(report["ensemble"], indent=2), flush=True)
@@ -175,16 +196,21 @@ def apply_stage(cfg):
     ok = [bool(s) and bool(q) for s, q in zip(smis, seqs)]
     P = predict_all([s for s, o in zip(smis, ok) if o],
                     [q for q, o in zip(seqs, ok) if o])
-    ens = None
-    k = 0
+    w_of = cal.get("weights") or {}
+    rescaled = {}
     for name_m, p in P.items():
         a1, b1 = cal["rescale"][name_m]
         full = np.full(len(df), np.nan)
         full[np.array(ok)] = a1 * p + b1
-        df[f"pd_raw_{name_m}"] = full
-        ens = full if ens is None else ens + np.nan_to_num(full)
-        k += 1
-    df["pd_pic50_calibrated"] = ens / k
+        df[f"pd_rescaled_{name_m}"] = full
+        rescaled[name_m] = full
+    wt = np.zeros(len(df))
+    tot = 0.0
+    for name_m, rs in rescaled.items():
+        w = float(w_of.get(name_m, 0.0)) if w_of else 1.0
+        wt = wt + w * np.nan_to_num(rs)
+        tot += w
+    df["pd_pic50_calibrated"] = wt / tot
     m = df["pd_pic50_calibrated"].notna()
     yy = df.loc[m, "pchembl_measured"].astype(float)
     pp = df.loc[m, "pd_pic50_calibrated"]
