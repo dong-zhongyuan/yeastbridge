@@ -1,8 +1,9 @@
 {
   "chembl_targets": "product/drug_annotation/results/chembl_targets.tsv",
   "ligand_registry": "product/target_screen/inputs/ligands/registry.tsv",
-  "min_pchembl": 5.0,
-  "top_per_compound": 5,
+  "min_pchembl": 6.0,
+  "organism": "Homo sapiens",
+  "top_per_compound": 0,
   "universe_fasta": "product/chembl_branch/inputs/branch_targets.fasta",
   "inputs_dir": "product/chembl_branch/inputs",
   "structures_dir": "product/chembl_branch/structures",

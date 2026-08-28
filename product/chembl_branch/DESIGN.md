@@ -6,7 +6,7 @@
 - 主线的 MD 在主线对接完成后另行补充（注册待执行，见主线 DESIGN 4b）。
 
 ## 流程（参数全部在 configs/chembl_branch.json）
-1. pairs：从 `product/drug_annotation/results/chembl_targets.tsv` 取定量对，解析靶点 UniProt accession（ChEMBL target API），生成 `inputs/branch_targets.fasta` + `results/branch_pairs.tsv`；无蛋白组分的靶点、无制备配体的化合物如实跳过并计数。
+1. pairs：从 `product/drug_annotation/results/chembl_targets.tsv` 取定量对，按文献标准筛选（文献依据 2026-08-28：pChEMBL≥5 为公认 active 线、≥6 为高置信集惯例；无文献采用每化合物 top-N 筛实验注释对——原 top5 规则已废除）：**pChEMBL≥6 + 物种限定 Homo sapiens + 每对取最强值**；解析靶点 UniProt accession（ChEMBL target API），生成 `inputs/branch_targets.fasta` + `results/branch_pairs.tsv`；无蛋白组分、非人源、无制备配体的对如实跳过并计数。
 2. 结构盘点：复用 `scripts/target_screen_inventory.py --config configs/chembl_branch.json`（同一脚本，独立目录）。
 3. 受体制备：复用 `scripts/target_screen_prep_receptors.py`（max_workers 压低，避免与主线抢 CPU）。
 4. GPU 对接：`scripts/chembl_branch_dock.py` —— Vina-GPU 2.1（OpenCL，GPU 选卡规则：自动选空闲显存最大的卡，不挤既有进程），逐靶点×top-3 口袋，批量对接该靶点的全部支线化合物；结果 `results/gpu_dock.tsv`。
