@@ -73,6 +73,20 @@ def to_pdb(cif_bytes: Path, pdb_out: Path):
     st = gemmi.read_structure(str(cif_bytes))
     if len(st) > 1:
         del st[1:]
+    # PDB format allows only single-character chain IDs; some entries carry
+    # multi-character auth chain names (e.g. AAA)
+    used = set()
+    for model in st:
+        for ch in model:
+            if len(ch.name) > 1 or ch.name in used or not ch.name:
+                new = next((c for c in
+                            "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyz"
+                            if c not in used), "X")
+                used.add(new)
+                ch.name = new
+            else:
+                used.add(ch.name)
+    st.setup_entities()
     st.write_pdb(str(pdb_out))
 
 
