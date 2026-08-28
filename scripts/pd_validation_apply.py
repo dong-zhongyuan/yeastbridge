@@ -227,16 +227,114 @@ def apply_stage(cfg):
     print(json.dumps(summary, indent=2), flush=True)
 
 
+def knn_stage(cfg):
+    """Route 1 (literature-backed): per-target ECFP4 Tanimoto kNN potency.
+    Leave-one-out evaluation on the calibration holdout, then applied to the
+    delivered pairs. Delivered compounds are excluded from the reference set
+    by ChEMBL id (leakage rule)."""
+    import numpy as np
+    import pandas as pd
+    from rdkit import Chem, DataStructs
+    from rdkit.Chem import AllChem
+
+    res = ROOT / cfg["results_dir"]
+    k = int(cfg.get("knn_k", 5))
+    ho = pd.read_csv(
+        ROOT / cfg["inputs_dir"] / "calibration_holdout.tsv", sep="\t")
+    df = pd.read_csv(res / "final_pairs.tsv", sep="\t")
+
+    ch = pd.read_csv(
+        ROOT / "product/drug_annotation/results/chembl_targets.tsv",
+        sep="\t").fillna("")
+    cid_of = ch[ch["molecule_chembl_id"] != ""].groupby(
+        "inchikey")["molecule_chembl_id"].first().to_dict()
+    delivered_cids = {cid_of[i] for i in df["inchikey"] if i in cid_of}
+    ho = ho[~ho["molecule"].isin(delivered_cids)].reset_index(drop=True)
+
+    def fp_of(s):
+        m = Chem.MolFromSmiles(s)
+        return None if m is None else AllChem.GetMorganFingerprintAsBitVect(
+            m, 2, nBits=2048)
+
+    ho["fp"] = [fp_of(s) for s in ho["smiles"]]
+    ho = ho[ho["fp"].notna()].reset_index(drop=True)
+    refs = {}
+    for tc, g in ho.groupby("target_chembl_id"):
+        refs[tc] = (list(g["fp"]), g["pchembl"].to_numpy(),
+                    list(g["molecule"]))
+
+    def knn(qfp, ref, exclude_mol=None):
+        fps, ys, mols = ref
+        sims = np.array(DataStructs.BulkTanimotoSimilarity(qfp, fps))
+        mask = np.array([m != exclude_mol for m in mols])
+        sims = np.where(mask, sims, -1.0)
+        order = np.argsort(sims)[::-1][:k]
+        s = sims[order]
+        if s.sum() <= 0:
+            return np.nan, 0.0
+        return float((s * ys[order]).sum() / s.sum()), float(s[0])
+
+    preds, meas, nns = [], [], []
+    for row in ho.itertuples():
+        p, ns = knn(row.fp, refs[row.target_chembl_id],
+                    exclude_mol=row.molecule)
+        preds.append(p)
+        meas.append(row.pchembl)
+        nns.append(ns)
+    preds, meas, nns = np.array(preds), np.array(meas), np.array(nns)
+    loo = dict(
+        n=int(len(preds)), k=k,
+        r=round(float(np.corrcoef(preds, meas)[0, 1]), 3),
+        rmse=round(float(np.sqrt(np.mean((preds - meas) ** 2))), 2),
+        mae=round(float(np.mean(np.abs(preds - meas))), 2),
+        median_nn_tanimoto=round(float(np.median(nns)), 3),
+        excl_delivered_chembl_ids=len(delivered_cids))
+
+    bp = pd.read_csv(
+        ROOT / "product/chembl_branch/results/branch_pairs.tsv", sep="\t")
+    tc_of = {}
+    for r_ in bp.itertuples():
+        tc_of.setdefault(r_.target_gene, r_.target_chembl_id)
+    em = pd.read_csv(
+        ROOT / "product/execute_hiphop/results/exec_matrix.tsv", sep="\t")
+    smi_of = dict(zip(em["inchikey"], em["smiles"]))
+    out_rows = []
+    for r_ in df.itertuples():
+        tc = tc_of.get(r_.target_gene)
+        qfp = fp_of(smi_of.get(r_.inchikey, ""))
+        if tc in refs and qfp is not None:
+            p, ns = knn(qfp, refs[tc])
+        else:
+            p, ns = np.nan, 0.0
+        out_rows.append(dict(inchikey=r_.inchikey, target_gene=r_.target_gene,
+                             pd_pic50_knn=p, nn_tanimoto=ns,
+                             n_ref=len(refs.get(tc, ([], [], []))[0])))
+    ko = pd.DataFrame(out_rows)
+    ko.to_csv(res / "final_pairs_knn.tsv", sep="\t", index=False)
+    m = ko["pd_pic50_knn"].notna()
+    if m.sum() > 1:
+        yy = df.loc[m.values, "pchembl_measured"].astype(float)
+        pp = ko.loc[m, "pd_pic50_knn"]
+        loo["delivered_pairs"] = dict(
+            n=int(m.sum()),
+            mae=round(float(np.mean(np.abs(pp - yy))), 2),
+            r_internal_only=round(float(np.corrcoef(pp, yy)[0, 1]), 3))
+    (res / "knn_report.json").write_text(json.dumps(loo, indent=2))
+    print(json.dumps(loo, indent=2), flush=True)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--config", default="configs/pd_validation.json")
-    ap.add_argument("--stage", choices=["calibrate", "apply"],
+    ap.add_argument("--stage", choices=["calibrate", "apply", "knn"],
                     default="apply")
     ap.add_argument("--per-target-limit", type=int, default=200)
     args = ap.parse_args()
     cfg = json.loads((ROOT / args.config).read_text())
     if args.stage == "calibrate":
         calibrate(cfg, args.per_target_limit)
+    elif args.stage == "knn":
+        knn_stage(cfg)
     else:
         apply_stage(cfg)
 
