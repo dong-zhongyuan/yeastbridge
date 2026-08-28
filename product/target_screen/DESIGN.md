@@ -27,3 +27,9 @@
 
 ## 治理
 本文件与 configs/target_screen.json 先行提交后执行；五阶段各自断点续跑；网络失败目标不落盘、重跑补齐；执行环境 `/public/home/mengxl/dzy/envs/structscreen`（micromamba 建，fpocket 来自 bioconda，其余 pip）。
+
+## Status (2026-08-28)
+Universe-wide docking run PAUSED per user decision (final route fixed as
+ChEMBL pairs + branch GPU docking + PD evaluation). Infrastructure and
+stages 1-3 outputs retained. Branch docking results:
+product/chembl_branch/results/gpu_dock_pairs.tsv (50 universe pairs scored).
