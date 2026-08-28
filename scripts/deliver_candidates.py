@@ -90,18 +90,31 @@ def main():
         at_of = {(r.inchikey, r.target_gene):
                  dict(func=float(r.func_pchembl) if r.func_pchembl else None,
                       bind=float(r.bind_pchembl) if r.bind_pchembl else None,
-                      types=r.types)
+                      types=r.types,
+                      func_src=getattr(r, "func_src", ""),
+                      bind_src=getattr(r, "bind_src", ""))
                  for r in at.itertuples()}
     else:
         at_of, rows_at = {}, []
+        doc_doi = {}
+        base = "https://www.ebi.ac.uk/chembl/api/data"
+
+        def doi_of(doc):
+            if not doc:
+                return ""
+            if doc not in doc_doi:
+                r2 = _get(f"{base}/document/{doc}.json")
+                doc_doi[doc] = (r2 or {}).get("doi", "") or ""
+            return doc_doi[doc]
+
         for r in df.itertuples():
             cid = cid_of.get(r.inchikey, "")
             tc = tchembl_of.get((r.inchikey, r.target_gene), "")
             func = bind = None
+            func_src = bind_src = ""
             types = []
             if cid and tc:
-                rec = _get(f"https://www.ebi.ac.uk/chembl/api/data/"
-                           f"activity.json?molecule_chembl_id={cid}"
+                rec = _get(f"{base}/activity.json?molecule_chembl_id={cid}"
                            f"&target_chembl_id={tc}"
                            f"&pchembl_value__isnull=false&limit=100")
                 for act in (rec or {}).get("activities", []):
@@ -111,15 +124,19 @@ def main():
                         continue
                     pv = float(pv)
                     types.append(st)
-                    if st in FUNC_TYPES:
-                        func = pv if func is None else max(func, pv)
-                    elif st in BIND_TYPES:
-                        bind = pv if bind is None else max(bind, pv)
+                    desc = (act.get("assay_description") or "")[:90]
+                    src = f"{desc} [{doi_of(act.get('document_chembl_id'))}]"
+                    if st in FUNC_TYPES and (func is None or pv > func):
+                        func, func_src = pv, src
+                    elif st in BIND_TYPES and (bind is None or pv > bind):
+                        bind, bind_src = pv, src
             at_of[(r.inchikey, r.target_gene)] = dict(
-                func=func, bind=bind, types=" ".join(sorted(set(types))))
+                func=func, bind=bind, types=" ".join(sorted(set(types))),
+                func_src=func_src, bind_src=bind_src)
             rows_at.append(dict(inchikey=r.inchikey, target_gene=r.target_gene,
                                 func_pchembl=func, bind_pchembl=bind,
-                                types=" ".join(sorted(set(types)))))
+                                types=" ".join(sorted(set(types))),
+                                func_src=func_src, bind_src=bind_src))
         pd.DataFrame(rows_at).to_csv(at_path, sep="\t", index=False)
 
     out = ROOT / cfg["out_dir"]
@@ -133,7 +150,8 @@ def main():
         ev = yeast_ev.loc[r.inchikey] if r.inchikey in yeast_ev.index else None
         kn = knn_of.get((r.inchikey, r.target_gene))
         at = at_of.get((r.inchikey, r.target_gene),
-                       dict(func=None, bind=None, types=""))
+                       dict(func=None, bind=None, types="",
+                            func_src="", bind_src=""))
         func_desc = (f"功能性调节（EC50/AC50 测定，p={at['func']:.2f}；"
                      f"激动/拮抗方向未实验判定）" if at["func"] is not None
                      else "结合调节（激动/拮抗未实验判定）")
@@ -173,6 +191,8 @@ def main():
             SMILES=smi,
             功能效力_pEC50_AC50=at["func"],
             结合效力_pIC50_Ki_Kd=at["bind"],
+            功能效力_测定来源=at["func_src"],
+            结合效力_测定来源=at["bind_src"],
             测定类型=at["types"],
             酵母筛选_q=(None if ev is None else round(float(ev["yeast_min_q"]), 4)),
             酵母筛选_最高rho=(None if ev is None else round(float(ev["yeast_max_rho"]), 4)),
@@ -202,7 +222,10 @@ def main():
 - 设计逻辑：人功能靶点的任务经 scFoundation 酵母表示迁移（B 路线，ESM2 注入）定义酵母可执行任务；化合物在酵母中显著执行任务后，其人靶点身份由定量药理注释确立，再以对接（结合合理性，{r.docking_affinity:.1f} kcal/mol）与双引擎药效学评估确认——DTI 预训练集成（校准后 pIC50 {r.pd_pic50_calibrated:.2f}）与同靶点分子近邻法（kNN pIC50 {(float(getattr(kn, 'pd_pic50_knn')) if kn is not None else float('nan')):.2f}，最近邻 Tanimoto {(float(getattr(kn, 'nn_tanimoto')) if kn is not None else float('nan')):.2f}，即与该靶点已知配体的结构相似度）。实测 pChEMBL {r.pchembl_measured}。
 
 ## 3-4. 实验验证结果 / 关键实验记录
-未开展湿实验。计划验证：酵母删除菌株 ± 化合物生长曲线（判定标准见项目湿实验接口文档）。
+未开展本项目湿实验。已引用的实测效力均来自 ChEMBL 策展的发表实验，可溯源：
+- 功能效力（EC50/AC50）来源：{at["func_src"] or "无该类测定"}
+- 结合效力（IC50/Ki/Kd）来源：{at["bind_src"] or "无该类测定"}
+计划验证：酵母删除菌株 ± 化合物生长曲线（判定标准见项目湿实验接口文档）。
 
 方法学细节见项目技术文档（含各计算层的适用范围说明）。
 """
