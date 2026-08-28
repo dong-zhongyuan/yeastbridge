@@ -89,7 +89,8 @@ def main():
         states = struct_of.get(acc_id, {})
         if not states:
             return None
-        at = (action_types or "").upper()
+        at = str(action_types).upper() if isinstance(
+            action_types, str) and action_types else ""
         is_inhibitor = any(k in at for k in
                            ["INHIBITOR", "ANTAGONIST", "BLOCKER",
                             "NEGATIVE MODULATOR"])
