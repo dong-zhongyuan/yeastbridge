@@ -164,51 +164,51 @@ def main():
                 entries = [h["identifier"]
                            for h in json.loads(body).get("result_set", [])]
             if entries:
-                best, best_res, best_meth = None, None, ""
+                # collect ALL entries with metadata + state
+                entry_meta = []
                 for pid in sorted(entries):
                     st2, b2 = http(f"{cfg['rcsb_entry']}/{pid}")
                     if st2 != 200:
                         continue
                     ent = json.loads(b2)
                     meth = (ent.get("exptl") or [{}])[0].get("method", "")
+                    title = ent.get("struct", {}).get("title", "")
                     res_list = (ent.get("rcsb_entry_info", {})
                                 .get("resolution_combined") or [])
                     resv = res_list[0] if res_list else 999.0
-                    if best is None or resv < best_res:
-                        best, best_res, best_meth = pid, resv, meth
-                if best is not None:
-                    pdb_path = raw_dir / f"{acc}.pdb"
-                    st3, b3 = http(cfg["rcsb_download"].format(pdb_id=best))
-                    if st3 == 200:
-                        pdb_path.write_bytes(b3)
-                        note = ""
+                    state = detect_state(pid, title, meth)
+                    entry_meta.append((pid, resv, meth, state))
+                for pid, resv, meth, state in entry_meta:
+                    pdb_path = raw_dir / f"{acc}_{pid}.pdb"
+                    if pdb_path.exists():
+                        pass
                     else:
-                        st4, b4 = http(
-                            cfg["rcsb_download_cif"].format(pdb_id=best))
-                        if st4 != 200:
-                            n_fail += 1
-                            continue
-                        cif = raw_dir / f"{acc}.cif"
-                        cif.write_bytes(b4)
-                        to_pdb(cif, pdb_path)
-                        cif.unlink()
-                        note = "converted_from_mmcif"
-                    # detect conformational state from entry title
-                    st_meta, b_meta = http(f"{cfg['rcsb_entry']}/{best}")
-                    title = ""
-                    if st_meta == 200:
-                        try:
-                            title = json.loads(b_meta).get(
-                                "struct", {}).get("title", "")
-                        except Exception:
-                            pass
-                    state = detect_state(best, title, best_meth)
-                    row = [acc, gene, "pdb", best,
-                           "" if best_res == 999.0 else f"{best_res:.2f}",
-                           best_meth, str(pdb_path.relative_to(ROOT)),
-                           note, state]
+                        st3, b3 = http(
+                            cfg["rcsb_download"].format(pdb_id=pid))
+                        if st3 == 200:
+                            pdb_path.write_bytes(b3)
+                        else:
+                            st4, b4 = http(
+                                cfg["rcsb_download_cif"].format(
+                                    pdb_id=pid))
+                            if st4 != 200:
+                                n_fail += 1
+                                continue
+                            cif = raw_dir / f"{acc}_{pid}.cif"
+                            cif.write_bytes(b4)
+                            to_pdb(cif, pdb_path)
+                            cif.unlink()
+                    fh.write("\t".join([acc, gene, "pdb", pid,
+                                        "" if resv == 999.0 else f"{resv:.2f}",
+                                        meth,
+                                        str(pdb_path.relative_to(ROOT)),
+                                        "", state]) + "\n")
                     n_pdb += 1
-            if row is None:
+                fh.flush()
+
+            # Always also get AF2 model (inactive-like fallback)
+            af2_path = raw_dir / f"{acc}_af2.pdb"
+            if not af2_path.exists():
                 st5, b5 = http(cfg["af2_api"].format(acc=acc))
                 url = None
                 if st5 == 200 and b5:
@@ -217,27 +217,22 @@ def main():
                         url = pred.get("pdbUrl") or pred.get("cifUrl")
                     except Exception:  # noqa: BLE001
                         url = None
-                if not url:
-                    n_fail += 1
-                    continue
-                st6, b6 = http(url)
-                if st6 != 200 or len(b6) < 1000:
-                    n_fail += 1
-                    continue
-                pdb_path = raw_dir / f"{acc}.pdb"
-                if url.endswith(".pdb"):
-                    pdb_path.write_bytes(b6)
-                else:
-                    cif = raw_dir / f"{acc}.cif"
-                    cif.write_bytes(b6)
-                    to_pdb(cif, pdb_path)
-                    cif.unlink()
-                row = [acc, gene, "af2", "", "", "predicted",
-                       str(pdb_path.relative_to(ROOT)),
-                       f"alphafold_db;{url.rsplit('/', 1)[-1]}",
-                       "af2_inactive_like"]
+                if url:
+                    st6, b6 = http(url)
+                    if st6 == 200 and len(b6) > 1000:
+                        if url.endswith(".pdb"):
+                            af2_path.write_bytes(b6)
+                        else:
+                            cif = raw_dir / f"{acc}_af2.cif"
+                            cif.write_bytes(b6)
+                            to_pdb(cif, af2_path)
+                            cif.unlink()
+            if af2_path.exists():
+                fh.write("\t".join([acc, gene, "af2", "", "", "predicted",
+                                    str(af2_path.relative_to(ROOT)),
+                                    "alphafold_db",
+                                    "af2_inactive_like"]) + "\n")
                 n_af2 += 1
-            fh.write("\t".join(row) + "\n")
             fh.flush()
             if (n_pdb + n_af2) % 25 == 0:
                 print(f"  {n_pdb + n_af2} done (pdb={n_pdb} af2={n_af2} "
