@@ -92,7 +92,7 @@ def prep_target(row, cfg):
         plddt = mean_plddt_by_residue(clean) if source == "af2" else None
         if not (work / f"{acc}_out" / f"{acc}_info.txt").exists():
             subprocess.run([bin_of("fpocket"), "-f", clean.name], cwd=work,
-                           check=True, capture_output=True, timeout=1800)
+                           check=True, capture_output=True, timeout=3600)
         info = (work / f"{acc}_out" / f"{acc}_info.txt").read_text()
         scores = {}
         for m in re.finditer(
@@ -103,7 +103,7 @@ def prep_target(row, cfg):
         pad, mins = cfg["box_padding"], cfg["box_min_size"]
         kept = []
         for pk in order:
-            pqr = work / f"{acc}_out" / "pockets" / f"pocket{pk}_atm.pqr"
+            pqr = work / f"{acc}_out" / "pockets" / f"pocket{pk}_atm.pdb"
             if not pqr.exists():
                 continue
             atoms = parse_pqr_atoms(pqr)
