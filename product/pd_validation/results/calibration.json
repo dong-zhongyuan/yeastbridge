@@ -52,6 +52,17 @@
     "rmse": 1.25,
     "mae": 1.04
   },
+  "weights": {
+    "cnn_cnn_bindingdb_ic50": 0.2728,
+    "morgan_aac_bindingdb_ic50": 0.0491,
+    "morgan_cnn_bindingdb_ic50": 0.6644,
+    "transformer_cnn_bindingdb": 0.0145
+  },
+  "ensemble_weighted": {
+    "r": 0.35,
+    "rmse": 1.22,
+    "mae": 1.01
+  },
   "rescale": {
     "mpnn_cnn_bindingdb_ic50": [
       0.0221,
