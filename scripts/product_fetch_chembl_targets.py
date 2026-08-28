@@ -70,6 +70,11 @@ for i, ik in enumerate(iks):
     rows = []
     while True:
         a = get(f"{BASE}/activity.json?molecule_chembl_id={mid}&limit=100&offset={off}")
+        if a is None:
+            # full activity list can time out for heavily assayed molecules;
+            # fall back to pchembl-carrying activities only (the subset the
+            # tier logic actually consumes)
+            a = get(f"{BASE}/activity.json?molecule_chembl_id={mid}&limit=100&offset={off}&pchembl_value__isnull=false")
         if not a or not a.get("activities"):
             break
         for act in a["activities"]:
@@ -81,6 +86,14 @@ for i, ik in enumerate(iks):
         off += 100
         if off >= total or off > 2000:
             break
+    if not rows:
+        # molecule indexed by ChEMBL but zero retrievable protein-target
+        # activity rows (heavily value-less records time out the unfiltered
+        # query; the pchembl-filtered query returns empty) -- marker row so
+        # the compound counts as answered with no usable annotation
+        w.writerow([ik, mid, "", "", ""])
+        f.flush()
+        continue
     for r in rows:
         w.writerow([r[0], r[1], r[2], "", r[4]])
     f.flush()
@@ -98,11 +111,29 @@ if failed:
             w.writerow([ik, "", "", "", ""])
             f.flush()
 f.close()
-# 末段:靶点基因符号统一回填(对去重后的靶点集合各查一次,而非逐化合物)
+# 末段:靶点基因符号统一回填(增量:仅解析尚无基因注释的靶点)
 allrows = [ln.split("\t") for ln in done_path.read_text().splitlines()[1:]]
-tcs = sorted({r[2] for r in allrows if len(r) > 2 and r[2]})
+gene_known = {}
+for r in allrows:
+    if len(r) >= 4 and r[2] and r[3]:
+        gene_known[r[2]] = r[3]
+# 解析缓存(含已知无基因的类群靶点,避免每次重跑重查)
+cache_path = OUT / "chembl_target_genes.tsv"
+gene_cache = {}
+if cache_path.exists():
+    for ln in cache_path.read_text().splitlines()[1:]:
+        parts = ln.split("\t")
+        if len(parts) >= 2:
+            gene_cache[parts[0]] = parts[1]
+tcs = sorted(({r[2] for r in allrows if len(r) > 2 and r[2]}
+              - set(gene_known)) - set(gene_cache))
+if not tcs:
+    print("gene backfill already complete; nothing to resolve", flush=True)
+    print("[done]", flush=True)
+    raise SystemExit(0)
 print(f"distinct targets to resolve: {len(tcs)}", flush=True)
-gene_of = {}
+gene_of = dict(gene_known)
+gene_of.update(gene_cache)
 for j, tc in enumerate(tcs, 1):
     t = get(f"{BASE}/target/{tc}.json")
     if t:
@@ -121,6 +152,10 @@ for j, tc in enumerate(tcs, 1):
                             syms.append(x["xref_name"])
         if syms:
             gene_of[tc] = " ".join(syms)
+        elif t is not None:
+            # valid response without gene-bearing components (organism-level
+            # targets); network failures (t is None) stay uncached for retry
+            gene_of[tc] = ""
     time.sleep(0.2)
     if j % 50 == 0:
         print(f"  resolved {j}/{len(tcs)} targets", flush=True)
@@ -132,5 +167,9 @@ with open(tmp, "w", newline="") as fh:
             r[3] = gene_of.get(r[2], "")
         fh.write("\t".join(r[:5]) + "\n")
 tmp.replace(done_path)
+with open(cache_path, "w", newline="") as cf:
+    cf.write("target_chembl_id\ttarget_gene\n")
+    for tc, g in sorted(gene_of.items()):
+        cf.write(f"{tc}\t{g}\n")
 print(f"gene backfill complete: {sum(1 for r in allrows if len(r) >= 5 and r[3])} rows annotated", flush=True)
 print("[done]", flush=True)
