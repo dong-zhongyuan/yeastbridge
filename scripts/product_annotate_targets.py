@@ -161,18 +161,75 @@ def main():
             z = None
             if j is not None and t.yeast_gene in orf_ix:
                 z = float(Z[orf_ix[t.yeast_gene], j])
+                if np.isnan(z):
+                    z = None
             rows.append(dict(
                 tier=r.tier, priority=r.priority, inchikey=r.inchikey,
                 chembl_id=r.chembl_id, task_target=r.task_target,
                 family=r.family, rho=r.rho, q=r.q, dose_uM=dose_used,
                 smiles=r.smiles, orf=t.yeast_gene, task_rank=t.rank,
                 task_cosine=t.cosine, compound_z=z,
+                library_reference=("measured_in_library" if z is not None
+                                   else "not_quantified_in_library"),
                 predicted_direction=(
                     None if z is None or z == 0 else
                     ("hypersensitive" if z < 0 else "resistant")),
                 control_role=t.control_role))
     yl = pd.DataFrame(rows)
+
+    # --- 交付补齐:化合物名称(订购)、菌株必需性与删除库选型、pair_id ---
+    def get_json_once(url, tries=4):
+        import time as _t
+        import urllib.request as _u
+        for a in range(tries):
+            try:
+                return json.loads(_u.urlopen(_u.Request(url), timeout=60)
+                                 .read().decode())
+            except Exception:  # noqa: BLE001
+                _t.sleep(min(60, 5 * 2 ** a))
+        return None
+
+    name_of = {}
+    for cid in yl["chembl_id"].dropna().unique():
+        if not cid:
+            continue
+        rec = get_json_once(f"{cfg['chembl_base']}/molecule/{cid}.json")
+        if rec:
+            name_of[cid] = rec.get("pref_name") or ""
+    # tier-3 compounds have no ChEMBL record; resolve names from PubChem
+    for ik in yl["inchikey"].unique():
+        row_cid = yl.loc[yl["inchikey"] == ik, "chembl_id"].iloc[0]
+        if row_cid and name_of.get(row_cid):
+            continue
+        rec = get_json_once(
+            f"https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/"
+            f"inchikey/{ik}/property/Title/JSON")
+        if rec and "PropertyTable" in rec:
+            title = rec["PropertyTable"]["Properties"][0].get("Title", "")
+            if title:
+                name_of[ik] = title
+    yl["compound_name"] = [
+        name_of.get(r.chembl_id) or name_of.get(r.inchikey, "")
+        for r in yl.itertuples()]
+
+    ess = pd.read_csv(cfg["essentiality_tsv"], sep="\t", dtype=str).fillna("")
+    common_of = dict(zip(ess["systematic"], ess["common"]))
+    ess_of = dict(zip(ess["systematic"], ess["essentiality"]))
+    coll_of = {"essential": "heterozygous diploid deletion (HIP-type)",
+               "nonessential": "homozygous diploid deletion (HOP-type)"}
+    yl["gene_common_name"] = yl["orf"].map(common_of).fillna("")
+    yl["essentiality"] = yl["orf"].map(ess_of).fillna("unknown")
+    yl["strain_collection"] = yl["essentiality"].map(coll_of).fillna(
+        "verify_before_use")
+    yl["pair_id"] = [f"T{int(t)}-P{int(p):03d}"
+                     for t, p in zip(yl["tier"], yl["priority"])]
     yl.to_csv(res / "wetlab_interface_v1.tsv", sep="\t", index=False)
+
+    order = yl.drop_duplicates("inchikey")[
+        ["inchikey", "compound_name", "chembl_id", "dose_uM", "smiles"]]
+    order.to_csv(res / "compounds_order_v1.tsv", sep="\t", index=False)
+    (res / "results_template.csv").write_text(
+        "pair_id,inchikey,task_target,orf,dose_uM,replicate,relative_growth\n")
 
     stats = dict(
         n_sig_pairs=int(len(df)),

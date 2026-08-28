@@ -2,5 +2,7 @@
   "exec_matrix": "product/execute_hiphop/results/exec_matrix.tsv",
   "results_dir": "product/drug_annotation/results",
   "fdr_alpha": 0.1,
-  "seed": 42
+  "seed": 42,
+  "chembl_base": "https://www.ebi.ac.uk/chembl/api/data",
+  "essentiality_tsv": "/public/home/mengxl/dzy/yeastbridge/data/essential/essential_genes.tsv"
 }

@@ -43,3 +43,11 @@ Docking + MD on the selected (compound, target) pairs:
 Compounds are candidate effectors of the transferred tasks; convergent
 ChEMBL annotation strengthens target identity; docking/MD assess physical
 plausibility only. Wet-lab remains the arbiter.
+
+## Wet-lab queue freeze (2026-08-28)
+
+The v1 interface selection (top-50 tier-3 pairs by yeast-side evidence) is
+the delivered experimental queue. The structure channel (target_screen)
+adds evidence columns in v2 and does not reorder the queue; wet-lab
+validation rests on completed, committed yeast-side inputs only
+(execute rho/q, transfer task rankings, HIP/HOP profiles, ChEMBL tiers).
