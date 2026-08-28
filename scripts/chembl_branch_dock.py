@@ -62,38 +62,97 @@ def main():
         for r in pd.read_csv(out_tsv, sep="\t").to_dict("records"):
             done.add((r["acc"], r["pocket"]))
 
+    # state-aware structure selection: load inventory to map acc -> structures
+    inv = pd.read_csv(ROOT / cfg["results_dir"] / "inventory.tsv",
+                      sep="\t").fillna("")
+    # for each acc, find best structure per state
+    struct_of = {}  # (acc, required_state) -> struct_id
+    for acc_id, grp in inv.groupby("acc"):
+        states = {}
+        for _, r in grp.iterrows():
+            sid = Path(r["path"]).stem if r["path"] else ""
+            if not sid:
+                continue
+            state = r.get("conformational_state", "unannotated")
+            res_val = float(r["resolution"]) if r["resolution"] else 999.0
+            if state not in states or res_val < states[state][1]:
+                # prefer PDB over AF2 within same state category
+                if r["source"] == "pdb" or state not in states:
+                    states[state] = (sid, res_val)
+        struct_of[acc_id] = states
+
+    def select_structure(acc_id, action_types):
+        """Select structure whose state matches compound's direction.
+        Rule: INHIBITOR/ANTAGONIST/BLOCKER -> inactive;
+              AGONIST/ACTIVATOR -> active;
+              no_data -> best resolution any state."""
+        states = struct_of.get(acc_id, {})
+        if not states:
+            return None
+        at = (action_types or "").upper()
+        is_inhibitor = any(k in at for k in
+                           ["INHIBITOR", "ANTAGONIST", "BLOCKER",
+                            "NEGATIVE MODULATOR"])
+        is_agonist = any(k in at for k in
+                         ["AGONIST", "ACTIVATOR", "POSITIVE MODULATOR"])
+        if is_inhibitor and "inactive" in states:
+            return states["inactive"][0]
+        if is_inhibitor and "af2_inactive_like" in states:
+            return states["af2_inactive_like"][0]
+        if is_agonist and "active" in states:
+            return states["active"][0]
+        # fallback: any structure (best resolution)
+        best = min(states.values(), key=lambda x: x[1])
+        return best[0]
+
     gpu = vg["gpu_id"] if str(vg["gpu_id"]).isdigit() else pick_gpu()
     print(f"using GPU {gpu}; pairs: {len(pairs)}", flush=True)
 
     env = dict(os.environ)
     env["CUDA_VISIBLE_DEVICES"] = str(gpu)
+    # group by (acc, action_type) for state-aware receptor selection
     lig_of = {}
     for r in pairs.itertuples():
-        lig_of.setdefault(r.acc, []).append((r.inchikey, r.target_gene))
+        acts = getattr(r, "action_types", "")
+        lig_of.setdefault(r.acc, []).append(
+            (r.inchikey, r.target_gene, acts))
 
     rows_written = 0
     for acc in sorted(lig_of):
-        rec = base / "receptors" / f"{acc}.pdbqt"
-        pj = base / "pockets" / f"{acc}.json"
-        if not rec.exists() or not pj.exists():
-            continue
-        for pocket in json.loads(pj.read_text())[:cfg["fpocket_top_n"]]:
-            key = (acc, pocket["pocket"])
-            if key in done:
+        # select structure per compound direction (may differ per compound)
+        # group compounds by their selected structure
+        struct_groups = {}
+        for ik, gene, acts in lig_of[acc]:
+            sid = select_structure(acc, acts)
+            if sid is None:
                 continue
-            center = pocket["center"]
-            size = [min(vg["box_max"], s) for s in pocket["size"]]
-            ligdir = ROOT / cfg["inputs_dir"] / "gpu_ligdirs" / f"{acc}_p{pocket['pocket']}"
-            ligdir.mkdir(parents=True, exist_ok=True)
-            for ik, _g in lig_of[acc]:
-                src = ROOT / cfg["main_ligands_dir"] / f"{ik}.pdbqt"
-                dst = ligdir / f"{ik}.pdbqt"
-                if src.exists() and not dst.exists():
-                    dst.symlink_to(src)
-            outdir = res / "gpu_out" / f"{acc}__p{pocket['pocket']}"
-            outdir.mkdir(parents=True, exist_ok=True)
-            cfgfile = res / "gpu_out" / f"{acc}__p{pocket['pocket']}.cfg"
-            cfgfile.write_text(
+            struct_groups.setdefault(sid, []).append((ik, gene))
+        for struct_id, compounds in struct_groups.items():
+            rec = base / "receptors" / f"{struct_id}.pdbqt"
+            pj = base / "pockets" / f"{struct_id}.json"
+            if not rec.exists() or not pj.exists():
+                continue
+            for pocket in json.loads(pj.read_text())[
+                    :cfg["fpocket_top_n"]]:
+                key = (struct_id, pocket["pocket"])
+                if key in done:
+                    continue
+                center = pocket["center"]
+                size = [min(vg["box_max"], s) for s in pocket["size"]]
+                ligdir = (ROOT / cfg["inputs_dir"] / "gpu_ligdirs" /
+                          f"{struct_id}_p{pocket['pocket']}")
+                ligdir.mkdir(parents=True, exist_ok=True)
+                for ik, _g in compounds:
+                    src = ROOT / cfg["main_ligands_dir"] / f"{ik}.pdbqt"
+                    dst = ligdir / f"{ik}.pdbqt"
+                    if src.exists() and not dst.exists():
+                        dst.symlink_to(src)
+                outdir = res / "gpu_out" / \
+                    f"{struct_id}__p{pocket['pocket']}"
+                outdir.mkdir(parents=True, exist_ok=True)
+                cfgfile = res / "gpu_out" / \
+                    f"{struct_id}__p{pocket['pocket']}.cfg"
+                cfgfile.write_text(
                 f"receptor = {rec}\n"
                 f"ligand_directory = {ligdir}\n"
                 f"output_directory = {outdir}\n"
@@ -109,8 +168,8 @@ def main():
                                check=True, capture_output=True,
                                preexec_fn=_stack_ok)
             except Exception as e:  # noqa: BLE001
-                print(f"  {acc} p{pocket['pocket']}: {type(e).__name__}",
-                      flush=True)
+                print(f"  {struct_id} p{pocket['pocket']}: "
+                      f"{type(e).__name__}", flush=True)
                 continue
             aff = {}
             for f in outdir.glob("*_out.pdbqt"):
@@ -118,18 +177,19 @@ def main():
                 m = REMARK.search(f.read_text(errors="ignore"))
                 if m:
                     aff[ik] = float(m.group(1))
-            genes = {ik: g for ik, g in lig_of[acc]}
+            genes = {ik: g for ik, g, _a in
+                     [t for cs in lig_of[acc] for t in [(cs[0], cs[1], cs[2])]]}
             with out_tsv.open("a", newline="") as fh:
                 if fresh:
                     fh.write("acc\tpocket\tinchikey\ttarget_gene\taffinity\n")
                     fresh = False
                 for ik, a in aff.items():
-                    fh.write(f"{acc}\t{pocket['pocket']}\t{ik}\t"
+                    fh.write(f"{struct_id}\t{pocket['pocket']}\t{ik}\t"
                              f"{genes.get(ik, '')}\t{a}\n")
                     rows_written += 1
                 fh.flush()
-            print(f"  {acc} p{pocket['pocket']}: {len(aff)} ligands scored",
-                  flush=True)
+            print(f"  {struct_id} p{pocket['pocket']}: "
+                  f"{len(aff)} ligands scored", flush=True)
     print(f"FINISHED gpu dock, new rows: {rows_written}", flush=True)
 
 

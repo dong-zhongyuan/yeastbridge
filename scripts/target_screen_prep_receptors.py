@@ -78,22 +78,25 @@ def parse_pqr_atoms(path: Path):
 
 
 def prep_target(row, cfg):
-    acc, source = row["acc"], row["source"]
+    acc = row["acc"]
+    # structural ID includes pdb_id (state-aware: multiple structures per acc)
     raw_path = ROOT / row["path"]
+    struct_id = raw_path.stem  # e.g. "P18089_6K41" or "P18089_af2"
+    source = row["source"]
     base = ROOT / cfg["structures_dir"]
-    work = base / "fpocket_out" / acc
+    work = base / "fpocket_out" / struct_id
     try:
         if not raw_path.exists():
-            return acc, "failed", "raw_missing"
+            return struct_id, "failed", "raw_missing"
         work.mkdir(parents=True, exist_ok=True)
-        clean = work / f"{acc}.pdb"
+        clean = work / f"{struct_id}.pdb"
         if not clean.exists():
             clean_polymer(raw_path, clean)
         plddt = mean_plddt_by_residue(clean) if source == "af2" else None
-        if not (work / f"{acc}_out" / f"{acc}_info.txt").exists():
+        if not (work / f"{struct_id}_out" / f"{struct_id}_info.txt").exists():
             subprocess.run([bin_of("fpocket"), "-f", clean.name], cwd=work,
                            check=True, capture_output=True, timeout=3600)
-        info = (work / f"{acc}_out" / f"{acc}_info.txt").read_text()
+        info = (work / f"{struct_id}_out" / f"{struct_id}_info.txt").read_text()
         scores = {}
         for m in re.finditer(
                 r"Pocket\s+(\d+)\s*:\n(?:.*\n)*?\s*Score\s*:\s*([-\d.]+)",
@@ -131,8 +134,8 @@ def prep_target(row, cfg):
                 "site_plddt": site_plddt,
             })
         if not kept:
-            return acc, "failed", "no_valid_pocket"
-        rec = base / "receptors" / f"{acc}.pdbqt"
+            return struct_id, "failed", "no_valid_pocket"
+        rec = base / "receptors" / f"{struct_id}.pdbqt"
         rec.parent.mkdir(parents=True, exist_ok=True)
         if not rec.exists():
             subprocess.run(
@@ -141,10 +144,10 @@ def prep_target(row, cfg):
                 check=True, capture_output=True, timeout=1800)
         pdir = base / "pockets"
         pdir.mkdir(parents=True, exist_ok=True)
-        (pdir / f"{acc}.json").write_text(json.dumps(kept))
-        return acc, "ok", f"{len(kept)}pockets"
+        (pdir / f"{struct_id}.json").write_text(json.dumps(kept))
+        return struct_id, "ok", f"{len(kept)}pockets"
     except Exception as e:  # noqa: BLE001
-        return acc, "failed", f"{type(e).__name__}:{str(e)[:80]}"
+        return struct_id, "failed", f"{type(e).__name__}:{str(e)[:80]}"
 
 
 def main():
@@ -162,8 +165,16 @@ def main():
     if st_path.exists():
         for r in pd.read_csv(st_path, sep="\t").to_dict("records"):
             if r["status"] == "ok":
-                done.add(r["acc"])
-    todo = [r for r in rows if r["acc"] not in done]
+                done.add(r["acc"])  # now holds struct_id (acc_pdbId)
+    # dedup by raw file stem (struct_id), not by acc
+    seen = set()
+    unique_rows = []
+    for r in rows:
+        sid = Path(r["path"]).stem
+        if sid not in seen and sid not in done:
+            seen.add(sid)
+            unique_rows.append(r)
+    todo = unique_rows
     print(f"targets: {len(rows)}, todo: {len(todo)}", flush=True)
 
     fresh = not st_path.exists()
