@@ -132,7 +132,8 @@ def main():
     done = set()
     if reg_path.exists():
         for r in pd.read_csv(reg_path, sep="\t").fillna("").to_dict("records"):
-            if r["status"] == "ok":
+            if r["status"] == "ok" and (
+                    lig_dir / f"{r['lid']}.pdbqt").exists():
                 done.add(r["lid"])
     print(f"already prepared: {len(done)}", flush=True)
 
