@@ -27,3 +27,11 @@
 - **分析**：蛋白/配体 RMSD、配体接触持久度（4 Å 逐帧）、姿势漂移；逐体系报告。
 - **边界**：MD 评估物理合理性（姿势稳定性/接触持续性），不产出结合自由能排名；湿实验为最终仲裁。
 - **执行环境**：`/public/home/mengxl/dzy/envs/mdenv`（conda-forge ambertools+openmm，pip 无 ambertools），构建用 structscreen env（meeko）+ mdenv 二进制混合调用。
+
+## Scheduling (2026-08-28)
+MD builds/runs PAUSED: CPU contention with the main-line docking and
+future GPU contention with Tahoe inference outweigh MD urgency (wet-lab
+interface already delivered; v2 waits on the main line only). Resume
+builds when the main docking finishes; run MD on GPU0 after Tahoe
+calibration or share with explicit accounting. Built artifacts under
+results/md_systems/ remain valid; packmol phase restarts on resume.
