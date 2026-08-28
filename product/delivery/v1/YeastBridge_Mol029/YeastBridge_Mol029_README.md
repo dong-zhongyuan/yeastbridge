@@ -3,7 +3,7 @@
 ## 1. 基础信息
 - 候选ID：YeastBridge_Mol029
 - 靶点名称：DRD5（UniProt P21918，gpcr；ChEMBL CHEMBL1850）
-- 主要功能：结合调节（激动/拮抗未实验判定）
+- 主要功能：功能性调节（EC50/AC50 测定，p=6.69；激动/拮抗方向未实验判定）
 - 化合物：InChIKey LNEPOXFFQSENCJ-UHFFFAOYSA-N；ChEMBL CHEMBL54
 
 ## 2. 计算设计方案

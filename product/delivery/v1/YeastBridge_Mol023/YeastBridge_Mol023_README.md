@@ -3,7 +3,7 @@
 ## 1. 基础信息
 - 候选ID：YeastBridge_Mol023
 - 靶点名称：HTR2A（UniProt P28223，gpcr；ChEMBL CHEMBL224）
-- 主要功能：结合调节（激动/拮抗未实验判定）
+- 主要功能：功能性调节（EC50/AC50 测定，p=7.23；激动/拮抗方向未实验判定）
 - 化合物：InChIKey QOYHHIBFXOOADH-UHFFFAOYSA-N；ChEMBL CHEMBL46516
 
 ## 2. 计算设计方案

@@ -19,6 +19,22 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 
 
+def _get(url, tries=4):
+    import time as _t
+    import urllib.request as _u
+    for a in range(tries):
+        try:
+            with _u.urlopen(_u.Request(url), timeout=60) as r:
+                return json.loads(r.read().decode())
+        except Exception:  # noqa: BLE001
+            _t.sleep(min(60, 5 * 2 ** a))
+    return None
+
+
+FUNC_TYPES = {"EC50", "AC50"}
+BIND_TYPES = {"IC50", "Ki", "Kd"}
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--config", default="configs/delivery.json")
@@ -66,6 +82,46 @@ def main():
     cid_of = ch[ch["molecule_chembl_id"] != ""].groupby(
         "inchikey")["molecule_chembl_id"].first().to_dict()
 
+    # assay-type split (functional EC50/AC50 vs binding IC50/Ki/Kd),
+    # cached; functional potency leads the metric columns per user order
+    at_path = ROOT / "product/pd_validation/results/assay_types.tsv"
+    if at_path.exists():
+        at = pd.read_csv(at_path, sep="\t").fillna("")
+        at_of = {(r.inchikey, r.target_gene):
+                 dict(func=float(r.func_pchembl) if r.func_pchembl else None,
+                      bind=float(r.bind_pchembl) if r.bind_pchembl else None,
+                      types=r.types)
+                 for r in at.itertuples()}
+    else:
+        at_of, rows_at = {}, []
+        for r in df.itertuples():
+            cid = cid_of.get(r.inchikey, "")
+            tc = tchembl_of.get((r.inchikey, r.target_gene), "")
+            func = bind = None
+            types = []
+            if cid and tc:
+                rec = _get(f"https://www.ebi.ac.uk/chembl/api/data/"
+                           f"activity.json?molecule_chembl_id={cid}"
+                           f"&target_chembl_id={tc}"
+                           f"&pchembl_value__isnull=false&limit=100")
+                for act in (rec or {}).get("activities", []):
+                    st = act.get("standard_type") or ""
+                    pv = act.get("pchembl_value")
+                    if pv is None:
+                        continue
+                    pv = float(pv)
+                    types.append(st)
+                    if st in FUNC_TYPES:
+                        func = pv if func is None else max(func, pv)
+                    elif st in BIND_TYPES:
+                        bind = pv if bind is None else max(bind, pv)
+            at_of[(r.inchikey, r.target_gene)] = dict(
+                func=func, bind=bind, types=" ".join(sorted(set(types))))
+            rows_at.append(dict(inchikey=r.inchikey, target_gene=r.target_gene,
+                                func_pchembl=func, bind_pchembl=bind,
+                                types=" ".join(sorted(set(types)))))
+        pd.DataFrame(rows_at).to_csv(at_path, sep="\t", index=False)
+
     out = ROOT / cfg["out_dir"]
     out.mkdir(parents=True, exist_ok=True)
     rows = []
@@ -76,6 +132,11 @@ def main():
         smi = smi_of.get(r.inchikey, "")
         ev = yeast_ev.loc[r.inchikey] if r.inchikey in yeast_ev.index else None
         kn = knn_of.get((r.inchikey, r.target_gene))
+        at = at_of.get((r.inchikey, r.target_gene),
+                       dict(func=None, bind=None, types=""))
+        func_desc = (f"功能性调节（EC50/AC50 测定，p={at['func']:.2f}；"
+                     f"激动/拮抗方向未实验判定）" if at["func"] is not None
+                     else "结合调节（激动/拮抗未实验判定）")
 
         # complex PDB: clean polymer receptor + docked pose as HETATM LIG
         pk = pocket_of.get((r.inchikey, r.acc), 1)
@@ -105,11 +166,14 @@ def main():
         row = dict(
             候选ID=cand, 靶点名称=r.target_gene, 靶点Uniprot=r.acc,
             靶点家族=fam_of.get(r.target_gene, ""),
-            主要功能="结合调节（激动/拮抗未实验判定）",
+            主要功能=func_desc,
             化合物InChIKey=r.inchikey,
             化合物ChEMBL_ID=cid_of.get(r.inchikey, ""),
             靶点ChEMBL_ID=tchembl_of.get((r.inchikey, r.target_gene), ""),
             SMILES=smi,
+            功能效力_pEC50_AC50=at["func"],
+            结合效力_pIC50_Ki_Kd=at["bind"],
+            测定类型=at["types"],
             酵母筛选_q=(None if ev is None else round(float(ev["yeast_min_q"]), 4)),
             酵母筛选_最高rho=(None if ev is None else round(float(ev["yeast_max_rho"]), 4)),
             酵母筛选_显著任务数=(None if ev is None else int(ev["yeast_n_tasks"])),
@@ -128,7 +192,7 @@ def main():
 ## 1. 基础信息
 - 候选ID：{cand}
 - 靶点名称：{r.target_gene}（UniProt {r.acc}，{fam_of.get(r.target_gene, '')}；ChEMBL {tchembl_of.get((r.inchikey, r.target_gene), '')}）
-- 主要功能：结合调节（激动/拮抗未实验判定）
+- 主要功能：{func_desc}
 - 化合物：InChIKey {r.inchikey}；ChEMBL {cid_of.get(r.inchikey, '')}
 
 ## 2. 计算设计方案
