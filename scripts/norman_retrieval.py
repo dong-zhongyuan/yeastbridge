@@ -15,7 +15,7 @@ from sklearn.cluster import KMeans
 from sklearn.linear_model import Ridge
 
 ROOT = Path("/public/home/mengxl/dzy/yeastbridge_re")
-SRC = ROOT / "feasibility/norman_foundation/full"
+SRC = ROOT / "product/norman_assets"
 FEATS = ROOT / "feasibility/norman_foundation/features"
 OUT = ROOT / "feasibility/norman_foundation/retrieval"
 SEED = 20260821

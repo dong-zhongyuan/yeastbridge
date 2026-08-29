@@ -1,0 +1,59 @@
+{
+  "checkpoint_files": {
+    "args": {
+      "path": "/public/home/mengxl/dzy/yeastbridge/models/scgpt/scGPT_human/args.json",
+      "sha256": "c18e075e018140cb8b2d9029387b9de26607a5ce6a8ccabd6ead70cd76b95d60"
+    },
+    "vocab": {
+      "path": "/public/home/mengxl/dzy/yeastbridge/models/scgpt/scGPT_human/vocab.json",
+      "sha256": "acca93d114ca62c3f0f50debbd23e8c87f0714f4737764454f6b2b13f2e8580f"
+    },
+    "weights": {
+      "path": "/public/home/mengxl/dzy/yeastbridge/models/scgpt/scGPT_human/best_model.pt",
+      "sha256": "6cb5d451ab5c4b33eb673adbe4fddc61d2389df1b89b7651a9fe2e557572b922"
+    }
+  },
+  "checkpoint_tensor_max_abs_difference": 0.0,
+  "claim_boundary": "Fresh checkpoint load, finite model smoke and explicit frozen gene-identity feature extraction only; not standalone predictive validation.",
+  "embedding_dimension": 512,
+  "feature_contract": "model.encoder.embedding(gene_token_id)",
+  "feature_output": {
+    "path": "/public/home/mengxl/dzy/yeastbridge_re/feasibility/norman_foundation/features_reextract/scgpt.npz",
+    "sha256": "fd23451819500618d3d62557d262d4ae91db6a8f18d5013b8f83bd4c4f5db3cb"
+  },
+  "gene_count": 100,
+  "gene_table": {
+    "path": "/public/home/mengxl/dzy/yeastbridge_vs/reports/human_foundation_norman/task/perturbation_genes.tsv",
+    "sha256": "5321aaaf84b046fcd77f4d7bed1a60d9dc2dc008e184b9cd5bebbe96b2bc364f"
+  },
+  "generated_at_utc": "2026-08-29T15:32:07+00:00",
+  "loaded_in_current_process": true,
+  "model": "scgpt",
+  "parameter_count": 51856898,
+  "runtime": {
+    "cuda_available": true,
+    "cuda_runtime": "12.4",
+    "device": "cuda:0",
+    "gpu_name": "NVIDIA RTX A6000",
+    "max_rss_kib": 1262908,
+    "packages": {
+      "numpy": "1.26.4",
+      "pandas": "2.3.2",
+      "scgpt": "0.2.5",
+      "torch": "2.6.0",
+      "transformers": null
+    },
+    "peak_gpu_bytes": 340684288,
+    "platform": "Linux-3.10.0-1160.119.1.el7.x86_64-x86_64-with-glibc2.17",
+    "python": "3.10.20 | packaged by conda-forge | (main, Jun 11 2026, 03:31:56) [GCC 14.3.0]",
+    "python_executable": "/public/home/mengxl/dzy/envs/yeastbridge_vs_models/bin/python"
+  },
+  "schema_version": "1.0",
+  "seconds": 210.11307719303295,
+  "smoke_finite": true,
+  "smoke_output_shape": [
+    1,
+    8
+  ],
+  "status": "pass"
+}

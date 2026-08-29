@@ -1,0 +1,190 @@
+{
+  "boxes": {
+    "kcnq2/7CR0": {
+      "ca_pair_count": 250,
+      "center_angstrom": {
+        "x": 88.075,
+        "y": 129.117,
+        "z": 104.519
+      },
+      "derivation": "7CR1 GB9 cognate box transferred by residue-numbered CA Kabsch superposition",
+      "size_angstrom": {
+        "x": 20.67,
+        "y": 20.0,
+        "z": 20.0
+      },
+      "superposition_rmsd_angstrom": 1.382
+    },
+    "kcnq2/7CR1": {
+      "center_angstrom": {
+        "x": 88.366,
+        "y": 131.471,
+        "z": 104.192
+      },
+      "coordinate_bounds_angstrom": {
+        "x": {
+          "max": 92.701,
+          "min": 84.031
+        },
+        "y": {
+          "max": 134.429,
+          "min": 128.514
+        },
+        "z": {
+          "max": 107.641,
+          "min": 100.743
+        }
+      },
+      "derivation": "axis-aligned heavy-atom bounding box plus symmetric padding",
+      "minimum_side_angstrom": 20.0,
+      "padding_angstrom": 6.0,
+      "reference_component": "GB9:A:801",
+      "size_angstrom": {
+        "x": 20.67,
+        "y": 20.0,
+        "z": 20.0
+      }
+    },
+    "kcnq2/7CR2": {
+      "center_angstrom": {
+        "x": 117.83,
+        "y": 136.183,
+        "z": 102.345
+      },
+      "coordinate_bounds_angstrom": {
+        "x": {
+          "max": 121.404,
+          "min": 114.256
+        },
+        "y": {
+          "max": 140.743,
+          "min": 131.624
+        },
+        "z": {
+          "max": 106.571,
+          "min": 98.119
+        }
+      },
+      "derivation": "axis-aligned heavy-atom bounding box plus symmetric padding",
+      "minimum_side_angstrom": 20.0,
+      "padding_angstrom": 6.0,
+      "reference_component": "FBX:A:801",
+      "size_angstrom": {
+        "x": 20.0,
+        "y": 21.119,
+        "z": 20.452
+      }
+    },
+    "lpar1/4Z34": {
+      "center_angstrom": {
+        "x": -3.006,
+        "y": -27.352,
+        "z": 51.183
+      },
+      "coordinate_bounds_angstrom": {
+        "x": {
+          "max": 2.623,
+          "min": -8.634
+        },
+        "y": {
+          "max": -22.167,
+          "min": -32.537
+        },
+        "z": {
+          "max": 56.118,
+          "min": 46.248
+        }
+      },
+      "derivation": "axis-aligned heavy-atom bounding box plus symmetric padding",
+      "minimum_side_angstrom": 20.0,
+      "padding_angstrom": 6.0,
+      "reference_component": "ON7:A:2001",
+      "size_angstrom": {
+        "x": 23.257,
+        "y": 22.37,
+        "z": 21.87
+      }
+    },
+    "lpar1/7TD0": {
+      "center_angstrom": {
+        "x": 139.194,
+        "y": 132.183,
+        "z": 165.897
+      },
+      "coordinate_bounds_angstrom": {
+        "x": {
+          "max": 143.809,
+          "min": 134.578
+        },
+        "y": {
+          "max": 135.95,
+          "min": 128.415
+        },
+        "z": {
+          "max": 172.835,
+          "min": 158.958
+        }
+      },
+      "derivation": "axis-aligned heavy-atom bounding box plus symmetric padding",
+      "minimum_side_angstrom": 20.0,
+      "padding_angstrom": 6.0,
+      "reference_component": "NKP:R:401",
+      "size_angstrom": {
+        "x": 21.231,
+        "y": 20.0,
+        "z": 25.877
+      }
+    },
+    "lpar1/7YU3": {
+      "center_angstrom": {
+        "x": 172.947,
+        "y": 146.422,
+        "z": 158.168
+      },
+      "coordinate_bounds_angstrom": {
+        "x": {
+          "max": 176.974,
+          "min": 168.92
+        },
+        "y": {
+          "max": 151.584,
+          "min": 141.26
+        },
+        "z": {
+          "max": 163.735,
+          "min": 152.601
+        }
+      },
+      "derivation": "axis-aligned heavy-atom bounding box plus symmetric padding",
+      "minimum_side_angstrom": 20.0,
+      "padding_angstrom": 6.0,
+      "reference_component": "K6L:R:401",
+      "size_angstrom": {
+        "x": 20.054,
+        "y": 22.324,
+        "z": 23.134
+      }
+    }
+  },
+  "generated_utc": "2026-08-29T15:51:28Z",
+  "library_sha256": "65e00750cd8c5ed266b07572691291b1f579d9081dd61aa3038724476262e130",
+  "n_missing_ligand_pdbqt": 87,
+  "n_pairs_enumerated": 23931,
+  "pairs_per_receptor": {
+    "kcnq2/7CR0": 3825,
+    "kcnq2/7CR1": 3825,
+    "kcnq2/7CR2": 3825,
+    "lpar1/4Z34": 4152,
+    "lpar1/7TD0": 4152,
+    "lpar1/7YU3": 4152
+  },
+  "receptor_pdbqt_sha256": {
+    "kcnq2/7CR0": "b8e9b01a9d3956f2ead5ee68ca06e6eb3b3078335daeed8ba5cc52e4ba745745",
+    "kcnq2/7CR1": "240bc1dc9d8d44a5913c31d8b15a1aff37d8577a9568886b919b34c5f1cf2632",
+    "kcnq2/7CR2": "7b1294ecb5f62ab6cce5c1bfd89cf9a19082e6bc213f1e2ac29cd00e86446476",
+    "lpar1/4Z34": "2e1a85c5fb5caa4fc2c4edf254a6b4caf0bb3c319de83853e814ed09ddfee261",
+    "lpar1/7TD0": "07947e26c974edeeac63858a4b6da7ac2372e67f64535620e095830d81758f0f",
+    "lpar1/7YU3": "5e7e25052822a2a9fc092e5dc29819438f3bda2a7d212c80234dc07768feda28"
+  },
+  "upstream_matrix_sha256": "7db4d4202adb73215e96a06b5d05feb36340d666fecd182677cf5e313646eb27"
+}

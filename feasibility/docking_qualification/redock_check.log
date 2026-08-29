@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/public/home/mengxl/dzy/yeastbridge_re/scripts/delivery_redock_check.py", line 159, in <module>
+    raise SystemExit(main())
+  File "/public/home/mengxl/dzy/yeastbridge_re/scripts/delivery_redock_check.py", line 145, in main
+    results = [check(pkg) for pkg in PACKAGES]
+  File "/public/home/mengxl/dzy/yeastbridge_re/scripts/delivery_redock_check.py", line 145, in <listcomp>
+    results = [check(pkg) for pkg in PACKAGES]
+  File "/public/home/mengxl/dzy/yeastbridge_re/scripts/delivery_redock_check.py", line 95, in check
+    center, size = pose_centroid_and_bbox(pose_sdf)
+  File "/public/home/mengxl/dzy/yeastbridge_re/scripts/delivery_redock_check.py", line 52, in pose_centroid_and_bbox
+    center = [sum(v) / len(v) for v in (xs, ys, zs)]
+  File "/public/home/mengxl/dzy/yeastbridge_re/scripts/delivery_redock_check.py", line 52, in <listcomp>
+    center = [sum(v) / len(v) for v in (xs, ys, zs)]
+ZeroDivisionError: division by zero

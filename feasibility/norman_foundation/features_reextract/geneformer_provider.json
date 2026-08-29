@@ -1,0 +1,55 @@
+{
+  "checkpoint_files": {
+    "config": {
+      "path": "/public/home/mengxl/dzy/ad_omics_v2/models/geneformer/Geneformer-V1-10M/config.json",
+      "sha256": "9cf69ca3bdb0215c4188b54c451b6f02adfe68b8f66011a57d0f32845133fd4b"
+    },
+    "weights": {
+      "path": "/public/home/mengxl/dzy/ad_omics_v2/models/geneformer/Geneformer-V1-10M/model.safetensors",
+      "sha256": "a5e33a757431643b3697de7ef6127950cdc49e06e58d4266b3a3ab191b683f14"
+    }
+  },
+  "claim_boundary": "Fresh checkpoint load, finite model smoke and explicit frozen gene-identity feature extraction only; not standalone predictive validation.",
+  "embedding_dimension": 256,
+  "feature_contract": "BertForMaskedLM.get_input_embeddings()(ensembl_token_id)",
+  "feature_output": {
+    "path": "/public/home/mengxl/dzy/yeastbridge_re/feasibility/norman_foundation/features_reextract/geneformer.npz",
+    "sha256": "dd9300c7c6632143fec235e41fd92a5e377e4e13104a51e5c3a100bf59c87eb8"
+  },
+  "gene_count": 100,
+  "gene_table": {
+    "path": "/public/home/mengxl/dzy/yeastbridge_vs/reports/human_foundation_norman/task/perturbation_genes.tsv",
+    "sha256": "5321aaaf84b046fcd77f4d7bed1a60d9dc2dc008e184b9cd5bebbe96b2bc364f"
+  },
+  "generated_at_utc": "2026-08-29T15:36:15+00:00",
+  "loaded_in_current_process": true,
+  "model": "geneformer",
+  "parameter_count": 10288722,
+  "runtime": {
+    "cuda_available": true,
+    "cuda_runtime": "12.1",
+    "device": "cuda:0",
+    "gpu_name": "NVIDIA RTX A6000",
+    "max_rss_kib": 833820,
+    "packages": {
+      "numpy": "2.2.6",
+      "pandas": "2.2.3",
+      "scgpt": null,
+      "torch": "2.4.0",
+      "transformers": "4.57.6"
+    },
+    "peak_gpu_bytes": 51739648,
+    "platform": "Linux-3.10.0-1160.119.1.el7.x86_64-x86_64-with-glibc2.17",
+    "python": "3.10.20 | packaged by conda-forge | (main, Jun 11 2026, 03:31:56) [GCC 14.3.0]",
+    "python_executable": "/public/home/mengxl/dzy/envs/ad_omics/bin/python"
+  },
+  "schema_version": "1.0",
+  "seconds": 26.86144800623879,
+  "smoke_finite": true,
+  "smoke_output_shape": [
+    1,
+    8,
+    256
+  ],
+  "status": "pass"
+}

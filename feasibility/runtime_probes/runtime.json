@@ -1,0 +1,77 @@
+{
+  "generated_utc": "2026-08-29T16:03:41.067815+00:00",
+  "probes": {
+    "checkpoints": {
+      "esm2": {
+        "path": "/public/home/mengxl/dzy/yeastbridge/models/esm2/esm2_t33_650M_UR50D-contact-regression.pt",
+        "sha256": "8ffe6edbd4173dc8d45c2cd5cb27d43aad77ec26b4c768200c58ae1f96693575"
+      },
+      "scfoundation": {
+        "path": "/public/home/mengxl/dzy/yeastbridge/models/scfoundation/models.ckpt",
+        "sha256": "9f40bf324d3d0084c4b288d06f5af4fddd12206e2a3f022551d12e89e33a0ea9"
+      }
+    },
+    "esm2_glob_found": [
+      "/public/home/mengxl/dzy/yeastbridge/models/esm2/esm2_t33_650M_UR50D-contact-regression.pt",
+      "/public/home/mengxl/dzy/yeastbridge/models/esm2/esm2_t33_650M_UR50D.pt",
+      "/public/home/mengxl/dzy/yeastbridge/models/esm2/esm2_t36_3B_UR50D.pt"
+    ],
+    "obabel": {
+      "cmd": "/public/home/mengxl/dzy/envs/yeastbridge_vs_docking/bin/obabel -V",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "Open Babel 3.2.1 -- Aug 14 2026 -- 11:43:23"
+    },
+    "py:gemmi": {
+      "cmd": "/public/home/mengxl/dzy/envs/structscreen/bin/python -c import gemmi; print(getattr(gemmi, '__version__', 'unknown'))",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "0.6.5"
+    },
+    "py:meeko": {
+      "cmd": "/public/home/mengxl/dzy/envs/yeastbridge_vs_docking/bin/python -c import meeko; print(getattr(meeko, '__version__', 'unknown'))",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "0.7.1"
+    },
+    "py:numpy": {
+      "cmd": "/public/home/mengxl/dzy/envs/yeastbridge/bin/python -c import numpy; print(getattr(numpy, '__version__', 'unknown'))",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "1.26.4"
+    },
+    "py:pandas": {
+      "cmd": "/public/home/mengxl/dzy/envs/yeastbridge/bin/python -c import pandas; print(getattr(pandas, '__version__', 'unknown'))",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "2.3.2"
+    },
+    "py:rdkit": {
+      "cmd": "/public/home/mengxl/dzy/envs/yeastbridge_vs_docking/bin/python -c import rdkit; print(getattr(rdkit, '__version__', 'unknown'))",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "2026.03.1"
+    },
+    "py:torch": {
+      "cmd": "/public/home/mengxl/dzy/envs/yeastbridge/bin/python -c import torch; print(getattr(torch, '__version__', 'unknown'))",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "2.6.0+cu124"
+    },
+    "vina_cpu": {
+      "cmd": "vina --version",
+      "error": "PermissionError: [Errno 13] Permission denied: 'vina'"
+    },
+    "vina_cpu_docking_env": {
+      "cmd": "/public/home/mengxl/dzy/envs/yeastbridge_vs_docking/bin/vina --version",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "AutoDock Vina f458505-mod"
+    },
+    "vina_gpu": {
+      "note": "binary not found from config",
+      "path": null
+    }
+  },
+  "stage": "runtime"
+}

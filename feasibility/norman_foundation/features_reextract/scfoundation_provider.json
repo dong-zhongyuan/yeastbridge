@@ -1,0 +1,53 @@
+{
+  "checkpoint_config_model": "mae_autobin",
+  "checkpoint_files": {
+    "weights": {
+      "path": "/public/home/mengxl/dzy/yeastbridge/models/scfoundation/models.ckpt",
+      "sha256": "9f40bf324d3d0084c4b288d06f5af4fddd12206e2a3f022551d12e89e33a0ea9"
+    }
+  },
+  "claim_boundary": "Fresh checkpoint load, finite model smoke and explicit frozen gene-identity feature extraction only; not standalone predictive validation.",
+  "embedding_dimension": 768,
+  "feature_contract": "gene-branch model.pos_emb(scFoundation_19264_gene_index)",
+  "feature_output": {
+    "path": "/public/home/mengxl/dzy/yeastbridge_re/feasibility/norman_foundation/features_reextract/scfoundation.npz",
+    "sha256": "12bfe64d8cb543e4361d978fe18fa8692208314ec77558701328f9177111f177"
+  },
+  "gene_count": 100,
+  "gene_table": {
+    "path": "/public/home/mengxl/dzy/yeastbridge_vs/reports/human_foundation_norman/task/perturbation_genes.tsv",
+    "sha256": "5321aaaf84b046fcd77f4d7bed1a60d9dc2dc008e184b9cd5bebbe96b2bc364f"
+  },
+  "generated_at_utc": "2026-08-29T15:35:40+00:00",
+  "loaded_in_current_process": true,
+  "model": "scfoundation",
+  "parameter_count": 119252285,
+  "runtime": {
+    "cuda_available": true,
+    "cuda_runtime": "12.4",
+    "device": "cuda:0",
+    "gpu_name": "NVIDIA RTX A6000",
+    "max_rss_kib": 1865768,
+    "packages": {
+      "numpy": "1.26.4",
+      "pandas": "2.3.2",
+      "scgpt": "0.2.5",
+      "torch": "2.6.0",
+      "transformers": null
+    },
+    "peak_gpu_bytes": 487575040,
+    "platform": "Linux-3.10.0-1160.119.1.el7.x86_64-x86_64-with-glibc2.17",
+    "python": "3.10.20 | packaged by conda-forge | (main, Jun 11 2026, 03:31:56) [GCC 14.3.0]",
+    "python_executable": "/public/home/mengxl/dzy/envs/yeastbridge_vs_models/bin/python"
+  },
+  "schema_version": "1.0",
+  "seconds": 15.153734636027366,
+  "smoke_contract": "token_emb(value=1)+pos_emb -> pretrained encoder",
+  "smoke_finite": true,
+  "smoke_output_shape": [
+    1,
+    8,
+    768
+  ],
+  "status": "pass"
+}
