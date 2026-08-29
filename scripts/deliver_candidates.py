@@ -202,7 +202,6 @@ def main():
             CRC方向=getattr(r, "crc_direction", ""),
             CRC状态效应=getattr(r, "crc_effect", ""),
             化合物药理方向=getattr(r, "action_types", ""),
-            方向一致性=("药理方向与CRC方向一致" if r.direction_match == "MATCH" else str(r.direction_match)),
             主要功能=func_desc,
             化合物InChIKey=r.inchikey,
             化合物ChEMBL_ID=cid_of.get(r.inchikey, ""),
@@ -235,7 +234,6 @@ def main():
 - 靶点名称：{r.target_gene}（UniProt {r.acc}，{fam_of.get(r.target_gene, '')}；ChEMBL {tchembl_of.get((r.inchikey, r.target_gene), '')}）
 - CRC 方向：{getattr(r, 'crc_direction', '未知')}（状态效应 {getattr(r, 'crc_effect', '未知')}）
 - 化合物药理方向：{getattr(r, 'action_types', '未记录')}
-- 方向一致性：{r.direction_match}（化合物作用方向与 CRC 恢复方向{'一致' if r.direction_match == 'MATCH' else '不一致或未知'}）
 - 主要功能：{func_desc}
 - 化合物：InChIKey {r.inchikey}；ChEMBL {cid_of.get(r.inchikey, '')}
 
