@@ -65,7 +65,7 @@ def main():
         cdir_of[(r["inchikey"], r["target_gene"])] = r.get("crc_direction", "")
         ceff_of[(r["inchikey"], r["target_gene"])] = r.get("crc_effect", "")
     n_before = len(df)
-    df["direction_match"] = [dmatch_of.get((ik, g), "no_data") for ik, g in zip(df["inchikey"], df["target_gene"])].fillna("no_data")
+    df["direction_match"] = pd.Series([dmatch_of.get((ik, g), "no_data") for ik, g in zip(df["inchikey"], df["target_gene"])])
     df = df[df["direction_match"] == "MATCH"].reset_index(drop=True)
     print(f"direction filter: {len(df)}/{n_before} pairs (MATCH only)",
           flush=True)
