@@ -2,16 +2,16 @@
 
 ## 管线顺序索引
 
-| 管线阶段 | 证据层 | 状态 |
-|---|---|---|
-| 0. 数据来源与无变化证明 | 数据层（L0/L1 vendoring + repro_attestation） | 已执行，登记中 |
-| 1. 基座选择 | 第一层 Norman retrieval（scF 胜出） | 已执行（re 自有） |
-| 2. 迁移策略选择 | 第二层 五路线评估（B2 ESM2 注入） | 已执行（re 自有） |
-| 3. 靶点全集与疾病签名 | 数据层：crc_scan L1 重跑 | 已执行，登记中 |
-| 4. HIP/HOP 执行 | HIP/HOP 执行层（置换 + BH-FDR） | 已执行（re 自有），登记中 |
-| 5. 构象状态选择 | 构象层（EXP3 受控重对接复现） | 已注册，执行中 |
-| 6. 对接可信度 | 对接认证层（工具链 + 交付包自一致性） | 已注册，执行中 |
-| 7. 方向贯穿 | 方向感知管线设计 | 已注册（2026-08-29） |
+| 管线阶段 | 证据层 | 状态 | 裁决 |
+|---|---|---|---|
+| 0. 数据来源与无变化证明 | 数据层（L0/L1 vendoring + repro_attestation） | 已执行 | **通过**（117/117 manifest；交付链输入 bit 稳定） |
+| 1. 基座选择 | 第一层 Norman retrieval（scF 胜出） | 已执行（re 自有） | PASS |
+| 2. 迁移策略选择 | 第二层 五路线评估（B2 ESM2 注入） | 已执行（re 自有） | PASS |
+| 3. 靶点全集与疾病签名 | 数据层：crc_scan L1 重跑 | 已执行 | 两份 bit 一致；candidate_baseline 数值等价（偏差已归档） |
+| 4. HIP/HOP 执行 | HIP/HOP 执行层（置换 + BH-FDR） | 已执行（re 自有） | 7,100 对 q<0.1 / 484 化合物 |
+| 5. 构象状态选择 | 构象层（EXP3 受控重对接复现） | 已执行（re 自有） | **PASS**（armB/C 5/5，p=0.031） |
+| 6. 对接可信度 | 对接认证层（工具链 + 交付包自一致性） | 已执行 | **PASS**（4/4） |
+| 7. 方向贯穿 | 方向感知管线设计 | 已注册（2026-08-29） | — |
 
 Legacy 六路线冻结表征审计作为历史导入层保留于文末。
 
@@ -29,7 +29,7 @@ Legacy 六路线冻结表征审计作为历史导入层保留于文末。
 
 **Gate：PASS。scF 胜出——这是 re 选择 scFoundation 的直接依据。**
 
-输入依赖：`raw_oof_full.npz`（`product/norman_assets/`，L0 manifest 入册）与 `features/*.npz`。驱动脚本 `scripts/norman_retrieval.py`。
+溯源闭环（2026-08-29）：输入 `raw_oof_full.npz`（`product/norman_assets/`，L0 manifest 入册，内容为真值矩阵与条件/基因清单）；三基座特征由原始 checkpoint 在 re 内重新提取（`features_reextract/`，scgpt/scF/geneformer **3/3 与 vendored 副本 bit 级一致**，scF 并与 vs 原始 provider 记录三方吻合）；检索计算重跑结果 bit 级一致（sha256 `ceb025eb…`）。驱动：`scripts/norman_retrieval.py`。
 
 ## 第二层：微调策略选择 — 五路线评估（re 项目自有结果）
 
@@ -37,29 +37,40 @@ Legacy 六路线冻结表征审计作为历史导入层保留于文末。
 
 在同一 scF 基座上比较微调路线（A2 正交初始化 / B2 ESM2 注入 / C2 随机初始化 / D' scYeast / E' SGA 图原生），在原框架五任务上公平竞争。
 
-**结果**：B2（scF + ESM2 注入）胜出（T2 AUC 0.820 / T3 Spearman 0.168）；A2/C2 处于随机水平（scF 的 MaeAutobin 值重构不组织基因表，只有 ESM2 注入有效）；D' scYeast 单独作转移路线落败但保留酵母状态表征角色；E' 保留图原生用途。
+**结果**：B2（scF + ESM2 注入）胜出（T2 AUC 0.820 / T3 Spearman 0.168）；A2/C2 处于随机水平（scF 的 MaeAutobin 值重构不组织基因表，只有 ESM2 注入有效）；D' scYeast 单独作转移路线落败（T2 0.738 / T3 0.149）但保留酵母状态表征角色（second_round 双基座设计）；E' 保留图原生用途。
 
-## 数据层：vendoring 与无变化证明（登记中）
+## 数据层：vendoring 与无变化证明（2026-08-29 执行）
 
-来源：`product/repro/crc_scan_v1/`（内容寻址重跑，seed 42，2026-08-29）与 `feasibility/repro_attestation/`（待产出）。
+来源：`product/repro/crc_scan_v1/`（内容寻址重跑，seed 42）与 `feasibility/repro_attestation/`（协议 + attestation.json + RESULTS.md）。
 
-L0 原始输入（Becker h5ad、UniProt 快照、X-Atlas 批次、Norman h5ad、orthodb）以 SHA-256 入册；crc_scan L1 重跑产出 state_signature / candidate_baseline / target_universe（1,177 靶点）。无变化证明协议见 `feasibility/repro_attestation/REGISTRATION.md`。
+- **L0 manifest**：117/117 项通过（含 44GB X-Atlas 全批次、NORMAN h5ad、Becker h5ad、UniProt 快照、orthodb、RAW_OOF）。
+- **交付链输入 bit 稳定**：state_signature / candidate_baseline / target_universe 三文件与 vs@7bdaf4a production_v1 输出 bit 级一致——交付所依赖的输入自上游冻结以来零变化。
+- **L1 重跑保真度**：state_signature、target_universe 与交付输入 bit 一致；candidate_baseline 数值等价（浮点末位噪声 max 2.2×10⁻¹⁶ + 16 行酵母 ortholog 注释差异，根因为 vendored orthodb 版本不同，与交付 4 靶点零交集）。
+- 运行时登记：`feasibility/runtime_probes/runtime.json`。
 
-## HIP/HOP 执行层（re 项目自有结果，登记中）
+## HIP/HOP 执行层（re 项目自有结果）
 
 来源：`product/execute_hiphop/RESULTS.md` 与 `execute_summary.json`。
 
 全谱 Spearman + 菌株标签置换检验 + BH-FDR：7,100 对 q<0.1，覆盖 1,038 靶点、484 化合物。此层为 re 自有执行，作为筛选统计证据登记。
 
-## 构象层：EXP3 受控重对接复现（已注册，执行中）
+## 构象层：EXP3 受控重对接复现（re 项目自有结果，2026-08-29 执行）
 
-上游证据：yeastbridge_vs@7bdaf4a EXP3 三臂筛选（参照面板构象偏好 arms B/C 5/5 vs arm A 1/5，sign test p=0.031，解锁「direction-aware conformation selection」，边界为构象偏好层面）。
+上游证据：yeastbridge_vs@7bdaf4a EXP3 三臂筛选（armA 1/5、arms B/C 5/5，sign test p=0.031）。协议、库（4,196 配体）、受体（6 构象）、box（含 7CR0 Kabsch 转移冻结产物）全部只读复用上游冻结资产；引擎按注册声明替换为 Vina-GPU 2.1。
 
-re 侧复现协议：`feasibility/conformation_selection/REGISTRATION.md`。产出待 `RESULTS.md`。
+结果（`feasibility/conformation_selection/results/RESULTS.md`）：
 
-## 对接认证层（已注册，执行中）
+| 臂 | 上游 | re 复现 |
+|---|---|---|
+| A 默认构象正确率 | 1/5 | **1/5** |
+| B 方向匹配 delta 正确率 | 5/5 | **5/5** |
+| C 顶构象正确率 | 5/5 | **5/5** |
 
-协议：`feasibility/docking_qualification/REGISTRATION.md`。工具链探针 + 交付包自一致性重对接，产出待 `RESULTS.md`。
+精确二项 p = 0.0312。**Gate：PASS。**这是 re 管线构象状态选择（抑制→非活性构象、激活→活性构象）的直接受控实验依据，声明边界与上游一致（仅构象偏好层面）。次级富集不增益（与上游定性一致）。引擎损耗（大配体被拒，保留 58–61%，MW 偏向，构象间一致）已量化归档。
+
+## 对接认证层（re 项目自有结果，2026-08-29 执行）
+
+来源：`feasibility/docking_qualification/RESULTS.md`。工具链版本与 checkpoint 哈希登记 + 交付包自一致性重对接：4 个交付对（ADRA2C −9.822/−9.8、ADRA2B −8.892/−8.8、KCNK2 −8.282/−8.2、OPRM1 −7.871/−7.4，重对接/交付），最大偏差 0.471 kcal/mol ≤ 1.0 容差。**Gate：PASS（4/4）**——交付对接结果可被独立重算复现。
 
 ## Legacy 六路线冻结表征审计（vs 项目完成，导入 re 2026-08-29）
 
@@ -73,7 +84,7 @@ vs 的 CRC target scan 为每个靶点输出了 `intended_direction`（activate/
 
 1. **任务定义层**：每个任务携带其来源靶点的 CRC 方向和状态效应值。
 2. **ChEMBL 靶点注释层**：提取 `action_type`，与 CRC 期望方向比对——只有方向兼容的注释对进入下游。
-3. **对接层**：不区分激动/拮抗（结构限制），仅作物理合理性门。
+3. **对接层**：构象状态选择依据方向执行（见构象层证据）。
 4. **药效学层**：不编码方向（结构限制），仅确认结合亲和力。
 5. **交付层**：只有化合物药理方向与 CRC 期望方向**匹配**的对进入交付包。方向不可判定的对如实排除。
 

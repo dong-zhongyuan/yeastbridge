@@ -205,6 +205,78 @@ def stage_setup() -> None:
     print(json.dumps({"stage": "setup", **{k: setup[k] for k in ("n_pairs_enumerated", "n_missing_ligand_pdbqt", "pairs_per_receptor")}}, indent=2))
 
 
+REF_SOURCES = {  # cognate ligand pdbqt from vs receptor preparation (read-only)
+    "REF_LPA": ("lpar1", "lpar1_7td0_nkp_v1/NKP_R_401.pdbqt"),
+    "REF_ONO0740556": ("lpar1", "lpar1_7yu3_k6l_v1/K6L_R_401.pdbqt"),
+    "REF_ONO9780307": ("lpar1", "lpar1_4z34_on7_v1/ON7_A_2001.pdbqt"),
+    "REF_ZTZ240": ("kcnq2", "kcnq2_7cr1_gb9_a_v1/GB9_A_801.pdbqt"),
+    "REF_RETIGABINE": ("kcnq2", "kcnq2_7cr2_fbx_a_v1/FBX_A_801.pdbqt"),
+}
+
+
+def stage_dockrefs() -> None:
+    """Dock the 5 reference ligands into every conformation of their target (tiny batches)."""
+    chembl_cfg = json.loads((RE_ROOT / "configs/chembl_branch.json").read_text())
+    vg = chembl_cfg["vina_gpu"]
+    boxes = json.loads((OUT / "setup.json").read_text())["boxes"]
+    gpu = _pick_gpu()
+    env = dict(os.environ)
+    env["CUDA_VISIBLE_DEVICES"] = str(gpu)
+    env["LD_LIBRARY_PATH"] = "/public/home/mengxl/dzy/envs/gpubuild/lib:/usr/local/cuda-12.4/lib64"
+    scores_path = RESULTS / "scores_refs.tsv"
+    RESULTS.mkdir(parents=True, exist_ok=True)
+    done = set()
+    if scores_path.exists():
+        for line in scores_path.read_text().splitlines()[1:]:
+            done.add(line.split("\t")[1])
+    print(f"using GPU {gpu}", flush=True)
+    for target in RECEPTORS:
+        for pdb_id in RECEPTORS[target]:
+            key = f"{target}/{pdb_id}"
+            if key in done:
+                continue
+            box = boxes[key]
+            c, s = box["center_angstrom"], box["size_angstrom"]
+            ligdir = WORK / "ligdirs_refs" / key.replace("/", "_")
+            ligdir.mkdir(parents=True, exist_ok=True)
+            for ref_id, (ref_target, rel) in REF_SOURCES.items():
+                if ref_target != target:
+                    continue
+                dst = ligdir / f"{ref_id}.pdbqt"
+                if not dst.exists():
+                    dst.symlink_to(VS_ROOT / "data/prepared/redocking" / rel)
+            outdir = RESULTS / "gpu_out_refs" / key.replace("/", "_")
+            outdir.mkdir(parents=True, exist_ok=True)
+            cfgfile = outdir / "vinagpu.cfg"
+            cfgfile.write_text(
+                f"receptor = {receptor_pdbqt(target, pdb_id)}\n"
+                f"ligand_directory = {ligdir}\n"
+                f"output_directory = {outdir}\n"
+                f"opencl_binary_path = {vg['opencl_binary_path']}\n"
+                f"center_x = {c['x']:.3f}\ncenter_y = {c['y']:.3f}\ncenter_z = {c['z']:.3f}\n"
+                f"size_x = {s['x']:.3f}\nsize_y = {s['y']:.3f}\nsize_z = {s['z']:.3f}\n"
+                f"thread = {vg['thread']}\n"
+            )
+            subprocess.run(
+                [vg["bin"], "--config", str(cfgfile)],
+                env=env, cwd=outdir, timeout=3600, check=True, capture_output=True,
+            )
+            remark = re.compile(r"REMARK VINA RESULT:\s*(-?[\d.]+)")
+            fresh = not scores_path.exists()
+            n = 0
+            with scores_path.open("a", encoding="utf-8") as fh:
+                if fresh:
+                    fh.write("ligand_id\treceptor\tscore\n")
+                for f in sorted(outdir.glob("*_out.pdbqt")):
+                    ref_id = f.name[: -len("_out.pdbqt")]
+                    m = remark.search(f.read_text(errors="ignore"))
+                    if m:
+                        fh.write(f"{ref_id}\t{key}\t{m.group(1)}\n")
+                        n += 1
+            print(f"{key}: {n} refs scored", flush=True)
+    print("DOCKREFS_DONE", flush=True)
+
+
 def _pick_gpu() -> int:
     proc = subprocess.run(
         ["nvidia-smi", "--query-gpu=index,memory.used", "--format=csv,noheader,nounits"],
@@ -214,7 +286,7 @@ def _pick_gpu() -> int:
     return min(gpus, key=lambda g: g[1])[0]
 
 
-def stage_dock() -> None:
+def stage_dock(only: list[str] | None = None, scores_name: str = "scores.tsv") -> None:
     chembl_cfg = json.loads((RE_ROOT / "configs/chembl_branch.json").read_text())
     vg = chembl_cfg["vina_gpu"]
     boxes = json.loads((OUT / "setup.json").read_text())["boxes"]
@@ -222,16 +294,18 @@ def stage_dock() -> None:
     env = dict(os.environ)
     env["CUDA_VISIBLE_DEVICES"] = str(gpu)
     env["LD_LIBRARY_PATH"] = "/public/home/mengxl/dzy/envs/gpubuild/lib:/usr/local/cuda-12.4/lib64"
-    scores_path = RESULTS / "scores.tsv"
+    scores_path = RESULTS / scores_name
     RESULTS.mkdir(parents=True, exist_ok=True)
     done_receptors = set()
     if scores_path.exists():
         for line in scores_path.read_text().splitlines()[1:]:
             done_receptors.add(line.split("\t")[1])
-    print(f"using GPU {gpu}", flush=True)
+    print(f"using GPU {gpu}; scores file {scores_name}", flush=True)
     for target in RECEPTORS:
         for pdb_id in RECEPTORS[target]:
             key = f"{target}/{pdb_id}"
+            if only and key not in only:
+                continue
             if key in done_receptors:
                 print(f"skip {key} (already scored)", flush=True)
                 continue
@@ -254,7 +328,7 @@ def stage_dock() -> None:
             try:
                 subprocess.run(
                     [vg["bin"], "--config", str(cfgfile)],
-                    env=env, cwd=outdir, timeout=vg.get("run_timeout", 21600),
+                    env=env, cwd=outdir, timeout=21600,
                     check=True, capture_output=True,
                 )
             except Exception as exc:  # record and continue with other receptors
@@ -295,7 +369,17 @@ def _rank_metrics(labels: list[int], scores: list[float]) -> dict:
             auc_den += 1
             auc_num += 1.0 if p < q else (0.5 if p == q else 0.0)
     auc = auc_num / auc_den if auc_den else 0.5
-    return {"n": n, "actives": n_act, "ef1_percent": round(ef1, 3), "roc_auc": round(auc, 4)}
+    # BEDROC (alpha = 20), rank starts at 1; lower Vina score = better rank
+    alpha = 20.0
+    bedroc_num = 0.0
+    rank_of = {idx: r for r, idx in enumerate(order, start=1)}
+    for idx in range(n):
+        if labels[idx] == 1:
+            bedroc_num += math.exp(-alpha * rank_of[idx] / n)
+    frac_act = n_act / n if n else 0.0
+    bedroc_den = frac_act * (1 - math.exp(-alpha)) / (1 - math.exp(-alpha / n)) if frac_act and n else 1.0
+    bedroc = bedroc_num / bedroc_den if bedroc_den else 0.0
+    return {"n": n, "actives": n_act, "ef1_percent": round(ef1, 3), "roc_auc": round(auc, 4), "bedroc_alpha20": round(bedroc, 4)}
 
 
 def _binomial_p_at_least(k: int, n: int, p: float = 0.5) -> float:
@@ -307,9 +391,13 @@ def stage_aggregate() -> None:
 
     table: dict[str, dict[str, float]] = {}
     roles: dict[str, str] = {}
-    with (RESULTS / "scores.tsv").open(encoding="utf-8") as fh:
-        for row in csv.DictReader(fh, delimiter="\t"):
-            table.setdefault(row["ligand_id"], {})[row["receptor"]] = float(row["score"])
+    score_files = [RESULTS / "scores.tsv"] + sorted(RESULTS.glob("scores_*.tsv"))
+    for score_file in score_files:
+        if not score_file.exists():
+            continue
+        with score_file.open(encoding="utf-8") as fh:
+            for row in csv.DictReader(fh, delimiter="\t"):
+                table.setdefault(row["ligand_id"], {})[row["receptor"]] = float(row["score"])
 
     reference_rows = []
     for ref_id, (target, correct_confs) in REFERENCE_CLASS.items():
@@ -354,13 +442,16 @@ def stage_aggregate() -> None:
     for line in LIB_JSONL.open(encoding="utf-8"):
         row = json.loads(line)
         lib_role[row["id"]] = row["role"]
+    stems = json.loads(STEMS_JSON.read_text())
+    stem2id = {stem: lid for lid, stem in stems.items()}
     enrichment = {}
     for target in ("lpar1", "kcnq2"):
-        ids = [i for i, r in lib_role.items() if r in ("active_" + target, "decoy") and i in table]
+        ids = [(s, stem2id.get(s)) for s in table if stem2id.get(s) in lib_role
+               and lib_role[stem2id[s]] in ("active_" + target, "decoy")]
         for arm in ("A", "C"):
             labels, scores = [], []
-            for i in ids:
-                entry = table[i]
+            for stem, i in ids:
+                entry = table[stem]
                 if arm == "A":
                     v = entry.get(f"{target}/{DEFAULT_CONF[target]}")
                 else:
@@ -428,9 +519,18 @@ def stage_aggregate() -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--stage", choices=("setup", "dock", "aggregate"), required=True)
+    parser.add_argument("--stage", choices=("setup", "dock", "dockrefs", "aggregate"), required=True)
+    parser.add_argument("--only", help="comma-separated receptor keys, e.g. kcnq2/7CR0,kcnq2/7CR1")
+    parser.add_argument("--scores-name", default="scores.tsv", help="scores output file name (parallel splits)")
     args = parser.parse_args()
-    {"setup": stage_setup, "dock": stage_dock, "aggregate": stage_aggregate}[args.stage]()
+    if args.stage == "setup":
+        stage_setup()
+    elif args.stage == "dock":
+        stage_dock(only=[k for k in args.only.split(",") if k] if args.only else None, scores_name=args.scores_name)
+    elif args.stage == "dockrefs":
+        stage_dockrefs()
+    else:
+        stage_aggregate()
     return 0
 
 

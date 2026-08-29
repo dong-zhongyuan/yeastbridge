@@ -1,0 +1,151 @@
+{
+  "binomial_p": {
+    "armB": 0.03125,
+    "armC": 0.03125
+  },
+  "engine": "Vina-GPU 2.1 (substitution declared in REGISTRATION.md)",
+  "enrichment_secondary": {
+    "kcnq2_armA": {
+      "actives": 25,
+      "bedroc_alpha20": 0.2262,
+      "ef1_percent": 0.0,
+      "n": 2219,
+      "roc_auc": 0.6582
+    },
+    "kcnq2_armC": {
+      "actives": 25,
+      "bedroc_alpha20": 0.0454,
+      "ef1_percent": 0.0,
+      "n": 2219,
+      "roc_auc": 0.4804
+    },
+    "lpar1_armA": {
+      "actives": 352,
+      "bedroc_alpha20": 1.0956,
+      "ef1_percent": 0.0,
+      "n": 2546,
+      "roc_auc": 0.6776
+    },
+    "lpar1_armC": {
+      "actives": 352,
+      "bedroc_alpha20": 0.8344,
+      "ef1_percent": 0.0,
+      "n": 2546,
+      "roc_auc": 0.6584
+    }
+  },
+  "gate": {
+    "claim_boundary": "conformation-preference level only (same boundary as upstream EXP3)",
+    "pass": true,
+    "rule": "reference-panel conformation preference, exact binomial p < 0.05 (registered)"
+  },
+  "generated_utc": "2026-08-29T19:59:29Z",
+  "n_ligands_scored": 2576,
+  "reference_preference": {
+    "armA_top_conf_accuracy": 0.2,
+    "armB_delta_accuracy": 1.0,
+    "armC_top_conf_accuracy": 1.0,
+    "rows": [
+      {
+        "A_default_conf": "4Z34",
+        "A_default_correct": false,
+        "B_preference_correct": true,
+        "C_top_conf": "7TD0",
+        "C_top_conf_correct": true,
+        "correct_confs": [
+          "7TD0",
+          "7YU3"
+        ],
+        "delta_best_correct_minus_incorrect": -0.5,
+        "id": "REF_LPA",
+        "per_conf_scores": {
+          "4Z34": -6.5,
+          "7TD0": -7.0,
+          "7YU3": -6.9
+        },
+        "target": "lpar1"
+      },
+      {
+        "A_default_conf": "4Z34",
+        "A_default_correct": false,
+        "B_preference_correct": true,
+        "C_top_conf": "7TD0",
+        "C_top_conf_correct": true,
+        "correct_confs": [
+          "7TD0",
+          "7YU3"
+        ],
+        "delta_best_correct_minus_incorrect": -0.5,
+        "id": "REF_ONO0740556",
+        "per_conf_scores": {
+          "4Z34": -7.5,
+          "7TD0": -8.0,
+          "7YU3": -7.7
+        },
+        "target": "lpar1"
+      },
+      {
+        "A_default_conf": "4Z34",
+        "A_default_correct": true,
+        "B_preference_correct": true,
+        "C_top_conf": "4Z34",
+        "C_top_conf_correct": true,
+        "correct_confs": [
+          "4Z34"
+        ],
+        "delta_best_correct_minus_incorrect": -0.2,
+        "id": "REF_ONO9780307",
+        "per_conf_scores": {
+          "4Z34": -9.8,
+          "7TD0": -9.3,
+          "7YU3": -9.6
+        },
+        "target": "lpar1"
+      },
+      {
+        "A_default_conf": "7CR0",
+        "A_default_correct": false,
+        "B_preference_correct": true,
+        "C_top_conf": "7CR1",
+        "C_top_conf_correct": true,
+        "correct_confs": [
+          "7CR1",
+          "7CR2"
+        ],
+        "delta_best_correct_minus_incorrect": -2.7,
+        "id": "REF_ZTZ240",
+        "per_conf_scores": {
+          "7CR0": -5.6,
+          "7CR1": -8.3,
+          "7CR2": -7.3
+        },
+        "target": "kcnq2"
+      },
+      {
+        "A_default_conf": "7CR0",
+        "A_default_correct": false,
+        "B_preference_correct": true,
+        "C_top_conf": "7CR2",
+        "C_top_conf_correct": true,
+        "correct_confs": [
+          "7CR1",
+          "7CR2"
+        ],
+        "delta_best_correct_minus_incorrect": -2.5,
+        "id": "REF_RETIGABINE",
+        "per_conf_scores": {
+          "7CR0": -5.8,
+          "7CR1": -8.2,
+          "7CR2": -8.3
+        },
+        "target": "kcnq2"
+      }
+    ]
+  },
+  "upstream_reference": {
+    "armA": 0.2,
+    "armB": 1.0,
+    "armC": 1.0,
+    "sign_p": 0.031
+  }
+}
