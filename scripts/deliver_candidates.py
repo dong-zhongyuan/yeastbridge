@@ -53,9 +53,9 @@ def main():
         sep="\t")
     knn_of = {(r.inchikey, r.target_gene): r for r in knn.itertuples()}
     # direction-aware: only MATCH pairs enter delivery (structural rule)
-    at = pd.read_csv(
-        ROOT / "product/pd_validation/results/action_types_with_crc.tsv",
-        sep="\t", dtype=str).fillna("")
+    bp = pd.read_csv(
+        ROOT / "product/chembl_branch/results/branch_pairs.tsv",
+        sep="	", dtype=str).fillna("")
     # delivery csv has candidate ID + inchikey; join via target + direction
     # rebuild inchikey from previous delivery (stable mapping)
     dmatch_of, acts_of, cdir_of, ceff_of = {}, {}, {}, {}
