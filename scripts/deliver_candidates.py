@@ -58,14 +58,12 @@ def main():
         sep="	", dtype=str).fillna("")
     # delivery csv has candidate ID + inchikey; join via target + direction
     # rebuild inchikey from previous delivery (stable mapping)
-    dmatch_of, acts_of, cdir_of, ceff_of = {}, {}, {}, {}
-    for _, r in bp.iterrows():
-        dmatch_of[(r["inchikey"], r["target_gene"])] = r.get("direction_match", "no_data")
-        acts_of[(r["inchikey"], r["target_gene"])] = r.get("action_types", "")
-        cdir_of[(r["inchikey"], r["target_gene"])] = r.get("crc_direction", "")
-        ceff_of[(r["inchikey"], r["target_gene"])] = r.get("crc_effect", "")
+    # merge direction info from branch_pairs (proper DataFrame join)
+    bp_dir = bp[["inchikey", "target_gene", "direction_match",
+                 "crc_direction", "crc_effect", "action_types"]].copy()
+    bp_dir = bp_dir.drop_duplicates(subset=["inchikey", "target_gene"])
     n_before = len(df)
-    df["direction_match"] = pd.Series([dmatch_of.get((ik, g), "no_data") for ik, g in zip(df["inchikey"], df["target_gene"])])
+    df = df.merge(bp_dir, on=["inchikey", "target_gene"], how="left")
     df = df[df["direction_match"] == "MATCH"].reset_index(drop=True)
     print(f"direction filter: {len(df)}/{n_before} pairs (MATCH only)",
           flush=True)
@@ -201,10 +199,10 @@ def main():
         row = dict(
             候选ID=cand, 靶点名称=r.target_gene, 靶点Uniprot=r.acc,
             靶点家族=fam_of.get(r.target_gene, ""),
-            CRC方向=cdir_of.get(r.target_gene, ""),
-            CRC状态效应=ceff_of.get(r.target_gene, ""),
-            化合物药理方向=acts_of.get(r.target_gene, ""),
-            方向一致性=r.direction_match,
+            CRC方向=getattr(r, "crc_direction", ""),
+            CRC状态效应=getattr(r, "crc_effect", ""),
+            化合物药理方向=getattr(r, "action_types", ""),
+            方向一致性=("药理方向与CRC方向一致" if r.direction_match == "MATCH" else str(r.direction_match)),
             主要功能=func_desc,
             化合物InChIKey=r.inchikey,
             化合物ChEMBL_ID=cid_of.get(r.inchikey, ""),
@@ -225,6 +223,8 @@ def main():
                 float(getattr(kn, "pd_pic50_knn")), 2)),
             PD适用域_最近邻Tanimoto=(None if kn is None else round(
                 float(getattr(kn, "nn_tanimoto")), 2)),
+            构象态=("非活性态" if any(k in str(r.action_types).upper() for k in ["INHIBIT","ANTAGON","BLOCK","NEGATIVE"]) else "活性态" if any(k in str(r.action_types).upper() for k in ["AGONIST","ACTIV","POSITIVE"]) else "未判定") if hasattr(r, "action_types") else "未判定",
+            药理作用=("抑制剂" if any(k in str(r.action_types).upper() for k in ["INHIBIT","ANTAGON","BLOCK","NEGATIVE"]) else "激动剂" if any(k in str(r.action_types).upper() for k in ["AGONIST","ACTIV","POSITIVE"]) else "未判定") if hasattr(r, "action_types") else "未判定",
             对接门_通过="是", PD门_通过="是")
         rows.append(row)
 
@@ -233,8 +233,8 @@ def main():
 ## 1. 基础信息
 - 候选ID：{cand}
 - 靶点名称：{r.target_gene}（UniProt {r.acc}，{fam_of.get(r.target_gene, '')}；ChEMBL {tchembl_of.get((r.inchikey, r.target_gene), '')}）
-- CRC 方向：{cdir_of.get(r.target_gene, '未知')}（状态效应 {ceff_of.get(r.target_gene, '未知')}）
-- 化合物药理方向：{acts_of.get(r.target_gene, '未记录')}
+- CRC 方向：{getattr(r, 'crc_direction', '未知')}（状态效应 {getattr(r, 'crc_effect', '未知')}）
+- 化合物药理方向：{getattr(r, 'action_types', '未记录')}
 - 方向一致性：{r.direction_match}（化合物作用方向与 CRC 恢复方向{'一致' if r.direction_match == 'MATCH' else '不一致或未知'}）
 - 主要功能：{func_desc}
 - 化合物：InChIKey {r.inchikey}；ChEMBL {cid_of.get(r.inchikey, '')}

@@ -3,8 +3,8 @@
 ## 1. 基础信息
 - 候选ID：YeastBridge_Mol004
 - 靶点名称：OPRM1（UniProt P35372，gpcr；ChEMBL CHEMBL233）
-- CRC 方向：未知（状态效应 未知）
-- 化合物药理方向：未记录
+- CRC 方向：activate（状态效应 -0.0022835191242241）
+- 化合物药理方向：AGONIST
 - 方向一致性：MATCH（化合物作用方向与 CRC 恢复方向一致）
 - 主要功能：功能性调节（EC50/AC50 测定，p=6.54；激动/拮抗方向未实验判定）
 - 化合物：InChIKey LNEPOXFFQSENCJ-UHFFFAOYSA-N；ChEMBL CHEMBL54

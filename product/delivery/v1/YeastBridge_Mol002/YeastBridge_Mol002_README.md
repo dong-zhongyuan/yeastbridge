@@ -3,8 +3,8 @@
 ## 1. 基础信息
 - 候选ID：YeastBridge_Mol002
 - 靶点名称：KCNK2（UniProt O95069，ion_channel；ChEMBL CHEMBL2321615）
-- CRC 方向：未知（状态效应 未知）
-- 化合物药理方向：未记录
+- CRC 方向：inhibit（状态效应 0.0008145483983147）
+- 化合物药理方向：BLOCKER
 - 方向一致性：MATCH（化合物作用方向与 CRC 恢复方向一致）
 - 主要功能：结合调节（激动/拮抗未实验判定）
 - 化合物：InChIKey SVJMLYUFVDMUHP-UHFFFAOYSA-N；ChEMBL CHEMBL1275655

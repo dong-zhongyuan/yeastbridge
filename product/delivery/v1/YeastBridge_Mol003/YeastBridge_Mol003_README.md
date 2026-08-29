@@ -3,8 +3,8 @@
 ## 1. 基础信息
 - 候选ID：YeastBridge_Mol003
 - 靶点名称：ADRA2B（UniProt P18089，gpcr；ChEMBL CHEMBL1942）
-- CRC 方向：未知（状态效应 未知）
-- 化合物药理方向：未记录
+- CRC 方向：inhibit（状态效应 0.0002564214907276）
+- 化合物药理方向：INHIBITOR
 - 方向一致性：MATCH（化合物作用方向与 CRC 恢复方向一致）
 - 主要功能：功能性调节（EC50/AC50 测定，p=5.14；激动/拮抗方向未实验判定）
 - 化合物：InChIKey LNEPOXFFQSENCJ-UHFFFAOYSA-N；ChEMBL CHEMBL54
