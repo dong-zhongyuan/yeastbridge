@@ -58,21 +58,14 @@ def main():
         sep="\t", dtype=str).fillna("")
     # delivery csv has candidate ID + inchikey; join via target + direction
     # rebuild inchikey from previous delivery (stable mapping)
-    prev_csv = ROOT / "product/delivery/v1/summary_candidates.csv"
-    if prev_csv.exists():
-        prev = pd.read_csv(prev_csv, dtype=str)
-        ik_map = dict(zip(prev["靶点名称"] + "|" + prev["ChEMBL实测_pChEMBL"],
-                          prev["化合物InChIKey"]))
-    else:
-        ik_map = {}
     dmatch_of, acts_of, cdir_of, ceff_of = {}, {}, {}, {}
-    for _, r in at.iterrows():
-        dmatch_of[r["target"]] = r.get("direction_match", "no_data")
-        acts_of[r["target"]] = r.get("clean_actions", "")
-        cdir_of[r["target"]] = r.get("crc_direction", "")
-        ceff_of[r["target"]] = r.get("crc_effect", "")
+    for _, r in bp.iterrows():
+        dmatch_of[(r["inchikey"], r["target_gene"])] = r.get("direction_match", "no_data")
+        acts_of[(r["inchikey"], r["target_gene"])] = r.get("action_types", "")
+        cdir_of[(r["inchikey"], r["target_gene"])] = r.get("crc_direction", "")
+        ceff_of[(r["inchikey"], r["target_gene"])] = r.get("crc_effect", "")
     n_before = len(df)
-    df["direction_match"] = df["target_gene"].map(dmatch_of).fillna("no_data")
+    df["direction_match"] = [dmatch_of.get((ik, g), "no_data") for ik, g in zip(df["inchikey"], df["target_gene"])].fillna("no_data")
     df = df[df["direction_match"] == "MATCH"].reset_index(drop=True)
     print(f"direction filter: {len(df)}/{n_before} pairs (MATCH only)",
           flush=True)
