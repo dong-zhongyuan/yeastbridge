@@ -1,0 +1,289 @@
+{
+  "blockers": [
+    {
+      "detail": "The frozen complete universe is a verifiable UniProt reviewed keyword snapshot, but an independent HGNC/IUPHAR reconciliation snapshot is not yet present.",
+      "id": "FAMILY-INDEPENDENT-RECONCILIATION",
+      "severity": "high"
+    },
+    {
+      "detail": "The reused Becker h5ad is a 40,000-cell subsample whose epithelial gate was the upper half of a marker score, not the authors' released cell annotations. Official sample metadata fixes disease labels but not this cell-level gate.",
+      "id": "BECKER-CELL-ANNOTATION",
+      "severity": "high"
+    },
+    {
+      "detail": "The state contrast uses 48 disease samples from 12 donors and 24 desired samples from 6 donors. Its bootstrap resamples samples rather than donor clusters, so state sign probabilities may be anti-conservative. Refit a donor-aware pseudobulk model before target claims.",
+      "id": "BECKER-DONOR-CLUSTERING",
+      "severity": "high"
+    },
+    {
+      "detail": "No held-out or prospective target-validation labels exist. Pareto fronts are prioritization output and cannot be reported as predictive accuracy.",
+      "id": "NO-PROSPECTIVE-GROUND-TRUTH",
+      "severity": "high"
+    },
+    {
+      "detail": "Yeast routes are construct proposals only; no paired human/yeast perturbation or compound result is used in this scan.",
+      "id": "NO-PAIRED-YEAST-EFFECT",
+      "severity": "high"
+    },
+    {
+      "detail": "X-Atlas is measured HCT116 CRISPRi transcriptomics, but state reversal is not viability, binding, efficacy, selectivity or an organoid endpoint.",
+      "id": "XATLAS-CONTEXT",
+      "severity": "medium"
+    },
+    {
+      "detail": "Norman provides clean single-target CRISPRa coverage for only 1 universe target(s), in A549 rather than CRC.",
+      "id": "CRISPRA-COVERAGE",
+      "severity": "medium"
+    },
+    {
+      "detail": "47 eligible activation-direction rows are inferred from the opposite CRISPRi response. They are counterfactual hypotheses, not direct activation evidence, until tested by CRC-context CRISPRa or inducible cDNA.",
+      "id": "ACTIVATION-NOT-DIRECTLY-PERTURBED",
+      "severity": "high"
+    }
+  ],
+  "calibration_control_audit": {
+    "passed": true,
+    "targets": {
+      "KCNQ2": {
+        "pareto_front": "",
+        "present_in_complete_universe": true,
+        "ranking_bonus": 0.0,
+        "selected_by_general_rules_only": true,
+        "special_case_feature_or_score": false
+      },
+      "LPAR1": {
+        "pareto_front": "",
+        "present_in_complete_universe": true,
+        "ranking_bonus": 0.0,
+        "selected_by_general_rules_only": true,
+        "special_case_feature_or_score": false
+      }
+    }
+  },
+  "claim_boundary": "This is measured-CRISPRi coverage plus retrospective/counterfactual prioritization, not prospective target discovery, drug efficacy, or proof that the human-plus-yeast system outperforms a human-only system. A credible signed ranking requires direct same-direction perturbation evidence.",
+  "norman": {
+    "any_combo_target_count": 1,
+    "cell_type_values": [
+      "A549"
+    ],
+    "cells": 91205,
+    "clean_single_target_count": 1,
+    "clean_single_targets": {
+      "S1PR2": 446
+    },
+    "conditions": 284,
+    "reason_not_ranked": "Only clean single-target coverage is audited; A549 CRISPRa is not a CRC-context ground truth and covers too little of the target universe.",
+    "used_for_global_ranking": false
+  },
+  "query": {
+    "cell_type_id": "colorectal_epithelial_nuclei",
+    "desired_state": "official_metadata:DiseaseState in {Normal,Unaffected}",
+    "disease_context_id": "GSE201348_CRC_CONTINUUM",
+    "disease_state": "official_metadata:DiseaseState in {Polyp,Adenocarcinoma}"
+  },
+  "ranking": {
+    "axes": [
+      "state_signal_to_noise",
+      "directional_xatlas_reversal",
+      "xatlas_batch_direction_fraction"
+    ],
+    "credible_signed_ranking": false,
+    "eligible_by_signed_direction": {
+      "activate": 47,
+      "inhibit": 0
+    },
+    "eligible_candidates": 47,
+    "eligible_direct_same_direction_perturbations": 0,
+    "eligible_opposite_direction_counterfactuals": 47,
+    "hidden_total_score_present": false,
+    "pareto_front_1_candidates": 8,
+    "predictive_test_set_used": false,
+    "threshold_source": "predeclared_config_before_scan"
+  },
+  "schema_version": "1.0",
+  "state": {
+    "bootstrap_unit": "sample_not_donor_cluster",
+    "contrast_unit": "sample_pseudobulk",
+    "desired_cells": 11621,
+    "desired_donors": 6,
+    "desired_samples": 24,
+    "disease_cells": 28379,
+    "disease_donors": 12,
+    "disease_samples": 48,
+    "h5ad_cells": 40000,
+    "h5ad_genes": 27133,
+    "included_officially_labeled_samples": 72,
+    "observed_samples": 72,
+    "official_metadata_used": true,
+    "official_state_sample_counts": {
+      "Adenocarcinoma": 5,
+      "Normal": 8,
+      "Polyp": 43,
+      "Unaffected": 16
+    },
+    "old_filename_heuristic_mismatch_records": [
+      {
+        "official_binary_state": "desired",
+        "official_disease_state": "Unaffected",
+        "old_filename_heuristic_state": "disease",
+        "sample": "A001-C-023"
+      },
+      {
+        "official_binary_state": "desired",
+        "official_disease_state": "Unaffected",
+        "old_filename_heuristic_state": "disease",
+        "sample": "A001-C-124"
+      },
+      {
+        "official_binary_state": "desired",
+        "official_disease_state": "Unaffected",
+        "old_filename_heuristic_state": "disease",
+        "sample": "A001-C-223"
+      },
+      {
+        "official_binary_state": "desired",
+        "official_disease_state": "Unaffected",
+        "old_filename_heuristic_state": "disease",
+        "sample": "A002-C-024"
+      },
+      {
+        "official_binary_state": "desired",
+        "official_disease_state": "Unaffected",
+        "old_filename_heuristic_state": "disease",
+        "sample": "A002-C-121"
+      },
+      {
+        "official_binary_state": "desired",
+        "official_disease_state": "Unaffected",
+        "old_filename_heuristic_state": "disease",
+        "sample": "A002-C-121-R0"
+      },
+      {
+        "official_binary_state": "desired",
+        "official_disease_state": "Unaffected",
+        "old_filename_heuristic_state": "disease",
+        "sample": "A002-C-212"
+      },
+      {
+        "official_binary_state": "disease",
+        "official_disease_state": "Polyp",
+        "old_filename_heuristic_state": "excluded",
+        "sample": "A008-E-008"
+      },
+      {
+        "official_binary_state": "disease",
+        "official_disease_state": "Polyp",
+        "old_filename_heuristic_state": "excluded",
+        "sample": "A008-E-015"
+      },
+      {
+        "official_binary_state": "disease",
+        "official_disease_state": "Polyp",
+        "old_filename_heuristic_state": "excluded",
+        "sample": "A010-E-018"
+      },
+      {
+        "official_binary_state": "disease",
+        "official_disease_state": "Polyp",
+        "old_filename_heuristic_state": "excluded",
+        "sample": "A010-E-023"
+      },
+      {
+        "official_binary_state": "desired",
+        "official_disease_state": "Unaffected",
+        "old_filename_heuristic_state": "disease",
+        "sample": "A014-C-052"
+      },
+      {
+        "official_binary_state": "desired",
+        "official_disease_state": "Unaffected",
+        "old_filename_heuristic_state": "disease",
+        "sample": "A014-C-054"
+      },
+      {
+        "official_binary_state": "desired",
+        "official_disease_state": "Unaffected",
+        "old_filename_heuristic_state": "disease",
+        "sample": "A014-C-111"
+      },
+      {
+        "official_binary_state": "desired",
+        "official_disease_state": "Unaffected",
+        "old_filename_heuristic_state": "disease",
+        "sample": "A014-C-114"
+      },
+      {
+        "official_binary_state": "desired",
+        "official_disease_state": "Unaffected",
+        "old_filename_heuristic_state": "disease",
+        "sample": "A014-C-201"
+      },
+      {
+        "official_binary_state": "desired",
+        "official_disease_state": "Unaffected",
+        "old_filename_heuristic_state": "disease",
+        "sample": "A015-C-008"
+      },
+      {
+        "official_binary_state": "desired",
+        "official_disease_state": "Unaffected",
+        "old_filename_heuristic_state": "disease",
+        "sample": "A015-C-010"
+      },
+      {
+        "official_binary_state": "desired",
+        "official_disease_state": "Unaffected",
+        "old_filename_heuristic_state": "disease",
+        "sample": "A015-C-109"
+      },
+      {
+        "official_binary_state": "desired",
+        "official_disease_state": "Unaffected",
+        "old_filename_heuristic_state": "disease",
+        "sample": "A015-C-208"
+      },
+      {
+        "official_binary_state": "disease",
+        "official_disease_state": "Polyp",
+        "old_filename_heuristic_state": "excluded",
+        "sample": "A018-E-013"
+      },
+      {
+        "official_binary_state": "disease",
+        "official_disease_state": "Polyp",
+        "old_filename_heuristic_state": "excluded",
+        "sample": "A018-E-020"
+      },
+      {
+        "official_binary_state": "disease",
+        "official_disease_state": "Polyp",
+        "old_filename_heuristic_state": "excluded",
+        "sample": "A022-E-022"
+      }
+    ],
+    "old_filename_heuristic_sample_mismatches": 23,
+    "old_filename_letter_heuristic_used": false,
+    "signature_genes": 256,
+    "universe_targets_in_becker_matrix": 715,
+    "unmapped_samples": []
+  },
+  "status": "counterfactual_prioritization_only_no_direct_signed_ranking",
+  "universe": {
+    "cross_family_symbol_overlap": 0,
+    "gpcr_snapshot_rows": 839,
+    "ion_channel_snapshot_rows": 338,
+    "unique_primary_symbols": 1177
+  },
+  "xatlas": {
+    "batch_adjustment": "within-batch target-minus-non-targeting pseudobulk",
+    "files_discovered": 109,
+    "files_used": 109,
+    "measured_perturbation": true,
+    "non_targeting_good_cells_summed_by_batch": 165777,
+    "normalization": "log1p(count/total_counts*10000), absent signature genes set to zero",
+    "signature_genes": 256,
+    "targets_n_ge_minimum_cells": 1049,
+    "targets_with_any_good_cell": 1075,
+    "virtual_edge_labels_used": false
+  }
+}

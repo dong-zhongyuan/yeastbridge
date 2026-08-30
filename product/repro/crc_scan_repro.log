@@ -1,0 +1,49 @@
+/public/home/mengxl/dzy/envs/yeastbridge/lib/python3.10/site-packages/anndata/_core/anndata.py:1756: UserWarning: Observation names are not unique. To make them unique, call `.obs_names_make_unique`.
+  utils.warn_names_duplicates("obs")
+{
+  "schema_version": "1.0",
+  "status": "counterfactual_prioritization_only_no_direct_signed_ranking",
+  "query": {
+    "disease_context_id": "GSE201348_CRC_CONTINUUM",
+    "cell_type_id": "colorectal_epithelial_nuclei",
+    "disease_state": "official_metadata:DiseaseState in {Polyp,Adenocarcinoma}",
+    "desired_state": "official_metadata:DiseaseState in {Normal,Unaffected}"
+  },
+  "universe": {
+    "gpcr_snapshot_rows": 839,
+    "ion_channel_snapshot_rows": 338,
+    "unique_primary_symbols": 1177,
+    "cross_family_symbol_overlap": 0
+  },
+  "eligible_candidates": 47,
+  "eligible_by_signed_direction": {
+    "activate": 47,
+    "inhibit": 0
+  },
+  "eligible_direct_same_direction_perturbations": 0,
+  "eligible_opposite_direction_counterfactuals": 47,
+  "credible_signed_ranking": false,
+  "xatlas_targets_n_ge_20": 1049,
+  "norman_clean_single_target_coverage": 1,
+  "calibration_control_audit": {
+    "passed": true,
+    "targets": {
+      "KCNQ2": {
+        "present_in_complete_universe": true,
+        "ranking_bonus": 0.0,
+        "selected_by_general_rules_only": true,
+        "special_case_feature_or_score": false,
+        "pareto_front": ""
+      },
+      "LPAR1": {
+        "present_in_complete_universe": true,
+        "ranking_bonus": 0.0,
+        "selected_by_general_rules_only": true,
+        "special_case_feature_or_score": false,
+        "pareto_front": ""
+      }
+    }
+  },
+  "input_content_addressed": true,
+  "blocker_count": 8
+}

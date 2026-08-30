@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "selection_mode": "target_agnostic",
+  "query": {
+    "disease_context_id": "GSE201348_CRC_CONTINUUM",
+    "cell_type_id": "colorectal_epithelial_nuclei",
+    "disease_state": "official_metadata:DiseaseState in {Polyp,Adenocarcinoma}",
+    "desired_state": "official_metadata:DiseaseState in {Normal,Unaffected}"
+  },
+  "universe": {
+    "gpcr_source": "data/external/crc_scan_raw/gpcr_human.uniprot.reviewed.2026-08-13.tsv",
+    "ion_channel_source": "data/external/crc_scan_raw/ion_channel_human.uniprot.reviewed.2026-08-13.tsv",
+    "membership_rule": "primary Gene Names symbol from reviewed human UniProt keyword snapshots",
+    "independent_hgnc_iuphar_reconciliation_status": "blocked_not_snapshotted"
+  },
+  "state_baseline": {
+    "metadata_source": "data/external/crc_scan_raw/GSE201348_becker_official_metadata.csv",
+    "disease_values": [
+      "Polyp",
+      "Adenocarcinoma"
+    ],
+    "desired_values": [
+      "Normal",
+      "Unaffected"
+    ],
+    "bootstrap_replicates": 1000,
+    "seed": 42,
+    "signature_genes_per_direction": 128,
+    "minimum_expression_fraction": 0.01,
+    "minimum_state_sign_probability": 0.8,
+    "excluded_signature_prefixes": [
+      "MT-",
+      "RPL",
+      "RPS"
+    ]
+  },
+  "perturbation_baseline": {
+    "dataset": "X-Atlas/Orion HCT116 CRISPRi",
+    "control_label": "Non-Targeting",
+    "minimum_good_perturbed_cells": 20,
+    "minimum_batches": 2,
+    "minimum_batch_direction_fraction": 0.55,
+    "normalization": "log1p(count/total_counts*10000)",
+    "batch_policy": "within-batch target minus non-targeting pseudobulk, then target-cell-weighted aggregation",
+    "selection_policy": "fixed_before_scan_no_test_set_threshold_selection"
+  },
+  "calibration_controls": {
+    "target_ids": [
+      "LPAR1",
+      "KCNQ2"
+    ],
+    "ranking_bonus": 0.0,
+    "audit_required": true
+  },
+  "ranking": {
+    "method": "non_dominated_pareto_fronts",
+    "axes": [
+      "state_signal_to_noise",
+      "directional_xatlas_reversal",
+      "xatlas_batch_direction_fraction"
+    ],
+    "single_hidden_total_score_forbidden": true,
+    "ranking_scope": "only candidates passing all predeclared coverage and direction gates"
+  }
+}
