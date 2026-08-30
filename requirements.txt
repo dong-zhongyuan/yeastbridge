@@ -1,0 +1,10 @@
+# Core Python dependencies for yeastbridge_re
+numpy
+pandas
+scikit-learn
+torch
+fair-esm      # ESM2 protein embeddings (import esm)
+anndata       # single-cell annotated data matrices
+
+# External (non-pip) tools used by docking/MD branches:
+# AutoDock Vina, OpenBabel, GROMACS
